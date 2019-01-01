@@ -1,0 +1,52 @@
+footer {
+	padding: 40px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@include tablet-min {
+		padding: 40px;
+	}
+
+	@include desktop-sm-min {
+		padding: 80px 80px 20px;
+	}
+
+	.footer {
+
+		&__brand {
+			margin-bottom: 60px;
+
+			img {
+				width: 150px;
+				height: auto;
+
+				@include tablet-min {
+					width: 250px;
+				}
+			}
+
+		}
+
+		&__copyright {
+
+			p {
+				text-align: center;
+				font-size: .7rem;
+				color: $white;
+				font-family: $font-style, sans-serif;
+				@include tablet-min {
+					font-size: 1rem;
+				}
+
+			}
+
+			img {
+				width: 30px;
+				height: 30px;
+			}
+
+		}
+	}
+
+}
