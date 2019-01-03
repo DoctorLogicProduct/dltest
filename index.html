@@ -1,5 +1,99 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-Hello Bob
+	<title>DoctorLogic</title>
+
+	<link rel="stylesheet" href="/css/main.css">
+	<!-- <link rel="stylesheet" href="css/flickity.css">
+	<link rel="stylesheet" href="css/magnific-popup.css"> -->
+	<link rel="canonical" href="/">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+
+</head>
+
+
+<body>
+	<header class="header">
+	<div class="header__wrapper">
+		<a class="header__logo-wrapper" href="/">
+		</a>
+		<nav class="header-menu">
+			<ul class="header-menu__list">
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">Service</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">About</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">Gallery</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="/blog" class="header-menu__link">Blog</a>
+				</li>
+			</ul>
+		</nav>
+		<button id="header__toggle-button" type="button" class="header__toggle-icon">
+			<span></span>
+		</button>
+	</div>
+</header>
+
+	<main>
+			Hello Bob
+
+	</main>
+	<footer>
+	<div class="footer__brand">
+		<img src="img/header-logo.svg" alt="">
+	</div>
+	<div class="footer__copyright">
+		<p>©2019 DoctorLogic | All Rights Reserved</p>
+	</div>
+</footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+	//off-canvas nav for mobile
+	$(document).ready(function(){
+	$('.header__toggle-icon').click(function(e){
+		e.preventDefault();
+		$("body").toggleClass("openNav");
+	});
+	$('.header__toggle-icon').click(function(e){
+		$(".header-menu__link").removeClass("openNav");
+	});
+});
+</script>
+
+<script>
+	// hamburger animation
+	(function() {
+		var button = document.getElementById('header__toggle-button');
+		function toggleActive() {
+			button.classList.toggle('active');
+		}
+		button.addEventListener('click', toggleActive);
+		})();
+</script>
+
+<script>
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+				$(".header").addClass("header-bg");
+		} else {
+				$(".header").removeClass("header-bg");
+		}
+	});
+</script>
+
+</html>
