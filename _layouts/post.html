@@ -5,11 +5,12 @@ title: page.title
 description: page.description
 hs_form_id: 752d9537-626f-4b98-877e-c244f19579cb
 ---
-
-<div class="post__container">
-<h2>{{ page.post_title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-	<div class="post__body">
-		{{ content }}
+<div class="post">
+	<div class="post__container">
+	<h2>{{ page.post_title }}</h2>
+	<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+		<div class="post__body">
+			{{ content }}
+		</div>
 	</div>
 </div>
