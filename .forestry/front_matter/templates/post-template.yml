@@ -20,5 +20,4 @@ fields:
   label: Post Image
   description: This is the featured image for the post.
 pages:
-- _posts/bob-is-great.md
 - _posts/2019-01-03-forestrytest.md
