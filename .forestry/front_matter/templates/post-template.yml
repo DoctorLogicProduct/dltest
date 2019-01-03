@@ -13,14 +13,5 @@ fields:
   name: post_image
   label: Post Image
   description: This is the featured image for the post.
-- type: textarea
-  name: post_body
-  label: Post Body
-  description: This is the content of the post
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
 pages:
 - _posts/2019-01-03-forestrytest.md
