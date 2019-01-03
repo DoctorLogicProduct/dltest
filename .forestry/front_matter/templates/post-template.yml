@@ -4,12 +4,6 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: layout
-  label: Layout
-  description: Page Layout Type
-  hidden: true
-  default: post
-- type: text
   name: post_title
   label: Post Title
   description: This is the title of the post
