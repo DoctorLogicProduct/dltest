@@ -13,4 +13,10 @@ theme: minima
 plugins:
 - jekyll-feed
 - octopress-autoprefixer
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 timezone: Etc/UTC
