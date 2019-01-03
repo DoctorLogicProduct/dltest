@@ -1,0 +1,14 @@
+---
+layout: default
+page_menu: false
+title: page.title
+description: page.description
+hs_form_id: 752d9537-626f-4b98-877e-c244f19579cb
+---
+
+<h2>{{ page.post_title }}</h2>
+<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+<div class="post__content">
+	{{ content }}
+</div>
