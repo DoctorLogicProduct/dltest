@@ -15,3 +15,4 @@ fields:
   description: This is the featured image for the post.
 pages:
 - _posts/2019-01-03-forestrytest.md
+- _posts/hey-dre.md
