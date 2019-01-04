@@ -8,5 +8,3 @@ fields:
   label: Layout
   description: page layout template
   default: bob
-pages:
-- bob.md
