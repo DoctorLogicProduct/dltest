@@ -17,5 +17,11 @@ fields:
   name: quote
   label: Quote
   description: block quote
+- type: text
+- type: text
+  name: post_highlight
+  label: Post Highlight
+  description: This the highlight text
 pages:
+- _posts/pizza-post.md
 - _posts/2019-01-03-forestrytest.md
