@@ -22,5 +22,4 @@ fields:
   label: Post Highlight
   description: This the highlight text
 pages:
-- _posts/burgers.md
 - _posts/2019-01-03-forestrytest.md
