@@ -13,5 +13,9 @@ fields:
   name: post_image
   label: Post Image
   description: This is the featured image for the post.
+- type: text
+  name: quote
+  label: Quote
+  description: block quote
 pages:
 - _posts/2019-01-03-forestrytest.md
