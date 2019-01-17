@@ -18,5 +18,4 @@ fields:
   label: Quote
   description: block quote
 pages:
-- _posts/phil-post.md
 - _posts/2019-01-03-forestrytest.md
