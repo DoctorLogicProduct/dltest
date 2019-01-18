@@ -2,6 +2,7 @@
 label: Test
 hide_body: false
 is_partial: true
+display_field: grid-item
 fields:
 - type: field_group_list
   name: grid-item
