@@ -9,3 +9,5 @@ fields:
   description: grid-items
   template_types:
   - test
+pages:
+- grid.md
