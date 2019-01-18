@@ -1,0 +1,25 @@
+---
+label: Test
+hide_body: false
+is_partial: true
+fields:
+- type: field_group_list
+  name: grid-item
+  label: Grid-Item
+  description: Item in the grid
+  config:
+    min: '0'
+    max: '6'
+  fields:
+  - type: text
+    name: grid-item-title
+    label: Title
+    description: Title for grid item
+  - type: file
+    name: grid-item-img
+    label: Image
+    description: Image for grid item
+  - type: textarea
+    name: grid-item-description
+    label: Description
+    description: Description for grid item
