@@ -1,0 +1,9 @@
+---
+label: Grid
+hide_body: false
+is_partial: false
+fields:
+- type: field_group_list
+  name: grid_item
+  label: Grid Item
+  description: Grid Item
