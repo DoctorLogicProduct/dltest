@@ -3,7 +3,9 @@ label: Grid
 hide_body: false
 is_partial: false
 fields:
-- type: field_group_list
-  name: grid_item
+- type: blocks
+  name: grid_items
   label: Grid Item
-  description: Grid Item
+  description: grid-items
+  template_types:
+  - test
