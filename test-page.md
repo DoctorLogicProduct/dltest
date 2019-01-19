@@ -24,7 +24,7 @@ page_sections:
   content: bob
   media:
     image: "/uploads/GrowPractice.jpg"
-  media_alignment: left
+  media_alignment: Left
   cta:
     url: "/"
     button_text: About
