@@ -19,3 +19,5 @@ fields:
   name: page_sections
   template_types:
   - content-feature
+pages:
+- test-page.md
