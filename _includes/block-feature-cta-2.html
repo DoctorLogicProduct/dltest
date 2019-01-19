@@ -1,0 +1,10 @@
+<section class="block feature-2">
+    <div class="feature-2__image">
+			<div class="feature-2__image-wrapper" style="background:url('{{ section.media.image | relative_url }}')"></div>
+    </div>
+    <div class="feature-2__text">
+        <h3>{{ section.headline }}</h3>
+        <p>{{ section.content }}</p>
+        <a class="btn" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+{% if section.media_alignment and section.media_alignment == "Left" %}
+{% include block-feature-cta-2.html %}
+{% else %}
+<section class="block feature-1">
+    <div class="feature-1__text">
+      <h3>{{ section.headline }}</h3>
+      <p>{{ section.content }}</p>
+      <a class="btn" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+    </div>
+    <div class="feature-1__image">
+      <div class="feature-1__image-wrapper" style="background:url('{{ section.media.image | relative_url }}')"></div>
+    </div>
+</section>
+{% endif %}
