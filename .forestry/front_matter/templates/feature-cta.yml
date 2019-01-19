@@ -34,8 +34,8 @@ fields:
     source:
       type: simple
     options:
-    - left
-    - right
+    - Left
+    - Right
   label: Media Alignment
   name: media_alignment
 - type: field_group
