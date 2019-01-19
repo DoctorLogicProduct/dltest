@@ -1,0 +1,122 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Test Page 2</title>
+
+	<link rel="stylesheet" href="/css/main.css">
+	<!-- <link rel="stylesheet" href="css/flickity.css">
+	<link rel="stylesheet" href="css/magnific-popup.css"> -->
+	<link rel="canonical" href="/test-page-2.html">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+
+</head>
+
+<html>
+	<body>
+		<header class="header">
+	<div class="header__wrapper">
+		<a class="header__logo-wrapper" href="/">
+		</a>
+		<nav class="header-menu">
+			<ul class="header-menu__list">
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">Service</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">About</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="#" class="header-menu__link">Gallery</a>
+				</li>
+				<li class="header-menu__item">
+					<a href="/blog" class="header-menu__link">Blog</a>
+				</li>
+			</ul>
+		</nav>
+		<button id="header__toggle-button" type="button" class="header__toggle-icon">
+			<span></span>
+		</button>
+	</div>
+</header>
+
+		
+		
+<section class="block feature-1">
+    <div class="feature-1__text">
+      <h3>I am Matt</h3>
+      <p>I am building a test page.</p>
+    </div>
+    <div class="feature-1__image">
+      <div class="feature-1__image-wrapper" style="background:url('/uploads/171332.jpg')"></div>
+    </div>
+</section>
+
+
+		
+		
+<section class="block feature-cta-2">
+    <div class="feature-cta-2__image">
+			<div class="feature-cta-2__image-wrapper" style="background:url('/uploads/Design.jpg')"></div>
+    </div>
+    <div class="feature-cta-2__text">
+        <h3>Button Section</h3>
+        <p>This section has a button</p>
+        <a class="btn" href="/">Hello</a>
+    </div>
+</section>
+
+
+
+		
+		<footer>
+	<div class="footer__brand">
+		<img src="/img/header-logo.svg" alt="">
+	</div>
+	<div class="footer__copyright">
+		<p>©2019 DoctorLogic | All Rights Reserved</p>
+	</div>
+</footer>
+
+	</body>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+	//off-canvas nav for mobile
+	$(document).ready(function(){
+	$('.header__toggle-icon').click(function(e){
+		e.preventDefault();
+		$("body").toggleClass("openNav");
+	});
+	$('.header__toggle-icon').click(function(e){
+		$(".header-menu__link").removeClass("openNav");
+	});
+});
+</script>
+
+<script>
+	// hamburger animation
+	(function() {
+		var button = document.getElementById('header__toggle-button');
+		function toggleActive() {
+			button.classList.toggle('active');
+		}
+		button.addEventListener('click', toggleActive);
+		})();
+</script>
+
+<script>
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+				$(".header").addClass("header-bg");
+		} else {
+				$(".header").removeClass("header-bg");
+		}
+	});
+</script>
+
+</html>
