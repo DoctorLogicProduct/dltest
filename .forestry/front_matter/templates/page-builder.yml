@@ -17,3 +17,5 @@ fields:
 - type: blocks
   label: Page Sections
   name: page_sections
+  template_types:
+  - content-feature
