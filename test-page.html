@@ -13,7 +13,9 @@
 
 </head>
 
-<header class="header">
+<html>
+	<body>
+		<header class="header">
 	<div class="header__wrapper">
 		<a class="header__logo-wrapper" href="/">
 		</a>
@@ -39,25 +41,25 @@
 	</div>
 </header>
 
-
-
+		
+		
 <section class="block feature-2">
     <div class="feature-2__image">
 			<div class="feature-2__image-wrapper" style="background:url('/uploads/Design.jpg')"></div>
     </div>
     <div class="feature-2__text">
-        <h2>Test Feature</h2>
+        <h3>Test Feature</h3>
         <p>Test feature content.</p>
     </div>
 </section>
 
 
 
-
-
+		
+		
 <section class="block feature-1">
     <div class="feature-1__text">
-      <h2>Test Feature 2</h2>
+      <h3>Test Feature 2</h3>
       <p>This is the second test feature.</p>
     </div>
     <div class="feature-1__image">
@@ -66,8 +68,8 @@
 </section>
 
 
-
-<footer>
+		
+		<footer>
 	<div class="footer__brand">
 		<img src="/img/header-logo.svg" alt="">
 	</div>
@@ -76,3 +78,44 @@
 	</div>
 </footer>
 
+	</body>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+	//off-canvas nav for mobile
+	$(document).ready(function(){
+	$('.header__toggle-icon').click(function(e){
+		e.preventDefault();
+		$("body").toggleClass("openNav");
+	});
+	$('.header__toggle-icon').click(function(e){
+		$(".header-menu__link").removeClass("openNav");
+	});
+});
+</script>
+
+<script>
+	// hamburger animation
+	(function() {
+		var button = document.getElementById('header__toggle-button');
+		function toggleActive() {
+			button.classList.toggle('active');
+		}
+		button.addEventListener('click', toggleActive);
+		})();
+</script>
+
+<script>
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+				$(".header").addClass("header-bg");
+		} else {
+				$(".header").removeClass("header-bg");
+		}
+	});
+</script>
+
+</html>
