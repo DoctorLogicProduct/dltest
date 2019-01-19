@@ -11,5 +11,12 @@ page_sections:
     image: "/uploads/Design.jpg"
     atl_text: test-feature-img
   media_alignment: Left
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  media:
+    image: "/uploads/GrowPractice.jpg"
+  headline: Test Feature 2
+  content: This is the second test feature.
 
 ---
