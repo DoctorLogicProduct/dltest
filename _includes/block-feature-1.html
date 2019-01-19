@@ -7,7 +7,7 @@
       <p>{{ section.content }}</p>
     </div>
     <div class="feature-1__image">
-      <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+      <div class="feature-1__image-wrapper" style="background:url('{{ section.media.image | relative_url }}')"></div>
     </div>
 </section>
 {% endif %}
