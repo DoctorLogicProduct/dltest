@@ -20,7 +20,7 @@ page_sections:
   content: This is the second test feature.
 - template: feature-cta
   block: feature-cta
-  headline: Test Feature CTA
+  headline: Test Feature cta
   content: Test Feature CTA
   media:
     image: "/uploads/GrowPractice.jpg"
