@@ -37,6 +37,6 @@ page_sections:
   media_alignment: Right
   cta:
     url: "/"
-    button_text: About
+    button_text: Learn More
 
 ---
