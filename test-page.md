@@ -22,5 +22,11 @@ page_sections:
   block: feature-cta-1
   headline: bob
   content: bob
+  media:
+    image: "/uploads/GrowPractice.jpg"
+  media_alignment: left
+  cta:
+    url: "/"
+    button_text: About
 
 ---
