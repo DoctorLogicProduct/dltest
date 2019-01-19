@@ -28,5 +28,15 @@ page_sections:
   cta:
     url: "/"
     button_text: About
+- template: feature-cta
+  block: feature-cta-1
+  headline: 'Feature With CTA '
+  content: This feature has a CTA
+  media:
+    image: "/uploads/Design.jpg"
+  media_alignment: Right
+  cta:
+    url: "/"
+    button_text: About
 
 ---
