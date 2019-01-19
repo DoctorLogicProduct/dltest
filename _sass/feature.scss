@@ -1,0 +1,18 @@
+.feature-1 {
+
+	&__text {
+		grid-column: 1 / span 12;
+		grid-row: auto;
+	}
+
+	&__image {
+		grid-column: 13 / span 12;
+		grid-row: auto;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+}

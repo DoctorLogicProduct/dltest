@@ -135,6 +135,10 @@ a:hover {
 	}
 }
 
+.block {
+	@include grid;
+}
+
 footer {
 	text-align: center;
 	padding: 40px;

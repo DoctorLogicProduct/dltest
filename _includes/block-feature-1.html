@@ -1,0 +1,13 @@
+{% if section.media_alignment and section.media_alignment == "Left" %}
+{% include block-feature-2.html %}
+{% else %}
+<section class="block feature-1">
+    <div class="feature-1__text">
+      <h2>{{ section.headline }}</h2>
+      <p>{{ section.content }}</p>
+    </div>
+    <div class="feature-1__image">
+      <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+    </div>
+</section>
+{% endif %}
