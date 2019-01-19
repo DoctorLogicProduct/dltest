@@ -1,0 +1,19 @@
+---
+label: Page Builder
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: datetime
+  label: Date
+  name: date
+- type: blocks
+  label: Page Sections
+  name: page_sections
