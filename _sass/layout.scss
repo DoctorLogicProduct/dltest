@@ -70,8 +70,7 @@ p {
 	line-height: 1.6rem;
 }
 
-a,
-a:visited {
+a {
 	color: $black;
 	transition: color .3s;
 	font-family: $font-style, sans-serif;
@@ -102,21 +101,23 @@ a:hover {
 	background: $color2;
 	color: $white;
 	border: solid 1px $color2;
-	box-shadow: 0px 0px 0px 0px $color1;
+	box-shadow: 0px 0px 0px 0px $color2;
 	transition: all .3s;
 	font-family: $font-style, sans-serif;
 	text-decoration: none;
 	font-weight: 700;
 	border: solid 2px $white;
+	font-size: .9rem;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	display: inline-block;
 
 	&::after {
 		display: none;
 	}
 
 	&:hover {
-		box-shadow: 0px 6px 25px 1px $color1;
-		color: $color-2;
-		background: $white;
+		box-shadow: 0px 6px 15px 1px $color2;
 	}
 
 	&--dark {
