@@ -7,7 +7,7 @@ fields:
   name: block
   label: block
   hidden: true
-  default: feature-cta
+  default: content-feature-cta
 - type: textarea
   label: Headline
   name: headline
