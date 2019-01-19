@@ -29,9 +29,6 @@ fields:
   - type: file
     label: Image
     name: image
-  - type: text
-    name: atl_text
-    label: Atl Text
 - type: select
   config:
     source:
