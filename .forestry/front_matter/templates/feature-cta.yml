@@ -1,0 +1,50 @@
+---
+label: feature-cta
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: feature-cta
+- type: textarea
+  label: Headline
+  name: headline
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  label: Content
+  name: content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: field_group
+  label: Featured Media
+  name: media
+  fields:
+  - type: file
+    label: Image
+    name: image
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - left
+    - right
+  label: Media Alignment
+  name: media_alignment
+- type: field_group
+  label: Call To Action
+  name: cta
+  fields:
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: button_text
+    label: Button Text
