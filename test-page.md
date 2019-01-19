@@ -18,5 +18,15 @@ page_sections:
     image: "/uploads/GrowPractice.jpg"
   headline: Test Feature 2
   content: This is the second test feature.
+- template: feature-cta
+  block: content-feature-cta
+  headline: Test Feature CTA 1
+  content: Feature with cta button.
+  media:
+    image: "/uploads/Design.jpg"
+  media_alignment: left
+  cta:
+    url: "/"
+    button_text: Learn More
 
 ---
