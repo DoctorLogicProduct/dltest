@@ -1,0 +1,43 @@
+---
+label: content-feature
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: feature-1
+- type: textarea
+  label: Headline
+  name: headline
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  label: Content
+  name: content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: field_group
+  label: Featured Media
+  name: media
+  fields:
+  - type: file
+    label: Image
+    name: image
+  - type: text
+    name: atl_text
+    label: Atl Text
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Left
+    - Right
+  label: Media Alignment
+  name: media_alignment
