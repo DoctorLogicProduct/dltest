@@ -8,7 +8,3 @@ fields:
   label: Block
   hidden: true
   default: box-grid
-- type: include
-  name: box
-  label: Box
-  template: box
