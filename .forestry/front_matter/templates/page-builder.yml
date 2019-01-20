@@ -18,6 +18,7 @@ fields:
   label: Page Sections
   name: page_sections
   template_types:
+  - box-grid
   - content-feature
   - feature-cta
 pages:
