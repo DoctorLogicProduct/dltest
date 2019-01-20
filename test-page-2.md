@@ -24,7 +24,10 @@ page_sections:
   block: box-grid
   box:
   - headline: Bob
+    background_image: "/uploads/christopher-ayme-157131.jpg"
   - headline: Tom
+    background_image: "/uploads/justin-veenema-31135.jpg"
   - headline: John
+    background_image: "/uploads/matthew-pilachowski-185965.jpg"
 
 ---
