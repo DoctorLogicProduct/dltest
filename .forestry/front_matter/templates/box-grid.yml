@@ -18,3 +18,9 @@ fields:
   - type: file
     label: Background Image
     name: background_image
+  - type: text
+    name: link
+    label: Link
+  - type: text
+    name: action
+    label: Call To Action
