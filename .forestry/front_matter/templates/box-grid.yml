@@ -1,0 +1,17 @@
+---
+label: box-grid
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: Block
+  hidden: true
+  default: box-grid
+- type: field_group_list
+  name: box
+  label: Box
+  fields:
+  - type: text
+    name: headline
+    label: Headline
