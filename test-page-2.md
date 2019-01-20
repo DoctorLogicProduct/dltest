@@ -23,7 +23,7 @@ page_sections:
 - template: box-grid
   block: box-grid
   box:
-  - {}
+  - headline: Jim
   - headline: Bob
     background_image: "/uploads/christopher-ayme-157131.jpg"
     link: "/"
