@@ -22,8 +22,6 @@ page_sections:
     button_text: Hello
 - template: box-grid
   block: box-grid
-  box:
-  - headline: Tom
-  - headline: Bob
+  headline: bob
 
 ---
