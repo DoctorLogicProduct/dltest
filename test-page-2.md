@@ -20,5 +20,10 @@ page_sections:
   cta:
     url: "/"
     button_text: Hello
+- template: box-grid
+  block: box-grid
+  box:
+  - headline: Tom
+  - headline: Bob
 
 ---
