@@ -24,6 +24,9 @@ page_sections:
   block: box-grid
   box:
   - headline: Jim
+    background_image: "/uploads/mike-burke-63930.jpg"
+    link: "/"
+    action: Meet Jim
   - headline: Bob
     background_image: "/uploads/christopher-ayme-157131.jpg"
     link: "/"
