@@ -15,3 +15,6 @@ fields:
   - type: text
     name: headline
     label: Headline
+  - type: file
+    label: Background Image
+    name: background_image
