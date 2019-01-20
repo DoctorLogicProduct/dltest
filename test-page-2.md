@@ -35,5 +35,13 @@ page_sections:
     background_image: "/uploads/matthew-pilachowski-185965.jpg"
     link: "/"
     action: Meet John
+  - headline: Steve
+    link: "/"
+    action: Meet Steve
+    background_image: "/uploads/caleb-fisher-7320.jpg"
+  - headline: Larry
+    background_image: "/uploads/freddie-marriage-41870.jpg"
+    link: "/"
+    action: Meet Larry
 
 ---
