@@ -1,0 +1,13 @@
+---
+label: box
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+  default: box
+- type: text
+  name: headline
+  label: Headline
