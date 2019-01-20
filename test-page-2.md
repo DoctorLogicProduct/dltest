@@ -23,10 +23,6 @@ page_sections:
 - template: box-grid
   block: box-grid
   box:
-  - headline: Jim
-    background_image: "/uploads/mike-burke-63930.jpg"
-    link: "/"
-    action: Meet Jim
   - headline: Bob
     background_image: "/uploads/christopher-ayme-157131.jpg"
     link: "/"
@@ -47,5 +43,9 @@ page_sections:
     background_image: "/uploads/freddie-marriage-41870.jpg"
     link: "/"
     action: Meet Larry
+  - headline: Jim
+    background_image: "/uploads/mike-burke-63930.jpg"
+    link: "/"
+    action: Meet Jim
 
 ---
