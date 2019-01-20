@@ -25,9 +25,15 @@ page_sections:
   box:
   - headline: Bob
     background_image: "/uploads/christopher-ayme-157131.jpg"
+    link: "/"
+    action: Meet Bob
   - headline: Tom
     background_image: "/uploads/justin-veenema-31135.jpg"
+    link: "/"
+    action: Meet Tom
   - headline: John
     background_image: "/uploads/matthew-pilachowski-185965.jpg"
+    link: "/"
+    action: Meet John
 
 ---
