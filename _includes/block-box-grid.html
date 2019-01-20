@@ -1,3 +1,7 @@
 <section class="block box-grid">
-    <div>{{section.box}}</div>
+    {% for box in section.box %}
+			<div class="box-grid__box" style="background: url('{{ section.media.image | relative_url }}')">
+				<h3>{{box.headline}}</h3>
+			</div>
+		{% endfor %}
 </section>

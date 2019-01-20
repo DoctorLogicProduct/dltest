@@ -1,0 +1,10 @@
+.box-grid {
+	padding: 60px 5%;
+
+	&__box {
+		grid-column: auto / span 8;
+		grid-row: auto;
+	}
+
+	
+}
