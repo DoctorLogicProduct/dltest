@@ -47,5 +47,12 @@ page_sections:
     background_image: "/uploads/mike-burke-63930.jpg"
     link: "/"
     action: Meet Jim
+- template: content-feature
+  block: feature-1
+  headline: This is Chris.
+  content: Chris is nice.
+  media:
+    image: "/uploads/caleb-fisher-7320.jpg"
+  media_alignment: Left
 
 ---
