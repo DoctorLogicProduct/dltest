@@ -1,0 +1,28 @@
+---
+label: page-builder
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: datetime
+  label: Date
+  name: date
+- type: blocks
+  label: Page Sections
+  name: page_sections
+  template_types:
+  - box-grid
+  - content-feature
+  - feature-cta
+pages:
+- test-page.md
+- test-page-2.md
+- test-3.md
+- hello-world.md
