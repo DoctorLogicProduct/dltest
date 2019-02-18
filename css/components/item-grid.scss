@@ -1,0 +1,72 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.item-grid {
+	padding: 20px;
+
+	@include tablet-min {
+		padding: 60px 5%;
+	}
+
+	&__description {
+		grid-column: auto / span 24;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 0 20px;
+
+		h2, p {
+			text-align: center;
+
+			@include tablet-min {
+				text-align: left;
+			}
+
+		}
+		
+	}
+
+	&__items {
+		grid-column: auto / span 24;
+		@include grid;
+
+		&--3 {
+			.item-grid__item {
+				grid-column: auto / span 24;
+
+				@include phone-wide-min {
+					grid-column: auto / span 8;
+				}
+			}
+		}
+
+		&--4 {
+			.item-grid__item {
+				grid-column: auto / span 24;
+
+				@include phone-wide-min {
+					grid-column: auto / span 12;
+				}
+
+				@include tablet-wide-min {
+					grid-column: auto / span 6;
+				}
+			}
+		}
+
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__icon {
+		max-width: 200px;
+	}
+
+}

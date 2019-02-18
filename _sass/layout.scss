@@ -10,7 +10,7 @@ body {
 	right: 0;
 	top: 0;
 	transition: right 1s;
-	background: $white;
+	background: $color-2;
 
 	@include tablet-min {
 		font-size: 1.1rem;
@@ -23,10 +23,11 @@ main {
 
 h1,
 h2,
-h3 {
-	font-weight: 400;
+h3,
+h4 {
+	font-weight: 300;
 	text-transform: uppercase;
-	color: $color1;
+	color: $color-3;
 	font-family: $heading-font;
 	line-height: 1.5;
 }
@@ -40,29 +41,39 @@ h1 {
 
 h2 {
 	text-align: left;
+	font-weight: 300;
 	max-width: 100%;
-	font-size: 3rem;;
-	line-height: 3rem;
+	font-size: 2rem;
+	line-height: 1.2;
+	margin: 0 0 10px;
 
-	@include phone-wide-min {
-		font-size: 3.5rem;;
-		line-height: 3.5rem;
-	}
-
-	@include desktop-min {
-		font-size: 3.5rem;
-		line-height: 3.5rem;
+	@include desktop-sm-min {
+		font-size: 4vw;
 	}
 
 	@include desktop-wide-min {
-		font-size: 4vw;
-		line-height: 1;
+		font-size: 3.5rem;
 	}
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: left;
+	margin: 20px 0 0;
+
+	@include desktop-sm-min {
+		font-size: 2rem;
+	}
+}
+
+h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 20px 0 0;
+
+	@include desktop-sm-min {
+		font-size: 1.8rem;
+	}
 }
 
 p {
@@ -71,70 +82,110 @@ p {
 }
 
 a {
-	color: $black;
+	color: $color-3;
 	transition: color .3s;
 	font-family: $font-style, sans-serif;
 	text-transform: uppercase;
 }
+
 a:hover {
-	color: $link-hover-color;
+	color: $color-4;
 }
 
-.separator {
-	width: 275px;
-	height: 3px;
-	background: $white;
-	margin: 30px 0;
 
-	@include phone-wide-min {
-		width: 50%;
+.btn, #submit {
+	display: inline-block;
+	padding: 15px 20px;
+	color: $color-2;
+	margin-top: 20px;
+	font-size: .8rem;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: $gradient-website-marketing;
+	background-position: 1% 50%;
+	background-size: 400% 300%;
+	transition: 700ms ease-out;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width: 250px;
+
+	&:hover {
+		color: $color-2;
+	}
+
+	@include desktop-sm-min {
+
+		&:hover{
+	    	background-position: 60% 50%;
+				color: $color-2;
+		}
+
+	}
+}
+
+.text-link {
+	position: relative;
+	display: inline-block;
+	padding: 10px 0 5px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .9rem;
+	font-weight: 300;
+	text-decoration: none;
+	color: $color-3;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: $color-4;
+		transform: scale(0,1);
+		transform-origin: left;
+		transition: all .3s;
+	}
+
+	@include desktop-sm-min {
+
+		&:hover {
+			color: $color-4;
+
+			&::after {
+				transform: scale(1,1);
+			}
+
+		}
+
 	}
 
 	&--white {
-		@extend .separator;
-		background: $white;
-	}
-}
+		@extend .text-link;
+		color: $color-2;
 
-.btn, #submit {
-	padding: 10px 50px;
-	background: $color2;
-	color: $white;
-	border: solid 1px $color2;
-	box-shadow: 0px 0px 0px 0px $color2;
-	transition: all .3s;
-	font-family: $font-style, sans-serif;
-	text-decoration: none;
-	font-weight: 700;
-	border: solid 2px $white;
-	font-size: .9rem;
-	letter-spacing: 1px;
-	margin-top: 10px;
-	display: inline-block;
-
-	&::after {
-		display: none;
-	}
-
-	&:hover {
-		box-shadow: 0px 6px 15px 1px $color2;
-	}
-
-	&--dark {
-		background: $dark-gray;
-		color: $white;
-
-		&:hover {
-			color: $white;
+		&::after {
+			background: $color-2;
 		}
 
-		&:visited {
-			color: $white;
+		@include desktop-sm-min {
+
+			&:hover {
+				color: $color-2;
+			}
 		}
 	}
+
 }
 
 .block {
+	@include grid;
+}
+
+.component {
 	@include grid;
 }
 

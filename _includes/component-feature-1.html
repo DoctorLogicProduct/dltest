@@ -1,0 +1,12 @@
+{% if section.img_alignment and section.img_alignment == "Left" %}
+{% include component-feature-2.html %}
+{% else %}
+<section class="component feature feature-1 {{ section.class }}">
+    <div class="feature__text">
+      <h3>{{ section.headline }}</h3>
+      <p>{{ section.text }}</p>
+      <a class="btn" href="{{ section.btn-link }}">{{ section.btn-label }}</a>
+    </div>
+    <div class="feature__image" style="background:url('{{ section.img | relative_url }}')"></div>
+</section>
+{% endif %}

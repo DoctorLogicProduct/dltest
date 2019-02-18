@@ -1,0 +1,16 @@
+<section class="component item-grid {{ section.class }}">
+	<div class="item-grid__description">
+		<h2>{{section.headline}}</h2>
+		<p>{{section.text}}</p>
+	</div>
+	<div class="item-grid__items item-grid__items--{{section.per-row-count}}">
+		{% for item in section.items %}
+			<div class="item-grid__item">
+				<img class="{{item.img-class}}" src="{{item.img}}" alt="">
+				<h4>{{item.headline}}</h4>
+				<p>{{item.text}}</p>
+				<a class="text-link" href="{{item.btn-link}}">{{item.btn-label}}</a>
+			</div>
+		{% endfor %}
+	</div>
+</section>
