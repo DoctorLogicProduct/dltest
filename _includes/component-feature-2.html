@@ -1,6 +1,9 @@
 <section class="component feature feature-2 {{ section.class }}">
     <div class="feature__image" style="background:url('{{ section.img | relative_url }}')"></div>
     <div class="feature__text">
+        {% if section.product_icon %}
+        <div class="feature__product-icon" style="background: url({{ section.product_icon }})"></div>
+        {% endif %}
         <h3>{{ section.headline }}</h3>
         <p>{{ section.text }}</p>
         <a class="btn" href="{{ section.btn-link }}">{{ section.btn-label }}</a>

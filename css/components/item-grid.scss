@@ -11,6 +11,12 @@
 		padding: 60px 5%;
 	}
 
+	&__container {
+		grid-column: auto / span 24;
+		@include grid;
+		width: 100%;
+	}
+
 	&__description {
 		grid-column: auto / span 24;
 		display: flex;
@@ -18,7 +24,7 @@
 		align-items: center;
 		padding: 0 0 20px;
 
-		h2, p {
+		h3, p {
 			text-align: center;
 
 			@include tablet-min {
@@ -26,7 +32,7 @@
 			}
 
 		}
-		
+
 	}
 
 	&__items {
