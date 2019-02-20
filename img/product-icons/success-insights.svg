@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93 100.6" style="enable-background:new 0 0 93 100.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Success_Insights">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1632.725" y1="-164.775" x2="-1568.3597" y2="-229.1402" gradientTransform="matrix(4.489700e-11 -1 -1 -4.489700e-11 -150.5 -1550.5)">
+		<stop  offset="3.605769e-04" style="stop-color:#F04F26"/>
+		<stop  offset="0.3435" style="stop-color:#F36F28"/>
+		<stop  offset="1" style="stop-color:#F5B62B"/>
+	</linearGradient>
+	<polygon class="st0" points="5.6,26.4 5.6,73.6 46.5,97.1 87.3,73.6 87.3,26.4 46.5,2.9 	"/>
+	<g>
+		<path class="st1" d="M49.3,49.7h-7.2c-0.7,0-1.2,0.6-1.2,1.2v15.5c0,0.7,0.6,1.2,1.2,1.2h7.2c0.7,0,1.2-0.6,1.2-1.2V50.9
+			C50.5,50.2,50,49.7,49.3,49.7z"/>
+		<path class="st1" d="M35,56.9h-7.2c-0.7,0-1.2,0.6-1.2,1.2v8.4c0,0.7,0.6,1.2,1.2,1.2H35c0.7,0,1.2-0.6,1.2-1.2V58
+			C36.2,57.4,35.7,56.9,35,56.9z"/>
+		<path class="st1" d="M63.7,42.5h-7.2c-0.7,0-1.2,0.6-1.2,1.2v22.7c0,0.7,0.6,1.2,1.2,1.2h7.2c0.7,0,1.2-0.6,1.2-1.2V43.7
+			C64.8,43,64.2,42.5,63.7,42.5z"/>
+		<path class="st1" d="M45.8,43.7c0.3,0,0.6-0.1,0.8-0.3l9.9-9.9v5.4h2.4v-8.4c0-0.7-0.6-1.2-1.2-1.2h-8.3v2.4h5.4l-9,9.1l-5.1-5.1
+			c-0.4-0.4-1.2-0.4-1.7,0l-6,6l1.7,1.7l5.1-5.1l5.1,5.1C45.2,43.6,45.5,43.7,45.8,43.7z"/>
+	</g>
+</g>
+</svg>
