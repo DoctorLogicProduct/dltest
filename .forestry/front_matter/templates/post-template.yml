@@ -9,6 +9,10 @@ fields:
   description: This is the title of the post
   config:
     required: true
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Post Tags
 - type: file
   name: post_image
   label: Post Image
