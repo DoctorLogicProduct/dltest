@@ -8,8 +8,9 @@ page_sections:
   class: hero-sample
   headline: "Market your practice the right way."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
-  btn-link: "#"
-  btn-label: "About Us"
+  btn:
+  - btn-link: "#"
+    btn-label: "About Us"
   img: "img/hero/hero1.svg"
 - component: feature-1
   component_css: feature
