@@ -29,7 +29,7 @@ h4 {
 	text-transform: uppercase;
 	color: $color-1;
 	font-family: $heading-font;
-	line-height: 1.5;
+	line-height: 1.2;
 }
 h1 {
 	font-size: 2.5em;
@@ -115,11 +115,25 @@ a:hover {
 		color: $color-2;
 	}
 
+	&--clear {
+		background: transparent;
+		border: solid $color-2 1px;
+		transition: all 700ms;
+	}
+
 	@include desktop-sm-min {
 
 		&:hover{
 	    	background-position: 60% 50%;
 				color: $color-2;
+		}
+
+		&--clear {
+			&:hover {
+				background: $color-2;
+				border: solid $color-2 1px;
+				color: $color-3;
+			}
 		}
 
 	}

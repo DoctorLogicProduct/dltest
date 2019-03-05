@@ -57,7 +57,49 @@ page_sections:
   img_alignment: "Right"
 - component: callout
   component_css: callout
-  class: callout-sample
+  class: callout__websites
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__content
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__reputation
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__search
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__leads
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__success
+  headline: "Put our software to work for you."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn-link: "#"
+  btn-label: "Learn More"
+- component: callout
+  component_css: callout
+  class: callout__growth
   headline: "Put our software to work for you."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
   btn-link: "#"

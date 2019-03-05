@@ -1,0 +1,29 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.text-component {
+    padding: 20px;
+
+	@include tablet-min {
+		padding: 60px 5%;
+    }
+
+    &__container {
+        grid-column: auto / span 24;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}

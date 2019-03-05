@@ -28,4 +28,58 @@
 		max-width: 1200px;
 	}
 
+	&__websites {
+		background: $gradient-website-marketing;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__content {
+		background: $gradient-content-multiplier;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__reputation {
+		background: $gradient-reputation-manager;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__search {
+		background: $gradient-search-amplifier;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__leads {
+		background: $gradient-lead-generator;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__success {
+		background: $gradient-success-insights;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	&__growth {
+		background: $gradient-growth-accelerators;
+		background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+	}
+
+	@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 }

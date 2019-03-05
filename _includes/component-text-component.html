@@ -1,0 +1,15 @@
+<section class="component text-component {{ section.class }}">
+	<div class="text-component__container">
+		{% for headline in section.headline %}
+			{% if section.headline %}
+				<h3>{{ headline.headline }}</h3>
+			{% endif %}
+		{% endfor %}
+		<p>{{ section.text }}</p>
+		{% for btn in section.btn %}
+			{% if section.btn %}
+				<a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
