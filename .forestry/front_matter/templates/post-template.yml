@@ -13,6 +13,10 @@ fields:
   name: tags
   label: Tags
   description: Post Tags
+- type: tag_list
+  name: product
+  label: Product
+  description: Products associated with this post
 - type: file
   name: post_image
   label: Post Image
