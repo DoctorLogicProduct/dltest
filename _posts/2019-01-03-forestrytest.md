@@ -10,6 +10,7 @@ product:
 - social reputation
 quote: ''
 post_highlight: ''
+post_author: Matthew Sparks
 
 ---
 This is a test using the forestry CMS
