@@ -8,6 +8,9 @@
 			{% include component-{{ section.component }}.html %}
 			{% endfor %}
 			<div class="related-posts">
+
+				<h3>Posts About {{ page.product }}</h3>
+				<div class="related-posts__cards">
 			
 				{% assign maxRelated = 3 %}
 				{% assign minCommonTags =  1 %}
@@ -29,18 +32,19 @@
 				{% endfor %}
 			
 				{% if sameTagCount >= minCommonTags %}
-				<h3>Posts About {{ commonTags }}</h3>
-				<div class="related-posts__cards">
+				
+				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
 						<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 							<div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div>
 							<div class="related-posts__card-text">
-								<h5>{{ post.title }}</h5>
+								<h5>{{ post.post_title }}</h5>
 								<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 							</div>
 						</a>
 					</div>
 				</div>
+				
 				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 				{% if maxRelatedCounter >= maxRelated %}
 				{% break %}
@@ -48,6 +52,7 @@
 				{% endif %}
 			
 				{% endfor %}
+				</div>
 				
 			
 			</div>

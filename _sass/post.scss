@@ -44,13 +44,28 @@
 	}
 	
 	&__cards {
-		@include grid;
-		grid-template-columns: minmax(200px,25%);
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
 
+	&__card-wrapper {
+		flex: 0 0 100%;
+		padding: 5px;
+		display: flex;
+		flex-wrap: wrap;
+
+		@include phone-wide-min {
+			flex: 0 0 50%;
+		}
+
+		@include tablet-min {
+			flex: 0 0 33%;
+		}
+	}
+
 	&__card {
-		grid-column: auto;
+		flex: 1;
 		width:100%;
 		padding: 10px;
 		border: solid 1px $color-5;
@@ -80,16 +95,17 @@
 		h5 {
 			color: $color-1;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: none;
 			margin: 0;
-			font-size: 1.2rem;
+			font-size: .9rem;
+			line-height: 1.2;
 			font-weight: 300;
 		}
 		
 		p {
 			color: $color-1;
 			text-decoration: none;
-			font-size: .9rem;
+			font-size: .7rem;
 			font-style: italic;
 			margin: 0;
 		}
