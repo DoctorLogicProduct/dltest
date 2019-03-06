@@ -15,6 +15,10 @@ fields:
   description: This is the date of the post.
   config:
     required: true
+- type: text
+  name: post_author
+  label: Author
+  description: Author of this post
 - type: tag_list
   name: tags
   label: Tags
