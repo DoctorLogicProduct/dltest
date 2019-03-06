@@ -28,3 +28,71 @@
 	}
 
 }
+
+// Related Posts Styles
+
+.related-posts {
+	padding: 20px;
+
+	@include tablet-min {
+		padding: 60px 5%;
+	}
+
+	h3 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	&__cards {
+		@include grid;
+		grid-template-columns: minmax(200px,25%);
+		justify-content: center;
+	}
+
+	&__card {
+		grid-column: auto;
+		width:100%;
+		padding: 10px;
+		border: solid 1px $color-5;
+		border-radius: 10px;
+		box-shadow: $box-shadow;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	&__card-image {
+		padding-top: (9 / 16) * 100%;
+		background-size: cover !important;
+		background-position: center center !important;
+		background-repeat: no-repeat !important;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	&__card-text {
+		padding: 10px 0 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		h5 {
+			color: $color-1;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin: 0;
+			font-size: 1.2rem;
+			font-weight: 300;
+		}
+		
+		p {
+			color: $color-1;
+			text-decoration: none;
+			font-size: .9rem;
+			font-style: italic;
+			margin: 0;
+		}
+
+	}
+}

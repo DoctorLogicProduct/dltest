@@ -15,7 +15,8 @@ page_sections:
 - component: feature-1
   component_css: feature
   class: feature-left-sample
-  product_icon: "img/product-icons/social-reputation.svg"
+  product_icon:
+  - icon: "img/product-icons/social-reputation.svg"
   headline: "Reputation Management made easy."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
   btn-link: "#"
@@ -50,7 +51,8 @@ page_sections:
 - component: feature-1
   headline: "Showcase your work for all to see."
   class: feature-right-sample
-  product_icon: "img/product-icons/content-multiplier.svg"
+  product_icon:
+  - icon: "img/product-icons/content-multiplier.svg"
   text: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed.</p>"
   btn-link: "#"
   btn-label: "Learn More"
