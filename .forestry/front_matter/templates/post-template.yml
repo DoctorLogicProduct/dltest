@@ -9,6 +9,12 @@ fields:
   description: This is the title of the post
   config:
     required: true
+- type: datetime
+  name: date
+  label: Post Date
+  description: This is the date of the post.
+  config:
+    required: true
 - type: tag_list
   name: tags
   label: Tags
