@@ -1,0 +1,11 @@
+---
+label: test tags
+hide_body: false
+is_partial: false
+fields:
+- type: tag_list
+  name: tag_1
+  label: tag 1
+- type: tag_list
+  name: tag_2
+  label: tag 2
