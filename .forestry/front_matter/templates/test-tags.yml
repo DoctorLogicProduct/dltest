@@ -9,5 +9,3 @@ fields:
 - type: tag_list
   name: tag_2
   label: tag 2
-pages:
-- _posts/test-tags.md
