@@ -36,5 +36,6 @@ fields:
   label: Post Highlight
   description: This the highlight text
 pages:
+- _posts/this-is-a-post-with-a-super-long-title-that-is-about-social-reputation-and-dogs-and-how-dogs-make-you-happy.md
 - _posts/social-reputation-is-key.md
 - _posts/2019-01-03-forestrytest.md
