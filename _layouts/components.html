@@ -36,10 +36,11 @@
 				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
 						<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
-							<div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div>
+							<!-- <div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div> -->
 							<div class="related-posts__card-text">
-								<h5>{{ post.post_title }}</h5>
-								<p>{{ post.date | date: "%b %-d, %Y" }}</p>
+								<p class="related-posts__card-tags">{{ post.tags | join: ', ' }}</p>
+								<h2>{{ post.post_title }}</h2>
+								<p class="related-posts__card-author">By {{ post.post_author }}</p>
 							</div>
 						</a>
 					</div>
