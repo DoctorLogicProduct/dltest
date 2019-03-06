@@ -1,6 +1,5 @@
 ---
-post_title: This is a post with a really long title about social reputation and dogs
-  and how both can make you a happy person
+post_title: This is a post with a really long title about social reputation
 date: 2019-03-06 06:00:00 +0000
 post_author: Keisha Dunstan
 tags:
