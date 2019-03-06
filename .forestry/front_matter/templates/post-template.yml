@@ -36,7 +36,5 @@ fields:
   label: Post Highlight
   description: This the highlight text
 pages:
-- _posts/file.md
-- _posts/post-with-long-title.md
 - _posts/social-reputation-is-key.md
 - _posts/2019-01-03-forestrytest.md
