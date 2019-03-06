@@ -40,5 +40,6 @@ fields:
   label: Post Highlight
   description: This the highlight text
 pages:
+- _posts/social-reputation-test-2.md
 - _posts/Reputation-Test.md
 - _posts/2019-01-03-forestrytest.md
