@@ -12,7 +12,7 @@
 				<h3>Posts About {{ page.product }}</h3>
 				<div class="related-posts__cards">
 			
-				{% assign maxRelated = 3 %}
+				{% assign maxRelated = 2 %}
 				{% assign minCommonTags =  1 %}
 				{% assign maxRelatedCounter = 0 %}
 			
@@ -39,7 +39,7 @@
 							<!-- <div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div> -->
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">{{ post.tags | join: ', ' }}</p>
-								<h2>{{ post.post_title }}</h2>
+								<h3>{{ post.post_title }}</h3>
 								<p class="related-posts__card-author">By {{ post.post_author }}</p>
 							</div>
 						</a>

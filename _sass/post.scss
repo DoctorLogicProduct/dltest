@@ -31,11 +31,11 @@
 
 // Related Posts Styles
 
-.related-posts {
+.related-posts {	
 	padding: 20px;
 
 	@include tablet-min {
-		padding: 60px 5%;
+		padding: 60px 20px;
 	}
 
 	h3 {
@@ -55,12 +55,14 @@
 		display: flex;
 		flex-wrap: wrap;
 
-		@include phone-wide-min {
+		@include tablet-min {
 			flex: 0 0 50%;
 		}
 
-		@include tablet-min {
-			flex: 0 0 33%;
+		&:nth-of-type(2) {
+			.related-posts__card {
+				border-right: 0;
+			}
 		}
 	}
 
@@ -69,13 +71,19 @@
 		width:100%;
 		padding: 15px;
 		border-top: solid 1px $color-3;
-		border-right: solid 1px $color-3;
-		// border-radius: 10px;
-		// box-shadow: $box-shadow;
+
+		@include tablet-min {
+			border-right: solid 1px $color-3;
+		}
 
 		a {
 			text-decoration: none;
+
+			&:hover .related-posts__card-text {
+				transform: translateX(3%);
+			}
 		}
+
 	}
 
 	&__card-image {
@@ -83,8 +91,6 @@
 		background-size: cover !important;
 		background-position: center center !important;
 		background-repeat: no-repeat !important;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
 	}
 
 	&__card-text {
@@ -92,6 +98,18 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		transform: translateX(0);
+		transition: transform .3s;
+
+		@include tablet-min {
+			padding: 10px 40px 0;
+		}
+
+		h3 {
+			font-weight: 700;
+			font-size: 2rem;
+			text-align: left;
+		}
 
 		h5 {
 			color: $color-1;
@@ -104,12 +122,19 @@
 		}
 		
 		p {
-			color: $color-1;
 			text-decoration: none;
 			font-size: .7rem;
-			font-style: italic;
 			margin: 0;
 		}
 
+	}
+
+	&__card-tags {
+		color: $color-3;
+	}
+
+	&__card-author {
+		color: $color-1;
+		font-style: italic;
 	}
 }
