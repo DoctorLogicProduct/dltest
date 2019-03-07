@@ -38,6 +38,10 @@ fields:
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
+- type: text
+  name: hs_form_id
+  label: Hubspot Form
+  hidden: true
 pages:
 - _posts/2019-03-06-Testing-Matt.md
 - _posts/2019-03-05-Reputation-Test.md
