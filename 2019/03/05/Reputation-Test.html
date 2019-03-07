@@ -19,7 +19,7 @@
 </head>
 
 
-<body>
+<body class="">
 	<header class="header">
 	<div class="header__wrapper">
 		<a class="header__logo-wrapper" href="/">
@@ -47,29 +47,48 @@
 </header>
 
 	<main>
-			<div class="post">
-	<div class="post__container">
-	<h2>Reputation is key</h2>
-	<time>Mar 5, 2019</time>
-		<div class="post__featured-image">
-			<img src="/uploads/iStock_56001286_XXLARGE.jpg" alt="">
-		</div>
-		<div class="post__body">
-			<h2 class="page__quote"></h2>
-			<h3 class="post__highlight"></h3>
-			<p>This is a test post.</p>
+		<div class="post">
+			<div class="post__container">
+				<h2>Reputation is key</h2>
+				<time>Mar 5, 2019</time>
+				<div class="post__featured-image">
+					<img src="/uploads/iStock_56001286_XXLARGE.jpg" alt="">
+				</div>
+				<div class="post__body">
+					<h2 class="page__quote"></h2>
+					<h3 class="post__highlight"></h3>
+					<p>This is a test post.</p>
 
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
-
 	</main>
 	<footer>
-	<div class="footer__brand">
-		<img src="/img/header-logo.svg" alt="">
-	</div>
-	<div class="footer__copyright">
-		<p>©2019 DoctorLogic | All Rights Reserved</p>
+	<div class="footer-form">
+    <h3>Ready to get started?</h3>
+    <!--[if lte IE 8]>
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+		<![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+        hbspt.forms.create({
+            css: '',
+            portalId: '2805307',
+            formId: ''
+        });
+    </script>
+</div>
+
+	<div class="footer__items">
+		<div class="footer__copyright">
+			<p>©2019 DoctorLogic | All Rights Reserved</p>
+		</div>
+		<div class="footer__social">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">LinkedIn</a>
+			<a href="#">Instagram</a>
+		</div>
 	</div>
 </footer>
 
@@ -79,38 +98,39 @@
 
 <script>
 	//off-canvas nav for mobile
-	$(document).ready(function(){
-	$('.header__toggle-icon').click(function(e){
-		e.preventDefault();
-		$("body").toggleClass("openNav");
+	$(document).ready(function () {
+		$('.header__toggle-icon').click(function (e) {
+			e.preventDefault();
+			$("body").toggleClass("openNav");
+		});
+		$('.header__toggle-icon').click(function (e) {
+			$(".header-menu__link").removeClass("openNav");
+		});
 	});
-	$('.header__toggle-icon').click(function(e){
-		$(".header-menu__link").removeClass("openNav");
-	});
-});
 </script>
 
 <script>
 	// hamburger animation
-	(function() {
+	(function () {
 		var button = document.getElementById('header__toggle-button');
 		function toggleActive() {
 			button.classList.toggle('active');
 		}
 		button.addEventListener('click', toggleActive);
-		})();
+	})();
 </script>
 
 <script>
-	$(window).scroll(function() {
+	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 50) {
-				$(".header").addClass("header-bg");
+			$(".header").addClass("header-bg");
 		} else {
-				$(".header").removeClass("header-bg");
+			$(".header").removeClass("header-bg");
 		}
 	});
 </script>
 
 </html>
+
