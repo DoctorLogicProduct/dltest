@@ -38,12 +38,6 @@ fields:
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
-- type: text
-  name: hs_form_id
-  label: Hubspot Form
-  hidden: false
-  default: 75c57a13-9090-4db1-acd0-be51d1a76f7e
-  description: Do Not Change!
 pages:
 - _posts/2019-03-06-Long-Title-Test.md
 - _posts/2019-03-06-Testing-Matt.md
