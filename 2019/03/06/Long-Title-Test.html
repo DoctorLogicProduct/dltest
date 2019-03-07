@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>DoctorLogic</title>
+	<title>Long Title Test</title>
 	<link rel="stylesheet" href="/css/main.css">
 
 	
@@ -13,13 +13,13 @@
 
 	<!-- <link rel="stylesheet" href="css/flickity.css">
 	<link rel="stylesheet" href="css/magnific-popup.css"> -->
-	<link rel="canonical" href="/blog/">
+	<link rel="canonical" href="/2019/03/06/Long-Title-Test.html">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
 
 </head>
 
 
-<body>
+<body class="">
 	<header class="header">
 	<div class="header__wrapper">
 		<a class="header__logo-wrapper" href="/">
@@ -47,26 +47,21 @@
 </header>
 
 	<main>
-			<h4>blog</h4>
+		<div class="post">
+			<div class="post__container">
+				<h2>Post Test With A Really Long Tilte About Social Reputation</h2>
+				<time>Mar 6, 2019</time>
+				<div class="post__featured-image">
+					<img src="/uploads/freddie-marriage-41870.jpg" alt="">
+				</div>
+				<div class="post__body">
+					<h2 class="page__quote"></h2>
+					<h3 class="post__highlight">Matthew Sparks on why long titles for blog posts are trending.</h3>
+					<p>Test text.</p>
 
-		<time>Mar 6, 2019</time>
-		<h3><a href="/2019/03/06/social-reputation-test-2.html">Social Reputation Test 2</a></h3>
-
-		<time>Mar 6, 2019</time>
-		<h3><a href="/2019/03/06/Long-Title-Test.html">Long Title Test</a></h3>
-
-		<time>Mar 5, 2019</time>
-		<h3><a href="/2019/03/05/Testing-Matt.html">Testing Matt</a></h3>
-
-		<time>Mar 5, 2019</time>
-		<h3><a href="/2019/03/05/Reputation-Test.html">Reputation Test</a></h3>
-
-		<time>Mar 5, 2019</time>
-		<h3><a href="/2019/03/05/forestrytest.html">Forestrytest</a></h3>
-
-
-<p>subscribe <a href="/feed.xml">via RSS</a></p>
-
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 	<div class="footer-form">
@@ -103,38 +98,39 @@
 
 <script>
 	//off-canvas nav for mobile
-	$(document).ready(function(){
-	$('.header__toggle-icon').click(function(e){
-		e.preventDefault();
-		$("body").toggleClass("openNav");
+	$(document).ready(function () {
+		$('.header__toggle-icon').click(function (e) {
+			e.preventDefault();
+			$("body").toggleClass("openNav");
+		});
+		$('.header__toggle-icon').click(function (e) {
+			$(".header-menu__link").removeClass("openNav");
+		});
 	});
-	$('.header__toggle-icon').click(function(e){
-		$(".header-menu__link").removeClass("openNav");
-	});
-});
 </script>
 
 <script>
 	// hamburger animation
-	(function() {
+	(function () {
 		var button = document.getElementById('header__toggle-button');
 		function toggleActive() {
 			button.classList.toggle('active');
 		}
 		button.addEventListener('click', toggleActive);
-		})();
+	})();
 </script>
 
 <script>
-	$(window).scroll(function() {
+	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 50) {
-				$(".header").addClass("header-bg");
+			$(".header").addClass("header-bg");
 		} else {
-				$(".header").removeClass("header-bg");
+			$(".header").removeClass("header-bg");
 		}
 	});
 </script>
 
 </html>
+
