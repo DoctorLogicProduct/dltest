@@ -9,6 +9,7 @@ product:
 - social reputation
 post_image: "/uploads/christopher-ayme-157131-1.jpg"
 post_highlight: Testing the HubSpot form.
+quote: ''
 
 ---
 Testing text.
