@@ -6,7 +6,7 @@ tags:
 - Testing
 - Content
 product:
-- Social Reputation
+- social reputation
 post_image: "/uploads/freddie-marriage-41870.jpg"
 post_highlight: Matthew Sparks on why long titles for blog posts are trending.
 quote: ''
