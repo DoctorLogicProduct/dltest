@@ -38,11 +38,13 @@ fields:
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
-- type: text
+- type: select
   name: hs_form_id
-  label: HubSpot Form
-  hidden: true
-  default: 75c57a13-9090-4db1-acd0-be51d1a76f7e
+  config:
+    source:
+      type: simple
+  label: Hubspot Form
+  description: Do Not Touch!
 pages:
 - _posts/2019-03-06-Testing-Matt.md
 - _posts/2019-03-05-Reputation-Test.md
