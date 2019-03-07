@@ -1,15 +1,16 @@
 <html>
 {% include head.html %}
 
-	<body>
+	<body class="{{page.page_class}}">
+		<main>
 		{% include header.html %}
-		<div class="main {{page.page_class}}">
+		<div>
 			{% for section in page.page_sections %}
 			{% include component-{{ section.component }}.html %}
 			{% endfor %}
 			<div class="related-posts">
 
-				<h3>Posts About {{ page.product }}</h3>
+				<h3><span>Posts</span> About {{ page.product }}</h3>
 				<div class="related-posts__cards">
 			
 				{% assign maxRelated = 2 %}
@@ -40,6 +41,7 @@
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">{{ post.tags | join: ', ' }}</p>
 								<h3>{{ post.post_title }}</h3>
+								<p class="related-posts__card-highlight">{{ post.post_highlight }}</p>
 								<p class="related-posts__card-author">By {{ post.post_author }}</p>
 							</div>
 						</a>
@@ -57,8 +59,9 @@
 				
 			
 			</div>
-			{% include footer.html %}
 		</div>
+		</main>
+		{% include footer.html %}
 	</body>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

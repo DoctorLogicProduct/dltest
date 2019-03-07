@@ -4,6 +4,7 @@ title: Social Reputation
 page_class: "social-reputation"
 product: "social reputation"
 permalink: "/products/social-reputation"
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 page_sections:
 - component: hero-1
   component_css: hero
@@ -33,7 +34,7 @@ page_sections:
   component_css: text-component
   class: social-reputation__text-component--1
   headline: 
-  - headline: "Do you know the state of your reputation?"
+  - headline: "<span>Do you know</span> the state of your reputation?"
   text: "We make it easy for all providers to know the state of their reputation. Request your FREE report today."
   btn:
   - btn-link: "#"

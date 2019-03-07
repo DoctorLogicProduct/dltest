@@ -32,10 +32,10 @@
 // Related Posts Styles
 
 .related-posts {	
-	padding: 20px;
+	padding: 20px 20px 0;
 
 	@include tablet-min {
-		padding: 60px 20px;
+		padding: 60px 20px 0;
 	}
 
 	h3 {
@@ -71,17 +71,24 @@
 		width:100%;
 		padding: 15px;
 		border-top: solid 1px $color-3;
+		display: flex;
+		align-items: center;
+
+		a {
+			text-decoration: none;
+		}
 
 		@include tablet-min {
 			border-right: solid 1px $color-3;
 		}
 
-		a {
-			text-decoration: none;
+		@include desktop-sm-min {
+			a {
 
 			&:hover .related-posts__card-text {
 				transform: translateX(3%);
 			}
+		}
 		}
 
 	}
@@ -94,7 +101,7 @@
 	}
 
 	&__card-text {
-		padding: 10px 0 0;
+		padding: 10px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -102,13 +109,15 @@
 		transition: transform .3s;
 
 		@include tablet-min {
-			padding: 10px 40px 0;
+			padding: 20px 40px;
 		}
 
 		h3 {
 			font-weight: 700;
 			font-size: 2rem;
 			text-align: left;
+			margin: 0;
+			padding: 15px 0;
 		}
 
 		h5 {
@@ -123,7 +132,6 @@
 		
 		p {
 			text-decoration: none;
-			font-size: .7rem;
 			margin: 0;
 		}
 
@@ -131,10 +139,31 @@
 
 	&__card-tags {
 		color: $color-3;
+		font-size: .7rem;
 	}
 
 	&__card-author {
 		color: $color-1;
 		font-style: italic;
+		text-transform: none;
+		font-size: .7rem;
+	}
+
+	&__card-highlight {
+		color: $color-1;
+		text-transform: none;
+		font-size: .9rem;
+		padding: 15px 0;
+	}
+}
+
+body.social-reputation {
+
+	.related-posts__card {
+		border-color: $reputation;	
+	}
+
+	.related-posts__card-tags {
+		color: $reputation;
 	}
 }

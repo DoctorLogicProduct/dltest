@@ -11,6 +11,7 @@ body {
 	top: 0;
 	transition: right 1s;
 	background: $color-2;
+	z-index: 1;
 
 	@include tablet-min {
 		font-size: 1.1rem;
@@ -18,7 +19,11 @@ body {
 }
 
 main {
-	min-height: 100vh;
+	background: $color-2;
+
+	@include tablet-min {
+		margin-bottom: 700px;
+	}
 }
 
 h1,
@@ -73,7 +78,7 @@ h2 {
 
 h3 {
 	font-size: 1.5rem;
-	line-height: .8;
+	line-height: .9;
 	text-align: left;
 	margin: 20px 0 0;
 
@@ -83,7 +88,6 @@ h3 {
 
 	span {
 		font-weight: 700;
-		display: block;
 		font-size: 1.7rem;
 
 		@include desktop-sm-min {

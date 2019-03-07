@@ -1,21 +1,70 @@
 ---
-layout: default
-page_menu: false
-title: page.title
-description: page.description
 hs_form_id: 752d9537-626f-4b98-877e-c244f19579cb
 ---
-<div class="post">
-	<div class="post__container">
-	<h2>{{ page.post_title }}</h2>
-	<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-		<div class="post__featured-image">
-			<img src="{{ page.post_image }}" alt="">
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="{{page.page_class}}">
+	{% include header.html %}
+	<main>
+		<div class="post">
+			<div class="post__container">
+				<h2>{{ page.post_title }}</h2>
+				<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %}
+					• {{ page.meta }}{% endif %}</time>
+				<div class="post__featured-image">
+					<img src="{{ page.post_image }}" alt="">
+				</div>
+				<div class="post__body">
+					<h2 class="page__quote">{{ page.quote }}</h2>
+					<h3 class="post__highlight">{{ page.post_highlight }}</h3>
+					{{ content }}
+				</div>
+			</div>
 		</div>
-		<div class="post__body">
-			<h2 class="page__quote">{{ page.quote }}</h2>
-			<h3 class="post__highlight">{{ page.post_highlight }}</h3>
-			{{ content }}
-		</div>
-	</div>
-</div>
+	</main>
+	{% include footer.html %}
+</body>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+	//off-canvas nav for mobile
+	$(document).ready(function () {
+		$('.header__toggle-icon').click(function (e) {
+			e.preventDefault();
+			$("body").toggleClass("openNav");
+		});
+		$('.header__toggle-icon').click(function (e) {
+			$(".header-menu__link").removeClass("openNav");
+		});
+	});
+</script>
+
+<script>
+	// hamburger animation
+	(function () {
+		var button = document.getElementById('header__toggle-button');
+		function toggleActive() {
+			button.classList.toggle('active');
+		}
+		button.addEventListener('click', toggleActive);
+	})();
+</script>
+
+<script>
+	$(window).scroll(function () {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$(".header").addClass("header-bg");
+		} else {
+			$(".header").removeClass("header-bg");
+		}
+	});
+</script>
+
+</html>
+
