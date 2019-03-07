@@ -9,7 +9,7 @@ product:
 - social reputation
 post_image: "/uploads/christopher-ayme-157131-1.jpg"
 quote: ''
-post_highlight: ''
+post_highlight: Keisha Dunstan on the growing trend of blog posts with long titles.
 
 ---
 This is a test post.
