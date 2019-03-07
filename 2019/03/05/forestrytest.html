@@ -19,7 +19,7 @@
 </head>
 
 
-<body class="">
+<body>
 	<header class="header">
 	<div class="header__wrapper">
 		<a class="header__logo-wrapper" href="/">
@@ -47,21 +47,22 @@
 </header>
 
 	<main>
-		<div class="post">
-			<div class="post__container">
-				<h2>Forestry Test Post</h2>
-				<time>Mar 5, 2019</time>
-				<div class="post__featured-image">
-					<img src="/uploads/GrowPractice.jpg" alt="">
-				</div>
-				<div class="post__body">
-					<h2 class="page__quote"></h2>
-					<h3 class="post__highlight"></h3>
-					<p>This is a test using the forestry CMS</p>
-
-				</div>
-			</div>
+			<div class="post">
+	<div class="post__container">
+	<h2>Forestry Test Post</h2>
+	<time>Mar 5, 2019</time>
+		<div class="post__featured-image">
+			<img src="/uploads/GrowPractice.jpg" alt="">
 		</div>
+		<div class="post__body">
+			<h2 class="page__quote"></h2>
+			<h3 class="post__highlight"></h3>
+			<p>This is a test using the forestry CMS</p>
+
+		</div>
+	</div>
+</div>
+
 	</main>
 	<footer>
 	<div class="footer-form">
@@ -98,39 +99,38 @@
 
 <script>
 	//off-canvas nav for mobile
-	$(document).ready(function () {
-		$('.header__toggle-icon').click(function (e) {
-			e.preventDefault();
-			$("body").toggleClass("openNav");
-		});
-		$('.header__toggle-icon').click(function (e) {
-			$(".header-menu__link").removeClass("openNav");
-		});
+	$(document).ready(function(){
+	$('.header__toggle-icon').click(function(e){
+		e.preventDefault();
+		$("body").toggleClass("openNav");
 	});
+	$('.header__toggle-icon').click(function(e){
+		$(".header-menu__link").removeClass("openNav");
+	});
+});
 </script>
 
 <script>
 	// hamburger animation
-	(function () {
+	(function() {
 		var button = document.getElementById('header__toggle-button');
 		function toggleActive() {
 			button.classList.toggle('active');
 		}
 		button.addEventListener('click', toggleActive);
-	})();
+		})();
 </script>
 
 <script>
-	$(window).scroll(function () {
+	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 50) {
-			$(".header").addClass("header-bg");
+				$(".header").addClass("header-bg");
 		} else {
-			$(".header").removeClass("header-bg");
+				$(".header").removeClass("header-bg");
 		}
 	});
 </script>
 
 </html>
-
