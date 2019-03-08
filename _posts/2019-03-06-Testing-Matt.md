@@ -10,7 +10,6 @@ product:
 post_image: "/uploads/caleb-fisher-7320.jpg"
 quote: ''
 post_highlight: Matt Sparks discusses the advantages of Test Matt Test.
-hs_form_id: ''
 
 ---
 test text test test
