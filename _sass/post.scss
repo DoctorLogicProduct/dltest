@@ -9,7 +9,6 @@
 		width: 100%;
 		max-width: 900px;
 		margin: 0 auto;
-		padding: 0 0 60px;
 
 		h1 {
 			font-size: 3.5rem;
@@ -29,15 +28,33 @@
 	&__featured-image {
 		width: 100%;
 		max-width: 1200px;
-		margin: 0 auto;
+		margin: 60px auto;
 		background-size: cover !important;
 		background-position: center center !important;
 		background-repeat: no-repeat !important;
 		min-height: 600px;
 	}
 
-	&__hightlight {
-		color: red;
+	&__body {
+		
+		p {
+			max-width: 900px;
+			margin: 20px auto;
+		}
+
+		img {
+			max-width: 900px;
+			height: auto;
+			margin: 40px auto;
+		}
+	}
+
+	&__quote {
+		max-width: 1200px;
+		margin: 40px auto;
+		font-size: 2rem;
+		line-height: 1.2;
+		text-align: center;
 		font-style: italic;
 	}
 
