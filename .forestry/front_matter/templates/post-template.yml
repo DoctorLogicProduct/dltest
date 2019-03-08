@@ -26,6 +26,12 @@ fields:
   name: product
   label: Product
   description: Products associated with this post
+- type: textarea
+  name: post_intro
+  label: Post Intro
+  description: Introduction paragraph to post
+  config:
+    required: true
 - type: file
   name: post_image
   label: Post Image
@@ -38,10 +44,6 @@ fields:
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
-- type: include
-  label: Hubspot Form
-  name: hubspot_form
-  template: hubspot
 pages:
 - _posts/2019-03-08-Post-With-Form.md
 - _posts/2019-03-06-Testing-Matt.md
