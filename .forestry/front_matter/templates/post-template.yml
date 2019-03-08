@@ -37,10 +37,6 @@ fields:
   label: Post Image
   description: This is the featured image for the post.
 - type: text
-  name: quote
-  label: Quote
-  description: block quote
-- type: text
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
