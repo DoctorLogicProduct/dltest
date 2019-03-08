@@ -13,4 +13,4 @@ post_highlight: ''
 hs_form_id: ''
 
 ---
-This is a test post. test
+This is a test post.
