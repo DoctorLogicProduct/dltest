@@ -28,3 +28,5 @@ Kenner delivered on its promise. Throughout early 1978, children received the pr
 That first act of trust ignited a phenomenon. _Star Wars_ collecting became a hobby, then a passion, then a worldwide industry with insurance policies protecting collections worth millions and collectors chasing the rarest and most elusive pieces. In 2017, that hobby would be tested by an aspiring collector, a thief hidden in plain sight, and a rare plastic action figure worth more than your average car.
 
 In early February 2017, 39-year-old collector Zach Tann would unknowingly set in motion one of the biggest scandals in _Star Wars_ collecting history.
+
+> When kids immediately fell in love with Luke Skywalker, Princess Leia, and Darth Vader, their action figures were nowhere near ready.
