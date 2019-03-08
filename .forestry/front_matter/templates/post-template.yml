@@ -15,10 +15,6 @@ fields:
   config:
     required: true
 - type: text
-  name: permalink
-  label: Permalink
-  description: 'Link to blog post. Should be like this: /blog/...'
-- type: text
   name: post_author
   label: Author
   description: Author of this post
