@@ -13,4 +13,6 @@ quote: This is a block quote
 ---
 test text test
 
-<h2>{{ page.quote }}</h2>
+<div class="post__quote"
+    <h2>{{ page.quote }}</h2>
+</div>
