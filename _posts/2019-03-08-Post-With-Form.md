@@ -11,6 +11,6 @@ post_highlight: This is a post with a form.
 quote: This is a block quote
 
 ---
-test text
+test text test
 
-{{ page.quote }}
+<h2>{{ page.quote }}</h2>
