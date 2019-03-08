@@ -6,16 +6,15 @@ description: page.description
 hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
 ---
 <div class="post">
-	<div class="post__container">
-	<h2>{{ page.post_title }}</h2>
-	<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-		<div class="post__featured-image">
-			<img src="{{ page.post_image }}" alt="">
-		</div>
-		<div class="post__body">
-			<h2 class="page__quote">{{ page.quote }}</h2>
-			<h3 class="post__highlight">{{ page.post_highlight }}</h3>
-			{{ content }}
-		</div>
+	<div class="post__title">
+		<h1>{{ page.post_title }}</h1>
+		<p class="post__title--author">By: {{ page.post_author }}</p>
+		<p class="post__title--intro"> {{ page.post_intro }}</p>
+		<!-- <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time> -->
+	</div>
+	<div class="post__featured-image" style="background: url('{{ page.post_image }}')"></div>
+	<div class="post__body">
+		<h3 class="post__highlight">{{ page.post_highlight }}</h3>
+		{{ content }}
 	</div>
 </div>
