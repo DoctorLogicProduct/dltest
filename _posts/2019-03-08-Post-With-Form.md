@@ -8,6 +8,9 @@ product:
 - social reputation
 post_image: "/uploads/GrowPractice.jpg"
 post_highlight: This is a post with a form.
+quote: This is a block quote
 
 ---
 test text
+
+{{ page.quote }}
