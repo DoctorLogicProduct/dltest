@@ -13,6 +13,7 @@ quote: When kids immediately fell in love with Luke Skywalker, Princess Leia, an
 post_intro: 'The short answer for why you should never rush branding is this: Your
   brand encompasses every touchpoint your organization has with its users. It will
   outlive any marketing campaign, website design, or even product UI.'
+permalink: "/blog/new-post-with-form"
 
 ---
 When George Lucas's film premiered on May 25, 1977, no one knew it would even succeed, much less become a decades-spanning, money-making juggernaut. Certainly not Kenner, the company tasked with making _Star Wars_ toys. Kenner had acquired the _Star Wars_ merchandising license only a month before the film’s release. When kids immediately fell in love with Luke Skywalker, Princess Leia, and Darth Vader, their action figures were nowhere near ready.
