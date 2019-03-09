@@ -1,6 +1,10 @@
 .post {
 	width: 100%;
-	padding: 120px 20px;
+	padding: 60px 20px 0;
+
+	@include tablet-min {
+		padding: 120px 20px 0;
+	}
 
 	&__title {
 		width: 100%;
@@ -8,17 +12,25 @@
 		margin: 0 auto;
 
 		h1 {
-			font-size: 3.5rem;
+			font-size: 3rem;
 			line-height: 1;
 			font-weight: 700;
 			max-width: 90%;
 			margin: 0 0 15px;
+
+			@include tablet-min {
+				font-size: 3.5rem;
+			}
 		}
 
 		&--intro {
-			font-size: 1.8rem;
+			font-size: 1.4rem;
 			font-weight: 300;
 			line-height: 1.4;
+
+			@include tablet-min {
+				font-size: 1.8rem;
+			}
 		}
 	}
 
@@ -29,7 +41,13 @@
 		background-size: cover !important;
 		background-position: center center !important;
 		background-repeat: no-repeat !important;
-		min-height: 600px;
+		min-height: 400px;
+		background-attachment: scroll !important;
+
+		@include tablet-min {
+			min-height: 600px;
+			background-attachment: fixed !important;
+		}
 	}
 
 	&__body {
@@ -41,6 +59,7 @@
 
 		img {
 			max-width: 900px;
+			width: 100%;
 			height: auto;
 			margin: 40px auto;
 		}
@@ -49,10 +68,14 @@
 	blockquote p {
 		max-width: 1300px;
 		margin: 40px auto;
-		font-size: 2rem;
+		font-size: 1.4rem;
 		line-height: 1.3;
 		text-align: center;
 		font-style: italic;
+
+		@include tablet-min {
+			font-size: 2rem;
+		}
 	}
 	
 
@@ -137,11 +160,19 @@
 	&__social {
 		max-width: 900px;
 		margin: 0 auto;
+		padding-bottom: 40px;
 
 		p {
 			text-transform: uppercase;
 			font-size: .9rem;
 			margin-bottom: 5px;
+			text-align: center;
+			padding: 0 0 20px;
+
+			@include tablet-min {
+				text-align: left;
+				padding: 0;
+			}
 		}
 
 		ul {
@@ -151,8 +182,15 @@
 		}
 
 		li {
-			display: inline;
-			padding: 0 20px 20px 0;
+			display: block;
+			padding: 0 0 20px;
+			text-align: center;
+
+			@include tablet-min {
+				padding: 0 20px 20px 0;
+				display: inline;
+				text-align: left;
+			}
 		}
 	}
 
