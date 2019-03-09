@@ -1,7 +1,4 @@
 .post {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	width: 100%;
 	padding: 120px 20px;
 
@@ -27,7 +24,7 @@
 
 	&__featured-image {
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1300px;
 		margin: 60px auto;
 		background-size: cover !important;
 		background-position: center center !important;
@@ -50,12 +47,113 @@
 	}
 
 	blockquote p {
-		max-width: 1200px;
+		max-width: 1300px;
 		margin: 40px auto;
 		font-size: 2rem;
-		line-height: 1.2;
+		line-height: 1.3;
 		text-align: center;
 		font-style: italic;
+	}
+	
+
+	&__footer-author {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 40px 0;
+
+		@include tablet-min {
+				justify-content: flex-start;
+		}
+
+	}
+
+	&__footer-author-img {
+		flex: 0 0 100%;
+
+		@include tablet-min {
+				flex: 0 0 auto;
+				padding-right: 20px;
+		}
+
+		img {
+			max-width: 75px;
+			height: auto;
+			border-radius: 50%;
+			display: block;
+			margin: 0 auto;
+
+			@include phone-wide-min {
+				margin: 0;
+			}
+
+			@include tablet-min {
+				max-width: 125px;
+			}
+		}
+	}
+
+	&__footer-author-info {
+		flex: 0 0 100%;
+
+		@include tablet-min {
+				flex: 0 0 50%;
+		}
+
+		&--name {
+			font-size: .9rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+
+			@include phone-wide-min {
+				text-align: left;
+			}
+		}
+
+		&--title {
+			font-size: .9rem;
+			font-style: italic;
+			text-align: center;
+			
+			@include phone-wide-min {
+				text-align: left;
+			}
+		}
+
+		&--desc {
+			font-size: .9rem;
+			text-align: center;
+
+			@include phone-wide-min {
+				text-align: left;
+			}
+		}
+	}
+
+	&__social {
+		max-width: 900px;
+		margin: 0 auto;
+
+		p {
+			text-transform: uppercase;
+			font-size: .9rem;
+			margin-bottom: 5px;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		li {
+			display: inline;
+			padding: 0 20px 20px 0;
+		}
 	}
 
 }
