@@ -53,11 +53,11 @@ h2 {
 	margin: 0 0 10px;
 
 	@include desktop-sm-min {
-		font-size: 3.5vw;
+		font-size: 3vw;
 	}
 
 	@include desktop-wide-min {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	span {
@@ -119,6 +119,19 @@ a {
 
 a:hover {
 	color: $color-4;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
 }
 
 

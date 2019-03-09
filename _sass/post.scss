@@ -57,6 +57,16 @@
 			margin: 20px auto;
 		}
 
+		h2, h3, h4, h5 {
+			max-width: 900px;
+			margin: 40px auto;
+		}
+
+		ul, ol {
+			max-width: 900px;
+			margin: 0 auto;
+		}
+
 		img {
 			max-width: 900px;
 			width: 100%;
@@ -86,7 +96,7 @@
 		justify-content: center;
 		max-width: 900px;
 		margin: 0 auto;
-		padding: 40px 0;
+		padding: 60px 0;
 
 		@include tablet-min {
 				justify-content: flex-start;
@@ -185,6 +195,10 @@
 			display: block;
 			padding: 0 0 20px;
 			text-align: center;
+
+			&::before {
+				display: none;
+			}
 
 			@include tablet-min {
 				padding: 0 20px 20px 0;
