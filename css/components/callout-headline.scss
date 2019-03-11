@@ -4,28 +4,22 @@
 
 @import "mq", "base";
 
-.callout {
+.callout-headline {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 20px;
-	min-height: 500px;
+	padding: 60px 20px;
 	background: $gradient-website-marketing;
 
 	@include tablet-min {
-		padding: 60px 5%;
+		padding: 30px 5%;
 	}
 
-	h2 {
+	h4 {
 		text-align: center;
 		color: $color-2;
-	}
-
-	p {
-		text-align: center;
-		color: $color-2;
-		max-width: 1200px;
+		margin: 0;
 	}
 
 	&__websites {

@@ -37,19 +37,42 @@ h4 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 2.5em;
-	a,
-	a:visited {
-		text-decoration: none;
+	text-align: left;
+	font-weight: 400;
+	max-width: 100%;
+	font-size: 2rem;
+	line-height: .9;
+	margin: 0 0 10px;
+
+	@include desktop-sm-min {
+		font-size: 5.5vw;
 	}
+
+	@include desktop-wide-min {
+		font-size: 4rem;
+	}
+
+	// span {
+	// 	font-weight: 700;
+	// 	font-size: 2rem;
+	// 	display: block;
+
+	// 	@include desktop-sm-min {
+	// 		font-size: 4.5vw;
+	// 	}
+
+	// 	@include desktop-wide-min {
+	// 		font-size: 3.5rem;
+	// 	}
+	// }
 }
 
 h2 {
 	text-align: left;
-	font-weight: 300;
+	font-weight: 400;
 	max-width: 100%;
 	font-size: 1.8rem;
-	line-height: .8;
+	line-height: 1;
 	margin: 0 0 10px;
 
 	@include desktop-sm-min {
@@ -60,40 +83,41 @@ h2 {
 		font-size: 2.5rem;
 	}
 
-	span {
-		font-weight: 700;
-		font-size: 2rem;
-		display: block;
+	// span {
+	// 	font-weight: 700;
+	// 	font-size: 2rem;
+	// 	display: block;
 
-	@include desktop-sm-min {
-		font-size: 4.5vw;
-	}
+	// @include desktop-sm-min {
+	// 	font-size: 4.5vw;
+	// }
 
-	@include desktop-wide-min {
-		font-size: 3.5rem;
-	}
+	// @include desktop-wide-min {
+	// 	font-size: 3.5rem;
+	// }
 		
-	}
+	// }
 }
 
 h3 {
 	font-size: 1.5rem;
-	line-height: .9;
+	line-height: 1;
 	text-align: left;
 	margin: 20px 0 0;
+	font-weight: 400;
 
 	@include desktop-sm-min {
 		font-size: 1.7rem;
 	}
 
-	span {
-		font-weight: 700;
-		font-size: 1.7rem;
+	// span {
+	// 	font-weight: 700;
+	// 	font-size: 1.7rem;
 
-		@include desktop-sm-min {
-			font-size: 2rem;
-		}
-	}
+	// 	@include desktop-sm-min {
+	// 		font-size: 2rem;
+	// 	}
+	// }
 }
 
 h4 {

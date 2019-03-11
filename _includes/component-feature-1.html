@@ -12,6 +12,8 @@
       <p>{{ section.text }}</p>
       <a class="btn" href="{{ section.btn-link }}">{{ section.btn-label }}</a>
     </div>
-    <div class="feature__image" style="background:url('{{ section.img | relative_url }}')"></div>
+    <div class="feature__image">
+      <div class="feature__image-wrapper" style="background:url('{{ section.img | relative_url }}')"></div>
+    </div>
 </section>
 {% endif %}

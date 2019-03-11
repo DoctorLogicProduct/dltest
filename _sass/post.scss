@@ -3,7 +3,7 @@
 	padding: 60px 20px 0;
 
 	@include tablet-min {
-		padding: 120px 20px 0;
+		padding: 180px 20px 0;
 	}
 
 	&__title {
@@ -14,7 +14,6 @@
 		h1 {
 			font-size: 3rem;
 			line-height: 1;
-			font-weight: 700;
 			max-width: 90%;
 			margin: 0 0 15px;
 
@@ -29,7 +28,7 @@
 			line-height: 1.4;
 
 			@include tablet-min {
-				font-size: 1.8rem;
+				font-size: 1.6rem;
 			}
 		}
 	}
@@ -46,7 +45,7 @@
 
 		@include tablet-min {
 			min-height: 600px;
-			background-attachment: fixed !important;
+			
 		}
 	}
 
@@ -294,7 +293,6 @@
 		}
 
 		h3 {
-			font-weight: 700;
 			font-size: 2rem;
 			text-align: left;
 			margin: 0;

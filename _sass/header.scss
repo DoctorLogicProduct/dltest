@@ -1,7 +1,6 @@
 .header {
 	width: 100%;
-	position: sticky;
-	position: -webkit-sticky;
+	position: fixed;
 	top: 0;
 	right: 0;
 	z-index: 3;
@@ -25,7 +24,7 @@
 	transition: background .3s height .3s;
 
 	@include desktop-min {
-		padding: 20px 80px;
+		padding: 10px 80px;
 		justify-content: center;
 	}
 }
@@ -41,13 +40,9 @@
 	background: url('../img/header-logo.svg') left center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 70px;
+	height: 50px;
 	transition: height .3s;
 	display: block;
-
-	@include phone-min {
-		height: 60px;
-	}
 
 }
 
@@ -58,7 +53,7 @@
 	display: block;
 
 	@include desktop-min {
-		height: 60px;
+		height: 50px;
 	}
 }
 

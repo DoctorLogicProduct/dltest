@@ -27,20 +27,20 @@ $growth-2: #4E65AF;
 
 // Product Gradients
 
-$gradient-website-marketing: linear-gradient(to right, rgba(8,107,181,1) 0%,rgba(0,185,182,1) 100%);
-$gradient-website-marketing-reverse: linear-gradient(to left, rgba(8,107,181,1) 0%,rgba(0,185,182,1) 100%);
-$gradient-content-multiplier: linear-gradient(to right, rgba(237,17,121,1) 0%,rgba(243,107,33,1) 100%);
-$gradient-content-multiplier-reverse: linear-gradient(to left, rgba(237,17,121,1) 0%,rgba(243,107,33,1) 100%);
-$gradient-reputation-manager: linear-gradient(to right, #11998e, #38ef7d);
-$gradient-reputation-manager-reverse: linear-gradient(to left, #11998e, #38ef7d);
-$gradient-search-amplifier: linear-gradient(to right, rgba(100,130,193,1) 0%,rgba(78,196,211,1) 100%);
-$gradient-search-amplifier-reverse: linear-gradient(to left, rgba(100,130,193,1) 0%,rgba(78,196,211,1) 100%);
-$gradient-lead-generator: linear-gradient(to right, #6a52a2, #a5509f);
-$gradient-lead-generator-reverse: linear-gradient(to left, #6a52a2, #a5509f);
-$gradient-success-insights: linear-gradient(to right, rgba(240,77,37,1) 0%,rgba(246,182,47,1) 100%);
-$gradient-success-insights-reverse: linear-gradient(to left, rgba(240,77,37,1) 0%,rgba(246,182,47,1) 100%);
-$gradient-growth-accelerators: linear-gradient(to right, rgba(239,72,108,1) 0%,rgba(78,101,175,1) 100%);
-$gradient-growth-accelerators-reverse: linear-gradient(to left, rgba(239,72,108,1) 0%,rgba(78,101,175,1) 100%);
+$gradient-website-marketing: linear-gradient(45deg, $websites,$websites-2);
+$gradient-website-marketing-reverse: linear-gradient(45deg, $websites-2,$websites);
+$gradient-content-multiplier: linear-gradient(45deg, $content,$content-2);
+$gradient-content-multiplier-reverse: linear-gradient(45deg, $content-2,$content);
+$gradient-social-reputation: linear-gradient(45deg, $reputation, $reputation-2);
+$gradient-social-reputation-reverse: linear-gradient(45deg, $reputation-2, $reputation);
+$gradient-search-amplifier: linear-gradient(45deg, $search,$search-2);
+$gradient-search-amplifier-reverse: linear-gradient(45deg, $search-2,$search);
+$gradient-lead-generator: linear-gradient(45deg, $leads, $leads-2);
+$gradient-lead-generator-reverse: linear-gradient(45deg, $leads-2, $leads);
+$gradient-success-insights: linear-gradient(45deg, $success,$success-2);
+$gradient-success-insights-reverse: linear-gradient(45deg, $success-2,$success);
+$gradient-growth-accelerators: linear-gradient(45deg, $growth,$growth-2);
+$gradient-growth-accelerators-reverse: linear-gradient(45deg, $growth-2,$growth);
 
 // Additional Styles
 

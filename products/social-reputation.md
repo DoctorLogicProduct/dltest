@@ -12,7 +12,11 @@ page_sections:
   headline: "<span>Reputation</span> Made Easy."
   text: "When it comes to healthcare marketing, your online reputation is extremely important. You can be top of Google for every medical keyword, but if you’re online reviews are poor you will lose potential new patients."
   btn:
-  img: "../img/products/social-reputation/hero-img.svg" 
+  img: "../img/products/social-reputation/hero-img.svg"
+- component: callout-headline
+  component_css: callout-headline
+  class: callout-headline__reputation
+  headline: "94% of patients use online reviews to evaluate physicians."
 - component: feature-1
   component_css: feature
   class: social-reputation__feature--1

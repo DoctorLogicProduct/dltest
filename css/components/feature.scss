@@ -54,16 +54,25 @@
 	&__image {
 		grid-column: auto / span 24;
 		grid-row: 1 / span 1;
-		background-size: contain !important;
-		background-position: center center !important;
-		background-repeat: no-repeat !important;
 		min-height: 60vh;
+		position: relative;
 
 		@include tablet-min {
 			grid-column: auto / span 12;
 			grid-row: auto;
 			justify-content: center;
 		}
+	}
+
+	&__image-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: contain !important;
+		background-position: center center !important;
+		background-repeat: no-repeat !important;
 	}
 
 }
