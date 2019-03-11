@@ -11,6 +11,7 @@ product:
 quote: ''
 post_highlight: ''
 post_author: Matthew Sparks
+post_intro: bob intro
 
 ---
-This is a test using the forestry CMS
+This is a test using the forestry CMS bob
