@@ -9,7 +9,7 @@ tags:
 product:
 - social reputation
 quote: ''
-post_highlight: ''
+post_highlight: This is a test post from forestry interface.
 post_author: Andre Riley
 post_intro: This is a test post from forestry interface.
 
