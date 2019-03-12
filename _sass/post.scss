@@ -378,12 +378,12 @@ body.social-reputation {
 		@include desktop-sm-min {
 			a {
 
-			&:hover .related-posts__card-text {
-				transform: translateX(3%);
+				&:hover .related-posts__card-text {
+					transform: translateX(3%);
+				}
 			}
 		}
-		}
-
+		
 	}
 
 	&__card-image {
@@ -399,19 +399,17 @@ body.social-reputation {
 		padding: 10px;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		transform: translateX(0);
 		transition: transform .3s;
 
 		@include tablet-min {
-			padding: 20px 40px;
+			padding: 20px 20px 10px;
 		}
 
 		h3 {
 			font-size: 2rem;
 			text-align: left;
 			margin: 0;
-			padding: 15px 0;
 		}
 
 		h5 {
@@ -426,7 +424,6 @@ body.social-reputation {
 		
 		p {
 			text-decoration: none;
-			margin: 0;
 		}
 
 	}
@@ -443,6 +440,7 @@ body.social-reputation {
 		font-size: .7rem;
 		display: flex;
 		align-items: center;
+		margin-top: auto;
 
 		img {
 			max-width: 40px;
@@ -452,11 +450,31 @@ body.social-reputation {
 		}
 	}
 
+	&__card-date {
+		font-size: .9rem;
+		color: $color-1;
+	}
+
 	&__card-highlight {
 		color: $color-1;
 		text-transform: none;
 		font-size: 1rem;
 		padding: 15px 0;
+	}
+
+	&__unfeatured {
+		@include grid;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 100px 0; 
+	}
+
+	&__unfeatured-list {
+		grid-column: auto / span 18;
+	}
+
+	&__tags {
+		grid-column: auto / span 6;
 	}
 
 }
