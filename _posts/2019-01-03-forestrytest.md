@@ -10,8 +10,8 @@ product:
 - social reputation
 quote: ''
 post_highlight: ''
-post_author: Matthew Sparks
-post_intro: bob intro
+post_author: Andre Riley
+post_intro: This is a test post from forestry interface.
 
 ---
 This is a test using the forestry CMS bob
