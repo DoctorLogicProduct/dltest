@@ -1,0 +1,82 @@
+---
+layout: default
+title: The DoctorLogic Blog - All Posts
+description: Discover the latest content from DoctorLogic - blog posts, helpful tips, platform updates, and more!
+permalink: /blog
+page_hidden: false
+page_name: bloglist
+hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
+---
+
+<div class="blog-list">
+	<div class="posts__container">
+		<div class="blog-list__featured">
+			<h2 class="blog-list__headline">Latest Posts:</h2>
+			{% for post in site.posts limit:4 %}
+				<a class="blog-list__card" href="{{post.permalink}}">
+					<div class="blog-list__card-image" style="background: url({{post.post_image}}) center center/cover;"></div>
+					<div class="blog-list__card-text">
+						<h3>{{ post.post_title }}</h3>
+						<div class="post__card-author">
+							<!-- Set author object, default if none; -->
+							{% for author in site.data.blog.authors %}
+							{% if post.post_author == author.name %}
+							{% assign authorIndex = forloop.index0 | plus: 0 %}
+							{% break %}
+							{% else %}
+							{% assign authorIndex = 0 %}
+							{% endif %}
+							{% endfor %}
+							{% assign author = site.data.blog.authors[authorIndex] %}
+							<p class="blog-list__card-highlight">{{ post.post_highlight }}</p>
+							<p class="blog-list__card-author"><img src="{{author.img}}" alt="">{{ post.post_author }}</p>
+							<p class="blog-list__card-date">{{ post.date | date: '%B %d, %Y' }}</p>
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+		<div class="posts__list">
+			<h2>More Posts:</h2>
+			{% for post in site.posts offset:4 %}
+			{% if post.categories[0] == "content" %}
+			{% if post.live %}
+			<div class="post">
+				<div class="post__img" style="background: url({{post.thumb}}) center center/cover;"></div>
+				<div class="post__info">
+					<h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+					<div class="post__info-date">
+						{{ post.date | date: '%B %d, %Y' }}
+					</div>
+					<div class="post__info-preview">
+						<p>{{ post.teaser }}</p>
+						<a class="" href="{{ post.permalink }}">Read more</a>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+		</div>
+		<div class="posts__tags">
+			<h2>Filter By:</h2>
+			<ul class="posts__tags-list">
+				{% for tag in site.tags %}
+				<li class="posts__tags-link"><a href="{{ '/posts/tag/' | append:tag[0] }}"
+						rel="tag">{{ tag[0] | replace: '-', ' ' }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="blog__subscription">
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+	<script>
+		hbspt.forms.create({
+			css: '',
+			portalId: '2805307',
+			formId: '752d9537-626f-4b98-877e-c244f19579cb'
+		});
+	</script>
+</div>

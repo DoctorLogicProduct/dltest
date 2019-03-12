@@ -8,7 +8,7 @@
 	padding: 20px;
 
 	@include tablet-min {
-		padding: 60px 5%;
+		padding: 60px 0 0 5%;
 	}
 
 		&__text {
@@ -26,6 +26,10 @@
 				justify-content: center;
 				align-items: flex-start;
 				padding: 40px;
+			}
+
+			@include desktop-min {
+				grid-column: auto / span 10;
 			}
 
 			h2, p {
@@ -50,13 +54,15 @@
 			@include tablet-min {
 				grid-column: auto / span 12;
 				grid-row: auto;
-				background-position: right center !important;
+				background-size: cover !important;
+				background-position: left top !important;
 				min-height: 80vh;
 			}
 
-			@include tablet-wide-min {
-				background-position: right top !important;
+			@include desktop-min {
+				grid-column: auto / span 14;
 			}
+
 		}
 
 }
