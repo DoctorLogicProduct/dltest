@@ -41,7 +41,6 @@ fields:
   label: Post Highlight
   description: This the highlight text
 pages:
-- _posts/2019-03-01-file.md
 - _posts/2019-03-08-Post-With-Form.md
 - _posts/2019-03-06-Testing-Matt.md
 - _posts/2019-03-05-Reputation-Test.md
