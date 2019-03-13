@@ -8,7 +8,15 @@
 	<link rel="stylesheet" href="/css/main.css">
 
 	
+		
+		<link rel="stylesheet" href="/css/components/hero.css">
+		
+	
 
+	
+		
+		<link rel="stylesheet" href="/css/pages/blog-list-page.css">
+		
 	
 
 	<!-- <link rel="stylesheet" href="css/flickity.css">
@@ -46,9 +54,21 @@
 	</div>
 </header>
 
-	<main>
-			<div class="blog-list">
-	<div class="posts__container">
+	<main class="blog-list-page">
+			
+<section class="component hero hero-1 blog-list-hero">
+  <div class="hero-1__text">
+    <h1>The DoctorLogic Blog</h1>
+    <p>When it comes to healthcare marketing, your online reputation is extremely important. You can be top of Google for every medical keyword, but if you’re online reviews are poor you will lose potential new patients.</p>
+    
+  </div>
+  <div class="hero-1__image" style="background: url('../img/hero/blog-list-hero-img.svg')"></div>
+</section>
+
+
+
+<div class="blog-list">
+	<div class="blog-list__container">
 		<div class="blog-list__featured">
 			<h2 class="blog-list__headline">Latest Posts:</h2>
 			
@@ -108,13 +128,13 @@
 							
 							
 							<p class="blog-list__card-highlight">This is a post with a form.</p>
-							<p class="blog-list__card-author"><img src="/img/people/mattsparks.jpg" alt="">Matt Sparks</p>
 							<p class="blog-list__card-date">March 08, 2019</p>
+							<p class="blog-list__card-author"><img src="/img/people/mattsparks.jpg" alt="">By: Matt Sparks</p>
 						</div>
 					</div>
 				</a>
 			
-				<a class="blog-list__card" href="/blog/:title:output_ext">
+				<a class="blog-list__card" href="/blog/Testing-Matt.html">
 					<div class="blog-list__card-image" style="background: url(/uploads/caleb-fisher-7320.jpg) center center/cover;"></div>
 					<div class="blog-list__card-text">
 						<h3>test matt test</h3>
@@ -154,13 +174,13 @@
 							
 							
 							<p class="blog-list__card-highlight">Matt Sparks discusses the advantages of Test Matt Test.</p>
-							<p class="blog-list__card-author"><img src="/img/people/maryrobb.jpg" alt="">Mary Robb</p>
 							<p class="blog-list__card-date">March 05, 2019</p>
+							<p class="blog-list__card-author"><img src="/img/people/maryrobb.jpg" alt="">By: Mary Robb</p>
 						</div>
 					</div>
 				</a>
 			
-				<a class="blog-list__card" href="/blog/:title:output_ext">
+				<a class="blog-list__card" href="/blog/Reputation-Test.html">
 					<div class="blog-list__card-image" style="background: url(/uploads/iStock_56001286_XXLARGE.jpg) center center/cover;"></div>
 					<div class="blog-list__card-text">
 						<h3>Reputation is key</h3>
@@ -220,13 +240,13 @@
 							
 							
 							<p class="blog-list__card-highlight">What do effective teamwork and Russian literature have in common?</p>
-							<p class="blog-list__card-author"><img src="/img/people/keishadunstan.jpg" alt="">Keisha Dunstan</p>
 							<p class="blog-list__card-date">March 05, 2019</p>
+							<p class="blog-list__card-author"><img src="/img/people/keishadunstan.jpg" alt="">By: Keisha Dunstan</p>
 						</div>
 					</div>
 				</a>
 			
-				<a class="blog-list__card" href="/blog/:title:output_ext">
+				<a class="blog-list__card" href="/blog/Post-List-2.html">
 					<div class="blog-list__card-image" style="background: url(/uploads/Design.jpg) center center/cover;"></div>
 					<div class="blog-list__card-text">
 						<h3>Test Post with List 2</h3>
@@ -282,53 +302,72 @@
 							
 							
 							<p class="blog-list__card-highlight">This is the post highlight.  It is the catchy text of a post.</p>
-							<p class="blog-list__card-author"><img src="/img/people/mattsparks.jpg" alt="">Matt Sparks</p>
 							<p class="blog-list__card-date">March 05, 2019</p>
+							<p class="blog-list__card-author"><img src="/img/people/mattsparks.jpg" alt="">By: Matt Sparks</p>
 						</div>
 					</div>
 				</a>
 			
 		</div>
-		<div class="posts__list">
-			<h2>More Posts:</h2>
-			
-			
-			
-		</div>
-		<div class="posts__tags">
-			<h2>Filter By:</h2>
-			<ul class="posts__tags-list">
+		<div class="blog-list__unfeatured">
+			<div class="blog-list__unfeatured-list">
+				<h2>More Posts:</h2>
+							
+				<div class="blog-list__post">
+					<div class="blog-list__post-image" style="background: url(/uploads/GrowPractice.jpg) center center/cover;"></div>
+					<div class="blog-list__post-info">
+						<h3>Forestry Test Post</h3>
+						<div class="blog-list__post-date">
+							March 05, 2019
+						</div>
+						<div class="blog-list__post-preview">
+							<p>This is a test post from forestry interface.</p>
+							<a href="/blog/forestrytest.html">Read More</a>
+						</div>
+					</div>
+				</div>
 				
-				<li class="posts__tags-link"><a href="/posts/tag/practice management"
-						rel="tag">practice management</a></li>
-				
-				<li class="posts__tags-link"><a href="/posts/tag/content marketing"
-						rel="tag">content marketing</a></li>
-				
-				<li class="posts__tags-link"><a href="/posts/tag/content"
-						rel="tag">content</a></li>
-				
-				<li class="posts__tags-link"><a href="/posts/tag/reviews"
-						rel="tag">reviews</a></li>
-				
-				<li class="posts__tags-link"><a href="/posts/tag/website"
-						rel="tag">website</a></li>
-				
-			</ul>
+			</div>
+			<div class="blog-list__tags">
+				<h2>Filter By:</h2>
+				<ul class="blog-list__tags-list">
+					
+					<li class="blog-list__tags-link"><a href="/posts/tag/practice management"
+							rel="tag">practice management</a></li>
+					
+					<li class="blog-list__tags-link"><a href="/posts/tag/content marketing"
+							rel="tag">content marketing</a></li>
+					
+					<li class="blog-list__tags-link"><a href="/posts/tag/content"
+							rel="tag">content</a></li>
+					
+					<li class="blog-list__tags-link"><a href="/posts/tag/reviews"
+							rel="tag">reviews</a></li>
+					
+					<li class="blog-list__tags-link"><a href="/posts/tag/website"
+							rel="tag">website</a></li>
+					
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="blog__subscription">
-	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-	<script>
-		hbspt.forms.create({
-			css: '',
-			portalId: '2805307',
-			formId: '752d9537-626f-4b98-877e-c244f19579cb'
-		});
-	</script>
+<div class="blog-subscription">
+	<h3 class="blog-subscription__headline">Ready to grow your practice?</h3>
+	<p class="blog-subscription__text">Join hundreds of doctors reading the DoctorLogic newsletter, a monthly update on industry best-practices. We will never
+	spam your email.</p>
+	<div class="email-form--inline">
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+		<script>
+			hbspt.forms.create({
+				portalId: "2805307",
+				formId: "06f56631-a445-49da-89a7-b852166248b1"
+			});
+		</script>
+	</div>
 </div>
+
 
 	</main>
 	<footer>
