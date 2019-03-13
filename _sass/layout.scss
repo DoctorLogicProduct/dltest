@@ -44,27 +44,13 @@ h1 {
 	line-height: .9;
 	margin: 0 0 10px;
 
-	@include desktop-sm-min {
-		font-size: 5.5vw;
+	@include tablet-wide-min {
+		font-size: 5vw;
 	}
 
 	@include desktop-wide-min {
-		font-size: 4rem;
+		font-size: 5rem;
 	}
-
-	// span {
-	// 	font-weight: 700;
-	// 	font-size: 2rem;
-	// 	display: block;
-
-	// 	@include desktop-sm-min {
-	// 		font-size: 4.5vw;
-	// 	}
-
-	// 	@include desktop-wide-min {
-	// 		font-size: 3.5rem;
-	// 	}
-	// }
 }
 
 h2 {

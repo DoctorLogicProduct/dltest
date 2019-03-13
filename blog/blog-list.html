@@ -1,19 +1,33 @@
 ---
 layout: default
 title: The DoctorLogic Blog - All Posts
+page_class: blog-list-page
 description: Discover the latest content from DoctorLogic - blog posts, helpful tips, platform updates, and more!
 permalink: /blog
 page_hidden: false
 page_name: bloglist
 hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
+page_sections:
+- component: hero-1
+  component_css: hero
+  class: blog-list-hero
+  headline: "The DoctorLogic Blog"
+  text: "When it comes to healthcare marketing, your online reputation is extremely important. You can be top of Google
+  for every medical keyword, but if you’re online reviews are poor you will lose potential new patients."
+  btn:
+  img: "../img/hero/blog-list-hero-img.svg"
 ---
+
+{% for section in page.page_sections %}
+{% include component-{{ section.component }}.html %}
+{% endfor %}
 
 <div class="blog-list">
 	<div class="blog-list__container">
 		<div class="blog-list__featured">
 			<h2 class="blog-list__headline">Latest Posts:</h2>
 			{% for post in site.posts limit:4 %}
-				<a class="blog-list__card" href="{{post.permalink}}">
+				<a class="blog-list__card" href="{{ site.baseurl }}{{ post.url }}">
 					<div class="blog-list__card-image" style="background: url({{post.post_image}}) center center/cover;"></div>
 					<div class="blog-list__card-text">
 						<h3>{{ post.post_title }}</h3>
@@ -39,24 +53,20 @@ hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
 		<div class="blog-list__unfeatured">
 			<div class="blog-list__unfeatured-list">
 				<h2>More Posts:</h2>
-				{% for post in site.posts offset:4 %}
-				{% if post.categories[0] == "content" %}
-				{% if post.live %}
-				<div class="post">
-					<div class="blog-list__post-image" style="background: url({{post.thumb}}) center center/cover;"></div>
+				{% for post in site.posts offset:4 %}			
+				<div class="blog-list__post">
+					<div class="blog-list__post-image" style="background: url({{post.post_image}}) center center/cover;"></div>
 					<div class="blog-list__post-info">
-						<h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+						<h3>{{ post.post_title }}</h3>
 						<div class="blog-list__post-date">
 							{{ post.date | date: '%B %d, %Y' }}
 						</div>
 						<div class="blog-list__post-preview">
-							<p>{{ post.teaser }}</p>
-							<a class="" href="{{ post.permalink }}">Read more</a>
+							<p>{{ post.post_highlight }}</p>
+							<a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
 						</div>
 					</div>
 				</div>
-				{% endif %}
-				{% endif %}
 				{% endfor %}
 			</div>
 			<div class="blog-list__tags">
@@ -72,13 +82,18 @@ hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
 	</div>
 </div>
 
-<div class="blog__subscription">
-	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-	<script>
-		hbspt.forms.create({
-			css: '',
-			portalId: '2805307',
-			formId: '752d9537-626f-4b98-877e-c244f19579cb'
-		});
-	</script>
+<div class="blog-subscription">
+	<h3 class="blog-subscription__headline">Ready to grow your practice?</h3>
+	<p class="blog-subscription__text">Join hundreds of doctors reading the DoctorLogic newsletter, a monthly update on industry best-practices. We will never
+	spam your email.</p>
+	<div class="email-form--inline">
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+		<script>
+			hbspt.forms.create({
+				portalId: "2805307",
+				formId: "06f56631-a445-49da-89a7-b852166248b1"
+			});
+		</script>
+	</div>
 </div>
+

@@ -209,9 +209,7 @@
 
 }
 
-// Related Posts Styles
-
-.related-posts {	
+    .related-posts {	
 	padding: 20px 20px 0;
 
 	@include tablet-min {
@@ -336,145 +334,13 @@
 	}
 }
 
-body.social-reputation {
+    body.social-reputation {
 
-	.related-posts__card {
-		border-color: $reputation;	
-	}
+        .related-posts__card {
+            border-color: $reputation;	
+        }
 
-	.related-posts__card-tags {
-		color: $reputation;
-	}
-}
-
-.blog-list {
-	width: 100%;
-	padding: 60px 20px 0;
-
-	@include tablet-min {
-		padding: 180px 5% 0;
-	}
-
-	&__featured {
-		@include grid;
-		max-width: 1200px;
-		margin: 0 auto;
-	}
-
-	&__headline {
-		grid-column: auto / span 24;
-	}
-
-	&__card {
-		grid-column: auto / span 12;
-		width:100%;
-		border: solid 1px $color-5;
-		box-shadow: $box-shadow;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		text-decoration: none;
-
-		@include desktop-sm-min {
-			a {
-
-				&:hover .related-posts__card-text {
-					transform: translateX(3%);
-				}
-			}
-		}
-		
-	}
-
-	&__card-image {
-		flex: 0 0 100%;
-		padding-top: (9 / 16) * 100%;
-		background-size: cover !important;
-		background-position: center center !important;
-		background-repeat: no-repeat !important;
-	}
-
-	&__card-text {
-		flex: 0 0 100%;
-		padding: 10px;
-		display: flex;
-		flex-direction: column;
-		transform: translateX(0);
-		transition: transform .3s;
-
-		@include tablet-min {
-			padding: 20px 20px 10px;
-		}
-
-		h3 {
-			font-size: 2rem;
-			text-align: left;
-			margin: 0;
-		}
-
-		h5 {
-			color: $color-1;
-			text-decoration: none;
-			text-transform: none;
-			margin: 0;
-			font-size: .9rem;
-			line-height: 1.2;
-			font-weight: 300;
-		}
-		
-		p {
-			text-decoration: none;
-		}
-
-	}
-
-	&__card-tags {
-		color: $color-3;
-		font-size: .7rem;
-	}
-
-	&__card-author {
-		color: $color-1;
-		font-style: italic;
-		text-transform: none;
-		font-size: .7rem;
-		display: flex;
-		align-items: center;
-		margin-top: auto;
-
-		img {
-			max-width: 40px;
-			height: auto;
-			border-radius: 50%;
-			margin-right: 10px;
-		}
-	}
-
-	&__card-date {
-		font-size: .9rem;
-		color: $color-1;
-	}
-
-	&__card-highlight {
-		color: $color-1;
-		text-transform: none;
-		font-size: 1rem;
-		padding: 15px 0;
-	}
-
-	&__unfeatured {
-		@include grid;
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 100px 0; 
-	}
-
-	&__unfeatured-list {
-		grid-column: auto / span 18;
-	}
-
-	&__tags {
-		grid-column: auto / span 6;
-	}
-
-}
+        .related-posts__card-tags {
+            color: $reputation;
+        }
+    }
