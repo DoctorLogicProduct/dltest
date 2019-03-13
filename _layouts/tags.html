@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<body>
+
+<section class="bloglist blog-filtered">
+<div class="container">
+  <div class="row timeline">
+
+    {% capture tag %}{{ page.title }}{% endcapture %}
+
+			<div class="blog-filtered__header">
+					<h2>Posts About {{ tag | replace: '-', ' ' }} </h2>
+			</div>
+
+			<div class="posts__featured">
+				{% for post in site.posts %}
+		      {% if post.tags contains tag %}
+				<div class="blog-list__post">
+					<div class="blog-list__post-image" style="background: url({{post.post_image}}) center center/cover;"></div>
+					<div class="blog-list__post-info">
+						<h3>{{ post.post_title }}</h3>
+						<div class="blog-list__post-date">
+							{{ post.date | date: '%B %d, %Y' }}
+						</div>
+						<div class="blog-list__post-preview">
+							<p>{{ post.post_highlight }}</p>
+							<a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+		</div>
+
+		<div class="blog-filtered__footer">
+			<a href="/content/all-posts/" class="blog-filtered__link">View All Posts</a>
+		</div>
+
+  </div>
+</div>
+
+</section class="bloglist">
+
+</body>
