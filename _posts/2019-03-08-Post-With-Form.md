@@ -4,7 +4,7 @@ date: 2019-03-08 06:00:00 +0000
 post_author: Matt Sparks
 tags:
 - healthcare-marketing
-- ppc
+- PPC
 product:
 - social reputation
 post_image: "/uploads/GrowPractice.jpg"
