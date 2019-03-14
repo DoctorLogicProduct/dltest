@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: Website-Design
+title: website-design
 permalink: posts/tag/website-design/
 ---

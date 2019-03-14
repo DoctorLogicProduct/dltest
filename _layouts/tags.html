@@ -3,19 +3,19 @@ layout: default
 ---
 <body>
 
-<section class="bloglist blog-filtered">
-<div class="container">
-  <div class="row timeline">
 
-    {% capture tag %}{{ page.title }}{% endcapture %}
+	
+		{% capture tag %}{{ page.title }}{% endcapture %}
 
-			<div class="blog-filtered__header">
-					<h2>Posts About {{ tag | replace: '-', ' ' }} </h2>
+		<div class="blog-list__unfeatured blog-list__filtered">
+
+			<div class="blog-list__filtered-header">
+				<h2>Posts About {{ tag | replace: '-', ' ' }} </h2>
 			</div>
 
-			<div class="posts__featured">
+			<div class="blog-list__unfeatured-list">
 				{% for post in site.posts %}
-		      {% if post.tags contains tag %}
+				{% if post.tags contains tag %}
 				<div class="blog-list__post">
 					<div class="blog-list__post-image" style="background: url({{post.post_image}}) center center/cover;"></div>
 					<div class="blog-list__post-info">
@@ -29,17 +29,39 @@ layout: default
 						</div>
 					</div>
 				</div>
-			{% endif %}
-		{% endfor %}
+					{% endif %}
+					{% endfor %}
+				<div class="blog-list__footer">
+					<a href="/blog" class="btn">View All Posts</a>
+				</div>
+			</div>
+			<div class="blog-list__tags">
+				<h2>Filter By:</h2>
+				<ul class="blog-list__tags-list">
+					{% for tag in site.tags %}
+					<li class="blog-list__tags-link"><a href="{{ '/tag/' | append:tag[0] }}"
+							rel="tag">{{ tag[0] | replace: '-', ' ' }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
 		</div>
 
-		<div class="blog-filtered__footer">
-			<a href="/content/all-posts/" class="blog-filtered__link">View All Posts</a>
+		<div class="blog-subscription">
+			<h3 class="blog-subscription__headline">Ready to grow your practice?</h3>
+			<p class="blog-subscription__text">Join hundreds of doctors reading the DoctorLogic newsletter, a monthly update on
+				industry best-practices. We will never
+				spam your email.</p>
+			<div class="email-form--inline">
+				<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+				<script>
+					hbspt.forms.create({
+						portalId: "2805307",
+						formId: "06f56631-a445-49da-89a7-b852166248b1"
+					});
+				</script>
+			</div>
 		</div>
 
-  </div>
-</div>
 
-</section class="bloglist">
 
 </body>

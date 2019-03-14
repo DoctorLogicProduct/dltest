@@ -39,6 +39,8 @@
             padding: 20px 5% 0;
         }
 
+        // Featured
+
         &__featured {
             @include grid;
             max-width: 1200px;
@@ -178,6 +180,8 @@
             padding: 15px 0;
         }
 
+        // Unfeatured
+
         &__unfeatured {
             @include grid;
             max-width: 1200px;
@@ -266,6 +270,21 @@
             }
         }
 
+        // Filtered
+
+        &__filtered {
+            
+        }
+
+        &__filtered-header {
+            grid-column: auto / span 24;
+            padding: 60px 0;
+        }
+
+        &__filtered-list {
+            grid-column: auto / span 24;
+        }
+
     }
 
     .blog-subscription {
@@ -335,6 +354,7 @@
                     color: $color-2;
                     margin-top: 20px;
                     font-size: .8rem;
+                    font-weight: 300;
                     text-align: center;
                     letter-spacing: 2px;
                     text-transform: uppercase;
