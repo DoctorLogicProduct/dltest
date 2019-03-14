@@ -1,5 +1,3 @@
 ---
-layout: tags
-title: Video
-permalink: posts/tag/video/
+title: video
 ---

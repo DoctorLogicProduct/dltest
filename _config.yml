@@ -40,7 +40,13 @@ defaults:
     layout: "post"
     hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
     permalink: /blog/:title:output_ext
-
+-
+  scope:
+    path: "tag"
+  values:
+    layout: "tags"
+    hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+    page_class: blog-list-page
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

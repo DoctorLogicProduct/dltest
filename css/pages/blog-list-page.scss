@@ -211,18 +211,32 @@
 
         &__post {
             display: flex;
+            flex-wrap: wrap;
             text-decoration: none;
             color: $color-1;
             padding-top: 20px;	
         }
 
         &__post-image {
-            flex: 0 0 20%;
+            flex: 0 0 100%;
+            padding-top: calc(9/16 * 100%);
+
+            @include phone-wide-min {
+              flex: 0 0 20%;
+              padding-top: 0;
+            }
+            
         }
 
         &__post-info {
-            flex: 0 0 80%;
-            padding-left: 20px;
+            flex: 0 0 100%;
+            padding: 20px 0;
+
+            @include phone-wide-min {
+              flex: 0 0 80%;
+              padding: 0 0 0 20px;
+            }
+            
             
             h3 {
                 margin: 0;
@@ -273,7 +287,11 @@
         // Filtered
 
         &__filtered {
+            padding: 60px 20px;
             
+            @include tablet-min {
+              padding: 100px 20px;
+            }
         }
 
         &__filtered-header {
@@ -283,6 +301,10 @@
 
         &__filtered-list {
             grid-column: auto / span 24;
+        }
+
+        &__filtered-footer {
+            margin-top: 40px;
         }
 
     }
