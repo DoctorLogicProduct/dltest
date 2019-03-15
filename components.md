@@ -137,4 +137,11 @@ page_sections:
     text: "Lorem ipsum delor sit."
     btn-link: "#"
     btn-label: "Oooh, Rockets"
+- component: image-group
+  component_css: image-group
+  class: image-group-sample
+  items:
+  - class: "image-group__image--1"
+    src: "img/feature-sample-1.png"
+    alt-text: "bob"
 ---

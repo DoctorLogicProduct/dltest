@@ -3,34 +3,7 @@
 	padding: 60px 20px 0;
 
 	@include tablet-min {
-		padding: 180px 20px 0;
-	}
-
-	&__title {
-		width: 100%;
-		max-width: 900px;
-		margin: 0 auto;
-
-		h1 {
-			font-size: 3rem;
-			line-height: 1;
-			max-width: 90%;
-			margin: 0 0 15px;
-
-			@include tablet-min {
-				font-size: 3.5rem;
-			}
-		}
-
-		&--intro {
-			font-size: 1.4rem;
-			font-weight: 300;
-			line-height: 1.4;
-
-			@include tablet-min {
-				font-size: 1.6rem;
-			}
-		}
+		padding: 100px 20px 0;
 	}
 
 	&__featured-image {
@@ -42,10 +15,65 @@
 		background-repeat: no-repeat !important;
 		min-height: 400px;
 		background-attachment: scroll !important;
+		position: relative;
+		border-top-left-radius: 50px;
+		border-bottom-right-radius: 50px;
 
 		@include tablet-min {
 			min-height: 600px;
-			
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: $gradient-website-marketing;
+			opacity: .8;
+			border-top-left-radius: 50px;
+			border-bottom-right-radius: 50px;
+		}
+	}
+
+	&__title {
+		width: 100%;
+		max-width: 900px;
+		margin: 0 auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 40px;
+		color: $color-2;
+
+		h1 {
+			font-size: 3rem;
+			line-height: 1;
+			max-width: 90%;
+			margin: 0 0 15px;
+			color: $color-2;
+
+			@include tablet-min {
+				font-size: 3.5rem;
+			}
+		}
+
+		&--intro {
+			font-size: 1.4rem;
+			font-weight: 300;
+			line-height: 1.4;
+			color: $color-2;
+
+			@include tablet-min {
+				font-size: 1.6rem;
+			}
 		}
 	}
 

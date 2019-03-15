@@ -1,7 +1,9 @@
 ---
 layout: components
 title: Social Reputation
-page_class: "social-reputation"
+gsap: true
+custom_js: social-reputation
+page_class: social-reputation
 product: "social reputation"
 permalink: "/products/social-reputation"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
@@ -9,10 +11,10 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  headline: "<span>Reputation</span> Made Easy."
-  text: "When it comes to healthcare marketing, your online reputation is extremely important. You can be top of Google for every medical keyword, but if you’re online reviews are poor you will lose potential new patients."
+  headline: "Manage Your Reputation"
+  text: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
   btn:
-  img: "../img/products/social-reputation/hero-img.svg"
+  img: "/img/products/social-reputation/hero-img.svg"
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__reputation
@@ -20,20 +22,29 @@ page_sections:
 - component: feature-1
   component_css: feature
   class: social-reputation__feature--1
-  headline: "<span>Reviews</span>"
-  text: "94% of patients use online reviews to evaluate physicians.* We make it easy to see and organize your reviews in one place. No more chasing down review logins for different profiles."
+  headline: "Manage your online reputation with one tool"
+  text: "Organize reviews about your practice and provider from across the web, including top sources such as, Google, Facebook, Yelp, RealSelf, HealthGrades, RateMDs, and many more. Receive alerts when your practice is mentioned in a review."
   btn-link: "#"
   btn-label: "Learn More"
-  img: "img/feature-sample-1.png"
+  img: "/img/feature-sample-1.png"
   img_alignment: "Left"
 - component: feature-1
-  headline: "<span>Patient Satisfaction</span> Surveys"
-  class: feature-right-sample
-  text: "Use our in-office review solicitation software on any device to solicit reviews from satisfied patients, right in the office."
+  headline: "Display your amazing testimonials"
+  class: social-reputation__feature--2
+  text: "Positive testimonials are tagged and posted to your practice website for the world to see how great you are. The DoctorLogic platform then automatically integrates these positive reviews to relevant content pages and displays the star ratings in search results."
   btn-link: "#"
   btn-label: "Learn More"
-  img: "img/feature-sample-2.png"
+  img: "/img/feature-sample-2.png"
   img_alignment: "Right"
+- component: feature-1
+  component_css: feature
+  class: social-reputation__feature--3
+  headline: "Improve Your Reputation"
+  text: "The DoctorLogic platform and our team of experts make it easy for your patients to share positive feedback about their experience. With Intelligent Thinking™ our software will automically suggest the best place to request reviews based on a few data criterias."
+  btn-link: "#"
+  btn-label: "Learn More"
+  img: "/img/feature-sample-1.png"
+  img_alignment: "Left"
 - component: text-component
   component_css: text-component
   class: social-reputation__text-component--1

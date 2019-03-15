@@ -1,0 +1,9 @@
+<section class="component image-group {{ section.class }}">
+	<div class="image-group__container">
+		{% for item in section.items %}
+			<div class="image-group__image {{ item.class }}">
+				<img src="{{ item.src }}" alt="{{ item.alt-text }}">
+			</div>
+		{% endfor %}
+	</div>
+</section>
