@@ -34,13 +34,23 @@
 
     &__image-group--1 {
         display: block;
+        padding: 20px 20px 40px;
+
+            @include tablet-min {
+                padding: 60px 5%;
+            }
 
         .image-group {
 
             &__container {
                 position: relative;
-                min-height: 800px;
+                min-height: 500px;
                 overflow: hidden;
+
+                @include phone-wide-min {
+                  min-height: 800px;
+                }
+                
             }
 
             &__headline {
@@ -89,7 +99,12 @@
 
         .btn {
             display: block;    
-            margin: 40px auto 0;
+            margin: 0 auto;
+
+            @include phone-wide-min {
+              margin: 40px auto 0;
+            }
+            
          }
     }
 }
