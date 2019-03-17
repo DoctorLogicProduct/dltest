@@ -32,9 +32,64 @@
         
     }
 
-    &__feature {
+    &__image-group--1 {
+        display: block;
 
-        
+        .image-group {
 
+            &__container {
+                position: relative;
+                min-height: 800px;
+                overflow: hidden;
+            }
+
+            &__headline {
+                text-align: center;
+            }
+
+            &__text {
+                text-align: center;
+            }
+
+            &__image {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);  
+
+                @include phone-wide-min {
+                  width: 100px;
+                  height: 100px;
+                }
+                
+            
+
+                &--9 {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    width: 300px;
+                    height: auto;
+
+                    @include phone-wide-min {
+                      width: 500px;
+                    }
+                    
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .btn {
+            display: block;    
+            margin: 40px auto 0;
+         }
     }
 }

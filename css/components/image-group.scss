@@ -5,6 +5,14 @@
 @import "mq", "base";
 
 .image-group {
-    background: red;
-    min-height: 400px;
+    padding: 20px;
+
+	@include tablet-min {
+		padding: 60px 5%;
+	}
+
+	&__container {
+		grid-column: auto / span 24;
+		width: 100%;
+	}
 }
