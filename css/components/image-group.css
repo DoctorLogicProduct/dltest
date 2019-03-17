@@ -1,1 +1,1 @@
-*,*::before,*::after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.image-group{background:red;min-height:400px}
+*,*::before,*::after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.image-group{padding:20px}@media (min-width: 768px){.image-group{padding:60px 5%}}.image-group__container{grid-column:auto / span 24;width:100%}
