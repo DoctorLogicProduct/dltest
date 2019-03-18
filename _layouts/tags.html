@@ -1,10 +1,8 @@
 ---
 layout: default
+page_class: blog-list-page
 ---
-<body>
-
-
-	
+<body>	
 		{% capture tag %}{{ page.title }}{% endcapture %}
 
 		<div class="blog-list__unfeatured blog-list__filtered">
@@ -39,7 +37,7 @@ layout: default
 				<h2>Filter By:</h2>
 				<ul class="blog-list__tags-list">
 					{% for tag in site.tags %}
-					<li class="blog-list__tags-link"><a href="{{ '/tag/' | append:tag[0] }}"
+					<li class="blog-list__tags-link"><a href="{{ '/blog/tag/' | append:tag[0] }}"
 							rel="tag">{{ tag[0] | replace: '-', ' ' }}</a></li>
 					{% endfor %}
 				</ul>

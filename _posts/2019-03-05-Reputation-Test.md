@@ -10,7 +10,6 @@ product:
 post_image: "/uploads/iStock_56001286_XXLARGE.jpg"
 quote: ''
 post_highlight: What do effective teamwork and Russian literature have in common?
-hs_form_id: ''
 post_intro: What do effective teamwork and Russian literature have in common? Why
   is successful teamwork so much like a happy marriage? How can you make teamwork
   more effective?

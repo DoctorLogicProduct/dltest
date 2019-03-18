@@ -54,13 +54,14 @@
 	&__image {
 		grid-column: auto / span 24;
 		grid-row: 1 / span 1;
-		min-height: 60vh;
+		min-height: 40vh;
 		position: relative;
 
 		@include tablet-min {
 			grid-column: auto / span 12;
 			grid-row: auto;
 			justify-content: center;
+			min-height: 60vh;
 		}
 	}
 

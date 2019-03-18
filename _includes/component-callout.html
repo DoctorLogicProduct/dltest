@@ -1,5 +1,22 @@
 <section class="component callout {{ section.class }}">
-	<h2>{{ section.headline }}</h2>
+	<h3>{{ section.headline }}</h3>
 	<p>{{ section.text }}</p>
+	{% for subscription in section.subscription %}
+		{% if subscription %}
+			<div class="callout__subscription">
+				<div class="email-form--inline">
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+					<script>
+						hbspt.forms.create({
+							portalId: "2805307",
+							formId: "{{subscription.hs_form_id}}"
+						});
+					</script>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+	{% if section.btn %}
 	<a class="btn btn--clear" href="{{section.btn-link}}">{{section.btn-label}}</a>
+	{% endif %}
 </section>

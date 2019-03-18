@@ -1,5 +1,5 @@
 footer {
-	background: $color-3;
+	background: $gradient-website-marketing;
 	padding: 40px 20px;
 	display: flex;
 	flex-direction: column;
@@ -69,30 +69,31 @@ footer {
 			}
 
 			&.hs-button {
-				position: relative;
-				display: inline-block;
-				padding: 30px 0 5px !important;
-				text-align: center;
-				text-transform: uppercase;
-				letter-spacing: 2px;
-				font-size: .9rem;
-				font-weight: 300;
-				text-decoration: none;
-				color: $color-2;
-				width: auto;
-				border: 0;
-				border-bottom: 1px solid $color-2;
-				transition: all .3s;
-				cursor: pointer;
+                    display: inline-block;
+					padding: 15px 20px !important;
+					color: $color-2;
+					margin-top: 20px;
+					font-size: .8rem;
+					text-align: center;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					text-decoration: none;
+					background: transparent;
+					border: solid $color-2 1px;
+					transition: 700ms ease-out;
+					border-top-left-radius: 15px;
+					border-bottom-right-radius: 15px;
+					width: 250px;
 
-				@include desktop-sm-min {
-
-					&:hover {
-						font-size: 1rem;
+					@include desktop-sm-min {
+						&:hover {
+							background: $color-2;
+							border: solid $color-2 1px;
+							color: $color-3;
+						}
 					}
-
-				}
-			}
+					
+                }
 		}
 
 		textarea {

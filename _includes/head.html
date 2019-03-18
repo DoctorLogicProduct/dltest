@@ -2,7 +2,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.post_intro %}{{ page.post_intro }}{% else %}{{ page.description }}{% endif %}">
+	<title>{% if page.post_title %}{{ page.post_title }}{% else %}{{ page.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
 
 	{% for section in page.page_sections %}

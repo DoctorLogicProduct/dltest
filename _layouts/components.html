@@ -3,9 +3,8 @@
 {% include base.html %}
 
 	<body class="{{page.page_class}}">
-		<main>
 		{% include header.html %}
-		<div>
+		<main>
 			{% for section in page.page_sections %}
 			{% include component-{{ section.component }}.html %}
 			{% endfor %}
@@ -60,7 +59,7 @@
 				
 			
 			</div>
-		</div>
+		
 		</main>
 		{% include footer.html %}
 	</body>

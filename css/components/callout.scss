@@ -10,14 +10,14 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	min-height: 500px;
+	min-height: 400px;
 	background: $gradient-website-marketing;
 
 	@include tablet-min {
 		padding: 60px 5%;
 	}
 
-	h2 {
+	h3 {
 		text-align: center;
 		color: $color-2;
 	}
@@ -80,6 +80,114 @@
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+&__subscription {
+
+	.email-form--inline {
+        width: 100%;
+        max-width: 900px;
+		margin: 0 auto;
+		
+		@include tablet-min {
+		  min-width: 500px;
+		}
+		
+
+        form {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .hs-input {
+                box-sizing:border-box;
+                background: transparent;
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 1px solid $color-2;
+                width:100%;
+                padding: 20px 5px !important;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                color: $color-2;
+                box-shadow: none;
+                border-radius: 0;
+                font-size: 1rem;
+
+                &::placeholder {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    color: $color-2;
+                    opacity: 1;
+                    font-size: 1rem !important;
+                }
+            }
+
+            input.hs-input.error {
+                border-color: $color-2 !important;
+                box-shadow: none !important;
+            }
+
+            label {
+                display: none !important;
+            }
+
+            .hs-button {
+                    display: inline-block;
+					padding: 15px 20px;
+					color: $color-2;
+					margin-top: 20px;
+					font-size: .8rem;
+					text-align: center;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					text-decoration: none;
+					background: transparent;
+					border: solid $color-2 1px;
+					transition: 700ms ease-out;
+					border-top-left-radius: 15px;
+					border-bottom-right-radius: 15px;
+					width: 250px;
+
+					@include desktop-sm-min {
+						&:hover {
+							background: $color-2;
+							border: solid $color-2 1px;
+							color: $color-3;
+						}
+					}
+					
+                }
+
+            .hs-error-msgs {
+                    list-style: none !important;
+                    font-family: 'Montserrat', sans-serif;
+                    color: $color-2;
+                    font-size: .9rem;
+                    padding: 0;
+
+                label {
+                    display: block !important;
+                    text-align: left;
+                }
+
+                li::before {
+                    display: none;
+                }
+            }
+    }
+
+    .hs-form .hs-form-field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+	}
+	
 }
 
 }

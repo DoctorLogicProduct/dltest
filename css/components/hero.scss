@@ -5,7 +5,7 @@
 @import "mq", "base";
 
 .hero-1 {
-	padding: 40px 0;
+	padding: 40px 0 0;
 
 	@include tablet-wide-min {
 		padding: 60px 0 0 5%;
@@ -18,7 +18,7 @@
 			flex-direction: column;
 			justify-content: flex-start;
 			align-items: center;
-			padding: 20px;
+			padding: 0 20px;
 
 			@include tablet-wide-min {
 				grid-column: auto / span 12;

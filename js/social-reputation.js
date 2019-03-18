@@ -14,12 +14,12 @@ if ($(window).width() >= 568) {
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.social-reputation__image-group--1',
-        triggerHook: .8, //between 0 an 1
+        triggerHook: .4, //between 0 an 1
         duration: '100%'
     })
         // .setPin('.social-reputation__image-group--1')
         .setTween(tl)
-        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "yellow" })
+        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
 
     function onUpdate() {

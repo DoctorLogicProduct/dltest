@@ -49,7 +49,7 @@ page_sections:
     src: /img/products/social-reputation/foursquare.svg
     alt-text: "FourSquare Reviews"
   - class: image-group__image--9
-    src: /img/products/social-reputation/screen-reviews.png
+    src: /img/products/social-reputation/screen-reviews-manage.png
     alt-text: "DoctorLogic Reviews"       
 - component: callout-headline
   component_css: callout-headline
@@ -61,7 +61,7 @@ page_sections:
   text: "Positive testimonials are tagged and posted to your practice website for the world to see how great you are. The DoctorLogic platform then automatically integrates these positive reviews to relevant content pages and displays the star ratings in search results."
   btn-link: "#"
   btn-label: "Learn More"
-  img: "/img/feature-sample-2.png"
+  img: "/img/products/social-reputation/reviews-feature.png"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -70,15 +70,13 @@ page_sections:
   text: "The DoctorLogic platform and our team of experts make it easy for your patients to share positive feedback about their experience. With Intelligent Thinking™ our software will automically suggest the best place to request reviews based on a few data criterias."
   btn-link: "#"
   btn-label: "Learn More"
-  img: "/img/feature-sample-1.png"
+  img: "/img/products/social-reputation/review-request-feature.png"
   img_alignment: "Left"
-- component: text-component
-  component_css: text-component
-  class: social-reputation__text-component--1
-  headline: 
-  - headline: "<span>Do you know</span> the state of your reputation?"
+- component: callout
+  component_css: callout
+  class: callout__reputation
+  headline: "Do you know the state of your reputation?"
   text: "We make it easy for all providers to know the state of their reputation. Request your FREE report today."
-  btn:
-  - btn-link: "#"
-    btn-label: "Get My Report"
+  subscription: 
+  - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
 ---
