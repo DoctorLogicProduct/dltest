@@ -9,8 +9,12 @@
         {% endif %}
       {% endfor %}
       <h3>{{ section.headline }}</h3>
-      <p>{{ section.text }}</p>
-      <a class="btn" href="{{ section.btn-link }}">{{ section.btn-label }}</a>
+      <p>{{ section.text }}</p> 
+      {% for btn in section.btn %}    
+        {% if section.btn %}
+          <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+        {% endif %} 
+      {% endfor %}   
     </div>
     <div class="feature__image">
       <div class="feature__image-wrapper" style="background:url('{{ section.img | relative_url }}')"></div>

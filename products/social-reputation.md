@@ -59,8 +59,9 @@ page_sections:
   headline: "Display your amazing testimonials"
   class: social-reputation__feature--1
   text: "Positive testimonials are tagged and posted to your practice website for the world to see how great you are. The DoctorLogic platform then automatically integrates these positive reviews to relevant content pages and displays the star ratings in search results."
-  btn-link: "#"
-  btn-label: "Learn More"
+  btn:
+  - btn-link: "#"
+    btn-label: "Learn More"
   img: "/img/products/social-reputation/reviews-feature.png"
   img_alignment: "Right"
 - component: feature-1
@@ -68,8 +69,9 @@ page_sections:
   class: social-reputation__feature--2
   headline: "Improve Your Reputation"
   text: "The DoctorLogic platform and our team of experts make it easy for your patients to share positive feedback about their experience. With Intelligent Thinking™ our software will automically suggest the best place to request reviews based on a few data criterias."
-  btn-link: "#"
-  btn-label: "Learn More"
+  btn:
+  - btn-link: "#"
+    btn-label: "Learn More"
   img: "/img/products/social-reputation/review-request-feature.png"
   img_alignment: "Left"
 - component: callout

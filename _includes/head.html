@@ -1,8 +1,11 @@
+{% capture description %}{% if page.post_intro %}{{ page.post_intro }}{% else %}{{ page.description }}{% endif %}{% endcapture %}
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{% if page.post_intro %}{{ page.post_intro }}{% else %}{{ page.description }}{% endif %}">
+	<meta name="description" content="{{ description }}">
+	<meta property="og:image" content="{% if page.post_image %}{{ page.post_image }}{% else %}{{ site.default-img }}{% endif %}">
 	<title>{% if page.post_title %}{{ page.post_title }}{% else %}{{ page.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
 

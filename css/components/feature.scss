@@ -5,10 +5,10 @@
 @import "mq", "base";
 
 .feature {
-	padding: 20px;
+	padding: 20px 20px 0;
 
 	@include tablet-min {
-		padding: 60px 5%;
+		padding: 60px 5% 0;
 	}
 
 	&__text {
@@ -38,7 +38,7 @@
 		}
 
 		h3 {
-			max-width: 70%;
+			max-width: 80%;
 		}
 
 	}
