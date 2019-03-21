@@ -1,6 +1,8 @@
 ---
 layout: components
 title: Content Multiplier
+description: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+meta_image: /img/meta/content-multiplier.jpg
 gsap: true
 custom_js: content-multiplier
 page_class: content-multiplier

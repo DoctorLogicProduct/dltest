@@ -11,11 +11,10 @@ tl.from('#description', 1, { opacity: 0 }, "5");
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.content-multiplier__image-group--1',
-        triggerHook: 0, //between 0 an 1
-        offset: 90,
+        triggerHook: .5, //between 0 an 1
         duration: '100%'
     })
-        .setPin('.image-group__container')
+        // .setPin('.image-group__container')
         .setTween(tl)
         // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
@@ -37,13 +36,12 @@ tl.from('#description', 1, { opacity: 0 }, "5");
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.content-multiplier__image-group--1',
-        triggerHook: 0, //between 0 an 1
-        offset: 170,
+        triggerHook: .5, //between 0 an 1
         duration: '100%'
     })
-        .setPin('.image-group__container')
+        // .setPin('.image-group__container')
         .setTween(tl)
-        .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
 
     function onUpdate() {
