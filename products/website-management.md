@@ -2,7 +2,7 @@
 layout: components
 title: Website Management
 description: "Our team manages your digital marketing while you focus on your patients."
-meta_image: /img/meta/website-management.jpg
+meta_image: "/img/meta/website-management.jpg"
 gsap: true
 custom_js: website-management
 page_class: website-management
