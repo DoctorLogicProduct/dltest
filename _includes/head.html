@@ -1,4 +1,19 @@
-{% capture description %}{% if page.post_intro %}{{ page.post_intro }}{% else %}{{ page.description }}{% endif %}{% endcapture %}
+{% capture description %}
+	{% if page.post_intro %}
+		{{ page.post_intro }}
+	{% else %}
+		{{ page.description }}
+{% endif %}{% endcapture %}
+
+{% capture image %}
+	{% if page.post_image %}
+		{{ page.post_image }}
+	{% elsif page.meta_image %}
+		{{ page.meta_image }}
+	{% else %}
+		{{ site.defaut-img }}
+	{% endif %}
+{% endcapture %}
 
 <head>
 	<meta charset="utf-8">
