@@ -8,7 +8,11 @@
 	<div class="image-group__container">
 		{% for item in section.items %}
 			<div class="image-group__image {{ item.class }}">
+				{% if item.class == 'svg' %}
+				{% include svg/{{item.src}}.html %}
+				{% else %}
 				<img src="{{ item.src }}" alt="{{ item.alt-text }}">
+				{% endif %}
 			</div>
 		{% endfor %}
 	</div>

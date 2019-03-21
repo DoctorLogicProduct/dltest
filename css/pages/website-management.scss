@@ -71,13 +71,13 @@
 
             &__headline {
                 grid-column: auto / span 24;
-                grid: 2 / span 1;
+                grid-row: 2 / span 1;
                 padding: 0 20px;
             }
 
             &__text {
                 grid-column: auto / span 24;
-                grid: 3 / span 1;
+                grid-row: 3 / span 1;
                 padding: 0 20px;
             }
 

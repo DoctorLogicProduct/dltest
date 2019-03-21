@@ -5,7 +5,9 @@
 @import "mq", "base";
 
 .feature {
-	padding: 20px 20px 0;
+	padding: 40px 20px 0;
+	max-width: 1500px;
+	margin: 0 auto;
 
 	@include tablet-min {
 		padding: 60px 5% 0;
@@ -61,8 +63,13 @@
 			grid-column: auto / span 12;
 			grid-row: auto;
 			justify-content: center;
-			min-height: 60vh;
 		}
+
+		@include tablet-wide-min {
+			min-height: 500px;
+			max-height: 600px;
+		}
+		
 	}
 
 	&__image-wrapper {

@@ -20,7 +20,7 @@ page_sections:
   headline: "Easily Make Updates in real-time"
   class: website-management__feature--1
   text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
-  btn: false
+  btn: 
   img: "/img/products/website-management/on-page-edit.png"
   img_alignment: "Left"
 - component: image-group
