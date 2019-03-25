@@ -71,13 +71,13 @@
 
             &__headline {
                 grid-column: auto / span 24;
-                grid-row: 2 / span 1;
+                grid-row: 1 / span 1;
                 padding: 0 20px;
             }
 
             &__text {
                 grid-column: auto / span 24;
-                grid-row: 3 / span 1;
+                grid-row: 2 / span 1;
                 padding: 0 20px;
             }
 
@@ -86,7 +86,7 @@
                 min-height: 500px;
                 overflow: hidden;
                 margin-top: 60px;
-                grid-row: 1 / span 1;
+                grid-row: 3 / span 1;
 
                 @include tablet-min {
                   min-height: 800px;

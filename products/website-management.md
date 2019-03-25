@@ -1,6 +1,6 @@
 ---
 layout: components
-title: Website Management
+title: DoctorLogic Website Management
 description: "Our team manages your digital marketing while you focus on your patients."
 meta_image: "/img/meta/website-management.jpg"
 gsap: true
@@ -17,14 +17,6 @@ page_sections:
   text: "Our team manages your digital marketing while you focus on your patients."
   btn:
   img: "/img/products/website-management/hero-img.svg"
-- component: feature-1
-  component_css: feature
-  headline: "Easily Make Updates in real-time"
-  class: website-management__feature--1
-  text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
-  btn: 
-  img: "/img/products/website-management/on-page-edit.png"
-  img_alignment: "Left"
 - component: image-group
   component_css: image-group
   class: website-management__image-group--1
@@ -46,6 +38,14 @@ page_sections:
   - class: image-group__image--4
     src: /img/products/website-management/jamie-schwartz.png
     alt-text: "Jamie Schwartz, MD"
+- component: feature-1
+  component_css: feature
+  headline: "Easily Make Updates in real-time"
+  class: website-management__feature--1
+  text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
+  btn: 
+  img: "/img/products/website-management/on-page-edit.png"
+  img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__website-management
