@@ -37,29 +37,146 @@
 
 <html>
 	<body>
-		<header class="header">
-	<div class="header__wrapper">
-		<a class="header__logo-wrapper" href="/">
-		</a>
-		<nav class="header-menu">
-			<ul class="header-menu__list">
-				<li class="header-menu__item">
-					<a href="#" class="header-menu__link">Service</a>
+		<header class="header dl-morph-dropdown">
+	<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+
+	<a href="/" class="header__logo">
+		<img src="/img/header-logo.svg" alt="">
+	</a>
+
+	<nav class="main-nav">
+		<ul>
+			<li class="has-dropdown gallery" data-content="products">
+				<a href="#0">Products</a>
+			</li>
+
+			<li class="has-dropdown links" data-content="specialties">
+				<a href="#0">Specialties</a>
+			</li>
+
+			<li class="has-dropdown links" data-content="results">
+				<a href="#0">Results</a>
+			</li>
+
+			<li>
+				<a href="#">Pricing</a>
+			</li>
+
+			<li>
+				<a href="#">Contact</a>
+			</li>
+
+		</ul>
+	</nav>
+
+	<div class="morph-dropdown-wrapper">
+		<div class="dropdown-list">
+			<ul>
+				<li id="products" class="dropdown gallery">
+					<a href="#0" class="label">Products</a>
+
+					<div class="content">
+						<ul>
+							<li class="website-management">
+								<a href="/products/website-management.html">
+									Website Management
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<li class="content-multiplier">
+								<a href="/products/content-multiplier.html">
+									Content Multiplier
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<li class="social-reputation">
+								<a href="/products/social-reputation.html">
+									Social Reputation
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<li class="search-amplifier">
+								<a href="#0">
+									Search Amplifier
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<li class="lead-generator">
+								<a href="#0">
+									Lead Generator
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<li class="success-insights">
+								<a href="#0">
+									Success Insights
+									<span>A brief description here</span>
+								</a>
+							</li>
+
+							<div class="content--secondary">
+
+								<li class="growth-accelerators">
+									<a href="#0">
+										Growth Accelerators
+										<span>A brief description here</span>
+									</a>
+								</li>
+
+							</div>
+							
+						</ul>
+					</div>
 				</li>
-				<li class="header-menu__item">
-					<a href="#" class="header-menu__link">About</a>
+
+				<li id="specialties" class="dropdown links">
+					<a href="#0" class="label">Pricing</a>
+
+					<div class="content">
+						<ul>		
+							<li><a href="#0">Aesthetics</a></li>
+							<li><a href="#0">Dentistry</a></li>
+							<li><a href="#0">Opthamology</a></li>
+							<li><a href="#0">Bariatric</a></li>
+						</ul>
+					</div>
+
 				</li>
-				<li class="header-menu__item">
-					<a href="#" class="header-menu__link">Gallery</a>
+
+				<li id="results" class="dropdown links">
+
+					<div class="content">
+						<ul>
+							<li><a href="#0">Case Studies</a></li>
+							<li><a href="#0">Testimonials</a></li>
+							<li><a href="#0">Video Testimonials</a></li>
+						</ul>
+					</div>
+
 				</li>
-				<li class="header-menu__item">
-					<a href="/blog" class="header-menu__link">Blog</a>
+
+				<li class="dropdown">
+					<a href="#">Pricing</a>
 				</li>
+				
+				<li class="dropdown">
+					<a href="#">Contact</a>
+				</li>
+				
 			</ul>
-		</nav>
-		<button id="header__toggle-button" type="button" class="header__toggle-icon">
-			<span></span>
-		</button>
+
+			<div class="bg-layer" aria-hidden="true" style="transform: scaleX(390) scaleY(349);"></div>
+		</div> <!-- dropdown-list -->
+	</div> <!-- morph-dropdown-wrapper -->
+
+	<div class="header__cta">
+		<a href="#" class="header__cta--demo">Demo</a>
+		<a href="#" class="header__cta--login"><img src="/img/sign-in.svg" alt=""></a>
 	</div>
 </header>
 
