@@ -37,7 +37,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/content-multiplier/service-pages.png"
+  img: "/img/products/content-multiplier/service-pages.jpg"
   img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
@@ -51,7 +51,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/content-multiplier/provider-bio.png"
+  img: "/img/products/content-multiplier/provider-bio.jpg"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -61,6 +61,6 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/content-multiplier/video-integration.png"
+  img: "/img/products/content-multiplier/video-integration.jpg"
   img_alignment: "Left"
 ---

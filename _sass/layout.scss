@@ -144,6 +144,13 @@ ul > li:before {
     margin-left: -1em;
 }
 
+sup {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 5px;
+	color: $color-3;
+}
+
 
 .btn, #submit {
 	display: inline-block;

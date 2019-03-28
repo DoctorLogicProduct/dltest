@@ -64,7 +64,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/social-reputation/reviews-feature.png"
+  img: "/img/products/social-reputation/reviews-feature.jpg"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -74,7 +74,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/social-reputation/review-request-feature.png"
+  img: "/img/products/social-reputation/review-request-feature.jpg"
   img_alignment: "Left"
 - component: callout
   component_css: callout

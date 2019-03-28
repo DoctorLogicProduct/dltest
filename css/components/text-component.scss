@@ -5,10 +5,10 @@
 @import "mq", "base";
 
 .text-component {
-    padding: 20px;
+    padding: 60px 20px;
 
 	@include tablet-min {
-		padding: 60px 5%;
+		padding: 40px 5%;
     }
 
     &__container {

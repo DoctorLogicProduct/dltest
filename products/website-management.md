@@ -44,7 +44,7 @@ page_sections:
   class: website-management__feature--1
   text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
   btn: 
-  img: "/img/products/website-management/on-page-edit.png"
+  img: "/img/products/website-management/on-page-edit.jpg"
   img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
@@ -58,7 +58,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: Learn More
-  img: "/img/products/website-management/unlimited-pages.png"
+  img: "/img/products/website-management/unlimited-pages.jpg"
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
@@ -68,7 +68,7 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: Learn More
-  img: "/img/products/website-management/hipaa-secure.png"
+  img: "/img/products/website-management/hipaa-secure.jpg"
   img_alignment: "Right"
 - component: callout
   component_css: callout

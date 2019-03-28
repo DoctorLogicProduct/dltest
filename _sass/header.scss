@@ -17,6 +17,14 @@
 		.header__cta {
 			display: flex;
 			align-items: center;
+			margin-left: auto;
+			padding-right: 35px;
+
+			@include desktop-sm-min {
+			  margin-left: 0;
+			  padding-right: 0;
+			}
+			
 
 			&--demo {
 				text-transform: uppercase;
@@ -72,7 +80,8 @@
 			background: transparent;
 			z-index: 10;
 			padding: 0 20px;
-			display: block;
+			display: flex;
+			align-items: center;
 
 			&::before {
 				/* never visible - used in JS to check mq */
@@ -88,10 +97,10 @@
 				background: $color-2;
 			}
 
-			&.nav-open {
-					height: 100%;
-					overflow: scroll;
-			}
+			// &.nav-open {
+			// 		height: 100%;
+			// 		overflow: scroll;
+			// }
 
 			@include desktop-sm-min {
 				height: 80px;
@@ -99,8 +108,6 @@
 				top: 0;
 				width: 100%;
 				text-align: center;
-				display: flex;
-				align-items: center;
 				padding: 0 40px;
 
 				.dropdown-list {
@@ -260,7 +267,7 @@
 
 		.dl-morph-dropdown .nav-trigger {
 			/* menu icon - visible on small screens only */
-			position: absolute;
+			position: fixed;;
 			top: 0;
 			right: 0;
 			height: 60px;
@@ -270,6 +277,7 @@
 			text-indent: 100%;
 			white-space: nowrap;
 			color: transparent;
+			z-index: 100;
 			
 			@include desktop-sm-min {
 				display: none;
@@ -416,6 +424,10 @@
 
 		.dl-morph-dropdown.nav-open .morph-dropdown-wrapper {
 			display: block;
+			position: fixed;
+			height: 100%;
+			overflow: scroll;
+			top: 0;
 		}
 		.dl-morph-dropdown .dropdown-list > ul > li {
 			margin-bottom: 3.3em;
