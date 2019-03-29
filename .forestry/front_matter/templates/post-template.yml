@@ -22,10 +22,6 @@ fields:
   name: tags
   label: Tags
   description: Post Tags
-- type: tag_list
-  name: product
-  label: Product
-  description: Products associated with this post
 - type: textarea
   name: post_intro
   label: Post Intro
