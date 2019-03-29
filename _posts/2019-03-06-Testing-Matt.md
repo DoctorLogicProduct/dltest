@@ -6,7 +6,7 @@ tags:
 - content-marketing
 - website-design
 product:
-- search amplifer
+- search amplifier
 - lead generator
 - content multiplier
 - social reputation
