@@ -40,6 +40,38 @@ fields:
   name: post_highlight
   label: Post Highlight
   description: This the highlight text
+- type: list
+  name: post_type
+  label: Post Type
+  description: Type of post
+  config:
+    min: '1'
+    max: '5'
+    use_select: true
+    source:
+      type: simple
+    options:
+    - blog
+    - press-release
+    - update
+- type: list
+  label: Related Product
+  name: product
+  description: Product(s) related to this post
+  config:
+    min: '1'
+    max: '7'
+    use_select: true
+    source:
+      type: simple
+    options:
+    - website management
+    - social reputation
+    - content multiplier
+    - search amplifer
+    - lead generator
+    - success insights
+    - growth accelerators
 pages:
 - _posts/2019-03-05-Post-List-2.md
 - _posts/2019-03-08-Post-With-Form.md
