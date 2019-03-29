@@ -12,6 +12,8 @@ quote: ''
 post_highlight: Matt Sparks discusses the advantages of Test Matt Test.
 post_intro: Three years ago, in his driveway in Salem, Rich Benoit rigged some ropes
   and pulleys and did something that could modestly be described as a bad idea.
+post_type:
+- blog
 
 ---
 He pulled a 1,300-pound, 400-volt battery out of a Tesla that had been underwater.
