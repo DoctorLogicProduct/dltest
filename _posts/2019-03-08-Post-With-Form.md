@@ -6,10 +6,10 @@ tags:
 - healthcare-marketing
 - PPC
 product:
+- search amplifier
 - growth accelerators
 - success insights
 - lead generator
-- search amplifer
 - content multiplier
 - website management
 - social reputation
