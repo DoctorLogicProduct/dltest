@@ -53,7 +53,7 @@ tl.to('#box-3-plus', 1, { opacity: 1 }, "12");
         duration: '800%'
     })
     
-        .setPin('.image-group__container')
+        .setPin('.image-group__container', { pushFollowers: true })
         .setTween(tl)
         // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
@@ -112,10 +112,10 @@ tl.to('#box-3-plus', 1, { opacity: 1 }, "12");
     const scene = new ScrollMagic.Scene({
         triggerElement: '.lead-generator__image-group--1',
         triggerHook: 0, //between 0 an 1
-        offset: 100,
-        duration: '800%'
+        offset: 0,
+        duration: '50%'
     })
-
+        .setPin('.image-group__container', { pushFollowers: true})
         .setTween(tl)
         // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
