@@ -6,7 +6,7 @@ meta_image: "/img/meta/content-multiplier.jpg"
 gsap: true
 custom_js: content-multiplier
 page_class: content-multiplier
-product: "content-multiplier"
+product: "content multiplier"
 permalink: "/products/content-multiplier"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 page_sections:

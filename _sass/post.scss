@@ -362,6 +362,17 @@
 	}
 }
 
+	body.website-management {
+
+        .related-posts__card {
+            border-color: $websites;	
+        }
+
+        .related-posts__card-tags {
+            color: $websites;
+        }
+    }
+
     body.social-reputation {
 
         .related-posts__card {
@@ -370,5 +381,49 @@
 
         .related-posts__card-tags {
             color: $reputation;
+        }
+	}
+	
+	body.success-insights {
+
+        .related-posts__card {
+            border-color: $success;	
+        }
+
+        .related-posts__card-tags {
+            color: $success;
+        }
+	}
+	
+	body.lead-generator {
+
+        .related-posts__card {
+            border-color: $leads;	
+        }
+
+        .related-posts__card-tags {
+            color: $leads;
+        }
+	}
+	
+	body.search-amplifier {
+
+        .related-posts__card {
+            border-color: $search;	
+        }
+
+        .related-posts__card-tags {
+            color: $search;
+        }
+	}
+	
+	body.content-multiplier {
+
+        .related-posts__card {
+            border-color: $content;	
+        }
+
+        .related-posts__card-tags {
+            color: $content;
         }
     }
