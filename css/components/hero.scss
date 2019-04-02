@@ -5,7 +5,7 @@
 @import "mq", "base";
 
 .hero-1 {
-	padding: 40px 0 0;
+	padding: 20px 0 40px;
 
 	@include tablet-wide-min {
 		padding: 60px 0 0 5%;
@@ -29,14 +29,15 @@
 			}
 
 			@include desktop-min {
-				grid-column: auto / span 10;
+				grid-column: auto / span 12;
 			}
 
 			h1 {
 				max-width: 100%;
+				font-size: 1.7rem;
 
 				@include tablet-min {
-				  max-width: 90%;
+				  font-size: 3.5vw;
 				}
 				
 			}
@@ -56,9 +57,9 @@
 			grid-column: auto / span 24;
 			grid-row: 1 / span 1;
 			background-size: contain !important;
-			background-position: center center !important;
+			background-position: center bottom -30px!important;
 			background-repeat: no-repeat !important;
-			min-height: 50vh;
+			min-height: 40vh;
 
 			@include tablet-wide-min {
 				grid-column: auto / span 12;
@@ -70,7 +71,7 @@
 			}
 
 			@include desktop-min {
-				grid-column: auto / span 14;
+				grid-column: auto / span 12;
 				min-height: 90vh;
 			}
 

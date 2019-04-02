@@ -17,6 +17,10 @@ page_sections:
   text: "Our team manages your digital marketing while you focus on your patients."
   btn:
   img: "/img/products/website-management/hero-img.svg"
+- component: callout-headline
+  component_css: callout-headline
+  class: callout-headline__website-management
+  headline: "A stat here about medical websites."
 - component: image-group
   component_css: image-group
   class: website-management__image-group--1
@@ -40,16 +44,21 @@ page_sections:
     alt-text: "Jamie Schwartz, MD"
 - component: feature-1
   component_css: feature
-  headline: "Easily Make Updates in real-time"
+  headline: "Protect your patient information with a HIPAA secure medical website"
   class: website-management__feature--1
-  text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
-  btn: 
-  img: "/img/products/website-management/on-page-edit.jpg"
+  text: "Every aspect of our website marketing platform - where we host your site, how you add content, the forms your patients fill in with personal information - are all 100% HIPAA compliant."
+  btn:
+  - btn-link: "#"
+    btn-label: Learn More
+  img: "/img/products/website-management/hipaa-secure.jpg"
   img_alignment: "Left"
-- component: callout-headline
-  component_css: callout-headline
-  class: callout-headline__website-management
-  headline: "A stat here about medical websites."
+- component: callout
+  component_css: callout
+  class: callout__websites
+  headline: "Is your website HIPAA secure?"
+  text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
+  subscription: 
+  - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
 - component: feature-1
   component_css: feature
   headline: "Elevate your brand with unlimited pages"
@@ -59,24 +68,7 @@ page_sections:
   - btn-link: "#"
     btn-label: Learn More
   img: "/img/products/website-management/unlimited-pages.jpg"
-  img_alignment: "Left"
-- component: feature-1
-  component_css: feature
-  headline: "Protect your patient information with a HIPAA secure medical website"
-  class: website-management__feature--3
-  text: "Every aspect of our website marketing platform - where we host your site, how you add content, the forms your patients fill in with personal information - are all 100% HIPAA compliant."
-  btn:
-  - btn-link: "#"
-    btn-label: Learn More
-  img: "/img/products/website-management/hipaa-secure.jpg"
   img_alignment: "Right"
-- component: callout
-  component_css: callout
-  class: callout__websites
-  headline: "Is your website HIPAA secure?"
-  text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
-  subscription: 
-  - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
 - component: text-component
   component_css: text-component
   headline:
@@ -85,4 +77,12 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: "Learn More" 
+- component: feature-1
+  component_css: feature
+  headline: "Easily Make Updates in real-time"
+  class: website-management__feature--3
+  text: "On-Page Editing gives you 100% access to your content and the ability to make real-time edits to your website without any delays. See exactly what those changes would look like before publishing live. Don't have time to make these updates? No worries, our fanatical support team is available to make unlimited site updates on your behalf."
+  btn: 
+  img: "/img/products/website-management/on-page-edit.jpg"
+  img_alignment: "Left"
 ---
