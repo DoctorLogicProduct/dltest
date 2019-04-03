@@ -17,7 +17,9 @@
       {% endfor %}   
     </div>
     <div class="feature__image">
-      <div class="feature__image-wrapper" style="background:url('{{ section.img | relative_url }}')"></div>
+      <div class="feature__image-wrapper">
+        <img src="{{ section.img | relative_url }}" alt="">
+      </div>
     </div>
 </section>
 {% endif %}

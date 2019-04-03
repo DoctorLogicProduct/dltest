@@ -12,23 +12,25 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/header.js"></script>
+<script src="{{ base }}/js/header.js"></script>
 
 {% if page.gsap == true %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-<script src="js/ScrollMagic.js"></script>
-<script src="js/animation.gsap.js"></script>
-<script src="js/debug.addIndicators.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script> -->
+<script src="{{ base }}/js/TweenMax.min.js"></script>
+<script src="{{ base }}/js/DrawSVGPlugin.min.js"></script>
+<script src="{{ base }}/js/ScrollMagic.js"></script>
+<script src="{{ base }}/js/animation.gsap.js"></script>
+<script src="{{ base }}/js/debug.addIndicators.js"></script>
 {% endif %}
 
 {% if page.anime == true %}
-<script src="js/anime.min.js"></script>
-<script src="js/animation.anime.min.js"></script>
+<script src="{{ base }}/js/anime.min.js"></script>
+<script src="{{ base }}/js/animation.anime.min.js"></script>
 {% endif %}
 
 {% if page.custom_js %}
 {% for js_file in page.custom_js %}
-<script src='js/{{ js_file }}.js' type="text/javascript"></script>
+<script src='{{ base }}/js/{{ js_file }}.js' type="text/javascript"></script>
 {% endfor %}
 {% endif %}
 
