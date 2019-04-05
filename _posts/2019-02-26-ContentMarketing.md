@@ -11,6 +11,7 @@ post_highlight: With 1 in 20 Google searches being health related, it’s no won
   healthcare providers are implementing content marketing into their marketing strategies.
 post_type:
 - blog
+- blog
 product:
 - growth accelerators
 
