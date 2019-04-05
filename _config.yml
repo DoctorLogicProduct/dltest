@@ -28,6 +28,7 @@ default-img: /img/logo-symbol.jpg
 # Build settings
 markdown: kramdown
 theme: minima
+include: ['_pages']
 plugins:
   - jekyll-feed
   - octopress-autoprefixer

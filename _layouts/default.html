@@ -28,6 +28,10 @@
 <script src="{{ base }}/js/animation.anime.min.js"></script>
 {% endif %}
 
+{% if page.rangeslider == true %}
+<script src="{{ base }}/js/rangeslider.min.js"></script>
+{% endif %}
+
 {% if page.custom_js %}
 {% for js_file in page.custom_js %}
 <script src='{{ base }}/js/{{ js_file }}.js' type="text/javascript"></script>

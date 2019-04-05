@@ -1,0 +1,38 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+@import url('/css/vendor/rangeslider.css');
+
+.rangeslider,
+input[type='range'] {
+  max-width: 100%;
+}
+
+.rangeslider__fill {
+    background: $gradient-website-marketing;
+    
+}
+
+.price-slider {
+    position: relative;
+    padding: 40px;
+
+    &__labels {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        bottom: -40px;
+
+            &-label {
+                width: 40px;
+                text-align: center;
+            }
+
+    }
+
+    
+}

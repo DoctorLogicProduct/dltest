@@ -1,0 +1,30 @@
+---
+layout: default
+page_name: pricing
+permalink: /pricing/
+rangeslider: true
+custom_js: pricing
+page_class: pricing
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+sliders:
+  - headline: Procedures/Services
+    labels: ['5', '10', '20', '30', '40', 'More']
+    values: ['295', '695', '1095', '1495', '1795', 'Infinity']
+  - headline: Practitioners
+    labels: ['1', '2', '3', '4', 'More']
+    values: ['100', '200', '300', '400', 'Infinity']
+  - headline: Locations
+    labels: ['1', '2', '3', '4', 'More']
+    values: ['100', '200', '300', '400', 'Infinity']
+---
+
+<h1>Find Your Price</h1>
+
+{% for slider in page.sliders %}
+    <div class="price-slider-headline">{{slider.headline}}</div>
+    <div class="price-slider">
+        <input type="range" value="0" min="0" max="{{slider.values.size | minus: 1}}" labels="{{ slider.labels | join: ', ' }}" values="{{ slider.values | join: ', ' }}">
+    </div>
+{% endfor %}
+
+<output id="js-result">$0.00</output>
