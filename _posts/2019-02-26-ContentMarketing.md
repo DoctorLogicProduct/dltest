@@ -5,14 +5,10 @@ post_author: Brittany Pinder
 tags:
 - content-marketing
 post_intro: With 1 in 20 Google searches being health related, it’s no wonder healthcare
-  providers are implementing content marketing into their marketing strategies. This
-  direction has proven to be the right approach to target ideal patients, build brand
-  awareness and boost traffic to your website.
+  providers are implementing content marketing into their marketing strategies.
 post_image: "/uploads/Content Marketing.png"
 post_highlight: With 1 in 20 Google searches being health related, it’s no wonder
   healthcare providers are implementing content marketing into their marketing strategies.
-  This direction has proven to be the right approach to target ideal patients, build
-  brand awareness and boost traffic to your website.
 post_type:
 - blog
 product:
