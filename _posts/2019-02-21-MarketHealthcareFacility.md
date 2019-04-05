@@ -2,7 +2,8 @@
 post_title: How to Market Your Healthcare Facility and Stand Out Online
 date: 2019-02-21 06:00:00 +0000
 post_author: Janelle Amos
-tags: []
+tags:
+- content-marketing
 post_intro: Attracting patients online, especially in a competitive market, can be
   tough. In my previous blog, I discussed how online consumerism has changed and how
   potential patients are conducting their research online.
