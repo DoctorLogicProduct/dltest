@@ -6,7 +6,7 @@ tags:
 - content-marketing
 post_intro: With 1 in 20 Google searches being health related, it’s no wonder healthcare
   providers are implementing content marketing into their marketing strategies.
-post_image: "/uploads/Content Marketing.png"
+post_image: "/uploads/ContentMarketing2Thumb.jpg"
 post_highlight: With 1 in 20 Google searches being health related, it’s no wonder
   healthcare providers are implementing content marketing into their marketing strategies.
 post_type:
