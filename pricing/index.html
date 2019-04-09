@@ -62,7 +62,7 @@
 			</li>
 
 			<li>
-				<a href="#">Pricing</a>
+				<a href="/pricing">Pricing</a>
 			</li>
 
 			<li>
@@ -81,42 +81,42 @@
 					<div class="content">
 						<ul>
 							<li class="website-management">
-								<a href="/products/website-management.html">
+								<a href="/products/website-management">
 									Website Management
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="content-multiplier">
-								<a href="/products/content-multiplier.html">
+								<a href="/products/content-multiplier">
 									Content Multiplier
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="social-reputation">
-								<a href="/products/social-reputation.html">
+								<a href="/products/social-reputation">
 									Social Reputation
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="search-amplifier">
-								<a href="/products/search-amplifier.html">
+								<a href="/products/search-amplifier">
 									Search Amplifier
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="lead-generator">
-								<a href="/products/lead-generator.html">
+								<a href="/products/lead-generator">
 									Lead Generator
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="success-insights">
-								<a href="/products/success-insights.html">
+								<a href="/products/success-insights">
 									Success Insights
 									<span>A brief description here</span>
 								</a>
@@ -178,35 +178,187 @@
 	</div> <!-- morph-dropdown-wrapper -->
 
 	<div class="header__cta">
-		<a href="#" class="header__cta--demo">Demo</a>
+		<a data-scroll href="#scroll-point" class="header__cta--demo">Demo</a>
 		<a href="#" class="header__cta--login"><img src="/img/sign-in.svg" alt=""></a>
 	</div>
 </header>
 
 	<main class="pricing">
-			<h1>Find Your Price</h1>
+			
+<section class="hero hero-2 pricing__hero">
+  <div class="hero-2__text">
+    <h1>Pricing</h1>
+    <div class="separator"></div>
+    <p>We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a solution that works for your practice.</p>
+  </div>
+</section>
 
 
-    <div class="price-slider-headline">Procedures/Services</div>
-    <div class="price-slider">
-        <input type="range" value="0" min="0" max="5" labels="5, 10, 20, 30, 40, More" values="295, 695, 1095, 1495, 1795, Infinity">
+<section class="price-slider">
+  <h3>Estimate Your Price</h3>
+  <div class="price-slider__items">
+    
+    <div class="price-slider__item">
+      <div class="price-slider__headline">Number of Procedures/Services</div>
+      <div class="price-slider__slider">
+        <input type="range" value="0" min="0" max="5"
+          labels="5, 10, 20, 30, 40, More" values="295, 695, 1095, 1495, 1795, Infinity">
+      </div>
     </div>
-
-    <div class="price-slider-headline">Practitioners</div>
-    <div class="price-slider">
-        <input type="range" value="0" min="0" max="4" labels="1, 2, 3, 4, More" values="100, 200, 300, 400, Infinity">
+    
+    <div class="price-slider__item">
+      <div class="price-slider__headline">Number of Practitioners</div>
+      <div class="price-slider__slider">
+        <input type="range" value="0" min="0" max="4"
+          labels="1, 2, 3, 4, More" values="100, 200, 300, 400, Infinity">
+      </div>
     </div>
-
-    <div class="price-slider-headline">Locations</div>
-    <div class="price-slider">
-        <input type="range" value="0" min="0" max="4" labels="1, 2, 3, 4, More" values="100, 200, 300, 400, Infinity">
+    
+    <div class="price-slider__item">
+      <div class="price-slider__headline">Number of Locations</div>
+      <div class="price-slider__slider">
+        <input type="range" value="0" min="0" max="4"
+          labels="1, 2, 3, 4, More" values="100, 200, 300, 400, Infinity">
+      </div>
     </div>
+    
+  </div>
+
+  <div class="price-slider__price">
+    <h4>Websites Starting At:</h4>
+    <output id="js-result">$0.00</output>
+    <p class="price-slider__price--disclaimer">*Monthly</p>
+    <p>All websites are configurable to suit the needs of your practice.</p>
+  </div>
+  <p class="price-slider__terms">* Pricing and packaging subject to change, please contact us for details.</p>
+
+</section>
+
+<section class="pricing-features">
+  <h3>All DoctorLogic Websites Comes With The Following Features</h3>
+  <div class="pricing-features__items">
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/website-management-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Core Platform</p>
+      
+      <p class="pricing-features__item-feature">Custom Designs</p>
+      
+    </div>
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/content-multiplier-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Before & After Photos</p>
+      
+      <p class="pricing-features__item-feature">On-Page Editing</p>
+      
+    </div>
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/social-reputation-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Reviews Management</p>
+      
+      <p class="pricing-features__item-feature">Local Data Management</p>
+      
+    </div>
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/search-amplifier-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Essential SEO</p>
+      
+      <p class="pricing-features__item-feature">Local Data Management</p>
+      
+    </div>
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/lead-generator-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Essential SEO</p>
+      
+      <p class="pricing-features__item-feature">Local Data Management</p>
+      
+    </div>
+    
+    <div class="pricing-features__item">
+      <img src="../img/product-icons/with-labels/success-insights-label.svg" alt="">
+      
+      <p class="pricing-features__item-feature">Essential SEO</p>
+      
+      <p class="pricing-features__item-feature">Local Data Management</p>
+      
+    </div>
+    
+  </div>
+</section>
+
+<section class="pricing-plugins">
+  <h3>DoctorLogic Without the Website</h3>
+  <p>We understand that switching website vendors is not easy. We have created variations of our core products that can be
+  used on any website, regardless of your web vendor. Each tool works and looks great on your existing website.</p>
+  <div class="pricing-plugins__items">
+    
+    <div class="pricing-plugins__item">
+      <h4>Reviews Plugin</h4>
+      <div class="pricing-plugins__item-img pricing-plugins__item-img--social-reputation">
+        <img src="../img/plugins/reviews-plugin.svg" alt="The DoctorLogic Reviews Plugin">
+      </div>
+      <p class="pricing-plugins__item-price">
+        $295
+      </p>
+      <p class="pricing-plugins__item-text pricing-plugins__item-text--disclaimer">
+        Per month billed annually
+      </p>
+      <p class="pricing-plugins__item-text">
+        Add patient reviews from across the web to your website. Present reviews in an organized way for customers. Request reviews from patients easily.
+      </p>
+      <a data-scroll href="#scroll-point" class="text-link">Try It Free</a>
+    </div>
+    
+    <div class="pricing-plugins__item">
+      <h4>Gallery Plugin</h4>
+      <div class="pricing-plugins__item-img pricing-plugins__item-img--content-multiplier">
+        <img src="../img/plugins/gallery-plugin.svg" alt="The DoctorLogic Gallery Plugin">
+      </div>
+      <p class="pricing-plugins__item-price">
+        $295
+      </p>
+      <p class="pricing-plugins__item-text pricing-plugins__item-text--disclaimer">
+        Per month billed annually
+      </p>
+      <p class="pricing-plugins__item-text">
+        Showcase your talent in beautifully displayed before and after photo galleries. Manage your photo galleries in ways never before possible.
+      </p>
+      <a data-scroll href="#scroll-point" class="text-link">Try It Free</a>
+    </div>
+    
+    <div class="pricing-plugins__item">
+      <h4>Both Plugins</h4>
+      <div class="pricing-plugins__item-img pricing-plugins__item-img--website-management">
+        <img src="../img/plugins/both-plugins.svg" alt="The DoctorLogic Reviews Plugin & Gallery Plugin">
+      </div>
+      <p class="pricing-plugins__item-price">
+        $495
+      </p>
+      <p class="pricing-plugins__item-text pricing-plugins__item-text--disclaimer">
+        Per month billed annually
+      </p>
+      <p class="pricing-plugins__item-text">
+        Purchase both plugins at a discount! The Review and Gallery plugins can both be added to your website to increase the number of leads your get from online.
+      </p>
+      <a data-scroll href="#scroll-point" class="text-link">Try It Free</a>
+    </div>
+    
+  </div>
+</section>
 
 
-<output id="js-result">$0.00</output>
-
+			<div id="scroll-point"></div>
 	</main>
-	<footer>
+	<footer id="footer">
 	<div class="footer-form">
     <h3>Ready to get started?</h3>
     <!--[if lte IE 8]>
@@ -238,6 +390,7 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="/js/smooth-scroll.polyfills.min.js"></script>
 <script src="/js/header.js"></script>
 
 
@@ -253,5 +406,11 @@
 <script src='/js/pricing.js' type="text/javascript"></script>
 
 
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		updateURL: false
+	});
+</script>
 
 </html>
