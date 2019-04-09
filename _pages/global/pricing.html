@@ -6,25 +6,146 @@ rangeslider: true
 custom_js: pricing
 page_class: pricing
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+  - class: pricing__hero
+    headline: Pricing
+    text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
+    solution that works for your practice."
+features:
+  - img: ../img/product-icons/with-labels/website-management-label.svg
+    feature-items:
+    - feature: "Core Platform"
+    - feature: "Custom Designs"
+  - img: ../img/product-icons/with-labels/content-multiplier-label.svg
+    feature-items:
+    - feature: "Before & After Photos"
+    - feature: "On-Page Editing"
+  - img: ../img/product-icons/with-labels/social-reputation-label.svg
+    feature-items:
+    - feature: "Reviews Management"
+    - feature: "Local Data Management"
+  - img: ../img/product-icons/with-labels/search-amplifier-label.svg
+    feature-items:
+    - feature: "Essential SEO"
+    - feature: "Local Data Management"
+  - img: ../img/product-icons/with-labels/lead-generator-label.svg
+    feature-items:
+    - feature: "Essential SEO"
+    - feature: "Local Data Management"
+  - img: ../img/product-icons/with-labels/success-insights-label.svg
+    feature-items:
+    - feature: "Essential SEO"
+    - feature: "Local Data Management"
+
 sliders:
-  - headline: Procedures/Services
+  - headline: Number of Procedures/Services
     labels: ['5', '10', '20', '30', '40', 'More']
     values: ['295', '695', '1095', '1495', '1795', 'Infinity']
-  - headline: Practitioners
+  - headline: Number of Practitioners
     labels: ['1', '2', '3', '4', 'More']
     values: ['100', '200', '300', '400', 'Infinity']
-  - headline: Locations
+  - headline: Number of Locations
     labels: ['1', '2', '3', '4', 'More']
     values: ['100', '200', '300', '400', 'Infinity']
+
+plugins:
+  - title: Reviews Plugin
+    img: ../img/plugins/reviews-plugin.svg
+    img-class: social-reputation
+    alt: The DoctorLogic Reviews Plugin
+    price: $295
+    disclaimer: Per month billed annually
+    text: "Add patient reviews from across the web to your website. Present reviews in an organized way for customers. Request
+    reviews from patients easily." 
+  - title: Gallery Plugin
+    img: ../img/plugins/gallery-plugin.svg
+    img-class: content-multiplier
+    alt: The DoctorLogic Gallery Plugin
+    price: $295
+    disclaimer: Per month billed annually
+    text: "Showcase your talent in beautifully displayed before and after photo galleries. Manage your photo galleries in ways
+    never before possible."
+  - title: Both Plugins
+    img: ../img/plugins/both-plugins.svg
+    img-class: website-management
+    alt: The DoctorLogic Reviews Plugin & Gallery Plugin
+    price: $495
+    disclaimer: Per month billed annually
+    text: "Purchase both plugins at a discount! The Review and Gallery plugins can both be added to your website to increase the
+    number of leads your get from online."
 ---
 
-<h1>Find Your Price</h1>
-
-{% for slider in page.sliders %}
-    <div class="price-slider-headline">{{slider.headline}}</div>
-    <div class="price-slider">
-        <input type="range" value="0" min="0" max="{{slider.values.size | minus: 1}}" labels="{{ slider.labels | join: ', ' }}" values="{{ slider.values | join: ', ' }}">
-    </div>
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}">
+  <div class="hero-2__text">
+    <h1>{{hero.headline}}</h1>
+    <div class="separator"></div>
+    <p>{{hero.text}}</p>
+  </div>
+</section>
 {% endfor %}
 
-<output id="js-result">$0.00</output>
+<section class="price-slider">
+  <h3>Estimate Your Price</h3>
+  <div class="price-slider__items">
+    {% for slider in page.sliders %}
+    <div class="price-slider__item">
+      <div class="price-slider__headline">{{slider.headline}}</div>
+      <div class="price-slider__slider">
+        <input type="range" value="0" min="0" max="{{slider.values.size | minus: 1}}"
+          labels="{{ slider.labels | join: ', ' }}" values="{{ slider.values | join: ', ' }}">
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="price-slider__price">
+    <h4>Websites Starting At:</h4>
+    <output id="js-result">$0.00</output>
+    <p class="price-slider__price--disclaimer">*Monthly</p>
+    <p>All websites are configurable to suit the needs of your practice.</p>
+  </div>
+  <p class="price-slider__terms">* Pricing and packaging subject to change, please contact us for details.</p>
+
+</section>
+
+<section class="pricing-features">
+  <h3>All DoctorLogic Websites Comes With The Following Features</h3>
+  <div class="pricing-features__items">
+    {% for feature in page.features %}
+    <div class="pricing-features__item">
+      <img src="{{ feature.img }}" alt="">
+      {% for feature-item in feature.feature-items %}
+      <p class="pricing-features__item-feature">{{ feature-item.feature }}</p>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="pricing-plugins">
+  <h3>DoctorLogic Without the Website</h3>
+  <p>We understand that switching website vendors is not easy. We have created variations of our core products that can be
+  used on any website, regardless of your web vendor. Each tool works and looks great on your existing website.</p>
+  <div class="pricing-plugins__items">
+    {% for plugin in page.plugins %}
+    <div class="pricing-plugins__item">
+      <h4>{{plugin.title}}</h4>
+      <div class="pricing-plugins__item-img pricing-plugins__item-img--{{ plugin.img-class }}">
+        <img src="{{ plugin.img }}" alt="{{ plugin.alt }}">
+      </div>
+      <p class="pricing-plugins__item-price">
+        {{ plugin.price }}
+      </p>
+      <p class="pricing-plugins__item-text pricing-plugins__item-text--disclaimer">
+        {{ plugin.disclaimer }}
+      </p>
+      <p class="pricing-plugins__item-text">
+        {{ plugin.text }}
+      </p>
+      <a data-scroll href="#scroll-point" class="text-link">Try It Free</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+

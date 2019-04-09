@@ -1,0 +1,63 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.hero-2 {
+	padding: 80px 0 0;
+	display: flex;
+	align-items: center;
+	min-height: 350px;
+
+	@include tablet-wide-min {
+		padding: 120px 0 60px 5%;
+		min-height: 600px;
+	}
+
+		&__text {
+			grid-column: auto / span 24;
+			grid-row: 2 / span 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			padding: 0 20px;
+			max-width: 900px;
+			z-index: 2;
+
+			@include tablet-wide-min {
+				grid-column: auto / span 14;
+				grid-row: auto;
+				justify-content: center;
+				align-items: flex-start;
+				padding: 40px;
+			}
+
+			@include desktop-min {
+				grid-column: auto / span 14;
+			}
+
+			h1 {
+				max-width: 100%;
+				font-size: 1.7rem;
+
+				@include tablet-min {
+				  font-size: 3.5vw;
+				}
+				
+			}
+
+			h1, p {
+				text-align: center;
+				margin: 0;
+
+				@include tablet-wide-min {
+					text-align: left;
+				}
+
+			}
+
+		}
+
+}

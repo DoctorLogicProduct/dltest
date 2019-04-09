@@ -55,5 +55,5 @@ function formatMoney(value) {
     for (let i = str.length - 6; i > 0; i -= 3) {
         str = str.slice(0, i) + ',' + str.slice(i); 
     }
-    return `$${str}`;
+    return `$${str} *`;
 }

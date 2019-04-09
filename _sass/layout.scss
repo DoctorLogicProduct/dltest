@@ -117,8 +117,13 @@ h4 {
 }
 
 p {
-	font-size: 1.2rem;
-	line-height: 1.6rem;
+	font-size: 1rem;
+	line-height: 1.6;
+
+	@include tablet-min {
+	  font-size: 1.2rem;
+	}
+	
 }
 
 a {
@@ -163,7 +168,7 @@ sup {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: $gradient-website-marketing;
+	background: $gradient-website-management;
 	background-position: 1% 50%;
 	background-size: 400% 300%;
 	transition: 700ms ease-out;
@@ -207,7 +212,7 @@ sup {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: .9rem;
-	font-weight: 300;
+	font-weight: 400;
 	text-decoration: none;
 	color: $color-3;
 
@@ -261,6 +266,16 @@ sup {
 
 .component {
 	@include grid;
+}
+
+.separator {
+	width: 200px;
+	height: 6px;
+	background: $gradient-website-management;
+	margin: 20px 0;
+	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	
 }
 
 footer {

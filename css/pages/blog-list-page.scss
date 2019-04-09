@@ -6,7 +6,7 @@
 
 .blog-list-page {
 
-    .hero-1 {
+    .hero-2 {
         position: relative;
 
         &::after {
@@ -16,7 +16,7 @@
             right: 0;
             bottom: 40px;
             width: 100%;
-            background: url('/img/hero/hero-bg-2.svg') right top/contain no-repeat;
+            background: url('/img/hero/hero-bg-4.svg') right top/contain no-repeat;
             z-index: 1;
             opacity: .5;  
         }
@@ -83,7 +83,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: $gradient-website-marketing;
+                background: $gradient-website-management;
                 opacity: .85;
                 border-top-left-radius: 20px;
                 border-bottom-right-radius: 20px;
@@ -381,7 +381,7 @@
                     letter-spacing: 2px;
                     text-transform: uppercase;
                     text-decoration: none;
-                    background: $gradient-website-marketing;
+                    background: $gradient-website-management;
                     font-family: 'Montserrat', sans-serif;
                     background-position: 1% 50%;
                     background-size: 400% 300%;
