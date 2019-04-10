@@ -35,6 +35,9 @@ page_sections:
   - class: image-group__image--3
     src: /img/products/search-amplifier/keyword-patterns-2.svg
     alt-text: "Keyword Focus"
+  - class: image-group__image--4
+    src: /img/products/search-amplifier/keyword-patterns-3.svg
+    alt-text: "Keyword Building"
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__search

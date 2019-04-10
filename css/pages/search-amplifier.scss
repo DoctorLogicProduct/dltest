@@ -171,6 +171,25 @@
                 }
             }
 
+            &__image--4 {
+                opacity: 0;
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -65%);
+
+                @include desktop-sm-min {
+                  width: 60%;
+                }
+                
+            
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
 
         }
 
