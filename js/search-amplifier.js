@@ -8,7 +8,7 @@ tl.to('.image-group__image--4', 1, { opacity: 1 }), "6";
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.search-amplifier__image-group--1',
-        triggerHook: .5, //between 0 an 1
+        triggerHook: .4, //between 0 an 1
         duration: '60%'
     })
         .setTween(tl)
