@@ -8,7 +8,7 @@ tl.from('.image-group__image--1', 1, {opacity: 0}, "3");
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.website-management__image-group--1',
-        triggerHook: .7, //between 0 an 1
+        triggerHook: .5, //between 0 an 1
         duration: '95%'
     })
         // .setPin('.social-reputation__image-group--1')
