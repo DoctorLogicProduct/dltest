@@ -39,7 +39,7 @@
 						<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
 							<!-- <div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div> -->
 							<div class="related-posts__card-text">
-								<p class="related-posts__card-tags">{{ post.tags | join: ', ' }}</p>
+								<p class="related-posts__card-tags">{{ post.tags[0] | replace: '-', ' ' }}, {{ post.tags[1] | replace: '-', ' '}}</p>
 								<h3>{{ post.post_title }}</h3>
 								<p class="related-posts__card-highlight">{{ post.post_highlight }}</p>
 								<p class="related-posts__card-author">By {{ post.post_author }}</p>
