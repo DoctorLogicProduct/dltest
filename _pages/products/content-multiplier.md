@@ -26,9 +26,18 @@ page_sections:
   - btn-link: "#"
     btn-label: "Learn More"
   items:
-  - class: svg
-    src: gallery-tool-mock
-    alt-text: "Facebook Reviews"
+  - class: image-group__image--1
+    src: /img/products/content-multiplier/content-multiplier-page.jpg
+    alt-text: "Before & After Galleries"
+  - class: image-group__image--2
+    src: /img/products/content-multiplier/content-multiplier-feature-1.svg
+    alt-text: "Patient Friendly Galleries"
+  - class: image-group__image--3
+    src: /img/products/content-multiplier/content-multiplier-feature-2.svg
+    alt-text: "Stunning Photo Galleries"
+  - class: image-group__image--4
+    src: /img/products/content-multiplier/content-multiplier-feature-3.svg
+    alt-text: "Capture Every Lead"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--1

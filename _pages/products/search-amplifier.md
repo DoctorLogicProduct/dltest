@@ -55,18 +55,18 @@ page_sections:
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
-  headline: "SEO Best Practices"
-  text: "DoctorLogic removes SEO complexity for your practice. Our SEO experts deploy a variety of best practices to maintain and improve your search engine rankings, such as structured data, page speed, tag management, image optimization, and alt tag."
+  headline: "SEO Performance<sup>Beta</sup>"
+  text: "Transparency is key in any successful partnership. Our SEO Performance dashboard gives you real-time insights into keywords, Google search results rankings, and value of that keyword ranking. With DoctorLogic you know exactly the ROI on our SEO efforts."
   btn:
   - btn-link: "#"
     btn-label: "Learn More"
-  img: "/img/products/search-amplifier/best-practices.jpg"
+  img: "/img/products/search-amplifier/seo-performance.jpg"
   img_alignment: "Right"
 - component: text-component
   component_css: text-component
-  headline:
-  - headline: "SEO Performance<sup>Beta</sup>"
-  text: "Transparency is key in any successful partnership. Our SEO Performance dashboard gives you real-time insights into keywords, Google search results rankings, and value of that keyword ranking. With DoctorLogic you know exactly the ROI on our SEO efforts."
+  headline: 
+  - headline: "SEO Best Practices"
+  text: "DoctorLogic removes SEO complexity for your practice. Our SEO experts deploy a variety of best practices to maintain and improve your search engine rankings, such as structured data, page speed, tag management, image optimization, and alt tag."
   btn:
   - btn-link: "#"
     btn-label: "Learn More" 
