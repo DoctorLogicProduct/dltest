@@ -5,7 +5,7 @@
 @import "mq", "base";
 
 .feature {
-	padding: 60px 20px;
+	padding: 40px 20px;
 	max-width: 1500px;
 	margin: 0 auto;
 
@@ -69,8 +69,17 @@
 	&__image-wrapper {
 		
 		img {
-			max-width: 100%;
+			max-width: 400px;
+			width: 100%;
 			height: auto;
+			margin: 0 auto;
+			display: block;
+
+			@include tablet-wide-min {
+			  max-width: 100%;
+			  margin: 0;
+			}
+			
 		}
 	}
 

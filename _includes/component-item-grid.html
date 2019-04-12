@@ -6,12 +6,25 @@
 		</div>
 		<div class="item-grid__items item-grid__items--{{section.per-row-count}}">
 			{% for item in section.items %}
-				<div class="item-grid__item">
-					<img class="{{item.img-class}}" src="{{item.img}}" alt="">
+				<div class="item-grid__item {{item.class}}">
+					{% for img in item.img %}
+						{% if item.img %}
+						<img class="{{img.class}}" src="{{img.src}}" alt="{{img.alt}}">
+						{% endif %}
+					{% endfor %}
 					<h4>{{item.headline}}</h4>
 					<p>{{item.text}}</p>
-					<a class="text-link" href="{{item.btn-link}}">{{item.btn-label}}</a>
+					{% for link in item.link %}
+						{% if item.link %}
+						<a class="text-link" href="{{link.link-link}}">{{link.link-label}}</a>
+						{% endif %}
+					{% endfor %}
 				</div>
+			{% endfor %}
+			{% for btn in section.btn %}
+				{% if section.btn %}
+				<a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>

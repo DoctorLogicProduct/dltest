@@ -17,27 +17,30 @@ page_sections:
   text: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
-- component: image-group
-  component_css: image-group
-  class: content-multiplier__image-group--1
+- component: item-grid
+  component_css: item-grid
+  class: content-multiplier__item-grid--1
+  per-row-count: "3"
   headline: "Showcase your stunning results & establish your expertise"
   text: "The DoctorLogic Before and After Photo Gallery Manager allows you to manage and showcase your results like never before. Allow patients to look for a person with a similar build or features, and showcase your expertise, techniques, and devices used in how that procedure changed their appearance."
-  btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   items:
-  - class: image-group__image--1
-    src: /img/products/content-multiplier/content-multiplier-page.jpg
-    alt-text: "Before & After Galleries"
-  - class: image-group__image--2
-    src: /img/products/content-multiplier/content-multiplier-feature-1.svg
-    alt-text: "Patient Friendly Galleries"
-  - class: image-group__image--3
-    src: /img/products/content-multiplier/content-multiplier-feature-2.svg
-    alt-text: "Stunning Photo Galleries"
-  - class: image-group__image--4
-    src: /img/products/content-multiplier/content-multiplier-feature-3.svg
-    alt-text: "Capture Every Lead"
+  - class: item-grid__item--1
+    img:
+    - class: "item-grid__image--1"
+      src: "/img/products/content-multiplier/content-multiplier-page.jpg"
+      alt: "Before & After Galleries"
+  - class: item-grid__item--2
+    headline: "Patient Friendly"
+    text: "Every case has a SEO rich headline with detailed information that patients can use to understand what they are looking at. This information also helps create an unlimited number of keyword targets for search engines."
+  - class: item-grid__item--3
+    headline: "Stunning Photos"
+    text: "Pictures speak a thousand words. Upload an unlimited number of photos that can easily be cropped, edited, and organized in one single place."
+  - class: item-grid__item--4
+    headline: "Capture The Lead"
+    text: "Don't make it hard on your website visitors to contact your practice. Every gallery page includes a contact form so patients can schedule a consultation."
+  btn:
+    - btn-link: "#"
+      btn-label: "Learn More"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--1

@@ -13,7 +13,7 @@ body {
 	background: $color-2;
 	z-index: 1;
 
-	@include tablet-min {
+	@include tablet-wide-min {
 		font-size: 1.1rem;
 	}
 }
@@ -120,7 +120,7 @@ p {
 	font-size: 1rem;
 	line-height: 1.6;
 
-	@include tablet-min {
+	@include tablet-wide-min {
 	  font-size: 1.2rem;
 	}
 	

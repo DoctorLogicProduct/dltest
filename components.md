@@ -39,23 +39,31 @@ page_sections:
   headline: "Amplify your practice with these powerful tools."
   text: "Lorem ipsum delor lorem sit amet lorem ipsum delor"
   items:
-  - img-class: "item-grid__icon"
-    img: "img/item-grid-sample-1.svg"
+  - class: "bob" 
+    img:
+    - class: "item-grid__icon"
+      src: "img/item-grid-sample-1.svg"
+      alt: "alt-text"
     headline: "Content<br>Management"
     text: "Lorem ipsum delor sit."
-    btn-link: "#"
-    btn-label: "Learn More"
-  - img-class: "item-grid__icon"
-    img: "img/item-grid-sample-2.svg"
-    headline: "In-depth<br>Analytics"
+    link:
+    - link-link: "#"
+      link-label: "Learn More"
+  - class: "bob" 
+    img:
+    - class: "item-grid__icon"
+      src: "img/item-grid-sample-1.svg"
+      alt: "alt-text"
+    headline: "Content<br>Management"
     text: "Lorem ipsum delor sit."
-    btn-link: "#"
-    btn-label: "Learn More"
-  - img-class: "item-grid__icon"
-    img: "img/item-grid-sample-3.svg"
+    link:
+    - link-link: "#"
+      link-label: "Learn More"
+  - class: "bob"
     headline: "Managed<br>Chat"
     text: "Lorem ipsum delor sit."
-    btn-link: "#"
+  btn:
+  - btn-link: "#"
     btn-label: "Learn More"
 - component: feature-1
   headline: "Showcase your work for all to see."
