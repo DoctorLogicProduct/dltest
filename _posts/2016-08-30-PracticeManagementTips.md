@@ -7,7 +7,7 @@ tags:
 post_intro: The following content is an interview conducted with DoctorLogic’s VP
   of Sales & Marketing, Andre Riley. This content was used in an article published
   in The Aesthetic Guide Magazine. See the full article here.
-post_image: ''
+post_image: "/uploads/TheAestheticGuide0516Thumb.png"
 post_highlight: The following content is an interview conducted with DoctorLogic’s
   VP of Sales & Marketing, Andre Riley. This content was used in an article published
   in The Aesthetic Guide Magazine. See the full article here.
