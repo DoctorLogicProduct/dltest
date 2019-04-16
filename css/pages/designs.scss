@@ -5,82 +5,345 @@
 @import "mq", "base";
 @import url('/css/components/hero-2.css');
 
+$spacing: 15px;
+
 .designs {
 
-   &__wrapper {
-    width:90%;
-    margin:0 auto;
-    @include grid;  
+    .hero {
+        position: relative;
+
+        &::after {
+                content: '';
+                position: absolute;
+                top: -100px;
+                right: 0;
+                bottom: 40px;
+                width: 100%;
+                background: url('/img/hero/hero-bg-1.svg') right center/contain no-repeat;
+                z-index: 1;
+                opacity: .7;  
+            }
+
+            @include tablet-wide-min {
+                &::after {
+                    background: url('/img/hero/hero-bg-1.svg') right center/contain no-repeat;
+                    bottom: -40px;
+                }
+            }
+    }
+
+    &__intro {
+        padding: 40px 10px 0;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        h3, p {
+            text-align: center;
+        }
+    }
+
+    &__wrapper {
+        max-width: 1200px;
+        margin:0 auto;
+        @include grid; 
+
+    }
+
+    input[type="radio"] {
+        display:none;
+    }
+
+    label {
+        grid-column: auto / span 6;
+        float:left;
+        text-align:center;
+        background:#ffffff;
+        padding:0.5%;
+        margin-bottom:20px;
+        cursor:pointer;
+
+    &:hover {
+
+            p {
+                color: $color-2;
+            }
+
+            span::after {
+                transform: translateX(-50%) scale(1,1);
+                border-radius: 10px; 
+            }
+        }
+    p {
+        z-index: 1;
+        position: relative;
+        color: $color-1;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        display: inline;
+        transition: color .3s;
+    }
+
+    span {
+        position: relative;
+        padding: 20px;
+        border-radius: 10px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: calc(100% + 20px);
+            transform: translateX(-50%) scale(0,0);
+            transform-origin: left;
+            height: 100%;
+            background: $color-3;
+            transition: transform .3s;
+            border-radius: 10px;
+        }
+    }
+    }
+
+    input[type="radio"][id="reset"]:checked + label span p {
+        color: $color-2;
+    }
+    
+    input[type="radio"][id="reset"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="cosmetic"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="cosmetic"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="dentistry"], input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="med-spa"] {
+        display: none;
+    }
+
+    input[type="radio"][id="dentistry"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="dentistry"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="med-spa"] {
+        display: none;
+    }
+
+    input[type="radio"][id="med-spa"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="med-spa"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="dentistry"] {
+        display: none;
+    }
+
+    &__items {
+        grid-column: auto / span 24;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: $spacing 0;
+        text-align: left;
+        // &:hover {
+        //     .card {
+        //     filter: grayscale(1);
+        //     &:hover {
+        //         filter: grayscale(0);
+        //     }
+        //     }
+        // }
+    }
+
+    &__item {
+        flex: 0 0 100%;
+        padding: 12px 10px;
+        text-decoration: none;
+
+        @include phone-wide-min {
+        flex: 0 0 50%;
+        }
+        
+
+        @include tablet-wide-min {
+        flex: 0 0 33%;
+        }
+        
+
+        &:hover {
+
+            .card {
+                &__image {
+                    transform: scale(1.5,1.5);
+                }
+
+                &__description {
+                    max-height: 100%;
+                    color: $color-1;
+                    padding: 20px 20px;
+                    transition: max-height 100ms, padding 300ms;
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+
+    .card {
+    background-color: $color-6;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: background-size 3s;
+    cursor: pointer;
+    position: relative;
+    justify-content: flex-end;
+    overflow: hidden;
+    color: $color-2;
+    background-size: cover !important;
+    background-position: center center !important;
+    
+    &:focus, &:visited {
+        outline: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $gradient-overlay;
+    }
+
+
+
+    &::-moz-focus-inner {
+        border: 0;
+    }
+
+
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover !important;
+        background-position: center top !important;
+        transform: scale(1,1);
+        transform-origin: center;
+        transition: transform 3s;
+        
+    }
+
+
+    &__title {
+        padding: 0px 20px;
+        margin-bottom: 5px;
+        z-index: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    &__description {
+        // transform: translateY(100vh)
+        max-height: 0;
+        overflow: hidden;
+        font-size: 1.1rem;
+        line-height: 1.2;
+        transition: max-height 200ms 0ms, opacity 100ms ease, padding 200ms;
+        // opacity: 0;
+        z-index: 1;
+        padding: 0 20px;
+        background-color: rgba(255,255,255,.9);
+        color: $color-2;
+        margin-bottom: 0;
+    }
+    
+    }
+
 }
 
-input[type="radio"] {
-    display:none;
-}
-label {
-  grid-column: auto / span 6;
-  float:left;
-  text-align:center;
-  background:#ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  color:#222222;
-  padding:0.5%;
-  margin-bottom:30px;
-  cursor:pointer;
-}
-input[type="radio"][id="cosmetic"]:checked + label {
-  background:#6666ff;
-}
-input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="dentistry"], input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="med-spa"] {
-  transform: scale(0,1);
-  grid-column: none;
-  grid-row: none;
-}
-input[type="radio"][id="dentistry"]:checked + label {
-  background:#ff4466;
-}
+.mfp-image-holder .mfp-content {
+        max-width: 1600px !important;
+    }
 
-input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="med-spa"] {
-  transform: scale(0,1);
-  grid-column: none;
-  grid-row: none;
-}
+    .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+        position: fixed !important;
+        top: 40px !important;
+        right: 40px !important;
+        width: 40px !important;
+        height: 40px !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        color: #000 !important;
+        background: #fff !important;
+        border-radius: 50% !important;
+        line-height: 1.5 !important;
+        font-size: 1.5em !important;
+    }
 
-input[type="radio"][id="med-spa"]:checked + label {
-  background:#66dd99;
-}
-input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="dentistry"] {
-  transform: scale(0,1);
-  grid-column: none;
-  grid-row: none;
-}
+    img.mfp-img {
+        padding: 0 !important;
+    }
 
-&__items {
-    grid-column: auto / span 24;
-    @include grid;
-    padding: 0 0 60px;
-}
+    .mfp-title {
+        background: $gradient-website-management;
+        padding: 40px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        ul {
+            padding: 0;
+            list-style: none;
+        }
 
-&__item{
-  grid-column: auto / span 6;
-  grid-row: auto;
-  height:100px;
-  transform: scale(1, 1);
-  transform-origin: left;
-  transition: all .3s;
-  margin:0.5%;
-  padding:0.5%;
-  border-radius: 20px;
-}
+        li {
+            list-style: none;
+            padding: 10px 0;
 
-.med-spa {
-  background:#66dd99;
-}
-.cosmetic {
-  background:#6666ff;
-}
-.dentistry {
-  background:#ff4466;
-}
+            &::before {
+                display: none;
+            }
 
-}
+            span {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                padding-right: 10px;
+            }
+
+            a {
+                text-transform: none;
+                color: $color-2;
+
+                &:hover {
+                    color: $color-3;
+                }
+            }
+        }
+    }
 

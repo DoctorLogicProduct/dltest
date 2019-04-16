@@ -1,0 +1,74 @@
+[
+    {
+        "type": "cosmetic",
+        "img": "/img/designs/vip.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "VIP Plastic Surgery",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/flipse.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Implant & General Dentistry",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "med-spa",
+        "img": "/img/designs/elevate.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Elevate Med Spa",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "cosmetic",
+        "img": "/img/designs/vip.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "VIP Plastic Surgery",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/flipse.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Implant & General Dentistry",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "med-spa",
+        "img": "/img/designs/elevate.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Elevate Med Spa",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "cosmetic",
+        "img": "/img/designs/vip.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "VIP Plastic Surgery",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/flipse.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Implant & General Dentistry",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    },
+    {
+        "type": "med-spa",
+        "img": "/img/designs/elevate.jpg",
+        "link-label": "brooklynhotdogcompany.com",
+        "link": "http://brooklynhotdogcompany.com",
+        "name": "Elevate Med Spa",
+        "description": "Ut eget neque vel leo scelerisque dignissim quis sit amet justo. Sed gravida, orci quis malesuada sodales, odio dui dapibus augue."
+    }
+]

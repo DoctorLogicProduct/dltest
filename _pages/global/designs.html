@@ -3,6 +3,8 @@ layout: default
 page_name: designs
 permalink: /designs/
 page_class: designs
+magnific: true
+custom_js: designs
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
   - class: pricing__hero
@@ -13,45 +15,46 @@ hero:
 
 {% for hero in page.hero %}
 <section class="hero hero-2 {{hero.class}}">
-  <div class="hero-2__text">
-    <h1>{{hero.headline}}</h1>
-    <div class="separator"></div>
-    <p>{{hero.text}}</p>
-  </div>
+    <div class="hero-2__text">
+      <h1>{{hero.headline}}</h1>
+      <div class="separator"></div>
+      <p>{{hero.text}}</p>
+    </div>
 </section>
 {% endfor %}
 
-  <div class="designs__wrapper">
+<section class="designs__intro">
+  <h3>Stunning, Modern Designs</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus rerum et odio vero vel eius unde voluptates eveniet cupiditate excepturi distinctio deleniti, accusantium dignissimos animi expedita? Dolorem, omnis totam.</p>
+</section>
 
-    <label for="reset">All</label>
-    <input type="radio" id="reset" name="color" checked="checked" />
-    <input type="radio" id="cosmetic" name="color" />
-    <label for="cosmetic">Cosmetic</label>
-    <input type="radio" id="dentistry" name="color" />
-    <label for="dentistry">Dentistry</label>
-    <input type="radio" id="med-spa" name="color" />
-    <label for="med-spa">Med Spa</label>
+<section class="designs__wrapper">
+  <input type="radio" id="reset" name="color" checked="checked" />
+  <label for="reset"><span><p>All</p></span></label>
+  <input type="radio" id="cosmetic" name="color" />
+  <label for="cosmetic"><span><p>Cosmetic</p></span></label>
+  <input type="radio" id="dentistry" name="color" />
+  <label for="dentistry"><span><p>Dentistry</p></span></label>
+  <input type="radio" id="med-spa" name="color" />
+  <label for="med-spa"><span><p>Med Spa</p></span></label>
 
-    <div class="designs__items">
-  
-      <div class="designs__item cosmetic" data-type="cosmetic">1</div>
-      <div class="designs__item dentistry" data-type="dentistry">2</div>
-      <div class="designs__item cosmetic" data-type="cosmetic">3</div>
-      <div class="designs__item med-spa" data-type="med-spa">4</div>
-      <div class="designs__item cosmetic" data-type="cosmetic">5</div>
-      <div class="designs__item dentistry" data-type="dentistry">6</div>
-      <div class="designs__item dentistry" data-type="dentistry">7</div>
-      <div class="designs__item med-spa" data-type="med-spa">8</div>
-      <div class="designs__item cosmetic" data-type="cosmetic">9</div>
-      <div class="designs__item med-spa" data-type="med-spa">10</div>
-      <div class="designs__item dentistry" data-type="dentistry">11</div>
-      <div class="designs__item med-spa" data-type="med-spa">12</div>
-      <div class="designs__item cosmetic" data-type="cosmetic">13</div>
-      <div class="designs__item cosmetic" data-type="cosmetic">14</div>
-      <div class="designs__item med-spa" data-type="med-spa">15</div>
-      <div class="designs__item dentistry" data-type="dentistry">16</div>
+  <div class="designs__items">
 
-    </div>
+    {% for item in site.data.designs.gallery %}
+    <a class="designs__item" data-type="{{item.type}}" href="{{item.img}}" data-title="<ul><li><span>{{item.name}}</span></li><li><span>URL:</span> <a href={{item.link}} target=blank>{{item.link-label}}</a></li></ul>">
+      <div class="card {{item.type}}">
+        <div class="card__image" style="background: url('{{item.img}}');"></div>
+        <p class="card__title">
+          {{item.name}}
+        </p>
+        <p class="card__description">
+          {{item.description}}
+        </p>
+      </div>
+    </a>
+    {% endfor %}
 
   </div>
+
+</section>
 
