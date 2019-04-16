@@ -37,18 +37,20 @@
     flex-wrap: wrap;
 
     @include tablet-wide-min {
-        padding: 60px 5% 0;
+        padding: 60px 5%;
     }
 
     h3 {
         flex: 0 0 100%;
-        padding: 0 0 40px;
+        padding: 0 0 20px;
         text-align: center;
-
-        @include desktop-sm-min {
-          padding: 0 0 80px;
-        }
         
+    }
+
+    .price-slider__text {
+        flex: 0 0 100%;
+        text-align: center;
+        padding-bottom: 40px;
     }
 
     &__items {
@@ -62,6 +64,10 @@
           order: 2;
         }
         
+     }
+
+     &__headline {
+         font-weight: 400;
      }
 
      .rangeslider,
@@ -119,6 +125,7 @@
         h4 {
             color: $color-2;
             font-weight: 500;
+            margin-bottom: 10px;
         }
 
         p {
@@ -126,12 +133,19 @@
         }
 
         output {
-            font-size: 3rem;
+            font-size: 4rem;
             text-align: center;
             font-weight: 500;
+            line-height: 1;
+            
+            span {
+                font-size: 3rem;
+                vertical-align: middle;
+                margin: 0 10px;
+            }
 
             @include desktop-min {
-              font-size: 3.5vw;
+              font-size: 4vw;
             }
             
         }
@@ -217,6 +231,8 @@
 
 .pricing-plugins {
     padding: 40px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 
     @include tablet-wide-min {
         padding: 60px 5%;
@@ -249,7 +265,7 @@
         box-shadow: $box-shadow;
 
         @include tablet-min {
-          grid-column: auto / span 8;
+          grid-column: auto / span 12;
         }
         
     }

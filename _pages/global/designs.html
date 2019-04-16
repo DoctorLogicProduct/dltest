@@ -1,0 +1,57 @@
+---
+layout: default
+page_name: designs
+permalink: /designs/
+page_class: designs
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+  - class: pricing__hero
+    headline: Design Gallery
+    text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
+    solution that works for your practice."
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}">
+  <div class="hero-2__text">
+    <h1>{{hero.headline}}</h1>
+    <div class="separator"></div>
+    <p>{{hero.text}}</p>
+  </div>
+</section>
+{% endfor %}
+
+  <div class="designs__wrapper">
+
+    <label for="reset">All</label>
+    <input type="radio" id="reset" name="color" checked="checked" />
+    <input type="radio" id="cosmetic" name="color" />
+    <label for="cosmetic">Cosmetic</label>
+    <input type="radio" id="dentistry" name="color" />
+    <label for="dentistry">Dentistry</label>
+    <input type="radio" id="med-spa" name="color" />
+    <label for="med-spa">Med Spa</label>
+
+    <div class="designs__items">
+  
+      <div class="designs__item cosmetic" data-type="cosmetic">1</div>
+      <div class="designs__item dentistry" data-type="dentistry">2</div>
+      <div class="designs__item cosmetic" data-type="cosmetic">3</div>
+      <div class="designs__item med-spa" data-type="med-spa">4</div>
+      <div class="designs__item cosmetic" data-type="cosmetic">5</div>
+      <div class="designs__item dentistry" data-type="dentistry">6</div>
+      <div class="designs__item dentistry" data-type="dentistry">7</div>
+      <div class="designs__item med-spa" data-type="med-spa">8</div>
+      <div class="designs__item cosmetic" data-type="cosmetic">9</div>
+      <div class="designs__item med-spa" data-type="med-spa">10</div>
+      <div class="designs__item dentistry" data-type="dentistry">11</div>
+      <div class="designs__item med-spa" data-type="med-spa">12</div>
+      <div class="designs__item cosmetic" data-type="cosmetic">13</div>
+      <div class="designs__item cosmetic" data-type="cosmetic">14</div>
+      <div class="designs__item med-spa" data-type="med-spa">15</div>
+      <div class="designs__item dentistry" data-type="dentistry">16</div>
+
+    </div>
+
+  </div>
+

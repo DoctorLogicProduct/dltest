@@ -1,0 +1,86 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+@import url('/css/components/hero-2.css');
+
+.designs {
+
+   &__wrapper {
+    width:90%;
+    margin:0 auto;
+    @include grid;  
+}
+
+input[type="radio"] {
+    display:none;
+}
+label {
+  grid-column: auto / span 6;
+  float:left;
+  text-align:center;
+  background:#ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color:#222222;
+  padding:0.5%;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+input[type="radio"][id="cosmetic"]:checked + label {
+  background:#6666ff;
+}
+input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="dentistry"], input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="med-spa"] {
+  transform: scale(0,1);
+  grid-column: none;
+  grid-row: none;
+}
+input[type="radio"][id="dentistry"]:checked + label {
+  background:#ff4466;
+}
+
+input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="med-spa"] {
+  transform: scale(0,1);
+  grid-column: none;
+  grid-row: none;
+}
+
+input[type="radio"][id="med-spa"]:checked + label {
+  background:#66dd99;
+}
+input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="dentistry"] {
+  transform: scale(0,1);
+  grid-column: none;
+  grid-row: none;
+}
+
+&__items {
+    grid-column: auto / span 24;
+    @include grid;
+    padding: 0 0 60px;
+}
+
+&__item{
+  grid-column: auto / span 6;
+  grid-row: auto;
+  height:100px;
+  transform: scale(1, 1);
+  transform-origin: left;
+  transition: all .3s;
+  margin:0.5%;
+  padding:0.5%;
+  border-radius: 20px;
+}
+
+.med-spa {
+  background:#66dd99;
+}
+.cosmetic {
+  background:#6666ff;
+}
+.dentistry {
+  background:#ff4466;
+}
+
+}
+

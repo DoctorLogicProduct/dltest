@@ -41,7 +41,7 @@ sliders:
   - headline: Number of Procedures/Services
     labels: ['5', '10', '20', '30', '40', 'More']
     values: ['295', '695', '1095', '1495', '1795', 'Infinity']
-  - headline: Number of Practitioners
+  - headline: Number of Providers
     labels: ['1', '2', '3', '4', 'More']
     values: ['100', '200', '300', '400', 'Infinity']
   - headline: Number of Locations
@@ -54,7 +54,7 @@ plugins:
     img-class: social-reputation
     alt: The DoctorLogic Reviews Plugin
     price: $295
-    disclaimer: Per month billed annually
+    disclaimer: Per month
     text: "Add patient reviews from across the web to your website. Present reviews in an organized way for customers. Request
     reviews from patients easily." 
   - title: Gallery Plugin
@@ -62,17 +62,9 @@ plugins:
     img-class: content-multiplier
     alt: The DoctorLogic Gallery Plugin
     price: $295
-    disclaimer: Per month billed annually
+    disclaimer: Per month
     text: "Showcase your talent in beautifully displayed before and after photo galleries. Manage your photo galleries in ways
     never before possible."
-  - title: Both Plugins
-    img: ../img/plugins/both-plugins.svg
-    img-class: website-management
-    alt: The DoctorLogic Reviews Plugin & Gallery Plugin
-    price: $495
-    disclaimer: Per month billed annually
-    text: "Purchase both plugins at a discount! The Review and Gallery plugins can both be added to your website to increase the
-    number of leads your get from online."
 ---
 
 {% for hero in page.hero %}
@@ -87,6 +79,7 @@ plugins:
 
 <section class="price-slider">
   <h3>Estimate Your Price</h3>
+  <p class="price-slider__text">Use the calculator below to select the options best suited for your practice.</p>
   <div class="price-slider__items">
     {% for slider in page.sliders %}
     <div class="price-slider__item">
@@ -102,10 +95,10 @@ plugins:
   <div class="price-slider__price">
     <h4>Websites Starting At:</h4>
     <output id="js-result">$0.00</output>
-    <p class="price-slider__price--disclaimer">*Monthly</p>
-    <p>All websites are configurable to suit the needs of your practice.</p>
+    <p class="price-slider__price--disclaimer">Per Month</p>
+    <!-- <p>All websites are configurable to suit the needs of your practice.</p> -->
   </div>
-  <p class="price-slider__terms">* Pricing and packaging subject to change, please contact us for details.</p>
+  <!-- <p class="price-slider__terms">* Pricing and packaging subject to change, please contact us for details.</p> -->
 
 </section>
 

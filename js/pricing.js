@@ -47,13 +47,13 @@ function getValue(element) {
 
 function updateResult(el, values) {
     let value = values.reduce((a, b) => a + b);
-    el.textContent = isFinite(value) ? formatMoney(value) : 'Call Us';
+    el.innerHTML = isFinite(value) ? formatMoney(value) : 'Call Us';
 }
 
 function formatMoney(value) {
-    let str = `${value.toFixed(2)}`;
+    let str = `${value}`;
     for (let i = str.length - 6; i > 0; i -= 3) {
         str = str.slice(0, i) + ',' + str.slice(i); 
     }
-    return `$${str} *`;
+    return `<span>$</span>${str}`;
 }
