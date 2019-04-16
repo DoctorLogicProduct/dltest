@@ -33,7 +33,7 @@ $spacing: 15px;
     }
 
     &__intro {
-        padding: 40px 10px 0;
+        padding: 0 10px 40px;
         max-width: 1200px;
         margin: 0 auto;
 
@@ -58,13 +58,18 @@ $spacing: 15px;
     }
 
     label {
-        grid-column: auto / span 6;
+        grid-column: auto / span 24;
         float:left;
         text-align:center;
         background:#ffffff;
         padding:0.5%;
         margin-bottom:20px;
         cursor:pointer;
+
+        @include tablet-min {
+            grid-column: auto / span 6;
+        }
+        
 
     &:hover {
 
@@ -91,7 +96,7 @@ $spacing: 15px;
 
     span {
         position: relative;
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
 
         &::after {
@@ -159,7 +164,7 @@ $spacing: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: $spacing 0;
+        padding: $spacing 0 60px;
         text-align: left;
         // &:hover {
         //     .card {
@@ -175,6 +180,7 @@ $spacing: 15px;
         flex: 0 0 100%;
         padding: 12px 10px;
         text-decoration: none;
+        
 
         @include phone-wide-min {
         flex: 0 0 50%;
@@ -190,20 +196,17 @@ $spacing: 15px;
 
             .card {
                 &__image {
-                    transform: scale(1.5,1.5);
+                    animation: animateBackground 3s linear forwards;  
                 }
 
-                &__description {
-                    max-height: 100%;
-                    color: $color-1;
-                    padding: 20px 20px;
-                    transition: max-height 100ms, padding 300ms;
-                    opacity: 1;
+                &__title {
+                    margin-bottom: 40px;
                 }
             }
         }
 
     }
+
 
     .card {
     background-color: $color-6;
@@ -220,7 +223,7 @@ $spacing: 15px;
     overflow: hidden;
     color: $color-2;
     background-size: cover !important;
-    background-position: center center !important;
+    
     
     &:focus, &:visited {
         outline: none;
@@ -237,7 +240,6 @@ $spacing: 15px;
     }
 
 
-
     &::-moz-focus-inner {
         border: 0;
     }
@@ -251,38 +253,25 @@ $spacing: 15px;
         width: 100%;
         height: 100%;
         background-size: cover !important;
-        background-position: center top !important;
-        transform: scale(1,1);
-        transform-origin: center;
-        transition: transform 3s;
+
+          @keyframes animateBackground {
+            from { background-position: center 0; }
+            to { background-position: center 100%; }
+    }
         
     }
 
 
     &__title {
         padding: 0px 20px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         z-index: 1;
         text-transform: uppercase;
         font-weight: 400;
         font-size: 1rem;
+        transition: margin-bottom .3s;
     }
 
-    &__description {
-        // transform: translateY(100vh)
-        max-height: 0;
-        overflow: hidden;
-        font-size: 1.1rem;
-        line-height: 1.2;
-        transition: max-height 200ms 0ms, opacity 100ms ease, padding 200ms;
-        // opacity: 0;
-        z-index: 1;
-        padding: 0 20px;
-        background-color: rgba(255,255,255,.9);
-        color: $color-2;
-        margin-bottom: 0;
-    }
-    
     }
 
 }
