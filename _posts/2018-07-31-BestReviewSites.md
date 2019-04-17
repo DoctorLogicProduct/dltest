@@ -23,7 +23,7 @@ The best way for plastic surgeons to get overall [feedback of their overall serv
 
 ### Benefits for Plastic Surgeons to be on Review Sites 
 
-#### 1. Helps in attracting more patients
+#### 1. Helps in attracting more patients 
 
 Surveys suggest that one of the first things that potential patients look for while choosing their plastic surgeon is online reviews. If you are a 21st-century plastic surgeon, providing best quality service to your patients, you cannot just rely on word-of-mouth advertising to gain exposure for your business. You need to make your presence felt in [online reviews](https://doctorlogic.com/features/reviews/).
 
