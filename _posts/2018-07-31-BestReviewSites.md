@@ -21,7 +21,9 @@ However, recent studies have shown that patient satisfaction at a practice is no
 
 The best way for plastic surgeons to get overall [feedback of their overall service](https://doctorlogic.com/features/reviews/) is to register at popular review websites and gather critical patient feedback that can help make further improvements at their practice.
 
-### Benefits for Plastic Surgeons to be on Review Sites 
+### Benefits for Plastic Surgeons to be on Review Sites
+
+###  
 
 #### 1. Helps in attracting more patients 
 
