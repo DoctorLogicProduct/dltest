@@ -27,7 +27,7 @@ page_sections:
   headline: "Modern Designs for the Modern Practice"
   text: "Our industry expert design team specializes in building stunning custom healthcare websites that fit your brand and looks great on any device. Each beautifully designed medical website is optimized for search performance and converting visitors into patients."
   btn:
-  - btn-link: "#"
+  - btn-link: "/products/website-management/designs"
     btn-label: "Learn More"
   items:
   - class: image-group__image--1

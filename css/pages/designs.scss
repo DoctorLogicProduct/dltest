@@ -222,7 +222,6 @@ $spacing: 15px;
     justify-content: flex-end;
     overflow: hidden;
     color: $color-2;
-    background-size: cover !important;
     
     
     &:focus, &:visited {
@@ -253,6 +252,7 @@ $spacing: 15px;
         width: 100%;
         height: 100%;
         background-size: cover !important;
+        background-position: center center;
 
           @keyframes animateBackground {
             from { background-position: center 0; }
