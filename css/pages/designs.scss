@@ -36,6 +36,10 @@ $spacing: 15px;
         padding: 0 10px 40px;
         max-width: 1200px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
 
         @include tablet-wide-min {
             padding: 0 5% 60px;
@@ -44,6 +48,83 @@ $spacing: 15px;
         h3, p {
             text-align: center;
         }
+
+    }
+
+    &__intro-img {
+        max-width: 600px;
+        padding: 80px 0;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            background: url('/img/products/website-management/gallery/designs-responsive-bg.svg') center center/contain no-repeat;
+            border-radius: 100%;
+            z-index: 1;
+        }
+
+        #device {
+            transform-origin: center bottom;
+        }
+
+        #profile {
+            transform-origin: left center;
+        }
+
+        #text {
+            transform-origin: left center;
+        }
+
+        #hero {
+            transform-origin: left center;
+        }
+
+        #phone_1_ {
+            transform-origin: left center;
+        }
+
+        #phone-hero {
+            transform-origin: left center;
+        }
+
+        #phone-profile {
+            transform-origin: left center;
+        }
+
+        #phone-text {
+            transform-origin: left center;
+        }
+
+        .designs__responsive {
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    &__gallery-text {
+        padding: 0 10px 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        h3, p {
+            text-align: center;
+        }
+
     }
 
     &__wrapper {
