@@ -269,13 +269,51 @@ sup {
 }
 
 .separator {
-	width: 200px;
+	width: 100px;
 	height: 6px;
 	background: $gradient-website-management;
-	margin: 20px 0;
+	margin: 20px 0 40px;
 	border-top-left-radius: 3px;
 	border-bottom-right-radius: 3px;
+	background-size: 200% 200%;
+	animation: separatorGradient 10s ease infinite;
 	
+}
+
+body.social-reputation .separator {
+	background: $gradient-social-reputation;
+}
+
+body.website-management .separator {
+	background: $gradient-website-management;
+}
+
+body.content-multiplier .separator {
+	background: $gradient-content-multiplier;
+}
+
+body.search-amplifier .separator {
+	background: $gradient-search-amplifier;
+}
+
+body.lead-generator .separator {
+	background: $gradient-lead-generator;
+}
+
+body.success-insights .separator {
+	background: $gradient-success-insights;
+}
+
+@keyframes separatorGradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 footer {

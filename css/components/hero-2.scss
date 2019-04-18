@@ -41,6 +41,7 @@
 			h1 {
 				max-width: 100%;
 				font-size: 1.7rem;
+				margin-bottom: 20px;
 
 				@include tablet-min {
 				  font-size: 3.5vw;
@@ -50,12 +51,15 @@
 
 			h1, p {
 				text-align: center;
-				margin: 0;
 
 				@include tablet-wide-min {
 					text-align: left;
 				}
 
+			}
+
+			p {
+				margin: 0;
 			}
 
 		}

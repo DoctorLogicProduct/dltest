@@ -3,9 +3,9 @@
 {% include head.html %}
 {% include base.html %}
 
-<body>
+<body class="{{ page.page_class }}">
 	{% include header.html %}
-	<main class="{{ page.page_class }}">
+	<main>
 			{{ content }}
 			<div id="scroll-point"></div>
 	</main>
