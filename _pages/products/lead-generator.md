@@ -5,7 +5,8 @@ description: "With Opportunities, you can track all incoming inquiries - phone c
 meta_image: "/img/meta/social-reputation.jpg"
 gsap: true
 custom_js: lead-generator
-page_class: lead-generator
+page_class:
+ - class: lead-generator
 product: "lead generator"
 permalink: "/products/lead-generator"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"

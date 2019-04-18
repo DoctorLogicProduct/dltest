@@ -2,7 +2,13 @@
 {% include head.html %}
 {% include base.html %}
 
-	<body class="{{page.page_class}}">
+		{% for class in page.page_class %}
+		{% if class.class %}
+		<body class="{{ class.class }}">
+		{% else %}
+		<body>
+		{% endif %}
+		{% endfor %}
 		{% include header.html %}
 		<main>
 			{% for section in page.page_sections %}

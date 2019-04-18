@@ -5,7 +5,8 @@ description: "Our team of seasoned medical content writers blends their talents 
 meta_image: "/img/meta/social-reputation.jpg"
 gsap: true
 custom_js: success-insights
-page_class: success-insights
+page_class:
+- class: success-insights
 product: "success insights"
 permalink: "/products/success-insights"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"

@@ -5,7 +5,8 @@ description: "Search Amplifier amplifies your entire brand through the best-in-c
 meta_image: "/img/meta/content-multiplier.jpg"
 gsap: true
 custom_js: search-amplifier
-page_class: search-amplifier
+page_class:
+- class: search-amplifier
 product: "search amplifier"
 permalink: "/products/search-amplifier"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"

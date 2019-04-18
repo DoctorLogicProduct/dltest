@@ -35,8 +35,8 @@
 	{% endfor %}
 
 	{% for class in page.page_class %}
-		{% if page.page_class %}
-		<link rel="stylesheet" href="{{ '/css/pages/' | append: page.page_class | append: '.css' | prepend: site.baseurl }}">
+		{% if class.class %}
+		<link rel="stylesheet" href="{{ '/css/pages/' | append: class.class | append: '.css' | prepend: site.baseurl }}">
 		{% endif %}
 	{% endfor %}
 

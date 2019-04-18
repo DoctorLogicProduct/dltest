@@ -5,7 +5,8 @@ description: "Our team manages your digital marketing while you focus on your pa
 meta_image: "/img/meta/website-management.jpg"
 gsap: true
 custom_js: website-management
-page_class: website-management
+page_class:
+- class: website-management
 product: "website management"
 permalink: "/products/website-management"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
