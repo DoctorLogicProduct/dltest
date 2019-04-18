@@ -3,13 +3,10 @@
 {% include head.html %}
 {% include base.html %}
 
-	{% for class in page.page_class %}
-	{% if class.class %}
-	<body class="{{ class.class }}">
-	{% else %}
-	<body>
-	{% endif %}
-	{% endfor %}
+	<!-- {{page.page_class}} -->
+	<!-- {{page.page_class | map: 'class'}} -->
+	<body class="{{ page.page_class | map: 'class' | join: ' ' }}">
+
 	{% include header.html %}
 	<main>
 			{{ content }}

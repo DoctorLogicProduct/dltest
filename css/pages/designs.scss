@@ -50,6 +50,7 @@ $spacing: 15px;
         }
 
     }
+    
 
     &__intro-img {
         max-width: 600px;
@@ -129,6 +130,30 @@ $spacing: 15px;
             text-align: center;
         }
 
+    }
+
+    &__video {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 10px 40px;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+    }
+
+    &__video-wrapper {
+        width: 100%;
+        max-width: 800px;
+        padding: 40px 0 0;
+
+        @include tablet-min {
+          padding: 60px 0 0;
+        }
+        
     }
 
     &__wrapper {
