@@ -151,7 +151,7 @@ $spacing: 15px;
         padding: 40px 0 0;
 
         @include tablet-min {
-          padding: 60px 0 0;
+          padding: 0 0 60px;
         }
         
     }
@@ -382,6 +382,138 @@ $spacing: 15px;
         transition: margin-bottom .3s;
     }
 
+    }
+
+    &__callout {
+        padding: 0 10px 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        &-subscription {
+
+        .email-form--inline {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            
+            @include tablet-min {
+            min-width: 500px;
+            }
+            
+
+            form {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+            }
+
+            .hs-input {
+                    box-sizing:border-box;
+                    background: transparent;
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    border-bottom: 1px solid $color-1;
+                    width:100%;
+                    padding: 20px 5px !important;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    color: $color-1;
+                    box-shadow: none;
+                    border-radius: 0;
+                    font-size: 1rem;
+
+                    &::placeholder {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 300;
+                        color: $color-1;
+                        opacity: 1;
+                        font-size: 1rem !important;
+                    }
+                }
+
+                input.hs-input.error {
+                    border-color: $color-3 !important;
+                    box-shadow: none !important;
+                }
+
+                label {
+                    display: none !important;
+                }
+
+                .hs-button {
+                        display: inline-block;
+                        padding: 15px 20px;
+                        color: $color-2;
+                        margin-top: 20px;
+                        font-size: .8rem;
+                        font-weight: 400;
+                        text-align: center;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        background: $gradient-website-management;
+                        background-position: 1% 50%;
+                        background-size: 400% 300%;
+                        transition: 700ms ease-out;
+                        border-top-left-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        border: solid 1px $color-3;
+                        width: 250px;
+
+                        &:hover {
+                            color: $color-2;
+                            background: $color-3;
+                        }
+
+                        @include desktop-sm-min {
+                            &:hover{
+                                background-position: 60% 50%;
+                                color: $color-2;
+                            }
+                        }
+                        
+                    }
+
+                .hs-error-msgs {
+                        list-style: none !important;
+                        font-family: 'Montserrat', sans-serif;
+                        color: $color-3;
+                        font-size: .9rem;
+                        padding: 0;
+
+                    label {
+                        display: block !important;
+                        text-align: left;
+                    }
+
+                    li::before {
+                        display: none;
+                    }
+                }
+        }
+
+        .hs-form .hs-form-field {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+      }
     }
 
 }

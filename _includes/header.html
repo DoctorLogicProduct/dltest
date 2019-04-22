@@ -2,7 +2,7 @@
 	<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
 
 	<a href="/" class="header__logo">
-		<img src="{{ base }}/img/header-logo.svg" alt="">
+		<div class="header__logo-img"></div>
 	</a>
 
 	<nav class="main-nav">
@@ -19,11 +19,11 @@
 				<a href="#0">Results</a>
 			</li>
 
-			<li>
+			<li class="no-dropdown">
 				<a href="{{ base }}/pricing">Pricing</a>
 			</li>
 
-			<li>
+			<li class="no-dropdown">
 				<a href="#">Contact</a>
 			</li>
 
@@ -96,7 +96,7 @@
 				</li>
 
 				<li id="specialties" class="dropdown links">
-					<a href="#0" class="label">Pricing</a>
+					<a href="#0" class="label">Specialties</a>
 
 					<div class="content">
 						<ul>		
@@ -110,7 +110,7 @@
 				</li>
 
 				<li id="results" class="dropdown links">
-
+					<a href="#0" class="label">Results</a>
 					<div class="content">
 						<ul>
 							<li><a href="#0">Case Studies</a></li>
@@ -121,11 +121,11 @@
 
 				</li>
 
-				<li class="dropdown">
+				<li class="dropdown" class="no-dropdown">
 					<a href="#">Pricing</a>
 				</li>
 				
-				<li class="dropdown">
+				<li class="dropdown" class="no-dropdown">
 					<a href="#">Contact</a>
 				</li>
 				

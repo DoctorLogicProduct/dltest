@@ -1,17 +1,23 @@
 		
 		
 		.header__logo {
-			width: 200px;
-			height: auto;
+			width: 180px;
+			padding: 5px 5px 5px 0;
+			height: 60px;
+			display: flex;
+			justify-content: flex-start;
 
-			img {
-				max-width: 150px;
-
-				@include desktop-sm-min {
-					max-width: 100%;
-				}
-				
+			@include phone-wide-min {
+			  width: 200px;
+			  padding: 5px 0;
 			}
+			
+		}
+
+		.header__logo-img {
+			width: 100%;
+			height: auto;
+			background: url('/img/header-logo.svg') left center/contain no-repeat;
 		}
 
 		.header__cta {
@@ -28,11 +34,11 @@
 
 			&--demo {
 				text-transform: uppercase;
-				font-size: .8rem;
+				font-size: .7rem;
 				letter-spacing: 2px;
 				font-weight: 400;
 				text-decoration: none;
-				padding: 8px 16px;
+				padding: 6px 12px;
 				background: $gradient-website-management;
 				background-position: 1% 50%;
 				background-size: 400% 300%;
@@ -52,6 +58,12 @@
 						color: $color-2;
 				}
 
+				@include desktop-min {
+					padding: 8px 16px;
+					font-size: .8rem;
+				}
+				
+
 			}
 
 			}
@@ -64,8 +76,15 @@
 				padding: 0 16px 0 24px;
 
 				img {
-					width: 40px;
-					height: 40px;
+					width: 30px;
+					height: 30px;
+					display: block;
+
+					@include desktop-min {
+					  width: 40px;
+					  height: 40px;
+					}
+					
 				}
 			}
 
@@ -79,7 +98,7 @@
 			height: 60px;
 			background: transparent;
 			z-index: 10;
-			padding: 0 20px;
+			padding: 0 10px;
 			display: flex;
 			align-items: center;
 
@@ -101,6 +120,11 @@
 			// 		height: 100%;
 			// 		overflow: scroll;
 			// }
+
+			@include phone-wide-min {
+			  padding: 0 20px;
+			}
+			
 
 			@include desktop-sm-min {
 				height: 80px;
@@ -192,11 +216,16 @@
 				}
 
 				.links .content > ul > li a {
-					font-size: .9rem;
+					font-size: .8rem;
 					line-height: 1;
 					font-weight: 400;
 					text-transform: uppercase;
 					text-decoration: none;
+
+					@include desktop-min {
+					  font-size: .9rem;
+					}
+					
 				}
 
 				.bg-layer {
@@ -350,13 +379,20 @@
 					line-height: 1.2;
 					color: $color-1;
 					font-weight: 400;
-					font-size: 1rem;
+					font-size: .9rem;
 					text-transform: uppercase;
 					transition: opacity .2s;
 					text-decoration: none;
 				}
 
 			}
+
+			@include desktop-min {
+			  & > ul > li > a {
+				  font-size: 1rem;
+			  }
+			}
+			
 			
 		}
 
@@ -437,6 +473,8 @@
 			display: block;
 			font-size: .9rem;
 			color: $color-1;
+			font-weight: 400;
+			text-transform: uppercase;
 			margin-bottom: .8em;
 			text-decoration: none;
 			
@@ -447,9 +485,20 @@
 			
 		}
 
+		.dl-morph-dropdown a {
+			text-decoration: none;
+			text-transform: uppercase;	
+			font-weight: 400;
+		}
+
 		.dl-morph-dropdown .content ul {
 			display: flex;
 			flex-wrap: wrap;
+		}
+
+		.dl-morph-dropdown .content li {
+			flex: 0 0 100%;
+			padding: 10px 0;
 		}
 
 		.dl-morph-dropdown .content li::after {

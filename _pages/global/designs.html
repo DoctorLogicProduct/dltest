@@ -1,7 +1,7 @@
 ---
 layout: default
 page_name: designs
-permalink: /products/website-management/designs/
+permalink: /products/website-management/website-design/
 page_class:
   - class: designs
 magnific: true
@@ -10,9 +10,15 @@ custom_js: designs
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
   - class: pricing__hero
-    headline: Design Gallery
-    text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
-    solution that works for your practice."
+    headline: Medical Website Portfolio
+    text: "Our expert design team specializes in building custom healthcare websites that fit your brand and look great on any device. Each beautifully designed medical website is optimized for search performance and converting visitors into patients."
+callout:
+  - class: designs__callout
+    headline: lorem ipsum
+    text: Enter Your Website For a Free Website Design Quote
+    subscription:
+      - hs_form_id: 06f56631-a445-49da-89a7-b852166248b1
+
 ---
 
 {% for hero in page.hero %}
@@ -25,46 +31,29 @@ hero:
 </section>
 {% endfor %}
 
-<section class="designs__intro">
-  <h3>Modern, Beautiful, Responsive</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus rerum et odio vero vel eius unde voluptates eveniet cupiditate excepturi distinctio deleniti, accusantium dignissimos animi expedita? Dolorem, omnis totam.</p>
-  <div class="designs__intro-img">
-    {% include svg/designs-responsive.html %}
-  </div>
-</section>
-
-<section class="designs__video">
-  <h3>Let's Talk Design</h3>
-  <div class="designs__video-wrapper">
-    <script src="https://fast.wistia.com/embed/medias/qosreeqzk5.jsonp" async></script>
-    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-        <div class="wistia_embed wistia_async_qosreeqzk5 videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="designs__gallery-text">
-  <h3>Custom Designed for Your Brand</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit libero, recusandae neque perspiciatis nisi ipsam, totam fugiat itaque ad doloribus cum doloremque dolore. Dicta dignissimos corporis vel! Nobis, nemo molestiae.</p>
-</section>
-
 <section class="designs__wrapper">
   <input type="radio" id="reset" name="color" checked="checked" />
-  <label for="reset"><span><p>All</p></span></label>
+  <label for="reset"><span>
+      <p>All</p>
+    </span></label>
   <input type="radio" id="cosmetic" name="color" />
-  <label for="cosmetic"><span><p>Cosmetic</p></span></label>
+  <label for="cosmetic"><span>
+      <p>Cosmetic</p>
+    </span></label>
   <input type="radio" id="dentistry" name="color" />
-  <label for="dentistry"><span><p>Dentistry</p></span></label>
+  <label for="dentistry"><span>
+      <p>Dentistry</p>
+    </span></label>
   <input type="radio" id="med-spa" name="color" />
-  <label for="med-spa"><span><p>Med Spa</p></span></label>
+  <label for="med-spa"><span>
+      <p>Med Spa</p>
+    </span></label>
 
   <div class="designs__items">
 
     {% for item in site.data.designs.gallery %}
-    <a class="designs__item" data-type="{{item.type}}" href="{{item.img}}" data-title="<ul><li><span>{{item.name}}</span></li><li><span>URL:</span> <a href={{item.link}} target=blank>{{item.link-label}}</a></li></ul>">
+    <a class="designs__item" data-type="{{item.type}}" href="{{item.img}}"
+      data-title="<ul><li><span>{{item.name}}</span></li><li><span>URL:</span> <a href={{item.link}} target=blank>{{item.link-label}}</a></li></ul>">
       <div class="card {{item.type}}">
         <div class="card__image" style="background: url('{{item.img}}');"></div>
         <p class="card__title">
@@ -77,4 +66,48 @@ hero:
   </div>
 
 </section>
+
+{% for callout in page.callout %}
+<section class="component callout {{ callout.class }}">
+  <!-- <h3>{{ callout.headline }}</h3> -->
+    <p>{{ callout.text }}</p>
+    {% for subscription in callout.subscription %}
+    {% if subscription %}
+    <div class="designs__callout-subscription">
+      <div class="email-form--inline">
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            portalId: "2805307",
+            formId: "{{subscription.hs_form_id}}"
+          });
+        </script>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</section>
+{% endfor %}
+
+<section class="designs__gallery-text">
+  <h3>Custom Designed for Your Brand</h3>
+  <p>A beautifully crafted and thought-out website designed to provide the best user experience, will generate new patients and ultimately grow practice revenue.</p>
+</section>
+
+<section class="designs__video">
+  
+  <div class="designs__video-wrapper">
+    <script src="https://fast.wistia.com/embed/medias/qosreeqzk5.jsonp" async></script>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <div class="wistia_embed wistia_async_qosreeqzk5 videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
