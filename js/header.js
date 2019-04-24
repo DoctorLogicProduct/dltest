@@ -64,6 +64,12 @@ jQuery(document).ready(function ($) {
         });
     };
 
+
+    // lock body on mobile nav active
+    $(".nav-trigger").click(function () {
+        $(".body").toggleClass("body--nav-open");
+    });
+
     morphDropdown.prototype.showDropdown = function (item) {
         this.mq = this.checkMq();
         if (this.mq == 'desktop') {
