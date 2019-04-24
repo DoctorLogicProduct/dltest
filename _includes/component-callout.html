@@ -1,4 +1,4 @@
-<section class="component callout {{ section.class }}">
+<section class="component callout {{ section.class }} {% if section.background == false %} callout__clear {% endif %}">
 	<h3>{{ section.headline }}</h3>
 	<p>{{ section.text }}</p>
 	{% for subscription in section.subscription %}
@@ -17,6 +17,6 @@
 		{% endif %}
 	{% endfor %}
 	{% if section.btn %}
-	<a class="btn btn--clear" href="{{section.btn-link}}">{{section.btn-label}}</a>
+	<a class="btn {% if section.background == true %} btn--clear {% endif %}" href="{{section.btn-link}}">{{section.btn-label}}</a>
 	{% endif %}
 </section>

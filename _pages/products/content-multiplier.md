@@ -14,8 +14,8 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: content-multiplier-hero
-  headline: "Multiply Your Content"
-  text: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+  headline: "Target Patients with Content"
+  text: "Utilizing content in your digital marketing strategy is essential to search engine optimization and improving organic search results. Leverage our Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
 - component: item-grid
@@ -23,7 +23,7 @@ page_sections:
   class: content-multiplier__item-grid--1
   per-row-count: "3"
   headline: "Showcase your stunning results & establish your expertise"
-  text: "The DoctorLogic Before and After Photo Gallery Manager allows you to manage and showcase your results like never before. Allow patients to look for a person with a similar build or features, and showcase your expertise, techniques, and devices used in how that procedure changed their appearance."
+  text: "Showcase and manage your stunning results like never before through our Before and After Photo Gallery Manager. Allow patients to search by interested procedures so they can better visualize the results they might achieve. This tool helps you establish your expertise, show off your technique and devices and how they’ve helped your patients."
   items:
   - class: item-grid__item--1
     img:
@@ -40,30 +40,27 @@ page_sections:
     headline: "Capture The Lead"
     text: "Don't make it hard on your website visitors to contact your practice. Every gallery page includes a contact form so patients can schedule a consultation."
   btn:
-    - btn-link: "#"
-      btn-label: "Learn More"
+    - btn-link: "/products/content-multiplier/patient-stories"
+      btn-label: "See How It Works"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--1
   headline: "SEO Rich Procedure and Service Pages"
-  text: "Our team of medical content writers provides custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
+  text: "Our team of medical content writers provide custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   img: "/img/products/content-multiplier/service-pages.jpg"
   img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__content
-  headline: "A stat here about content multiplier."
+  headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic"
+  source: "Hubspot"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Engage Your Patients with Enhanced Provider Bio"
-  text: "Highlight your expertise, training, credentials, professional associations, awards and why you’re a clear choice. Each page includes specific integrated relevant content such as reviews, video, and medical privileges. Every staff member gets an individual bio page as well. "
+  text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all trust."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   img: "/img/products/content-multiplier/provider-bio.jpg"
   img_alignment: "Right"
 - component: feature-1
@@ -72,8 +69,6 @@ page_sections:
   headline: "Smarter Video Integration"
   text: "Upload an unlimited number of videos and our software will automatically integrate these videos across your entire website. Most importantly, each video is transcribed for great SEO content."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   img: "/img/products/content-multiplier/video-integration.jpg"
   img_alignment: "Left"
 ---

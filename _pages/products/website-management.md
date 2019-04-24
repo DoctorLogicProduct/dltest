@@ -18,10 +18,6 @@ page_sections:
   text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a website, but don’t have the time to manage it properly. We’ve got your back! With Website Management, we provide you with simple tools to easily make changes and updates to your website in real-time."
   btn:
   img: "/img/products/website-management/hero-img.svg"
-- component: callout-headline
-  component_css: callout-headline
-  class: callout-headline__website-management
-  headline: "77% of potential patients are using search engines prior to ever booking an appointment"
 - component: image-group
   component_css: image-group
   class: website-management__image-group--1
@@ -43,6 +39,11 @@ page_sections:
   - class: image-group__image--4
     src: /img/products/website-management/jamie-schwartz.png
     alt-text: "Jamie Schwartz, MD"
+- component: callout-headline
+  component_css: callout-headline
+  class: callout-headline__website-management
+  headline: "<span>77%</span> of potential patients are using search engines prior to ever booking an appointment"
+  source: "Software Advice"
 - component: feature-1
   component_css: feature
   headline: "HIPAA Compliant Website"
@@ -53,7 +54,8 @@ page_sections:
   img_alignment: "Left"
 - component: callout
   component_css: callout
-  class: callout__websites
+  class: bob
+  background: false
   headline: "Is your website HIPAA secure?"
   text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
   subscription: 

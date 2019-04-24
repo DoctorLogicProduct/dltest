@@ -35,15 +35,20 @@
 
         &__image {
             z-index: 2;
+
+            @include tablet-wide-min {
+              padding-right: 40px;
+            }
+            
         }
         
     }
 
     &__image-group--1 {
-        padding: 40px 0 0;
+        padding: 20px 0 40px;
 
         @include tablet-wide-min {
-          padding: 100px 0 0;
+          padding: 20px 0 60px;
         }
         
         
@@ -172,11 +177,17 @@
     }
 
     .text-component {
-        padding: 80px 5% 0;
+        padding: 0 10px 40px;
+
+        @include tablet-wide-min {
+          padding: 80px 5% 0;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+        
     }
 
-    &__feature--1 {
-        padding-bottom: 60px;
-    }
 
 }

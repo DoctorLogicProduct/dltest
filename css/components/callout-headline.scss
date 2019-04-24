@@ -11,6 +11,8 @@
 	justify-content: center;
 	padding: 60px 20px;
 	background: $gradient-website-management;
+	position: relative;
+	overflow: hidden;
 
 	@include tablet-min {
 		padding: 30px 5%;
@@ -20,6 +22,25 @@
 		text-align: center;
 		color: $color-2;
 		margin: 0;
+
+		span {
+			font-weight: 400;
+			font-size: 1.8rem;
+
+			@include desktop-sm-min {
+			  font-size: 2rem;
+			}
+			
+		}
+	}
+
+	p {
+		text-align: center;
+		color: $color-2;
+		margin: 0;
+		font-size: .8rem;
+		line-height: 1;
+		width: 100%;
 	}
 
 	&__websites {
@@ -74,6 +95,101 @@
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+.dot-bubble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: translateZ(0);
+
+    li {
+        position: absolute;
+        list-style: none;
+        display: block;
+        background: $color-2; 
+        border-radius: 50%;
+        bottom: 0;
+        margin: 0;
+        animation: bubbles 13s infinite;
+		transition-timing-function: linear;
+		opacity: .2;
+		
+		&::before {
+			display: none;
+		}
+
+        &:nth-child(1) {
+            width: 50px;
+            height: 50px;
+            left: 20%;
+        }
+
+        &:nth-child(2) {
+            width: 30px;
+            height: 30px;
+            left: 40%;
+            animation-duration: 10s;
+        }
+
+        &:nth-child(3) {
+            width: 10px;
+            height: 10px;
+            left: 60%;
+            animation-duration: 13s;
+        }
+
+        &:nth-child(4) {
+            width: 30px;
+            height: 30px;
+            left: 80%;
+            animation-duration: 9s;
+        }
+      
+      &:nth-child(5) {
+            width: 10px;
+            height: 10px;
+            left: 65%;
+            animation-duration: 10s;
+            animation-delay: 1s;
+        }
+
+        &:nth-child(6) {
+            width: 80px;
+            height: 80px;
+            left: 85%;
+            animation-duration: 12s;
+        }
+        &:nth-child(7) {
+            width: 60px;
+            height: 60px;
+            left: 55%;
+            animation-duration: 12s;
+            animation-delay: 1s;
+        }
+        &:nth-child(8) {
+            width: 30px;
+            height: 30px;
+            left: 65%;
+            animation-duration: 12s;
+            animation-delay: 1s;
+        }
+    }
+}
+
+@keyframes bubbles {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-800px) rotate(630deg);
+        transform: translateY(-1080px) rotate(630deg);
+    }
 }
 
 }

@@ -5,7 +5,7 @@
 
 	<!-- {{page.page_class}} -->
 	<!-- {{page.page_class | map: 'class'}} -->
-	<body class="{{ page.page_class | map: 'class' | join: ' ' }}">
+	<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
 
 	{% include header.html %}
 	<main>

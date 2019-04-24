@@ -4,7 +4,7 @@
 
 		{% for class in page.page_class %}
 		{% if class.class %}
-		<body class="{{ class.class }}">
+		<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
 		{% else %}
 		<body>
 		{% endif %}

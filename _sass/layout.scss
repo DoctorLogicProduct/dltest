@@ -18,6 +18,11 @@ body {
 	}
 }
 
+.body--nav-open {
+	position: fixed;
+	overflow: hidden;
+}
+
 main {
 	background: $color-2;
 
@@ -259,6 +264,97 @@ sup {
 	}
 
 }
+
+body.social-reputation .text-link {
+	color: $reputation;
+
+	&::after {
+		background: $reputation-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $reputation-2;
+			}
+		}
+}
+
+body.website-management .text-link {
+	color: $websites;
+
+	&::after {
+		background: $websites-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $websites-2;
+			}
+		}
+}
+
+body.content-multiplier .text-link {
+	color: $content;
+
+	&::after {
+		background: $content-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $content-2;
+			}
+		}
+}
+
+body.search-amplifier .text-link {
+	color: $search;
+
+	&::after {
+		background: $search-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $search-2;
+			}
+		}
+}
+
+body.lead-generator .text-link {
+	color: $leads;
+
+	&::after {
+		background: $leads-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $leads-2;
+			}
+		}
+}
+
+body.success-insights .text-link {
+	color: $success;
+
+	&::after {
+		background: $success-2;
+	}
+
+	@include desktop-sm-min {
+
+			&:hover {
+				color: $success-2;
+			}
+		}
+}
+
 
 .block {
 	@include grid;
