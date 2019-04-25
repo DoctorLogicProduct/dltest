@@ -14,18 +14,16 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  headline: "Manage Your Reputation"
-  text: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+  headline: "Reputation Management Made Easy"
+  text: "Online reputation can make or break your medical practice – and of course your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients, organize and instantly display those reviews from around the web."
   btn:
   img: "/img/products/social-reputation/hero-img.svg"
 - component: image-group
   component_css: image-group
   class: social-reputation__image-group--1
-  headline: "Manage your online reputation with one tool"
-  text: "Organize reviews about your practice and provider from across the web, including top sources such as, Google, Facebook, Yelp, RealSelf, HealthGrades, RateMDs, and many more. Receive alerts when your practice is mentioned in a review."
+  headline: "Organize Your Reviews"
+  text: "Imagine one tool to organize your reviews. With our solution, you can organize reviews from different sources, including Google, Facebook, Yelp, RealSelf, and more. Combine your reviews from across the web to one place, prioritize your favorites, and tag each review to make it simple to find."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   items:
   - class: image-group__image--1
     src: /img/products/social-reputation/facebook.svg
@@ -57,31 +55,36 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__reputation
-  headline: "94% of patients use online reviews to evaluate physicians."
+  headline: "<span>94%</span> of patients use online reviews to evaluate physicians"
+  source: Software Advice
 - component: feature-1
-  headline: "Display your amazing testimonials"
+  headline: "Receive Review Notifications"
   class: social-reputation__feature--1
-  text: "Positive testimonials are tagged and posted to your practice website for the world to see how great you are. The DoctorLogic platform then automatically integrates these positive reviews to relevant content pages and displays the star ratings in search results."
+  text: "We remove the unknown by providing alerts when your practice is mentioned in a review. We monitor dozens of review sites, ensuring any time a review is posted about your practice - you will receive an email alert. Rest easy knowing you will be the first to know anytime a review is posted online."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
+  img: "/img/products/social-reputation/review-notifications.jpg"
+  img_alignment: "Left"
+- component: feature-1
+  headline: "Display Your Testimonials"
+  class: social-reputation__feature--2
+  text: "Easily showcase your reviews and organize them by source, doctor, procedure, and more.  Positive testimonials are tagged and posted to your practice website. Our platform then automatically integrates these positive reviews to relevant content pages and displays the star ratings in search results."
+  btn:
   img: "/img/products/social-reputation/reviews-feature.jpg"
   img_alignment: "Right"
-- component: feature-1
-  component_css: feature
-  class: social-reputation__feature--2
-  headline: "Improve Your Reputation"
-  text: "The DoctorLogic platform and our team of experts make it easy for your patients to share positive feedback about their experience. With Intelligent Thinking™ our software will automically suggest the best place to request reviews based on a few data criterias."
-  btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
-  img: "/img/products/social-reputation/review-request-feature.jpg"
-  img_alignment: "Left"
 - component: callout
   component_css: callout
+  background: false
   class: callout__reputation
   headline: "Do you know the state of your reputation?"
   text: "We make it easy for all providers to know the state of their reputation. Request your FREE report today."
   subscription: 
   - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
+- component: feature-1
+  component_css: feature
+  class: social-reputation__feature--3
+  headline: "Proactive Review Building"
+  text: "Our marketing platform and team of healthcare marketing experts make it easy for your patients to share positive feedback about their experiences. With Intelligent ThinkingI™*, our software will automatically suggest the best place to request reviews based on a few data criteria."
+  btn:
+  img: "/img/products/social-reputation/review-request-feature.jpg"
+  img_alignment: "Left"
 ---

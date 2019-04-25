@@ -40,15 +40,11 @@
     }
 
     &__image-group--1 {
-        padding: 40px 0;
+        padding: 0 0 40px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        @include tablet-wide-min {
-          padding: 0 0 40px;
-        }
 
         @include desktop-sm-min {
           padding: 0 0 80px;
@@ -100,7 +96,7 @@
             &__container {
                 padding: 60px 0 0;
                 position: relative;
-                height: 50vh;
+                height: 40vh;
                 max-height: 775px;
                 margin-top: 20px;
 
@@ -207,12 +203,15 @@
     }
 
     &__feature--1 {
-        padding-top: 40px;
+        padding-bottom: 0; 
+    }
 
-        @include phone-wide-min {
-          padding-top: 40px;
-        }
-        
+    &__feature--2 {
+        padding-bottom: 0; 
+    }
+
+    &__text-component--2 {
+        padding-bottom: 40px;
     }
 
 

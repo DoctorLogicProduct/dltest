@@ -45,6 +45,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        max-width: 990px;
+        margin: 0 auto;
 
         @include tablet-wide-min {
           padding: 0 0 40px;
@@ -67,7 +70,6 @@
 
             &__container {
                 position: relative;
-                overflow: hidden;
                 margin-top: 0;
                 
             }
@@ -122,9 +124,76 @@
                     opacity: 0;;
                 }
 
+            &--2 {
+                position: absolute;
+                top: 50%;
+                left: -125px;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 300px;
+                min-width: 0;
+                border-radius: 50%;
+                padding: 20px;
+                background: $gradient-lead-generator;
+                transform: translateY(-100%);
+                opacity: 0;
+
+                    h4, p {
+                        text-align: center;
+                        color: $color-2;
+                    }
+             }
+
+             &--3 {
+                position: absolute;
+                top: 50%;
+                right: -125px;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 300px;
+                min-width: 0;
+                border-radius: 50%;
+                padding: 20px;
+                background: $gradient-lead-generator;
+                transform: translateY(-50%);
+                opacity: 0;
+
+                    h4, p {
+                        text-align: center;
+                        color: $color-2;
+                    }
+             }
+
+             &--4 {
+                position: absolute;
+                top: 50%;
+                left: -125px;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 300px;
+                min-width: 0;
+                border-radius: 50%;
+                padding: 20px;
+                background: $gradient-lead-generator;
+                transform: translateY(10%);
+                opacity: 0;
+
+                    h4, p {
+                        text-align: center;
+                        color: $color-2;
+                    }
+             }
+
             }
 
 
+        }
+
+        .svg {
+            position: relative;
         }
 
         .btn {
@@ -139,6 +208,7 @@
             
          }
     }
+
 
     &__feature--2 {
         padding-bottom: 40px;

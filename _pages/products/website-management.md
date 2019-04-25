@@ -28,15 +28,19 @@ page_sections:
     btn-label: "Learn More"
   items:
   - class: image-group__image--1
+    img: true
     src: /img/products/website-management/tru-derm.png
     alt-text: "Tru-Derm Med Spa"
   - class: image-group__image--2
+    img: true
     src: /img/products/website-management/vip.png
     alt-text: "VIP Plastic Surgery"
   - class: image-group__image--3
+    img: true
     src: /img/products/website-management/smiles-new-york.png
     alt-text: "Smiles New York"
   - class: image-group__image--4
+    img: true
     src: /img/products/website-management/jamie-schwartz.png
     alt-text: "Jamie Schwartz, MD"
 - component: callout-headline

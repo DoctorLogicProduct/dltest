@@ -24,9 +24,19 @@ page_sections:
   headline: "One home for all your website leads"
   text: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
   items:
-  - class: svg
+  - class: image-group__image--1
+    svg: true
     src: opportunities-mock
-    alt-text: "Facebook Reviews"      
+    alt-text: "Facebook Reviews"
+  - class: image-group__image--2
+    headline: Email Leads
+    text: View website form submissions so your team can follow up
+  - class: image-group__image--3
+    headline: Email Leads
+    text: View website form submissions so your team can follow up
+  - class: image-group__image--4
+    headline: Email Leads
+    text: View website form submissions so your team can follow up      
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__leads

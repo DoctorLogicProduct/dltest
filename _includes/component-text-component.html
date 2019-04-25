@@ -8,7 +8,7 @@
 		<p>{{ section.text }}</p>
 		{% for btn in section.btn %}
 			{% if section.btn %}
-				<a {% if link.data-scroll == true %}{{data-scroll}}{% endif %} href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+				<a {% if btn.data-scroll == true %}{{data-scroll}}{% endif %} href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
 			{% endif %}
 		{% endfor %}
 		{% for link in section.link %}

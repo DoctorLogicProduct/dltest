@@ -7,11 +7,17 @@
 	{% endif %}
 	<div class="image-group__container">
 		{% for item in section.items %}
-			<div class="image-group__image {{ item.class }}">
-				{% if item.class == 'svg' %}
+			<div class="image-group__image {{ item.class | join: ' ' }}">
+				{% if item.svg == true %}
 				{% include svg/{{item.src}}.html %}
-				{% else %}
+				{% elsif item.img == true %}
 				<img src="{{ item.src }}" alt="{{ item.alt-text }}">
+				{% endif %}
+				{% if item.headline %}
+				<h4>{{ item.headline }}</h4>
+				{% endif %}
+				{% if item.text %}
+				<p>{{ item.text }}</p>
 				{% endif %}
 			</div>
 		{% endfor %}
