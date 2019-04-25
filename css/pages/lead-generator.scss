@@ -40,7 +40,7 @@
     }
 
     &__image-group--1 {
-        padding: 40px 0;
+        padding: 40px 0 0;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -71,6 +71,12 @@
             &__container {
                 position: relative;
                 margin-top: 0;
+                @include grid; 
+                grid-gap: 0;
+                
+                @include phone-wide-min {
+                  display: block;
+                }
                 
             }
 
@@ -101,6 +107,7 @@
 
                 svg {
                     max-width: 900px;
+                    width: 100%;
                     
                     @include tablet-min {
                       height: 80vh;
@@ -124,20 +131,46 @@
                     opacity: 0;;
                 }
 
+            &--1 {
+                grid-column: 1 / span 24;
+                grid-row: 1 / span 3;
+
+                @include phone-wide-min {
+                  grid-column: unset;
+                  grid-row: unset;
+                }
+                
+            }
+
             &--2 {
-                position: absolute;
-                top: 50%;
-                left: -125px;
+                grid-column: 1 / span 24;
+                grid-row: 1 / span 1;
                 display: flex;
                 flex-direction: column;
-                width: 300px;
-                height: 300px;
                 min-width: 0;
-                border-radius: 50%;
-                padding: 20px;
-                background: $gradient-lead-generator;
-                transform: translateY(-100%);
                 opacity: 0;
+                background: $leads;
+                padding: 20px;
+
+                @include phone-wide-min {
+                    grid-column: unset;
+                    grid-row: unset;
+                    position: absolute;
+                    top: 50%;
+                    left: 10px;
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    padding: 20px;
+                    background: $gradient-lead-generator;
+                    transform: translateY(-100%);
+                }
+                
+
+                @include desktop-min {
+                  left: -125px;
+                }
+                
 
                     h4, p {
                         text-align: center;
@@ -146,19 +179,33 @@
              }
 
              &--3 {
-                position: absolute;
-                top: 50%;
-                right: -125px;
+                grid-column: 1 / span 24;
+                grid-row: 2 / span 1;
                 display: flex;
                 flex-direction: column;
-                width: 300px;
-                height: 300px;
                 min-width: 0;
-                border-radius: 50%;
-                padding: 20px;
-                background: $gradient-lead-generator;
-                transform: translateY(-50%);
                 opacity: 0;
+                background: $leads-2;
+                padding: 20px;
+
+                @include phone-wide-min {
+                    grid-column: unset;
+                    grid-row: unset;
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    padding: 20px;
+                    background: $gradient-lead-generator;
+                    transform: translateY(-50%);
+                }
+
+                @include desktop-min {
+                  right: -125px;
+                }
+                
 
                     h4, p {
                         text-align: center;
@@ -167,19 +214,33 @@
              }
 
              &--4 {
-                position: absolute;
-                top: 50%;
-                left: -125px;
+                grid-column: 1 / span 24;
+                grid-row: 3 / span 1;
                 display: flex;
                 flex-direction: column;
-                width: 300px;
-                height: 300px;
                 min-width: 0;
-                border-radius: 50%;
-                padding: 20px;
-                background: $gradient-lead-generator;
-                transform: translateY(10%);
                 opacity: 0;
+                background: $leads;
+                padding: 20px;
+
+                @include phone-wide-min {
+                    grid-column: unset;
+                    grid-row: unset;
+                    position: absolute;
+                    top: 50%;
+                    left: 10px;
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    padding: 20px;
+                    background: $gradient-lead-generator;
+                    transform: translateY(10%);
+                }
+
+                @include desktop-min {
+                  left: -125px;
+                }
+                
 
                     h4, p {
                         text-align: center;

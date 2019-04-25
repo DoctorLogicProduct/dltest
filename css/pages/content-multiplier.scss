@@ -80,12 +80,14 @@
                 height: auto;
                 @include grid;
                 grid-gap: 0;
-                width: 100%; 
+                width: 100% !important;
+                overflow: hidden;
                 
                 @include tablet-wide-min {
                   display: block;
                   max-height: 800px;
                   padding: 40px 0 0;
+                  position: relative;
                 }
                 
             }
@@ -109,27 +111,27 @@
                 width: 100%;
                 grid-column: 1 / span 24;
                 grid-row: 1 / span 3;
-            }
-
-            &__image--1 {
-                padding: 0;
-                display: block;
-                width: 100%;
-                height: auto;
-                margin: 0 auto;
                 z-index: 1;
 
                 @include tablet-wide-min {
-                  transform: rotateX(0) rotateY(0) rotateZ(0);
-                  box-shadow: $box-shadow;
-                  transform-origin: center center;  
-                  width: 70vh;
-                  height: 100%;
+                  grid-row: unset;
+                  grid-column: unset;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
                 }
                 
+            }
 
-                @include desktop-min {
-                  width: 55vw;
+            &__image--1 {
+                transform: rotateX(0) rotateY(0) rotateZ(0);
+                transform-origin: center center;
+                padding: 0;
+                box-shadow: -4px 13px 30px -1px rgba(0,0,0,0.44);
+                display: block;
+                max-width: 100%;
+
+                @include desktop-sm-min {
                   max-width: 600px;
                 }
                 
@@ -149,10 +151,12 @@
                 padding: 20px;
                 grid-column: 1 / span 24;
                 grid-row: 1 / span 1;
-                z-index: 2;
                 background: transparentize($content, $amount: .1);
+                z-index: 2;
 
                 @include tablet-wide-min {
+                  grid-column: unset;
+                  grid-row: unset;
                   position: absolute;
                   width: 100%;
                   top: 50%;
@@ -183,10 +187,12 @@
                 padding: 20px;
                 grid-column: 1 / span 24;
                 grid-row: 2 / span 1;
-                z-index: 2;
                 background: transparentize($content-2, $amount: .1);
+                z-index: 2;
 
                 @include tablet-wide-min {
+                  grid-column: unset;
+                  grid-row: unset;
                   position: absolute;
                   width: 100%;
                   top: 50%;
@@ -216,10 +222,12 @@
                 padding: 20px;
                 grid-column: 1 / span 24;
                 grid-row: 3 / span 1;
-                z-index: 2;
                 background: transparentize($content, $amount: .1);
+                z-index: 2;
 
                 @include tablet-wide-min {
+                  grid-column: unset;
+                  grid-row: unset;
                   position: absolute;
                   width: 100%;
                   top: 50%;

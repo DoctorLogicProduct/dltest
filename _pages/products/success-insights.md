@@ -14,39 +14,27 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  headline: "Monitor Your Success"
-  text: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
+  headline: "Invested in Your Success"
+  text: "Stay in-tune with the performance of your medical marketing campaigns. Receive full access to your performance metrics through your practice dashboard and track everything from your search results, keyword rankings and lead generation."
   btn:
   img: "/img/products/success-insights/hero-img.svg"
 - component: image-group
   component_css: image-group
   class: success-insights__image-group--1
-  headline: "Track Every Lead with Performance Dashboard"
-  text: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
+  headline: "Reporting At Your Fingertips"
+  text: "Take the guesswork out of your healthcare marketing and watch your inbound leads grow over time. View all your reporting on a single platform, and receive comprehensive visibility into the performance of your marketing efforts."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
   items:
   - class: svg
+    svg: true
     src: performance-dashboard
     alt-text: "DoctorLogic Performace Dashboard"      
 - component: feature-1
-  headline: "Customer Success"
-  class: social-reputation__feature--1
-  text: "Securely listen to tracked phone call leads to improve phone handling processes, schedule more appointments, enhance the patient experience, and optimize marketing spend. "
-  btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
-  img: "/img/products/social-reputation/reviews-feature.jpg"
-  img_alignment: "Right"
-- component: feature-1
   component_css: feature
-  class: social-reputation__feature--2
-  headline: "Monthly Reporting"
-  text: "Identify which marketing sources are driving true opportunities and which pages of your medical website are converting visitors into patients. Easily export all data into a CSV and upload to your practice management system or EMR."
+  headline: "Personal Customer Success Manager"
+  class: social-reputation__feature--1
+  text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your personal Customer Success Manager provides campaign performance insights, best practices, and information on how we plan to optimize your strategy and help you maximize your marketing goals."
   btn:
-  - btn-link: "#"
-    btn-label: "Learn More"
-  img: "/img/products/social-reputation/review-request-feature.jpg"
-  img_alignment: "Left"
+  img: "/img/products/success-insights/customer-success.jpg"
+  img_alignment: "Right"
 ---

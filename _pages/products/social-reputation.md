@@ -26,30 +26,39 @@ page_sections:
   btn:
   items:
   - class: image-group__image--1
+    img: true
     src: /img/products/social-reputation/facebook.svg
     alt-text: "Facebook Reviews"
   - class: image-group__image--2
+    img: true
     src: /img/products/social-reputation/yelp.svg
     alt-text: "Yelp Reviews"
   - class: image-group__image--3
+    img: true
     src: /img/products/social-reputation/google.svg
     alt-text: "Google Reviews"
   - class: image-group__image--4
+    img: true
     src: /img/products/social-reputation/healthgrades.svg
     alt-text: "Health Grades Reviews"
   - class: image-group__image--5
+    img: true
     src: /img/products/social-reputation/ratemd.svg
     alt-text: "RateMD Reviews"
   - class: image-group__image--6
+    img: true
     src: /img/products/social-reputation/realself.svg
     alt-text: "RealSelf Reviews"
   - class: image-group__image--7
+    img: true
     src: /img/products/social-reputation/yahoo.svg
     alt-text: "Yahoo Reviews"
   - class: image-group__image--8
+    img: true
     src: /img/products/social-reputation/foursquare.svg
     alt-text: "FourSquare Reviews"
   - class: image-group__image--9
+    img: true
     src: /img/products/social-reputation/screen-reviews-manage.png
     alt-text: "DoctorLogic Reviews"       
 - component: callout-headline

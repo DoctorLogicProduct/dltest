@@ -32,26 +32,27 @@ page_sections:
     headline: Email Leads
     text: View website form submissions so your team can follow up
   - class: image-group__image--3
-    headline: Email Leads
-    text: View website form submissions so your team can follow up
+    headline: Phone Leads
+    text: See who called, when they called, and have the ability to listen to conversations
   - class: image-group__image--4
-    headline: Email Leads
-    text: View website form submissions so your team can follow up      
+    headline: Chat Leads
+    text: Review every website chat transaction and decide which ones are qualified      
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__leads
-  headline: "Leads stat here"
+  headline: "<span>74%</span> of companies say converting leads into customers is their top priority"
+  source: "Hubspot"
 - component: feature-1
   headline: "Secure Call Monitoring"
   class: social-reputation__feature--1
-  text: "Securely listen to tracked phone call leads to improve phone handling processes, schedule more appointments, enhance the patient experience, and optimize marketing spend."
+  text: "Knowing why customers and patient leads are calling is one thing, but finding out exactly what’s occurring on each call is even more powerful. Securely listen to tracked phone call leads to improve phone handling processes, schedule more appointments, enhance the patient experience, and optimize marketing spend."
   img: "/img/products/lead-generator/secure-call.jpg"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
   class: social-reputation__feature--2
-  headline: "Optimized Marketing"
-  text: "Identify which marketing sources are driving true opportunities and which pages of your medical website are converting visitors into patients. Easily export all data into a CSV and upload to your practice management system or EMR."
+  headline: "Identify Marketing Success"
+  text: "Receive clarity on which marketing sources are driving true opportunities to your practice and also which pages of your medical website are converting visitors into patients. Our dashboard makes it easy for  you to export all data into a CSV and upload to your practice management system or EMR."
   img: "/img/products/lead-generator/optimized-marketing.jpg"
   img_alignment: "Left"
 ---
