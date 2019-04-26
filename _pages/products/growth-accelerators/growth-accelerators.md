@@ -24,7 +24,7 @@ page_sections:
   headline: "Dedicated Managed Chat"
   text: "Your website is a lead generation engine and you have visitors coming in all the time but you’re not always there to greet them. With Managed Chat never miss a conversation and convert your valuable website traffic into leads."
   btn:
-  - btn-link: #
+  - btn-link: "/products/growth-accelerators/managed-chat"
     btn-label: Learn More
   items:
   - class: image-group__image--1

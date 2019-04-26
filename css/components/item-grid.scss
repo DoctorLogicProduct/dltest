@@ -26,11 +26,6 @@
 
 		h3, p {
 			text-align: center;
-
-			@include tablet-min {
-				text-align: left;
-			}
-
 		}
 
 	}
@@ -69,6 +64,21 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding: 20px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		h4 {
+			font-weight: 400;
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+		}
 	}
 
 	&__icon {

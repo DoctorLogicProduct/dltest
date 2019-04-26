@@ -44,7 +44,7 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__search
-  headline: "93% of online experiences begin with a search engine"
+  headline: "<span>93%</span> of online experiences begin with a search engine"
   source: Google
 - component: feature-1
   component_css: feature
