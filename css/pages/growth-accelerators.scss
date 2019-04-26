@@ -1,0 +1,177 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.growth-accelerators {
+
+    .hero-1 {
+        position: relative;
+        padding: 80px 0 0;
+
+        &::after {
+                content: '';
+                position: absolute;
+                top: -100px;
+                right: 0;
+                bottom: 40px;
+                width: 100%;
+                background: url('/img/hero/hero-bg-1.svg') right top/contain no-repeat;
+                z-index: 1;
+                opacity: .7;  
+            }
+
+            @include tablet-wide-min {
+                padding: 60px 0 0 5%;
+                &::after {
+                    background: url('/img/hero/hero-bg-1.svg') right center/contain no-repeat;
+                    bottom: -40px;
+                }
+            }
+
+        &__text {
+            z-index: 2;
+        }
+
+        &__image {
+            z-index: 2;
+        }
+
+    }
+
+    &__image-group--1 {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .image-group {
+
+            &__headline {
+                order: 1;
+                text-align: center;
+            }
+
+            &__text {
+                order: 3;
+                text-align: center;
+                margin-top: -100px;
+                max-width: 1200px;
+            }
+
+            &__container {
+                position: relative; 
+                min-height: 400px;
+                order: 2;
+                display: block;
+
+                @include tablet-min {
+                  min-height: 500px;
+                }
+                
+            }
+
+            &__image {
+                position: absolute;
+                width: 200px;
+                height: auto;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                grid-column: unset;
+                grid-row: unset;
+
+                @include tablet-min {
+                  width: 300px;
+                }
+                
+
+                &--1 {
+                    opacity: 0;
+                    transform: translateX(-55%);
+
+                    @include tablet-min {
+                      transform: translateX(-75%);
+                    }
+                    
+                }
+
+                &--2 {
+                    opacity: 0;
+                    transform: translateX(-45%);
+
+                    @include tablet-min {
+                      transform: translateX(-25%);
+                    }
+                }
+
+                &--3 {
+                    opacity: 0;
+                    transform: translateX(-55%);
+
+                    @include tablet-min {
+                      transform: translateX(-75%);
+                    }
+                }
+
+                &--4 {
+                    opacity: 0;
+                    transform: translateX(-45%);
+
+                    @include tablet-min {
+                      transform: translateX(-25%);
+                    }
+                }
+
+                &--5 {
+                    opacity: 0;
+                    transform: translateX(-55%);
+
+                    @include tablet-min {
+                      transform: translateX(-75%);
+                    }
+                }
+
+                &--6 {
+                    opacity: 0;
+                    transform: translateX(-45%);
+
+                    @include tablet-min {
+                      transform: translateX(-25%);
+                    }
+                }
+            }
+
+        
+        }
+
+        .btn {
+                grid-column: 1 / span 24;
+                order: 4;
+                margin: 20px auto 0;
+            }
+
+    }
+
+    .feature {
+        padding: 40px 10px 20px;
+
+        @include tablet-min {
+          padding: 60px 5%;
+        }
+        
+    }
+
+    &__feature--3 {
+        padding: 40px 10px !important;
+
+        @include tablet-min {
+          padding: 60px 5%;
+        }
+        
+    }
+
+
+}

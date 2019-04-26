@@ -437,4 +437,15 @@
         .related-posts__card-tags {
             color: $content;
         }
+	}
+	
+	body.growth-accelerators {
+
+        .related-posts__card {
+            border-color: $growth;	
+        }
+
+        .related-posts__card-tags {
+            color: $growth;
+        }
     }

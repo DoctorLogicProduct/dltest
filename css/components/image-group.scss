@@ -11,8 +11,19 @@
 		padding: 60px 5%;
 	}
 
+	&__headline {
+		grid-column: auto / span 24;
+		grid-row: auto;
+	}
+
+	&__text {
+		grid-column: auto / span 24;
+		grid-row: auto;
+	}
+
 	&__container {
 		grid-column: auto / span 24;
+		grid-row: auto;
 		width: 100%;
 	}
 }

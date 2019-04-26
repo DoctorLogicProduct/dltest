@@ -400,6 +400,10 @@ body.success-insights .separator {
 	background: $gradient-success-insights;
 }
 
+body.growth-accelerators .separator {
+	background: $gradient-growth-accelerators;
+}
+
 @keyframes separatorGradient {
 	0% {
 		background-position: 0% 50%
