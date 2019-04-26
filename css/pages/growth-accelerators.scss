@@ -168,7 +168,7 @@
         padding: 40px 10px !important;
 
         @include tablet-min {
-          padding: 60px 5%;
+          padding: 60px 5% !important;
         }
         
     }
