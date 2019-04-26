@@ -26,7 +26,7 @@ product:
 ---
 It’s important to note that not all websites are created equally.
 
-Websites can experience technical difficulties and may need a lot of management from an agency, especially if it is created on WordPress.
+Websites can experience technical difficulties and may need a lot of management from an agency, especially if it is created on WordPress. 
 
 We are going to share with you six disadvantages of a WordPress website.
 
