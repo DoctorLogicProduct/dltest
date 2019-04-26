@@ -15,7 +15,9 @@ post_highlight: Each year, over five million individuals suffer domestic abuse a
   to the dental problems many victims might face.
 post_type:
 - blog
+- blog
 product:
+- success insights
 - success insights
 
 ---
