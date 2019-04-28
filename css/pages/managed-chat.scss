@@ -50,7 +50,12 @@
                 }
                 
                 img {
-                    max-width: 100%;
+                    max-width: 100px;
+
+                    @include phone-wide-min {
+                      max-width: 100%;
+                    }
+                    
 
                     @include tablet-wide-min {
                       max-width: 250px;
@@ -61,6 +66,22 @@
 
         }
 
+    }
+
+    &__feature--1 {
+        padding: 40px 10px 0 !important;
+
+        @include tablet-min {
+          padding: 60px 5% !important;
+        }
+    }
+
+    &__feature--2 {
+        padding: 40px 10px 0 !important;
+
+        @include tablet-min {
+          padding: 60px 5% !important;
+        }
     }
 
 

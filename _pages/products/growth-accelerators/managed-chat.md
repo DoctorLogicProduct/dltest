@@ -51,7 +51,7 @@ page_sections:
   component_css: feature
   class: managed-chat__feature--1
   headline: "Connect With More Patients"
-  text: "<p>With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and count it as a lead if:</p><ul><li>Prospect name is provided</li><li>Prospect is interested in a service your practice offers</li><li>Prospect is located in your area</li><li>Prospect is not currently a patient</li></ul><p>At the end of the month, you only pay for qualified leads.</p>"
+  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and count it as a lead if:<ul><li>Prospect name is provided</li><li>Prospect is interested in a service your practice offers</li><li>Prospect is located in your area</li><li>Prospect is not currently a patient</li></ul><p>At the end of the month, you only pay for qualified leads.</p>"
   img: /img/products/growth-accelerators/patient-connect.jpg
   img_alignment: Right
 - component: feature-1
