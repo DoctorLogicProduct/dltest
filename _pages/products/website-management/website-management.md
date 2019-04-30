@@ -48,6 +48,28 @@ page_sections:
   class: callout-headline__website-management
   headline: "<span>77%</span> of potential patients are using search engines prior to ever booking an appointment"
   source: "Software Advice"
+- component: text-component
+  component_css: text-component
+  headline:
+  - headline: "As technology changes, so does your website."
+  text: "Our website marketing platform is constantly upgrading to improve overall performance and keep up with how today’s patients shop online in this rapidly changing environment. With unlimited technology upgrades, you never have to worry if your website is up to date."
+  btn:
+- component: feature-1
+  component_css: feature
+  headline: "Unlimited Pages"
+  class: website-management__feature--2
+  text: "Our medical websites are built with an unlimited number of pages that allow you to elevate your medical practice in local search results. We use your procedures, profiles, reviews, photo galleries and more to create and optimize new pages for search engines. The more <content> housed on your website, the more you’re increasing your digital footprint and acquiring patients."
+  btn:
+  img: "/img/products/website-management/unlimited-pages.jpg"
+  img_alignment: "Left"
+- component: feature-1
+  component_css: feature
+  headline: "On-Page Editing"
+  class: website-management__feature--3
+  text: "With 100% access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
+  btn: 
+  img: "/img/products/website-management/on-page-edit.jpg"
+  img_alignment: "Right"
 - component: feature-1
   component_css: feature
   headline: "HIPAA Compliant Website"
@@ -64,28 +86,4 @@ page_sections:
   text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
   subscription: 
   - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
-- component: feature-1
-  component_css: feature
-  headline: "Unlimited Pages"
-  class: website-management__feature--2
-  text: "Our medical websites are built with an unlimited number of pages that allow you to elevate your medical practice in local search results. We use your procedures, profiles, reviews, photo galleries and more to create and optimize new pages for search engines. The more <content> housed on your website, the more you’re increasing your digital footprint and acquiring patients."
-  btn:
-  img: "/img/products/website-management/unlimited-pages.jpg"
-  img_alignment: "Right"
-- component: text-component
-  component_css: text-component
-  headline:
-  - headline: "As technology changes, so does your website."
-  text: "Our website marketing platform is constantly upgrading to improve overall performance and keep up with how today’s patients shop online in this rapidly changing environment. With unlimited technology upgrades, you never have to worry if your website is up to date."
-  btn:
-  - btn-link: "#"
-    btn-label: "Learn More" 
-- component: feature-1
-  component_css: feature
-  headline: "On-Page Editing"
-  class: website-management__feature--3
-  text: "With 100% access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
-  btn: 
-  img: "/img/products/website-management/on-page-edit.jpg"
-  img_alignment: "Left"
 ---

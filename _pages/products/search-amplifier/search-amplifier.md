@@ -56,11 +56,14 @@ page_sections:
   img_alignment: "Left"
 - component: text-component
   component_css: text-component
-  class: search-amplifier__text-component--1
-  headline: 
-  - headline: "SEO Best Practices"
-  text: "Your website is the foundation of your digital marketing strategy. If the foundation is not stable, everything built on it will fall. We remove the complexity for your practice. Our team of <Medical SEO> experts deploy a variety of best practices to maintain and improve your search engine rankings, such as structured data, page speed, tag management, image optimization, and alt tag."
+  class: search-amplifier__text-component--2
+  headline:
+  - headline: "Increase Your Search Performance"
+  text: "With over 15 years of experience executing successful SEO campaigns, Search Amplifier amplifies your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic focuses on delivering visitors that convert into patients."
   btn:
+  - data-scroll: true
+    btn-label: Get Started
+    btn-link: "#scroll-point"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
@@ -69,13 +72,4 @@ page_sections:
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   img_alignment: "Right"
-- component: text-component
-  component_css: text-component
-  class: search-amplifier__text-component--2
-  text: "With over 15 years of experience executing successful SEO campaigns, Search Amplifier amplifies your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic focuses on delivering visitors that convert into patients."
-  btn:
-  - data-scroll: true
-    btn-label: Get Started
-    btn-link: "#scroll-point"
-
 ---

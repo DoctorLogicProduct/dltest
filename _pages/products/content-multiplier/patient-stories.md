@@ -31,14 +31,4 @@ page_sections:
   btn:
   img: "/img/products/content-multiplier/gallery-list.jpg"
   img_alignment: "Right"
-- component: text-component
-  component_css: text-component
-  class: patient-stories__text-component
-  headline:
-  - headline: Integrates On Any Website
-  text: "<p>Our Photo Gallery Tool works on any medical website, regardless of your platform or web vendor. It's easy to set up and get started uploading photos right away.</p><p>It’s easy. Contact us to get started with a trial of the photo gallery tool for your website.</p>"
-  btn:
-  - data-scroll: true
-    btn-link: "#scroll-point"
-    btn-label: Get Started
 ---

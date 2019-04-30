@@ -1,6 +1,6 @@
 ---
 layout: components
-title: DoctorLogic Growth Accelerators
+title: DoctorLogic Managed Chat
 description: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
 meta_image: "/img/meta/social-reputation.jpg"
 page_class:
@@ -13,14 +13,14 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: managed-chat__hero
-  headline: "Boost Your Conversion Rate"
+  headline: "Convert More Visitors"
   text: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Managed Chat can help to reduce your website bounce rate and increase your advertising ROI by engaging with more website visitors and turning them into leads."
   btn:
 - component: item-grid
   class: managed-chat__item-grid--1
   component_css: item-grid
   headline: "How It Works"
-  text: "Managed Chat is a small applet that sits on your website. Visitors to your site can use Chat to contact a team of trained agents, 24/7. Our staff is trained to answer questions and help the user contact a person in your office. Treat website visitors like you would office visitors - with a helpful and professional concierge."
+  text: "Managed Chat is a small applet that sits on your website. Visitors to your site can use Chat to contact a team of trained agents, 24/7. Our staff is trained to answer questions and help the user contact a person in your office."
   btn:
   per-row-count: 3
   items:
@@ -46,18 +46,18 @@ page_sections:
   component_css: callout-headline
   class: callout-headline__growth
   headline: "On average, Chat customers are seeing <span>40%</span> increase in leads!"
-  source: "Google"
+  source: "DoctorLogic"
 - component: feature-1
   component_css: feature
   class: managed-chat__feature--1
   headline: "Connect With More Patients"
-  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and count it as a lead if:<ul><li>Prospect name is provided</li><li>Prospect is interested in a service your practice offers</li><li>Prospect is located in your area</li><li>Prospect is not currently a patient</li></ul><p>At the end of the month, you only pay for qualified leads.</p>"
+  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and you only pay for qualified leads."
   img: /img/products/growth-accelerators/patient-connect.jpg
   img_alignment: Right
 - component: feature-1
   component_css: feature
   class: managed-chat__feature--2
-  headline: "Never Miss a Conversion"
+  headline: "Never Miss a Conversation"
   text: "<p>DoctorLogic Chat also works beyond your website to better connect you to prospects:</p><ul><li>Google Business Listings: chat from search results</li><li>Call Connect: transfer live chats to your practice</li><li>Mobile SMS: real-time texting with agents</li></ul>"
   img: /img/products/growth-accelerators/more-conversion.jpg
   img_alignment: Left

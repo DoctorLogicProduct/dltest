@@ -14,8 +14,8 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  headline: "Track Every Lead"
-  text: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
+  headline: "Manage Your Patient Leads"
+  text: "Every website lead is a chance to see a new patient, book a new consultation, or connect with your existing patients. With our lead generation dashboard you can manage every conversation that comes from your website."
   btn:
   img: "/img/products/lead-generator/hero-img.svg"
 - component: image-group
@@ -41,7 +41,7 @@ page_sections:
   component_css: callout-headline
   class: callout-headline__leads
   headline: "<span>74%</span> of companies say converting leads into customers is their top priority"
-  source: "Hubspot"
+  source: "HubSpot"
 - component: feature-1
   headline: "Secure Call Monitoring"
   class: social-reputation__feature--1

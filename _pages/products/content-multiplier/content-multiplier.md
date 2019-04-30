@@ -54,11 +54,11 @@ page_sections:
   component_css: callout-headline
   class: callout-headline__content
   headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic"
-  source: "Hubspot"
+  source: "HubSpot"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
-  headline: "Engage Your Patients with Enhanced Provider Bio"
+  headline: "Enhanced Provider Bio"
   text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all trust."
   btn:
   img: "/img/products/content-multiplier/provider-bio.jpg"

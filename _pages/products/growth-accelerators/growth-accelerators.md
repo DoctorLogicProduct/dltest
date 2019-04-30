@@ -57,7 +57,7 @@ page_sections:
   class: growth-accelerators__feature--1
   text: "As more and more patients turn to search engines to find a doctor or more information on a certain medical procedure, it’s important to be where they’re looking. With Paid Advertising we can build targeted online campaigns that achieve maximum ROI for your medical practice."
   btn:
-  - btn-link: #
+  - btn-link: /products/growth-accelerators/paid-advertising
     btn-label: Learn More
   img: "/img/products/growth-accelerators/paid-advertising.jpg"
   img_alignment: "Right"
@@ -77,7 +77,7 @@ page_sections:
   class: growth-accelerators__feature--3
   text: "Video has been proven to demand more consumer attention than any other medium and is the best channel to build trust and increase awareness around your medical practice. To really stand out from your competition, and increase traffic to your website video should be part of your marketing strategy."
   btn:
-  - btn-link: #
+  - btn-link: /products/growth-accelerators/video-content
     btn-label: Learn More
   img: "/img/products/growth-accelerators/video-marketing.jpg"
   img_alignment: "Right"
