@@ -17,16 +17,19 @@ fields:
   default: text-component
   hidden: true
 - name: headline
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: headline
     type: text
     config:
       required: false
     label: Headline
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Headline
-  description: Section Headline
+  description: Headline (Not required)
 - name: text
   type: text
   config:
@@ -51,7 +54,7 @@ fields:
   config:
     min: 
     max: '1'
-    labelField: 
+    labelField: btn-label
   label: Button
   description: Button (not required)
 - name: link
@@ -71,6 +74,6 @@ fields:
   config:
     min: 
     max: '1'
-    labelField: 
+    labelField: label
   label: Text Link
   description: Text Link (Not required, do not use with a button)
