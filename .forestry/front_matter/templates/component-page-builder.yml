@@ -42,3 +42,5 @@ fields:
     min: 
     max: 
   label: Page Sections
+pages:
+- bob-s-page.md
