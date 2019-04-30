@@ -10,6 +10,16 @@ page_sections:
   component_css: hero-2
   headline: Hello Friend
   text: I am Bob!
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: This is my house
+  text: You are looking at the house o' bob.
+  btn:
+  - btn-link: "#"
+    btn-label: Learn More
+  img: "/uploads/PracticeSEOThumb.jpg"
 - template: text-component
   component: text-component
   component_css: text-component
@@ -19,5 +29,15 @@ page_sections:
   btn:
   - btn-label: Learn about Bob
     btn-link: "#"
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: This is my bike
+  text: This is the bike o' bob
+  btn:
+  - btn-link: "#"
+    btn-label: View Bike
+  img: "/uploads/GiveBackThumb.jpg"
 
 ---
