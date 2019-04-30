@@ -9,6 +9,13 @@ fields:
   label: component
   hidden: true
   default: text-component
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: text-component
+  hidden: true
 - name: headline
   type: field_group
   config: {}
@@ -27,23 +34,26 @@ fields:
   label: Text
   description: Section Text
 - name: btn
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: btn-link
     type: text
     config:
       required: false
     label: btn-link
-    description: Button Link
+    description: Link for button
   - name: btn-label
     type: text
     config:
       required: false
     label: btn-label
-    description: Button Label
+    description: Label for button
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Button
-  description: Section Button (not required)
+  description: Button (not required)
 - name: link
   type: field_group
   config: {}
