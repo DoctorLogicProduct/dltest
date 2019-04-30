@@ -49,7 +49,7 @@ fields:
       path: 
   label: Per Row Count
   description: How Many Items Per Horizontal Row (Large Screen)
-- name: item
+- name: items
   type: field_group_list
   fields:
   - name: img
