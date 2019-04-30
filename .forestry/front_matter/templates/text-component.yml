@@ -16,6 +16,12 @@ fields:
   label: Component CSS
   default: text-component
   hidden: true
+- name: class
+  type: text
+  config:
+    required: false
+  label: Class
+  description: Section Class (Not required)
 - name: headline
   type: field_group_list
   fields:
