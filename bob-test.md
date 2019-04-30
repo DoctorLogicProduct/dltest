@@ -10,6 +10,5 @@ page_sections:
   btn:
     btn-link: "#"
     btn-label: Find Bob
-published: false
 
 ---
