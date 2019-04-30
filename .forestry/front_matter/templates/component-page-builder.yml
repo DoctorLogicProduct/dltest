@@ -39,6 +39,7 @@ fields:
   - hero-no-image
   - feature
   - text-component
+  - item-grid-component
   config:
     min: 
     max: 
