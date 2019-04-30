@@ -70,5 +70,6 @@ page_sections:
     link:
     - link-link: "#"
       link-label: View Bob's Work
+  class: bob-items
 
 ---
