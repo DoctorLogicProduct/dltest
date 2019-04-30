@@ -8,6 +8,7 @@ fields:
     required: false
   label: Component
   hidden: true
+  default: text-component
 - name: headline
   type: field_group
   config: {}
