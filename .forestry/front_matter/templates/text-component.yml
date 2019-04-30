@@ -50,13 +50,12 @@ fields:
     description: Label for button
   config:
     min: 
-    max: 
+    max: '1'
     labelField: 
   label: Button
   description: Button (not required)
 - name: link
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: link
     type: text
@@ -69,6 +68,9 @@ fields:
     config:
       required: false
     label: Label
-    description: Link Label
+  config:
+    min: 
+    max: '1'
+    labelField: 
   label: Text Link
-  description: Text Link (not required/do not use if there is a button)
+  description: Text Link (Not required, do not use with a button)
