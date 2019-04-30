@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Component
+  label: component
   hidden: true
   default: text-component
 - name: headline
