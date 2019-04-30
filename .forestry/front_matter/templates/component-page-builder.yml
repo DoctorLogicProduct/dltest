@@ -14,15 +14,17 @@ fields:
   label: Layout
   hidden: true
   default: components
-- name: date
-  type: datetime
-  label: Date
-  description: ''
+- name: description
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: 
+  label: Meta Description
+  description: Page Meta Description
+- name: meta_image
+  type: file
+  config:
+    maxSize: 250
+  label: Meta Image
 - name: page_sections
   type: blocks
   template_types:
