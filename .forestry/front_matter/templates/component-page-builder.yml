@@ -31,3 +31,5 @@ fields:
     min: 
     max: 
   label: Page Sections
+pages:
+- bob-test.md
