@@ -1,4 +1,135 @@
 ---
 label: Item Grid Component
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  hidden: true
+  default: item-grid
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  hidden: true
+  default: item-grid
+- name: class
+  type: text
+  config:
+    required: false
+  label: Class
+  description: Section Class (Not required)
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Section Headline
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+  description: Section Text
+- name: per-row-count
+  type: select
+  default: '3'
+  config:
+    required: false
+    options:
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Per Row Count
+  description: How Many Items Per Horizontal Row (Large Screen)
+- name: item
+  type: field_group_list
+  fields:
+  - name: img
+    type: field_group_list
+    fields:
+    - name: src
+      type: file
+      config:
+        maxSize: 250
+      label: Image
+      description: Item Image File
+    - name: alt
+      type: text
+      config:
+        required: false
+      label: Alt Text
+      description: Image Alt Text
+    config:
+      min: 
+      max: '1'
+      labelField: 
+    label: Item Image
+    description: Item Image (Not Required)
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+    description: Item Headline
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+    description: Item Text
+  - name: link
+    type: field_group_list
+    fields:
+    - name: link-link
+      type: text
+      config:
+        required: false
+      label: Link
+      description: Link
+    - name: link-label
+      type: text
+      config:
+        required: false
+      label: Label
+      description: Link Label
+    config:
+      min: 
+      max: ''
+      labelField: link-label
+    label: Link
+    description: Item Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Item
+  description: Section Item
+- name: btn
+  type: field_group_list
+  fields:
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: btn-link
+    description: Button Link
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: btn-label
+    description: Button Label
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Button
+  description: Section Button (Not requried)
