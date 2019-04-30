@@ -1,4 +1,63 @@
 ---
 label: text-component
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  hidden: true
+- name: headline
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  label: Headline
+  description: Section Headline
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+  description: Section Text
+- name: btn
+  type: field_group
+  config: {}
+  fields:
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: btn-link
+    description: Button Link
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: btn-label
+    description: Button Label
+  label: Button
+  description: Section Button (not required)
+- name: link
+  type: field_group
+  config: {}
+  fields:
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+    description: Link
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+    description: Link Label
+  label: Text Link
+  description: Text Link (not required/do not use if there is a button)
