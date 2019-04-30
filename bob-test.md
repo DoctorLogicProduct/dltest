@@ -7,10 +7,10 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-    headline: I am the headline
-  text: Here is some text.
-  btn:
-  - btn-link: http://google.com
-    btn-label: Learn More
+  - headline: I am the headline
+  text: I am the section text
+  link:
+  - link: "#"
+    label: I am the link
 
 ---
