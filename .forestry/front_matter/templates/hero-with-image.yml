@@ -1,4 +1,54 @@
 ---
 label: Hero With Image
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: component
+  hidden: true
+  default: hero-1
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: hero
+  hidden: true
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Hero Headline
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+  description: Hero Text
+- name: button
+  type: field_group_list
+  fields:
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: btn-link
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: btn-label
+  config:
+    min: 
+    max: 
+    labelField: btn-label
+  label: Button
+  description: Button (Not Required)
+- name: img
+  type: file
+  config:
+    maxSize: 250
+  label: Image
