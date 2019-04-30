@@ -1,4 +1,33 @@
 ---
 label: Component Page Builder
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: components
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: 
+- name: page_sections
+  type: blocks
+  template_types:
+  - text-component
+  config:
+    min: 
+    max: 
+  label: Page Sections
