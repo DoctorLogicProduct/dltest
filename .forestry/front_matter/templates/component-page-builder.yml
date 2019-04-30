@@ -35,9 +35,10 @@ fields:
 - name: page_sections
   type: blocks
   template_types:
-  - text-component
   - hero-with-image
   - hero-no-image
+  - feature
+  - text-component
   config:
     min: 
     max: 
