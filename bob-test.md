@@ -1,7 +1,7 @@
 ---
 layout: components
 title: Bob Test
-date: 2019-04-30 05:00:00 +0000
+date: '2019-04-30 05:00:00 +0000'
 page_sections:
 - template: hero-with-image
   component: hero-1
@@ -18,5 +18,7 @@ page_sections:
   link:
   - link: "#"
     label: I am the link
+description: This page is about bob and his travels.
+meta_image: "/uploads/BestReviewsThumb.jpg"
 
 ---
