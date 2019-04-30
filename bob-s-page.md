@@ -39,5 +39,36 @@ page_sections:
   - btn-link: "#"
     btn-label: View Bike
   img: "/uploads/GiveBackThumb.jpg"
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  headline: Bob Facts
+  text: Here are some facts about Bob
+  item:
+  - img:
+    - src: "/uploads/CodeThumb.jpg"
+      alt: alt
+    headline: Bob Codes
+    text: Bob loves coding
+    link:
+    - link-link: "#"
+      link-label: View Code
+  - img:
+    - src: "/uploads/MicrositeThumb.png"
+      alt: bob eats
+    headline: Bob Eats
+    text: Bob likes to eat
+    link:
+    - link-link: "#"
+      link-label: View Food
+  - img:
+    - src: "/uploads/PPCThumb.jpg"
+      alt: Bob Works
+    headline: Bob Works
+    text: Bob enjoys working at DoctorLogic
+    link:
+    - link-link: "#"
+      link-label: View Bob's Work
 
 ---
