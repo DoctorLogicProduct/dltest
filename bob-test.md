@@ -6,7 +6,7 @@ page_sections:
 - template: text-component
   headline:
     headline: I am bob
-  text: I am bob's text
+  text: I am bob's text and text
   btn:
     btn-link: "#"
     btn-label: Find Bob
