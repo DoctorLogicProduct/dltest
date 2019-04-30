@@ -37,6 +37,7 @@ fields:
   template_types:
   - text-component
   - hero-with-image
+  - hero-no-image
   config:
     min: 
     max: 
