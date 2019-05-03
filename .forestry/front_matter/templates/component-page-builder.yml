@@ -27,6 +27,27 @@ fields:
     required: false
   label: Permalink
   description: This will be the URL structure (e.g. partnerships/AACD)
+- name: page_class
+  type: field_group_list
+  fields:
+  - name: class
+    type: text
+    config:
+      required: false
+    label: Class Name
+    description: Class name of this page
+  config:
+    min: 
+    max: '3'
+    labelField: class
+  label: Page Class
+  description: Not Required. CSS Class of this page
+- name: custom_js
+  type: text
+  config:
+    required: false
+  label: Custom Java Script File
+  description: Not Required. Name of the custom javascript file for this page.
 - name: description
   type: text
   config:
