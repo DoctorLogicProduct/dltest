@@ -208,7 +208,7 @@
 	</div>
 </header>
 
-		<main>
+		<main id="main">
 			
 			<section class="component hero hero-2 patient-stories-hero">
   <div class="hero-2__text">
@@ -255,6 +255,7 @@
 
 
 			
+			
 			<div class="related-posts">
 
 				<h3><span>Posts</span> About content multiplier</h3>
@@ -293,8 +294,8 @@
 				
 				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
-						<a href="/blog/new-post-with-form" target="_blank">
-							<!-- <div class="related-posts__card-image" style="background:url('/uploads/GrowPractice.jpg')"></div> -->
+						<a href="/blog/new-post-with-form"  target="_blank">
+							<div class="related-posts__card-image" style="background:url('/uploads/GrowPractice.jpg')"></div>
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">healthcare marketing, PPC</p>
 								<h3>New Post With Form</h3>
@@ -320,8 +321,8 @@
 				
 				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
-						<a href="/blog/Testing-Matt.html" target="_blank">
-							<!-- <div class="related-posts__card-image" style="background:url('/uploads/caleb-fisher-7320.jpg')"></div> -->
+						<a href="/blog/Testing-Matt.html"  target="_blank">
+							<div class="related-posts__card-image" style="background:url('/uploads/caleb-fisher-7320.jpg')"></div>
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">content marketing, website design</p>
 								<h3>test matt test</h3>
@@ -339,6 +340,7 @@
 				
 			
 			</div>
+			
 			<div id="scroll-point"></div>
 		</main>
 		<footer id="footer">
@@ -410,6 +412,15 @@
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+		$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>

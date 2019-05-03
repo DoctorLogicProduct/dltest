@@ -184,7 +184,7 @@
 	</div>
 </header>
 
-	<main>
+	<main id="main">
 			
 
 
@@ -730,6 +730,15 @@
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+	$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>

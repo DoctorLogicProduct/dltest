@@ -190,7 +190,7 @@ You can give them this experience by having a fully functioning website that loa
 	</div>
 </header>
 
-	<main>
+	<main id="main">
 			
 
 
@@ -537,6 +537,15 @@ You can give them this experience by having a fully functioning website that loa
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+	$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>

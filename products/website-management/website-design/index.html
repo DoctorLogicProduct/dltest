@@ -190,7 +190,7 @@
 	</div>
 </header>
 
-	<main>
+	<main id="main">
 			
 <section class="hero hero-2 pricing__hero">
     <div class="hero-2__text">
@@ -449,6 +449,15 @@
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+	$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>

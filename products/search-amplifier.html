@@ -212,7 +212,7 @@
 	</div>
 </header>
 
-		<main>
+		<main id="main">
 			
 			<section class="component hero hero-1 search-amplifier-hero">
   <div class="hero-1__text">
@@ -343,6 +343,7 @@
 
 
 			
+			
 			<div class="related-posts">
 
 				<h3><span>Posts</span> About search amplifier</h3>
@@ -372,8 +373,8 @@
 				
 				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
-						<a href="/blog/MicrositesSEO.html" target="_blank">
-							<!-- <div class="related-posts__card-image" style="background:url('/uploads/MicrositeThumb.png')"></div> -->
+						<a href="/blog/MicrositesSEO.html"  target="_blank">
+							<div class="related-posts__card-image" style="background:url('/uploads/MicrositeThumb.png')"></div>
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">SEO, </p>
 								<h3>Are Microsites Good for SEO?</h3>
@@ -399,8 +400,8 @@
 				
 				<div class="related-posts__card-wrapper">
 					<div class="related-posts__card">
-						<a href="/blog/new-post-with-form" target="_blank">
-							<!-- <div class="related-posts__card-image" style="background:url('/uploads/GrowPractice.jpg')"></div> -->
+						<a href="/blog/new-post-with-form"  target="_blank">
+							<div class="related-posts__card-image" style="background:url('/uploads/GrowPractice.jpg')"></div>
 							<div class="related-posts__card-text">
 								<p class="related-posts__card-tags">healthcare marketing, PPC</p>
 								<h3>New Post With Form</h3>
@@ -418,6 +419,7 @@
 				
 			
 			</div>
+			
 			<div id="scroll-point"></div>
 		</main>
 		<footer id="footer">
@@ -500,6 +502,15 @@
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+		$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>
