@@ -26,9 +26,9 @@ body {
 main {
 	background: $color-2;
 
-	@include tablet-min {
-		margin-bottom: 700px;
-	}
+	// @include tablet-min {
+	// 	margin-bottom: 700px;
+	// }
 }
 
 h1,

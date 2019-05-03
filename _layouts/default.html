@@ -8,7 +8,7 @@
 	<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
 
 	{% include header.html %}
-	<main>
+	<main id="main">
 			{{ content }}
 			<div id="scroll-point"></div>
 	</main>
@@ -51,6 +51,15 @@
 	var scroll = new SmoothScroll('a[href*="#"]', {
 		updateURL: false
 	});
+</script>
+
+<script>
+	if ($(window).width() >= 991) {
+	$(window).on("load resize", function () {
+			var footerHeight = $("#footer").outerHeight();
+			$("#main").css("margin-bottom", footerHeight);
+		});
+	}
 </script>
 
 </html>

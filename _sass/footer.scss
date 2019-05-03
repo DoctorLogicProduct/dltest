@@ -1,6 +1,6 @@
 footer {
 	background: $gradient-website-management;
-	padding: 40px 20px;
+	padding: 60px 20px 40px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -11,11 +11,9 @@ footer {
 	width: 100%;
 	z-index: -1;
 
-	@include tablet-min {
+	@include tablet-wide-min {
 		position: fixed;
 		padding: 40px 60px 20px;
-		height: auto;
-		min-height: 700px;
 	}
 
 	@include desktop-sm-min {
