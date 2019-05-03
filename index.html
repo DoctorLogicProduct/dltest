@@ -1,0 +1,145 @@
+---
+layout: default
+page_name: home
+permalink: /
+gsap: true
+page_class:
+- class: home
+custom_js: index
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+- class: home__hero
+  headline: One Company. One Solution. Unlimited Results.
+  text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to
+  determine a solution that works for your practice."
+  img: "/img/products/website-management/hero-img.svg"
+  btn: 
+  - btn-link: #
+    btn-label: Learn More
+products:
+- headline: Our Products
+  text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae quidem consequuntur nemo molestias, nisi ipsa dolores nam. Tempora, ipsam! Vel a mollitia consectetur repellat architecto quisquam perferendis voluptas veritatis.
+  items:
+  - class: "home-products__item--1"
+    step_class: "home-products__item-img-step--1"
+    step: 1
+    logo_class: "home-products__item-img-logo--1"
+    img_src: "/img/product-icons/website-engineering.svg"
+    img_alt: img 
+    headline: "Website Management"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn: 
+    - btn-link: #
+      btn-label: Learn More
+  - class: "home-products__item--2"
+    step_class: "home-products__item-img-step--2"
+    step: 2
+    logo_class: "home-products__item-img-logo--2"
+    img_src: "/img/product-icons/content-multiplier.svg"
+    img_alt: img
+    headline: "Content Multiplier"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn:
+    - btn-link: #
+      btn-label: Learn More
+  - class: "home-products__item--3"
+    step_class: "home-products__item-img-step--3"
+    step: 3
+    logo_class: "home-products__item-img-logo--3"
+    img_src: "/img/product-icons/social-reputation.svg"
+    img_alt: img
+    headline: "Social Reputation"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn:
+    - btn-link: #
+      btn-label: Learn More
+  - class: "home-products__item--4"
+    step_class: "home-products__item-img-step--4"
+    step: 4
+    logo_class: "home-products__item-img-logo--4"
+    img_src: "/img/product-icons/search-amplifier.svg"
+    img_alt: img
+    headline: "Search Amplifier"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn:
+    - btn-link: #
+      btn-label: Learn More
+  - class: "home-products__item--5"
+    step_class: "home-products__item-img-step--5"
+    step: 5
+    logo_class: "home-products__item-img-logo--5"
+    img_src: "/img/product-icons/lead-generator.svg"
+    img_alt: img
+    headline: "Lead Generator"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn:
+    - btn-link: #
+      btn-label: Learn More
+  - class: "home-products__item--6"
+    step_class: "home-products__item-img-step--6"
+    step: 6
+    logo_class: "home-products__item-img-logo--6"
+    img_src: "/img/product-icons/success-insights.svg"
+    img_alt: img
+    headline: "Success Insights"
+    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
+    website, but don’t have the time to manage it properly. We’ve got your back!"
+    btn:
+    - btn-link: #
+      btn-label: Learn More
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+    <div class="hero-1__text">
+        <h1>{{hero.headline}}</h1>
+        <p>{{hero.text}}</p>
+        {% for btn in hero.btn %}
+            {% if hero.btn %}
+            <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="hero-1__image">
+        <img src="{{hero.img}}" alt="">
+    </div>
+</section>
+{% endfor %}
+
+
+{% for products in page.products %}
+<section class="home-products">
+    <div class="home-products__text">
+        <h2>{{ products.headline }}</h2>
+        <p>{{ products.text }}</p>
+    </div>
+    <div class="home-products__items">
+        {% for item in products.items %}
+        <div class="home-products__item  {{ item.class }}">
+            <div class="home-products__item-img-container">
+                <div class="home-products__item-img-step {{ item.step_class }}">
+                    <p>{{ item.step }}</p>
+                </div>
+                <div class="home-products__item-img-logo {{ item.logo_class }}">
+                    <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+                </div>
+            </div>
+            <div class="home-products__item-text-container">
+                <h3>{{ item.headline }}</h3>
+                <p>{{ item.text }}</p>
+                {% for btn in item.btn %}
+                    {% if item.btn %}
+                        <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}

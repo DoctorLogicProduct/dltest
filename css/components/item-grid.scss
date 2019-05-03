@@ -58,6 +58,7 @@
 			}
 		}
 
+
 	}
 
 	&__item {
@@ -79,6 +80,14 @@
 		p {
 			text-align: center;
 		}
+	}
+
+	&__btn {
+		grid-column: auto / span 24;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 
 	&__icon {

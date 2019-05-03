@@ -23,7 +23,9 @@
 			{% endfor %}
 			{% for btn in section.btn %}
 				{% if section.btn %}
-				<a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+				<div class="item-grid__btn">
+					<a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+				</div>
 				{% endif %}
 			{% endfor %}
 		</div>
