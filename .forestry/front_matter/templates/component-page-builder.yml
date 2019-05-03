@@ -72,4 +72,5 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/landing-page-test.md
 - bob-s-bike.md
