@@ -21,6 +21,12 @@ fields:
   label: HS Form ID
   hidden: true
   default: 75c57a13-9090-4db1-acd0-be51d1a76f7e
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  description: This will be the URL structure (e.g. partnerships/AACD)
 - name: description
   type: text
   config:
