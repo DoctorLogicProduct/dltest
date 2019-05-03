@@ -71,5 +71,16 @@ page_sections:
   btn:
   - btn-link: "#"
     btn-label: Learn More Stuff
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: A Whole New World
+  class: lp__text-component
+  text: A new fantastic point of view!
+  btn:
+  - btn-link: "#"
+    btn-label: Visit World
+  link: []
 
 ---
