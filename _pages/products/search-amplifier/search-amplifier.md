@@ -10,6 +10,7 @@ page_class:
 product: "search amplifier"
 permalink: "/products/search-amplifier"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+next_page: lead-generator
 page_sections:
 - component: hero-1
   component_css: hero

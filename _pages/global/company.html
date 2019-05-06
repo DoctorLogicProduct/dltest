@@ -1,0 +1,126 @@
+---
+layout: default
+page_name: company
+permalink: /company
+gsap: true
+page_class:
+- class: company
+custom_js: company
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+- class: company__hero
+  headline: Meet DoctorLogic
+  text: "DoctorLogic is an all-in-one website marketing platform created exclusively for healthcare providers. The DoctorLogic
+  software was invented to power custom-designed websites for patient acquisition, retention marketing, and practice
+  insights that help providers connect with more people."
+results:
+- headline: We are Results Driven
+  text: "Since 2014, we’ve made it our mission to help doctors grow their practice through an improved digital presence that
+  drives revenue growth."
+  items:
+  - class: results__item--1
+    item_count: 1
+    label: Web Pages Created
+  - class: results__item--2
+    item_count: 2
+    label: Keywords Ranked
+  - class: results__item--3
+    item_count: 3
+    label: Website Visits
+  - class: results__item--4
+    item_count: 4
+    label: Leads Generated
+  - class: results__item--5
+    item_count: 5
+    label: Before & After Galleries
+  - class: results__item--6
+    item_count: 6
+    label: Patient Reviews Acquired
+credentials:
+- headline: Credentials that matter
+  items:
+  - img_src: "/img/company/hipaa.svg"
+    img_alt: "HIPAA Certified Company"
+  - img_src: "/img/company/bbb.svg"
+    img_alt: "Better Business Bureau Accredited"
+  - img_src: "/img/company/inc.svg"
+    img_alt: "INC 5000"
+feature:
+- class: "feature--1"
+  headline: "Our Guarantee"
+  text: "You want a partner who’s there to make your life simple and takes the guesswork out of healthcare marketing. When
+  working with DoctorLogic, you can feel comfortable knowing we’re fully invested in your practice’s success. Our priority
+  is you."
+  btn:
+  - btn-link: ""
+    btn-label: "Tell Me More"
+  img: "/img/company/guarantee.jpg"
+  alt: "Our Guarantee"
+- class: "feature--2"
+  headline: "Technology + Talent = DoctorLogic"
+  text: "The most valuable resource we have to offer is our passionate team of healthcare marketing experts. Meet the DoctorLogic
+  team."
+  btn:
+  - btn-link: ""
+    btn-label: "Meet Our Leadership"
+  img: "/img/company/team.jpg"
+  alt: "The DoctorLogic Team"
+
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}">
+        <div class="hero-2__text">
+            <div class="separator"></div>
+            <h1>{{hero.headline}}</h1>
+            <p>{{hero.text}}</p>
+        </div>
+</section>
+{% endfor %}
+
+{% for results in page.results %}
+<section class="results">
+    <h2>{{ results.headline }}</h2>
+    <p>{{ results.text }}</p>
+    <div class="results__items">
+        {% for item in results.items %}
+        <div class="results__item {{ item.class }}">
+            <h2 id="item-count-{{ item.item_count }}">0</h2>
+            <h3>{{ item.label }}</h3>  
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}
+
+{% for credentials in page.credentials %}
+<section class="credentials">
+    <h2>{{credentials.headline}}</h2>
+    <div class="credentials__items">
+        {%  for item in credentials.items %}
+        <div class="credentials__item">
+            <img src="{{ item.img_src  }}" alt="{{ item.img_alt }}">
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}
+
+{% for feature in page.feature %}
+<section class="feature {{ feature.class }}">
+    <div class="feature__text">
+        <h3>{{ feature.headline }}</h3>
+        <p>{{ feature.text }}</p>
+        {% for btn in feature.btn %}
+        {% if feature.btn %}
+        <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="feature__image">
+        <div class="feature__image-wrapper">
+            <img src="{{ feature.img | relative_url }}" alt="{{ feature.alt }}">
+        </div>
+    </div>
+</section>
+{% endfor %}

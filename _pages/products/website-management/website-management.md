@@ -10,6 +10,7 @@ page_class:
 product: "website management"
 permalink: "/products/website-management"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+next_page: content-multiplier
 page_sections:
 - component: hero-1
   component_css: hero
