@@ -61,6 +61,5 @@ page_sections:
     link: []
   class: ''
   btn: []
-published: false
 
 ---
