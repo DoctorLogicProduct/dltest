@@ -19,6 +19,7 @@ page_sections:
   text: "Every website lead is a chance to see a new patient, book a new consultation, or connect with your existing patients. With our lead generation dashboard you can manage every conversation that comes from your website."
   btn:
   img: "/img/products/lead-generator/hero-img.svg"
+  alt: "DoctorLogic Lead Generator"
 - component: image-group
   component_css: image-group
   class: lead-generator__image-group--1
@@ -48,6 +49,7 @@ page_sections:
   class: social-reputation__feature--1
   text: "Knowing why customers and patient leads are calling is one thing, but finding out exactly what’s occurring on each call is even more powerful. Securely listen to tracked phone call leads to improve phone handling processes, schedule more appointments, enhance the patient experience, and optimize marketing spend."
   img: "/img/products/lead-generator/secure-call.jpg"
+  alt: "Secure Call Monitoring"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -55,5 +57,6 @@ page_sections:
   headline: "Identify Marketing Success"
   text: "Receive clarity on which marketing sources are driving true opportunities to your practice and also which pages of your medical website are converting visitors into patients. Our dashboard makes it easy for  you to export all data into a CSV and upload to your practice management system or EMR."
   img: "/img/products/lead-generator/optimized-marketing.jpg"
+  alt: "Identify Marketing Success"
   img_alignment: "Left"
 ---

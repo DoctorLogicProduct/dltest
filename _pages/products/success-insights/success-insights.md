@@ -19,6 +19,7 @@ page_sections:
   text: "Stay in-tune with the performance of your medical marketing campaigns. Receive full access to your performance metrics through your practice dashboard and track everything from your search results, keyword rankings and lead generation."
   btn:
   img: "/img/products/success-insights/hero-img.svg"
+  alt: "DoctorLogic Success Insights"
 - component: image-group
   component_css: image-group
   class: success-insights__image-group--1
@@ -37,5 +38,6 @@ page_sections:
   text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your personal Customer Success Manager provides campaign performance insights, best practices, and information on how we plan to optimize your strategy and help you maximize your marketing goals."
   btn:
   img: "/img/products/success-insights/customer-success.jpg"
+  alt: "Personal Success Managers"
   img_alignment: "Right"
 ---

@@ -28,37 +28,37 @@ page_sections:
   - class: paid-advertising__item--1
     img:
     - src: /img/products/growth-accelerators/in-sync.jpg
-      alt: DoctorLogic Managed Chat
+      alt: Always In Sync
     headline: "Always In Sync"
     text: "We do it all. Campaigns sync directly with your website to ensure all campaigns are promoting the most up-to-date procedures and services."
   - class: paid-advertising__item--2
     img:
     - src: /img/products/growth-accelerators/roi.jpg
-      alt: DoctorLogic Managed Chat
+      alt: ROI Focused
     headline: "ROI Focused"
     text: "Instead of talking about impressions and clicks, we're focused on the metrics that matter most to the practice, like conversions and new patients."
   - class: paid-advertising__item--3
     img:
     - src: /img/products/growth-accelerators/targeting.jpg
-      alt: DoctorLogic Managed Chat
+      alt: Precision Targeting
     headline: "Precision Targeting"
     text: "We combine keyword and geo targeting to precisely target prospective patients, helping maximize a budget by focusing on consumers most likely to convert."
   - class: paid-advertising__item--4
     img:
     - src: /img/products/growth-accelerators/keyword.jpg
-      alt: DoctorLogic Managed Chat
+      alt: More Keywords
     headline: "More Keywords"
     text: "Our software generates on average 30,000 relevant, unique exact match, long tail keyword combinations for every campaign."
   - class: paid-advertising__item--5
     img:
     - src: /img/products/growth-accelerators/savings.jpg
-      alt: DoctorLogic Managed Chat
+      alt: Cost Savings
     headline: "Cost Savings"
     text: "Triggering ads on exact match keywords allows us to efficiently spend ad budget only for the specific keywords that convert."
   - class: paid-advertising__item--6
     img:
     - src: /img/products/growth-accelerators/conversions.jpg
-      alt: DoctorLogic Managed Chat
+      alt: Higher Conversions
     headline: "Higher Conversions"
     text: "Campaign data is continually aggregated to improve keyword targets, ad copy, bidding strategy, and landing pages to deliver more conversions at a lower cost per acquisition."
 - component: callout-headline
@@ -72,6 +72,7 @@ page_sections:
   headline: "Certified Google Partner"
   text: "We’ve been perfecting our paid search platform since 2005. DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practice and products."
   img: /img/products/growth-accelerators/google-partner.jpg
+  alt: "Certified Google Partner"
   img_alignment: Right
 - component: text-component
   component_css: text-component

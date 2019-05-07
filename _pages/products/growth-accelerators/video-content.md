@@ -23,6 +23,7 @@ page_sections:
   headline: "Establish Trust & Confidence"
   text: "71% of people agree that videos leave them with a positive impression of a practice, and 58% consider businesses with video content to be more trustworthy."
   img: /img/products/growth-accelerators/trust.jpg
+  alt: "Establish Trust"
   img_alignment: Right
 - component: feature-1
   component_css: feature
@@ -30,6 +31,7 @@ page_sections:
   headline: "Gain Competitive Advantage"
   text: "Most businesses still don’t have any marketing videos representing their brands, while 61% of businesses that do say online video is the top converter for sales."
   img: /img/products/growth-accelerators/advantage.jpg
+  alt: "Gain Competitive Advantage"
   img_alignment: Left
 - component: callout-headline
   component_css: callout-headline
@@ -42,6 +44,7 @@ page_sections:
   headline: "Increase Online Visibility"
   text: "Videos can attract 2-3x as many monthly visitors, double prospective clients’ time on site, and increase organic traffic from search engines by 157%."
   img: /img/products/growth-accelerators/online-visibility.jpg
+  alt: "Increase Online Visibility"
   img_alignment: Right
 - component: text-component
   component_css: text-component

@@ -19,6 +19,7 @@ page_sections:
   text: "Online reputation can make or break your medical practice – and of course your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients, organize and instantly display those reviews from around the web."
   btn:
   img: "/img/products/social-reputation/hero-img.svg"
+  alt: "DoctorLogic Social Reputation"
 - component: image-group
   component_css: image-group
   class: social-reputation__image-group--1
@@ -80,6 +81,7 @@ page_sections:
   text: "Easily showcase your reputation and organize them by source, doctor, procedure, and more.  Positive testimonials are tagged and posted to your practice website. Our platform then automatically integrates these testimonials to relevant content pages and displays the star ratings in search results."
   btn:
   img: "/img/products/social-reputation/reviews-feature.jpg"
+  alt: "Display Testimonials"
   img_alignment: "Right"
 - component: callout
   component_css: callout
@@ -96,5 +98,6 @@ page_sections:
   text: "Our marketing platform and team of healthcare marketing experts make it easy for your patients to share positive feedback about their experiences. With Intelligent Thinking™, our software will automatically suggest the best place to request reviews based on a few data criteria."
   btn:
   img: "/img/products/social-reputation/review-request-feature.jpg"
+  alt: "Proactive Review Building"
   img_alignment: "Left"
 ---

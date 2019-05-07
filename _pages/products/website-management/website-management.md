@@ -19,6 +19,7 @@ page_sections:
   text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a website, but don’t have the time to manage it properly. We’ve got your back! With Website Management, we provide you with simple tools to easily make changes and updates to your website in real-time."
   btn:
   img: "/img/products/website-management/hero-img.svg"
+  alt: "DoctorLogic Website Management"
 - component: image-group
   component_css: image-group
   class: website-management__image-group--1
@@ -62,6 +63,7 @@ page_sections:
   text: "Our medical websites are built with an unlimited number of pages that allow you to elevate your medical practice in local search results. We use your procedures, profiles, reviews, photo galleries and more to create and optimize new pages for search engines. The more <content> housed on your website, the more you’re increasing your digital footprint and acquiring patients."
   btn:
   img: "/img/products/website-management/unlimited-pages.jpg"
+  alt: "Unlimited Pages"
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
@@ -70,6 +72,7 @@ page_sections:
   text: "With 100% access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
   btn: 
   img: "/img/products/website-management/on-page-edit.jpg"
+  alt: "On-Page Editing"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -78,6 +81,7 @@ page_sections:
   text: "Your patient’s security is our top priority. We take important steps to make sure your website and patient’s information is secure with our 100% HIPAA secure Website Marketing Platform. Where your site is hosted, how you add content and the forms your patients fill out are all HIPAA compliant."
   btn:
   img: "/img/products/website-management/hipaa-secure.jpg"
+  alt: "HIPAA Compliant Websites"
   img_alignment: "Left"
 - component: callout
   component_css: callout

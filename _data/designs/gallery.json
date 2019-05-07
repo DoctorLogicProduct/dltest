@@ -1,6 +1,6 @@
 [
     {
-        "type": "cosmetic",
+        "type": "aesthetic",
         "img": "/img/designs/vip.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",
@@ -14,14 +14,14 @@
         "name": "Implant & General Dentistry"
     },
     {
-        "type": "med-spa",
+        "type": "other",
         "img": "/img/designs/elevate.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",
         "name": "Elevate Med Spa"
     },
     {
-        "type": "cosmetic",
+        "type": "aesthetic",
         "img": "/img/designs/vip.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",
@@ -35,14 +35,14 @@
         "name": "Implant & General Dentistry"
     },
     {
-        "type": "med-spa",
+        "type": "other",
         "img": "/img/designs/elevate.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",
         "name": "Elevate Med Spa"
     },
     {
-        "type": "cosmetic",
+        "type": "aesthetic",
         "img": "/img/designs/vip.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",
@@ -56,7 +56,7 @@
         "name": "Implant & General Dentistry"
     },
     {
-        "type": "med-spa",
+        "type": "other",
         "img": "/img/designs/elevate.jpg",
         "link-label": "brooklynhotdogcompany.com",
         "link": "http://brooklynhotdogcompany.com",

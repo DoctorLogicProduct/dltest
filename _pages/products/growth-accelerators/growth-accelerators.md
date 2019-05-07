@@ -19,6 +19,7 @@ page_sections:
   text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan can help your medical practice reach new heights."
   btn:
   img: "/img/products/growth-accelerators/hero-img.svg"
+  alt: "DoctorLogic Growth Accelerators"
 - component: image-group
   component_css: image-group
   class: growth-accelerators__image-group--1
@@ -61,6 +62,7 @@ page_sections:
   - btn-link: /products/growth-accelerators/paid-advertising
     btn-label: Learn More
   img: "/img/products/growth-accelerators/paid-advertising.jpg"
+  alt: "Paid Advertising"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -71,6 +73,7 @@ page_sections:
   - btn-link: #
     btn-label: Learn More
   img: "/img/products/growth-accelerators/content-marketing.jpg"
+  alt: "Content Marketing"
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
@@ -81,5 +84,6 @@ page_sections:
   - btn-link: /products/growth-accelerators/video-content
     btn-label: Learn More
   img: "/img/products/growth-accelerators/video-marketing.jpg"
+  alt: "Video Marketing"
   img_alignment: "Right"
 ---

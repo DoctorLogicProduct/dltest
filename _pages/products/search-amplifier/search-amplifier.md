@@ -19,6 +19,7 @@ page_sections:
   text: "Medical practices aspire to dominate their local market and be top of Google. With our proven experience executing Medical SEO strategies, your website will receive an increase in website traffic, which will result in new patient visits and increase in revenue."
   btn:
   img: "/img/products/search-amplifier/hero-img.svg"
+  alt: "DoctorLogic Search Amplifier"
 - component: image-group
   component_css: image-group
   class: search-amplifier__image-group--1
@@ -54,6 +55,7 @@ page_sections:
   text: "Customers are searching online for medical providers near them. Local SEO requires a strategic and targeted approach. We’ll optimize and manage your practice and provider profiles across the web, including local directories such as Google Business, Google Maps, Facebook, Yelp, and other online local directories."
   btn:
   img: "/img/products/search-amplifier/online-visibility.jpg"
+  alt: "Improve Online Visibility"
   img_alignment: "Left"
 - component: text-component
   component_css: text-component
@@ -72,5 +74,6 @@ page_sections:
   text: "If you’re new to SEO, you’re going to feel a little uncertain. Transparency is key to any successful partnership. With DoctorLogic, you know exactly the ROI on your SEO efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
+  alt: "Track SEO Performance"
   img_alignment: "Right"
 ---

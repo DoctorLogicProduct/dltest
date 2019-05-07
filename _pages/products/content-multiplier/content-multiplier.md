@@ -19,6 +19,7 @@ page_sections:
   text: "Utilizing content in your digital marketing strategy is essential to search engine optimization and improving organic search results. Leverage our Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
+  alt: "DoctorLogic Content Multiplier"
 - component: item-grid
   component_css: item-grid
   class: content-multiplier__item-grid--1
@@ -50,6 +51,7 @@ page_sections:
   text: "Our team of medical content writers provide custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
   btn:
   img: "/img/products/content-multiplier/service-pages.jpg"
+  alt: "SEO Rich Pages"
   img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
@@ -63,6 +65,7 @@ page_sections:
   text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all trust."
   btn:
   img: "/img/products/content-multiplier/provider-bio.jpg"
+  alt: "Enhanced Provider Bios"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
@@ -71,5 +74,6 @@ page_sections:
   text: "Upload an unlimited number of videos and our software will automatically integrate these videos across your entire website. Most importantly, each video is transcribed for great SEO content."
   btn:
   img: "/img/products/content-multiplier/video-integration.jpg"
+  alt: "Smarter Video Integration"
   img_alignment: "Left"
 ---

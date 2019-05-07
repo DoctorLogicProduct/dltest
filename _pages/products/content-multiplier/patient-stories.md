@@ -23,6 +23,7 @@ page_sections:
   text: "Adding new cases to your website is a piece of cake! In five easy steps and within five minutes you can publish SEO-friendly case studies. No more emailing your patient information to your web vendor, or waiting days or weeks to get information added to your website."
   btn:
   img: "/img/products/content-multiplier/photo-upload.jpg"
+  alt: "Easily Add Photos"
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
@@ -31,5 +32,6 @@ page_sections:
   text: "Each case creates multiple pages of SEO-friendly content to help you win online. After creating a new photo gallery, our tool automatically organizes it into a list format  similar to major e-commerce sites like Amazon or Zillow. Our software helps move your website visitors through the purchasing funnel and provides more leads for your practice!"
   btn:
   img: "/img/products/content-multiplier/gallery-list.jpg"
+  alt: "Search Made Simple"
   img_alignment: "Right"
 ---

@@ -72,6 +72,7 @@ page_sections:
   headline: "Certified Google Partner"
   text: "We’ve been perfecting our paid search platform since 2005. DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practice and products."
   img: /img/products/growth-accelerators/google-partner.jpg
+  alt: "Certified Google Partner"
   img_alignment: Right
 - component: text-component
   component_css: text-component

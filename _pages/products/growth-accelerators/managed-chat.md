@@ -28,19 +28,19 @@ page_sections:
   - class: managed-chat__item--1
     img:
     - src: /img/products/growth-accelerators/24-7.jpg
-      alt: DoctorLogic Managed Chat
+      alt: 24/7 Service
     headline: "24/7"
     text: "Our network of agents are available to engage with your website visitors all day, every day."
   - class: managed-chat__item--2
     img:
     - src: /img/products/growth-accelerators/hipaa.jpg
-      alt: DoctorLogic Managed Chat
+      alt: HIPAA Compliant Chat
     headline: "HIPAA Compliant"
     text: "Every chat is encrypted to protect patient privacy and ensure 100% compliance with the law."
   - class: managed-chat__item--3
     img:
     - src: /img/products/growth-accelerators/trained.jpg
-      alt: DoctorLogic Managed Chat
+      alt: Industry Trained Staff
     headline: "Industry Trained"
     text: "Each of our agents are trained exclusively to support medical providers."
 - component: callout-headline
@@ -54,6 +54,7 @@ page_sections:
   headline: "Connect With More Patients"
   text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and you only pay for qualified leads."
   img: /img/products/growth-accelerators/patient-connect.jpg
+  alt: Connect With Patients
   img_alignment: Right
 - component: feature-1
   component_css: feature
@@ -61,6 +62,7 @@ page_sections:
   headline: "Never Miss a Conversation"
   text: "<p>DoctorLogic Chat also works beyond your website to better connect you to prospects:</p><ul><li>Google Business Listings: chat from search results</li><li>Call Connect: transfer live chats to your practice</li><li>Mobile SMS: real-time texting with agents</li></ul>"
   img: /img/products/growth-accelerators/more-conversion.jpg
+  alt: Works with muliple clients
   img_alignment: Left
 - component: text-component
   component_css: text-component

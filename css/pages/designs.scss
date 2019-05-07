@@ -178,7 +178,7 @@ $spacing: 15px;
         cursor:pointer;
 
         @include tablet-min {
-            grid-column: auto / span 6;
+            grid-column: auto / span 8;
         }
         
 
@@ -226,23 +226,16 @@ $spacing: 15px;
     }
     }
 
-    input[type="radio"][id="reset"]:checked + label span p {
-        color: $color-2;
-    }
-    
-    input[type="radio"][id="reset"]:checked + label span::after {
-        transform: translateX(-50%) scale(1,1);
-    }
 
-    input[type="radio"][id="cosmetic"]:checked + label span p {
+    input[type="radio"][id="aesthetic"]:checked + label span p {
         color: $color-2;
     }
 
-    input[type="radio"][id="cosmetic"]:checked + label span::after {
+    input[type="radio"][id="aesthetic"]:checked + label span::after {
         transform: translateX(-50%) scale(1,1);
     }
 
-    input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="dentistry"], input[type="radio"][id="cosmetic"]:checked ~ .designs__items [data-type~="med-spa"] {
+    input[type="radio"][id="aesthetic"]:checked ~ .designs__items [data-type~="dentistry"], input[type="radio"][id="aesthetic"]:checked ~ .designs__items [data-type~="other"] {
         display: none;
     }
 
@@ -254,19 +247,19 @@ $spacing: 15px;
         transform: translateX(-50%) scale(1,1);
     }
 
-    input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="med-spa"] {
+    input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="aesthetic"], input[type="radio"][id="dentistry"]:checked ~ .designs__items [data-type~="other"] {
         display: none;
     }
 
-    input[type="radio"][id="med-spa"]:checked + label span p {
+    input[type="radio"][id="other"]:checked + label span p {
         color: $color-2;
     }
 
-    input[type="radio"][id="med-spa"]:checked + label span::after {
+    input[type="radio"][id="other"]:checked + label span::after {
         transform: translateX(-50%) scale(1,1);
     }
 
-    input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="cosmetic"], input[type="radio"][id="med-spa"]:checked ~ .designs__items [data-type~="dentistry"] {
+    input[type="radio"][id="other"]:checked ~ .designs__items [data-type~="aesthetic"], input[type="radio"][id="other"]:checked ~ .designs__items [data-type~="dentistry"] {
         display: none;
     }
 
