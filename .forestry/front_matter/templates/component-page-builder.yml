@@ -72,4 +72,5 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/components-are-cool.md
 - landing-pages/landing-page-test.md
