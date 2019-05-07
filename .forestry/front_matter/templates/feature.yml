@@ -61,6 +61,12 @@ fields:
     maxSize: 250
   label: Image
   description: Section Image
+- name: alt
+  type: text
+  config:
+    required: false
+  label: Alt Text
+  description: Alt text for this image
 - name: img_alignment
   type: select
   default: Right
