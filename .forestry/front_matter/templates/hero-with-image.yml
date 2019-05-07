@@ -52,3 +52,9 @@ fields:
   config:
     maxSize: 250
   label: Image
+- name: alt
+  type: text
+  config:
+    required: false
+  label: Alt Text
+  description: Image Alt Text
