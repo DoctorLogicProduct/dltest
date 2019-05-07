@@ -9,6 +9,7 @@ page_class:
 product: "growth accelerators"
 permalink: "/products/growth-accelerators/content-marketing"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+back_page: "growth-accelerators"
 page_sections:
 - component: hero-2
   component_css: hero-2

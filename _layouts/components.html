@@ -17,7 +17,18 @@
 			{% if page.product %}
 			<div class="related-posts">
 
-				<h3>Up Next: <a href="/products/{{ page.next_page }}">{{ page.next_page | replace: '-', ' '}}</a></h3>
+				{% if page.next_page %}
+				<section class="next-page">
+					<h3>Up Next: <a href="/products/{{ page.next_page }}">{{ page.next_page | replace: '-', ' '}}</a></h3>
+				</section>
+				{% endif %}
+
+				{% if page.back_page %}
+				<section class="back-to-product">
+					<h3>Back To: <a href="/products/{{ page.back_page }}">{{ page.back_page | replace: '-', ' '}}</a></h3>
+				</section>
+				{% endif %}
+
 				<div class="related-posts__cards">
 			
 				{% assign maxRelated = 2 %}

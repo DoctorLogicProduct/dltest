@@ -372,6 +372,53 @@ body.success-insights .text-link {
 	
 }
 
+.back-to-product {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10px 60px;
+
+		a {
+		display: block;
+		padding: 10px 0 0;
+	}
+
+	@include phone-wide-min {
+		flex-direction: row;
+
+		a {
+			display: inline-block;
+			padding: 0;
+		}
+	}
+	
+}
+
+.next-page {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10px 60px;
+	flex-direction: column;
+
+	a {
+		display: block;
+		padding: 10px 0 0;
+	}
+
+	@include phone-wide-min {
+		flex-direction: row;
+
+		a {
+			display: inline-block;
+			padding: 0;
+		}
+	}
+	
+}
+
 body.social-reputation .separator {
 	background: $gradient-social-reputation;
 }

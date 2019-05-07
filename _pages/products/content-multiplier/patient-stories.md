@@ -9,6 +9,7 @@ page_class:
 product: "content multiplier"
 permalink: "/products/content-multiplier/patient-stories"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+back_page: "content-multiplier"
 page_sections:
 - component: hero-2
   component_css: hero-2
