@@ -32,16 +32,7 @@ include: ['_pages']
 plugins:
   - jekyll-feed
   - octopress-autoprefixer
-  - jekyll-compress-images
-
-  imageoptim:
-  # Disabling svgo because it throws some error
-  svgo: false
-  jpegrecompress:
-    allow_lossy: true
-    quality: 2
-    # max_quality: 80
-    
+   
 defaults:
 -
   scope:
