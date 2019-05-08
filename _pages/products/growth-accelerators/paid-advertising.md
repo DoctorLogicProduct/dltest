@@ -15,13 +15,13 @@ page_sections:
   component_css: hero-2
   class: paid-advertising__hero
   headline: "Expand Your Digital Footprint"
-  text: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns. We produce 10X more keyword patterns than the competition to outperform other ads. Paired with a DoctorLogic website - it's a perfect fit to ensure your practice is visible on search engine results."
+  text: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns. We produce 10X more keyword patterns than the competition to outperform other ads. Paired with a DoctorLogic website, it's a perfect fit to ensure your practice is visible on search engine result pages."
   btn:
 - component: item-grid
   class: paid-advertising__item-grid--1
   component_css: item-grid
   headline: "Intelligent Campaign Management"
-  text: "Your search marketing campaign is managed by a team of healthcare marketing experts from initial setup to optimization and final analysis. We rely on human expertise alongside computer algorithms to manage successful campaigns based on your practice goals. Every campaign is regularly reviewed and optimized to ensure maximum ROI."
+  text: " From initial setup and optimization to final alalysis, your search marketing campaign is managed by a team of healthcare marketing experts. We rely on human expertise alongside computer algorithms to manage successful campaigns based on your practice goals. Every campaign is regularly reviewed and optimized to ensure maximum ROI."
   btn:
   per-row-count: 3
   items:
@@ -30,7 +30,7 @@ page_sections:
     - src: /img/products/growth-accelerators/in-sync.jpg
       alt: Always In Sync
     headline: "Always In Sync"
-    text: "We do it all. Campaigns sync directly with your website to ensure all campaigns are promoting the most up-to-date procedures and services."
+    text: "We do it all. Campaigns sync directly with your website to ensure all are promoting the most up-to-date procedures and services."
   - class: paid-advertising__item--2
     img:
     - src: /img/products/growth-accelerators/roi.jpg
@@ -42,13 +42,13 @@ page_sections:
     - src: /img/products/growth-accelerators/targeting.jpg
       alt: Precision Targeting
     headline: "Precision Targeting"
-    text: "We combine keyword and geo targeting to precisely target prospective patients, helping maximize a budget by focusing on consumers most likely to convert."
+    text: "We combine keyword and geo-targeting to precisely target prospective patients, helping maximize your budget by focusing on the consumers most likely to convert."
   - class: paid-advertising__item--4
     img:
     - src: /img/products/growth-accelerators/keyword.jpg
       alt: More Keywords
     headline: "More Keywords"
-    text: "Our software generates on average 30,000 relevant, unique exact match, long tail keyword combinations for every campaign."
+    text: "Our software generates on average 30,000 relevant, unique exact match, long-tail keyword combinations for every campaign."
   - class: paid-advertising__item--5
     img:
     - src: /img/products/growth-accelerators/savings.jpg
@@ -70,7 +70,7 @@ page_sections:
   component_css: feature
   class: paid-advertising__feature--1
   headline: "Certified Google Partner"
-  text: "We’ve been perfecting our paid search platform since 2005. DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practice and products."
+  text: "We’ve been perfecting our paid search platform since 2005. DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practices and products."
   img: /img/products/growth-accelerators/google-partner.jpg
   alt: "Certified Google Partner"
   img_alignment: Right

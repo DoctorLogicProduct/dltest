@@ -23,26 +23,26 @@ page_sections:
 - component: image-group
   component_css: image-group
   class: lead-generator__image-group--1
-  headline: "One home for all your website leads"
-  text: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
+  headline: "Website Lead Snapshot"
+  text: "Have a clear picture of your website leads in one place and receive alerts as your leads come in. Track all your phone calls, web form submissions, chats and more."
   items:
   - class: image-group__image--1
     svg: true
     src: opportunities-mock
-    alt-text: "Facebook Reviews"
+    alt-text: "Opportunities Dashboard"
   - class: image-group__image--2
     headline: Email Leads
-    text: View website form submissions so your team can follow up
+    text: View website form submissions so your team can follow up.
   - class: image-group__image--3
     headline: Phone Leads
-    text: See who called, when they called, and have the ability to listen to conversations
+    text: See who called, when they called, and have the ability to listen to conversations.
   - class: image-group__image--4
     headline: Chat Leads
-    text: Review every website chat transaction and decide which ones are qualified      
+    text: Review every website chat transaction and decide which ones are qualified.  
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__leads
-  headline: "<span>74%</span> of companies say converting leads into customers is their top priority"
+  headline: "<span>74%</span> of companies say converting leads into customers is their top priority."
   source: "HubSpot"
 - component: feature-1
   headline: "Secure Call Monitoring"
@@ -55,7 +55,7 @@ page_sections:
   component_css: feature
   class: social-reputation__feature--2
   headline: "Identify Marketing Success"
-  text: "Receive clarity on which marketing sources are driving true opportunities to your practice and also which pages of your medical website are converting visitors into patients. Our dashboard makes it easy for  you to export all data into a CSV and upload to your practice management system or EMR."
+  text: "Receive clarity on which marketing sources are driving true opportunities to your practice and also which pages of your medical website are converting visitors into patients. Our dashboard makes it easy for you to export all data into a CSV and upload it to your practice management system or EMR."
   img: "/img/products/lead-generator/optimized-marketing.jpg"
   alt: "Identify Marketing Success"
   img_alignment: "Left"

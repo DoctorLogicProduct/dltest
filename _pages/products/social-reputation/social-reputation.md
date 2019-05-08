@@ -16,7 +16,7 @@ page_sections:
   component_css: hero
   class: hero-sample
   headline: "Simple Reputation Management"
-  text: "Online reputation can make or break your medical practice – and of course your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients, organize and instantly display those reviews from around the web."
+  text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
   btn:
   img: "/img/products/social-reputation/hero-img.svg"
   alt: "DoctorLogic Social Reputation"
@@ -24,7 +24,7 @@ page_sections:
   component_css: image-group
   class: social-reputation__image-group--1
   headline: "Organize Your Reviews"
-  text: "With our solution, you can manage reviews from different sources, including Google, Facebook, Yelp, RealSelf, and more. Combine your reviews from across the web to one place, prioritize your favorites, and tag each review to make it simple to find."
+  text: "With our solution, you can manage reviews from different sources, including Google, Facebook, Yelp, RealSelf, and more. Display your reviews from across the web in one place, prioritize your favorites, and tag each review to make it simple to find."
   btn:
   items:
   - class: image-group__image--1
@@ -66,19 +66,19 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__reputation
-  headline: "<span>94%</span> of patients use online reviews to evaluate physicians"
+  headline: "<span>94%</span> of patients use online reviews to evaluate physicians."
   source: Software Advice
 - component: feature-1
   headline: "Receive Notifications"
   class: social-reputation__feature--1
-  text: "We remove the unknown by providing alerts when your practice is mentioned in a review. We monitor dozens of review sites, ensuring any time a review is posted about your practice - you will receive an email alert. Rest easy knowing you will be the first to know anytime a review is posted online."
+  text: "We remove the unknown by providing alerts when your practice is mentioned in a review. We monitor dozens of review sites, ensuring any time a review is posted about your practice you will receive an email alert. Rest easy knowing you will be the first to know anytime a review is posted online."
   btn:
   img: "/img/products/social-reputation/review-notifications.jpg"
   img_alignment: "Left"
 - component: feature-1
   headline: "Display Your Testimonials"
   class: social-reputation__feature--2
-  text: "Easily showcase your reputation and organize them by source, doctor, procedure, and more.  Positive testimonials are tagged and posted to your practice website. Our platform then automatically integrates these testimonials to relevant content pages and displays the star ratings in search results."
+  text: "Easily showcase your reputation by organizing reviews by source, doctor, procedure, and more. Positive testimonials are tagged and posted to your practice website. Our platform then automatically integrates these testimonials to relevant content pages and displays the star ratings in search results."
   btn:
   img: "/img/products/social-reputation/reviews-feature.jpg"
   alt: "Display Testimonials"

@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Prefixer
 gem 'octopress-autoprefixer'
+
+# Image Compress
+gem 'jekyll-compress-images'

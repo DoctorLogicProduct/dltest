@@ -15,7 +15,7 @@ page_sections:
   component_css: hero-2
   class: managed-chat__hero
   headline: "Convert More Visitors"
-  text: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Managed Chat can help to reduce your website bounce rate and increase your advertising ROI by engaging with more website visitors and turning them into leads."
+  text: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Managed Chat can help reduce your website bounce rate and increase your advertising ROI by engaging with more website visitors and turning them into leads."
   btn:
 - component: item-grid
   class: managed-chat__item-grid--1
@@ -46,13 +46,13 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__growth
-  headline: "On average, Chat customers are seeing <span>40%</span> increase in leads!"
+  headline: "On average, Chat customers are seeing a <span>40%</span> increase in leads!"
   source: "DoctorLogic"
 - component: feature-1
   component_css: feature
   class: managed-chat__feature--1
   headline: "Connect With More Patients"
-  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send each conversation to your practice and you only pay for qualified leads."
+  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll only send conversations with qualified leads to your practice."
   img: /img/products/growth-accelerators/patient-connect.jpg
   alt: Connect With Patients
   img_alignment: Right
@@ -60,7 +60,7 @@ page_sections:
   component_css: feature
   class: managed-chat__feature--2
   headline: "Never Miss a Conversation"
-  text: "<p>DoctorLogic Chat also works beyond your website to better connect you to prospects:</p><ul><li>Google Business Listings: chat from search results</li><li>Call Connect: transfer live chats to your practice</li><li>Mobile SMS: real-time texting with agents</li></ul>"
+  text: "<p>DoctorLogic Chat also works beyond your website to better connect you to prospects:</p><ul><li>Google Business Listings: Chat from search results</li><li>Call Connect: Transfer live chats to your practice</li><li>Mobile SMS: Real-time texting with agents</li></ul>"
   img: /img/products/growth-accelerators/more-conversion.jpg
   alt: Works with muliple clients
   img_alignment: Left

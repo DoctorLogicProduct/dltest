@@ -25,7 +25,7 @@ page_sections:
   class: content-multiplier__item-grid--1
   per-row-count: "3"
   headline: "Showcase your stunning results & establish your expertise"
-  text: "Showcase and manage your stunning results like never before through our Before and After Photo Gallery Manager. Allow patients to search by interested procedures so they can better visualize the results they might achieve. This tool helps you establish your expertise, show off your technique and devices and how they’ve helped your patients."
+  text: "Showcase and manage your stunning results like never before through our Before and After Photo Gallery Manager. Allow patients to search by procedure so they can better visualize the results they might achieve. This tool helps you establish your expertise while showing off your techniques and devices and how they’ve helped your patients."
   items:
   - class: item-grid__item--1
     img:
@@ -48,7 +48,7 @@ page_sections:
   component_css: feature
   class: content-multiplier__feature--1
   headline: "SEO Rich Procedure and Service Pages"
-  text: "Our team of medical content writers provide custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
+  text: "Our team of medical content writers provides custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
   btn:
   img: "/img/products/content-multiplier/service-pages.jpg"
   alt: "SEO Rich Pages"
@@ -56,13 +56,13 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__content
-  headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic"
+  headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic."
   source: "HubSpot"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Enhanced Provider Bio"
-  text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all trust."
+  text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all, trust."
   btn:
   img: "/img/products/content-multiplier/provider-bio.jpg"
   alt: "Enhanced Provider Bios"

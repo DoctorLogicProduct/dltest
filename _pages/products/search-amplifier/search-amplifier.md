@@ -16,7 +16,7 @@ page_sections:
   component_css: hero
   class: search-amplifier-hero
   headline: "Amplify Your Practice with Medical SEO"
-  text: "Medical practices aspire to dominate their local market and be top of Google. With our proven experience executing Medical SEO strategies, your website will receive an increase in website traffic, which will result in new patient visits and increase in revenue."
+  text: "Medical practices aspire to dominate their local market and be at the top of Google. With our proven experience executing Medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
   btn:
   img: "/img/products/search-amplifier/hero-img.svg"
   alt: "DoctorLogic Search Amplifier"
@@ -24,7 +24,7 @@ page_sections:
   component_css: image-group
   class: search-amplifier__image-group--1
   headline: "Target Over 50,000 Keywords"
-  text: "Ranking on the first page of search engines, significantly increases being found. Your website will be optimized to help search engines identify your site as relevant to specific keywords. While our competitors struggle to target 100 keywords, our platform uses Keyword Science, Machine Learning, Artificial Intelligence (AI) and Big Data Analytics to target over 50,000 keywords."
+  text: "Ranking on the first page of search engines significantly increases being found. Your website will be optimized to help search engines identify your site as relevant to specific keywords. While our competitors struggle to target 100 keywords, our platform uses Keyword Science, Machine Learning, Artificial Intelligence (AI) and Big Data Analytics to target over 50,000 keywords."
   btn:
   items:
   - class: image-group__image--1
@@ -71,7 +71,7 @@ page_sections:
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Track SEO Performance<sup>Beta</sup>"
-  text: "If you’re new to SEO, you’re going to feel a little uncertain. Transparency is key to any successful partnership. With DoctorLogic, you know exactly the ROI on your SEO efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
+  text: "If you’re new to SEO, you’re going to feel a little uncertain. Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your SEO efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   alt: "Track SEO Performance"

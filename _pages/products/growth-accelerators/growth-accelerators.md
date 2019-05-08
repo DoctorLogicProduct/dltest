@@ -16,7 +16,7 @@ page_sections:
   component_css: hero
   class: hero-sample
   headline: "Accelerate Practice Growth"
-  text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan can help your medical practice reach new heights."
+  text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your medical practice reach new heights."
   btn:
   img: "/img/products/growth-accelerators/hero-img.svg"
   alt: "DoctorLogic Growth Accelerators"
@@ -24,7 +24,7 @@ page_sections:
   component_css: image-group
   class: growth-accelerators__image-group--1
   headline: "Dedicated Managed Chat"
-  text: "Your website is a lead generation engine and you have visitors coming in all the time but you’re not always there to greet them. With Managed Chat never miss a conversation and convert your valuable website traffic into leads."
+  text: "Your website is a lead generation engine and you have visitors coming in all the time but you’re not always there to greet them. With Managed Chat, never miss a conversation and convert your valuable website traffic into leads."
   btn:
   - btn-link: "/products/growth-accelerators/managed-chat"
     btn-label: Learn More
