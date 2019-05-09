@@ -152,7 +152,14 @@ footer {
 			justify-content: center;
 			flex-wrap: wrap;
 			padding-bottom: 10px;
-			padding: 60px 10px;
+			padding: 20px 10px 40px;
+			order: 2;
+
+			@include tablet-min {
+				padding: 60px 10px;
+				order: unset;
+			}
+			
 
 			@include tablet-wide-min {
 			  flex: 0 0 100%;
@@ -185,11 +192,13 @@ footer {
 			flex: 0 0 100%;
 			display: flex;
 			align-items: center;
-			justify-content: center;;
+			justify-content: center;
+			order: 1;
 
 			@include tablet-min {
 				flex: 0 0 auto;
 				justify-content: flex-start;
+				order: unset;
 			}
 			
 		}
@@ -199,8 +208,14 @@ footer {
 			line-height: 1;
 			display: flex;
 			flex-wrap: wrap;
+			flex-direction: column;
 			justify-content: center;
-			padding-bottom: 40px;
+
+			@include tablet-min {
+				flex-direction: row;
+				padding-bottom: 40px;
+			}
+			
 
 			@include tablet-wide-min {
 				flex: 0 0 auto;
@@ -273,10 +288,12 @@ footer {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			order: 3;
 
 			@include tablet-min {
 				flex: 0 0 auto;
 				justify-content: flex-end;
+				order: unset;
 			}
 			
 		}
@@ -304,7 +321,7 @@ footer {
 				font-size: .9rem;
 				position: relative;
 				text-align: center;
-				padding: 40px;
+				padding: 20px;
 				line-height: 1;
 				transition: all .3s;
 				display: block;
@@ -359,11 +376,18 @@ footer {
 			width: 20px;
 			height: auto;
 			display: block;
+			margin: 0 auto;
 		}
 
 		&__copyright {
 			flex: 0 0 100%;
 			padding-bottom: 40px;
+			order: 4;
+
+			@include tablet-min {
+				order: unset;
+			}
+			
 
 			@include tablet-wide-min {
 				flex: 0 0 100%;

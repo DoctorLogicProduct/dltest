@@ -15,7 +15,7 @@ page_sections:
   component_css: hero-2
   class: video-content__hero
   headline: "Increase Visibility with Video"
-  text: "It’s no secret. The use of video in marketing plans is on the rise. Video has been proven to demand more consumer attention than any other medium. It can be used as a method to build awareness about your practice, as a content tool to grow your patient base, or to showcase you as an expert in your field."
+  text: "It’s no secret. The use of video in marketing plans is on the rise. Video has been proven to attract more consumer attention than any other medium. It can be used as a method to build awareness about your practice, as a content tool to grow your patient base, or to showcase you as an expert in your field."
   btn:
 - component: feature-1
   component_css: feature
@@ -36,7 +36,7 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__growth
-  headline: "Video traffic made up 73% of all internet traffic in 2016. Expect to be <span>82%</span> by 2021."
+  headline: "Video traffic made up 73% of all internet traffic in 2016. Expect it to be <span>82%</span> by 2021."
   source: "Google"
 - component: feature-1
   component_css: feature

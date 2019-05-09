@@ -79,7 +79,7 @@ page_sections:
   component_css: feature
   headline: "Build Trust With Video"
   class: growth-accelerators__feature--3
-  text: "Video has been proven to demand more consumer attention than any other medium and is the best channel to build trust and increase awareness around your medical practice. To really stand out from your competition, and increase traffic to your website video should be part of your marketing strategy."
+  text: "Video has been proven to attract more consumer attention than any other medium and is the best channel to build trust and increase awareness around your medical practice. To really stand out from your competition, and increase traffic to your website video should be part of your marketing strategy."
   btn:
   - btn-link: /products/growth-accelerators/video-content
     btn-label: Learn More
