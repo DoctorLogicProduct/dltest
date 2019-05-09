@@ -8,7 +8,7 @@ post_intro: Now that you know the five foundational elements of content marketin
   including creating value, knowing your audience, promoting properly, honing technical
   skills and analyzing what’s working (and what’s not), what types of content should
   you be creating?
-post_image: ''
+post_image: "/uploads/5-types-edit.jpg"
 post_highlight: Now that you know the five foundational elements of content marketing,
   including creating value, knowing your audience, promoting properly, honing technical
   skills and analyzing what’s working (and what’s not), what types of content should
