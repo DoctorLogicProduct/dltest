@@ -1,0 +1,319 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+
+.case-study {
+
+    .hero-2 {
+        padding: 80px 0 0;
+        display: flex;
+        align-items: center;
+        min-height: 350px;
+        position: relative;
+
+        @include tablet-wide-min {
+            padding: 120px 0 60px 5%;
+            min-height: 600px;
+        }
+
+        
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: 0;
+            bottom: 40px;
+            width: 100%;
+            background: url('/img/hero/hero-bg-4.svg') right top/contain no-repeat;
+            z-index: 1;
+            opacity: .5;  
+        }
+
+        
+
+        &__text {
+            grid-column: auto / span 24;
+            grid-row: 2 / span 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 40px 20px;
+            z-index: 2;
+            margin: 0 auto;
+            position: relative;
+
+            @include phone-wide-min {
+              padding: 80px 60px;
+            }
+            
+            @include tablet-min {
+              grid-column: auto / span 12;
+              grid-row: auto;
+              justify-content: center;
+            }
+
+            @include tablet-wide-min {
+              margin: 0;
+            }
+            
+            @include desktop-min {
+              grid-column: auto / span 12;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: .9;
+            }
+
+            h1 {
+                max-width: 100%;
+                font-size: 2rem;
+                margin-bottom: 10px;
+
+                @include phone-wide-min {
+                  font-size: 3rem;
+                  margin-bottom: 20px;
+                }
+                
+
+                @include tablet-wide-min {
+                font-size: 4rem;
+                }
+                
+            }
+
+            h1, p {
+                text-align: left;
+                position: relative;
+                z-index: 1;
+            }
+
+            p {
+                margin: 0;
+                font-size: 1.3rem;
+                line-height: 1.2;
+                text-transform: uppercase;
+
+                @include phone-wide-min {
+                  font-size: 2rem;
+                }   
+            }
+
+        }
+
+        p.hero-2__text-solutions {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+
+    }
+
+    &__section {
+        padding: 0 5% 0;
+        @include grid;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        &--3 {
+            grid-gap: 0;
+        }
+
+        // h3 {
+        //     color: $websites;
+        // }
+    }
+
+    &__feature-img {
+        grid-column: auto / span 24;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__challenge {
+        background: $gradient-website-management;
+        background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+        margin-top: -300px;
+        padding-top: 350px;
+        padding-bottom: 40px;
+    }
+
+    @keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+    }
+}
+
+    &__challenge-headline {
+        grid-column: auto / span 24;
+        
+        h3 {
+            color: $color-2;
+        }
+    }
+
+    &__challenge-text {
+        grid-column: auto / span 16;
+
+        p {
+            color: $color-2;
+        }
+    }
+
+    &__challenge-customer {
+        grid-column: auto / span 8;
+    }
+
+    &__challenge-customer-item {
+        padding: 0 0 30px;
+    }
+
+    &__challenge-customer-headline {
+        text-align: left;
+        color: $color-2;
+        font-size: .9rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    &__challenge-customer-link {
+        color: $color-2;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    &__challenge-customer-text {
+        color: $color-2;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    &__results {
+        padding: 20px 0 60px;
+    }
+
+    &__results-headline {
+        grid-column: auto / span 24;
+        padding: 40px;
+    }
+
+    &__results-chart {
+        grid-column: auto / span 24;
+    }
+
+    &__results-items {
+        grid-column: auto / span 24;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    &__results-item {
+        flex: 0 0 25%;
+
+        h3 {
+            font-size: 3.5rem;
+            text-align: center;
+            color: $websites;
+        }
+
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: .9rem;
+            margin-top: 5px;
+        }
+    }
+
+    &__results-detail {
+        grid-column: auto / span 24;
+    }
+
+    &__testimonial {
+        background: $gradient-website-management;
+        background-size: 200% 200%;
+		animation: Gradient 10s ease infinite;
+        padding: 40px 0;
+    }
+    
+    &__testimonial-author {
+        grid-column: auto / span 24;
+        color: $color-2;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    &__testimonial-text {
+        grid-column: auto / span 24;
+        color: $color-2;
+        font-size: 1.8rem;
+        line-height: 1.6;
+        font-style: italic;
+    }
+
+    &__solution {
+        grid-column: auto / span 14;
+        padding: 60px 0;
+    }
+
+    &__spotlight {
+        grid-column: auto / span 10;
+        padding: 60px 0;
+    }
+
+    &__spotlight-items {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__spotlight-item {
+        padding: 20px 0;
+        flex: 0 0 50%;
+        box-shadow: none;
+        transition: box-shadow .5s;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        @include desktop-sm-min {
+
+          &:hover {
+            box-shadow: $box-shadow;
+        }
+
+        }
+        
+        img {
+            max-width: 175px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    
+
+   
+}

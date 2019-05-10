@@ -1,0 +1,170 @@
+---
+layout: default
+page_name: case-study-washington-dental
+permalink: /case-study/washington-dental
+gsap: true
+page_class:
+- class: case-study
+custom_js: case-study-washdent
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+- class: case-study__hero
+  img: /img/case-study/washington-dental-hero.jpg
+  headline: Case Study
+  text: "Washington Center for Dentistry"
+  solutions: "content, website design, search"
+featured-img:
+- img_src: "/img/case-study/washington-dental-feature-img.jpg"
+  img_alt: "Washington Center For Dentistry - Powered By DoctorLogic"
+challenge:
+- headline: "The Challenge" 
+  text: "<p>After partnering with several costly vendors, Washington Center for Dentistry struggled to get the website lead traffic they were promised. They began searching for a solution to deliver the results they desired.</p><p>After partnering with several costly vendors, Washington Center for Dentistry struggled to get the website lead traffic they were promised. They began searching for a solution to deliver the results they desired.</p>"
+  customer-items:
+  - headline: "Customer"
+    text: "Washington Center For Dentistry"
+  - headline: "Website"
+    link:
+    - link: "https://washdent.com"
+      label: "www.washdent.com"
+  - headline: "Specialty"
+    text: "Cosmetic Dentistry"
+  - headline: "Practice Size"
+    text: "5 Dentists"
+  - headline: "Location"
+    text: "Washington, D.C."
+results:
+- headline: "The Results"
+  svg: "svg/washdent-graph.html"
+  items:
+  - class: "case-study__results-item--1"
+    value: "328"
+    label: "Page 1 Search Results"
+  - class: "case-study__results-item--2"
+    value: "223"
+    label: "Keyword Increase"
+  - class: "case-study__results-item--3"
+    value: "45"
+    label: "Website Visitors"
+  - class: "case-study__results-item--4"
+    value: "31"
+    label: "Leads Per Month"
+  detail:
+  - text: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatibus natus deleniti ea explicabo numquam mollitia ut quidem     dolorem inventore cupiditate eveniet corporis perferendis veniam atque, obcaecati quos reprehenderit sed!</p><p>Lorem ipsum dolor sit amet,      consectetur adipisicing elit. Esse voluptatibus natus deleniti ea explicabo numquam mollitia ut quidem dolorem inventore cupiditate eveniet      corporis perferendis veniam atque, obcaecati quos reprehenderit sed!</p>"
+testimonial:
+- text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate accusamus, quisquam et quo sed repellat reprehenderit unde, veniam      accusantium inventore optio ducimus eos consequuntur dolore corporis, saepe minima quos cumque! Pariatur, sapiente. Deleniti, necessitatibus       tempore? Fuga explicabo nisi aliquid vitae?"
+  author: "- Dr. Xavier Logic, Washington Center for Cosmetic Dentistry"
+solution:
+- headline: "The Solution"
+  text: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officia ea totam recusandae perspiciatis est molestiae aut cupiditate nesciunt possimus, ut, tempore aliquid quae corrupti? Officiis, quo. Est neque natus itaque esse, laudantium impedit repellendus? Ipsam labore in odit veniam ad facere, sunt dolor totam repudiandae cupiditate assumenda debitis asperiores?</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta architecto facilis esse illum in veritatis eveniet provident quia numquam autem, est illo debitis officia quod voluptates sint consequuntur doloribus! Neque.</p>"
+  items:
+  - img_src: "/img/product-icons/with-labels/website-management-label.svg"
+    img_alt: DoctorLogic Website Management
+  - img_src: "/img/product-icons/with-labels/content-multiplier-label.svg"
+    img_alt: DoctorLogic Content Multiplier
+  - img_src: "/img/product-icons/with-labels/search-amplifier-label.svg"
+    img_alt: DoctorLogic Search Amplifier
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}"">
+    <div class="hero-2__text">
+        <div class="separator"></div>
+        <h1>{{hero.headline}}</h1>
+        <p>{{hero.text}}</p>
+        <p class="hero-2__text-solutions">{{ hero.solutions }}</p>
+    </div>
+</section>
+{% endfor %}
+
+<section class="case-study__section">
+    <div class="case-study__feature-img">
+        {% for img in page.featured-img %}
+        <img src="{{ img.img_src }}" alt="{{ img.img_alt }}">
+        {% endfor %}
+    </div>
+</section>
+
+<section class="case-study__challenge">
+    <div class="case-study__section">
+        {% for challenge in page.challenge %}
+        <div class="case-study__challenge-headline">
+            <h3>{{ challenge.headline }}</h3>
+        </div>
+        <div class="case-study__challenge-text">
+            <p>{{ challenge.text }}</p>
+        </div>
+        <div class="case-study__challenge-customer">
+            {% for item in challenge.customer-items %}
+            <div class="case-study__challenge-customer-item">
+                <h4 class="case-study__challenge-customer-headline">{{ item.headline }}</h4>
+                {% if item.link %}
+                {% for link in item.link %}
+                <a href="{{ link.link }}" class="case-study__challenge-customer-link" target="_blank">{{ link.label }}</a>
+                {% endfor %}
+                {% else %}
+                <p class="case-study__challenge-customer-text">{{ item.text }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}           
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="case-study__results">
+    <div class="case-study__section">
+        {% for results in page.results %}
+        <div class="case-study__results-headline">
+            <h3>{{ results.headline }}</h3>
+        </div>
+        <div class="case-study__results-chart">
+            {% include {{ results.svg }} %}
+        </div>
+        <div class="case-study__results-items">
+            {% for item in results.items %}
+            <div class="case-study__results-item {{ item.class }}">
+                <h3>+<span id="{{ item.class }}">{{ item.value }}</span>%</h3>
+                <p>{{ item.label }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="case-study__results-detail">
+            {% for detail in results.detail %}
+            <p>{{ detail.text }}</p>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="case-study__testimonial">
+    <div class="case-study__section">
+        {% for testimonial in page.testimonial %}
+        <p class="case-study__testimonial-text">" {{ testimonial.text }} "</p>
+        <p class="case-study__testimonial-author">{{ testimonial.author }}</p>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="case-study__section">
+    {% for solution in page.solution %}
+    <div class="case-study__solution">
+        <h3>{{ solution.headline }}</h3>
+        <p>{{ solution.text }}</p>
+    </div>
+    <div class="case-study__spotlight">
+        <h3>Product Spotlight</h3>
+        <div class="case-study__spotlight-items">
+            {% for item in solution.items %}
+            <a href="#" class="case-study__spotlight-item">
+                <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+
+
+

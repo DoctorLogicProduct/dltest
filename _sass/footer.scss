@@ -63,7 +63,12 @@ footer {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
 				color: $color-2;
-				font-size: 1rem !important;
+				font-size: .8rem !important;
+
+				@include tablet-min {
+					font-size: 1rem !important;
+				}
+
 			}
 
 			&.hs-button {
@@ -112,7 +117,12 @@ footer {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 300;
 				color: $color-2;
-				font-size: 1rem !important;
+				font-size: .8rem !important;
+
+				@include tablet-min {
+					font-size: 1rem !important;
+				}
+				
 			}
 		}
 
