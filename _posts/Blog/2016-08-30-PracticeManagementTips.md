@@ -1,6 +1,6 @@
 ---
 post_title: Practice Management Tips - An Interview with Andre Riley
-date: 2016-08-30 05:00:00 +0000
+date: 2016-08-30T05:00:00.000+00:00
 post_author: Andre Riley
 tags:
 - practice-management
@@ -17,7 +17,6 @@ product:
 - social reputation
 
 ---
-
 ![THE Aesthetic Guide](https://doctorlogic.com/assets/img/posts/TheAestheticGuide0516.png)
 
 Cover of THE Aesthetic Guide May/June 2016
