@@ -112,9 +112,14 @@
         }
 
         p.hero-2__text-solutions {
-            font-size: 1.2rem;
+            font-size: .9rem;
             font-weight: 400;
             margin-top: 20px;
+
+            @include phone-wide-min {
+              font-size: 1.2rem;
+            }
+            
         }
 
     }
@@ -146,10 +151,16 @@
     &__challenge {
         background: $gradient-website-management;
         background-size: 200% 200%;
-		animation: Gradient 10s ease infinite;
-        margin-top: -300px;
-        padding-top: 350px;
+        animation: Gradient 10s ease infinite;
+        margin-top: -100px;
+        padding-top: 120px;
         padding-bottom: 40px;
+
+        @include phone-wide-min {
+          margin-top: -300px;
+          padding-top: 350px;
+        }
+        
     }
 
     @keyframes Gradient {
@@ -173,7 +184,12 @@
     }
 
     &__challenge-text {
-        grid-column: auto / span 16;
+        grid-column: auto / span 24;
+
+        @include tablet-min {
+          grid-column: auto / span 16;
+        }
+        
 
         p {
             color: $color-2;
@@ -181,7 +197,13 @@
     }
 
     &__challenge-customer {
-        grid-column: auto / span 8;
+        grid-column: auto / span 24;
+
+        @include tablet-min {
+          grid-column: auto / span 8;
+          padding-left: 20px;
+        }
+        
     }
 
     &__challenge-customer-item {
@@ -224,13 +246,23 @@
     &__results-items {
         grid-column: auto / span 24;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
         padding: 20px 0;
     }
 
     &__results-item {
-        flex: 0 0 25%;
+        flex: 0 0 100%;
+
+        @include phone-wide-min {
+          flex: 0 0 50%;
+        }
+        
+
+        @include tablet-min {
+          flex: 0 0 25%;
+        }
+        
 
         h3 {
             font-size: 3.5rem;
@@ -268,25 +300,48 @@
     &__testimonial-text {
         grid-column: auto / span 24;
         color: $color-2;
-        font-size: 1.8rem;
+        font-size: 1.1rem;
         line-height: 1.6;
         font-style: italic;
+
+        @include tablet-min {
+          font-size: 1.8rem;
+        }
+        
     }
 
     &__solution {
-        grid-column: auto / span 14;
-        padding: 60px 0;
+        grid-column: auto / span 24;
+        padding: 60px 0 0;
+        
+        @include tablet-min {
+          grid-column: auto / span 14;
+          padding: 60px 0;
+        }
+        
     }
 
     &__spotlight {
-        grid-column: auto / span 10;
-        padding: 60px 0;
+        grid-column: auto / span 24;
+        padding: 0 0 60px;
+        
+        @include tablet-min {
+          grid-column: auto / span 10;
+          padding: 60px 0;
+        }
+        
     }
 
     &__spotlight-items {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        padding: 10px 0 0;
+
+        @include phone-wide-min {
+          padding: 0;
+        }
+        
     }
 
     &__spotlight-item {
@@ -296,6 +351,7 @@
         transition: box-shadow .5s;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        
 
         @include desktop-sm-min {
 
@@ -306,10 +362,15 @@
         }
         
         img {
-            max-width: 175px;
+            max-width: 100px;
             height: auto;
             margin: 0 auto;
             display: block;
+
+            @include phone-wide-min {
+              max-width: 175px;
+            }
+            
         }
     }
 
