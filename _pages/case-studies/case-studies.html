@@ -1,0 +1,72 @@
+---
+layout: default
+description: Our expert design team specializes in building custom healthcare websites that fit your brand and look great on any device.
+meta_image: "/img/meta/website-management.jpg"
+page_name: case-studies
+permalink: /case-studies
+page_class:
+  - class: case-studies
+gsap: true
+custom_js: case-studies
+hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+hero:
+  - class: pricing__hero
+    headline: Case Studies
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos inventore, modi facere maiores rem nulla minus magni nisi deleniti, ex earum commodi minima possimus? Ipsum ipsa quod eligendi aliquid possimus?"
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}">
+    <div class="hero-2__text">
+      <div class="separator"></div>
+      <h1>{{hero.headline}}</h1>
+      <p>{{hero.text}}</p>
+    </div>
+</section>
+{% endfor %}
+
+<section class="case-studies__wrapper">
+  <input type="radio" id="aesthetic" name="color" checked="checked" />
+  <label for="aesthetic"><span>
+      <p>Aesthetic</p>
+    </span></label>
+  <input type="radio" id="dentistry" name="color" />
+  <label for="dentistry"><span>
+      <p>Dentistry</p>
+    </span></label>
+  <input type="radio" id="other" name="color" />
+  <label for="other"><span>
+      <p>Other</p>
+    </span></label>
+
+  <div class="case-studies__items">
+
+    {% for item in site.data.case-studies.gallery %}
+    <a class="case-studies__item" data-type="{{item.type}}" href="{{item.link}}">
+      <div class="card {{item.type}}">
+        <div class="card__image" style="background: url('{{item.img}}');"></div>
+        <div class="card__text">
+          <p class="card__title">
+            {{item.name}}
+          </p>
+          <p class="card__benefits">
+            {{item.benefits}}
+          </p>
+        </div>
+        <div class="card__stat">
+          <h3>+{{item.stat}}</h3>
+          <p>{{item.stat-label}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+
+
+

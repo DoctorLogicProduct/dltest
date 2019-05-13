@@ -1,0 +1,344 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+@import url('/css/components/hero-2.css');
+
+$spacing: 15px;
+
+.case-studies {
+
+    .hero {
+        position: relative;
+
+        &::after {
+                content: '';
+                position: absolute;
+                top: -100px;
+                right: 0;
+                bottom: 40px;
+                width: 100%;
+                background: url('/img/hero/hero-bg-1.svg') right center/contain no-repeat;
+                z-index: 1;
+                opacity: .7;  
+            }
+
+            @include tablet-wide-min {
+                &::after {
+                    background: url('/img/hero/hero-bg-1.svg') right center/contain no-repeat;
+                    bottom: -40px;
+                }
+            }
+    }
+
+    &__intro {
+        padding: 0 10px 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        h3, p {
+            text-align: center;
+        }
+
+    }
+    
+
+    &__gallery-text {
+        padding: 0 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        h3, p {
+            text-align: center;
+        }
+
+    }
+
+
+    &__wrapper {
+        max-width: 1200px;
+        margin:0 auto;
+        @include grid; 
+        padding: 40px 0 0;
+
+    }
+
+    input[type="radio"] {
+        display:none;
+    }
+
+    label {
+        grid-column: auto / span 24;
+        float:left;
+        text-align:center;
+        background:#ffffff;
+        padding:0.5%;
+        margin-bottom:20px;
+        cursor:pointer;
+
+        @include tablet-min {
+            grid-column: auto / span 8;
+        }
+        
+
+    &:hover {
+
+            p {
+                color: $color-2;
+            }
+
+            span::after {
+                transform: translateX(-50%) scale(1,1);
+                border-radius: 10px; 
+            }
+        }
+    p {
+        z-index: 1;
+        position: relative;
+        color: $color-1;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        display: inline;
+        transition: color .3s;
+    }
+
+    span {
+        position: relative;
+        padding: 10px;
+        border-radius: 10px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: calc(100% + 20px);
+            transform: translateX(-50%) scale(0,0);
+            transform-origin: left;
+            height: 100%;
+            background: $color-3;
+            transition: transform .3s;
+            border-radius: 10px;
+        }
+    }
+    }
+
+
+    input[type="radio"][id="aesthetic"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="aesthetic"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="dentistry"], input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="other"] {
+        display: none;
+    }
+
+    input[type="radio"][id="dentistry"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="dentistry"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="other"] {
+        display: none;
+    }
+
+    input[type="radio"][id="other"]:checked + label span p {
+        color: $color-2;
+    }
+
+    input[type="radio"][id="other"]:checked + label span::after {
+        transform: translateX(-50%) scale(1,1);
+    }
+
+    input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="dentistry"] {
+        display: none;
+    }
+
+    &__items {
+        grid-column: auto / span 24;
+        @include grid; 
+        grid-row-gap: 0;
+        grid-column-gap: 20px;
+        
+        // &:hover {
+        //     .card {
+        //     filter: grayscale(1);
+        //     &:hover {
+        //         filter: grayscale(0);
+        //     }
+        //     }
+        // }
+
+        @include tablet-wide-min {
+          padding: 60px 0;
+        }
+        
+    }
+
+    &__item {
+        grid-column: auto / span 24;
+        text-decoration: none;
+
+        @include tablet-min {
+        grid-column: auto / span 12;
+
+            &:hover {
+
+                .card {
+                    
+                    &__title {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+
+            &:nth-of-type(even) {
+                margin-top: 20px;
+            }
+
+            &:nth-of-type(odd) {
+                margin-top: -20px;
+            }
+        
+        }
+        
+
+        
+
+    }
+
+
+    .card {
+    background-color: $color-6;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: background-size 3s;
+    cursor: pointer;
+    position: relative;
+    justify-content: flex-start;
+    overflow: hidden;
+    color: $color-2;
+    
+    
+    &:focus, &:visited {
+        outline: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $gradient-website-management;
+        opacity: .85;
+    }
+
+
+    &::-moz-focus-inner {
+        border: 0;
+    }
+
+
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover !important;
+        background-position: center center;
+        filter: grayscale(1);
+
+        
+    }
+
+
+    &__title {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+        z-index: 1;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.5rem;
+        transition: margin-bottom .3s;
+    }
+
+    &__text {
+        z-index: 1;
+        padding: 60px 0 0;
+    }
+
+    &__benefits {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 1.1rem;
+        transition: margin-bottom .3s;
+    }
+
+    &__stat {
+        margin-left: auto;
+        background: transparentize($websites, .50);
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top-left-radius: 30px;
+        z-index: 1;
+
+        h3 {
+            color: $color-2;
+            text-align: center;
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        p {
+            color: $color-2;
+            text-transform: uppercase;
+            font-size: .9rem;
+            font-weight: 400;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    }
+
+
+}
+
+

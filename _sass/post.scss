@@ -93,11 +93,13 @@
 		p {
 			max-width: 900px;
 			margin: 20px auto;
+			
 		}
 
 		h2, h3, h4, h5 {
 			max-width: 900px;
 			margin: 40px auto;
+			text-align: left;
 		}
 
 		ul, ol {
@@ -106,10 +108,11 @@
 		}
 
 		img {
-			max-width: 900px;
+			max-width: 500px;
 			width: 100%;
 			height: auto;
 			margin: 40px auto;
+			display: block;
 		}
 	}
 
