@@ -459,7 +459,134 @@ body.growth-accelerators .separator {
 	}
 }
 
+// #scroll-point {
+// 	padding-top: 60px;
+// }
+
 footer {
 	text-align: center;
 	padding: 40px;
 }
+
+
+.footer-form {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+width: 100%;
+padding: 40px 0;
+
+.hbspt-form {
+	width: 95%;
+
+	@include tablet-min {
+		width: 70%;	
+	}
+}
+
+fieldset.form-columns-2 .input {
+	margin-right: 20px;
+}
+
+input {
+	box-sizing:border-box;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid $color-1;
+	width:100%;
+	padding: 20px 5px !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: $color-1;
+	font-size: 1rem;
+
+	&::placeholder {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		color: $color-1;
+		font-size: .8rem !important;
+
+		@include tablet-min {
+			font-size: 1rem !important;
+		}
+
+	}
+
+	&.hs-button {
+			display: block;
+			padding: 15px 20px !important;
+			color: $color-2;
+			margin: 20px auto 0;
+			font-size: .8rem;
+			font-weight: 400;
+			text-align: center;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-decoration: none;
+			background: $gradient-website-management;
+			background-position: 1% 50%;
+			background-size: 400% 300%;
+			transition: 700ms ease-out;
+			border-top-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+			width: 250px;
+
+			@include desktop-sm-min {
+
+		&:hover {
+	    	background-position: 60% 50%;
+				color: $color-2;
+			}
+		}
+			
+		}
+}
+
+textarea {
+	box-sizing:border-box;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid $color-1;
+	width:100%;
+	padding: 20px 5px 0 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: $color-1;
+	font-size: 1rem;
+
+	&::placeholder {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		color: $color-1;
+		font-size: .8rem !important;
+
+		@include tablet-min {
+			font-size: 1rem !important;
+		}
+		
+	}
+}
+
+label {
+		display: none;
+	}
+
+.hs-error-msgs {
+		list-style: none !important;
+		font-family: 'Montserrat', sans-serif;
+		color: $color-3;
+		font-size: .9rem;
+		padding: 0;
+
+	label {
+		display: block;
+		text-align: left;
+	}
+}
+
+	}

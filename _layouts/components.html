@@ -29,6 +29,9 @@
 				</section>
 				{% endif %}
 
+				<div id="scroll-point"></div>
+				{% include component-footer-form.html id=page.hs_form_id %}
+
 				<div class="related-posts__cards">
 			
 				{% assign maxRelated = 2 %}
@@ -78,7 +81,6 @@
 			
 			</div>
 			{% endif %}
-			<div id="scroll-point"></div>
 		</main>
 		{% include footer.html %}
 	</body>
@@ -110,7 +112,8 @@
 
 <script>
 	var scroll = new SmoothScroll('a[href*="#"]', {
-		updateURL: false
+		updateURL: false,
+		offset: 60
 	});
 </script>
 

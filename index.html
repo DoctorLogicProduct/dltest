@@ -17,8 +17,8 @@ hero:
   - btn-link: #
     btn-label: Learn More
 products:
-- headline: Our Products
-  text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae quidem consequuntur nemo molestias, nisi ipsa dolores nam. Tempora, ipsam! Vel a mollitia consectetur repellat architecto quisquam perferendis voluptas veritatis.
+- headline: "One Company. One Solution. Unlimited Results"
+  text: "At DoctorLogic we have a competitive advantage - we’re a software company. This means our products are constantly getting better to make your life easier with our all-in-one solution built to You receive an all-in-one solution. The industry is constantly changing, that's why we give you free, unlimited updates for the life of your contract."
   items:
   - class: "home-products__item--1"
     step_class: "home-products__item-img-step--1"
@@ -26,9 +26,8 @@ products:
     logo_class: "home-products__item-img-logo--1"
     img_src: "/img/product-icons/website-engineering.svg"
     img_alt: img 
-    headline: "Website Management"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Website<br>Management"
+    text: "We start by turning your website into an appreciating asset."
     btn: 
     - btn-link: #
       btn-label: Learn More
@@ -38,9 +37,8 @@ products:
     logo_class: "home-products__item-img-logo--2"
     img_src: "/img/product-icons/content-multiplier.svg"
     img_alt: img
-    headline: "Content Multiplier"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Content<br>Multiplier"
+    text: "We constantly multiply your content by interlinking data with web pages."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -50,9 +48,8 @@ products:
     logo_class: "home-products__item-img-logo--3"
     img_src: "/img/product-icons/social-reputation.svg"
     img_alt: img
-    headline: "Social Reputation"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Social<br>Reputation"
+    text: "We improve your online reputation and build patient trust."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -62,9 +59,8 @@ products:
     logo_class: "home-products__item-img-logo--4"
     img_src: "/img/product-icons/search-amplifier.svg"
     img_alt: img
-    headline: "Search Amplifier"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Search<br>Amplifier"
+    text: "We target up to 50,000 locally relevant SEO keyword patterns."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -74,9 +70,8 @@ products:
     logo_class: "home-products__item-img-logo--5"
     img_src: "/img/product-icons/lead-generator.svg"
     img_alt: img
-    headline: "Lead Generator"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Lead<br>Generator"
+    text: "We generate more patient leads and track every online lead source."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -86,9 +81,8 @@ products:
     logo_class: "home-products__item-img-logo--6"
     img_src: "/img/product-icons/success-insights.svg"
     img_alt: img
-    headline: "Success Insights"
-    text: "A premium website deserves premium website services. We see medical practices everywhere who tell us they have a
-    website, but don’t have the time to manage it properly. We’ve got your back!"
+    headline: "Success<br>Insights"
+    text: "We provide real-time analysis and unlimited access to success teams."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -130,11 +124,11 @@ products:
                 </div>
             </div>
             <div class="home-products__item-text-container">
-                <h3>{{ item.headline }}</h3>
+                <h4>{{ item.headline }}</h4>
                 <p>{{ item.text }}</p>
                 {% for btn in item.btn %}
                     {% if item.btn %}
-                        <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+                        <a class="text-link" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
                     {% endif %}
                 {% endfor %}
             </div>

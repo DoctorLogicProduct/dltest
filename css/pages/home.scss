@@ -112,7 +112,7 @@
 
     .home-products {
         padding: 60px 5%;
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
 
         &__text {
@@ -127,14 +127,30 @@
             }
         }
 
+        &__items {
+            @include grid;
+            grid-row-gap: 20px; 
+        }
+
         &__item {
-            @include grid; 
+            grid-column: auto / span 24;
+
+            @include tablet-min {
+              grid-column: auto / span 12;
+            }
+            
+
+            @include tablet-wide-min {
+              grid-column: auto / span 8;
+            }
+            
         }
 
         &__item-img-container {
-            grid-column: auto / span 10;
+           
             position: relative;
-            min-height: 500px;
+            min-height: 400px;
+            z-index: 1;
         }
 
         &__item-img-step {
@@ -143,12 +159,19 @@
             left: 0;
             transform: translate(10%, -50%);
             opacity: .2;
+            width: 100%;
 
             p {
                 font-size: 16rem;
                 color: $color-6;
                 font-weight: 700;
                 margin: 0;
+                text-align: center;
+
+                @include tablet-wide-min {
+                  text-align: left;
+                }
+                
             }
         }
 
@@ -157,22 +180,53 @@
             top: 50%;
             left: 0;
             transform: translate(25%, -50%);
-            width: 250px;
-            height: 250px;
+            
 
             img {
-                max-width: 100%;
-                height: auto;
+                width: 200px;
+                height: 200px;
             }
         }
 
         &__item-text-container {
-            grid-column: auto / span 14;
+           
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             align-items: flex-start;
             justify-content: center;
+            padding: 0 20px;
+            z-index: 2;
+
+            h4 {
+                font-weight: 500;
+                text-align: center;
+                width: 100%;
+
+                @include tablet-min {
+                  text-align: left;
+                }
+                
+            }
+
+            p {
+                text-align: center;
+                width: 100%;
+
+                @include tablet-min {
+                  text-align: left;
+                }
+                
+            }
+
+            .text-link {
+                margin: 0 auto;
+
+                @include tablet-min {
+                  margin: 0;
+                }
+                
+            }
             
         }
 

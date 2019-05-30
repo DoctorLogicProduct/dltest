@@ -33,11 +33,11 @@ page_sections:
     alt-text: "DoctorLogic Performace Dashboard"      
 - component: feature-1
   component_css: feature
-  headline: "Personal Customer Success Manager"
+  headline: "Dedicated Customer Success Manager"
   class: social-reputation__feature--1
-  text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your personal Customer Success Manager provides campaign performance insights, best practices, and information on how we plan to optimize your strategy and help you maximize your marketing goals."
+  text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your Customer Success Manager provides campaign performance insights, best practices, and information on how we plan to optimize your strategy and help you maximize your marketing goals."
   btn:
   img: "/img/products/success-insights/customer-success.jpg"
-  alt: "Personal Success Managers"
+  alt: "Dedicated Success Managers"
   img_alignment: "Right"
 ---
