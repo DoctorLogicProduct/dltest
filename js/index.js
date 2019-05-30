@@ -1,7 +1,7 @@
 tl1 = new TimelineMax({ onUpdate: onUpdate });
       const controller1 = new ScrollMagic.Controller();
 
-tl1.to('.home-products__item-img-step--1', 1, { y: -300, opacity: .9 });
+tl1.to('.home-products__item-img-step--1', 1, { y: -275, opacity: .9 });
 tl1.to('.home-products__item-img-logo--1', 2, { y: -50 }, "-=1");
 
 const scene1 = new ScrollMagic.Scene({
@@ -23,7 +23,7 @@ function onUpdate() {
 tl2 = new TimelineMax({ onUpdate: onUpdate });
 const controller2 = new ScrollMagic.Controller();
 
-tl2.to('.home-products__item-img-step--2', 1, { y: -300, opacity: .9 });
+tl2.to('.home-products__item-img-step--2', 1, { y: -275, opacity: .9 });
 tl2.to('.home-products__item-img-logo--2', 2, { y: -50 }, "-=1");
 
 const scene2 = new ScrollMagic.Scene({
@@ -44,7 +44,7 @@ function onUpdate() {
 tl3 = new TimelineMax({ onUpdate: onUpdate });
 const controller3 = new ScrollMagic.Controller();
 
-tl3.to('.home-products__item-img-step--3', 1, { y: -300, opacity: .9 });
+tl3.to('.home-products__item-img-step--3', 1, { y: -275, opacity: .9 });
 tl3.to('.home-products__item-img-logo--3', 2, { y: -50 }, "-=1");
 
 const scene3 = new ScrollMagic.Scene({
@@ -65,7 +65,7 @@ function onUpdate() {
 tl4 = new TimelineMax({ onUpdate: onUpdate });
 const controller4 = new ScrollMagic.Controller();
 
-tl4.to('.home-products__item-img-step--4', 1, { y: -300, opacity: .9 });
+tl4.to('.home-products__item-img-step--4', 1, { y: -275, opacity: .9 });
 tl4.to('.home-products__item-img-logo--4', 2, { y: -50 }, "-=1");
 
 const scene4 = new ScrollMagic.Scene({
@@ -86,7 +86,7 @@ function onUpdate() {
 tl5 = new TimelineMax({ onUpdate: onUpdate });
 const controller5 = new ScrollMagic.Controller();
 
-tl5.to('.home-products__item-img-step--5', 1, { y: -300, opacity: .9 });
+tl5.to('.home-products__item-img-step--5', 1, { y: -275, opacity: .9 });
 tl5.to('.home-products__item-img-logo--5', 2, { y: -50 }, "-=1");
 
 const scene5 = new ScrollMagic.Scene({
@@ -107,7 +107,7 @@ function onUpdate() {
 tl6 = new TimelineMax({ onUpdate: onUpdate });
 const controller6 = new ScrollMagic.Controller();
 
-tl6.to('.home-products__item-img-step--6', 1, { y: -300, opacity: .9 });
+tl6.to('.home-products__item-img-step--6', 1, { y: -275, opacity: .9 });
 tl6.to('.home-products__item-img-logo--6', 2, { y: -50 }, "-=1");
 
 const scene6 = new ScrollMagic.Scene({
