@@ -36,7 +36,7 @@ for(let i = 0; i < screens.length; i+=1) {
 
     const scene1 = new ScrollMagic.Scene({
         triggerElement: screen,
-        triggerHook: .5, //between 0 an 1
+        triggerHook: 1, //between 0 an 1
         duration: '35%'
     })
         // .setPin('.image-group__container')

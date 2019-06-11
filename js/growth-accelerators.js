@@ -2,7 +2,7 @@ if ($(window).width() >= 568) {
 tl = new TimelineMax({ onUpdate: onUpdate });
     const controller = new ScrollMagic.Controller();
 
-tl.to('.image-group__image--1', 2, { y: -250, opacity: 1 });
+// tl.to('.image-group__image--1', 2, { y: -250, opacity: 1 });
 tl.to('.image-group__image--1', 2, { delay: 6, y: -400, opacity: 0 });
 tl.to('.image-group__image--2', 2, { y: -250, opacity: 1 }, '-=2');
 tl.to('.image-group__image--2', 2, { delay: 6, y: -400, opacity: 0 });
@@ -33,7 +33,7 @@ tl.to('.image-group__image--6', 2, { y: -250, opacity: 1 }, '-=2');
     tl = new TimelineMax({ onUpdate: onUpdate });
     const controller = new ScrollMagic.Controller();
 
-    tl.to('.image-group__image--1', 2, { y: -250, opacity: 1 });
+    // tl.to('.image-group__image--1', 2, { y: -250, opacity: 1 });
     tl.to('.image-group__image--1', 2, { delay: 6, y: -400, opacity: 0 });
     tl.to('.image-group__image--2', 2, { y: -250, opacity: 1 }, '-=2');
     tl.to('.image-group__image--2', 2, { delay: 6, y: -400, opacity: 0 });

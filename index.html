@@ -86,6 +86,22 @@ products:
     btn:
     - btn-link: #
       btn-label: Learn More
+designs:
+- headline: "Stunning, Modern Designs"
+  text: "Custom, responsive and completely future proofed web design built to win new patients."
+  items:
+  - class: "image-group__image--1"
+    img_src: "/img/home/designs/1.png"
+    img_alt: img
+  - class: "image-group__image--2"
+    img_src: "/img/home/designs/1.png"
+    img_alt: img
+  - class: "image-group__image--3"
+    img_src: "/img/home/designs/1.png"
+    img_alt: img
+  btn: 
+  - btn-link: #
+    btn-label: View Designs
 ---
 
 {% for hero in page.hero %}
@@ -138,27 +154,20 @@ products:
 </section>
 {% endfor %}
 
+
+{% for designs in page.designs %}
 <section class="home-designs__image-group">
-
-    <h2 class="image-group__headline">Stunning, Modern Designs</h2>
-    <p class="image-group__text">Custom, responsive and completely future proofed web design built to win new patients.</p>
-
+    <h2 class="image-group__headline">{{ designs.headline }}</h2>
+    <p class="image-group__text">{{ designs.text }}</p>
     <div class="image-group__container">
-        <div class="image-group__image image-group__image--1">
-            <img src="/img/home/designs/1.png" alt="Tru-Derm Med Spa">
+        {% for item in designs.items %}
+        <div class="image-group__image {{ item.class }}">
+            <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
         </div>
-
-        <div class="image-group__image image-group__image--2">
-            <img src="/img/home/designs/1.png" alt="VIP Plastic Surgery">
-        </div>
-
-        <div class="image-group__image image-group__image--3">
-            <img src="/img/home/designs/1.png" alt="Smiles New York">
-        </div>
+        {% endfor %}
     </div>
-
-
-    <a href="/products/website-management/website-design/" class="btn">View Designs</a>
-
-
+    {% for btn in designs.btn %}
+    <a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
+    {% endfor %}
 </section>
+{% endfor %}

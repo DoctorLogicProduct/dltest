@@ -94,11 +94,13 @@
                 
 
                 &--1 {
-                    opacity: 0;
-                    transform: translateX(-55%);
+                    opacity: 1;
+                    transform: translateX(-55%) translateY(-50%);
+                    top: 40%;
+                    bottom: unset;
 
                     @include tablet-min {
-                      transform: translateX(-75%);
+                      transform: translateX(-75%) translateY(-50%);
                     }
                     
                 }
