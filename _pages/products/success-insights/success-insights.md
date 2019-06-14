@@ -15,6 +15,7 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
+  tagline: "Success Insights"
   headline: "Invested in Your Success"
   text: "Stay in-tune with the performance of your medical marketing campaigns. Receive full access to your performance metrics through your practice dashboard and track everything from your search results, keyword rankings and lead generation."
   btn:

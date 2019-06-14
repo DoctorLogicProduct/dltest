@@ -15,6 +15,7 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
+  tagline: "Social Reputation"
   headline: "Simple Reputation Management"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
   btn:

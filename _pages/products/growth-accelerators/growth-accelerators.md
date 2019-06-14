@@ -15,6 +15,7 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
+  tagline: "Growth Accelerators"
   headline: "Accelerate Practice Growth"
   text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your medical practice reach new heights."
   btn:

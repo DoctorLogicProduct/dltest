@@ -32,7 +32,7 @@ h2,
 h3,
 h4 {
 	font-weight: 300;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	color: $color-1;
 	font-family: $heading-font;
 	line-height: 1.2;
@@ -42,7 +42,7 @@ h1 {
 	font-weight: 400;
 	max-width: 100%;
 	font-size: 2rem;
-	line-height: .9;
+	line-height: 1.1;
 	margin: 0 0 10px;
 
 	@include tablet-wide-min {
@@ -152,9 +152,8 @@ ul > li:before {
 
 sup {
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 300;
 	padding: 2px 5px;
-	color: $color-3;
 }
 
 
@@ -169,7 +168,7 @@ sup {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: $gradient-website-management;
+	background: $websites-2;
 	background-position: 1% 50%;
 	background-size: 400% 300%;
 	transition: 700ms ease-out;

@@ -32,12 +32,17 @@
 				grid-column: auto / span 12;
 			}
 
+			h5 {
+				color: $websites;
+				text-transform: uppercase;
+			}
+
 			h1 {
 				max-width: 100%;
 				font-size: 1.7rem;
 
 				@include tablet-min {
-				  font-size: 3.5vw;
+				  font-size: 3.1vw;
 				}
 				
 			}
@@ -82,4 +87,32 @@
 
 		}
 
+}
+
+body.social-reputation .hero-1 h5 {
+	color: $reputation;
+}
+
+body.content-multiplier .hero-1 h5 {
+	color: $content;
+}
+
+body.search-amplifier .hero-1 h5 {
+	color: $search;
+}
+
+body.lead-generator .hero-1 h5 {
+	color: $leads;
+}
+
+body.success-insights .hero-1 h5 {
+	color: $success;
+}
+
+body.success-insights .hero-1 h5 {
+	color: $success;
+}
+
+body.growth-accelerators .hero-1 h5 {
+	color: $growth;
 }

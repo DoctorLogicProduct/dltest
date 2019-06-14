@@ -9,16 +9,17 @@ custom_js: index
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
 - class: home__hero
-  headline: One Company. One Solution. Unlimited Results.
-  text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to
-  determine a solution that works for your practice."
+  tagline: The modern way to grow your practice
+  headline: The fastest growing practices use DoctorLogic
+  text: "The all-in-one patient marketing platform that attracts and retains more patients. Loved by over 1,000 doctors."
   img: "/img/products/website-management/hero-img.svg"
   btn: 
   - btn-link: #
-    btn-label: Learn More
+    btn-label: Get A Demo
 products:
-- headline: "One Company. One Solution. Unlimited Results"
-  text: "At DoctorLogic we have a competitive advantage - we’re a software company. This means our products are constantly getting better to make your life easier with our all-in-one solution built to You receive an all-in-one solution. The industry is constantly changing, that's why we give you free, unlimited updates for the life of your contract."
+- headline: "One Company. One Solution. Unlimited Results."
+  text: "Imagine one solution created to improve patient experiences and help grow your practice’s online presence. DoctorLogic offers the most advanced Website Marketing Platform built to help increase new patients by using Before and After Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x Google-friendly
+content."
   items:
   - class: "home-products__item--1"
     step_class: "home-products__item-img-step--1"
@@ -27,7 +28,7 @@ products:
     img_src: "/img/product-icons/website-engineering.svg"
     img_alt: img 
     headline: "Website<br>Management"
-    text: "We start by turning your website into an appreciating asset."
+    text: "Start by turning your website into an appreciating asset."
     btn: 
     - btn-link: #
       btn-label: Learn More
@@ -38,7 +39,7 @@ products:
     img_src: "/img/product-icons/content-multiplier.svg"
     img_alt: img
     headline: "Content<br>Multiplier"
-    text: "We constantly multiply your content by interlinking data with web pages."
+    text: "Our technology is constantly multiplying your content."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -49,7 +50,7 @@ products:
     img_src: "/img/product-icons/social-reputation.svg"
     img_alt: img
     headline: "Social<br>Reputation"
-    text: "We improve your online reputation and build patient trust."
+    text: "Improve your online reputation and build patient trust."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -60,7 +61,7 @@ products:
     img_src: "/img/product-icons/search-amplifier.svg"
     img_alt: img
     headline: "Search<br>Amplifier"
-    text: "We target up to 50,000 locally relevant SEO keyword patterns."
+    text: "Target up to 50,000 locally relevant SEO keyword patterns."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -71,7 +72,7 @@ products:
     img_src: "/img/product-icons/lead-generator.svg"
     img_alt: img
     headline: "Lead<br>Generator"
-    text: "We generate more patient leads and track every online lead source."
+    text: "Generate more patient leads and track every online lead source."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -82,13 +83,13 @@ products:
     img_src: "/img/product-icons/success-insights.svg"
     img_alt: img
     headline: "Success<br>Insights"
-    text: "We provide real-time analysis and unlimited access to success teams."
+    text: "Get real-time analysis and access to our success teams."
     btn:
     - btn-link: #
       btn-label: Learn More
 designs:
 - headline: "Stunning, Modern Designs"
-  text: "Custom, responsive and completely future proofed web design built to win new patients."
+  text: "Custom, responsive and completely future proofed web designs built to win new patients."
   items:
   - class: "image-group__image--1"
     img_src: "/img/home/designs/1.png"
@@ -100,13 +101,14 @@ designs:
     img_src: "/img/home/designs/1.png"
     img_alt: img
   btn: 
-  - btn-link: #
+  - btn-link: "/products/website-management/website-design/"
     btn-label: View Designs
 ---
 
 {% for hero in page.hero %}
 <section class="hero hero-1 {{hero.class}}">
     <div class="hero-1__text">
+        <h5>{{hero.tagline}}</h5>
         <h1>{{hero.headline}}</h1>
         <p>{{hero.text}}</p>
         {% for btn in hero.btn %}
@@ -171,3 +173,28 @@ designs:
     {% endfor %}
 </section>
 {% endfor %}
+
+<section class="home-case-studies">
+    <h2 class="case-studies__headline">DoctorLogic Works.  Hear From Our Customers.</h2>
+    <div class="case-studies__items">
+        {% for item in site.data.case-studies.gallery limit: 4 %}
+        <a class="case-studies__item" data-type="{{item.type}}" href="{{item.link}}">
+            <div class="card {{item.type}}">
+                <div class="card__image" style="background: url('{{item.img}}');"></div>
+                <div class="card__text">
+                    <p class="card__title">
+                        {{item.name}}
+                    </p>
+                    <p class="card__benefits">
+                        {{item.benefits}}
+                    </p>
+                </div>
+                <div class="card__stat">
+                    <h3>+{{item.stat}}</h3>
+                    <p>{{item.stat-label}}</p>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>

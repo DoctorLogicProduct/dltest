@@ -15,8 +15,9 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: content-multiplier-hero
-  headline: "Target Patients with Content"
-  text: "Utilizing content in your digital marketing strategy is essential to search engine optimization and improving organic search results. Leverage our Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+  tagline: "Content Multiplier"
+  headline: "Convert visitors to patients with relevant content"
+  text: "Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. DoctorLogic's Content Multiplier amplifies the most relevant and engaging content pages for patients and search engines."
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
   alt: "DoctorLogic Content Multiplier"
@@ -25,7 +26,7 @@ page_sections:
   class: content-multiplier__item-grid--1
   per-row-count: "3"
   headline: "Showcase your stunning results & establish your expertise"
-  text: "Showcase and manage your stunning results like never before through our Before and After Photo Gallery Manager. Allow patients to search by procedure so they can better visualize the results they might achieve. This tool helps you establish your expertise while showing off your techniques and devices and how they’ve helped your patients."
+  text: "Showcase and manage your results like never before through our industry exclusive Before and After Photo Gallery Manager<sup>TM</sup>. Allow patients to search by procedure so they can better visualize the results they can achieve. This tool helps you establish your expertise while showing off your techniques and devices and how they’ve helped your patients."
   items:
   - class: item-grid__item--1
     img:

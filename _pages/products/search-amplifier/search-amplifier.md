@@ -15,6 +15,7 @@ page_sections:
 - component: hero-1
   component_css: hero
   class: search-amplifier-hero
+  tagline: "Search Amplifier"
   headline: "Amplify Your Practice with Medical SEO"
   text: "Medical practices aspire to dominate their local market and be at the top of Google. With our proven experience executing Medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
   btn:
