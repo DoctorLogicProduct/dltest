@@ -1,10 +1,6 @@
 footer {
 	background: $gradient-website-management;
 	padding: 60px 20px 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
 	position: relative;
 	bottom: 0;
 	left: 0;
@@ -17,7 +13,7 @@ footer {
 	}
 
 	@include desktop-sm-min {
-		padding: 20px 60px 20px;
+		padding: 40px;
 	}
 
 	h3 {
@@ -27,16 +23,226 @@ footer {
 
 	
 	.footer {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
-		&__items {
-			@include grid;
-			grid-template-rows: repeat(2, 1fr);
+		&__top {
+			flex: 0 0 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			padding: 0 0 40px;
+		}
+
+		&__top-left {
+			flex: 0 0 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+
+			@include desktop-sm-min {
+				flex: 0 0 60%;
+			}
 		}
 
 		&__nav {
-			grid-column: auto / span 2;
-			grid-row: auto / span 1;
+			flex: 0 0 100%;
+			padding: 40px 0 0;
+			order: 2;
+
+			@include desktop-sm-min {
+			  flex: 0 0 auto;
+			  padding: 0 80px 0 0;
+			  order: 1;
+			}
+			
 		}
+
+		&__nav-title {
+			font-size: .8rem;
+			color: $color-2;
+			text-transform: uppercase;
+			margin: 0;
+			text-align: center;
+
+			@include desktop-sm-min {
+			  text-align: left;
+			}
+			
+		}
+
+		&__nav-items {
+			padding: 0;
+			margin-top: 10px;
+		}
+
+		&__nav-item {
+			text-align: center;
+			display: inline;
+			padding: 0 20px;
+
+			@include desktop-sm-min {
+			  text-align: left;
+			  display: block;
+			  padding: 0;
+			}
+			
+
+			&::before {
+				display: none;
+			}
+
+			a {
+				color: $color-2;
+				text-transform: uppercase;
+				font-size: .8rem;
+				text-decoration: none;
+				font-weight: 400;
+			}
+		}
+
+		&__partners {
+			flex: 0 0 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			padding: 40px;
+
+			@include desktop-sm-min {
+			  flex: 0 0 auto;
+			  justify-content: flex-end;
+			  min-width: 40%;
+			  padding: 0;
+			}
+			
+		}
+
+		&__newsletter {
+			background: white;
+			max-height: 100px;
+			min-width: 40%;
+			margin: 0 auto;
+			order: 1;
+
+			@include desktop-sm-min {
+			  margin: 0;
+			  order: 2;
+			}
+			
+		}
+
+		&__top-right {
+			flex: 0 0 100%;
+			margin: 0;
+
+			@include desktop-sm-min {
+			  flex: 0 0 40%;
+			  margin: 0 auto;
+			}
+			
+		}
+
+		&__partner {
+			flex: 0 0 auto;
+			max-width: 150px;
+
+			@include desktop-sm-min {
+			  flex: 0 0 50%;
+			}
+			
+
+			img {
+				width: 150px;
+				height: auto;
+				max-width: 150px;
+
+				@include desktop-sm-min {
+				  width: 100%;
+				}
+				
+			}
+		}
+
+		&__location {
+			padding: 40px 0 0;
+
+			p {
+				color: $color-2;
+				margin: 0;
+				font-size: .9rem;
+				text-align: center;
+
+				@include desktop-sm-min {
+				  text-align: right;
+				}
+				
+				
+			}
+		}
+
+		&__bottom {
+			flex: 0 0 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-end;
+		}
+
+		&__social {
+			flex: 0 0 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			@include desktop-sm-min {
+			  flex: 0 0 auto;
+			  justify-content: flex-start;
+			}
+			
+
+			a {
+				padding: 0 20px 0 0;
+			}
+		}
+
+		&__social-link {
+			width: 25px;
+			height: 25px;
+		}
+
+		&__copyright {
+			flex: 0 0 100%;
+			padding: 40px 0 0;
+			
+			@include desktop-sm-min {
+			  flex: 0 0 auto;
+			  margin-left: auto;
+			  padding: 0;
+			}
+			
+			
+			p {
+				color: $color-2;
+				font-size: .9rem;
+				text-align: center;
+				margin: 0;
+
+				@include desktop-sm-min {
+				  text-align: right;
+				}
+				
+			}
+
+			a {
+				color: $color-2;
+				text-decoration: none;
+			}
+		}
+
+}
 
 }
 
