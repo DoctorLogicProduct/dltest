@@ -46,6 +46,28 @@ for(let i = 0; i < screens.length; i+=1) {
 }
 
 
+// Case Studies
+
+let studies = document.querySelectorAll('.case-studies__item');
+
+for (let i = 0; i < studies.length; i += 1) {
+    let study = studies[i];
+    let tl3 = new TimelineMax();
+    const controller3 = new ScrollMagic.Controller();
+
+    tl3.from(study, 1, { y: 50, opacity: 0, ease: Linear.easeNone });
+
+    const scene3 = new ScrollMagic.Scene({
+        triggerElement: study,
+        triggerHook: 1, //between 0 an 1
+        duration: '35%'
+    })
+        // .setPin('.image-group__container')
+        .setTween(tl3)
+        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+        .addTo(controller3);
+}
+
 
 
 
