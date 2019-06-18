@@ -10,12 +10,18 @@ page_class:
 product: "content multiplier"
 permalink: "/products/content-multiplier"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: social-reputation
+product_nav:
+- product_prev: "website-management"
+  product_next: "social-reputation"
 page_sections:
 - component: hero-1
   component_css: hero
   class: content-multiplier-hero
-  tagline: "Content Multiplier"
+  tagline: 
+  - headline: "Content Multiplier"
+    icon:
+    - img: "/img/product-icons/content-multiplier.svg"
+      alt: "DoctorLogic Content Multiplier"
   headline: "Convert visitors to patients with relevant content"
   text: "Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. DoctorLogic's Content Multiplier amplifies the most relevant and engaging content pages for patients and search engines."
   btn:

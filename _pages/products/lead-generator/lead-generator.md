@@ -10,11 +10,18 @@ page_class:
 product: "lead generator"
 permalink: "/products/lead-generator"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: success-insights
+product_nav:
+- product_prev: "search-amplifier"
+  product_next: "success-insights"
 page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
+  tagline: 
+  - headline: "Lead Generator"
+    icon:
+    - img: "/img/product-icons/lead-generator.svg"
+      alt: "DoctorLogic Lead Generator"
   headline: "Manage Your Patient Leads"
   text: "Every website lead is a chance to see a new patient, book a new consultation, or connect with your existing patients. With our lead generation dashboard you can manage every conversation that comes from your website."
   btn:

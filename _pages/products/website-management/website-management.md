@@ -10,12 +10,18 @@ page_class:
 product: "website management"
 permalink: "/products/website-management"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: content-multiplier
+product_nav:
+- product_prev: "growth-accelerators"
+  product_next: "content-multiplier"
 page_sections:
 - component: hero-1
   component_css: hero
   class: website-management-hero
-  tagline: "Website Management"
+  tagline: 
+  - headline: "Website Management"
+    icon:
+    - img: "/img/product-icons/website-engineering.svg"
+      alt: "DoctorLogic Website Management"
   headline: "Modern Medical Websites"
   text: "A premium website deserves premium website services. With Website Management, we provide you with simple tools to easily make changes and updates to your website in real-time."
   btn:

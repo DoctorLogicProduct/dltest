@@ -10,12 +10,18 @@ page_class:
 product: "social reputation"
 permalink: "/products/social-reputation"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: search-amplifier
+product_nav:
+- product_prev: "content-multiplier"
+  product_next: "search-amplifier"
 page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  tagline: "Social Reputation"
+  tagline: 
+  - headline: "Social Reputation"
+    icon:
+    - img: "/img/product-icons/social-reputation.svg"
+      alt: "DoctorLogic Social Reputation"
   headline: "Simple Reputation Management"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
   btn:

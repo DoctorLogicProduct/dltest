@@ -1,6 +1,17 @@
 <section class="component hero hero-1 {{section.class}}">
   <div class="hero-1__text">
-    <h5>{{section.tagline}}</h5>
+    {% for tagline in section.tagline %}
+    {% if section.tagline %}
+    <div class="hero-1__tagline">
+    {% for icon in tagline.icon %}
+    {% if tagline.icon %}
+    <img src="{{ icon.img }}" alt="{{ icon.img }}" class="hero-1__tagline-icon">
+    {% endif %}
+    {% endfor %}
+    <h5>{{tagline.headline}}</h5>
+    </div>
+    {% endif %}
+    {% endfor %}
     <h1>{{section.headline}}</h1>
     <p>{{section.text}}</p>
     {% for btn in section.btn %}

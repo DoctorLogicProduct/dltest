@@ -10,12 +10,18 @@ page_class:
 product: "growth accelerators"
 permalink: "/products/growth-accelerators"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: website-management
+product_nav:
+- product_prev: "success-insights"
+  product_next: "website-management"
 page_sections:
 - component: hero-1
   component_css: hero
   class: hero-sample
-  tagline: "Growth Accelerators"
+  tagline: 
+  - headline: "Growth Accelerators"
+    icon:
+    - img: "/img/product-icons/growth-accelerators.svg"
+      alt: "DoctorLogic Growth Accelerators"
   headline: "Accelerate Practice Growth"
   text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your medical practice reach new heights."
   btn:

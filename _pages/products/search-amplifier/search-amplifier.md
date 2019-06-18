@@ -10,12 +10,18 @@ page_class:
 product: "search amplifier"
 permalink: "/products/search-amplifier"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
-next_page: lead-generator
+product_nav:
+- product_prev: "social-reputation"
+  product_next: "lead-generator"
 page_sections:
 - component: hero-1
   component_css: hero
   class: search-amplifier-hero
-  tagline: "Search Amplifier"
+  tagline: 
+  - headline: "Search Amplifier"
+    icon:
+    - img: "/img/product-icons/search-amplifier.svg"
+      alt: "DoctorLogic Search Amplifier"
   headline: "Amplify Your Practice with Medical SEO"
   text: "Medical practices aspire to dominate their local market and be at the top of Google. With our proven experience executing Medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
   btn:
