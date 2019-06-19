@@ -13,6 +13,7 @@ hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "website-management"
   product_next: "social-reputation"
+next_page: "social-reputation"
 page_sections:
 - component: hero-1
   component_css: hero
@@ -55,7 +56,7 @@ page_sections:
   component_css: feature
   class: content-multiplier__feature--1
   headline: "SEO Rich Procedure and Service Pages"
-  text: "Our team of medical content writers provides custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
+  text: "Our team of medical content writers provide custom content for every procedure and service offered at your practice. Individual web pages are then automatically integrated with relevant content such as reviews, before and after photos, video, and specials to promote each service and gain keyword authority."
   btn:
   img: "/img/products/content-multiplier/service-pages.jpg"
   alt: "SEO Rich Pages"
@@ -69,7 +70,7 @@ page_sections:
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Enhanced Provider Bio"
-  text: "Patients are interested in knowing more about who will be treating them. Engage your patients with a bio on why you are the clear choice. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all, trust."
+  text: "Patients are interested in knowing more about who will be treating them. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all, trust."
   btn:
   img: "/img/products/content-multiplier/provider-bio.jpg"
   alt: "Enhanced Provider Bios"

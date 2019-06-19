@@ -401,11 +401,18 @@ body.success-insights .text-link {
 	justify-content: center;
 	padding: 0 10px 60px;
 	flex-direction: column;
+	display: block;
 
 	a {
 		display: block;
 		padding: 10px 0 0;
+		text-transform: capitalize;
 	}
+
+	@include tablet-wide-min {
+	  display: none;
+	}
+	
 
 	@include phone-wide-min {
 		flex-direction: row;
@@ -460,13 +467,18 @@ body.growth-accelerators .separator {
 
 
 .product-nav {
-	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	padding: 0 40px 60px;
 	max-width: 1500px;
 	margin: 0 auto;
+	display: none;
+
+	@include tablet-wide-min {
+	  display: flex;
+	}
+	
 
 	&__prev {
 		flex: 0 0 10%;

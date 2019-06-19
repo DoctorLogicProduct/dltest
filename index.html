@@ -117,9 +117,6 @@ designs:
             {% endif %}
         {% endfor %}
     </div>
-    <div class="hero-1__image">
-        <img src="{{hero.img}}" alt="">
-    </div>
 </section>
 {% endfor %}
 
@@ -180,7 +177,12 @@ designs:
         {% for item in site.data.case-studies.gallery limit: 4 %}
         <a class="case-studies__item" data-type="{{item.type}}" href="{{item.link}}">
             <div class="card {{item.type}}">
-                <div class="card__image" style="background: url('{{item.img}}');"></div>
+                <div class="card__image" style="background: url('{{item.img}}');">
+                    <div class="card__stat">
+                        <h3>+{{item.stat}}</h3>
+                        <p>{{item.stat-label}}</p>
+                    </div>
+                </div>
                 <div class="card__text">
                     <p class="card__title">
                         {{item.name}}
@@ -188,10 +190,6 @@ designs:
                     <p class="card__benefits">
                         {{item.benefits}}
                     </p>
-                </div>
-                <div class="card__stat">
-                    <h3>+{{item.stat}}</h3>
-                    <p>{{item.stat-label}}</p>
                 </div>
             </div>
         </a>

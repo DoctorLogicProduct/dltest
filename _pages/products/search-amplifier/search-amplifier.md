@@ -13,6 +13,7 @@ hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "social-reputation"
   product_next: "lead-generator"
+next_page: "lead-generator"
 page_sections:
 - component: hero-1
   component_css: hero
@@ -22,7 +23,7 @@ page_sections:
     icon:
     - img: "/img/product-icons/search-amplifier.svg"
       alt: "DoctorLogic Search Amplifier"
-  headline: "Amplify Your Practice with Medical SEO"
+  headline: "Amplify Your Practice with Proven SEO Tactics"
   text: "Medical practices aspire to dominate their local market and be at the top of Google. With our proven experience executing Medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
   btn:
   img: "/img/products/search-amplifier/hero-img.svg"
@@ -53,7 +54,7 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__search
-  headline: "<span>93%</span> of online experiences begin with a search engine"
+  headline: "<span>93%</span> of online experiences begin with a search engine."
   source: Google
 - component: feature-1
   component_css: feature
@@ -69,16 +70,15 @@ page_sections:
   class: search-amplifier__text-component--2
   headline:
   - headline: "Increase Your Search Performance"
-  text: "With over 15 years of experience executing successful SEO campaigns, Search Amplifier amplifies your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic focuses on delivering visitors that convert into patients."
+  text: "Search Amplifier champions your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic uses over 15 years experience to deliver visitors that convert into patients."
   btn:
-  - data-scroll: true
-    btn-label: Get Started
+  - btn-label: Get Started
     btn-link: "#scroll-point"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Track SEO Performance<sup>Beta</sup>"
-  text: "If you’re new to SEO, you’re going to feel a little uncertain. Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your SEO efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
+  text: "Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your digital marketing efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   alt: "Track SEO Performance"

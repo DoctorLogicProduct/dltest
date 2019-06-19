@@ -13,6 +13,7 @@ hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "success-insights"
   product_next: "website-management"
+next_page: "website-management"
 page_sections:
 - component: hero-1
   component_css: hero
@@ -22,8 +23,8 @@ page_sections:
     icon:
     - img: "/img/product-icons/growth-accelerators.svg"
       alt: "DoctorLogic Growth Accelerators"
-  headline: "Accelerate Practice Growth"
-  text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. With the right winning formula you can grow as fast as you want. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your medical practice reach new heights."
+  headline: "Grow Your Practice As Fast As You Want"
+  text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your practice reach new heights."
   btn:
   img: "/img/products/growth-accelerators/hero-img.svg"
   alt: "DoctorLogic Growth Accelerators"
@@ -31,7 +32,7 @@ page_sections:
   component_css: image-group
   class: growth-accelerators__image-group--1
   headline: "Dedicated Managed Chat"
-  text: "Your website is a lead generation engine and you have visitors coming in all the time but you’re not always there to greet them. With Managed Chat, never miss a conversation and convert your valuable website traffic into leads."
+  text: "Your website is a lead generation engine and you have visitors coming in all the time. With Managed Chat, never miss a conversation and convert your valuable website traffic into leads."
   btn:
   - btn-link: "/products/growth-accelerators/managed-chat"
     btn-label: Learn More
@@ -86,7 +87,7 @@ page_sections:
   component_css: feature
   headline: "Build Trust With Video"
   class: growth-accelerators__feature--3
-  text: "Video has been proven to attract more consumer attention than any other medium and is the best channel to build trust and increase awareness around your medical practice. To really stand out from your competition, and increase traffic to your website video should be part of your marketing strategy."
+  text: "Video has been proven to attract more consumer attention than any other medium. To really stand out from your competition, build trust and increase traffic to your website, video should be part of your marketing strategy."
   btn:
   - btn-link: /products/growth-accelerators/video-content
     btn-label: Learn More

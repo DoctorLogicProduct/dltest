@@ -217,9 +217,6 @@ $spacing: 15px;
 
                 .card {
                     
-                    &__title {
-                        margin-bottom: 40px;
-                    }
                 }
             }
 
@@ -240,101 +237,54 @@ $spacing: 15px;
 
 
     .card {
-    background-color: $color-6;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    transition: background-size 3s;
-    cursor: pointer;
-    position: relative;
-    justify-content: flex-start;
-    overflow: hidden;
-    color: $color-2;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: flex-start;
+        overflow: hidden;
+        border: solid 1px $color-6;
+        border-radius: 5px;
+        box-shadow: 0;
+        transition: box-shadow .3s;
+
+        @include desktop-sm-min {
+            &:hover {
+                box-shadow: $box-shadow;
+            }
+        }
+        
     
-    
-    &:focus, &:visited {
-        outline: none;
-    }
+        &:focus, &:visited {
+            outline: none;
+        }
 
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: $gradient-website-management;
-        opacity: .85;
-    }
-
-
-    &::-moz-focus-inner {
-        border: 0;
-    }
+        &::-moz-focus-inner {
+            border: 0;
+        }
 
 
 
     &__image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        flex: 0 0 100%;
         background-size: cover !important;
         background-position: center center;
-        filter: grayscale(1);
+        padding-top: 60%;
+        position: relative;
 
-        
-    }
-
-
-    &__title {
-        padding: 0px 20px;
-        margin-bottom: 20px;
-        z-index: 1;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-size: 1.2rem;
-        transition: margin-bottom .3s;
-        line-height: 1.2;
-
-        @include tablet-min {
-          font-size: 1.5rem;
-        }
-        
-    }
-
-    &__text {
-        z-index: 1;
-        padding: 60px 0 0;
-    }
-
-    &__benefits {
-        padding: 0px 20px;
-        margin-bottom: 20px;
-        margin-top: 0;
-        font-weight: 400;
-        font-size: .9rem;
-        transition: margin-bottom .3s;
-
-        @include tablet-min {
-          font-size: 1.1rem;
+        @include phone-wide-min {
+          padding-top: calc(9/16 * 100%);
         }
         
     }
 
     &__stat {
-        margin-left: auto;
-        background: transparentize($websites, .50);
+        background: transparentize($websites, .2);
         padding: 20px;
+        z-index: 1;
         position: absolute;
         bottom: 0;
         right: 0;
-        border-top-left-radius: 30px;
-        z-index: 1;
 
         h3 {
             color: $color-2;
@@ -351,6 +301,39 @@ $spacing: 15px;
             text-align: center;
             margin: 0;
         }
+    }
+
+    &__text {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+
+    &__title {
+        margin: 0 0 15px;
+        z-index: 1;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        color: $color-1;
+
+        @include tablet-min {
+          font-size: 1.5rem;
+        }
+        
+    }
+
+    &__benefits {
+        margin: 0;
+        font-weight: 400;
+        font-size: .9rem;
+        transition: margin-bottom .3s;
+        color: $color-1;
+
+        @include tablet-min {
+          font-size: 1.1rem;
+        }
+        
     }
 
     }

@@ -30,25 +30,25 @@ page_sections:
     - src: /img/products/growth-accelerators/in-sync.jpg
       alt: Always In Sync
     headline: "Always In Sync"
-    text: "We do it all. Campaigns sync directly with your website to ensure all are promoting the most up-to-date procedures and services."
+    text: "Campaigns sync directly with your website to ensure all are promoting the most up-to-date procedures and services."
   - class: paid-advertising__item--2
     img:
     - src: /img/products/growth-accelerators/roi.jpg
       alt: ROI Focused
     headline: "ROI Focused"
-    text: "Instead of talking about impressions and clicks, we're focused on the metrics that matter most to the practice, like conversions and new patients."
+    text: "We're focused on the metrics that matter most to the practice, like conversions and new patients."
   - class: paid-advertising__item--3
     img:
     - src: /img/products/growth-accelerators/targeting.jpg
       alt: Precision Targeting
     headline: "Precision Targeting"
-    text: "We combine keyword and geo-targeting to precisely target prospective patients, helping maximize your budget by focusing on the consumers most likely to convert."
+    text: "We maximize your budget by combining keyword and geo-targeting to precisely target prospective patients."
   - class: paid-advertising__item--4
     img:
     - src: /img/products/growth-accelerators/keyword.jpg
       alt: More Keywords
     headline: "More Keywords"
-    text: "Our software generates on average 30,000 relevant, unique exact match, long-tail keyword combinations for every campaign."
+    text: "Our software generates on average 50,000 relevant, exact match, keyword combinations for every campaign."
   - class: paid-advertising__item--5
     img:
     - src: /img/products/growth-accelerators/savings.jpg
@@ -60,7 +60,7 @@ page_sections:
     - src: /img/products/growth-accelerators/conversions.jpg
       alt: Higher Conversions
     headline: "Higher Conversions"
-    text: "Campaign data is continually aggregated to improve keyword targets, ad copy, bidding strategy, and landing pages to deliver more conversions at a lower cost per acquisition."
+    text: "Campaign data is aggregated to improve quality score and deliver more conversions at a lower cost per acquisition."
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__growth
@@ -70,7 +70,7 @@ page_sections:
   component_css: feature
   class: paid-advertising__feature--1
   headline: "Certified Google Partner"
-  text: "We’ve been perfecting our paid search platform since 2005. DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practices and products."
+  text: "DoctorLogic is a certified Google Partner. This means we have consistently demonstrated AdWords skill and expertise. It also means we’re up to date on Google's best practices and products."
   img: /img/products/growth-accelerators/google-partner.jpg
   alt: "Certified Google Partner"
   img_alignment: Right

@@ -13,6 +13,7 @@ hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "content-multiplier"
   product_next: "search-amplifier"
+next_page: "search-amplifier"
 page_sections:
 - component: hero-1
   component_css: hero
@@ -22,9 +23,11 @@ page_sections:
     icon:
     - img: "/img/product-icons/social-reputation.svg"
       alt: "DoctorLogic Social Reputation"
-  headline: "Simple Reputation Management"
+  headline: "Reputation Management Made Simple"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
   btn:
+  - btn-label: See How It Works
+    btn-link: #
   img: "/img/products/social-reputation/hero-img.svg"
   alt: "DoctorLogic Social Reputation"
 - component: image-group
@@ -78,7 +81,7 @@ page_sections:
 - component: feature-1
   headline: "Receive Notifications"
   class: social-reputation__feature--1
-  text: "We remove the unknown by providing alerts when your practice is mentioned in a review. We monitor dozens of review sites, ensuring any time a review is posted about your practice you will receive an email alert. Rest easy knowing you will be the first to know anytime a review is posted online."
+  text: "Rest easy knowing you will be notified anytime your practice is mentioned in an online review. We monitor dozens of review sources which ensures when a review is posted, you will receive an email alert."
   btn:
   img: "/img/products/social-reputation/review-notifications.jpg"
   img_alignment: "Left"
