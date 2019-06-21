@@ -14,6 +14,8 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: managed-chat__hero
+  tagline:
+  - headline: "DoctorLogic Managed Chat"
   headline: "Convert More Visitors"
   text: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Managed Chat can help reduce your website bounce rate and increase your advertising ROI by engaging with more website visitors and turning them into leads."
   btn:

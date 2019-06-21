@@ -11,6 +11,7 @@ custom_js: case-studies
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
   - class: pricing__hero
+    tagline: "Don't Take Our Word For It"
     headline: Case Studies
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos inventore, modi facere maiores rem nulla minus magni nisi deleniti, ex earum commodi minima possimus? Ipsum ipsa quod eligendi aliquid possimus?"
 ---
@@ -18,7 +19,9 @@ hero:
 {% for hero in page.hero %}
 <section class="hero hero-2 {{hero.class}}">
     <div class="hero-2__text">
-      <div class="separator"></div>
+      <div class="hero-2__tagline">
+        <h5>{{hero.tagline}}</h5>
+      </div>
       <h1>{{hero.headline}}</h1>
       <p>{{hero.text}}</p>
     </div>

@@ -14,6 +14,8 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: video-content__hero
+  tagline:
+  - headline: "DoctorLogic Video Content"
   headline: "Increase Visibility with Video"
   text: "It’s no secret. The use of video in marketing plans is on the rise. Video has been proven to attract more consumer attention than any other medium. It can be used as a method to build awareness about your practice, as a content tool to grow your patient base, or to showcase you as an expert in your field."
   btn:

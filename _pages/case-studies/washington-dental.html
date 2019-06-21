@@ -32,7 +32,7 @@ challenge:
   - headline: "Location"
     text: "Washington, D.C."
 results:
-- headline: "The Results"
+  headline: "The Results"
   svg: "svg/washdent-graph.html"
   items:
   - class: "case-study__results-item--1"
@@ -48,7 +48,7 @@ results:
     value: "31"
     label: "Leads Per Month"
   detail:
-  - text: "<p>With DoctorLogic, WashDent is leveraging technology to increase efficiency and track lead conversions that turn visitors into          patients. The DoctorLogic Website Marketing platform gives full visibility into their practice performance and allows them to review important   success metrics, including the number of website visitors.</p><p>Within the first 30 days, WashDent saw immediate returns on their partnership   with DoctorLogic. They saw an increase in website lead conversion by 15%. Where WashDent once struggled to be found online and meet their        overall goals for website traffic, they noticed an immediate increase.</p>"
+  - text: "<p>With DoctorLogic, WashDent is leveraging technology to increase efficiency and track lead conversions that turn visitors into          patients. The DoctorLogic Website Marketing platform gives full visibility into their practice performance and allows them to review important   success metrics, including the number of website visitors.</p><p>Within the first 30 days, WashDent saw immediate returns on their partnership   with DoctorLogic. They saw an increase in website lead conversion by 15%. Where WashDent once struggled to be found online and meet their overall goals for website traffic, they noticed an immediate increase.</p>"
 testimonial:
 - text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate accusamus, quisquam et quo sed repellat reprehenderit unde, veniam      accusantium inventore optio ducimus eos consequuntur dolore corporis, saepe minima quos cumque! Pariatur, sapiente. Deleniti, necessitatibus       tempore? Fuga explicabo nisi aliquid vitae?"
   author: "- Dr. Xavier Logic, Washington Center for Cosmetic Dentistry"
@@ -60,8 +60,14 @@ solution:
     img_alt: DoctorLogic Website Management
   - img_src: "/img/product-icons/with-labels/content-multiplier-label.svg"
     img_alt: DoctorLogic Content Multiplier
+  - img_src: "/img/product-icons/with-labels/social-reputation-label.svg"
+    img_alt: DoctorLogic Social Reputation
   - img_src: "/img/product-icons/with-labels/search-amplifier-label.svg"
     img_alt: DoctorLogic Search Amplifier
+  - img_src: "/img/product-icons/with-labels/lead-generator-label.svg"
+    img_alt: DoctorLogic Lead Generator
+  - img_src: "/img/product-icons/with-labels/success-insights-label.svg"
+    img_alt: DoctorLogic Success Insights
 ---
 
 {% for hero in page.hero %}
@@ -71,6 +77,14 @@ solution:
         <h1>{{hero.headline}}</h1>
         <p>{{hero.text}}</p>
         <p class="hero-2__text-solutions">{{ hero.solutions }}</p>
+    </div>
+    <div class="hero-2__stat">
+        <div class="hero-2__stat-text">
+            {% for item in page.results.items | limit:1 %}
+            <h3>+<span data-number-spinner="{{ item.value }}">0</span>%</h3>
+            <p>{{ item.label }}</p>
+            {% endfor %}
+        </div>
     </div>
 </section>
 {% endfor %}
@@ -112,27 +126,27 @@ solution:
 
 <section class="case-study__results">
     <div class="case-study__section">
-        {% for results in page.results %}
+      
         <div class="case-study__results-headline">
-            <h3>{{ results.headline }}</h3>
-        </div>
-        <div class="case-study__results-chart">
-            {% include {{ results.svg }} %}
+            <h3>{{ page.results.headline }}</h3>
         </div>
         <div class="case-study__results-items">
-            {% for item in results.items %}
+            {% for item in page.results.items %}
             <div class="case-study__results-item {{ item.class }}">
-                <h3>+<span id="{{ item.class }}">{{ item.value }}</span>%</h3>
+                <h3>+<span data-number-spinner="{{ item.value }}" data-number-spinner-scroll>0</span>%</h3>
                 <p>{{ item.label }}</p>
             </div>
             {% endfor %}
         </div>
+        <div class="case-study__results-chart">
+            {% include {{ page.results.svg }} %}
+        </div>
         <div class="case-study__results-detail">
-            {% for detail in results.detail %}
+            {% for detail in page.results.detail %}
             <p>{{ detail.text }}</p>
             {% endfor %}
         </div>
-        {% endfor %}
+      
     </div>
 </section>
 
@@ -147,10 +161,6 @@ solution:
 
 <section class="case-study__section">
     {% for solution in page.solution %}
-    <div class="case-study__solution">
-        <h3>{{ solution.headline }}</h3>
-        <p>{{ solution.text }}</p>
-    </div>
     <div class="case-study__spotlight">
         <h3>Product Spotlight</h3>
         <div class="case-study__spotlight-items">
@@ -160,6 +170,10 @@ solution:
             </a>
             {% endfor %}
         </div>
+    </div>
+    <div class="case-study__solution">
+        <h3>{{ solution.headline }}</h3>
+        <p>{{ solution.text }}</p>
     </div>
     {% endfor %}
 </section>

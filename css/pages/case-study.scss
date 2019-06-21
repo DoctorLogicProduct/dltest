@@ -9,13 +9,14 @@
 
     .hero-2 {
         padding: 80px 0 0;
-        display: flex;
         align-items: center;
         min-height: 350px;
         position: relative;
+        @include grid; 
+        
 
         @include tablet-wide-min {
-            padding: 120px 0 60px 5%;
+            padding: 120px 80px 5%;
             min-height: 600px;
         }
 
@@ -37,7 +38,6 @@
 
         &__text {
             grid-column: auto / span 24;
-            grid-row: 2 / span 1;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -46,23 +46,20 @@
             z-index: 2;
             margin: 0 auto;
             position: relative;
+            order: 1;
 
             @include phone-wide-min {
               padding: 80px 60px;
             }
             
             @include tablet-min {
-              grid-column: auto / span 12;
+              grid-column: auto / span 14;
               grid-row: auto;
               justify-content: center;
             }
 
             @include tablet-wide-min {
               margin: 0;
-            }
-            
-            @include desktop-min {
-              grid-column: auto / span 12;
             }
 
             &::after {
@@ -120,6 +117,65 @@
               font-size: 1.2rem;
             }
             
+        }
+
+        &__stat {
+            grid-column: auto / span 24;
+            display: flex;
+            align-items: center;
+            order: 2;
+            padding: 0px 20px 40px;
+
+            @include phone-wide-min {
+              padding: 0 60px 40px;
+            }
+            
+
+            @include tablet-min {
+              grid-column: auto / span 10;
+              padding: 0 40px 0 0;
+            }
+            
+        }
+
+        &__stat-text {
+            background: $websites;
+            padding: 40px;
+            position: relative;
+            z-index: 3;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+            @include tablet-min {
+              margin-left: auto;
+              padding: 80px;
+            }
+            
+
+            h3, p {
+                color: $color-2;
+            }
+
+            h3 {
+                font-size: 2rem;
+                text-align: center;
+                margin: 0 0 5px;
+
+                @include phone-wide-min {
+                  font-size: 3rem;
+                }
+                
+
+                @include tablet-min {
+                  font-size: 4rem;
+                }
+                
+            }
+
+            p {
+                margin: 0;
+                text-align: center;
+            }
         }
 
     }
@@ -315,7 +371,6 @@
         padding: 60px 0 0;
         
         @include tablet-min {
-          grid-column: auto / span 14;
           padding: 60px 0;
         }
         
@@ -326,8 +381,7 @@
         padding: 0 0 60px;
         
         @include tablet-min {
-          grid-column: auto / span 10;
-          padding: 60px 0;
+          padding: 60px 0 0;
         }
         
     }
@@ -346,7 +400,7 @@
 
     &__spotlight-item {
         padding: 20px 0;
-        flex: 0 0 50%;
+        flex: 0 0 16%;
         box-shadow: none;
         transition: box-shadow .5s;
         border-top-left-radius: 20px;

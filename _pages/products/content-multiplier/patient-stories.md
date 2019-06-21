@@ -14,6 +14,8 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: patient-stories-hero
+  tagline:
+  - headline: "DoctorLogic Patient Stories"
   headline: "The Better Way to Show Your Work"
   text: "Help patients visualize how your services can benefit them. Before and After photos on your website allow current and prospective patients to see your work and what you can do for them. We make it easy to add hundreds of valuable photos to your medical website."
 - component: feature-1

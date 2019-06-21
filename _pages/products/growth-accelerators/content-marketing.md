@@ -14,6 +14,8 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: content-marketing__hero
+  tagline:
+  - "Before & After Galleries"
   headline: "Grow Your Practice with Content Marketing"
   text: "With one in 20 Google searches being health related, it’s no wonder healthcare providers are implementing content marketing. Grow your website’s content, rankings, and keywords with premium blogs written by Google-savvy medical copywriters."
   btn:
