@@ -80,7 +80,7 @@ solution:
     </div>
     <div class="hero-2__stat">
         <div class="hero-2__stat-text">
-            {% for item in page.results.items | limit:1 %}
+            {% for item in page.results.items limit:1 %}
             <h3>+<span data-number-spinner="{{ item.value }}">0</span>%</h3>
             <p>{{ item.label }}</p>
             {% endfor %}
