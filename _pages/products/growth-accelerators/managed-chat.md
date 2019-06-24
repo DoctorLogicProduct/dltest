@@ -29,19 +29,19 @@ page_sections:
   items:
   - class: managed-chat__item--1
     img:
-    - src: /img/products/growth-accelerators/24-7.jpg
+    - src: /img/products/growth-accelerators/managed-chat/chat.svg
       alt: 24/7 Service
     headline: "24/7"
     text: "Our network of agents are available to engage with your website visitors all day, every day."
   - class: managed-chat__item--2
     img:
-    - src: /img/products/growth-accelerators/hipaa.jpg
+    - src: /img/products/growth-accelerators/managed-chat/shield.svg
       alt: HIPAA Compliant Chat
     headline: "HIPAA Compliant"
     text: "Every chat is encrypted to protect patient privacy and ensure 100% compliance with the law."
   - class: managed-chat__item--3
     img:
-    - src: /img/products/growth-accelerators/trained.jpg
+    - src: /img/products/growth-accelerators/managed-chat/trained.svg
       alt: Industry Trained Staff
     headline: "Industry Trained"
     text: "Each of our agents are trained exclusively to support medical providers."

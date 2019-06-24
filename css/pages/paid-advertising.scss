@@ -50,18 +50,14 @@
                 }
                 
                 img {
-                    max-width: 100px;
-
-                    @include phone-wide-min {
-                      max-width: 100%;
-                    }
-                    
+                    max-width: 40px;
 
                     @include tablet-wide-min {
-                      max-width: 250px;
+                      max-width: 50px;
                     }
                     
                 }
+                
             }
 
         }

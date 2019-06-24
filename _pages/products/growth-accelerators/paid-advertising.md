@@ -14,6 +14,8 @@ page_sections:
 - component: hero-2
   component_css: hero-2
   class: paid-advertising__hero
+  tagline:
+  - headline: "DoctorLogic Paid Advertising"
   headline: "Expand Your Digital Footprint"
   text: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns. We produce 10X more keyword patterns than the competition to outperform other ads. Paired with a DoctorLogic website, it's a perfect fit to ensure your practice is visible on search engine result pages."
   btn:
@@ -27,37 +29,37 @@ page_sections:
   items:
   - class: paid-advertising__item--1
     img:
-    - src: /img/products/growth-accelerators/in-sync.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/sync.svg
       alt: Always In Sync
     headline: "Always In Sync"
     text: "Campaigns sync directly with your website to ensure all are promoting the most up-to-date procedures and services."
   - class: paid-advertising__item--2
     img:
-    - src: /img/products/growth-accelerators/roi.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/roi.svg
       alt: ROI Focused
     headline: "ROI Focused"
     text: "We're focused on the metrics that matter most to the practice, like conversions and new patients."
   - class: paid-advertising__item--3
     img:
-    - src: /img/products/growth-accelerators/targeting.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/targeted.svg
       alt: Precision Targeting
     headline: "Precision Targeting"
     text: "We maximize your budget by combining keyword and geo-targeting to precisely target prospective patients."
   - class: paid-advertising__item--4
     img:
-    - src: /img/products/growth-accelerators/keyword.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/keywords.svg
       alt: More Keywords
     headline: "More Keywords"
     text: "Our software generates on average 50,000 relevant, exact match, keyword combinations for every campaign."
   - class: paid-advertising__item--5
     img:
-    - src: /img/products/growth-accelerators/savings.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/savings.svg
       alt: Cost Savings
     headline: "Cost Savings"
     text: "Triggering ads on exact match keywords allows us to efficiently spend ad budget only for the specific keywords that convert."
   - class: paid-advertising__item--6
     img:
-    - src: /img/products/growth-accelerators/conversions.jpg
+    - src: /img/products/growth-accelerators/paid-advertising/conversions.svg
       alt: Higher Conversions
     headline: "Higher Conversions"
     text: "Campaign data is aggregated to improve quality score and deliver more conversions at a lower cost per acquisition."
