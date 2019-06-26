@@ -38,6 +38,11 @@
 </head>
 
 
+
+
+
+	<!-- {"class"=>"form-page"} -->
+	<!-- form-page -->
 	<body class="body form-page">
 
 	<header class="header dl-morph-dropdown">
@@ -62,7 +67,7 @@
 			</li>
 
 			<li class="no-dropdown">
-				<a href="/pricing">Pricing</a>
+				<a href="../pricing">Pricing</a>
 			</li>
 
 			<li class="has-dropdown links" data-content="contact">
@@ -85,42 +90,42 @@
 					<div class="content">
 						<ul>
 							<li class="website-management">
-								<a href="/products/website-management">
+								<a href="../products/website-management">
 									Website Management
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="content-multiplier">
-								<a href="/products/content-multiplier">
+								<a href="../products/content-multiplier">
 									Content Multiplier
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="social-reputation">
-								<a href="/products/social-reputation">
+								<a href="../products/social-reputation">
 									Social Reputation
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="search-amplifier">
-								<a href="/products/search-amplifier">
+								<a href="../products/search-amplifier">
 									Search Amplifier
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="lead-generator">
-								<a href="/products/lead-generator">
+								<a href="../products/lead-generator">
 									Lead Generator
 									<span>A brief description here</span>
 								</a>
 							</li>
 
 							<li class="success-insights">
-								<a href="/products/success-insights">
+								<a href="../products/success-insights">
 									Success Insights
 									<span>A brief description here</span>
 								</a>
@@ -129,7 +134,7 @@
 							<div class="content--secondary">
 
 								<li class="growth-accelerators">
-									<a href="/products/growth-accelerators">
+									<a href="../products/growth-accelerators">
 										Growth Accelerators
 										<span>A brief description here</span>
 									</a>
@@ -207,7 +212,8 @@
 	</div>
 </header>
 
-	<main id="main" style="background: url('/img/form-pages/laptop-albright.jpg')right center/cover no-repeat;">
+	<main id="main">
+				<div class="form-page__page-wrapper" style="background: url('/img/form-pages/laptop-albright.jpg')right center/cover no-repeat;">
 			<section class="form-page__form-wrapper">
 				<div class="form-page__headline">
 					<h2>Let's Get Started</h2>
@@ -252,6 +258,12 @@
 </form>
 				</div>
 			</section>
+	</div>
+
+</html>
+
+			
+			<div id="scroll-point"></div>
 	</main>
 	<footer id="footer">
 	<div class="footer__top">
@@ -345,7 +357,25 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="/js/header.js"></script>
+<script src="../js/smooth-scroll.polyfills.min.js"></script>
+<script src="../js/header.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		updateURL: false
+	});
+</script>
+
 <script>
 	if ($(window).width() >= 991) {
 	$(window).on("load resize", function () {
@@ -355,14 +385,31 @@
 	}
 </script>
 
-<!-- Referrer Script -->
+<!-- Forms -->
 
 <script>
-	(function(){
+	var confirm = document.querySelector(".confirmation"); 
+	function thankyou() {
+		confirm.innerHTML = "Thank you for signing up!";	
+	}
+</script>
+
+<script>
+	(function () {
 		var inputs = document.querySelectorAll('input[name="Referrer"]');
-		for (var i = 0, l = inputs.length; i < l; i++){
+		for (var i = 0, l = inputs.length; i < l; i++) {
 			var input = inputs[i];
 			input.value = document.referrer;
+		}
+	})();
+</script>
+
+<script>
+	(function () {
+		var inputs = document.querySelectorAll('input[name="ReferralPage"]');
+		for (var i = 0, l = inputs.length; i < l; i++) {
+			var input = inputs[i];
+			input.value = document.URL;
 		}
 	})();
 </script>

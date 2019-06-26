@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 
@@ -52,8 +53,11 @@
 
 
 
-		
-		<header class="header dl-morph-dropdown">
+	<!--  -->
+	<!--  -->
+	<body class="body ">
+
+	<header class="header dl-morph-dropdown">
 	<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
 
 	<a href="/" class="header__logo">
@@ -220,8 +224,8 @@
 	</div>
 </header>
 
-		<main id="main">
-			
+	<main id="main">
+						
 			<section class="component hero hero-2 ">
   <div class="hero-2__text">
     
@@ -319,8 +323,12 @@
 
 			
 			
-		</main>
-		<footer id="footer">
+
+
+			
+			<div id="scroll-point"></div>
+	</main>
+	<footer id="footer">
 	<div class="footer__top">
 		<div class="footer__top-left">
 			<div class="footer__nav">
@@ -409,12 +417,15 @@
 	
 </footer>
 
-	</body>
+</body>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="../js/smooth-scroll.polyfills.min.js"></script>
 <script src="../js/header.js"></script>
-<script src="https://apis.google.com/js/platform.js"></script>
+
+
+
+
 
 
 
@@ -426,14 +437,13 @@
 
 <script>
 	var scroll = new SmoothScroll('a[href*="#"]', {
-		updateURL: false,
-		offset: 60
+		updateURL: false
 	});
 </script>
 
 <script>
 	if ($(window).width() >= 991) {
-		$(window).on("load resize", function () {
+	$(window).on("load resize", function () {
 			var footerHeight = $("#footer").outerHeight();
 			$("#main").css("margin-bottom", footerHeight);
 		});
@@ -443,9 +453,9 @@
 <!-- Forms -->
 
 <script>
-	var confirm = document.querySelector(".confirmation");
+	var confirm = document.querySelector(".confirmation"); 
 	function thankyou() {
-		confirm.innerHTML = "Thank you for signing up!";
+		confirm.innerHTML = "Thank you for signing up!";	
 	}
 </script>
 
@@ -468,6 +478,5 @@
 		}
 	})();
 </script>
-
 
 </html>
