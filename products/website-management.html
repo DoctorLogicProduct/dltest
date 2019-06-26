@@ -391,19 +391,18 @@
 	<h3>Is your website HIPAA secure?</h3>
 	<p>Find out if your website is at risk of leaking your patients' private health information (PHI).</p>
 	
-		
-			<div class="callout__subscription">
-				<div class="email-form--inline">
-					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-					<script>
-						hbspt.forms.create({
-							portalId: "2805307",
-							formId: "06f56631-a445-49da-89a7-b852166248b1"
-						});
-					</script>
-				</div>
-			</div>
-		
+	<div class="callout__form">
+	<form action="http://marketing.doctorlogic.com/l/772793/2019-06-25/4sv" method="post">
+    <div class="styled-input">
+        <input type="hidden" name="ReferralPage">
+        <input type="text" name="Email" required>
+        <label>My email is...</label>
+        <span></span>
+        <div class="confirmation"></div>
+    </div>
+    <button type="submit" onClick="thankyou()">Submit</button>
+</form>
+	</div>
 	
 	
 </section>
@@ -602,7 +601,17 @@
 				</ul>
 			</div>
 			<div class="footer__newsletter">
-				newsletter signup goes here
+				<h3>Sign Up For Our Newsletter</h3>
+				<form action="https://marketing.doctorlogic.com/l/772793/2019-06-25/4sv" method="post">
+				<div class="styled-input">
+					<input type="hidden" name="ReferralPage">
+					<input type="text" name="Email" required>
+					<label>My email is...</label>
+					<span></span>
+					<div class="confirmation"></div>
+				</div>
+				<button type="submit" onClick="thankyou()">Submit</button>
+				</form>
 			</div>		
 		</div>
 		<div class="footer__top-right">
@@ -615,7 +624,7 @@
 				</div>
 			</div>
 			<div class="footer__location">
-				<p>5555 Main St. Suite 200</p>
+				<p>6509 Windcrest, Suite 200</p>
 				<p>Plano, TX 75024</p>
 				<p>Sales: 555-555-5555</p>
 				<p>Support: 777-777-7777</p>
@@ -676,5 +685,35 @@
 		});
 	}
 </script>
+
+<!-- Forms -->
+
+<script>
+	var confirm = document.querySelector(".confirmation");
+	function thankyou() {
+		confirm.innerHTML = "Thank you for signing up!";
+	}
+</script>
+
+<script>
+	(function () {
+		var inputs = document.querySelectorAll('input[name="Referrer"]');
+		for (var i = 0, l = inputs.length; i < l; i++) {
+			var input = inputs[i];
+			input.value = document.referrer;
+		}
+	})();
+</script>
+
+<script>
+	(function () {
+		var inputs = document.querySelectorAll('input[name="ReferralPage"]');
+		for (var i = 0, l = inputs.length; i < l; i++) {
+			var input = inputs[i];
+			input.value = document.URL;
+		}
+	})();
+</script>
+
 
 </html>
