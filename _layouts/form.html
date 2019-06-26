@@ -2,13 +2,19 @@
 <html>
 {% include head.html %}
 
-	<body class="body">
+	<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
 
 	{% include header.html %}
-	<main id="main">
-			<section class="form-page">
-				<div class="form-page__form-wrapper">
-					<iframe src="{{ page.form_url }}" frameborder="0"></iframe>
+	<main id="main" style="background: url('{{ page.background }}')right center/cover no-repeat;">
+			<section class="form-page__form-wrapper">
+				<div class="form-page__headline">
+					<h2>{{ page.headline }}</h2>
+				</div>
+				<div class="form-page__text">
+					<p>{{ page.text }}</p>
+				</div>
+				<div class="form-page__form">
+					{% include {{ page.form.template }} handler=page.form.handler%}
 				</div>
 			</section>
 	</main>
@@ -24,6 +30,18 @@
 			$("#main").css("margin-bottom", footerHeight);
 		});
 	}
+</script>
+
+<!-- Referrer Script -->
+
+<script>
+	(function(){
+		var inputs = document.querySelectorAll('input[name="Referrer"]');
+		for (var i = 0, l = inputs.length; i < l; i++){
+			var input = inputs[i];
+			input.value = document.referrer;
+		}
+	})();
 </script>
 
 </html>

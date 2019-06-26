@@ -1,0 +1,34 @@
+<form action="{{ include.handler }}" method="post">
+    <input type="hidden" name="Referrer">
+    <div class="styled-input">
+        <input type="text" name="FirstName" required>
+        <label>First Name</label>
+        <span></span>
+    </div>
+    <div class="styled-input">
+        <input type="text" name="LastName" required>
+        <label>Last Name</label>
+        <span></span>
+    </div>
+    <div class="styled-input">
+        <input type="text" name="Email" required>
+        <label>Email</label>
+        <span></span>
+    </div>
+    <div class="styled-input">
+        <input type="text" name="Company" required>
+        <label>Company</label>
+        <span></span>
+    </div>
+    <div class="styled-input">
+        <input type="tel" name="Phone" required>
+        <label>Phone</label>
+        <span></span>
+    </div>
+    <div class="styled-textarea">
+        <textarea name="Comments" rows="2"></textarea>
+        <label>Comments</label>
+        <span></span>
+    </div>
+    <button type="submit">Submit</button>   
+</form>

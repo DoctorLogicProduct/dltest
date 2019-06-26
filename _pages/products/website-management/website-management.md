@@ -91,6 +91,7 @@ page_sections:
   background: false
   headline: "Is your website HIPAA secure?"
   text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
-  subscription: 
-  - hs_form_id: "06f56631-a445-49da-89a7-b852166248b1"
+  form:
+    template: forms/email-form.html
+    handler:  http://marketing.doctorlogic.com/l/772793/2019-06-25/4sv
 ---

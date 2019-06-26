@@ -157,7 +157,7 @@ sup {
 }
 
 
-.btn, #submit {
+.btn, #submit, button {
 	display: inline-block;
 	padding: 15px 20px;
 	color: $color-2;
@@ -175,6 +175,7 @@ sup {
 	border-top-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	width: 250px;
+	border: none;
 
 	&:hover {
 		color: $color-2;
@@ -574,124 +575,99 @@ footer {
 }
 
 
-.footer-form {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-width: 100%;
-padding: 40px 0;
+// Form Elements
 
-.hbspt-form {
-	width: 95%;
-
-	@include tablet-min {
-		width: 70%;	
-	}
+.styled-input {
+  float: none;
+  width: 100%;
+  margin: 30px 0;
+  position: relative;
 }
 
-fieldset.form-columns-2 .input {
-	margin-right: 20px;
+.styled-input label {
+  color: $websites;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.25s ease-out;
+  pointer-events: none;
+  font-size: .9rem;
+  font-weight: 400;
+  opacity: .5;
 }
 
-input {
-	box-sizing:border-box;
-	background: transparent;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid $color-1;
-	width:100%;
-	padding: 20px 5px !important;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	color: $color-1;
-	font-size: 1rem;
+.styled-textarea {
+	position: relative;
+	margin-top: 40px;
+}
 
-	&::placeholder {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
-		color: $color-1;
-		font-size: .8rem !important;
+.styled-textarea label {
+  color: $websites;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  transition: all 0.25s ease-out;
+  pointer-events: none;
+  font-size: .9rem;
+  font-weight: 400;
+  opacity: .5;
+}
 
-		@include tablet-min {
-			font-size: 1rem !important;
-		}
+input,
+textarea {
+  padding: 1rem 1rem;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  border-bottom: 1px solid $websites !important;
+  background-color: transparent;
+  border: none;
+  color: $color-1;
+  left: 0;
+  border-left: none;
+  right: 0;
+  font-family: 'Montserrat', sans-serif;
+}
 
-	}
+input ~ span,
+textarea ~ span {
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $websites;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.125s ease-out;
+}
 
-	&.hs-button {
-			display: block;
-			padding: 15px 20px !important;
-			color: $color-2;
-			margin: 20px auto 0;
-			font-size: .8rem;
-			font-weight: 400;
-			text-align: center;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			text-decoration: none;
-			background: $gradient-website-management;
-			background-position: 1% 50%;
-			background-size: 400% 300%;
-			transition: 700ms ease-out;
-			border-top-left-radius: 15px;
-			border-bottom-right-radius: 15px;
-			width: 250px;
+textarea ~ span {
+	bottom: 3px;
+}
 
-			@include desktop-sm-min {
+input:focus,
+textarea:focus {
+  outline: 0;
+}
 
-		&:hover {
-	    	background-position: 60% 50%;
-				color: $color-2;
-			}
-		}
-			
-		}
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  transition: all 0.125s ease-out;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  font-size: .8rem;
+  color: $websites;
+  top: -20px;
+  transition: all 0.125s ease-out;
+  font-weight: 400;
+  opacity: 1;
 }
 
 textarea {
-	box-sizing:border-box;
-	background: transparent;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid $color-1;
-	width:100%;
-	padding: 20px 5px 0 !important;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	color: $color-1;
-	font-size: 1rem;
-
-	&::placeholder {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
-		color: $color-1;
-		font-size: .8rem !important;
-
-		@include tablet-min {
-			font-size: 1rem !important;
-		}
-		
-	}
+  width: 100%;
 }
-
-label {
-		display: none;
-	}
-
-.hs-error-msgs {
-		list-style: none !important;
-		font-family: 'Montserrat', sans-serif;
-		color: $color-3;
-		font-size: .9rem;
-		padding: 0;
-
-	label {
-		display: block;
-		text-align: left;
-	}
-}
-
-	}

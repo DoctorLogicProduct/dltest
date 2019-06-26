@@ -1,0 +1,25 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.form-page {
+
+    main {
+        min-height: 100vh;
+        @include grid;
+        padding: 7% 5%; 
+    }
+
+    &__form-wrapper {
+        grid-column: auto / span 8;
+        background: rgba(255,255,255,.7);
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}

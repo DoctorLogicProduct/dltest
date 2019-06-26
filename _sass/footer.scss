@@ -122,15 +122,66 @@ footer {
 		}
 
 		&__newsletter {
-			background: white;
-			max-height: 100px;
 			min-width: 40%;
 			margin: 0 auto;
 			order: 1;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
 
 			@include desktop-sm-min {
 			  margin: 0;
 			  order: 2;
+			}
+
+			h3 {
+				font-size: .8rem;
+				text-transform: uppercase;
+				margin-top: 0;
+				margin-bottom: 20px;
+			}
+
+			form {
+				text-align: left;
+			}
+
+			input {
+				border-bottom: 1px solid $color-2 !important;
+				color: $color-2;
+			}
+
+			input ~ span {
+				background: $color-2;
+			}
+
+			input:focus ~ label,
+			input:valid ~ label {
+				color: $color-2;
+			}
+
+			.styled-input {
+				margin-top: 10px;
+			}
+
+			.styled-input label {
+				color: $color-2;
+				opacity: .8;
+			}
+
+			button {
+				margin-top: 0;
+				padding: 10px 18px;
+				font-size: .7rem;
+				max-width: 100px;
+			}
+
+			.confirmation {
+				color: $color-2;
+				font-family: 'Montserrat', sans-serif;
+				font-size: .8rem;
+				text-transform: uppercase;
+				font-weight: 400;
+				margin-top: 20px;
 			}
 			
 		}

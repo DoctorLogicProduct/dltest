@@ -151,4 +151,34 @@
 	}
 </script>
 
+<!-- Forms -->
+
+<script>
+	var confirm = document.querySelector(".confirmation");
+	function thankyou() {
+		confirm.innerHTML = "Thank you for signing up!";
+	}
+</script>
+
+<script>
+	(function () {
+		var inputs = document.querySelectorAll('input[name="Referrer"]');
+		for (var i = 0, l = inputs.length; i < l; i++) {
+			var input = inputs[i];
+			input.value = document.referrer;
+		}
+	})();
+</script>
+
+<script>
+	(function () {
+		var inputs = document.querySelectorAll('input[name="ReferralPage"]');
+		for (var i = 0, l = inputs.length; i < l; i++) {
+			var input = inputs[i];
+			input.value = document.URL;
+		}
+	})();
+</script>
+
+
 </html>
