@@ -6,11 +6,12 @@
 
 .form-page {
 
-    main {
+    &__page-wrapper {
         min-height: 100vh;
         @include grid;
         padding: 7% 5%; 
     }
+    
 
     &__form-wrapper {
         grid-column: auto / span 8;

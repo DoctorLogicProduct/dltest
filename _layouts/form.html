@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+---
+layout: default
+---
 
-	<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
-
-	{% include header.html %}
-	<main id="main" style="background: url('{{ page.background }}')right center/cover no-repeat;">
+	<div class="form-page__page-wrapper" style="background: url('{{ page.background }}')right center/cover no-repeat;">
 			<section class="form-page__form-wrapper">
 				<div class="form-page__headline">
 					<h2>{{ page.headline }}</h2>
@@ -17,31 +14,6 @@
 					{% include {{ page.form.template }} handler=page.form.handler%}
 				</div>
 			</section>
-	</main>
-	{% include footer.html %}
-</body>
-
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="{{ base }}/js/header.js"></script>
-<script>
-	if ($(window).width() >= 991) {
-	$(window).on("load resize", function () {
-			var footerHeight = $("#footer").outerHeight();
-			$("#main").css("margin-bottom", footerHeight);
-		});
-	}
-</script>
-
-<!-- Referrer Script -->
-
-<script>
-	(function(){
-		var inputs = document.querySelectorAll('input[name="Referrer"]');
-		for (var i = 0, l = inputs.length; i < l; i++){
-			var input = inputs[i];
-			input.value = document.referrer;
-		}
-	})();
-</script>
+	</div>
 
 </html>

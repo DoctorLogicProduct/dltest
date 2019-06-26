@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-2 {{hero.class}}"">
+    <div class=" hero-2__text">
+	<div class="separator"></div>
+	<h1>{{hero.headline}}</h1>
+	<p>{{hero.text}}</p>
+	<p class="hero-2__text-solutions">{{ hero.solutions }}</p>
+	</div>
+	<div class="hero-2__stat">
+		<div class="hero-2__stat-text">
+			{% for item in page.results.items limit:1 %}
+			<h3>+<span data-number-spinner="{{ item.value }}">0</span>%</h3>
+			<p>{{ item.label }}</p>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+{% endfor %}
+
+<section class="case-study__section">
+	<div class="case-study__feature-img">
+		{% for img in page.featured-img %}
+		<img src="{{ img.img_src }}" alt="{{ img.img_alt }}">
+		{% endfor %}
+	</div>
+</section>
+
+<section class="case-study__challenge">
+	<div class="case-study__section">
+		{% for challenge in page.challenge %}
+		<div class="case-study__challenge-headline">
+			<h3>{{ challenge.headline }}</h3>
+		</div>
+		<div class="case-study__challenge-text">
+			<p>{{ challenge.text }}</p>
+		</div>
+		<div class="case-study__challenge-customer">
+			{% for item in challenge.customer-items %}
+			<div class="case-study__challenge-customer-item">
+				<h4 class="case-study__challenge-customer-headline">{{ item.headline }}</h4>
+				{% if item.link %}
+				{% for link in item.link %}
+				<a href="{{ link.link }}" class="case-study__challenge-customer-link"
+					target="_blank">{{ link.label }}</a>
+				{% endfor %}
+				{% else %}
+				<p class="case-study__challenge-customer-text">{{ item.text }}</p>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+<section class="case-study__results">
+	<div class="case-study__section">
+
+		<div class="case-study__results-headline">
+			<h3>{{ page.results.headline }}</h3>
+		</div>
+		<div class="case-study__results-items">
+			{% for item in page.results.items %}
+			<div class="case-study__results-item {{ item.class }}">
+				<h3>+<span data-number-spinner="{{ item.value }}" data-number-spinner-scroll>0</span>%</h3>
+				<p>{{ item.label }}</p>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="case-study__results-chart">
+			{% include {{ page.results.svg }} %}
+		</div>
+		<div class="case-study__results-detail">
+			{% for detail in page.results.detail %}
+			<p>{{ detail.text }}</p>
+			{% endfor %}
+		</div>
+
+	</div>
+</section>
+
+{% if page.testimonial %}
+<section class="case-study__testimonial">
+	<div class="case-study__section">
+		{% for testimonial in page.testimonial %}
+		<p class="case-study__testimonial-text">" {{ testimonial.text }} "</p>
+		<p class="case-study__testimonial-author">{{ testimonial.author }}</p>
+		{% endfor %}
+	</div>
+</section>
+{% endif %}
+
+<section class="case-study__section">
+	{% for solution in page.solution %}
+	<div class="case-study__spotlight">
+		<h3>Product Spotlight</h3>
+		<div class="case-study__spotlight-items">
+			{% for item in solution.items %}
+			<a href="#" class="case-study__spotlight-item">
+				<img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+			</a>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="case-study__solution">
+		<h3>{{ solution.headline }}</h3>
+		<p>{{ solution.text }}</p>
+	</div>
+	{% endfor %}
+</section>

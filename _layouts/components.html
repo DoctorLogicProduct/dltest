@@ -1,16 +1,8 @@
-<html>
-{% include head.html %}
-{% include base.html %}
+---
+layout: default
+---
 
-		{% for class in page.page_class %}
-		{% if class.class %}
-		<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
-		{% else %}
-		<body>
-		{% endif %}
-		{% endfor %}
-		{% include header.html %}
-		<main id="main">
+
 			{% for section in page.page_sections %}
 			{% include component-{{ section.component }}.html %}
 			{% endfor %}
@@ -102,83 +94,7 @@
 			
 				{% endfor %}
 				</div>
-				
-			
+						
 			</div>
 			{% endif %}
-		</main>
-		{% include footer.html %}
-	</body>
 
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="{{ base }}/js/smooth-scroll.polyfills.min.js"></script>
-<script src="{{ base }}/js/header.js"></script>
-<script src="https://apis.google.com/js/platform.js"></script>
-
-{% if page.gsap == true %}
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script> -->
-<script src="{{ base }}/js/TweenMax.min.js"></script>
-<script src="{{ base }}/js/DrawSVGPlugin.min.js"></script>
-<script src="{{ base }}/js/ScrollMagic.js"></script>
-<script src="{{ base }}/js/animation.gsap.js"></script>
-<script src="{{ base }}/js/debug.addIndicators.js"></script>
-{% endif %}
-
-{% if page.anime == true %}
-<script src="{{ base }}/js/anime.min.js"></script>
-<script src="{{ base }}/js/animation.anime.min.js"></script>
-{% endif %}
-
-{% if page.custom_js %}
-{% for js_file in page.custom_js %}
-<script src='{{ base }}/js/{{ js_file }}.js' type="text/javascript"></script>
-{% endfor %}
-{% endif %}
-
-<script>
-	var scroll = new SmoothScroll('a[href*="#"]', {
-		updateURL: false,
-		offset: 60
-	});
-</script>
-
-<script>
-	if ($(window).width() >= 991) {
-		$(window).on("load resize", function () {
-			var footerHeight = $("#footer").outerHeight();
-			$("#main").css("margin-bottom", footerHeight);
-		});
-	}
-</script>
-
-<!-- Forms -->
-
-<script>
-	var confirm = document.querySelector(".confirmation");
-	function thankyou() {
-		confirm.innerHTML = "Thank you for signing up!";
-	}
-</script>
-
-<script>
-	(function () {
-		var inputs = document.querySelectorAll('input[name="Referrer"]');
-		for (var i = 0, l = inputs.length; i < l; i++) {
-			var input = inputs[i];
-			input.value = document.referrer;
-		}
-	})();
-</script>
-
-<script>
-	(function () {
-		var inputs = document.querySelectorAll('input[name="ReferralPage"]');
-		for (var i = 0, l = inputs.length; i < l; i++) {
-			var input = inputs[i];
-			input.value = document.URL;
-		}
-	})();
-</script>
-
-
-</html>

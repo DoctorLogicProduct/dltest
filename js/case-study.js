@@ -1,7 +1,7 @@
 tl = new TimelineMax({ onUpdate: onUpdate });
 const controller = new ScrollMagic.Controller();
 
-tl.from('#graph-line_1_', 1, { drawSVG: 0 });
+tl.from('#graph-line', 1, { drawSVG: 0 });
 tl.from('#graph-value', 1, { opacity: 0 });
 
 const scene = new ScrollMagic.Scene({
@@ -32,7 +32,7 @@ for (let i = 0; i < results.length; i += 1) {
 
     tl2.to(currentVal, 1, {
         val: newVal, roundProps: "val", onUpdate: function () {
-            result.innerHTML = currentVal.val.toString();
+            result.innerHTML = currentVal.val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
     });
 
