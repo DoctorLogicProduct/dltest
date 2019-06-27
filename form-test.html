@@ -84,6 +84,9 @@
 	<div class="morph-dropdown-wrapper">
 		<div class="dropdown-list">
 			<ul>
+				<li class="mobile-demo">
+					<a href="/form-test.html">Get A Demo</a>
+				</li>
 				<li id="products" class="dropdown gallery">
 					<a href="#0" class="label">Products</a>
 
@@ -172,8 +175,8 @@
 
 				</li>
 
-				<li class="dropdown" class="no-dropdown">
-					<a href="#">Pricing</a>
+				<li class="dropdown no-dropdown">
+					<a href="/pricing">Pricing</a>
 				</li>
 
 				<li id="results" class="dropdown links">
@@ -213,10 +216,10 @@
 </header>
 
 	<main id="main">
-				<div class="form-page__page-wrapper" style="background: url('/img/form-pages/laptop-albright.jpg')right center/cover no-repeat;">
+				<div class="form-page__page-wrapper">
 			<section class="form-page__form-wrapper">
 				<div class="form-page__headline">
-					<h2>Let's Get Started</h2>
+					<h2>Get A Demo</h2>
 				</div>
 				<div class="form-page__text">
 					<p>Please fill out the form below and our sales team will be in contact with you to find a solution to work best for you.</p>
@@ -225,38 +228,29 @@
 					<form action="http://go.pardot.com/l/772793/2019-06-24/47b" method="post">
     <input type="hidden" name="Referrer">
     <div class="styled-input">
-        <input type="text" name="FirstName" required>
-        <label>First Name</label>
-        <span></span>
+        <input type="text" name="FirstName" placeholder="First Name (required)" required>
     </div>
     <div class="styled-input">
-        <input type="text" name="LastName" required>
-        <label>Last Name</label>
-        <span></span>
+        <input type="text" name="LastName" placeholder="Last Name (required)" required>
     </div>
     <div class="styled-input">
-        <input type="text" name="Email" required>
-        <label>Email</label>
-        <span></span>
+        <input type="text" name="Email" placeholder="Email (required)" required>
     </div>
     <div class="styled-input">
-        <input type="text" name="Company" required>
-        <label>Company</label>
-        <span></span>
+        <input type="text" name="Company" placeholder="Company (required)" required>
     </div>
     <div class="styled-input">
-        <input type="tel" name="Phone" required>
-        <label>Phone</label>
-        <span></span>
+        <input type="tel" name="Phone" placeholder="Phone (required)" required>
     </div>
     <div class="styled-textarea">
-        <textarea name="Comments" rows="2"></textarea>
-        <label>Comments</label>
-        <span></span>
+        <textarea name="Comments" rows="2" placeholder="Comments"></textarea>
     </div>
     <button type="submit">Submit</button>   
 </form>
 				</div>
+			</section>
+			<section class="form-page__image-wrapper">
+				<img src="/img/form-pages/imac-vip.png" alt="">
 			</section>
 	</div>
 
@@ -312,9 +306,7 @@
 				<form action="https://marketing.doctorlogic.com/l/772793/2019-06-25/4sv" method="post">
 				<div class="styled-input">
 					<input type="hidden" name="ReferralPage">
-					<input type="text" name="Email" required>
-					<label>My email is...</label>
-					<span></span>
+					<input type="text" name="Email" placeholder="My Email Is..." required>
 					<div class="confirmation"></div>
 				</div>
 				<button type="submit" onClick="thankyou()">Submit</button>
