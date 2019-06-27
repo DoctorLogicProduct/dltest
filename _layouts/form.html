@@ -2,7 +2,7 @@
 layout: default
 ---
 
-	<div class="form-page__page-wrapper" style="background: url('{{ page.background }}')right center/cover no-repeat;">
+	<div class="form-page__page-wrapper">
 			<section class="form-page__form-wrapper">
 				<div class="form-page__headline">
 					<h2>{{ page.headline }}</h2>
@@ -13,6 +13,9 @@ layout: default
 				<div class="form-page__form">
 					{% include {{ page.form.template }} handler=page.form.handler%}
 				</div>
+			</section>
+			<section class="form-page__image-wrapper">
+				<img src="{{ page.img_src }}" alt="{{ page.img_alt }}">
 			</section>
 	</div>
 

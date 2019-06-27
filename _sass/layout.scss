@@ -580,40 +580,16 @@ footer {
 .styled-input {
   float: none;
   width: 100%;
-  margin: 30px 0;
+  margin: 20px 0;
   position: relative;
 }
 
-.styled-input label {
-  color: $websites;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.25s ease-out;
-  pointer-events: none;
-  font-size: .9rem;
-  font-weight: 400;
-  opacity: .5;
-}
 
 .styled-textarea {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
-.styled-textarea label {
-  color: $websites;
-  padding: 10px;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  transition: all 0.25s ease-out;
-  pointer-events: none;
-  font-size: .9rem;
-  font-weight: 400;
-  opacity: .5;
-}
 
 input,
 textarea {
@@ -621,51 +597,20 @@ textarea {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  border-bottom: 1px solid $websites !important;
-  background-color: transparent;
-  border: none;
+  border: 1px solid $color-1 !important;
+  border-radius: 5px;
+  background-color: rgba(255,255,255, .7);
   color: $color-1;
   left: 0;
   border-left: none;
   right: 0;
   font-family: 'Montserrat', sans-serif;
-}
-
-input ~ span,
-textarea ~ span {
-  display: block;
-  width: 0;
-  height: 2px;
-  background: $websites;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: all 0.125s ease-out;
-}
-
-textarea ~ span {
-	bottom: 3px;
+  position: relative;
 }
 
 input:focus,
 textarea:focus {
   outline: 0;
-}
-
-input:focus ~ span,
-textarea:focus ~ span {
-  width: 100%;
-  transition: all 0.125s ease-out;
-}
-
-input:focus ~ label,
-input:valid ~ label {
-  font-size: .8rem;
-  color: $websites;
-  top: -20px;
-  transition: all 0.125s ease-out;
-  font-weight: 400;
-  opacity: 1;
 }
 
 textarea {

@@ -6,21 +6,71 @@
 
 .form-page {
 
+    main {
+        background: #c8edfb;
+    }
+
     &__page-wrapper {
         min-height: 100vh;
         @include grid;
-        padding: 7% 5%; 
+        padding: 80px 20px 40px;
+        
+        @include desktop-sm-min {
+          padding: 7% 0 7% 60px;
+        }
+        
     }
     
 
     &__form-wrapper {
-        grid-column: auto / span 8;
-        background: rgba(255,255,255,.7);
-        padding: 40px;
+        grid-column: auto / span 24;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border-top-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+
+        @include desktop-sm-min {
+            grid-column: auto / span 8;
+            padding: 40px;
+            min-width: 500px;
+        }
+        
+    }
+
+    &__headline h2 {
+        text-align: center;
+        width: 100%;
+
+        @include desktop-sm-min {
+          text-align: left;
+        }
+        
+    }
+
+    &__text {
+        text-align: center;
+
+        @include desktop-sm-min {
+          text-align: left;
+        }
+        
+    }
+
+    &__image-wrapper {
+        grid-column: auto / span 24;
+        display: flex;
+        align-items: center;
+        padding: 40px 0 0;
+
+        @include desktop-sm-min {
+          grid-column: auto / span 16;
+          padding: 0 0 0 40px;
+        }
+        
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 }

@@ -171,6 +171,16 @@ footer {
 				padding: 0;
 			}
 
+			input {
+				border: 1px solid $color-2 !important;
+				background-color: transparent;
+				color: $color-2;
+
+				&:placeholder {
+					color: $color-2;
+				}
+			}
+
 			button {
 				margin-top: 0;
 				padding: 10px 18px;
