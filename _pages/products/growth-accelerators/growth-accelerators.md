@@ -78,7 +78,7 @@ page_sections:
   class: growth-accelerators__feature--2
   text: "The driver behind many elements of a successful marketing plan is Content Marketing. Content is essential to introducing patients to your practice with educational information and can dramatically impact your organic search results, SEO, rankings and keywords."
   btn:
-  - btn-link: #
+  - btn-link: /products/growth-accelerators/content-marketing
     btn-label: Learn More
   img: "/img/products/growth-accelerators/content-marketing.jpg"
   alt: "Content Marketing"

@@ -26,10 +26,12 @@
 			@include desktop-sm-min {
 			  display: flex;
 			  align-items: center;
+			  justify-content: flex-end;
 			  margin-left: auto;
 			  padding-right: 35px;
 			  margin-left: 0;
 			  padding-right: 0;
+			  width: 200px;
 			}
 			
 

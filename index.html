@@ -124,7 +124,7 @@ designs:
 {% for products in page.products %}
 <section class="home-products">
     <div class="home-products__text">
-        <h2>{{ products.headline }}</h2>
+        <h3>{{ products.headline }}</h3>
         <p>{{ products.text }}</p>
     </div>
     <div class="home-products__items">
@@ -156,7 +156,7 @@ designs:
 
 {% for designs in page.designs %}
 <section class="home-designs__image-group">
-    <h2 class="image-group__headline">{{ designs.headline }}</h2>
+    <h3 class="image-group__headline">{{ designs.headline }}</h3>
     <p class="image-group__text">{{ designs.text }}</p>
     <div class="image-group__container">
         {% for item in designs.items %}
@@ -172,7 +172,7 @@ designs:
 {% endfor %}
 
 <section class="home-case-studies">
-    <h2 class="case-studies__headline">DoctorLogic Works.  Hear From Our Customers.</h2>
+    <h3 class="case-studies__headline">DoctorLogic Works.  Hear From Our Customers.</h3>
     <div class="case-studies__items">
         {% for item in site.data.case-studies.gallery limit: 4 %}
         <a class="case-studies__item" data-type="{{item.type}}" href="{{item.link}}">

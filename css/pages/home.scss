@@ -92,6 +92,7 @@
     padding: 80px 5%;
     max-width: 1300px;
     margin: 0 auto;
+    overflow: hidden;
 
     &__text {
       display: flex;
@@ -100,7 +101,7 @@
       align-items: center;
       justify-content: center;
 
-      h2,
+      h3,
       p {
         text-align: center;
       }
@@ -125,8 +126,13 @@
 
     &__item-img-container {
       position: relative;
-      min-height: 400px;
+      min-height: 320px;
       z-index: 1;
+
+      @include tablet-min {
+        min-height: 400px;
+      }
+      
     }
 
     &__item-img-step {
@@ -266,7 +272,7 @@
       align-items: center;
       justify-content: center;
 
-      h2,
+      h3,
       p {
         text-align: center;
       }
@@ -298,7 +304,7 @@
 
             &__container {
                 position: relative;
-                min-height: 500px;
+                min-height: 330px;
                 overflow: hidden;
                 margin-top: 60px;
                 grid-row: 3 / span 1;
@@ -391,7 +397,7 @@
     max-width: 1500px;
     margin: 0 auto;
 
-    h2 {
+    h3 {
         text-align: center;
       }
 

@@ -9,13 +9,7 @@
 
 	{% include header.html %}
 	<main id="main">
-			{{ content }}
-			{% if page.back_page %}
-				<section class="back-to-product">
-					<h3>Back To: <a href="/products/{{ page.back_page }}">{{ page.back_page | replace: "-", " " }}</a></h3>
-				</section>
-			{% endif %}
-			<div id="scroll-point"></div>
+		{{ content }}
 	</main>
 	{% include footer.html %}
 </body>
