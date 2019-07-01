@@ -6,7 +6,8 @@
         "name": "VIP Plastic Surgery",
         "benefits": "Website Management, Content Multiplier",
         "stat": "1,642%",
-        "stat-label": "Page 1 Keywords"
+        "stat-label": "Page 1 Keywords",
+        "featured": true
     },
     {
         "type": "aesthetic",
@@ -15,16 +16,17 @@
         "name": "Morales Plastic Surgery",
         "benefits": "Website Management, Content Multiplier",
         "stat": "2,944%",
-        "stat-label": "Page 1 Keywords"
+        "stat-label": "Page 1 Keywords",
+        "featured": true
     },
     {
         "type": "aesthetic",
-        "img": "/img/case-studies/washington-dental-feature-img.jpg",
-        "link": "/case-studies/washington-dental",
-        "name": "Washington Center For Dentistry",
+        "img": "/img/case-studies/lyle-featured-img.jpg",
+        "link": "/case-studies/glenn-lyle",
+        "name": "Dr. Glenn Lyle",
         "benefits": "Website Management, Content Multiplier",
-        "stat": "328%",
-        "stat-label": "Page 1 Search Results"
+        "stat": "264%",
+        "stat-label": "Page 1 Keywords"
     },
     {
         "type": "dentistry",
@@ -33,7 +35,8 @@
         "name": "Texas Center For Cosmetic Dentistry",
         "benefits": "Website Management, Content Multiplier",
         "stat": "852%",
-        "stat-label": "Indexed Keywords"
+        "stat-label": "Indexed Keywords",
+        "featured": true
     },
     {
         "type": "dentistry",
@@ -42,7 +45,8 @@
         "name": "Washington Center For Dentistry",
         "benefits": "Website Management, Content Multiplier",
         "stat": "328%",
-        "stat-label": "Page 1 Search Results"
+        "stat-label": "Page 1 Search Results",
+        "featured": true
     },
     {
         "type": "dentistry",

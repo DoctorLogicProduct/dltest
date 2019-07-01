@@ -174,7 +174,8 @@ designs:
 <section class="home-case-studies">
     <h3 class="case-studies__headline">DoctorLogic Works.  Hear From Our Customers.</h3>
     <div class="case-studies__items">
-        {% for item in site.data.case-studies.gallery limit: 4 %}
+        {% for item in site.data.case-studies.gallery %}
+        {% if item.featured == true %}
         <a class="case-studies__item" data-type="{{item.type}}" href="{{item.link}}">
             <div class="card {{item.type}}">
                 <div class="card__image" style="background: url('{{item.img}}');">
@@ -193,6 +194,7 @@ designs:
                 </div>
             </div>
         </a>
+        {% endif %}
         {% endfor %}
     </div>
 </section>

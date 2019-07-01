@@ -1,14 +1,14 @@
 ---
 layout: components
-title: DoctorLogic Lead Generator
-description: "With Opportunities, you can track all incoming inquiries - phone calls, form submissions, chats, and more. Receive real-time alerts as your leads come in."
+title: DoctorLogic Lead Generator - Convert More Patients
+description: "Managing website leads is vital to converting patients. In one dashboard, manage every conversation with new or existing patients, and identify ROI."
 meta_image: "/img/meta/social-reputation.jpg"
 gsap: true
 custom_js: lead-generator
 page_class:
  - class: lead-generator
 product: "lead generator"
-permalink: "/products/lead-generator"
+permalink: "/lead-generator"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "search-amplifier"
@@ -67,4 +67,13 @@ page_sections:
   img: "/img/products/lead-generator/optimized-marketing.jpg"
   alt: "Identify Marketing Success"
   img_alignment: "Left"
+- component: callout
+  component_css: callout
+  class: content-multiplier__callout
+  background: false
+  headline: "Build Better Content, Fast"
+  text: "Content can help build your online presence. Schedule a personalized demo today."
+  btn:
+  - btn-label: "Get a Demo"
+    btn-link: "/form-test"
 ---

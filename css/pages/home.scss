@@ -9,7 +9,7 @@
     padding: 80px 0 40px;
     position: relative;
     height: 60vh;
-    min-height: 700px;
+    min-height: 0;
     background: url('/img/home/home-hero.jpg') right -200px center/cover no-repeat; 
     @include grid;
 
@@ -43,13 +43,19 @@
 
     &__text {
       grid-column: auto / span 24;
-      grid-row: 2 / span 1;
+      grid-row: 1 / span 2;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       padding: 0 20px;
       z-index: 2;
+
+      @include phone-wide-min {
+        grid-row: 2 / span 1;
+         justify-content: flex-start;
+      }
+      
 
       @include tablet-wide-min {
         grid-column: auto / span 16;
@@ -90,7 +96,7 @@
 
   .home-products {
     padding: 80px 5%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 

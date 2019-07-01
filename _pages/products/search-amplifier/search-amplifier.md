@@ -22,8 +22,8 @@ page_sections:
     icon:
     - img: "/img/product-icons/search-amplifier.svg"
       alt: "DoctorLogic Search Amplifier"
-  headline: "Amplify Your Practice with Proven SEO Tactics"
-  text: "Medical practices aspire to dominate their local market and be at the top of Google. With our proven experience executing Medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
+  headline: "Amplify Your Practice with Proven SEO"
+  text: "Practices aspire to dominate their local market and be at the top of Google. With our proven experience executing medical SEO strategies, your website will receive a boost in website traffic, which will result in new patient visits and an increase in revenue."
   btn:
   img: "/img/products/search-amplifier/hero-img.svg"
   alt: "DoctorLogic Search Amplifier"
@@ -77,7 +77,7 @@ page_sections:
   component_css: feature
   class: content-multiplier__feature--2
   headline: "Track SEO Performance<sup>Beta</sup>"
-  text: "Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your digital marketing efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, and the value of your keyword rankings."
+  text: "Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your digital marketing efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, search volume and the value of your keyword rankings."
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   alt: "Track SEO Performance"

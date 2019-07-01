@@ -195,7 +195,7 @@ $spacing: 15px;
         // }
 
         @include tablet-min {
-          grid-row-gap: 0;
+          grid-row-gap: 20px;
           grid-column-gap: 20px;
         }
         
@@ -220,13 +220,13 @@ $spacing: 15px;
                 }
             }
 
-            &:nth-of-type(even) {
-                margin-top: 20px;
-            }
+            // &:nth-of-type(even) {
+            //     margin-top: 20px;
+            // }
 
-            &:nth-of-type(odd) {
-                margin-top: -20px;
-            }
+            // &:nth-of-type(odd) {
+            //     margin-top: -20px;
+            // }
         
         }
         
