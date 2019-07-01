@@ -1,15 +1,14 @@
 ---
 layout: components
-title: DoctorLogic Content Multiplier
-description: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+title: DoctorLogic Content Multiplier - Medical Content Management
+description: "Attract new patients, showcase your results, and define why you're the clear choice provider. Our expert writers do the work. Win at medical content marketing."
 meta_image: "/img/meta/content-multiplier.jpg"
 gsap: true
 custom_js: content-multiplier
 page_class:
   - class: content-multiplier
 product: "content multiplier"
-permalink: "/products/content-multiplier"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+permalink: "/content-multiplier"
 product_nav:
 - product_prev: "website-management"
   product_next: "social-reputation"
@@ -23,7 +22,7 @@ page_sections:
     icon:
     - img: "/img/product-icons/content-multiplier.svg"
       alt: "DoctorLogic Content Multiplier"
-  headline: "Convert visitors to patients with relevant content"
+  headline: "Convert Visitors to Patients With Relevant Content"
   text: "Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. DoctorLogic's Content Multiplier amplifies the most relevant and engaging content pages for patients and search engines."
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
@@ -50,7 +49,7 @@ page_sections:
     headline: "Capture The Lead"
     text: "Don't make it hard on your website visitors to contact your practice. Every gallery page includes a contact form so patients can schedule a consultation."
   btn:
-    - btn-link: "/products/content-multiplier/patient-stories"
+    - btn-link: "/content-multiplier/before-and-after-galleries"
       btn-label: "See How It Works"
 - component: feature-1
   component_css: feature
@@ -84,4 +83,13 @@ page_sections:
   img: "/img/products/content-multiplier/video-integration.jpg"
   alt: "Smarter Video Integration"
   img_alignment: "Left"
+- component: callout
+  component_css: callout
+  class: content-multiplier__callout
+  background: false
+  headline: "Build Better Content, Fast"
+  text: "Content can help build your online presence. Schedule a personalized demo today."
+  btn:
+  - btn-label: "Get a Demo"
+    btn-link: "/form-test"
 ---

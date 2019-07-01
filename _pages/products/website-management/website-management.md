@@ -1,15 +1,14 @@
 ---
 layout: components
-title: DoctorLogic Website Management
-description: "Our team manages your digital marketing so you can focus on your patients."
+title: DoctorLogic Website Management - Medical Website Management
+description: "Our medical website management is 100% HIPAA compliant, includes hosting, maintenance and content changes."
 meta_image: "/img/meta/website-management.jpg"
 gsap: true
 custom_js: website-management
 page_class:
 - class: website-management
 product: "website management"
-permalink: "/products/website-management"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+permalink: "/website-management"
 product_nav:
 - product_prev: "growth-accelerators"
   product_next: "content-multiplier"
@@ -23,7 +22,7 @@ page_sections:
     icon:
     - img: "/img/product-icons/website-engineering.svg"
       alt: "DoctorLogic Website Management"
-  headline: "Modern Medical Websites"
+  headline: "Modern Medical Websites Built To Convert"
   text: "A premium website deserves premium website services. With Website Management, we provide you with simple tools to easily make changes and updates to your website in real-time."
   btn:
   img: "/img/products/website-management/hero-img.svg"
@@ -31,10 +30,10 @@ page_sections:
 - component: image-group
   component_css: image-group
   class: website-management__image-group--1
-  headline: "Medical Websites Built to Convert"
+  headline: "Make The First Impression Count"
   text: "Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice."
   btn:
-  - btn-link: "/products/website-management/website-design/"
+  - btn-link: "/medical-website-design/"
     btn-label: "Discover Our Work"
   items:
   - class: image-group__image--1
@@ -56,8 +55,8 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__website-management
-  headline: "<span>77%</span> of potential patients are using search engines prior to ever booking an appointment"
-  source: "Software Advice"
+  headline: "Judgements on a company’s credibility are <span>75%</span> based on the company’s website design."
+  source: "Web Credibility Research from Stanford"
 - component: feature-1
   component_css: feature
   headline: "Unlimited Pages"
@@ -90,7 +89,7 @@ page_sections:
   class: bob
   background: false
   headline: "Is your website HIPAA secure?"
-  text: "Find out if your website is at risk of leaking your patients' private health information (PHI)."
+  text: "Find out if your website is at risk of sharing your patients' private health information (PHI)."
   form:
     template: forms/email-form.html
     handler:  http://marketing.doctorlogic.com/l/772793/2019-06-25/4sv

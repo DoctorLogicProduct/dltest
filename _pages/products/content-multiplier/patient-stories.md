@@ -1,21 +1,20 @@
 ---
 layout: components
-title: DoctorLogic Patient Stories
+title: DoctorLogic Before & After Galleries
 description: "Help patients visualize how your services can benefit them. Before and After photos on your practice website allows current and prospective patients to see your work and what you can do for them."
 meta_image: "/img/meta/content-multiplier.jpg"
 page_class:
   - class: content-multiplier
   - class: patient-stories
 product: "content multiplier"
-permalink: "/products/content-multiplier/patient-stories"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+permalink: "/content-multiplier/before-and-after-galleries"
 back_page: "content-multiplier"
 page_sections:
 - component: hero-2
   component_css: hero-2
   class: patient-stories-hero
   tagline:
-  - headline: "DoctorLogic Patient Stories"
+  - headline: "DoctorLogic Before & After Galleries"
   headline: "The Better Way to Show Your Work"
   text: "Help patients visualize how your services can benefit them. Before and After photos on your website allow current and prospective patients to see your work and what you can do for them. We make it easy to add hundreds of valuable photos to your medical website."
 - component: feature-1
@@ -36,4 +35,13 @@ page_sections:
   img: "/img/products/content-multiplier/gallery-list.jpg"
   alt: "Search Made Simple"
   img_alignment: "Right"
+- component: callout
+  component_css: callout
+  class: content-multiplier__callout
+  background: false
+  headline: "Start Creating Galleries Today"
+  text: "It's easy to get started. Schedule a personalized demo today."
+  btn:
+  - btn-label: "Get a Demo"
+    btn-link: "/form-test"
 ---

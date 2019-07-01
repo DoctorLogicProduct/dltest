@@ -1,15 +1,14 @@
 ---
 layout: components
-title: DoctorLogic Search Amplifier
-description: "Search Amplifier amplifies your entire brand through the best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data DoctorLogic focuses on delivering visitors that convert into patients."
+title: DoctorLogic Search Amplifier - Medical SEO
+description: "Expert medical SEO strategies proven to boost website traffic, new patient visits, and revenue. Know the exact ROI on your SEO efforts and track your results."
 meta_image: "/img/meta/content-multiplier.jpg"
 gsap: true
 custom_js: search-amplifier
 page_class:
 - class: search-amplifier
 product: "search amplifier"
-permalink: "/products/search-amplifier"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+permalink: "/search-amplifier"
 product_nav:
 - product_prev: "social-reputation"
   product_next: "lead-generator"

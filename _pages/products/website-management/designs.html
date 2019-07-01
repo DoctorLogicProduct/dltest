@@ -3,13 +3,12 @@ layout: default
 description: Our expert design team specializes in building custom healthcare websites that fit your brand and look great on any device.
 meta_image: "/img/meta/website-management.jpg"
 page_name: designs
-permalink: /products/website-management/website-design/
+permalink: /medical-website-design/
 page_class:
   - class: designs
 magnific: true
 gsap: true
 custom_js: designs
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 back_page: website-management
 hero:
   - class: pricing__hero
@@ -18,11 +17,10 @@ hero:
     text: "Our expert design team specializes in building custom healthcare websites that fit your brand and look great on any device. Each beautifully designed medical website is optimized for search performance and converting visitors into patients."
 callout:
   - class: designs__callout
-    headline: lorem ipsum
-    text: Enter Your Website For a Free Website Design Quote
-    subscription:
-      - hs_form_id: 06f56631-a445-49da-89a7-b852166248b1
-
+    headline: We Make Beautiful Websites That Are Designed To Grow Your Practice
+    text: Receive more traffic to your website and appear higher on search engine results with a custom branded website built to perform. Find out the health of your website.
+    btn-link: /form-test.html
+    btn-label: Get Free Analysis
 ---
 
 {% for hero in page.hero %}
@@ -71,32 +69,14 @@ callout:
 
 {% for callout in page.callout %}
 <section class="component callout {{ callout.class }}">
-  <!-- <h3>{{ callout.headline }}</h3> -->
+    <h3>{{ callout.headline }}</h3>
     <p>{{ callout.text }}</p>
-    {% for subscription in callout.subscription %}
-    {% if subscription %}
-    <div class="designs__callout-subscription">
-      <div class="email-form--inline">
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-        <script>
-          hbspt.forms.create({
-            portalId: "2805307",
-            formId: "{{subscription.hs_form_id}}"
-          });
-        </script>
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
+    <a href="{{ callout.btn-link }}" class="btn">{{ callout.btn-label }}</a>
 </section>
 {% endfor %}
 
-<section class="designs__gallery-text">
-  <h3>Custom Designed for Your Brand</h3>
-  <p>A beautifully crafted and thought-out website designed to provide the best user experience will generate new patients and ultimately grow practice revenue.</p>
-</section>
 
-<section class="designs__video">
+<!-- <section class="designs__video">
   
   <div class="designs__video-wrapper">
     <script src="https://fast.wistia.com/embed/medias/qosreeqzk5.jsonp" async></script>
@@ -107,7 +87,7 @@ callout:
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 

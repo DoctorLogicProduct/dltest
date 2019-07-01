@@ -1,14 +1,14 @@
 ---
 layout: components
-title: DoctorLogic Social Reputation
-description: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+title: DoctorLogic Social Reputation - Medical Reputation Management
+description: "Online reputation can make or break your medical practice. Control the narrative. Organize reviews, receive notifications, display your talent like never before."
 meta_image: "/img/meta/social-reputation.jpg"
 gsap: true
 custom_js: social-reputation
 page_class:
 - class: social-reputation
 product: "social reputation"
-permalink: "/products/social-reputation"
+permalink: "/social-reputation"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "content-multiplier"
@@ -25,9 +25,9 @@ page_sections:
       alt: "DoctorLogic Social Reputation"
   headline: "Reputation Management Made Simple"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
-  btn:
-  - btn-label: See How It Works
-    btn-link: #
+  text-link:
+  - text-link-label: See How It Works
+    text-link-link: #
   img: "/img/products/social-reputation/hero-img.svg"
   alt: "DoctorLogic Social Reputation"
 - component: image-group
@@ -111,4 +111,5 @@ page_sections:
   img: "/img/products/social-reputation/review-request-feature.jpg"
   alt: "Proactive Review Building"
   img_alignment: "Left"
+  
 ---

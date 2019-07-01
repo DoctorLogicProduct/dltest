@@ -12,7 +12,7 @@ const scene = new ScrollMagic.Scene({
     triggerElement: '.item-grid__container',
     offset: 0,
     triggerHook: 0, //between 0 an 1
-    duration: '500%'
+    duration: '300%'
 })  
     .setPin('.item-grid__container', { pushFollowers: true })
     .setTween(tl)

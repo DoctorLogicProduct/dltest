@@ -6,7 +6,9 @@
 	{% include {{ section.form.template }} handler=section.form.handler %}
 	</div>
 	{% endif %}
+	{% for btn in section.btn %}
 	{% if section.btn %}
-	<a class="btn {% if section.background == true %} btn--clear {% endif %}" href="{{section.btn-link}}">{{section.btn-label}}</a>
+	<a class="btn {% if section.background == true %} btn--clear {% endif %}" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
 	{% endif %}
+	{% endfor %}
 </section>

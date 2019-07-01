@@ -20,12 +20,18 @@
 	h3 {
 		text-align: center;
 		color: $color-2;
+		margin-bottom: 20px;
 	}
 
 	p {
 		text-align: center;
+		margin: 0 0 20px;
 		color: $color-2;
 		max-width: 1200px;
+	}
+
+	.btn {
+		margin-top: 0;
 	}
 
 	&__websites {
