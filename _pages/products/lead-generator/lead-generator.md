@@ -74,5 +74,5 @@ page_sections:
   text: "Content can help build your online presence. Schedule a personalized demo today."
   btn:
   - btn-label: "Get a Demo"
-    btn-link: "/form-test"
+    btn-link: "/get-a-demo"
 ---

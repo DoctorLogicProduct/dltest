@@ -64,15 +64,6 @@ page_sections:
   img: "/img/products/search-amplifier/online-visibility.jpg"
   alt: "Improve Online Visibility"
   img_alignment: "Left"
-- component: text-component
-  component_css: text-component
-  class: search-amplifier__text-component--2
-  headline:
-  - headline: "Increase Your Search Performance"
-  text: "Search Amplifier champions your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic uses over 15 years experience to deliver visitors that convert into patients."
-  btn:
-  - btn-label: Get Started
-    btn-link: "#scroll-point"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--2
@@ -82,4 +73,13 @@ page_sections:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   alt: "Track SEO Performance"
   img_alignment: "Right"
+- component: text-component
+  component_css: text-component
+  class: search-amplifier__text-component--2
+  headline:
+  - headline: "Increase Your Search Performance"
+  text: "Search Amplifier champions your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic uses over 15 years experience to deliver visitors that convert into patients."
+  btn:
+  - btn-label: Get A Demo
+    btn-link: "/get-a-demo"
 ---

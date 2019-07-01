@@ -90,7 +90,7 @@ page_sections:
   background: false
   headline: "Is your website HIPAA secure?"
   text: "Find out if your website is at risk of sharing your patients' private health information (PHI)."
-  form:
-    template: forms/email-form.html
-    handler:  http://marketing.doctorlogic.com/l/772793/2019-06-25/4sv
+  btn:
+  - btn-label: "Get Free Analysis"
+    btn-link: "/website-analysis"
 ---

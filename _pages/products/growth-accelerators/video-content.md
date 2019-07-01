@@ -1,13 +1,13 @@
 ---
 layout: components
-title: DoctorLogic Video Content
-description: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns."
+title: DoctorLogic Video Content - Healthcare Video Marketing
+description: "Healthcare video marketing establishes trust, builds confidence, and helps you stand out online. Learn how to utilize it to grow your practice and gain a competitive advantage."
 meta_image: "/img/meta/social-reputation.jpg"
 page_class:
 - class: growth-accelerators
 - class: video-content
 product: "growth accelerators"
-permalink: "/products/growth-accelerators/video-content"
+permalink: "/growth-accelerators/video-content"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 back_page: "growth-accelerators"
 page_sections:
@@ -38,7 +38,7 @@ page_sections:
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__growth
-  headline: "Video traffic made up 73% of all internet traffic in 2016. Expect it to be <span>82%</span> by 2021."
+  headline: "Video traffic made up <span>73%</span> of all internet traffic in 2016. Expect it to be <span>82%</span> by 2021."
   source: "Google"
 - component: feature-1
   component_css: feature
@@ -54,4 +54,13 @@ page_sections:
   headline:
   - headline: "Simplify, Educate & Engage"
   text: "Videos can simplify a message and help clients retain 50% more information than text, which is especially useful when educating clients about complex legal issues."
+- component: text-component
+  component_css: text-component
+  class: 
+  headline:
+  - headline: Ready to Schedule Your Shoot?
+  text: "It’s easy. Contact us for package and pricing information"
+  btn:
+  - btn-label: "Let's Get Started"
+    btn-link: "/get-started"
 ---

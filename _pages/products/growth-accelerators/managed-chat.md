@@ -1,13 +1,13 @@
 ---
 layout: components
-title: DoctorLogic Managed Chat
-description: "Our team of seasoned medical content writers blends their talents in medical and digital marketing to deliver custom SEO rich local content. We then use Content Multiplier to amplify the most relevant and engaging content pages for patients and search engines."
+title: DoctorLogic Managed Chat - HIPAA Compliant Chat Solution
+description: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Engage 24/7, convert more visitors, and increase ROI."
 meta_image: "/img/meta/social-reputation.jpg"
 page_class:
 - class: growth-accelerators
 - class: managed-chat
 product: "growth accelerators"
-permalink: "/products/growth-accelerators/managed-chat"
+permalink: "/growth-accelerators/managed-chat"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 back_page: "growth-accelerators"
 page_sections:
@@ -73,7 +73,6 @@ page_sections:
   - headline: Add Managed Chat to Your Website
   text: "It’s easy. Contact us to get started with Managed Chat today."
   btn:
-  - data-scroll: true
-    btn-link: "#scroll-point"
-    btn-label: Get Started
+  - btn-label: "Get a Demo"
+    btn-link: "/get-a-demo"
 ---

@@ -1,13 +1,13 @@
 ---
 layout: components
-title: DoctorLogic Content Marketing
-description: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns."
+title: DoctorLogic Content Marketing - Medical Content Marketing
+description: "Content marketing means creating and sharing valuable free content to attract and convert customers into patients."
 meta_image: "/img/meta/social-reputation.jpg"
 page_class:
 - class: growth-accelerators
 - class: content-marketing
 product: "growth accelerators"
-permalink: "/products/growth-accelerators/content-marketing"
+permalink: "/growth-accelerators/content-marketing"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 back_page: "growth-accelerators"
 page_sections:
@@ -69,7 +69,6 @@ page_sections:
   - headline: Ready to take your PPC Campaigns to the next level?
   text: "It’s easy. Contact us to get started with Paid Advertising today."
   btn:
-  - data-scroll: true
-    btn-link: "#scroll-point"
-    btn-label: Get Started
+  - btn-label: "Get a Demo"
+    btn-link: "/get-a-demo"
 ---

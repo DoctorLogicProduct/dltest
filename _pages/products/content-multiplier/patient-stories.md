@@ -43,5 +43,5 @@ page_sections:
   text: "It's easy to get started. Schedule a personalized demo today."
   btn:
   - btn-label: "Get a Demo"
-    btn-link: "/form-test"
+    btn-link: "/get-a-demo"
 ---

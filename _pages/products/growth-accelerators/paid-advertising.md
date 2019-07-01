@@ -1,6 +1,6 @@
 ---
 layout: components
-title: DoctorLogic Paid Advertising
+title: DoctorLogic Paid Advertising - PPC Campaigns for Medical Practices
 description: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns."
 meta_image: "/img/meta/social-reputation.jpg"
 page_class:
@@ -83,7 +83,6 @@ page_sections:
   - headline: Ready to take your PPC Campaigns to the next level?
   text: "It’s easy. Contact us to get started with Paid Advertising today."
   btn:
-  - data-scroll: true
-    btn-link: "#scroll-point"
-    btn-label: Get Started
+  - btn-label: "Get a Demo"
+    btn-link: "/get-a-demo"
 ---

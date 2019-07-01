@@ -93,15 +93,6 @@ page_sections:
   img: "/img/products/social-reputation/reviews-feature.jpg"
   alt: "Display Testimonials"
   img_alignment: "Right"
-- component: callout
-  component_css: callout
-  background: false
-  class: callout__reputation
-  headline: "Know the state of your reputation"
-  text: "Request your FREE report today."
-  form: 
-    template: forms/email-form.html
-    handler:  http://marketing.doctorlogic.com/l/772793/2019-06-25/4sv
 - component: feature-1
   component_css: feature
   class: social-reputation__feature--3
@@ -111,5 +102,14 @@ page_sections:
   img: "/img/products/social-reputation/review-request-feature.jpg"
   alt: "Proactive Review Building"
   img_alignment: "Left"
+- component: callout
+  component_css: callout
+  background: false
+  class: callout__reputation
+  headline: "Know the state of your reputation"
+  text: "Request your FREE report today."
+  btn:
+  - btn-label: "Get Free Analysis"
+    btn-link: "/website-analysis"
   
 ---
