@@ -18,7 +18,7 @@ tl.to('.image-group__image--6', 2, { y: -250, opacity: 1 }, '-=2');
         triggerElement: '.growth-accelerators__image-group--1',
         offset: -100,
         triggerHook: 0, //between 0 an 1
-        duration: '800%'
+        duration: '300%'
     })
         .setPin('.growth-accelerators__image-group--1', { pushFollowers: true })
         .setTween(tl)
