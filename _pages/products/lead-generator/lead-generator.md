@@ -9,7 +9,6 @@ page_class:
  - class: lead-generator
 product: "lead generator"
 permalink: "/lead-generator"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
 - product_prev: "search-amplifier"
   product_next: "success-insights"
