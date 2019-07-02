@@ -266,6 +266,44 @@
     }
   }
 
+  .home-growth {
+    padding: 0 5% 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    &__headline {
+      
+      h3 {
+        width: 100%;
+        text-align: center;
+      }
+
+    }
+
+    &__icon {
+      padding: 40px 0;
+
+      img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+      }
+
+    }
+
+    &__text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      p {
+        text-align: center;
+        margin-top: 0;
+      }
+    }
+  }
+
   .home-designs {
     padding: 60px 5%;
     max-width: 1300px;
@@ -396,6 +434,65 @@
          }
     }
     
+  }
+
+  .home-industries {
+    padding: 40px 5%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+    &__headline {
+      text-align: center;
+    }
+
+    &__text {
+      text-align: center;
+    }
+
+    &__items {
+      @include grid;
+      padding-top: 30px; 
+    }
+
+    &__item {
+      grid-column: auto / span 24;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+
+      @include tablet-min {
+        grid-column: auto / span 12;
+      }
+
+      @include tablet-wide-min {
+        grid-column: auto / span 6;
+      }
+      
+      
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+    }
+
+    &__item-headline {
+      text-align: center;
+      width: 100%;
+      font-weight: 400;
+    }
+
+    &__item-text {
+      text-align: center;
+    }
+
   }
 
   .home-case-studies {
@@ -540,5 +637,54 @@
         
     }
 }
+
+.home-talent {
+  position: relative;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-attachment: scroll !important;
+
+  @include desktop-sm-min {
+    background-attachment: fixed !important;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color-2;
+    opacity: .85;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__headline {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__text {
+    text-align: center;
+  }
+  
+}
+
 
 }

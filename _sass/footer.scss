@@ -246,6 +246,13 @@ footer {
 				
 				
 			}
+
+			&-phone {
+				margin-bottom: 20px;
+				a {
+					color: $color-2;
+				}
+			}
 		}
 
 		&__bottom {

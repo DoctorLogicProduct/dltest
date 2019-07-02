@@ -68,6 +68,32 @@ for (let i = 0; i < studies.length; i += 1) {
         .addTo(controller3);
 }
 
+// Industries
+
+tl4 = new TimelineMax({ onUpdate: onUpdate });
+const controller4 = new ScrollMagic.Controller();
+
+tl4.from('.home-industries__item--1', 1, { y: 50, opacity: 0 });
+tl4.from('.home-industries__item--2', 1, { y: 50, opacity: 0 });
+tl4.from('.home-industries__item--3', 1, { y: 50, opacity: 0 });
+tl4.from('.home-industries__item--4', 1, { y: 50, opacity: 0 });
+
+
+const scene = new ScrollMagic.Scene({
+    triggerElement: '.home-industries__items',
+    triggerHook: .8, //between 0 an 1
+    duration: '50%'
+})
+    // .setPin('.image-group__container')
+    .setTween(tl4)
+    // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+    .addTo(controller4);
+
+function onUpdate() {
+    //tl.progress();
+    //console.log('bob');
+}
+
 
 
 

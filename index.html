@@ -72,7 +72,7 @@ content."
     img_src: "/img/product-icons/lead-generator.svg"
     img_alt: img
     headline: "Lead<br>Generator"
-    text: "Generate more patient leads and track every online lead source."
+    text: "Generate more leads and track every online lead source."
     btn:
     - btn-link: #
       btn-label: Learn More
@@ -87,8 +87,17 @@ content."
     btn:
     - btn-link: #
       btn-label: Learn More
+growth:
+- headline: "Want To Grow Faster?"
+  img_src: "/img/product-icons/growth-accelerators.svg"
+  img_alt: "DoctorLogic Growth Accelerators"
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus officiis, reprehenderit, ducimus enim
+  dolores eaque repellendus, quam incidunt reiciendis esse neque quisquam dolor a! Rerum libero cumque repudiandae
+  voluptate."
+  btn_link: "/growth-accelerators"
+  btn_label: "Learn More"
 designs:
-- headline: "Stunning, Modern Designs"
+- headline: "Stunning, Modern Designs."
   text: "Custom, responsive and completely future proofed web designs built to win new patients."
   items:
   - class: "image-group__image--1"
@@ -103,6 +112,39 @@ designs:
   btn: 
   - btn-link: "/medical-website-design/"
     btn-label: View Designs
+industries:
+- headline: "Who We Serve"
+  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis voluptatum nostrum cupiditate eius
+  sit maiores quos, aut explicabo suscipit officia. Corporis nihil earum, aliquid pariatur ducimus facere."
+  items:
+  - img_src: "/img/home/industries/aesthetics.svg"
+    img_alt: "Aesthetics"
+    headline: "Aesthetics"
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    btn_link: "#"
+    btn_label: "Learn More"
+    class: "home-industries__item--1"
+  - img_src: "/img/home/industries/dental.svg"
+    img_alt: "Dental"
+    headline: "Dental"
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    btn_link: "#"
+    btn_label: "Learn More"
+    class: "home-industries__item--2"
+  - img_src: "/img/home/industries/vision.svg"
+    img_alt: "Vision"
+    headline: "Vision"
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    btn_link: "#"
+    btn_label: "Learn More"
+    class: "home-industries__item--3"
+  - img_src: "/img/home/industries/enterprise.svg"
+    img_alt: "Enterprise"
+    headline: "Enterprise"
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    btn_link: "#"
+    btn_label: "Learn More"
+    class: "home-industries__item--4"
 ---
 
 {% for hero in page.hero %}
@@ -153,6 +195,20 @@ designs:
 </section>
 {% endfor %}
 
+{% for growth in page.growth %}
+<section class="home-growth">
+    <div class="home-growth__headline">
+        <h3>{{ growth.headline }}</h3>
+    </div>
+    <div class="home-growth__icon">
+        <img src="{{ growth.img_src }}" alt="{{ growth.img_alt }}">
+    </div>
+    <div class="home-growth__text">
+        <p>{{ growth.text }}</p>
+        <a href="{{ growth.btn_link }}" class="btn">{{ growth.btn_label }}</a>
+    </div>
+</section>
+{% endfor %}
 
 {% for designs in page.designs %}
 <section class="home-designs__image-group">
@@ -168,6 +224,23 @@ designs:
     {% for btn in designs.btn %}
     <a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
     {% endfor %}
+</section>
+{% endfor %}
+
+{% for industry in page.industries %}
+<section class="home-industries">
+    <h3 class="home-industries__headline">{{ industry.headline }}</h3>
+    <p class="home-industries__text">{{ industry.text }}</p>
+    <div class="home-industries__items">
+        {% for item in industry.items %}
+        <div class="home-industries__item {{ item.class }}">
+            <img src="{{ item.img_src }}" alt="{{ item.img_alt }}" class="home-industries__item-img">
+            <h4 class="home-industries__item-headline">{{ item.headline }}</h4>
+            <p class="home-industries__item-text">{{ item.text }}</p>
+            <a href="{{ item.btn_link }}" class="text-link">{{ item.btn_label }}</a>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 {% endfor %}
 
@@ -196,5 +269,13 @@ designs:
         </a>
         {% endif %}
         {% endfor %}
+    </div>
+</section>
+
+<section class="home-talent" style="background: url('/img/home/talent.jpg');">
+    <div class="home-talent__container">
+        <h3 class="home-talent__headline">Technology + Talent = DoctorLogic</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum itaque aut nulla consequatur ducimus sunt. Repellat ducimus neque harum.</p>
+        <a href="/company" class="btn">About Us</a>
     </div>
 </section>
