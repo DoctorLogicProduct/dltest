@@ -70,7 +70,7 @@ for (let i = 0; i < studies.length; i += 1) {
 
 // Industries
 
-tl4 = new TimelineMax({ onUpdate: onUpdate });
+tl4 = new TimelineMax();
 const controller4 = new ScrollMagic.Controller();
 
 tl4.from('.home-industries__item--1', 1, { y: 50, opacity: 0 });
@@ -79,7 +79,7 @@ tl4.from('.home-industries__item--3', 1, { y: 50, opacity: 0 });
 tl4.from('.home-industries__item--4', 1, { y: 50, opacity: 0 });
 
 
-const scene = new ScrollMagic.Scene({
+const scene4 = new ScrollMagic.Scene({
     triggerElement: '.home-industries__items',
     triggerHook: .8, //between 0 an 1
     duration: '50%'
@@ -89,10 +89,24 @@ const scene = new ScrollMagic.Scene({
     // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
     .addTo(controller4);
 
-function onUpdate() {
-    //tl.progress();
-    //console.log('bob');
-}
+
+// Growth Accelerators
+
+tl5 = new TimelineMax();
+const controller5 = new ScrollMagic.Controller();
+
+tl5.from('.home-growth__icon', 1, { rotationY: 360 });
+
+
+const scene5 = new ScrollMagic.Scene({
+    triggerElement: '.home-growth',
+    triggerHook: .8, //between 0 an 1
+    duration: '50%'
+})
+    // .setPin('.image-group__container')
+    .setTween(tl5)
+    // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+    .addTo(controller5);
 
 
 
