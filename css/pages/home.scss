@@ -270,6 +270,11 @@
     padding: 0 5% 60px;
     max-width: 1300px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &__headline {
       
@@ -296,6 +301,8 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      flex-direction: column;
+      align-items: center;
 
       p {
         text-align: center;
@@ -673,6 +680,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 900px;
   }
 
   &__headline {
@@ -680,7 +688,7 @@
     text-align: center;
   }
 
-  &__text {
+  p {
     text-align: center;
   }
   
