@@ -267,7 +267,7 @@
   }
 
   .home-growth {
-    padding: 0 5% 60px;
+    padding: 0 5% 80px;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -312,9 +312,7 @@
   }
 
   .home-designs {
-    padding: 60px 5%;
-    max-width: 1300px;
-    margin: 0 auto;
+    background: #f7f6f6;
 
     &__text {
       display: flex;
@@ -330,10 +328,12 @@
     }
 
     &__image-group {
-        padding: 20px 0 40px;
+        padding: 20px 20px 40px;
+        max-width: 1300px;
+        margin: 0 auto;
 
         @include tablet-wide-min {
-          padding: 60px 0;
+          padding: 80px 0;
         }
         
         
@@ -444,7 +444,7 @@
   }
 
   .home-industries {
-    padding: 40px 5%;
+    padding: 80px 5% 40px;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;

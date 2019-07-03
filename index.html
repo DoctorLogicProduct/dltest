@@ -208,19 +208,21 @@ industries:
 {% endfor %}
 
 {% for designs in page.designs %}
-<section class="home-designs__image-group">
-    <h3 class="image-group__headline">{{ designs.headline }}</h3>
-    <p class="image-group__text">{{ designs.text }}</p>
-    <div class="image-group__container">
-        {% for item in designs.items %}
-        <div class="image-group__image {{ item.class }}">
-            <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+<section class="home-designs">
+    <div class="home-designs__image-group">
+        <h3 class="image-group__headline">{{ designs.headline }}</h3>
+        <p class="image-group__text">{{ designs.text }}</p>
+        <div class="image-group__container">
+            {% for item in designs.items %}
+            <div class="image-group__image {{ item.class }}">
+                <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+            </div>
+            {% endfor %}
         </div>
+        {% for btn in designs.btn %}
+        <a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
         {% endfor %}
     </div>
-    {% for btn in designs.btn %}
-    <a href="{{ btn.btn-link }}" class="btn">{{ btn.btn-label }}</a>
-    {% endfor %}
 </section>
 {% endfor %}
 
