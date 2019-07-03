@@ -1,0 +1,350 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.careers {
+
+  .hero-1 {
+    padding: 80px 0 40px;
+    position: relative;
+    height: 60vh;
+    min-height: 0;
+    background: url('/img/company/careers/careers-hero.jpg') right -200px center/cover no-repeat; 
+    @include grid;
+
+    @include phone-wide-min {
+      background: url('/img/company/careers/careers-hero.jpg') right center/cover no-repeat;
+      min-height: 800px;
+      height: 80vh;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $color-2;
+      opacity: .9;
+      display: block;
+      
+    }
+
+    &__text {
+      grid-column: auto / span 24;
+      grid-row: 1 / span 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      z-index: 2;
+      max-width: 1300px;
+      margin: 0 auto;
+
+      h5 {
+        color: $websites;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 100%;
+        font-size: 1.7rem;
+
+        @include tablet-min {
+          font-size: 3.1vw;
+        }
+      }
+
+      h1,
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .careers-intro {
+    padding: 60px 5%;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    &__headline {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__text {
+      text-align: center;
+    }
+
+  }
+
+  .careers-values {
+    padding: 0 5% 60px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    &__headline {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__items {
+      @include grid;
+      padding: 40px 0; 
+    }
+
+    &__item {
+      grid-column: auto / span 24;
+      padding: 20px;
+      position: relative;
+      min-height: 350px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      @include tablet-min {
+        grid-column: auto / span 12;
+      }
+
+      @include desktop-sm-min {
+        grid-column: auto / span 8;
+      }
+      
+      
+
+      &--1 {
+        background: $gradient-website-management;
+
+        &::after {
+          content: '1';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+      &--2 {
+        background: $gradient-content-multiplier;
+
+        &::after {
+          content: '2';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+      &--3 {
+        background: $gradient-social-reputation;
+
+        &::after {
+          content: '3';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+      &--4 {
+        background: $gradient-lead-generator;
+
+        &::after {
+          content: '4';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+      &--5 {
+        background: $gradient-search-amplifier;
+
+        &::after {
+          content: '5';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+      &--6 {
+        background: $gradient-success-insights;
+
+        &::after {
+          content: '6';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 12rem;
+          font-weight: 400;
+          opacity: .15;
+          color: $color-2;
+        }
+      }
+
+    }
+
+    &__item-headline {
+      text-align: center;
+      font-weight: 400;
+      color: $color-2;
+      position: relative;
+      margin: 0;
+      font-size: 2rem;
+    }
+    
+  }
+
+  .careers-benefits {
+    padding: 0 5% 60px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    &__headline {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__items {
+      @include grid; 
+      padding: 40px 0;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    &__item {
+      grid-column: auto / span 24;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+
+      @include tablet-min {
+        grid-column: auto / span 12;
+      }
+
+      @include desktop-sm-min {
+        grid-column: auto / span 8;
+      }
+      
+      
+    }
+
+    &__item-img {
+      width: 60px;
+      height: 60px;
+    }
+
+    &__item-text {
+      text-align: center;
+    }
+  }
+
+  .careers-team {
+    padding: 0 5% 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__headline {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      text-align: center;
+    }
+  }
+
+  .careers-jobs {
+    padding: 0 5% 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .BambooHR-ATS-board h2 {
+      font-size: 1.5rem;
+      line-height: 1;
+      text-align: center;
+      margin: 20px 0 0;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+      color: $color-1;
+      border-bottom: 0px !important;
+
+      @include desktop-sm-min {
+        font-size: 1.9rem;
+      }
+      
+    }
+
+    .BambooHR-ATS-board li {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+      color: $color-1;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .BambooHR-ATS-board a {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+
+    .BambooHR-ATS-board .BambooHR-ATS-Location {
+      font-size: 1rem;
+    }
+  }
+
+  
+
+}

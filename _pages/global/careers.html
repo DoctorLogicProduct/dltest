@@ -1,0 +1,126 @@
+---
+layout: default
+page_name: careers
+permalink: /careers
+gsap: true
+page_class:
+- class: careers
+custom_js: careers
+hero:
+- class: home__hero
+  tagline: Work at DoctorLogic
+  headline: DoctorLogic Careers
+  text: "We’re excited about the challenges that lie ahead in this industry. Guided by our six core values, we’ll meet these
+  challenges as a team."
+  img: "/img/products/website-management/hero-img.svg"
+  btn:
+  - btn-label: Explore Roles
+intro:
+- headline: "Grow Your Career With DoctorLogic"
+  text: "It’s an incredibly rewarding and bold mission our team is dedicated to achieving. We exist to help doctors become more
+  successful through our best-in-class digital marketing software platform while providing top-notch service."
+values:
+- headline: "Our Core Values"
+  items:
+  - headline: "Have a<br>Servant's Heart"
+    class: "careers-values__item--1"
+  - headline: "Be Honest<br>and Transparent"
+    class: "careers-values__item--2"
+  - headline: "Make Mistakes<br>Valuable"
+    class: "careers-values__item--3"
+  - headline: "Take<br>Ownership"
+    class: "careers-values__item--4"
+  - headline: "Respect<br>Others"
+    class: "careers-values__item--5"
+  - headline: "Improve<br>Something Today"
+    class: "careers-values__item--6"
+benefits:
+- headline: "We Want Our Team To Be Healthy and Happy, We Offer..."
+  items:
+  - img_src: "/img/company/careers/health.svg"
+    img_alt: "Competitive Health Packages"
+    text: "Competitive health packages to keep you healthy and happy."
+  - img_src: "/img/company/careers/401k.svg"
+    img_alt: "401K Matching"
+    text: "Invested in your future with 401k match."
+  - img_src: "/img/company/careers/games.svg"
+    img_alt: "Employee Activities."
+    text: "Lots of video games, team outings, and fierce ping pong battles."
+  - img_src: "/img/company/careers/coffee.svg"
+    img_alt: "Fully stocked kitchen."
+    text: "Fully stocked kitchen with snacks and drinks."
+  - img_src: "/img/company/careers/gym.svg"
+    img_alt: "Gym memebership reimbursement."
+    text: "Get your flex on with monthly gym membership reimbursement."
+  - img_src: "/img/company/careers/birthday.svg"
+    img_alt: "Birthdays off."
+    text: "Your birthday off (we’re so glad you were born)."
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+  <div class="hero-1__text">
+    <h5>{{hero.tagline}}</h5>
+    <h1>{{hero.headline}}</h1>
+    <p>{{hero.text}}</p>
+    {% for btn in hero.btn %}
+    {% if hero.btn %}
+    <a class="btn" data-scroll href="#job-listings">{{btn.btn-label}}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+{% for intro in page.intro %}
+<section class="careers-intro">
+  <h3 class="careers-intro__headline">{{ intro.headline }}</h3>
+  <p class="careers-intro__text">{{ intro.text }}</p>
+</section>
+{% endfor %}
+
+
+{% for values in page.values %}
+<section class="careers-values">
+  <h3 class="careers-values__headline">{{ values.headline }}</h3>
+  <div class="careers-values__items">
+    {% for item in values.items %}
+    <div class="careers-values__item {{ item.class }}">
+      <h4 class="careers-values__item-headline">{{ item.headline }}</h4>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+{% for benefits in page.benefits %}
+<section class="careers-benefits">
+  <h3 class="careers-benefits__headline">{{ benefits.headline }}</h3>
+  <div class="careers-benefits__items">
+    {% for item in benefits.items %}
+    <div class="careers-benefits__item">
+      <img src="{{ item.img_src }}" alt="{{ item.img_alt }}" class="careers-benefits__item-img">
+      <p class="careers-benefits__item-text">{{ item.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<section class="careers-team">
+  <h3 class="careers-team__headline">We're A Family</h3>
+  <img src="/img/company/careers/team.jpg" alt="The DoctorLogic Team">
+  <div class="careers-team__text">
+    <p>We’re a small tight-knit team and truly believe family and personal life are valuable. We care about our co-workers and
+    their families which is why we get together with family and friends for parties and celebrate all we accomplish - as a
+    team.</p>
+    <p>Join us in changing the digital landscape for healthcare providers. Take a look at our current opportunities.</p>
+  </div>
+</section>
+
+<section class="careers-jobs" id="job-listings">
+  <div class="careers-jobs__listings">
+    <script src="//strategysearch.bamboohr.com/js/jobs2.php" type="text/javascript"></script>
+  </div>
+</section>
+
