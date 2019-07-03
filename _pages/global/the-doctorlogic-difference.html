@@ -1,0 +1,151 @@
+---
+layout: default
+page_name: the-doctorlogic-difference
+permalink: /the-doctorlogic-difference
+gsap: true
+page_class:
+- class: difference
+custom_js: difference
+hero:
+- class: home__hero
+  tagline: More that just a website
+  headline: The Doctorlogic Difference
+  text: "Lorem ipsum delor lorem ipsum delor sit amet lorem delor."
+  img: "/img/products/website-management/hero-img.svg"
+  btn:
+  - btn-label: Explore Roles
+intro:
+- headline: "We Work Hard To Reach Your Goals"
+  text: "We’re in the business of helping your practice grow through patient acquisition and we want to prove it. Our goal is to simplify the digital marketing process for providers and their staff and produce results, so you can accomplish your goal of acquiring new patients."
+redesign:
+- headline: "Stay Ahead of Website Changes"
+  text: "Keep your online brand fresh and up-to-date with a free website redesign every two years of being a partner with DoctorLogic."
+  img: "/img/company/difference/redesign.jpg"
+  alt: "Redesign Every 2 Years"
+updates:
+- headline: "Unlimited Technology Updates"
+  text: "Our website marketing platform is constantly upgrading to improve overall performance and keep up with how today’s patients shop online. With unlimited technology upgrades, you never have to worry if your website is up to date."
+  img: "/img/company/difference/updates.jpg"
+  alt: "Technology Updates"
+analytics:
+- headline: "Robust, Transparent Analytics"
+  graph: "svg/analytics.html"
+  text: "Our platform includes a suite of real-time analytic tools that make it easy for you to see how your website is performing. Have full access to how many leads you’ve received, how many visitors landed on your website, which procedure was viewed the most and where the patients are coming from."
+unlimited:
+- headline: "Unlimited Content"
+  text: "We never limit the number of pages you can create for your website. In fact, we’re constantly using your procedures, profiles, reviews, photo galleries, and more to create and optimize new pages for search engines. It’s simple. The more content you have, the more you’re increasing your digital footprint. The larger your digital footprint, the more patients you can target."
+  img: "/img/company/difference/unlimited-pages.jpg"
+  alt: "Unlimted content and pages"
+secure:
+- headline: "100% HIPAA Secure"
+  text: "Every aspect of the platform - where we host your site, how you add galleries, the forms your visitors fill in - are all 100% HIPAA compliant. You won’t have to worry about your patients’ private health information (PHI) being exposed by emailing your web vendor."
+success:
+- headline: "Your Team, Your Success"
+  text: "When you work with DoctorLogic you will work with experts who know how to deliver the best healthcare marketing results. Many have years of marketing experience working exclusively with doctors. Your success is our success which is why your dedicated Customer Success Manager will provide insight into how to effectively grow your practice."
+  img: "/img/company/difference/success.jpg"
+  alt: "Unlimted content and pages"
+
+callout:
+- headline: Ready To See The Difference?
+  text: It's easy to get started.  Schedule a one-on-one demo with a sales representative today.
+  btn-link: /get-a-demo.html
+  btn-label: Get a Demo
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+  <div class="hero-1__text">
+    <h5>{{hero.tagline}}</h5>
+    <h1>{{hero.headline}}</h1>
+    <p>{{hero.text}}</p>
+  </div>
+</section>
+{% endfor %}
+
+{% for intro in page.intro %}
+<section class="difference-intro">
+  <h3 class="difference-intro__headline">{{ intro.headline }}</h3>
+  <p class="difference-intro__text">{{ intro.text }}</p>
+</section>
+{% endfor %}
+
+{% for redesign in page.redesign %}
+<section class="difference__feature difference__feature--1">
+  <div class="difference__feature-text">
+    <h3>{{ redesign.headline }}</h3>
+    <p>{{ redesign.text }}</p>
+  </div>
+  <div class="difference__feature-image">
+    <div class="difference__feature-image-wrapper">
+      <img src="{{ redesign.img }}" alt="{{ redesign.alt }}">
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for updates in page.updates %}
+<section class="difference__feature difference__feature--2">
+  <div class="difference__feature-text">
+    <h3>{{ updates.headline }}</h3>
+    <p>{{ updates.text }}</p>
+  </div>
+  <div class="difference__feature-image">
+    <div class="difference__feature-image-wrapper">
+      <img src="{{ updates.img }}" alt="{{ updates.alt }}">
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for analytics in page.analytics %}
+<section class="difference-analytics">
+  <h3 class="difference-analytics__headline">{{ analytics.headline }}</h3>
+  <div class="difference-analytics__graph">
+    {% include {{ analytics.graph }} %}
+  </div>
+  <p class="difference-analytics__text">{{ analytics.text }}</p>
+</section>
+{% endfor %}
+
+{% for unlimited in page.unlimited %}
+<section class="difference__feature difference__feature--3">
+  <div class="difference__feature-text">
+    <h3>{{ unlimited.headline }}</h3>
+    <p>{{ unlimited.text }}</p>
+  </div>
+  <div class="difference__feature-image">
+    <div class="difference__feature-image-wrapper">
+      <img src="{{ unlimited.img }}" alt="{{ unlimited.alt }}">
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for secure in page.secure %}
+<section class="difference-secure">
+  <h3 class="difference-secure__headline">{{ secure.headline }}</h3>
+  <p class="difference-secure__text">{{ secure.text }}</p>
+</section>
+{% endfor %}
+
+{% for success in page.success %}
+<section class="difference__feature difference__feature--4">
+  <div class="difference__feature-text">
+    <h3>{{ success.headline }}</h3>
+    <p>{{ success.text }}</p>
+  </div>
+  <div class="difference__feature-image">
+    <div class="difference__feature-image-wrapper">
+      <img src="{{ success.img }}" alt="{{ success.alt }}">
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for callout in page.callout %}
+<section class="difference-callout">
+  <h3>{{ callout.headline }}</h3>
+  <p>{{ callout.text }}</p>
+  <a href="{{ callout.btn-link }}" class="btn">{{ callout.btn-label }}</a>
+</section>
+{% endfor %}
