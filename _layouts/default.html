@@ -37,6 +37,12 @@
 
 {% if page.magnific == true %}
 <script src="{{ base }}/js/jquery.magnific-popup.js"></script>
+
+<script>
+	$('.popup-link').magnificPopup({
+			type: 'image'
+		});
+</script>
 {% endif %}
 
 {% if page.custom_js %}

@@ -5,6 +5,7 @@ description: "Online reputation can make or break your medical practice. Control
 meta_image: "/img/meta/social-reputation.jpg"
 nofollow: false
 gsap: true
+magnific: true
 custom_js: social-reputation
 page_class:
 - class: social-reputation
@@ -26,9 +27,9 @@ page_sections:
       alt: "DoctorLogic Social Reputation"
   headline: "Reputation Management Made Simple"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
-  text-link:
-  - text-link-label: See How It Works
-    text-link-link: #
+  wistia-link:
+  - wistia-link-label: See How It Works
+    wistia-link-id: w7jgkunbv9
   img: "/img/products/social-reputation/hero-img.svg"
   alt: "DoctorLogic Social Reputation"
 - component: image-group

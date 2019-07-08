@@ -18,6 +18,8 @@ history:
 - headline: "About DoctorLogic"
   text-1: "DoctorLogic was formed officially in May of 2013 - but in many ways the history and culture of our company goes back much, much further. The founders of the company, Stuart Lloyd and Ray Myers have worked together building successful companies since 1999."
   text-2: "DoctorLogic provides online marketing tools for the medical industry, primarily to specialty doctors and dentists who own their practice. We offer custom website designs, as well as market proven design options and have created a digital marketing platform that allows users to manage leads, website content, PPC, reputation, galleries, and SEO while providing website analytics from a single, web-based software program."
+  wistia-link-id: w7jgkunbv9
+  wistia-link-label: Watch Video
   items:
   - class: image-group__image--1
     img_src: "/img/product-icons/with-labels/website-management-label.svg"
@@ -87,6 +89,10 @@ results:
     </div>
   </div>
   <p>{{ history.text-2 }}</p>
+  <script src="https://fast.wistia.com/embed/medias/{{history.wistia-link-id}}.jsonp" async></script>
+  <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
+    class="wistia_embed wistia_async_{{history.wistia-link-id}} popover=true popoverContent=link"
+    style="display:inline;position:relative"><a class="text-link" href="#">{{history.wistia-link-label}}</a></span>
 </section>
 {% endfor %}
 
