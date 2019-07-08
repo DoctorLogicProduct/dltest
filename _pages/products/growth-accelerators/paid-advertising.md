@@ -8,15 +8,14 @@ page_class:
 - class: growth-accelerators
 - class: paid-advertising
 product: "growth accelerators"
-permalink: "/products/growth-accelerators/paid-advertising"
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
+permalink: "/growth-accelerators/paid-advertising"
 back_page: "growth-accelerators"
 page_sections:
 - component: hero-2
   component_css: hero-2
   class: paid-advertising__hero
   tagline:
-  - headline: "DoctorLogic Paid Advertising"
+  - headline: "Paid Advertising"
   headline: "Expand Your Digital Footprint"
   text: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns. We produce 10X more keyword patterns than the competition to outperform other ads. Paired with a DoctorLogic website, it's a perfect fit to ensure your practice is visible on search engine result pages."
   btn:
@@ -77,11 +76,11 @@ page_sections:
   img: /img/products/growth-accelerators/google-partner.jpg
   alt: "Certified Google Partner"
   img_alignment: Right
-- component: text-component
-  component_css: text-component
-  class: paid-advertising__text-component
-  headline:
-  - headline: Ready to take your PPC Campaigns to the next level?
+- component: callout
+  component_css: callout
+  class: bob
+  background: false
+  headline: "Ready to take your PPC Campaigns to the next level?"
   text: "It’s easy. Contact us to get started with Paid Advertising today."
   btn:
   - btn-label: "Get a Demo"

@@ -272,11 +272,6 @@
 
 
     &__feature--2 {
-        padding-bottom: 40px;
-
-        @include tablet-min {
-          padding-bottom: 60px;
-        }
-        
+        padding-bottom: 60px; 
     }
 }

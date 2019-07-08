@@ -18,6 +18,9 @@ hero:
   btn: 
   - btn-link: /get-a-demo
     btn-label: Get A Demo
+  text-link:
+  - wistia-link-id: w7jgkunbv9
+    wistia-link-label: Watch Video
 products:
 - headline: "One Company. One Solution. Unlimited Results."
   text: "Imagine one solution created to improve patient experiences and help grow your practice’s online presence. DoctorLogic offers the most advanced Website Marketing Platform built to help increase new patients by using Before and After Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x Google-friendly
@@ -104,47 +107,53 @@ designs:
     img_src: "/img/home/designs/1.png"
     img_alt: img
   - class: "image-group__image--2"
-    img_src: "/img/home/designs/1.png"
+    img_src: "/img/home/designs/2.png"
     img_alt: img
   - class: "image-group__image--3"
-    img_src: "/img/home/designs/1.png"
+    img_src: "/img/home/designs/3.png"
     img_alt: img
   btn: 
   - btn-link: "/medical-website-design/"
     btn-label: View Designs
 industries:
 - headline: "Who We Serve"
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis voluptatum nostrum cupiditate eius
-  sit maiores quos, aut explicabo suscipit officia. Corporis nihil earum, aliquid pariatur ducimus facere."
+  text: "Our customized services were built to effectively serve the following specialities:"
   items:
   - img_src: "/img/home/industries/aesthetics.svg"
     img_alt: "Aesthetics"
     headline: "Aesthetics"
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    text: "Plastic Surgery, Cosmetic Surgery, Dermatologists, Medical Spas"
     btn_link: "#"
     btn_label: "Learn More"
     class: "home-industries__item--1"
   - img_src: "/img/home/industries/dental.svg"
     img_alt: "Dental"
     headline: "Dental"
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    text: "Cosmetic Dentists, General Dentists, Orthodontists"
     btn_link: "#"
     btn_label: "Learn More"
     class: "home-industries__item--2"
   - img_src: "/img/home/industries/vision.svg"
     img_alt: "Vision"
     headline: "Vision"
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    text: "Ophthalmologist, Optometrist, Orthodontist"
     btn_link: "#"
     btn_label: "Learn More"
     class: "home-industries__item--3"
   - img_src: "/img/home/industries/enterprise.svg"
     img_alt: "Enterprise"
     headline: "Enterprise"
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ex tenetur officiis."
+    text: "Large medical and dental groups with multiple facilities"
     btn_link: "#"
     btn_label: "Learn More"
     class: "home-industries__item--4"
+talent:
+  - background: "/img/home/talent.jpg"
+    headline: "Technology + Talent = DoctorLogic"
+    text: "You want a parter who’s there to make your life simple and takes the guesswork out of healthcare marketing. DoctorLogic
+    is fully invested in your practice’s success. Our priority is you."
+    btn_link: "/company"
+    btn_label: "About Us"
 ---
 
 {% for hero in page.hero %}
@@ -153,11 +162,19 @@ industries:
         <h5>{{hero.tagline}}</h5>
         <h1>{{hero.headline}}</h1>
         <p>{{hero.text}}</p>
-        {% for btn in hero.btn %}
-            {% if hero.btn %}
-            <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
-            {% endif %}
-        {% endfor %}
+        <div class="hero-1__btn-container">
+            {% for btn in hero.btn %}
+                {% if hero.btn %}
+                <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+                {% endif %}
+            {% endfor %}
+            {% for text-link in hero.text-link %}
+            <script src="https://fast.wistia.com/embed/medias/{{text-link.wistia-link-id}}.jsonp" async></script>
+            <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
+            class="wistia_embed wistia_async_{{text-link.wistia-link-id}} popover=true popoverContent=link"
+            style="display:inline;position:relative"><a class="play-link" href="#">{{text-link.wistia-link-label}}</a></span>
+            {% endfor %}
+        </div>
     </div>
 </section>
 {% endfor %}
@@ -239,7 +256,7 @@ industries:
             <img src="{{ item.img_src }}" alt="{{ item.img_alt }}" class="home-industries__item-img">
             <h4 class="home-industries__item-headline">{{ item.headline }}</h4>
             <p class="home-industries__item-text">{{ item.text }}</p>
-            <a href="{{ item.btn_link }}" class="text-link">{{ item.btn_label }}</a>
+            <!-- <a href="{{ item.btn_link }}" class="text-link">{{ item.btn_label }}</a> -->
         </div>
         {% endfor %}
     </div>
@@ -274,10 +291,12 @@ industries:
     </div>
 </section>
 
-<section class="home-talent" style="background: url('/img/home/talent.jpg');">
+{% for talent in page.talent %}
+<section class="home-talent" style="background: url('{{ talent.background }}');">
     <div class="home-talent__container">
-        <h3 class="home-talent__headline">Technology + Talent = DoctorLogic</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum itaque aut nulla consequatur ducimus sunt. Repellat ducimus neque harum.</p>
-        <a href="/company" class="btn">About Us</a>
+        <h3 class="home-talent__headline">{{ talent.headline }}</h3>
+        <p>{{ talent.text }}</p>
+        <a href="{{ talent.btn_link }}" class="btn">{{ talent.btn_label }}</a>
     </div>
 </section>
+{% endfor %}

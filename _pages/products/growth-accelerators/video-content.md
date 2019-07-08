@@ -16,7 +16,7 @@ page_sections:
   component_css: hero-2
   class: video-content__hero
   tagline:
-  - headline: "DoctorLogic Video Content"
+  - headline: "Video Content"
   headline: "Increase Visibility with Video"
   text: "It’s no secret. The use of video in marketing plans is on the rise. Video has been proven to attract more consumer attention than any other medium. It can be used as a method to build awareness about your practice, as a content tool to grow your patient base, or to showcase you as an expert in your field."
   btn:
@@ -55,11 +55,11 @@ page_sections:
   headline:
   - headline: "Simplify, Educate & Engage"
   text: "Videos can simplify a message and help clients retain 50% more information than text, which is especially useful when educating clients about complex legal issues."
-- component: text-component
-  component_css: text-component
-  class: 
-  headline:
-  - headline: Ready to Schedule Your Shoot?
+- component: callout
+  component_css: callout
+  class: bob
+  background: false
+  headline: "Ready to Schedule Your Shoot?"
   text: "It’s easy. Contact us for package and pricing information"
   btn:
   - btn-label: "Let's Get Started"

@@ -10,6 +10,9 @@
             <div class="feature__product-icon" style="background: url({{ icon.icon }})"></div>
             {% endif %}
         {% endfor %}
+        {% if section.tagline %}
+            <h5>{{ section.tagline }}</h5>
+        {% endif %}
         <h3>{{ section.headline }}</h3>
         <p>{{ section.text }}</p>
         {% for btn in section.btn %}

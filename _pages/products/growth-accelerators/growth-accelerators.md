@@ -31,6 +31,7 @@ page_sections:
 - component: image-group
   component_css: image-group
   class: growth-accelerators__image-group--1
+  tagline: "Managed Chat"
   headline: "Dedicated Managed Chat"
   text: "Your website is a lead generation engine and you have visitors coming in all the time. With Managed Chat, never miss a conversation and convert your valuable website traffic into leads."
   btn:
@@ -63,6 +64,7 @@ page_sections:
     alt-text: "DoctorLogic Managed Chat"      
 - component: feature-1
   component_css: feature
+  tagline: "Paid Advertising"
   headline: "Increase Reach With Paid Advertising"
   class: growth-accelerators__feature--1
   text: "As more and more patients turn to search engines to find a doctor or more information on a certain medical procedure, it’s important to be where they’re looking. With Paid Advertising we can build targeted online campaigns that achieve maximum ROI for your medical practice."
@@ -74,6 +76,7 @@ page_sections:
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
+  tagline: "Content Marketing"
   headline: "Healthcare Content Marketing"
   class: growth-accelerators__feature--2
   text: "The driver behind many elements of a successful marketing plan is Content Marketing. Content is essential to introducing patients to your practice with educational information and can dramatically impact your organic search results, SEO, rankings and keywords."
@@ -85,6 +88,7 @@ page_sections:
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
+  tagline: "Video Production"
   headline: "Build Trust With Video"
   class: growth-accelerators__feature--3
   text: "Video has been proven to attract more consumer attention than any other medium. To really stand out from your competition, build trust and increase traffic to your website, video should be part of your marketing strategy."

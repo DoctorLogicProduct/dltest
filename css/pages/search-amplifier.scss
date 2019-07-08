@@ -107,7 +107,7 @@
                 
 
                 @include desktop-sm-min {
-                  height: 40vw;
+                  height: 45vw;
                 }
 
                 @include desktop-min {
@@ -208,11 +208,7 @@
     }
 
     &__feature--2 {
-        padding-bottom: 0; 
-    }
-
-    &__text-component--2 {
-        padding-bottom: 40px;
+        padding-bottom: 60px; 
     }
 
 

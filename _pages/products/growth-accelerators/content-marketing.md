@@ -16,7 +16,7 @@ page_sections:
   component_css: hero-2
   class: content-marketing__hero
   tagline:
-  - headline: "DoctorLogic Content Marketing"
+  - headline: "Content Marketing"
   headline: "Grow Your Practice with Content Marketing"
   text: "With one in 20 Google searches being health related, it’s no wonder healthcare providers are implementing content marketing. Grow your website’s content, rankings, and keywords with premium blogs written by Google-savvy medical copywriters."
   btn:
@@ -63,13 +63,13 @@ page_sections:
   img: /img/products/growth-accelerators/content-marketing/active-reporting.jpg
   alt: "Active Reporting"
   img_alignment: Right
-- component: text-component
-  component_css: text-component
-  class: content-marketing__text-component
-  headline:
-  - headline: Ready to take your PPC Campaigns to the next level?
-  text: "It’s easy. Contact us to get started with Paid Advertising today."
+- component: callout
+  component_css: callout
+  class: bob
+  background: false
+  headline: "Use Content Marketing To Generate Leads"
+  text: "Content Marketing is the future of reaching new patients and growing your practice."
   btn:
-  - btn-label: "Get a Demo"
-    btn-link: "/get-a-demo"
+  - btn-label: "Let's Get Started"
+    btn-link: "/get-started"
 ---

@@ -23,10 +23,9 @@ hero:
 intro:
 - headline: "Grow Your Career With DoctorLogic"
   text: "It’s an incredibly rewarding and bold mission our team is dedicated to achieving. We exist to help doctors become more
-  successful through our best-in-class digital marketing software platform while providing top-notch service."
+  successful through our best-in-class digital marketing software platform while providing top-notch service. We’re excited about the challenges that lie ahead in this industry. Guided by these six core values, we’ll meet these challenges as a team."
 values:
-- headline: "Our Core Values"
-  items:
+- items:
   - headline: "Have a<br>Servant's Heart"
     class: "careers-values__item--1"
   - headline: "Be Honest<br>and Transparent"
@@ -87,7 +86,6 @@ benefits:
 
 {% for values in page.values %}
 <section class="careers-values">
-  <h3 class="careers-values__headline">{{ values.headline }}</h3>
   <div class="careers-values__items">
     {% for item in values.items %}
     <div class="careers-values__item {{ item.class }}">

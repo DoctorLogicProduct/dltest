@@ -14,8 +14,8 @@ page_class:
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
   - class: pricing__hero
-    tagline: Our Pricing
-    headline: Pricing
+    tagline: Simple. Straight forward.
+    headline: Our Pricing
     text: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
     solution that works for your practice."
 features:
@@ -75,11 +75,9 @@ plugins:
 ---
 
 {% for hero in page.hero %}
-<section class="hero hero-2 {{hero.class}}">
-  <div class="hero-2__text">
-    <div class="hero-2__tagline">
-      <h5>{{hero.tagline}}</h5>
-    </div>
+<section class="hero hero-1 {{hero.class}}">
+  <div class="hero-1__text">
+    <h5>{{hero.tagline}}</h5>
     <h1>{{hero.headline}}</h1>
     <p>{{hero.text}}</p>
   </div>

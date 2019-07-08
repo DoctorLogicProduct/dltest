@@ -11,6 +11,11 @@
 		padding: 60px 5%;
 	}
 
+	&__tagline {
+		text-transform: uppercase;
+		margin: 0;
+	}
+
 	&__headline {
 		grid-column: auto / span 24;
 		grid-row: auto;
@@ -26,4 +31,32 @@
 		grid-row: auto;
 		width: 100%;
 	}
+}
+
+body.social-reputation .image-group__tagline {
+	color: $reputation;
+}
+
+body.content-multiplier .image-group__tagline {
+	color: $content;
+}
+
+body.search-amplifier .image-group__tagline {
+	color: $search;
+}
+
+body.lead-generator .image-group__tagline {
+	color: $leads;
+}
+
+body.success-insights .image-group__tagline {
+	color: $success;
+}
+
+body.success-insights .image-group__tagline {
+	color: $success;
+}
+
+body.growth-accelerators .image-group__tagline {
+	color: $growth;
 }

@@ -37,20 +37,8 @@
     }
 
 
-    // &__feature--2 {
-    //     padding: 40px 10px 0 !important;
-
-    //     @include tablet-min {
-    //       padding: 0 5% !important;
-    //     }
-    // }
-
     &__feature--3 {
-        padding: 40px 10px 0 !important;
-
-        @include tablet-min {
-          padding: 60px 5% 0 !important;
-        }
+        padding-bottom: 60px;
     }
 
 

@@ -176,17 +176,8 @@
          }
     }
 
-    .text-component {
-        padding: 0 10px 40px;
-
-        @include tablet-wide-min {
-          padding: 80px 5% 0;
-        }
-
-        h3 {
-            margin-top: 0;
-        }
-        
+    &__feature--1 {
+        padding-bottom: 60px;
     }
 
 

@@ -67,20 +67,20 @@ page_sections:
   img_alignment: "Left"
 - component: feature-1
   component_css: feature
-  class: content-multiplier__feature--2
+  class: search-amplifier__feature--2
   headline: "Track SEO Performance<sup>Beta</sup>"
   text: "Transparency is key to any successful partnership. With DoctorLogic, you know the exact ROI on your digital marketing efforts. Our SEO Performance Dashboard gives you real-time insights into keywords, Google search result rankings, search volume and the value of your keyword rankings."
   btn:
   img: "/img/products/search-amplifier/seo-performance.jpg"
   alt: "Track SEO Performance"
   img_alignment: "Right"
-- component: text-component
-  component_css: text-component
-  class: search-amplifier__text-component--2
-  headline:
-  - headline: "Increase Your Search Performance"
+- component: callout
+  component_css: callout
+  class: bob
+  background: false
+  headline: "Increase Your Search Performance"
   text: "Search Amplifier champions your entire brand through best-in-class medical SEO strategies. From local and long-tail keyword targeting, local listing management, and structured data, DoctorLogic uses over 15 years experience to deliver visitors that convert into patients."
   btn:
-  - btn-label: Get A Demo
+  - btn-label: "Get A Demo"
     btn-link: "/get-a-demo"
 ---

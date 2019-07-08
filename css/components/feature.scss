@@ -43,6 +43,11 @@
 			max-width: 80%;
 		}
 
+		h5 {
+			text-transform: uppercase;
+			margin: 0;
+		}
+
 	}
 
 	&__product-icon {
@@ -83,4 +88,32 @@
 		}
 	}
 
+}
+
+body.social-reputation .feature__text h5 {
+	color: $reputation;
+}
+
+body.content-multiplier .feature__text h5 {
+	color: $content;
+}
+
+body.search-amplifier .feature__text h5 {
+	color: $search;
+}
+
+body.lead-generator .feature__text h5 {
+	color: $leads;
+}
+
+body.success-insights .feature__text h5 {
+	color: $success;
+}
+
+body.success-insights .feature__text h5 {
+	color: $success;
+}
+
+body.growth-accelerators .feature__text h5 {
+	color: $growth;
 }

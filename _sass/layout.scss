@@ -261,6 +261,65 @@ sup {
 
 }
 
+.play-link {
+	position: relative;
+	display: inline-block;
+	padding: 10px 0 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .9rem;
+	font-weight: 400;
+	text-decoration: none;
+	color: $color-3;
+
+	&::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 0; 
+          height: 0; 
+          border-bottom: 8px solid transparent;
+          border-top: 8px solid transparent;
+		  border-left: 10px solid $websites;
+		  transition: border-left .3s;
+          font-size: 0;
+          line-height: 0;
+    }
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background: $color-4;
+		transform: scale(0,1);
+		transform-origin: left;
+		transition: all .3s;
+	}
+
+	@include desktop-sm-min {
+
+		&:hover {
+			color: $color-4;
+
+			&::before {
+				border-left: 10px solid $websites-2;
+			}
+
+			&::after {
+				transform: scale(1,1);
+			}
+
+		}
+
+	}
+}
+
 body.social-reputation .text-link {
 	color: $reputation;
 

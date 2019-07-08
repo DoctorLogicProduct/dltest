@@ -54,14 +54,14 @@ page_sections:
   source: "HubSpot"
 - component: feature-1
   headline: "Secure Call Monitoring"
-  class: social-reputation__feature--1
+  class: lead-generator__feature--1
   text: "Knowing why customers and patient leads are calling is one thing, but finding out exactly what’s occurring on each call is even more powerful. Securely listen to tracked phone call leads to improve phone handling processes, schedule more appointments, enhance the patient experience, and optimize marketing spend."
   img: "/img/products/lead-generator/secure-call.jpg"
   alt: "Secure Call Monitoring"
   img_alignment: "Right"
 - component: feature-1
   component_css: feature
-  class: social-reputation__feature--2
+  class: lead-generator__feature--2
   headline: "Identify Marketing Success"
   text: "Receive clarity on which marketing sources are driving true opportunities to your practice and also which pages of your medical website are converting visitors into patients. Our dashboard makes it easy for you to export all data into a CSV and upload it to your practice management system or EMR."
   img: "/img/products/lead-generator/optimized-marketing.jpg"
@@ -71,8 +71,8 @@ page_sections:
   component_css: callout
   class: content-multiplier__callout
   background: false
-  headline: "Build Better Content, Fast"
-  text: "Content can help build your online presence. Schedule a personalized demo today."
+  headline: "One Place For All Your Website Conversions"
+  text: "View, organize, and filter all incoming inquiries - phone calls, web form submissions, chats, and more."
   btn:
   - btn-label: "Get a Demo"
     btn-link: "/get-a-demo"

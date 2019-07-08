@@ -1,4 +1,7 @@
 <section class="component image-group {{ section.class }}">
+	{% if section.tagline %}
+		<h5 class="image-group__tagline">{{ section.tagline }}</h5>
+	{% endif %}
 	{% if section.headline %}
 		<h3 class="image-group__headline">{{section.headline}}</h3>
 	{% endif %}

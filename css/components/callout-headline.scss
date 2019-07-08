@@ -37,10 +37,15 @@
 	p {
 		text-align: center;
 		color: $color-2;
-		margin: 0;
+		margin: 10px 0 0;
 		font-size: .8rem;
 		line-height: 1;
 		width: 100%;
+
+		@include tablet-min {
+		  margin: 0;
+		}
+		
 	}
 
 	&__websites {

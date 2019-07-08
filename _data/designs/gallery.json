@@ -2,23 +2,23 @@
     {
         "type": "aesthetic",
         "img": "/img/designs/vip.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
+        "link-label": "vipplasticsurgery.com",
+        "link": "https://vipplasticsurgery.com/",
         "name": "VIP Plastic Surgery"
     },
     {
-        "type": "dentistry",
-        "img": "/img/designs/flipse.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Implant & General Dentistry"
+        "type": "aesthetic",
+        "img": "/img/designs/albright.jpg",
+        "link-label": "albrightplasticsurgery.com/",
+        "link": "https://albrightplasticsurgery.com/",
+        "name": "Albright Plastic Surgery"
     },
     {
-        "type": "other",
-        "img": "/img/designs/elevate.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Elevate Med Spa"
+        "type": "aesthetic",
+        "img": "/img/designs/bensimon.jpg",
+        "link-label": "bensimoncenter.com",
+        "link": "https://bensimoncenter.com/",
+        "name": "Bensimon Center For Plastic Surgery & Aesthetic Medicine"
     },
     {
         "type": "aesthetic",
