@@ -3,6 +3,7 @@ layout: components
 title: DoctorLogic Social Reputation - Medical Reputation Management
 description: "Online reputation can make or break your medical practice. Control the narrative. Organize reviews, receive notifications, display your talent like never before."
 meta_image: "/img/meta/social-reputation.jpg"
+nofollow: false
 gsap: true
 custom_js: social-reputation
 page_class:

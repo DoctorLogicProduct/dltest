@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Success Insights - Healthcare Conversion Tracking
 description: "We’re invested in your success. With full access reporting, track everything from SEO, keywords, or leads. Plus, a personal customer success manager."
-meta_image: "/img/meta/social-reputation.jpg"
+meta_image: "/img/meta/success-insights.jpg"
+nofollow: false
 gsap: true
 custom_js: success-insights
 page_class:

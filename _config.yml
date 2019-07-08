@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doctorlogic.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-default-img: /img/logo-symbol.jpg
+default-img: /img/meta/dl.jpg
 
 # Build settings
 markdown: kramdown
@@ -43,6 +43,7 @@ defaults:
     layout: "post"
     hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
     permalink: /blog/:title:output_ext
+    nofollow: false
 -
   scope:
     path: "blog/tag"

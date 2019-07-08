@@ -2,6 +2,9 @@
 layout: case-study
 page_name: case-study-washington-dental
 permalink: /case-studies/washington-dental
+description: WashDent began working with DoctorLogic June 2016 with the objective of implementing a successful digital marketing strategy.
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
 gsap: true
 page_class:
 - class: case-study

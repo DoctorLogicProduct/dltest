@@ -2,6 +2,9 @@
 layout: case-study
 page_name: case-study-glenn-lyle
 permalink: /case-studies/glenn-lyle
+description: Dr. Glenn Lyle began working with DoctorLogic in March 2018 with the objective of practice growth and digital presence.
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
 gsap: true
 page_class:
 - class: case-study

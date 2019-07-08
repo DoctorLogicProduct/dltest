@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Search Amplifier - Medical SEO
 description: "Expert medical SEO strategies proven to boost website traffic, new patient visits, and revenue. Know the exact ROI on your SEO efforts and track your results."
-meta_image: "/img/meta/content-multiplier.jpg"
+meta_image: "/img/meta/search-amplifier.jpg"
+nofollow: false
 gsap: true
 custom_js: search-amplifier
 page_class:

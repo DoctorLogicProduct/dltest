@@ -3,6 +3,7 @@ layout: components
 title: DoctorLogic Website Management - Medical Website Management
 description: "Our medical website management is 100% HIPAA compliant, includes hosting, maintenance and content changes."
 meta_image: "/img/meta/website-management.jpg"
+nofollow: false
 gsap: true
 custom_js: website-management
 page_class:

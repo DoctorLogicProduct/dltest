@@ -3,6 +3,7 @@ layout: components
 title: DoctorLogic Before & After Galleries
 description: "Help patients visualize how your services can benefit them. Before and After photos on your practice website allows current and prospective patients to see your work and what you can do for them."
 meta_image: "/img/meta/content-multiplier.jpg"
+nofollow: false
 page_class:
   - class: content-multiplier
   - class: patient-stories

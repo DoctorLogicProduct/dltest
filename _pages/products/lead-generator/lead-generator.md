@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Lead Generator - Convert More Patients
 description: "Managing website leads is vital to converting patients. In one dashboard, manage every conversation with new or existing patients, and identify ROI."
-meta_image: "/img/meta/social-reputation.jpg"
+meta_image: "/img/meta/lead-generator.jpg"
+nofollow: false
 gsap: true
 custom_js: lead-generator
 page_class:

@@ -2,7 +2,8 @@
 layout: form
 title: Get Started Today
 description: "Get started today."
-meta_image: "/img/meta/content-multiplier.jpg"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
 permalink: "/get-started"
 page_class:
 - class: form-page

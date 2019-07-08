@@ -2,6 +2,9 @@
 layout: case-study
 page_name: case-study-vip
 permalink: /case-studies/vip-plastic-surgery
+description: Dr. Khorsandi began working with DoctorLogic in March 2015 with the objective of building an SEO strategy that would amplify his offline experience into online authority, increase overall traffic, and win new patients from search.
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
 gsap: true
 page_class:
 - class: case-study

@@ -3,6 +3,7 @@ layout: components
 title: DoctorLogic Content Multiplier - Medical Content Management
 description: "Attract new patients, showcase your results, and define why you're the clear choice provider. Our expert writers do the work. Win at medical content marketing."
 meta_image: "/img/meta/content-multiplier.jpg"
+nofollow: false
 gsap: true
 custom_js: content-multiplier
 page_class:

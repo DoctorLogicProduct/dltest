@@ -2,6 +2,9 @@
 layout: case-study
 page_name: case-study-tccd
 permalink: /case-studies/texas-center-for-cosmetic-dentistry
+description: Dr. Lewis began working with DoctorLogic October 2017 with the objective of growing his online presence and showcasing his expertise to potential patients.
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
 gsap: true
 page_class:
 - class: case-study

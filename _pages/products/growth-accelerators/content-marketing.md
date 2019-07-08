@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Content Marketing - Medical Content Marketing
 description: "Content marketing means creating and sharing valuable free content to attract and convert customers into patients."
-meta_image: "/img/meta/social-reputation.jpg"
+meta_image: "/img/meta/growth-accelerators.jpg"
+nofollow: false
 page_class:
 - class: growth-accelerators
 - class: content-marketing

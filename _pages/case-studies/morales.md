@@ -2,6 +2,9 @@
 layout: case-study
 page_name: case-study-morales
 permalink: /case-studies/morales-plastic-surgery
+description: Dr. Rolando Morales was in search of a provider who could help build a website reflective of the sophistication of his practice and his patients.
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
 gsap: true
 page_class:
 - class: case-study

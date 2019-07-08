@@ -2,7 +2,8 @@
 layout: form
 title: Test Form
 description: "Help patients visualize how your services can benefit them. Before and After photos on your practice website allows current and prospective patients to see your work and what you can do for them."
-meta_image: "/img/meta/content-multiplier.jpg"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
 permalink: "/form-test"
 page_class:
 - class: form-page

@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Growth Accelerators - Medical Practice Growth
 description: "Grow your practice as fast as you want with DoctorLogic Growth Accelerators. We provide ROI on your marketing campaigns and help your practice reach new heights."
-meta_image: "/img/meta/social-reputation.jpg"
+meta_image: "/img/meta/growth-accelerators.jpg"
+nofollow: false
 gsap: true
 custom_js: growth-accelerators
 page_class:

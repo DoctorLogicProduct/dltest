@@ -2,7 +2,8 @@
 layout: components
 title: DoctorLogic Managed Chat - HIPAA Compliant Chat Solution
 description: "Treat website visitors exactly like you would an office visit - with a helpful and professional concierge. Engage 24/7, convert more visitors, and increase ROI."
-meta_image: "/img/meta/social-reputation.jpg"
+meta_image: "/img/meta/growth-accelerators.jpg"
+nofollow: false
 page_class:
 - class: growth-accelerators
 - class: managed-chat
