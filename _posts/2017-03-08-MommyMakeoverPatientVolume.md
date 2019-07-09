@@ -1,9 +1,8 @@
 ---
 post_title: 3 Ways to Increase Your Mommy Makeover Patient Volume
-date: 2017-03-08 06:00:00 +0000
+date: 2017-03-08T06:00:00.000+00:00
 post_author: John Vakidis
-tags:
-- Galleries
+tags: []
 post_intro: Plastic surgery is one of the most competitive verticals there is in all
   of healthcare. Doctors spend thousands of dollars each month on marketing and advertising
   to help create brand awareness and to attempt to attract more patients online.
