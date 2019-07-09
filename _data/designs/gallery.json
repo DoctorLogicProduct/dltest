@@ -21,45 +21,185 @@
         "name": "Bensimon Center For Plastic Surgery & Aesthetic Medicine"
     },
     {
+        "type": "dentistry",
+        "img": "/img/designs/allred.jpg",
+        "link-label": "allreddental.com/",
+        "link": "https://allreddental.com/",
+        "name": "Allred Dental"
+    },
+    {
         "type": "aesthetic",
-        "img": "/img/designs/vip.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "VIP Plastic Surgery"
+        "img": "/img/designs/contoura.jpg",
+        "link-label": "contoura.com/",
+        "link": "https://contoura.com/",
+        "name": "Contoura Facial Plastic Surgery"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/dauwe.jpg",
+        "link-label": "dauweplasticsurgery.com/",
+        "link": "https://dauweplasticsurgery.com/",
+        "name": "Phillip Dauwe Plastic Surgery"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/elevate.jpg",
+        "link-label": "elevatemedicalspa.com/",
+        "link": "https://elevatemedicalspa.com/",
+        "name": "Elevate Med Spa"
     },
     {
         "type": "dentistry",
         "img": "/img/designs/flipse.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Implant & General Dentistry"
-    },
-    {
-        "type": "other",
-        "img": "/img/designs/elevate.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Elevate Med Spa"
-    },
-    {
-        "type": "aesthetic",
-        "img": "/img/designs/vip.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "VIP Plastic Surgery"
+        "link-label": "tndentistry.com/",
+        "link": "https://tndentistry.com/",
+        "name": "Implant & General Dentistry of Middle Tennessee"
     },
     {
         "type": "dentistry",
-        "img": "/img/designs/flipse.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Implant & General Dentistry"
+        "img": "/img/designs/great-lakes-dental.jpg",
+        "link-label": "greatlakesbaydental.com/",
+        "link": "https://greatlakesbaydental.com/",
+        "name": "Great Lakes Bay Dental"
     },
     {
         "type": "other",
-        "img": "/img/designs/elevate.jpg",
-        "link-label": "brooklynhotdogcompany.com",
-        "link": "http://brooklynhotdogcompany.com",
-        "name": "Elevate Med Spa"
+        "img": "/img/designs/kind.jpg",
+        "link-label": "kindhealthgroup.com/",
+        "link": "https://kindhealthgroup.com/",
+        "name": "Kind Health Group"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/kingston.jpg",
+        "link-label": "adeankingstondermatology.com/",
+        "link": "https://adeankingstondermatology.com/",
+        "name": "Adean Kingston Cosmetic & Medical Dermatology"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/luminous.jpg",
+        "link-label": "myluminousdental.com/",
+        "link": "https://myluminousdental.com/",
+        "name": "Luminous Dental Studio"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/mata.jpg",
+        "link-label": "naturalresultsaz.com/",
+        "link": "https://naturalresultsaz.com/",
+        "name": "Natural Results Plastic Surgery"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/miller.jpg",
+        "link-label": "millerandmillerdds.com/",
+        "link": "https://millerandmillerdds.com/",
+        "name": "Miller & Miller Dentistry"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/urbaniak.jpg",
+        "link-label": "urbaniakplasticsurgery.com/",
+        "link": "https://urbaniakplasticsurgery.com/",
+        "name": "Urbaniak Plastic Surgery"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/designs/truderm.jpg",
+        "link-label": "truderm.com/",
+        "link": "https://truderm.com/",
+        "name": "TruDerm"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/smiles-ny.jpg",
+        "link-label": "smilesny.com/",
+        "link": "https://smilesny.com/",
+        "name": "Smiles NY"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/sweettooth.jpg",
+        "link-label": "sweettoothdentalloft.com/",
+        "link": "https://sweettoothdentalloft.com/",
+        "name": "Sweet Tooth Dental Loft"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/washdent.jpg",
+        "link-label": "washdent.com/",
+        "link": "https://washdent.com/",
+        "name": "Washington Center For Dentistry"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/bietsch.jpg",
+        "link-label": "bietschorthodontics.com/",
+        "link": "https://bietschorthodontics.com/",
+        "name": "Bietsch Orthodontics"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/ysby.jpg",
+        "link-label": "yoursmilebecomesyou.com/",
+        "link": "https://yoursmilebecomesyou.com/",
+        "name": "Your Smile Becomes You - AACD"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/tccd.jpg",
+        "link-label": "lovethatsmile.com/",
+        "link": "https://lovethatsmile.com/",
+        "name": "Texas Center For Cosmetic Dentistry"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/vance-thompson.jpg",
+        "link-label": "vancethompsonvision.com/",
+        "link": "https://vancethompsonvision.com/",
+        "name": "Vance Thompson Vision"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/vhp.jpg",
+        "link-label": "villagehealthpartners.com/",
+        "link": "https://villagehealthpartners.com/",
+        "name": "Village Health Partners"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/waite.jpg",
+        "link-label": "waitevision.com/",
+        "link": "https://waitevision.com/",
+        "name": "Waite Vision"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/spine-care-nt.jpg",
+        "link-label": "spinecareofnorthtexas.com/",
+        "link": "https://spinecareofnorthtexas.com/",
+        "name": "Spine Care of North Texas"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/rr-wellness.jpg",
+        "link-label": "rrwellness.com/",
+        "link": "https://rrwellness.com/",
+        "name": "Round Rock Health and Wellness"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/rr-wellness.jpg",
+        "link-label": "rrwellness.com/",
+        "link": "https://rrwellness.com/",
+        "name": "Round Rock Health and Wellness"
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/designs/parker-west.jpg",
+        "link-label": "parkerwestdental.com/",
+        "link": "https://parkerwestdental.com/",
+        "name": "Parker West Dental Associates"
     }
 ]

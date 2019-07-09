@@ -52,9 +52,9 @@ page_sections:
   component_css: callout
   class: content-multiplier__callout
   background: false
-  headline: "Build Better Content, Fast"
-  text: "Content can help build your online presence. Schedule a personalized demo today."
+  headline: "See Your Practice's Success"
+  text: "Have a visual representation of your practice growth in one place. Schedule a personalized demo today."
   btn:
-  - btn-label: "Get Free Analysis"
-    btn-link: "/website-analysis"
+  - btn-label: "Get A Demo"
+    btn-link: "/get-a-demo"
 ---
