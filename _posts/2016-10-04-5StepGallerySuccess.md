@@ -1,9 +1,8 @@
 ---
 post_title: 5 Easy Steps To Gallery Success
-date: 2016-10-04 05:00:00 +0000
+date: 2016-10-04T05:00:00.000+00:00
 post_author: Justin Haber
-tags:
-- Galleries
+tags: []
 post_intro: Through my tenure as the Director of Implementation for DoctorLogic, I
   have had the distinct pleasure of working with our clients, helping them to understand
   how easy it is to showcase their work through their online before and after photo
@@ -15,7 +14,9 @@ post_highlight: Through my tenure as the Director of Implementation for DoctorLo
   galleries.
 post_type:
 - blog
+- blog
 product:
+- content multiplier
 - content multiplier
 
 ---
