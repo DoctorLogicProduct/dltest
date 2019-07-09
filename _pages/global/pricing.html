@@ -2,7 +2,7 @@
 layout: default
 page_name: pricing
 title: DoctorLogic Pricing
-description: "e believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
+description: "We believe in simple pricing. We have website pricing that starts at just $495 a month. Let’s talk today to determine a
 solution that works for your practice."
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
@@ -11,7 +11,6 @@ rangeslider: true
 custom_js: pricing
 page_class:
   - class: pricing
-hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 hero:
   - class: pricing__hero
     tagline: Simple. Straight forward.
@@ -72,6 +71,12 @@ plugins:
     disclaimer: Per month
     text: "Showcase your talent in beautifully displayed before and after photo galleries. Manage your photo galleries in ways
     never before possible."
+
+callout:
+  - headline: Ready To See The Difference?
+    text: It's easy to get started. Schedule a one-on-one demo with a sales representative today.
+    btn-link: /get-a-demo.html
+    btn-label: Get a Demo
 ---
 
 {% for hero in page.hero %}
@@ -148,4 +153,12 @@ plugins:
     {% endfor %}
   </div>
 </section>
+
+{% for callout in page.callout %}
+<section class="pricing-callout">
+  <h3>{{ callout.headline }}</h3>
+  <p>{{ callout.text }}</p>
+  <a href="{{ callout.btn-link }}" class="btn">{{ callout.btn-label }}</a>
+</section>
+{% endfor %}
 

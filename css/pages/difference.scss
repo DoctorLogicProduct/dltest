@@ -11,11 +11,11 @@
     position: relative;
     height: 60vh;
     min-height: 0;
-    background: url('/img/company/careers/careers-hero.jpg') right -200px center/cover no-repeat; 
+    background: url('/img/company/difference/difference-hero.jpg') right -200px center/cover no-repeat; 
     @include grid;
 
     @include phone-wide-min {
-      background: url('/img/company/careers/careers-hero.jpg') right center/cover no-repeat;
+      background: url('/img/company/difference/difference-hero.jpg') right center/cover no-repeat;
       min-height: 800px;
       height: 80vh;
     }

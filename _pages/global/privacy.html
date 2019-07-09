@@ -1,0 +1,38 @@
+---
+layout: default
+page_name: privacy
+title: DoctorLogic Privacy Policy
+description: "DoctorLogic Privacy Policy"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+permalink: /privacy/
+page_class:
+- class: privacy
+hero:
+- class: privacy__hero
+  tagline: Simple. Straight forward.
+  headline: Privacy Policy
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+    <div class="hero-1__text">
+        <h5>{{hero.tagline}}</h5>
+        <h1>{{hero.headline}}</h1>
+    </div>
+</section>
+{% endfor %}
+
+<section class="privacy-policy">
+    <div class="privacy__text">
+        <a href="https://www.iubenda.com/privacy-policy/85719504"
+            class="iubenda-nostyle no-brand iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a>
+        <script
+            type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+
+        <a href="https://www.iubenda.com/privacy-policy/85719504/cookie-policy"
+            class="iubenda-nostyle no-brand iubenda-embed iub-body-embed" title="Cookie Policy">Cookie Policy</a>
+        <script
+            type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+    </div>
+</section>

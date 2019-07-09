@@ -1,0 +1,85 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+
+.hero-1 {
+    padding: 80px 0 40px;
+    position: relative;
+    height: 60vh;
+    min-height: 0;
+    background: url('/img/company/privacy-hero.jpg') right -200px center/cover no-repeat; 
+    @include grid;
+
+    @include phone-wide-min {
+      background: url('/img/company/privacy-hero.jpg') right center/cover no-repeat;
+      min-height: 800px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $color-2;
+      opacity: .9;
+      display: block;
+      
+    }
+
+    &__text {
+      grid-column: auto / span 24;
+      grid-row: 1 / span 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      z-index: 2;
+      max-width: 1300px;
+      margin: 0 auto;
+
+      h5 {
+        color: $websites;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 100%;
+        font-size: 1.7rem;
+
+        @include tablet-min {
+          font-size: 3.1vw;
+        }
+      }
+
+      h1,
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+.privacy-policy{
+        padding: 0 10px 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        li::before {
+            display: none;
+        }
+    }
+

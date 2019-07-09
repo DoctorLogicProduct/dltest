@@ -1,0 +1,35 @@
+---
+layout: default
+page_name: terms
+title: DoctorLogic Terms and Conditions
+description: "DoctorLogic Terms and Conditions"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+permalink: /terms-and-conditions/
+page_class:
+- class: terms
+hero:
+- class: terms__hero
+  tagline: Simple. Straight forward.
+  headline: Terms and Conditions
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+    <div class="hero-1__text">
+        <h5>{{hero.tagline}}</h5>
+        <h1>{{hero.headline}}</h1>
+    </div>
+</section>
+{% endfor %}
+
+<section class="terms__items">
+    <div class="terms__item">
+        <h3>Customer Terms and Conditions</h3>
+        <a href="/assets/DoctorLogicTerms&Conditions072718.pdf" class="btn" target="_blank">Download Now</a>
+    </div>
+    <div class="terms__item">
+        <h3>Business Associate Agreement</h3>
+        <a href="/assets/BusinessAssociateAgreement060914.pdf" class="btn" target="_blank">Download Now</a>
+    </div>
+</section>

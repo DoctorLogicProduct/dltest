@@ -12,11 +12,11 @@
     position: relative;
     height: 60vh;
     min-height: 0;
-    background: url('/img/company/careers/careers-hero.jpg') right -200px center/cover no-repeat; 
+    background: url('/img/pricing/pricing-hero.jpg') right -200px center/cover no-repeat; 
     @include grid;
 
     @include phone-wide-min {
-      background: url('/img/company/careers/careers-hero.jpg') right center/cover no-repeat;
+      background: url('/img/pricing/pricing-hero.jpg') right center/cover no-repeat;
       min-height: 800px;
       height: 80vh;
     }
@@ -360,4 +360,23 @@
         }
     }
 }
+
+.pricing-callout {
+        padding: 0 10px 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        @include tablet-wide-min {
+            padding: 0 5% 60px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
 
