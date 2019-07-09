@@ -11,7 +11,7 @@ page_sections:
 - template: hero-no-image
   component: hero-2
   component_css: hero-2
-  headline: Hola Los Jeffes
+  headline: Hola Los Jefes
   text: This is a test page to show the new landing page builder.
   btn:
   - btn-link: doctorlogic.com
