@@ -1,18 +1,18 @@
 ---
 post_title: DoctorLogic and the AACD Form Partnership
-date: 2018-03-23 05:00:00 +0000
+date: 2018-03-23T05:00:00.000+00:00
 post_author: Mary Robb
 tags:
-- partnerships
+- Press-Release
 post_intro: This week, we are excited to make a big announcement regarding a mutually
   beneficial partnership with the American Academy of Cosmetic Dentistry (AACD)
 post_image: "/uploads/BreakingNewsThumb.jpg"
 post_highlight: This week, we are excited to make a big announcement regarding a mutually
   beneficial partnership with the American Academy of Cosmetic Dentistry (AACD)
 post_type:
-- blog
+- press-release
 product:
-- success insights
+- website management
 
 ---
 Starting this month, DoctorLogic is now the official member benefit partner to the AACD’s growing organization. As the world’s largest non-profit member organization dedicated to advancing excellence in comprehensive oral care, the AACD supports more than 5,000 dental professionals from 70 countries.
