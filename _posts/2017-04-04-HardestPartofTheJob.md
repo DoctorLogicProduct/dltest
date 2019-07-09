@@ -1,9 +1,8 @@
 ---
 post_title: The Hardest Part of the Job
-date: 2017-04-04 05:00:00 +0000
+date: 2017-04-04T05:00:00.000+00:00
 post_author: Julie Davis
-tags:
-- practice-management
+tags: []
 post_intro: Owning a busy medical practice comes with some unique business challenges,
   largely due to the rapidly changing environment of healthcare.
 post_image: "/uploads/HardestPartThumb.jpg"
@@ -12,6 +11,7 @@ post_highlight: Owning a busy medical practice comes with some unique business c
 post_type:
 - blog
 product:
+- success insights
 - success insights
 
 ---
