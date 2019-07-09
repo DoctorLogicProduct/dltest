@@ -1,6 +1,6 @@
 ---
 post_title: What is Responsive Design? Does it actually matter?
-date: 2016-09-27 05:00:00 +0000
+date: 2016-09-27T05:00:00.000+00:00
 post_author: Matt Sparks
 tags:
 - website-design
@@ -16,6 +16,7 @@ post_highlight: Responsive Design refers to a way a website is built in order to
 post_type:
 - blog
 product:
+- website management
 - website management
 
 ---
