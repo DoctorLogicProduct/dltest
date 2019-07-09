@@ -1,9 +1,8 @@
 ---
 post_title: Leveraging Before and After Galleries to Acquire More Patients
-date: 2017-11-08 06:00:00 +0000
+date: 2017-11-08T06:00:00.000+00:00
 post_author: John Vakidis
-tags:
-- Galleries
+tags: []
 post_intro: As an elective care doctor, this probably won’t be the first time you
   have heard about leveraging your before-and-after galleries to acquire more patients.
 post_image: "/uploads/GalleryUserThumb.jpg"
@@ -13,6 +12,7 @@ post_highlight: As an elective care doctor, this probably won’t be the first t
 post_type:
 - blog
 product:
+- content multiplier
 - content multiplier
 
 ---
