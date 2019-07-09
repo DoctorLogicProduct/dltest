@@ -14,9 +14,7 @@ post_highlight: Through my tenure as the Director of Implementation for DoctorLo
   galleries.
 post_type:
 - blog
-- blog
 product:
-- content multiplier
 - content multiplier
 
 ---
