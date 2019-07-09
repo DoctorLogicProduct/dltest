@@ -72,5 +72,6 @@ fields:
     max: 
   label: Page Sections
 pages:
+- hello-leadership.md
 - landing-pages/components-are-cool.md
 - landing-pages/landing-page-test.md
