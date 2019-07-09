@@ -157,7 +157,8 @@ footer {
 			}
 
 			input:focus ~ label,
-			input:valid ~ label {
+			input:valid ~ label,
+			input::placeholder {
 				color: $color-2;
 			}
 
