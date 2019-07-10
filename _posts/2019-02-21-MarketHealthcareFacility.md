@@ -1,9 +1,9 @@
 ---
 post_title: How to Market Your Healthcare Facility and Stand Out Online
-date: 2019-02-21 06:00:00 +0000
+date: 2019-02-21T06:00:00.000+00:00
 post_author: Janelle Amos
 tags:
-- content-marketing
+- Strategy
 post_intro: Attracting patients online, especially in a competitive market, can be
   tough. In my previous blog, I discussed how online consumerism has changed and how
   potential patients are conducting their research online.
@@ -14,7 +14,9 @@ post_highlight: Attracting patients online, especially in a competitive market, 
 post_type:
 - blog
 product:
-- social reputation
+- growth accelerators
+- search amplifier
+- website management
 
 ---
 Attracting patients online, especially in a competitive market, can be tough. [In my previous blog](https://doctorlogic.com/content/galleries/modernize-your-patient-experience.html), I discussed how online consumerism has changed and how potential patients are conducting their research online. Online research includes both search engines and social media, as long as the information they’re finding is trustworthy and answering their questions.
