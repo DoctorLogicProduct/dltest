@@ -1,9 +1,9 @@
 ---
 post_title: 5 Foundational Elements of Content Marketing
-date: 2019-01-15 06:00:00 +0000
+date: 2019-01-15T06:00:00.000+00:00
 post_author: 'Sydnie Summers-Schroeder '
 tags:
-- content-marketing
+- Content-Marketing
 post_intro: Is your practice leveraging content to reach more prospective patients
   and ultimately grow your business?
 post_image: "/uploads/ContentMarketingThumb.jpg"
@@ -12,7 +12,7 @@ post_highlight: Is your practice leveraging content to reach more prospective pa
 post_type:
 - blog
 product:
-- search amplifier
+- content multiplier
 
 ---
 Content marketing is a crucial part of any digital marketing strategy, and for good reason:
