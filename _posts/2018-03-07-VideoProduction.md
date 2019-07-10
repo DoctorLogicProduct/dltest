@@ -2,7 +2,9 @@
 post_title: Using Video Production To Generate More Leads
 date: 2018-03-07T06:00:00.000+00:00
 post_author: John Vakidis
-tags: []
+tags:
+- Healthcare-Marketing
+- Content-Marketing
 post_intro: There is no doubt that producing high-quality, custom videos to market
   your practice online is a good decision for every doctor to consider in 2018. Video
   marketing can be used to help you generate new online leads in multiple ways.
