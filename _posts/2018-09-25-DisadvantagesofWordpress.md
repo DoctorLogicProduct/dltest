@@ -1,6 +1,6 @@
 ---
 post_title: The Disadvantages of Wordpress
-date: 2018-09-25 05:00:00 +0000
+date: 2018-09-25T05:00:00.000+00:00
 post_author: Kandace Cortez
 tags:
 - SEO
@@ -21,7 +21,8 @@ post_highlight: Think of a website as an extension of your business.  Your curre
 post_type:
 - blog
 product:
-- lead generator
+- search amplifier
+- website management
 
 ---
 It’s important to note that not all websites are created equally.
