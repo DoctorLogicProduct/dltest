@@ -4,7 +4,7 @@ date: 2018-09-11T05:00:00.000+00:00
 post_author: John Vakidis
 tags:
 - Healthcare-Marketing
-- Dental-Marketing
+- Strategy
 post_intro: Have you ever thought to yourself, Is Digital Marketing Necessary for
   My Dental Practice? If you are a dentist who specializes in implant dentistry, you
   are missing out on potentially millions of dollars in revenue for every year you
