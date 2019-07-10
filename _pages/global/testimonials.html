@@ -1,0 +1,38 @@
+---
+layout: default
+page_name: testimonials
+title: DoctorLogic Testimonials"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+permalink: /testimonials
+page_class:
+- class: testimonials
+custom_js: testimonials
+hero:
+- class: terms__hero
+  tagline: Don't Take Our Word For It
+  headline: Testimonials
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+    <div class="hero-1__text">
+        <h5>{{hero.tagline}}</h5>
+        <h1>{{hero.headline}}</h1>
+    </div>
+</section>
+{% endfor %}
+
+<section class="testimonials__container">
+    <div class="testimonials__items">
+        {% for item in site.data.testimonials.testimonials %}
+        <div class="testimonials__item">
+            <div class="testimonials__item-container">
+                <div class="testimonials__item-text">{{ item.text }}</div>
+                <div class="testimonials__item-author">{{ item.author }}</div>
+                <a class="testimonials__item-site" href="{{ item.link }}" target="_blank">{{ item.link-label }}</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
