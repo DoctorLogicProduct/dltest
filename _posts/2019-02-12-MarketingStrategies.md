@@ -3,8 +3,7 @@ post_title: 3 Marketing Strategies for Growth in 2019
 date: 2019-02-12T06:00:00.000+00:00
 post_author: 'Keisha Dunstan '
 tags:
-- Content-Marketing
-- Healthcare-Marketing
+- Strategy
 post_intro: It’s a new year and you’re ready to spice up your marketing strategy to
   make the most of it. But where do you start?
 post_image: "/uploads/MarketingStrategyThumb.jpg"

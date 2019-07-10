@@ -3,8 +3,7 @@ post_title: It’s Time to Modernize Your Patient Experience
 date: 2019-02-07T06:00:00.000+00:00
 post_author: Janelle Amos
 tags:
-- Healthcare-Marketing
-- Practice-Management
+- Strategy
 post_intro: Online consumerism has dramatically changed the way society works today,
   especially in healthcare. Consumers are turning more and more to the web to find
   and check out doctors.
