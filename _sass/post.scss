@@ -251,6 +251,27 @@
 
 }
 
+	.blog-subscription {
+        padding: 40px 20px 60px;
+        background: $color-7;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        &__headline {
+            text-align: center;
+        }
+
+        &__text {
+            text-align: center;
+        }
+    }
+
     .related-posts {	
 	padding: 0;
 
