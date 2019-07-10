@@ -1,9 +1,11 @@
 ---
 post_title: How to Win with Online Photo Galleries
-date: 2018-09-20 05:00:00 +0000
+date: 2018-09-20T05:00:00.000+00:00
 post_author: Kristy Theis
 tags:
-- dental
+- Before-After-Gallery
+- Dental-Marketing
+- Plastic-Surgery-Marketing
 post_intro: We live in a visual era, where consumers may engage in a product or service
   based on a single photograph. For this reason, one of the most compelling components
   of an online marketing arsenal, is a before and after photo gallery.
