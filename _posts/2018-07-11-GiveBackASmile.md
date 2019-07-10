@@ -1,9 +1,9 @@
 ---
 post_title: DoctorLogic Raises Funds for “Give Back a Smile”
-date: 2018-07-11 05:00:00 +0000
-post_author: Mary Robb
+date: 2018-07-11T05:00:00.000+00:00
+post_author: Kip Young
 tags:
-- partnerships
+- Press-Release
 post_intro: 'Each year, over five million individuals suffer domestic abuse and violence
   in the U.S. and Canada. Considerable efforts and initiatives focus on increasing
   awareness of this serious issue. However, there is little publicity when it comes
@@ -14,11 +14,9 @@ post_highlight: Each year, over five million individuals suffer domestic abuse a
   awareness of this serious issue. However, there is little publicity when it comes
   to the dental problems many victims might face.
 post_type:
-- blog
-- blog
+- press-release
 product:
-- success insights
-- success insights
+- website management
 
 ---
 When somebody is a victim of domestic abuse and violence, they often feel weak and powerless. A majority of victims have no place to go. Eventually, they manage to escape their cycle of abuse. However, they lose their financial resources and often their confidence as well in the process. This can make it even harder and more challenging for them to get back on their feet. Give Back a Smile strives to change that.
