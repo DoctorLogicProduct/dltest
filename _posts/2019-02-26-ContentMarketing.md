@@ -1,9 +1,8 @@
 ---
-post_title: How Providers Can Boost Medical Practice Growth with Content Marketing
-date: 2019-02-26 06:00:00 +0000
+post_title: Boost Medical Practice Growth with Content Marketing
+date: 2019-02-26T06:00:00.000+00:00
 post_author: Brittany Pinder
-tags:
-- content-marketing
+tags: []
 post_intro: With 1 in 20 Google searches being health related, it’s no wonder healthcare
   providers are implementing content marketing into their marketing strategies.
 post_image: "/uploads/ContentMarketing2Thumb.jpg"
