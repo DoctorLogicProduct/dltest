@@ -3,7 +3,7 @@ post_title: 5 Easy Steps To Gallery Success
 date: 2016-10-04T05:00:00.000+00:00
 post_author: Justin Haber
 tags:
-- SEO
+- Before-After-Gallery
 post_intro: Through my tenure as the Director of Implementation for DoctorLogic, I
   have had the distinct pleasure of working with our clients, helping them to understand
   how easy it is to showcase their work through their online before and after photo
