@@ -2,7 +2,8 @@
 post_title: How to Build A High Impact Brand for Your Medical Practice
 date: 2019-03-26T05:00:00.000+00:00
 post_author: Keisha Dunstan
-tags: []
+tags:
+- Healthcare-Marketing
 post_intro: |-
   Does your medical practice have a brand?
 
