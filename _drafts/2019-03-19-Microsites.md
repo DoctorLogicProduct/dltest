@@ -3,6 +3,7 @@ post_title: Are Microsites Good for SEO?
 date: 2019-05-19T05:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
+- Website
 - SEO
 post_intro: When considering the direction for your website, a strong SEO strategy
   is absolutely key to your success. And when putting together your SEO campaign,
