@@ -2,7 +2,9 @@
 post_title: Marketing Budget for a Plastic Surgery Startup
 date: 2018-01-29T06:00:00.000+00:00
 post_author: Keisha Dunstan
-tags: []
+tags:
+- Healthcare-Marketing
+- Plastic-Surgery-Marketing
 post_intro: Plastic and cosmetic surgery continues to be in high demand in the United
   States. This demand has created a healthy yet competitive marketplace for plastic
   surgeons.
