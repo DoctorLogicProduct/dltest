@@ -1,9 +1,10 @@
 ---
 post_title: 3 Marketing Strategies for Growth in 2019
-date: 2019-02-12 06:00:00 +0000
+date: 2019-02-12T06:00:00.000+00:00
 post_author: 'Keisha Dunstan '
 tags:
-- content-marketing
+- Content-Marketing
+- Healthcare-Marketing
 post_intro: It’s a new year and you’re ready to spice up your marketing strategy to
   make the most of it. But where do you start?
 post_image: "/uploads/MarketingStrategyThumb.jpg"
@@ -12,7 +13,7 @@ post_highlight: It’s a new year and you’re ready to spice up your marketing 
 post_type:
 - blog
 product:
-- social reputation
+- growth accelerators
 
 ---
 It can seem as if new marketing trends are popping up every day, and keeping up with them is nearly impossible. So how do you know which ones are actually worth investing in, and which ones are passing fads?
