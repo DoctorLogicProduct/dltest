@@ -1,9 +1,10 @@
 ---
 post_title: Is SEO Still Important for Plastic Surgeons?
-date: 2018-07-05 05:00:00 +0000
+date: 2018-07-05T05:00:00.000+00:00
 post_author: Andre Riley
 tags:
-- seo
+- Healthcare-SEO
+- Plastic-Surgery-Marketing
 post_intro: 'In today’s technology-focused business environment, a strong online presence
   plays an important role in the success of any professional service provider. '
 post_image: "/uploads/PracticeSEOThumb.jpg"
@@ -12,7 +13,7 @@ post_highlight: In today’s technology-focused business environment, a strong o
 post_type:
 - blog
 product:
-- lead generator
+- search amplifier
 
 ---
 This is especially true for plastic surgeons who want to market their quality of service online through [before-and-after galleries](https://doctorlogic.com/features/galleries) and [patient reviews](https://doctorlogic.com/features/reviews/) that are visible to population in their community.
