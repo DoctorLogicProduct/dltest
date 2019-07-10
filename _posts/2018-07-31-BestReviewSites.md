@@ -1,9 +1,10 @@
 ---
 post_title: Best Review Sites for Plastic Surgeons
-date: 2018-07-31 05:00:00 +0000
+date: 2018-07-31T05:00:00.000+00:00
 post_author: 'Chris Desrochers '
 tags:
-- online-reviews
+- Reputation-Management
+- Plastic-Surgery-Marketing
 post_intro: "For a plastic surgeon, a perfect day at the practice would generally
   comprise of performing surgical procedures to help their patients look and feel
   better.\n\n"
@@ -23,9 +24,7 @@ The best way for plastic surgeons to get overall [feedback of their overall serv
 
 ### Benefits for Plastic Surgeons to be on Review Sites
 
-###  
-
-#### 1. Helps in attracting more patients 
+#### 1. Helps in attracting more patients
 
 Surveys suggest that one of the first things that potential patients look for while choosing their plastic surgeon is online reviews. If you are a 21st-century plastic surgeon, providing best quality service to your patients, you cannot just rely on word-of-mouth advertising to gain exposure for your business. You need to make your presence felt in [online reviews](https://doctorlogic.com/features/reviews/).
 
@@ -70,15 +69,7 @@ Some of the most popular websites for writing and viewing plastic surgery review
 * The portal provides useful insights to potential patients including license and certification, education and training, maps, and directions.
 * Patients can write reviews and rate your service based on the quality of the surgical procedure, waiting times, and staff.
 
-#### 4. RealSelf
-
-* This site is dedicated to cosmetic procedures and contains thousands of reviews from patients visiting practices all over the country.
-* RealSelf boasts over 10 million visitors each month and more than 20,000 healthcare practitioners with patient reviews.
-* Potential patients can browse through the platform based on the area of treatment such as Face, Body, and Smile. They can also view practices by location all over the country with a listing of top surgeons from each area.
-* Patients can also ask questions from registered doctors by adding photos for reference.
-* The website has a comprehensive Before-and-After gallery for each type of surgical procedure.
-
-#### 5. Yelp
+#### 4. Yelp
 
 * Over the past decade, Yelp has successfully attracted millions of users to its website, providing them with useful insights about different kinds of services.
 * Yelp has recently emerged as an effective tool for patient feedback for plastic surgery and general healthcare services.
