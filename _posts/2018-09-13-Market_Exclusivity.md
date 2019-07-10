@@ -1,9 +1,9 @@
 ---
 post_title: What is market exclusivity and does it matter today?
-date: 2018-09-13 05:00:00 +0000
+date: 2018-09-13T05:00:00.000+00:00
 post_author: 'Chris Desrochers '
 tags:
-- healthcare-marketing
+- Healthcare-Marketing
 post_intro: If you are in the market for a new advertising or digital marketing firm,
   something you may have been approached with is a promise of market exclusivity.
 post_image: "/uploads/MarketExclusivityThumb.jpg"
@@ -12,6 +12,7 @@ post_highlight: If you are in the market for a new advertising or digital market
 post_type:
 - blog
 product:
+- growth accelerators
 - success insights
 
 ---
