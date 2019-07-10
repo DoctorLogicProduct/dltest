@@ -1,9 +1,10 @@
 ---
 post_title: Positive Patient Experiences Increase Your Face Value
-date: 2019-03-26 05:00:00 +0000
+date: 2019-03-26T05:00:00.000+00:00
 post_author: Janelle Amos
 tags:
-- content-marketing
+- Strategy
+- Reputation-Management
 post_intro: First impressions matter. Establishing a positive patient experience throughout
   their visit can increase patient referrals and your online reputation.
 post_image: "/uploads/PatientExperience2.jpg"
