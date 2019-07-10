@@ -1,9 +1,10 @@
 ---
 post_title: Attracting Patients for Dental Implants
-date: 2018-09-11 05:00:00 +0000
+date: 2018-09-11T05:00:00.000+00:00
 post_author: John Vakidis
 tags:
-- partnerships
+- Healthcare-Marketing
+- Dental-Marketing
 post_intro: Have you ever thought to yourself, Is Digital Marketing Necessary for
   My Dental Practice? If you are a dentist who specializes in implant dentistry, you
   are missing out on potentially millions of dollars in revenue for every year you
@@ -71,10 +72,6 @@ One of the major advantages of online marketing is that you can [measure inbound
 
 If you are thinking of building a new website, be sure to read [5 Things Every Website Must Have](https://doctorlogic.com/content/galleries/five-things-every-website-must-have.html).
 
-**Are you going to be attending the** [**AAID 67th Annual Conference 2018**](https://www.aaid.com/Annual_Conference/67th-AAID-Annual-Conference-2018.html) **in Dallas, TX on September 26-29, 2018? Be sure to visit with us at Booth 414.**
-
 We will be happy to discuss your marketing efforts to determine how we can help you attract more patients for dental implants. We will also be happy to provide a FREE website analysis for you.
 
-All conference attendees can take advantage of our tradeshow specials including discounts on building a new website with ongoing marketing or receive our [Smile Gallery Software](https://doctorlogic.com/features/galleries/) for a FREE 90-day trial.
-
-Do you want to begin before the conference? Contact us today using the form below and we’ll show how we can help you GROW your dental implant business!
+Contact us today and we’ll show how we can help you GROW your dental implant business!
