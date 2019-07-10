@@ -12,7 +12,7 @@
     position: relative;
     height: 60vh;
     min-height: 0;
-    background: url('/img/pricing/pricing-hero.jpg') right -200px center/cover no-repeat; 
+    background: url('/img/pricing/pricing-hero.jpg') center center/cover no-repeat; 
     @include grid;
 
     @include phone-wide-min {

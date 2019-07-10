@@ -1,0 +1,52 @@
+---
+layout: default
+page_name: contact-us
+title: Contact DoctorLogic
+description: "Contact DoctorLogic"
+meta_image: "/img/meta/dl.jpg"
+nofollow: false
+permalink: /contact-us/
+page_class:
+- class: contact
+hero:
+- class: contact__hero
+  tagline: Get In Touch
+  headline: Contact Us
+departments:
+- headline: Sales
+  tel: 855-522-3600
+  email: sales@doctorlogic.com
+- headline: Support
+  tel: 855-409-5500
+  email: support@doctorlogic.com
+- headline: Billing
+  tel: 469-300-1788
+  email: accounting@doctorlogic.com
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{hero.class}}">
+    <div class="hero-1__text">
+        <h5>{{hero.tagline}}</h5>
+        <h1>{{hero.headline}}</h1>
+    </div>
+</section>
+{% endfor %}
+
+<section class="contact__address">
+    <h3>Our Location</h3>
+    <iframe src="https://snazzymaps.com/embed/168940" width="100%" height="500px" style="border:none;"></iframe>
+    <!-- <p>6509 Windcrest, Suite 200, Plano, TX 75024</p> -->
+</section>
+
+<section class="contact__departments">
+    <div class="contact__departments-items">
+        {% for department in page.departments %}
+        <div class="contact__departments-item">
+            <h3>{{ department.headline }}</h3>
+            <div class="contact__departments__item-link"><span>Call:</span> <a href="tel:{{ department.tel }}">{{ department.tel }}</a></div>
+            <div class="contact__departments__item-link"><span>Email:</span> <a href="mailto:{{department.email}}">{{department.email}}</a></div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
