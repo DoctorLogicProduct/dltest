@@ -9,7 +9,7 @@ post_intro: Have you ever thought to yourself, Is Digital Marketing Necessary fo
   My Dental Practice? If you are a dentist who specializes in implant dentistry, you
   are missing out on potentially millions of dollars in revenue for every year you
   decide to ignore digital marketing for your practice.
-post_image: "/uploads/AAIDThumb.jpg"
+post_image: "/uploads/5-types-edit.jpg"
 post_highlight: Have you ever thought to yourself, Is Digital Marketing Necessary
   for My Dental Practice? If you are a dentist who specializes in implant dentistry,
   you are missing out on potentially millions of dollars in revenue for every year
