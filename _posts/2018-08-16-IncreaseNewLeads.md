@@ -1,9 +1,9 @@
 ---
 post_title: Increase New Patient Leads Through Pay-Per-Click (PPC)
-date: 2018-08-16 05:00:00 +0000
-post_author: Mary Robb
+date: 2018-08-16T05:00:00.000+00:00
+post_author: Kaitlin Waits
 tags:
-- PPC
+- Medical-PPC
 post_intro: Patients search in so many different ways these days. But how can your
   practice keep up with all the competition in the Google space? That’s where PPC
   can take your online presence to the next level.
@@ -14,7 +14,7 @@ post_highlight: Patients search in so many different ways these days. But how ca
 post_type:
 - blog
 product:
-- search amplifier
+- growth accelerators
 
 ---
 When you talk about the healthcare industry, pay-per-click (PPC) advertising can completely transform your digital marketing efforts. Using PPC, you can instantly bring in more patient leads, generate actionable data, and enhance your ROI.
