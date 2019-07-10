@@ -1,7 +1,7 @@
 ---
 post_title: Is Digital Marketing Necessary for My Dental Practice?
 date: 2018-07-05T05:00:00.000+00:00
-post_author: 'Mary Robb '
+post_author: Janelle Amos
 tags: []
 post_intro: As a dental practice owner, it is essential that you realize how fierce
   the competition is before you decide on your marketing strategy for this year. If
