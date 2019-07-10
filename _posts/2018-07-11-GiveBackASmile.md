@@ -3,7 +3,7 @@ post_title: DoctorLogic Raises Funds for “Give Back a Smile”
 date: 2018-07-11T05:00:00.000+00:00
 post_author: Kip Young
 tags:
-- Press-Release
+- News
 post_intro: 'Each year, over five million individuals suffer domestic abuse and violence
   in the U.S. and Canada. Considerable efforts and initiatives focus on increasing
   awareness of this serious issue. However, there is little publicity when it comes
