@@ -1,9 +1,9 @@
 ---
 post_title: Reputation Management for Doctors in a Digital World
-date: 2019-03-05 06:00:00 +0000
+date: 2019-03-05T06:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
-- online-reviews
+- Reputation-Management
 post_intro: Reputation management for doctors can be tricky in the digital world.
   That’s because the internet—along with its pros—definitely has its cons.
 post_image: "/uploads/ReputationManagementThumb.jpg"

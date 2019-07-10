@@ -3,8 +3,8 @@ post_title: Why SEO and Content Matters to Your Medical Private Practice
 date: 2018-12-10T06:00:00.000+00:00
 post_author: John Vakidis
 tags:
-- Medical SEO
 - Content-Marketing
+- Medical-SEO
 post_intro: With the Internet age came a new way to promote your practice, reach more
   people, and grow your business. But all the opportunities afforded by the digital
   era can be confusing and difficult to mill through, especially when it comes to
