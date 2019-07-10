@@ -2,7 +2,8 @@
 post_title: What is Responsive Design? Does it actually matter?
 date: 2016-09-27T05:00:00.000+00:00
 post_author: Matt Sparks
-tags: []
+tags:
+- website-design
 post_intro: Responsive Design refers to a way a website is built in order to function
   properly across multiple devices and screen sizes. If you’ve talked with any web
   company in the past 6 months, you’ve probably heard a lot about responsive design.
