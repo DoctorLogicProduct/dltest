@@ -4,6 +4,7 @@ date: 2019-03-26T05:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
 - Healthcare-Marketing
+- Strategy
 post_intro: |-
   Does your medical practice have a brand?
 
