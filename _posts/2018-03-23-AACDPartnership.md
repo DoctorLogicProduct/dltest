@@ -1,7 +1,7 @@
 ---
 post_title: DoctorLogic and the AACD Form Partnership
 date: 2018-03-23T05:00:00.000+00:00
-post_author: Mary Robb
+post_author: Keisha Dunstan
 tags:
 - Press-Release
 post_intro: This week, we are excited to make a big announcement regarding a mutually
