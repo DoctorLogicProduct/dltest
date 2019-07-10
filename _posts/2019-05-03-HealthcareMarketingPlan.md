@@ -1,9 +1,8 @@
 ---
 post_title: Is Your Healthcare Marketing Plan Working
-date: 2019-05-03 05:00:00 +0000
+date: 2019-05-03T05:00:00.000+00:00
 post_author: Janelle Amos
-tags:
-- healthcare-marketing
+tags: []
 post_intro: Developing a marketing strategy is hard work. When done correctly, it
   provides a huge benefit to your practice by increasing leads, cases, and revenue.
   However, often times, many practices either overlook the strategy entirely, or execute
@@ -16,7 +15,7 @@ post_highlight: Developing a marketing strategy is hard work. When done correctl
 post_type:
 - blog
 product:
-- social reputation
+- success insights
 
 ---
 If your marketing strategy is non-existent or unprosperous, take a look at these common reasons why marketing strategies don’t work.
