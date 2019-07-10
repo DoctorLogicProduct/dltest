@@ -1,6 +1,6 @@
 ---
 post_title: Are Microsites Good for SEO?
-date: 2019-03-19 05:00:00 +0000
+date: 2019-03-19T05:00:00.000+00:00
 post_author: 'Keisha Dunstan '
 tags:
 - SEO
@@ -16,10 +16,11 @@ post_highlight: When considering the direction for your website, a strong SEO st
 post_type:
 - blog
 product:
+- website management
 - search amplifier
 
 ---
-asy direction…when in actuality it’s not. A microsite should be created if, and only if,the microsite actually serves a unique purpose.
+Easy direction…when in actuality it’s not. A microsite should be created if, and only if, the microsite actually serves a unique purpose.
 
 Google has determined sites created for the sole purpose directing back to website with back links, or to boost certain keywords, is actually a [black hat SEO](https://www.wordstream.com/black-hat-seo) tactic and looks spammy. Not only that, but Google considers sites like this to be extremely low quality. And remember, Google penalizes sites they deem to be low quality. To avoid a penalty, it’s best to avoid setting up microsites unless it’s for branding purposes.
 
