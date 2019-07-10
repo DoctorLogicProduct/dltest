@@ -1,8 +1,9 @@
 ---
 layout: default
-page_class: blog-list-page
+page_class:
+- class: blog-list-page
 ---
-<body>	
+
 		{% capture tag %}{{ page.title }}{% endcapture %}
 
 		<div class="blog-list__unfeatured blog-list__filtered">
@@ -61,5 +62,3 @@ page_class: blog-list-page
 		</div>
 
 
-
-</body>

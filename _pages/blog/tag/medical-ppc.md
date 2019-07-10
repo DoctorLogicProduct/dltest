@@ -1,7 +1,7 @@
 ---
 layout: tags
-title: Online-Reviews
-permalink: blog/tag/Online-Reviews
+title: Medical-PPC
+permalink: blog/tag/Medical-PPC
 page_class:
 - class: blog-list-page
 ---

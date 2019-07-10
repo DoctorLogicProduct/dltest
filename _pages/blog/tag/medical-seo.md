@@ -1,7 +1,7 @@
 ---
 layout: tags
-title: Online-Reviews
-permalink: blog/tag/Online-Reviews
+title: Medical-SEO
+permalink: blog/tag/Medical-SEO
 page_class:
 - class: blog-list-page
 ---

@@ -5,10 +5,7 @@ post_author: Keisha Dunstan
 tags:
 - Healthcare-Marketing
 - Strategy
-post_intro: |-
-  Does your medical practice have a brand?
-
-  Branding is incredibly important to all businesses, medical practices included, because it tells prospective patients what they can expect from your practice.
+post_intro: Does your medical practice have a brand? Branding is incredibly important to all businesses, medical practices included, because it tells prospective patients what they can expect from your practice.
 post_image: "/uploads/BrandingThumb.jpg"
 post_highlight: Does your medical practice have a brand?  Branding is incredibly important
   to all businesses, medical practices included, because it tells prospective patients

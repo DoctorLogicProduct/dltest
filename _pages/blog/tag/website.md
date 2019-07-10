@@ -1,7 +1,7 @@
 ---
 layout: tags
-title: Online-Reviews
-permalink: blog/tag/Online-Reviews
+title: Website
+permalink: blog/tag/website
 page_class:
 - class: blog-list-page
 ---

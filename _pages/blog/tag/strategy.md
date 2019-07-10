@@ -1,7 +1,7 @@
 ---
 layout: tags
-title: Online-Reviews
-permalink: blog/tag/Online-Reviews
+title: Strategy
+permalink: blog/tag/Strategy
 page_class:
 - class: blog-list-page
 ---

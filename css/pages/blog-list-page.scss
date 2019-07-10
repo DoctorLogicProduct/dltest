@@ -297,6 +297,10 @@
         &__filtered-header {
             grid-column: auto / span 24;
             padding: 60px 0;
+
+            h2 {
+                text-transform: capitalize;
+            }
         }
 
         &__filtered-list {
