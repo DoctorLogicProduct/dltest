@@ -5,8 +5,7 @@ post_author: John Vakidis
 tags:
 - Reputation-Management
 - Before-After-Gallery
-- Website-Management
-- Website-Design
+- Website
 post_intro: There is no doubt that businesses nowadays encounter an unprecedented
   level of cyber attacks in the form of malware, ransomware, hacking, and DDoS attacks.
   That is essentially why you must ensure that your website is properly secured and

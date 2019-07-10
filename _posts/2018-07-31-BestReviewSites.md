@@ -4,7 +4,7 @@ date: 2018-07-31T05:00:00.000+00:00
 post_author: 'Chris Desrochers '
 tags:
 - Reputation-Management
-- Plastic-Surgery-Marketing
+- Healthcare-Marketing
 post_intro: "For a plastic surgeon, a perfect day at the practice would generally
   comprise of performing surgical procedures to help their patients look and feel
   better.\n\n"
