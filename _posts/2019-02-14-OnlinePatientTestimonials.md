@@ -1,9 +1,9 @@
 ---
 post_title: Online Patient Testimonials Can Influence Prospective Patients
-date: 2019-02-14 06:00:00 +0000
+date: 2019-02-14T06:00:00.000+00:00
 post_author: Janelle Amos
 tags:
-- online-reviews
+- Reputation-Management
 post_intro: Have you ever performed an online search for a high-priced item or service
   and narrowed your decision down to two choices, then began researching everything
   you could out of those two to ENSURE you selected the absolute best?
