@@ -2,7 +2,8 @@
 post_title: Showcasing My Talent - An Interview with Dr. Morales
 date: 2016-10-11T05:00:00.000+00:00
 post_author: Kristy Theis
-tags: []
+tags:
+- Before-After-Gallery
 post_intro: When DoctorLogic set out to create a website product that would set a
   new standard in the medical industry, we knew the power behind our platform would
   likely reside within our photo gallery tool.

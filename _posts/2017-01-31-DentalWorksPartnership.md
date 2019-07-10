@@ -2,7 +2,8 @@
 post_title: Press Release - DoctorLogic & DentalWorks Partnership
 date: 2017-01-31T06:00:00.000+00:00
 post_author: Kristie Theis
-tags: []
+tags:
+- Press-Release
 post_intro: In 2016, DoctorLogic partnered with one of the nation’s largest dental
   service organizations to help them maximize their presence online. DentalWorks,
   a subsidiary of DentalOne Partners, Inc. is a dental enterprise with more than 164
