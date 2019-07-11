@@ -143,41 +143,41 @@ $spacing: 15px;
     }
 
 
-    input[type="radio"][id="aesthetic"]:checked + label span p {
-        color: $color-2;
-    }
+    // input[type="radio"][id="aesthetic"]:checked + label span p {
+    //     color: $color-2;
+    // }
 
-    input[type="radio"][id="aesthetic"]:checked + label span::after {
-        transform: translateX(-50%) scale(1,1);
-    }
+    // input[type="radio"][id="aesthetic"]:checked + label span::after {
+    //     transform: translateX(-50%) scale(1,1);
+    // }
 
-    input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="dentistry"], input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="other"] {
-        display: none;
-    }
+    // input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="dentistry"], input[type="radio"][id="aesthetic"]:checked ~ .case-studies__items [data-type~="other"] {
+    //     display: none;
+    // }
 
-    input[type="radio"][id="dentistry"]:checked + label span p {
-        color: $color-2;
-    }
+    // input[type="radio"][id="dentistry"]:checked + label span p {
+    //     color: $color-2;
+    // }
 
-    input[type="radio"][id="dentistry"]:checked + label span::after {
-        transform: translateX(-50%) scale(1,1);
-    }
+    // input[type="radio"][id="dentistry"]:checked + label span::after {
+    //     transform: translateX(-50%) scale(1,1);
+    // }
 
-    input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="other"] {
-        display: none;
-    }
+    // input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="dentistry"]:checked ~ .case-studies__items [data-type~="other"] {
+    //     display: none;
+    // }
 
-    input[type="radio"][id="other"]:checked + label span p {
-        color: $color-2;
-    }
+    // input[type="radio"][id="other"]:checked + label span p {
+    //     color: $color-2;
+    // }
 
-    input[type="radio"][id="other"]:checked + label span::after {
-        transform: translateX(-50%) scale(1,1);
-    }
+    // input[type="radio"][id="other"]:checked + label span::after {
+    //     transform: translateX(-50%) scale(1,1);
+    // }
 
-    input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="dentistry"] {
-        display: none;
-    }
+    // input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="aesthetic"], input[type="radio"][id="other"]:checked ~ .case-studies__items [data-type~="dentistry"] {
+    //     display: none;
+    // }
 
     &__items {
         grid-column: auto / span 24;
