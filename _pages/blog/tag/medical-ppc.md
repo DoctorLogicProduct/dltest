@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Medical-PPC
-permalink: blog/tag/Medical-PPC
+permalink: blog/tag/medical-ppc
 page_class:
 - class: blog-list-page
 ---
