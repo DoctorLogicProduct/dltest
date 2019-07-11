@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Before-After_Gallery
+title: Before-After-Gallery
 permalink: blog/tag/Before-After-Gallery
 page_class:
 - class: blog-list-page
