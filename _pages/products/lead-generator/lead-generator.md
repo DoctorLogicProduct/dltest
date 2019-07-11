@@ -32,7 +32,7 @@ page_sections:
   component_css: image-group
   class: lead-generator__image-group--1
   headline: "We Make It Easy To Follow Up"
-  text: "Track all your phone calls, form submissions, chats and more. Have a clear picture of your website leads in one place and receive alerts as they come in."
+  text: "Track all your phone calls, form submissions, and chats. Have a clear picture of your website leads in one place and receive alerts as they come in."
   items:
   - class: image-group__image--1
     svg: true

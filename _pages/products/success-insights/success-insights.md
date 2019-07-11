@@ -24,7 +24,7 @@ page_sections:
     - img: "/img/product-icons/success-insights.svg"
       alt: "DoctorLogic Success Insights"
   headline: "Invested in Your Success"
-  text: "Stay in-tune with the performance of your medical marketing campaigns. Receive full access to your performance metrics through your practice dashboard and track everything from your search results, keyword rankings and lead generation."
+  text: "Stay in-tune with the performance of your medical marketing campaigns. Receive full access to your performance metrics through your practice dashboard and track everything from visitors, page views, channel source, and lead generation."
   btn:
   img: "/img/products/success-insights/hero-img.svg"
   alt: "DoctorLogic Success Insights"
@@ -43,7 +43,7 @@ page_sections:
   component_css: feature
   headline: "Dedicated Customer Success Manager"
   class: social-reputation__feature--1
-  text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your Customer Success Manager provides campaign performance insights, best practices, and information on how we plan to optimize your strategy and help you maximize your marketing goals."
+  text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your Customer Success Manager provides campaign performance insights, best practices, and information on how you can optimize your strategy and acheive your marketing goals."
   btn:
   img: "/img/products/success-insights/customer-success.jpg"
   alt: "Dedicated Success Managers"

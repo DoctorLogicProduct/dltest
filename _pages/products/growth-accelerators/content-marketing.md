@@ -18,14 +18,8 @@ page_sections:
   tagline:
   - headline: "Content Marketing"
   headline: "Grow Your Practice with Content Marketing"
-  text: "With one in 20 Google searches being health related, it’s no wonder healthcare providers are implementing content marketing. Grow your website’s content, rankings, and keywords with premium blogs written by Google-savvy medical copywriters."
+  text: "With 1 in 20 Google searches being health related, it’s no wonder healthcare providers are implementing content marketing. Grow your website’s content, rankings, and keywords with premium blogs written by Google-savvy medical copywriters."
   btn:
-- component: text-component
-  component_css: text-component
-  class: video-content__text-component--1
-  headline:
-  - headline: "Simplify, Educate & Engage"
-  text: "Videos can simplify a message and help clients retain 50% more information than text, which is especially useful when educating clients about complex legal issues."
 - component: feature-1
   component_css: feature
   class: content-marketing__feature--1

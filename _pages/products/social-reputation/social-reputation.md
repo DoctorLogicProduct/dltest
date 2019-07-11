@@ -26,7 +26,7 @@ page_sections:
     - img: "/img/product-icons/social-reputation.svg"
       alt: "DoctorLogic Social Reputation"
   headline: "Reputation Management Made Simple"
-  text: "Online reputation can make or break your medical practice – and your marketing efforts. Control the narrative. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
+  text: "Online reputation can make or break your medical practice – and your marketing efforts. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
   wistia-link:
   - wistia-link-label: See How It Works
     wistia-link-id: w7jgkunbv9
@@ -83,7 +83,7 @@ page_sections:
 - component: feature-1
   headline: "Receive Notifications"
   class: social-reputation__feature--1
-  text: "Rest easy knowing you will be notified anytime your practice is mentioned in an online review. We monitor dozens of review sources which ensures when a review is posted, you will receive an email alert."
+  text: "Rest easy knowing you will be notified when your practice is mentioned in an online review. We monitor dozens of review sources which ensures when a review is posted, you will receive an email alert."
   btn:
   img: "/img/products/social-reputation/review-notifications.jpg"
   img_alignment: "Left"

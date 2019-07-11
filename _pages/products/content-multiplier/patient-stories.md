@@ -22,7 +22,7 @@ page_sections:
   component_css: feature
   class: patient-stories__feature--1
   headline: "Easily Add Photos"
-  text: "Adding new cases to your website is a piece of cake! In five easy steps and within five minutes you can publish SEO-friendly case studies. No more emailing your patient information to your web vendor or waiting days or weeks to get information added to your website."
+  text: "Adding new cases to your website is a piece of cake! In six easy steps and within five minutes you can publish SEO-friendly case studies. No more emailing your patient information to your web vendor or waiting days or weeks to get information added to your website."
   btn:
   img: "/img/products/content-multiplier/photo-upload.jpg"
   alt: "Easily Add Photos"

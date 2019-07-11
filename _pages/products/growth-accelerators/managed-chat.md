@@ -55,7 +55,7 @@ page_sections:
   component_css: feature
   class: managed-chat__feature--1
   headline: "Connect With More Patients"
-  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll only send conversations with qualified leads to your practice."
+  text: "With Managed Chat, you will have access to conversations our team had with your website visitors. We’ll send every conversation to your practice and you only pay for qualified leads."
   img: /img/products/growth-accelerators/patient-connect.jpg
   alt: Connect With Patients
   img_alignment: Right

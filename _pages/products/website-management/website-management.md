@@ -71,7 +71,7 @@ page_sections:
   component_css: feature
   headline: "On-Page Editing"
   class: website-management__feature--3
-  text: "You will have 100% access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
+  text: "You will have access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
   btn: 
   img: "/img/products/website-management/on-page-edit.jpg"
   alt: "On-Page Editing"

@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Website
-permalink: blog/tag/website
+permalink: blog/tag/Website
 page_class:
 - class: blog-list-page
 ---

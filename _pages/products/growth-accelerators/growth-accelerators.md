@@ -27,7 +27,31 @@ page_sections:
   text: "For today’s medical practice, fast growth is the optimal goal but may seem in the stars. Our Growth Accelerators are a solid return on investment and when added to your marketing plan, can help your practice reach new heights."
   btn:
   img: "/img/products/growth-accelerators/hero-img.svg"
-  alt: "DoctorLogic Growth Accelerators"
+  alt: "DoctorLogic Growth Accelerators"   
+- component: feature-1
+  component_css: feature
+  tagline: "Paid Advertising"
+  headline: "Increase Reach With Paid Advertising"
+  class: growth-accelerators__feature--1
+  text: "As more and more patients turn to search engines to find a doctor or more information on a certain medical procedure, it’s important to be where they’re looking. With Paid Advertising we can build targeted online campaigns that achieve maximum ROI for your medical practice."
+  btn:
+  - btn-link: /growth-accelerators/paid-advertising
+    btn-label: Learn More
+  img: "/img/products/growth-accelerators/paid-advertising.jpg"
+  alt: "Paid Advertising"
+  img_alignment: "Left"
+- component: feature-1
+  component_css: feature
+  tagline: "Content Marketing"
+  headline: "Healthcare Content Marketing"
+  class: growth-accelerators__feature--2
+  text: "The driver behind many elements of a successful marketing plan is Content Marketing. Content is essential to introducing patients to your practice with educational information and can dramatically impact your organic search results, SEO, rankings and keywords."
+  btn:
+  - btn-link: /growth-accelerators/content-marketing
+    btn-label: Learn More
+  img: "/img/products/growth-accelerators/content-marketing.jpg"
+  alt: "Content Marketing"
+  img_alignment: "Right"
 - component: image-group
   component_css: image-group
   class: growth-accelerators__image-group--1
@@ -61,31 +85,7 @@ page_sections:
   - class: image-group__image--6
     img: true
     src: /img/products/growth-accelerators/chat-6.svg
-    alt-text: "DoctorLogic Managed Chat"      
-- component: feature-1
-  component_css: feature
-  tagline: "Paid Advertising"
-  headline: "Increase Reach With Paid Advertising"
-  class: growth-accelerators__feature--1
-  text: "As more and more patients turn to search engines to find a doctor or more information on a certain medical procedure, it’s important to be where they’re looking. With Paid Advertising we can build targeted online campaigns that achieve maximum ROI for your medical practice."
-  btn:
-  - btn-link: /growth-accelerators/paid-advertising
-    btn-label: Learn More
-  img: "/img/products/growth-accelerators/paid-advertising.jpg"
-  alt: "Paid Advertising"
-  img_alignment: "Right"
-- component: feature-1
-  component_css: feature
-  tagline: "Content Marketing"
-  headline: "Healthcare Content Marketing"
-  class: growth-accelerators__feature--2
-  text: "The driver behind many elements of a successful marketing plan is Content Marketing. Content is essential to introducing patients to your practice with educational information and can dramatically impact your organic search results, SEO, rankings and keywords."
-  btn:
-  - btn-link: /growth-accelerators/content-marketing
-    btn-label: Learn More
-  img: "/img/products/growth-accelerators/content-marketing.jpg"
-  alt: "Content Marketing"
-  img_alignment: "Left"
+    alt-text: "DoctorLogic Managed Chat"   
 - component: feature-1
   component_css: feature
   tagline: "Video Production"
@@ -97,5 +97,5 @@ page_sections:
     btn-label: Learn More
   img: "/img/products/growth-accelerators/video-marketing.jpg"
   alt: "Video Marketing"
-  img_alignment: "Right"
+  img_alignment: "Left"
 ---

@@ -60,7 +60,7 @@ page_sections:
   component_css: feature
   class: search-amplifier__feature--1
   headline: "Improve Online Visibility"
-  text: "Customers are searching online for medical providers near them. Local SEO requires a strategic and targeted approach. We’ll optimize and manage your practice and provider profiles across the web, including local directories such as Google Business, Google Maps, Facebook, Yelp, and other online local directories."
+  text: "Customers are searching online for medical providers near them. Local SEO requires a strategic and targeted approach. We’ll optimize and manage your practice and provider profiles across the web, including local directories such as Google My Business, Google Maps, Facebook, Yelp, and other online local directories."
   btn:
   img: "/img/products/search-amplifier/online-visibility.jpg"
   alt: "Improve Online Visibility"

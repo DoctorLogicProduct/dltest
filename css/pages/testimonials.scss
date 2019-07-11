@@ -74,6 +74,12 @@
     @include tablet-wide-min {
         padding: 60px 5%;
     }
+
+    img {
+      max-width: 150px;
+      height: auto;
+      margin-top: 20px;
+    }
   }
 
   &__items {
