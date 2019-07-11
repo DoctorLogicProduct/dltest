@@ -50,6 +50,7 @@
       align-items: center;
       padding: 0 20px;
       z-index: 2;
+      position: relative;
 
       @include phone-wide-min {
         grid-row: 2 / span 1;
