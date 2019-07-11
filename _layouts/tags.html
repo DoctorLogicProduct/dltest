@@ -38,7 +38,7 @@ page_class:
 				<h2>Filter By:</h2>
 				<ul class="blog-list__tags-list">
 					{% for tag in site.tags %}
-					<li class="blog-list__tags-link"><a href="{{ '/blog/tag/' | append:tag[0] }}"
+					<li class="blog-list__tags-link"><a href="{{ '/blog/tag/' | append: tag[0] | downcase }}"
 							rel="tag">{{ tag[0] | replace: '-', ' ' }}</a></li>
 					{% endfor %}
 				</ul>

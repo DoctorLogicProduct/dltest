@@ -9,12 +9,6 @@ layout: default
 			{% if page.product %}
 			<div class="related-posts">
 
-				{% if page.next_page %}
-				<section class="next-page">
-					<h3>Up Next: <a href="/products/{{ page.next_page }}">{{ page.next_page | replace: '-', ' '}}</a></h3>
-				</section>
-				{% endif %}
-
 				{% for product_nav in page.product_nav %}
 				{% if page.product_nav %}
 				<section class="product-nav">
