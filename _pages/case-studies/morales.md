@@ -13,7 +13,7 @@ hero:
 - class: case-study__hero
   headline: Case Study
   text: "Morales Plastic Surgery"
-  solutions: "content, website design, search"
+  specialty: "Plastic Surgery"
 featured-img:
 - img_src: "/img/case-studies/morales-featured-img.jpg"
   img_alt: "Morales Plastic Surgery - Powered By DoctorLogic"

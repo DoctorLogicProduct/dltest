@@ -661,12 +661,13 @@
         
     }
 
-    &__benefits {
+    &__specialty {
         margin: 0;
         font-weight: 400;
         font-size: .9rem;
         transition: margin-bottom .3s;
-        color: $color-1;
+        text-transform: uppercase;
+        color: $websites;
 
         @include tablet-min {
           font-size: 1.1rem;

@@ -13,7 +13,7 @@ hero:
 - class: case-study__hero
   headline: Case Study
   text: "Dr. Glenn Lyle"
-  solutions: "content, website design, search"
+  specialty: "Plastic Surgery"
 featured-img:
 - img_src: "/img/case-studies/lyle-featured-img.jpg"
   img_alt: "Dr. Glenn Lyle - Powered By DoctorLogic"

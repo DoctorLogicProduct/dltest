@@ -13,7 +13,7 @@ hero:
 - class: case-study__hero
   headline: Case Study
   text: "Texas Center For Cosmetic Dentistry"
-  solutions: "content, website design, search"
+  specialty: "Cosmetic Dentistry"
 featured-img:
 - img_src: "/img/case-studies/tccd-feature-img.jpg"
   img_alt: "Texas Center For Cosmetic Dentistry - Powered By DoctorLogic"

@@ -13,7 +13,7 @@ hero:
 - class: case-study__hero
   headline: Case Study
   text: "VIP Plastic Surgery"
-  solutions: "content, website design, search"
+  specialty: "Plastic Surgery"
 featured-img:
 - img_src: "/img/case-studies/vip-feature-img.jpg"
   img_alt: "VIP Plastic Surgery - Powered By DoctorLogic"

@@ -4,9 +4,19 @@
         "img": "/img/case-studies/vip-feature-img.jpg",
         "link": "/case-studies/vip-plastic-surgery",
         "name": "VIP Plastic Surgery",
-        "benefits": "Website Management, Content Multiplier",
+        "specialty": "Plastic Surgery",
         "stat": "1,642%",
         "stat-label": "Page 1 Keywords",
+        "featured": true
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/case-studies/tccd-feature-img.jpg",
+        "link": "/case-studies/texas-center-for-cosmetic-dentistry",
+        "name": "Texas Center For Cosmetic Dentistry",
+        "specialty": "Cosmetic Dentistry",
+        "stat": "852%",
+        "stat-label": "Indexed Keywords",
         "featured": true
     },
     {
@@ -14,9 +24,19 @@
         "img": "/img/case-studies/morales-featured-img.jpg",
         "link": "/case-studies/morales-plastic-surgery",
         "name": "Morales Plastic Surgery",
-        "benefits": "Website Management, Content Multiplier",
+        "specialty": "Plastic Surgery",
         "stat": "2,944%",
         "stat-label": "Page 1 Keywords",
+        "featured": true
+    },
+    {
+        "type": "dentistry",
+        "img": "/img/case-studies/washington-dental-feature-img.jpg",
+        "link": "/case-studies/washington-dental",
+        "name": "Parker West Dental Associates",
+        "specialty": "General & Cosmetic Dentistry",
+        "stat": "283%",
+        "stat-label": "Website Visitors",
         "featured": true
     },
     {
@@ -24,37 +44,8 @@
         "img": "/img/case-studies/lyle-featured-img.jpg",
         "link": "/case-studies/glenn-lyle",
         "name": "Dr. Glenn Lyle",
-        "benefits": "Website Management, Content Multiplier",
+        "specialty": "Plastic Surgery",
         "stat": "264%",
         "stat-label": "Page 1 Keywords"
-    },
-    {
-        "type": "dentistry",
-        "img": "/img/case-studies/tccd-feature-img.jpg",
-        "link": "/case-studies/texas-center-for-cosmetic-dentistry",
-        "name": "Texas Center For Cosmetic Dentistry",
-        "benefits": "Website Management, Content Multiplier",
-        "stat": "852%",
-        "stat-label": "Indexed Keywords",
-        "featured": true
-    },
-    {
-        "type": "dentistry",
-        "img": "/img/case-studies/washington-dental-feature-img.jpg",
-        "link": "/case-studies/washington-dental",
-        "name": "Washington Center For Dentistry",
-        "benefits": "Website Management, Content Multiplier",
-        "stat": "328%",
-        "stat-label": "Page 1 Search Results",
-        "featured": true
-    },
-    {
-        "type": "dentistry",
-        "img": "/img/case-studies/washington-dental-feature-img.jpg",
-        "link": "/case-studies/washington-dental",
-        "name": "Washington Center For Dentistry",
-        "benefits": "Website Management, Content Multiplier",
-        "stat": "328%",
-        "stat-label": "Page 1 Search Results"
     }
 ]

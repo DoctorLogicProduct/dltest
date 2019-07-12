@@ -13,7 +13,7 @@ hero:
 - class: case-study__hero
   headline: Case Study
   text: "Washington Center for Dentistry"
-  solutions: "content, website design, search"
+  specialty: "Cosmetic & General Dentistry"
 featured-img:
 - img_src: "/img/case-studies/washington-dental-feature-img.jpg"
   img_alt: "Washington Center For Dentistry - Powered By DoctorLogic"

@@ -323,12 +323,13 @@ $spacing: 15px;
         
     }
 
-    &__benefits {
+    &__specialty {
         margin: 0;
         font-weight: 400;
         font-size: .9rem;
         transition: margin-bottom .3s;
-        color: $color-1;
+        color: $websites;
+        text-transform: uppercase;
 
         @include tablet-min {
           font-size: 1.1rem;
