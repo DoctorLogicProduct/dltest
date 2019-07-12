@@ -1,24 +1,30 @@
 ---
 layout: default
+page_name: 404
+title: 404 Error
+description: "404 Error"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+permalink: /404
+page_class:
+- class: info-page
+hero:
+- class: info-page__hero
+  img_src: "/img/404.svg"
+  img_alt: "404 Error"
+  headline: Oops. Page not found.
+  text: It seems like the page you are looking for is no longer here.
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="info-page__container">
+    {% for hero in page.hero %}
+    <section class="hero hero-1 {{ hero.class }}">
+        <img src="{{ hero.img_src }}" alt="{{ hero.img_alt }}" class="hero-1__img">
+        <div class="hero-1__text">
+            <h1>{{ hero.headline }}</h1>
+            <p>{{ hero.text }}</p>
+        </div>
+        <a href="/" class="btn">Return Home</a>
+    </section>
+    {% endfor %}
 </div>
