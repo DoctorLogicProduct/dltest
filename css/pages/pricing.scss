@@ -237,6 +237,14 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		box-shadow: 0;
+		transition: box-shadow .3s;
+
+		&:hover {
+			box-shadow: $box-shadow;
+		}
 
         @include phone-wide-min {
           grid-column: auto / span 12;

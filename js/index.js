@@ -81,8 +81,8 @@ tl4.from('.home-industries__item--4', 1, { y: 50, opacity: 0 });
 
 const scene4 = new ScrollMagic.Scene({
     triggerElement: '.home-industries__items',
-    triggerHook: .8, //between 0 an 1
-    duration: '50%'
+    triggerHook: .85, //between 0 an 1
+    duration: '30%'
 })
     // .setPin('.image-group__container')
     .setTween(tl4)

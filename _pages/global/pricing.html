@@ -19,26 +19,32 @@ hero:
     solution that works for your practice."
 features:
   - img: ../img/product-icons/with-labels/website-management-label.svg
+    link: /website-management
     feature-items:
     - feature: "Core Platform"
     - feature: "Custom Designs"
   - img: ../img/product-icons/with-labels/content-multiplier-label.svg
+    link: /content-multiplier
     feature-items:
     - feature: "Before & After Photos"
     - feature: "On-Page Editing"
   - img: ../img/product-icons/with-labels/social-reputation-label.svg
+    link: /social-reputation
     feature-items:
     - feature: "Reviews Management"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/search-amplifier-label.svg
+    link: /search-amplifier
     feature-items:
     - feature: "Essential SEO"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/lead-generator-label.svg
+    link: /lead-generator
     feature-items:
     - feature: "Essential SEO"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/success-insights-label.svg
+    link: /success-insights
     feature-items:
     - feature: "Essential SEO"
     - feature: "Local Data Management"
@@ -115,15 +121,15 @@ callout:
 </section>
 
 <section class="pricing-features">
-  <h3>All DoctorLogic Websites Comes With The Following Features</h3>
+  <h3>All DoctorLogic Websites Comes With The Following Products</h3>
   <div class="pricing-features__items">
     {% for feature in page.features %}
-    <div class="pricing-features__item">
+    <a class="pricing-features__item" href="{{ feature.link }}">
       <img src="{{ feature.img }}" alt="">
       {% for feature-item in feature.feature-items %}
-      <p class="pricing-features__item-feature">{{ feature-item.feature }}</p>
+      <!-- <p class="pricing-features__item-feature">{{ feature-item.feature }}</p> -->
       {% endfor %}
-    </div>
+    </a>
     {% endfor %}
   </div>
 </section>
