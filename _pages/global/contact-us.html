@@ -35,8 +35,7 @@ departments:
 
 <section class="contact__address">
     <h3>Our Location</h3>
-    <iframe src="https://snazzymaps.com/embed/168940" width="100%" height="500px" style="border:none;"></iframe>
-    <!-- <p>6509 Windcrest, Suite 200, Plano, TX 75024</p> -->
+    <p>6509 Windcrest, Suite 200, Plano, TX 75024</p>
 </section>
 
 <section class="contact__departments">
@@ -45,7 +44,7 @@ departments:
         <div class="contact__departments-item">
             <h3>{{ department.headline }}</h3>
             <div class="contact__departments__item-link"><span>Call:</span> <a href="tel:{{ department.tel }}">{{ department.tel }}</a></div>
-            <div class="contact__departments__item-link"><span>Email:</span> <a href="mailto:{{department.email}}">{{department.email}}</a></div>
+            <div class="contact__departments__item-link"><span>Email:</span> <a href="mailto:{{ department.email }}">{{department.email}}</a></div>
         </div>
         {% endfor %}
     </div>

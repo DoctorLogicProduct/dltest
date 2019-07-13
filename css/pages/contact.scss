@@ -10,11 +10,11 @@
     position: relative;
     height: 60vh;
     min-height: 0;
-    background: url('/img/company/terms-hero.jpg') center center/cover no-repeat; 
+    background: url('/img/company/contact-hero.jpg') center center/cover no-repeat; 
     @include grid;
 
     @include phone-wide-min {
-      background: url('/img/company/terms-hero.jpg') right center/cover no-repeat;
+      background: url('/img/company/contact-hero.jpg') right center/cover no-repeat;
       min-height: 800px;
     }
 
