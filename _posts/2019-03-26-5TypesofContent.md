@@ -1,6 +1,6 @@
 ---
 post_title: 5 Types of Content to Employ for Your Medical Practice
-date: 2019-03-28 05:00:00 +0000
+date: 2019-03-28 16:00:00 +0000
 post_author: Keisha Dunstan
 tags:
 - Content-Marketing
