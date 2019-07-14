@@ -30,9 +30,7 @@ Also, displaying your before-and-after cases online allows potential patients to
 
 **The Value Behind A Smile Gallery**
 
-![The Value of Smile Galleries to Google](https://lh3.googleusercontent.com/nZ63MWUlBnwTpzgCv5Gh2uu0qr-tBBGE01Y-vNfcU4hUwe220LYiuU6ivJwoUhSZhLjDu81TJcS7IwXfbNB8hEzQFmh4qfaNagYUcUb5TDlDZha2fv514YUlPWm-PR3aEDSRiv-UfTmaICRChg "Google Searches" =624x264)
-
-Did you know that approximately 7 out 10 patients looking to have a cosmetic procedure won’t call a practice to book a consultation if they aren’t able to view before-and-after photos on the practice’s website?
+![The Value of Smile Galleries to Google](https://lh3.googleusercontent.com/nZ63MWUlBnwTpzgCv5Gh2uu0qr-tBBGE01Y-vNfcU4hUwe220LYiuU6ivJwoUhSZhLjDu81TJcS7IwXfbNB8hEzQFmh4qfaNagYUcUb5TDlDZha2fv514YUlPWm-PR3aEDSRiv-UfTmaICRChg "Google Searches" =624x264)Did you know that approximately 7 out 10 patients looking to have a cosmetic procedure won’t call a practice to book a consultation if they aren’t able to view before-and-after photos on the practice’s website?
 
 In other words, the “Look Book” inside your consultation room isn’t nearly as relevant today unless all of those cases are on your website. Additionally, many dentists use the smile galleries found on their website during new patient consultations by using a monitor or large TV to showcase their talent. This allows them to pull up cases that are similar to the needs of the new patient and show how they have helped countless others.
 
