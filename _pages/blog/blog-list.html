@@ -26,7 +26,7 @@ page_sections:
 		<div class="blog-list__featured">
 			<h2 class="blog-list__headline">Latest Posts:</h2>
 			{% for post in site.posts limit:4 %}
-				<a class="blog-list__card" href="{{ site.baseurl }}{{ post.url }}">
+				<a class="blog-list__card" href="{{ site.baseurl }}{{ post.url }}" >
 					<div class="blog-list__card-image" style="background: url({{post.post_image}}) center center/cover;"></div>
 					<div class="blog-list__card-text">
 						<h3>{{ post.post_title }}</h3>

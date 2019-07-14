@@ -66,6 +66,8 @@
             position: relative;
             border-top-left-radius: 20px;
             border-bottom-right-radius: 20px;
+            padding: 20px;
+            overflow: hidden;
 
             @include tablet-min {
               grid-column: auto / span 12;
@@ -74,8 +76,8 @@
 
             @include desktop-sm-min {
 
-                    &:hover .blog-list__card-text {
-                        transform: translateX(3%);
+                    &:hover .blog-list__card-image {
+                       transform: scale(1.5,1.5);
                     }
             }
 
@@ -96,29 +98,20 @@
         }
 
         &__card-image {
-            flex: 0 0 100%;
-            padding-top: (9 / 16) * 100%;
-            background-size: cover !important;
-            background-position: center center !important;
-            background-repeat: no-repeat !important;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            min-height: 400px;
-        }
-
-        &__card-text {
-            flex: 0 0 100%;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            transform: translateX(0);
-            transition: transform .3s;
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            transform: scale(1,1);
+            transition: transform 5s;
+        }
+
+        &__card-text {
+            flex: 0 0 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             z-index: 1;
 
             @include tablet-min {
