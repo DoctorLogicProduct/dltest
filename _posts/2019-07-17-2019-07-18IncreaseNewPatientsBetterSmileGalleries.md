@@ -30,7 +30,7 @@ Also, displaying your before-and-after cases online allows potential patients to
 
 **The Value Behind A Smile Gallery**
 
-![](https://lh3.googleusercontent.com/nZ63MWUlBnwTpzgCv5Gh2uu0qr-tBBGE01Y-vNfcU4hUwe220LYiuU6ivJwoUhSZhLjDu81TJcS7IwXfbNB8hEzQFmh4qfaNagYUcUb5TDlDZha2fv514YUlPWm-PR3aEDSRiv-UfTmaICRChg =624x264)
+![The Value of Smile Galleries to Google](https://lh3.googleusercontent.com/nZ63MWUlBnwTpzgCv5Gh2uu0qr-tBBGE01Y-vNfcU4hUwe220LYiuU6ivJwoUhSZhLjDu81TJcS7IwXfbNB8hEzQFmh4qfaNagYUcUb5TDlDZha2fv514YUlPWm-PR3aEDSRiv-UfTmaICRChg "Google Searches" =624x264)
 
 Did you know that approximately 7 out 10 patients looking to have a cosmetic procedure won’t call a practice to book a consultation if they aren’t able to view before-and-after photos on the practice’s website?
 
@@ -70,4 +70,4 @@ This three-part storytelling is simple and follows basic psychology to selling. 
 
 If you aren’t displaying your galleries online or if you only have photos and aren’t using these five ways above to explain your work, consider signing up for [DoctorLogic Smile Gallery Trial](https://doctorlogic.com/products/smile-gallery-plugin/). You can sign up today and begin using our software to upload your galleries and describe your cases inside your website. The best part is – it’s absolutely **FREE for 1 year for all AACD members!**
 
-Are you ready to begin? Contact DoctorLogic for more details. 
+Are you ready to begin? Contact DoctorLogic for more details.
