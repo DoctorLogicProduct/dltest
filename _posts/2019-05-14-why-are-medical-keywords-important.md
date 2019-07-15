@@ -1,6 +1,6 @@
 ---
 post_title: Why Are Medical Keywords Important
-date: 2019-05-14 17:00:00 +0000
+date: 2019-05-14T17:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
 - Medical-PPC
