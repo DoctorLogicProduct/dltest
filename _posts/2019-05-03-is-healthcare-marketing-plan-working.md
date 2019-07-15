@@ -1,6 +1,6 @@
 ---
 post_title: Is Your Healthcare Marketing Plan Working
-date: 2019-04-16 16:00:00 +0000
+date: 2019-04-16T16:00:00.000+00:00
 post_author: Janelle Amos
 tags:
 - Strategy
