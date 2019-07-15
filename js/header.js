@@ -1,10 +1,10 @@
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 50) {
-        $(".header").addClass("header-bg");
+    if (scroll >= 10) {
+        $("body").addClass("header-bg");
     } else {
-        $(".header").removeClass("header-bg");
+        $("body").removeClass("header-bg");
     }
 });
 
