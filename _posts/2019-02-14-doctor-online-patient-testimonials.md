@@ -23,7 +23,7 @@ This type of behavior is normal in the digital world. In fact, obtaining Interne
 
 Let’s dive deeper into why online reviews and testimonials mean so much in the digital buyer’s journey.
 
-There’s a study by psychologist [Stanley Milgram](https://www.business.com/articles/mental-triggers-the-psychology-of-social-proof/) I find interesting and aids in my picture-painting for how “social proof” plays such a huge factor. Let’s dive in.
+There’s a study by psychologist [Stanley Milgram](https://www.anecdote.com/2018/02/005-the-street-corner-experiment/) I find interesting and aids in my picture-painting for how “social proof” plays such a huge factor. Let’s dive in.
 
 “In 1969, physiologist Milgram hired actors to stop on a sidewalk and look up toward the sky. He discovered the more actors he hired to look up, the more passersby, up to 80% of them, copied their behavior and also looked up… There is some debate as to whether the physiological phenomenon is innate or a learned behavior, but the result remains: people emulate the actions of others in an attempt to reflect correct behavior for a given situation in which they are unsure of how to act.”
 
