@@ -1,6 +1,6 @@
 ---
 post_title: 5 Ways to Increase New Patients with Better Smile Galleries
-date: 2019-07-17 16:00:00 +0000
+date: 2019-07-17T16:00:00.000+00:00
 post_author: Andre Riley
 tags:
 - Content-Marketing
