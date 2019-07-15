@@ -13,4 +13,5 @@ form:
   template: forms/demo-form.html
   handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/6zj
 img_src: "/img/form-pages/imac-vip.png"
+img_alt: "Get a Demo"
 ---

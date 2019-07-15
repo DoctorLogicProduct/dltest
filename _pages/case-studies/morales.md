@@ -1,5 +1,6 @@
 ---
 layout: case-study
+title: Case Study - Morales Plastic Surgery
 page_name: case-study-morales
 permalink: /case-studies/morales-plastic-surgery
 description: Dr. Rolando Morales was in search of a provider who could help build a website reflective of the sophistication of his practice and his patients.

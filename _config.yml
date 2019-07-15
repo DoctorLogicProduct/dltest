@@ -19,8 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   DoctorLogic provides online marketing tools for the medical industry, primarily to specialty doctors and dentists who own their practice.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doctorlogic.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 default-img: /img/meta/dl.jpg
 permalink: none
 

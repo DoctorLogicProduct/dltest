@@ -6,7 +6,7 @@ description: "We believe in simple pricing. We have website pricing that starts 
 solution that works for your practice."
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
-permalink: /pricing/
+permalink: /pricing
 rangeslider: true
 custom_js: pricing
 page_class:
@@ -19,31 +19,37 @@ hero:
     solution that works for your practice."
 features:
   - img: ../img/product-icons/with-labels/website-management-label.svg
+    alt: "Website Management"
     link: /website-management
     feature-items:
     - feature: "Core Platform"
     - feature: "Custom Designs"
   - img: ../img/product-icons/with-labels/content-multiplier-label.svg
+    alt: "Content Multiplier"
     link: /content-multiplier
     feature-items:
     - feature: "Before & After Photos"
     - feature: "On-Page Editing"
   - img: ../img/product-icons/with-labels/social-reputation-label.svg
+    alt: "Social Reputation"
     link: /social-reputation
     feature-items:
     - feature: "Reviews Management"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/search-amplifier-label.svg
+    alt: "Search Amplifier"
     link: /search-amplifier
     feature-items:
     - feature: "Essential SEO"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/lead-generator-label.svg
+    alt: "Lead Generator"
     link: /lead-generator
     feature-items:
     - feature: "Essential SEO"
     - feature: "Local Data Management"
   - img: ../img/product-icons/with-labels/success-insights-label.svg
+    alt: "Success Insights"
     link: /success-insights
     feature-items:
     - feature: "Essential SEO"
@@ -125,10 +131,7 @@ callout:
   <div class="pricing-features__items">
     {% for feature in page.features %}
     <a class="pricing-features__item" href="{{ feature.link }}">
-      <img src="{{ feature.img }}" alt="">
-      {% for feature-item in feature.feature-items %}
-      <!-- <p class="pricing-features__item-feature">{{ feature-item.feature }}</p> -->
-      {% endfor %}
+      <img src="{{ feature.img }}" alt="{{ feature.alt }}">
     </a>
     {% endfor %}
   </div>

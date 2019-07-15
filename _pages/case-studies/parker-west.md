@@ -1,5 +1,6 @@
 ---
 layout: case-study
+title: Case Study - Parker West Dental Associates
 page_name: case-study-parker-west
 permalink: /case-studies/parker-west
 description: Dr. Glenn Lyle began working with DoctorLogic in March 2018 with the objective of practice growth and digital presence.

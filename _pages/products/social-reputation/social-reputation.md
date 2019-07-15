@@ -83,6 +83,7 @@ page_sections:
   text: "Rest easy knowing you will be notified when your practice is mentioned in an online review. We monitor dozens of review sources which ensures when a review is posted, you will receive an email alert."
   btn:
   img: "/img/products/social-reputation/review-notifications.jpg"
+  alt: "Review Notifications"
   img_alignment: "Left"
 - component: feature-1
   headline: "Display Your Testimonials"

@@ -1,5 +1,6 @@
 ---
 layout: case-study
+title: Case Study - Washington Center For Dentistry
 page_name: case-study-washington-dental
 permalink: /case-studies/washington-dental
 description: WashDent began working with DoctorLogic June 2016 with the objective of implementing a successful digital marketing strategy.

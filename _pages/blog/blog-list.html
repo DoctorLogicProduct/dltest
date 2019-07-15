@@ -43,7 +43,7 @@ page_sections:
 							{% assign author = site.data.blog.authors[authorIndex] %}
 							<p class="blog-list__card-highlight">{{ post.post_highlight }}</p>
 							<p class="blog-list__card-date">{{ post.date | date: '%B %d, %Y' }}</p>
-							<p class="blog-list__card-author"><img src="{{author.img}}" alt="">By: {{ post.post_author }}</p>
+							<p class="blog-list__card-author"><img src="{{author.img}}" alt="{{author.img}}">By: {{ post.post_author }}</p>
 						</div>
 					</div>
 				</a>

@@ -13,4 +13,5 @@ form:
   template: forms/get-started.html
   handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/73z
 img_src: "/img/form-pages/imac-luminous.png"
+img_alt: "Get Started"
 ---

@@ -19,8 +19,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{{ description }}">
-	<meta property="og:image" content="{{ image }}">
+	<meta name="description" content="{{description}}">
+	<meta property="og:image" content="{{image}}">
 	{% if page.nofollow == true %}
 	<meta name="robots" content="noindex,nofollow">
 	{% elsif page.nofollow == false %}
@@ -46,8 +46,6 @@
 		{% endif %}
 	{% endfor %}
 
-	<!-- <link rel="stylesheet" href="css/flickity.css">
-	<link rel="stylesheet" href="{{ "css/magnific-popup.css" }}"> -->
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
 
