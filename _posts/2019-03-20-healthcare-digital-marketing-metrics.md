@@ -1,6 +1,6 @@
 ---
 post_title: 'Healthcare Digital Marketing Metrics: What to Know Before You Measure'
-date: 2019-03-20 05:00:00 +0000
+date: 2019-03-20T05:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
 - Healthcare-Marketing
