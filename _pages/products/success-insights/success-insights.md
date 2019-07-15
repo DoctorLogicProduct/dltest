@@ -42,7 +42,7 @@ page_sections:
 - component: feature-1
   component_css: feature
   headline: "Dedicated Customer Success Manager"
-  class: social-reputation__feature--1
+  class: success-insights__feature--1
   text: "We believe in providing the technology and the talent necessary to bring growth to your practice. Your Customer Success Manager provides campaign performance insights, best practices, and information on how you can optimize your strategy and acheive your marketing goals."
   btn:
   img: "/img/products/success-insights/customer-success.jpg"

@@ -39,6 +39,12 @@
     &__item-grid--1 {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 60px 10px;
+
+        @include tablet-min {
+          padding: 20px;
+        }
+        
 
         .item-grid {
 
@@ -64,18 +70,18 @@
     }
 
     &__feature--1 {
-        padding: 40px 10px 0 !important;
+        padding: 60px 10px 0;
 
         @include tablet-min {
-          padding: 60px 5% !important;
+          padding: 60px 5%;
         }
     }
 
     &__feature--2 {
-        padding: 40px 10px 0 !important;
+        padding: 60px 10px;
 
         @include tablet-min {
-          padding: 60px 5% !important;
+          padding: 60px 5%;
         }
     }
 

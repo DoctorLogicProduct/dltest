@@ -38,23 +38,31 @@
 
 
     &__feature--1 {
-        padding: 40px 10px 0 !important;
+        padding: 60px 10px 0;
 
         @include tablet-min {
-          padding: 60px 5% !important;
+          padding: 60px 5%;
         }
     }
 
     &__feature--2 {
-        padding: 40px 10px 0 !important;
+        padding: 60px 10px;
 
         @include tablet-min {
-          padding: 60px 5% !important;
+          padding: 60px 5% ;
+        }
+    }
+
+    &__feature--3 {
+        padding: 60px 10px;
+
+        @include tablet-min {
+          padding: 60px 5%;
         }
     }
 
     &__text-component--1 {
-        padding: 0 20px 40px;
+        padding: 0 20px 60px;
 
         @include tablet-min {
           padding: 60px 5%;

@@ -8,7 +8,7 @@
   .hero-1 {
     padding: 80px 0 40px;
     position: relative;
-    height: 60vh;
+    height: 80vh;
     min-height: 0;
     background: url('/img/home/home-hero.jpg') center center/cover no-repeat; 
     @include grid;
@@ -73,6 +73,11 @@
       h5 {
         color: $websites;
         text-transform: uppercase;
+        
+        @include tablet-min {
+          margin-top: 0;
+        }
+        
       }
 
       h1 {
@@ -125,10 +130,15 @@
   }
 
   .home-products {
-    padding: 80px 5%;
+    padding: 60px 5%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+
+    @include tablet-min {
+      padding: 80px 5%;
+    }
+    
 
     &__text {
       display: flex;
@@ -136,6 +146,12 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+      margin-bottom: 30px;
+
+      @include tablet-min {
+        margin-bottom: 0;
+      }
+      
 
       h3,
       p {
@@ -297,7 +313,7 @@
   }
 
   .home-growth {
-    padding: 0 5% 80px;
+    padding: 0 5% 60px;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -305,6 +321,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include tablet-min {
+      padding: 0 5% 80px;
+    }
+    
 
     &__headline {
       
@@ -358,7 +379,7 @@
     }
 
     &__image-group {
-        padding: 20px 20px 40px;
+        padding: 60px 0;
         max-width: 1300px;
         margin: 0 auto;
 
@@ -474,13 +495,18 @@
   }
 
   .home-industries {
-    padding: 80px 5% 40px;
+    padding: 60px 5% 40px;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+
+    @include tablet-min {
+      padding: 80px 5% 40px;
+    }
+    
 
     &__headline {
       text-align: center;
@@ -539,6 +565,7 @@
 
     h3 {
         text-align: center;
+        margin-bottom: 30px;
       }
 
     .case-studies {
@@ -547,7 +574,7 @@
         grid-column: auto / span 24;
         @include grid; 
         grid-gap: 10px;
-        padding: 0 10px 40px;
+        padding: 0 10px;
   
         @include tablet-min {
           grid-gap: 20px;
@@ -555,7 +582,7 @@
         
 
         @include tablet-wide-min {
-          padding: 60px 20px;
+          padding: 60px 20px 20px;
         }
         
     }
@@ -627,8 +654,13 @@
         h3 {
             color: $color-2;
             text-align: center;
-            font-size: 4rem;
+            font-size: 3rem;
             margin: 0;
+
+            @include tablet-min {
+              font-size: 4rem;
+            }
+            
         }
 
         p {

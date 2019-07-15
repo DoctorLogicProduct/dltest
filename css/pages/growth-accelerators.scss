@@ -162,17 +162,13 @@
 
     }
 
-    .feature {
-        padding: 40px 10px 20px;
-
-        @include tablet-min {
-          padding: 60px 5%;
-        }
-        
+    &__feature--2 {
+      padding-bottom: 60px;
     }
 
+
     &__feature--3 {
-        padding: 40px 10px !important;
+        padding: 60px 10px !important;
 
         @include tablet-min {
           padding: 60px 5% !important;

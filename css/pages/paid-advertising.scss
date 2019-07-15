@@ -8,7 +8,12 @@
 
     .hero-2 {
         position: relative;
-        padding: 80px 0 0;
+        padding: 80px 0 60px;
+
+        @include tablet-min {
+          padding: 80px 0 0;
+        }
+        
 
         &::after {
                 content: '';
@@ -39,6 +44,7 @@
     &__item-grid--1 {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 40px 10px 60px;
 
         .item-grid {
 
@@ -65,8 +71,7 @@
     }
 
     &__feature--1 {
-        padding: 40px 10px 0 !important;
-
+        padding: 60px 10px !important;
         @include tablet-min {
           padding: 60px 5% !important;
         }

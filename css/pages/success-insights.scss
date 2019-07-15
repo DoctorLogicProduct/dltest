@@ -143,11 +143,11 @@
          }
     }
 
-    &__feature--2 {
-        padding-bottom: 40px;
+    &__feature--1 {
+        padding-bottom: 60px;
 
         @include tablet-min {
-          padding-bottom: 60px;
+          padding-bottom: 0;
         }
         
     }

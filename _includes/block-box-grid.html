@@ -1,8 +1,0 @@
-<section class="block box-grid">
-    {% for box in section.box %}
-			<a class="box-grid__box" style="background: url('{{ box.background_image | relative_url }}')" href="box.link">
-				<h3>{{box.headline}}</h3>
-				<p>{{box.action}}</p>
-			</a>
-		{% endfor %}
-</section>

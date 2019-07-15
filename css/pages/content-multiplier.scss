@@ -270,19 +270,15 @@
     }
 
     &__feature--1 {
-        padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
 
         @include phone-wide-min {
           padding-top: 40px;
-          padding-bottom: 60px;
         }
         
     }
 
     &__feature--2 {
-        padding-top: 20px;
-        padding-bottom: 0;
 
         @include phone-wide-min {
           padding-top: 60px;

@@ -36,6 +36,15 @@
 
     }
 
+    &__feature--2 {
+        padding: 60px 10px;
+
+        @include tablet-min {
+          padding: 60px 5%;
+        }
+        
+    }
+
 
     &__feature--3 {
         padding-bottom: 60px;

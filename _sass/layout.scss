@@ -90,7 +90,7 @@ h3 {
 	font-size: 1.5rem;
 	line-height: 1;
 	text-align: left;
-	margin: 20px 0 0;
+	margin: 0;
 	font-weight: 400;
 
 	@include desktop-sm-min {
@@ -436,11 +436,12 @@ body.success-insights .text-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 10px 60px;
+	padding: 60px 10px;
 
 		a {
 		display: block;
 		padding: 10px 0 0;
+		text-transform: capitalize;
 	}
 
 	@include phone-wide-min {
@@ -448,10 +449,14 @@ body.success-insights .text-link {
 
 		a {
 			display: inline-block;
-			text-transform: capitalize;
 			padding: 0;
 		}
 	}
+
+	@include tablet-min {
+	  padding: 0 10px 60px;
+	}
+	
 	
 }
 
