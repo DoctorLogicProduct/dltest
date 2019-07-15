@@ -1,9 +1,9 @@
 ---
 layout: case-study
-title: Case Study - Morales Plastic Surgery
+title: DoctorLogic Results | Morales Plastic Surgery
 page_name: case-study-morales
 permalink: /case-studies/morales-plastic-surgery
-description: Dr. Rolando Morales was in search of a provider who could help build a website reflective of the sophistication of his practice and his patients.
+description: Case Study. Dr. Morales saw a 2,944% increase in Page 1 keyword rankings, a 371% increase in website visitors, and a 179% increase in website leads.
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
 gsap: true

@@ -1,9 +1,9 @@
 ---
 layout: case-study
-title: Case Study - Texas Center For Cosmetic Dentistry
+title: DoctorLogic Results | Texas Center For Cosmetic Dentistry Case Study
 page_name: case-study-tccd
 permalink: /case-studies/texas-center-for-cosmetic-dentistry
-description: Dr. Lewis began working with DoctorLogic October 2017 with the objective of growing his online presence and showcasing his expertise to potential patients.
+description: Case Study. Texas Center For Cosmetic Dentistry has seen an increase of 784% in indexed pages and an increase of 852% in indexed keywords.
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
 gsap: true

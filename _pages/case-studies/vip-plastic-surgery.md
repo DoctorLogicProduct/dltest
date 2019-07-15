@@ -1,9 +1,9 @@
 ---
 layout: case-study
-title: VIP Plastic Surgery
+title: DoctorLogic Results | VIP Plastic Surgery Case Study
 page_name: case-study-vip
 permalink: /case-studies/vip-plastic-surgery
-description: Dr. Khorsandi began working with DoctorLogic in March 2015 with the objective of building an SEO strategy that would amplify his offline experience into online authority, increase overall traffic, and win new patients from search.
+description: Case Study. VIP Plastic Surgery saw a growth in Page 1 keywords by 1,642%, resulting in an increase in website visits by 102%.
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
 gsap: true

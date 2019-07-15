@@ -1,9 +1,9 @@
 ---
 layout: case-study
-title: Case Study - Dr. Glenn Lyle
+title: DoctorLogic Results | Dr. Glenn Lyle
 page_name: case-study-glenn-lyle
 permalink: /case-studies/glenn-lyle
-description: Dr. Glenn Lyle began working with DoctorLogic in March 2018 with the objective of practice growth and digital presence.
+description: Case Study. Dr. Lyle saw a 264% increase in Page 1 keyword rankings, a 239% increase in website leads and total website conversion rate increase of 20.3%.
 meta_image: "/img/meta/dl.jpg"
 nofollow: false
 gsap: true
