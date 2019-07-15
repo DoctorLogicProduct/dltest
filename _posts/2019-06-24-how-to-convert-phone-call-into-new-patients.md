@@ -1,6 +1,6 @@
 ---
 post_title: How To Convert Phone Calls Into New Patients
-date: 2019-06-24 16:00:00 +0000
+date: 2019-06-24T16:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
 - Strategy
