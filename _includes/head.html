@@ -1,19 +1,19 @@
-{% capture description %}
-	{% if page.post_intro %}
+{%- capture description -%}
+	{%- if page.post_intro -%}
 		{{ page.post_intro }}
-	{% else %}
+	{%- else -%}
 		{{ page.description }}
-{% endif %}{% endcapture %}
+{%- endif %}{%- endcapture %}
 
-{% capture image %}
-	{% if page.post_image %}
+{% capture image -%}
+	{%- if page.post_image -%}
 		{{ page.post_image }}
-	{% elsif page.meta_image %}
+	{%- elsif page.meta_image -%}
 		{{ page.meta_image }}
-	{% else %}
+	{%- else -%}
 		{{ site.defaut-img }}
-	{% endif %}
-{% endcapture %}
+	{%- endif -%}
+{%- endcapture %}
 
 <head>
 	<meta charset="utf-8">
@@ -21,30 +21,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{description}}">
 	<meta property="og:image" content="{{image}}">
-	{% if page.nofollow == true %}
+	{% if page.nofollow == true -%}
 	<meta name="robots" content="noindex,nofollow">
-	{% elsif page.nofollow == false %}
+	{%- elsif page.nofollow == false -%}
 	<meta name="robots" content="index,follow">
-	{% endif %}
+	{%- endif %}
 	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico?">
 	<title>{% if page.post_title %}{{ page.post_title }}{% else %}{{ page.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
 
-	{% if page.magnific == true %}
+	{%- if page.magnific == true -%}
 	<link rel="stylesheet" href="{{ '/css/vendor/magnific-popup.css'| prepend: site.baseurl }}">
+	{%- endif -%}
+
+	{%- for section in page.page_sections -%}
+	{%- if section.component_css -%}
+	<link rel="stylesheet" href="{{ '/css/components/' | append: section.component_css | append: '.css' | prepend: site.baseurl }}">
+	{%- endif -%}
+	{%- endfor -%}
+
+	{%- for class in page.page_class -%}
+	{% if class.class %}
+	<link rel="stylesheet" href="{{ '/css/pages/' | append: class.class | append: '.css' | prepend: site.baseurl }}">
 	{% endif %}
-
-	{% for section in page.page_sections %}
-		{% if section.component_css %}
-		<link rel="stylesheet" href="{{ '/css/components/' | append: section.component_css | append: '.css' | prepend: site.baseurl }}">
-		{% endif %}
-	{% endfor %}
-
-	{% for class in page.page_class %}
-		{% if class.class %}
-		<link rel="stylesheet" href="{{ '/css/pages/' | append: class.class | append: '.css' | prepend: site.baseurl }}">
-		{% endif %}
-	{% endfor %}
+	{%- endfor -%}
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
