@@ -5,6 +5,7 @@ post_author: Keisha Dunstan
 tags:
 - Healthcare-Marketing
 - Strategy
+- Lead Generation
 post_intro: Plastic and cosmetic surgery continues to be in high demand in the United
   States. This demand has created a healthy yet competitive marketplace for plastic
   surgeons.
