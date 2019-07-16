@@ -365,12 +365,17 @@
             width: 100%;
             padding: 40px 0;
 
+            @include phone-wide-min {
+              padding: 70px 0 40px;
+            }
+            
+
             &__container {
                 position: relative;
                 min-height: 300px;
 
                 @include phone-wide-min {
-                  min-height: 400px;
+                  min-height: 350px;
                 }
                 
             }
