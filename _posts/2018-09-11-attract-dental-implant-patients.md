@@ -24,7 +24,7 @@ According to an [article from the New York Times](https://www.nytimes.com/2010/0
 
 With as little as 5 additional partial or full cases per month, you could potentially increase your revenue by $1,200,000 to $2,700,000 per year. If your lead generation efforts are bringing you more than 5 new cases, then the additional revenue can be much higher!
 
-[Building an effective dental online marketing strategy](https://www.practicecfo.com/building-an-effective-dental-online-marketing-strategy/) can be one of the most important decisions you make toward running your practice. Consumers could be referred to you by a previous patient or even another dentist, but you have little control over when these leads come to you.
+Building an effective dental online marketing strategy can be one of the most important decisions you make toward running your practice. Consumers could be referred to you by a previous patient or even another dentist, but you have little control over when these leads come to you.
 
 By investing in digital marketing, you can be discovered when consumers are actively searching online for dental implants.
 
