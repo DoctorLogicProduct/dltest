@@ -90,29 +90,75 @@ const scene4 = new ScrollMagic.Scene({
     .addTo(controller4);
 
 
-// Growth Accelerators
+// // Growth Accelerators
 
-tl5 = new TimelineMax();
-const controller5 = new ScrollMagic.Controller();
+// tl5 = new TimelineMax();
+// const controller5 = new ScrollMagic.Controller();
 
-tl5.from('.home-growth__icon', 1, { rotationY: 360 });
+// tl5.from('.home-growth__icon', 1, { rotationY: 360 });
 
+
+// const scene5 = new ScrollMagic.Scene({
+//     triggerElement: '.home-growth',
+//     triggerHook: .8, //between 0 an 1
+//     duration: '50%'
+// })
+//     // .setPin('.image-group__container')
+//     .setTween(tl5)
+//     // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+//     .addTo(controller5);
+
+
+if ($(window).width() >= 568) {
+tl5 = new TimelineMax({ onUpdate: onUpdate });
+const controller = new ScrollMagic.Controller();
+
+tl5.to('.home-growth-image-group__image--5', 1, { rotationY: 360, y: -110 });
+tl5.to('.home-growth-image-group__image--1', 1, { x: -250, y: -170, opacity: 1 });
+tl5.to('.home-growth-image-group__image--2', 1, { x: 50, y: -170, opacity: 1 }, "-=1");
+tl5.to('.home-growth-image-group__image--3', 1, { x: -250, y: 90, opacity: 1 }, "-=1");
+tl5.to('.home-growth-image-group__image--4', 1, { x: 50, y: 90, opacity: 1 }, "-=1");
 
 const scene5 = new ScrollMagic.Scene({
-    triggerElement: '.home-growth',
-    triggerHook: .8, //between 0 an 1
-    duration: '50%'
+    triggerElement: '.home-growth-image-group',
+    triggerHook: .7, //between 0 an 1
+    duration: '30%'
 })
-    // .setPin('.image-group__container')
+    // .setPin('.social-reputation__image-group--1')
     .setTween(tl5)
     // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
-    .addTo(controller5);
+    .addTo(controller);
 
+function onUpdate() {
+    //tl.progress();
+    //console.log('bob');
+}
+}
+else {
+        tl5 = new TimelineMax({ onUpdate: onUpdate });
+        const controller = new ScrollMagic.Controller();
 
+        tl5.to('.home-growth-image-group__image--5', 1, { rotationY: 360, y: -80 });
+        tl5.to('.home-growth-image-group__image--1', 1, { x: -150, y: -130, opacity: 1 });
+        tl5.to('.home-growth-image-group__image--2', 1, { x: 50, y: -130, opacity: 1 }, "-=1");
+        tl5.to('.home-growth-image-group__image--3', 1, { x: -150, y: 90, opacity: 1 }, "-=1");
+        tl5.to('.home-growth-image-group__image--4', 1, { x: 50, y: 90, opacity: 1 }, "-=1");
 
+        const scene5 = new ScrollMagic.Scene({
+            triggerElement: '.home-growth-image-group',
+            triggerHook: .7, //between 0 an 1
+            duration: '50%'
+        })
+            // .setPin('.social-reputation__image-group--1')
+            .setTween(tl5)
+            // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+            .addTo(controller);
 
-
-
+        function onUpdate() {
+    //tl.progress();
+    //console.log('bob');
+}
+}
     
 
 
