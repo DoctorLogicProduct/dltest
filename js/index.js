@@ -114,9 +114,9 @@ tl5 = new TimelineMax({ onUpdate: onUpdate });
 const controller = new ScrollMagic.Controller();
 
 tl5.to('.home-growth-image-group__image--5', 1, { rotationY: 360, y: -110 });
-tl5.to('.home-growth-image-group__image--1', 1, { x: -250, y: -170, opacity: 1 });
+tl5.to('.home-growth-image-group__image--1', 1, { x: -260, y: -170, opacity: 1 });
 tl5.to('.home-growth-image-group__image--2', 1, { x: 50, y: -170, opacity: 1 }, "-=1");
-tl5.to('.home-growth-image-group__image--3', 1, { x: -250, y: 90, opacity: 1 }, "-=1");
+tl5.to('.home-growth-image-group__image--3', 1, { x: -260, y: 90, opacity: 1 }, "-=1");
 tl5.to('.home-growth-image-group__image--4', 1, { x: 50, y: 90, opacity: 1 }, "-=1");
 
 const scene5 = new ScrollMagic.Scene({
