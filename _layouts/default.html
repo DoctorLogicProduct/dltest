@@ -6,7 +6,10 @@
 	<!-- {{page.page_class}} -->
 	<!-- {{page.page_class | map: 'class'}} -->
 	<body class="body {{ page.page_class | map: 'class' | join: ' ' }}">
-
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6LGGW" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	{% include header.html %}
 	<main id="main">
 		{{ content }}
@@ -157,16 +160,6 @@
 			input.value = document.URL;
 		}
 	})();
-</script>
-
-<!-- Google Tag Manager -->
-
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() { dataLayer.push(arguments); }
-	gtag('js', new Date());
-
-	gtag('config', 'AW-971647395');
 </script>
 
 
