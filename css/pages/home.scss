@@ -360,6 +360,69 @@
         margin-top: 0;
       }
     }
+
+    &-image-group {
+            width: 100%;
+            padding: 40px 0;
+
+            &__container {
+                position: relative;
+                min-height: 300px;
+
+                @include phone-wide-min {
+                  min-height: 400px;
+                }
+                
+            }
+
+            &__image {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, 0%);
+                opacity: 0;
+
+                @include phone-wide-min {
+                  width: 200px;
+                  height: 200px;
+                }
+                
+            
+
+                &--5 {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    width: 150px;
+                    height: auto;
+                    opacity: 1;
+
+                    @include phone-wide-min {
+                      width: 200px;
+                    }
+                    
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        
+
+        .btn {
+            display: block;    
+            margin: 0 auto;
+
+            @include phone-wide-min {
+              margin: 40px auto 0;
+            }
+            
+          }
+        }
   }
 
   .home-designs {

@@ -98,6 +98,22 @@ growth:
   text: "Need an extra boost? Our growth accelerators can help your practice grow as fast as you want."
   btn_link: "/growth-accelerators"
   btn_label: "Learn More"
+  items:
+  - class: home-growth-image-group__image--1
+    img_src: "/img/home/paid-advertising-text.svg"
+    img_alt: "DoctorLogic Webstie Management"
+  - class: home-growth-image-group__image--2
+    img_src: "/img/home/content-marketing-text.svg"
+    img_alt: "DoctorLogic Content Multiplier"
+  - class: home-growth-image-group__image--3
+    img_src: "/img/home/managed-chat-text.svg"
+    img_alt: "DoctorLogic Social Reputation"
+  - class: home-growth-image-group__image--4
+    img_src: "/img/home/video-production-text.svg"
+    img_alt: "DoctorLogic Search Amplifier"
+  - class: home-growth-image-group__image--5
+    img_src: "/img/product-icons/growth-accelerators.svg"
+    img_alt: "DoctorLogic Lead Generator"
 designs:
 - headline: "Stunning, Modern Designs."
   text: "Custom, responsive and completely future proofed web designs built to win new patients."
@@ -216,8 +232,14 @@ talent:
     <div class="home-growth__headline">
         <h3>{{ growth.headline }}</h3>
     </div>
-    <div class="home-growth__icon">
-        <img src="{{ growth.img_src }}" alt="{{ growth.img_alt }}">
+    <div class="home-growth-image-group">
+        <div class="home-growth-image-group__container">
+            {% for item in growth.items %}
+            <div class="home-growth-image-group__image {{ item.class | join: ' ' }}">
+                <img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
+            </div>
+            {% endfor %}
+        </div>
     </div>
     <div class="home-growth__text">
         <p>{{ growth.text }}</p>
