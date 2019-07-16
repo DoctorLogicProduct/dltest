@@ -68,7 +68,7 @@ page_sections:
   alt: "Unlimited Pages"
   img_alignment: "Left"
 - component: feature-1
-  component_css: feature
+  component_css:
   headline: "On-Page Editing"
   class: website-management__feature--3
   text: "You will have access to your content and the ability to make real-time edits to your website with no delays. Worried about what the update may look like? See your updates before hitting submit. Don't have time to make these updates? No worries, our support team is available to make unlimited site updates on your behalf."
@@ -77,7 +77,7 @@ page_sections:
   alt: "On-Page Editing"
   img_alignment: "Right"
 - component: feature-1
-  component_css: feature
+  component_css:
   headline: "HIPAA Compliant Website"
   class: website-management__feature--1
   text: "Your patient’s security is our top priority. Where your site is hosted, how you add content and the forms your patients fill out are all 100% HIPAA compliant."

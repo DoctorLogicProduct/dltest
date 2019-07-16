@@ -41,7 +41,7 @@ page_sections:
   alt: "Paid Advertising"
   img_alignment: "Left"
 - component: feature-1
-  component_css: feature
+  component_css:
   tagline: "Content Marketing"
   headline: "Healthcare Content Marketing"
   class: growth-accelerators__feature--2
@@ -87,7 +87,7 @@ page_sections:
     src: /img/products/growth-accelerators/chat-6.svg
     alt-text: "DoctorLogic Managed Chat"   
 - component: feature-1
-  component_css: feature
+  component_css:
   tagline: "Video Production"
   headline: "Build Trust With Video"
   class: growth-accelerators__feature--3

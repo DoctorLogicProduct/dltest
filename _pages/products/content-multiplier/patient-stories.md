@@ -28,7 +28,7 @@ page_sections:
   alt: "Easily Add Photos"
   img_alignment: "Left"
 - component: feature-1
-  component_css: feature
+  component_css:
   class: patient-stories__feature--2
   headline: "Search Made Simple"
   text: "Each case creates multiple pages of SEO-friendly content to help you win online. After creating a new photo gallery, our tool automatically organizes it into a list format  similar to major e-commerce sites like Amazon or Zillow. Our software helps move your website visitors through the purchasing funnel and provides more leads for your practice!"

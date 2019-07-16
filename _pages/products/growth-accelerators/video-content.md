@@ -29,7 +29,7 @@ page_sections:
   alt: "Establish Trust"
   img_alignment: Right
 - component: feature-1
-  component_css: feature
+  component_css:
   class: video-content__feature--2
   headline: "Gain Competitive Advantage"
   text: "Most businesses still don’t have any marketing videos representing their brands, while 61% of businesses that do say online video is the top converter for sales."
@@ -42,7 +42,7 @@ page_sections:
   headline: "Video traffic made up <span>73%</span> of all internet traffic in 2016. Expect it to be <span>82%</span> by 2021."
   source: "Google"
 - component: feature-1
-  component_css: feature
+  component_css:
   class: video-content__feature--3
   headline: "Increase Online Visibility"
   text: "Videos can attract 2-3x as many monthly visitors, double prospective clients’ time on site, and increase organic traffic from search engines by 157%."

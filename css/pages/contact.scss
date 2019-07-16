@@ -94,7 +94,7 @@
   }
 
   &__departments {
-    padding: 0 10px 40px;
+    padding: 0 20px 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -119,21 +119,36 @@
   }
         
   &__departments-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    @include grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px; 
     width: 100%;
+
+    @include tablet-min {
+      grid-column-gap: 20px; 
+    }
+    
   }
 
   &__departments-item {
-    flex: 0 0 auto;
+    grid-column: auto / span 24;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: $color-2;
+    box-shadow: $box-shadow;
+    min-height: 300px;
+    
+    @include desktop-min {
+      grid-column: auto / span 8;
+      max-width: 100%;
+    }
+    
 
     h3 {
       margin-bottom: 20px;

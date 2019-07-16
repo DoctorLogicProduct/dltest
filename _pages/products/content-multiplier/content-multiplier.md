@@ -67,7 +67,7 @@ page_sections:
   headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic."
   source: "HubSpot"
 - component: feature-1
-  component_css: feature
+  component_css:
   class: content-multiplier__feature--2
   headline: "Enhanced Provider Bio"
   text: "Patients are interested in knowing more about who will be treating them. You and your staff members will receive individual bio pages with specific, integrated, relevant content that will convey expertise, experience and most of all, trust."
@@ -76,7 +76,7 @@ page_sections:
   alt: "Enhanced Provider Bios"
   img_alignment: "Right"
 - component: feature-1
-  component_css: feature
+  component_css:
   class: content-multiplier__feature--3
   headline: "Smarter Video Integration"
   text: "Upload an unlimited number of videos and our software will automatically integrate these videos across your entire website. Most importantly, each video is transcribed for great SEO content."

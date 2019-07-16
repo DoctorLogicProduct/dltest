@@ -29,7 +29,7 @@ page_sections:
   alt: "Personalized Content Planning"
   img_alignment: Left
 - component: feature-1
-  component_css: feature
+  component_css:
   class: content-marketing__feature--2
   headline: "Custom Content Creation"
   text: "To execute your plan, our experienced content writers will blend their talents in medical and digital marketing to deliver custom, SEO-rich content optimized for your practice’s location(s)."
@@ -42,7 +42,7 @@ page_sections:
   headline: "<span>60%</span> of people are inspired to seek out a product after reading content about it."
   source: "Demand Metric"
 - component: feature-1
-  component_css: feature
+  component_css:
   class: content-marketing__feature--3
   headline: "Strategic Implementation"
   text: "Posts will automatically be published to the website and tagged to Procedures, Specials, Providers, etc."
@@ -50,7 +50,7 @@ page_sections:
   alt: "Strategic Impementation"
   img_alignment: Left
 - component: feature-1
-  component_css: feature
+  component_css:
   class: content-marketing__feature--3
   headline: "Active Reporting"
   text: "Your assigned success team member will stay in contact and provide quarterly reporting on how target keywords are ranking and increasing traffic."
@@ -59,7 +59,7 @@ page_sections:
   img_alignment: Right
 - component: callout
   component_css: callout
-  class: bob
+  class:
   background: false
   headline: "Use Content Marketing To Generate Leads"
   text: "Content Marketing is the future of reaching new patients and growing your practice."

@@ -60,7 +60,7 @@ page_sections:
   alt: Connect With Patients
   img_alignment: Right
 - component: feature-1
-  component_css: feature
+  component_css:
   class: managed-chat__feature--2
   headline: "Never Miss a Conversation"
   text: "<p>DoctorLogic Chat also works beyond your website to better connect you to prospects:</p><ul><li>Google Business Listings: Chat from search results</li><li>Call Connect: Transfer live chats to your practice</li><li>Mobile SMS: Real-time texting with agents</li></ul>"
