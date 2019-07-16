@@ -17,6 +17,7 @@ post_highlight: When considering the direction for your website, a strong SEO st
 post_type:
 - blog
 product:
+- lead generator
 - website management
 
 ---
