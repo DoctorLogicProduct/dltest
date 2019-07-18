@@ -17,8 +17,8 @@ page_sections:
   text: 'We’re in the business of helping your practice grow through patient acquisition
     and we want to prove it. It''s easy to get started. '
   btn:
-  - btn-label: Start Growing Your Practice
-    btn-link: ''
+  - btn-link: ''
+    btn-label: Start Growing Your Practice
   class: ''
   link: []
 - template: feature
