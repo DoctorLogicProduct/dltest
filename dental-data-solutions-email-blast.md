@@ -25,18 +25,6 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
-  text: 'As our partner, you will have access to the latest solutions, transparent
-    reporting, unlimited content, technology upgrades, dedicated support and a 100%
-    HIPAA compliant platform. '
-  headline: The DoctorLogic Difference
-  img: "/uploads/EstablishTrustThumb.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
   img_alignment: Left
   headline: Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
@@ -108,6 +96,18 @@ page_sections:
     of your website leads in one place and receive alerts as they come in.
   img: "/uploads/PPCMistakesThumb.jpg"
   img_alignment: Right
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  text: 'As our partner, you will have access to the latest solutions, transparent
+    reporting, unlimited content, technology upgrades, dedicated support and a 100%
+    HIPAA compliant platform. '
+  headline: The DoctorLogic Difference
+  img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
   btn: []
   alt: ''
