@@ -8,14 +8,22 @@ custom_js: ''
 description: ''
 meta_image: ''
 page_sections:
-- template: hero-no-image
-  component: hero-2
-  component_css: hero-2
-  headline: Components are cool
-  text: Hi Keisha!
+- template: hero-with-form
+  component: hero-3
+  component_css: hero-3
+  bg_img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
+  tagline:
+  - headline: Heros With Forms
+  headline: Houtson, we have a form.
+  text: It is a long established fact that a reader will be distracted by the readable
+    content of a page when looking at its layout. The point of using Lorem Ipsum is
+    that it has a more-or-less normal distribution of letters, as opposed to using
+    'Content here, content here', making it look like readable English.
   btn:
-  - btn-label: Hi Dre
-    btn-link: "#"
+  - btn-label: Learn More
+    btn-link: "/"
+  form_template: forms/get-started.html
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/73z
 - template: feature
   component: feature-1
   component_css: feature
@@ -25,6 +33,7 @@ page_sections:
   img: "/uploads/MicrositeThumb.png"
   class: ''
   btn: []
+  alt: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -34,6 +43,7 @@ page_sections:
   img: "/uploads/mike-burke-63930.jpg"
   class: ''
   btn: []
+  alt: ''
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
