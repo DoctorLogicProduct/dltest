@@ -34,7 +34,9 @@ page_sections:
   class: ''
   btn: []
   alt: ''
-  wistia-link: []
+  wistia-link:
+  - link-id: w7jgkunbv9
+    link-label: Watch Video
 - template: feature
   component: feature-1
   component_css: feature
