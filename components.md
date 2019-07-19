@@ -21,6 +21,17 @@ page_sections:
   - btn-link: "#"
     btn-label: "About Us"
   img: "img/hero/hero1.svg"
+- component: hero-3
+  component_css: hero-3
+  class: hero-3-sample
+  bg_img: /img/home/home-hero.jpg
+  headline: "Market your practice the right way."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn:
+  - btn-link: "#"
+    btn-label: "About Us"
+  form_template: forms/get-started.html
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/73z
 - component: feature-1
   component_css: feature
   class: feature-left-sample

@@ -1,0 +1,23 @@
+<section class="component hero hero-3 {{section.class}}" style="background: url('{{ section.bg_img }}');">
+  <div class="hero-3__text">
+    {% for tagline in section.tagline %}
+    {% if section.tagline %}
+    <div class="hero-3__tagline">
+      <h5>{{tagline.headline}}</h5>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <h1>{{section.headline}}</h1>
+    <p>{{section.text}}</p>
+    {% for btn in section.btn %}
+      {% if section.btn %}
+        <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="hero-3__form">
+    <div class="hero-3__form-container">
+      {% include {{ section.form_template }} handler=section.form_handler%}
+    </div>
+  </div>
+</section>

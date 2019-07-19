@@ -58,16 +58,22 @@ solution:
   items:
   - img_src: "/img/product-icons/with-labels/website-management-label.svg"
     img_alt: DoctorLogic Website Management
+    img_link: "/website-management"
   - img_src: "/img/product-icons/with-labels/content-multiplier-label.svg"
     img_alt: DoctorLogic Content Multiplier
+    img_link: "/content-multiplier"
   - img_src: "/img/product-icons/with-labels/social-reputation-label.svg"
     img_alt: DoctorLogic Social Reputation
+    img_link: "/social-reputation"
   - img_src: "/img/product-icons/with-labels/search-amplifier-label.svg"
     img_alt: DoctorLogic Search Amplifier
+    img_link: "/search-amplifier"
   - img_src: "/img/product-icons/with-labels/lead-generator-label.svg"
     img_alt: DoctorLogic Lead Generator
+    img_link: "/lead-generator"
   - img_src: "/img/product-icons/with-labels/success-insights-label.svg"
     img_alt: DoctorLogic Success Insights
+    img_link: "/success-insights"
 ---
 
 

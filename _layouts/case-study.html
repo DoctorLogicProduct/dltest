@@ -100,7 +100,7 @@ layout: default
 		<h3>Product Spotlight</h3>
 		<div class="case-study__spotlight-items">
 			{% for item in solution.items %}
-			<a href="#" class="case-study__spotlight-item">
+			<a href="{{item.img_link}}" class="case-study__spotlight-item">
 				<img src="{{ item.img_src }}" alt="{{ item.img_alt }}">
 			</a>
 			{% endfor %}
