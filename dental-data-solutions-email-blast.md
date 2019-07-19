@@ -26,10 +26,9 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  text: As our partner, you will have access to the latest solutions, transparent
+  text: 'As our partner, you will have access to the latest solutions, transparent
     reporting, unlimited content, technology upgrades, dedicated support and a 100%
-    HIPAA compliant platform. You will be taken care of with feedback on how to grow
-    your practice from like minded people who are medical marketing experts.
+    HIPAA compliant platform. '
   headline: The DoctorLogic Difference
   img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
@@ -60,8 +59,8 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  headline: Case Studies
-  text: Powering Today's Top Dental Practices
+  headline: Happy Providers
+  text: Powered By DoctorLogic
   items:
   - img:
     - src: "/uploads/macbook_desk_mockup--luminous.jpg"
@@ -109,17 +108,6 @@ page_sections:
     of your website leads in one place and receive alerts as they come in.
   img: "/uploads/PPCMistakesThumb.jpg"
   img_alignment: Right
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  text: Content can help build your online presence. We make it easy to showcase your
-    results & establish your expertise with our Smile Gallery solution.
-  headline: Build Better Content, Fast
-  img: "/uploads/PPCMistakesThumb-1.jpg"
   class: ''
   btn: []
   alt: ''
