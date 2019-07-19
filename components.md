@@ -41,10 +41,14 @@ page_sections:
   - icon: "img/product-icons/social-reputation.svg"
   headline: "Reputation Management made easy."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
-  btn-link: "#"
-  btn-label: "Learn More"
+  btn:
+  - btn-link: "#"
+    btn-label: "Learn More"
   img: "img/feature-sample-1.png"
   img_alignment: "Left"
+  wistia-link:
+  - link-id: w7jgkunbv9
+    link-label: Watch Video
 - component: item-grid
   component_css: item-grid
   class: item-grid-3-sample
