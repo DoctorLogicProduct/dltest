@@ -2,13 +2,26 @@
 layout: components
 hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
 title: Dental Data Solutions Email Blast
-permalink: practice-experts/dental-email-blast
+permalink: practice-growth-experts
 page_class:
 - class: landing page
 custom_js: ''
 description: ''
 meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
 page_sections:
+- template: hero-with-form
+  component: hero-3
+  component_css: hero-3
+  bg_img: "/uploads/home-hero.jpg"
+  tagline:
+  - headline: 'One Company. One Solution. Unlimited Results. '
+  headline: The Solution Built to Power Your Practice Growth.
+  text: 'DoctorLogic was built to help healthcare providers acquire more patients,
+    optimize marketing costs, and become a leader in your market by helping you stand
+    out online. '
+  form_template: forms/get-started.html
+  btn: []
+  form_handler: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -17,8 +30,8 @@ page_sections:
   text: 'We’re in the business of helping your practice grow through patient acquisition
     and we want to prove it. It''s easy to get started. '
   btn:
-  - btn-link: ''
-    btn-label: Start Growing Your Practice
+  - btn-label: Start Growing Your Practice
+    btn-link: ''
   class: ''
   link: []
 - template: feature
