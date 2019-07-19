@@ -14,8 +14,8 @@ page_sections:
   component_css: hero-3
   bg_img: "/uploads/home-hero.jpg"
   tagline:
-  - headline: 'One Company. One Solution. Unlimited Results. '
-  headline: The Solution Built to Power Your Practice Growth.
+  - headline: The Solution Built to Power Your Practice Growth.
+  headline: The Modern Way to Grow Your Dental Practice
   text: 'DoctorLogic was built to help healthcare providers acquire more patients,
     optimize marketing costs, and become a leader in your market by helping you stand
     out online. '
@@ -82,7 +82,7 @@ page_sections:
   - img:
     - src: "/uploads/Screen Shot 2019-07-19 at 10.27.40 AM.png"
       alt: ''
-    headline: Parker West Dental
+    headline: ''
     text: ''
     link:
     - link-link: Read More
