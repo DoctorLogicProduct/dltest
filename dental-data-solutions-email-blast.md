@@ -33,6 +33,7 @@ page_sections:
   class: ''
   btn: []
   alt: ''
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -44,31 +45,28 @@ page_sections:
   alt: Reputation Management
   class: ''
   btn: []
+  wistia-link: []
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
   headline: Happy Providers | Powered By DoctorLogic
-  text: ''
+  text: Discover How You Can Achieve These Results
   items:
   - img:
     - src: "/uploads/macbook_desk_mockup--luminous.jpg"
       alt: Sweet Tooth Dental
-    headline: Sweet Tooth Dental Care
-    text: "↟262% In Traffic Value"
-    link:
-    - link-link: Read More
-      link-label: Learn More
+    headline: ''
+    text: ''
+    link: []
   - img:
     - src: "/uploads/macbook_desk_mockup--luminous-1.jpg"
       alt: Emigh Dental Care
-    headline: Emigh Dental Care
-    text: "↟375% Top 20 Google keywords "
-    link:
-    - link-link: Read More
-      link-label: Learn More
+    headline: ''
+    text: ''
+    link: []
   - img:
     - src: "/uploads/Screen Shot 2019-07-19 at 10.27.40 AM.png"
-      alt: ''
+      alt: Parker West Dental
     headline: ''
     text: ''
     link:
@@ -76,7 +74,9 @@ page_sections:
       link-label: Learn More
   per-row-count: '3'
   class: ''
-  btn: []
+  btn:
+  - btn-link: ''
+    btn-label: Get A Demo
 - template: feature
   component: feature-1
   component_css: feature
@@ -88,6 +88,7 @@ page_sections:
   class: ''
   btn: []
   alt: ''
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -99,10 +100,11 @@ page_sections:
   class: ''
   btn: []
   alt: ''
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   text: 'As our partner, you will have access to the latest solutions, transparent
     reporting, unlimited content, technology upgrades, dedicated support and a 100%
     HIPAA compliant platform. '
@@ -111,6 +113,7 @@ page_sections:
   class: ''
   btn: []
   alt: ''
+  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
