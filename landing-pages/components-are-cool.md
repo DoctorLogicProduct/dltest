@@ -34,9 +34,7 @@ page_sections:
   class: ''
   btn: []
   alt: ''
-  wistia-link:
-  - link-id: w7jgkunbv9
-    link-label: Watch Video
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -75,23 +73,5 @@ page_sections:
     link: []
   class: ''
   btn: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: I can have a headline
-  img:
-  - img_src: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-    img_alt: DoctorLogic laptop
-  text: It is a long established fact that a reader will be distracted by the readable
-    content of a page when looking at its layout. The point of using Lorem Ipsum is
-    that it has a more-or-less normal distribution of letters, as opposed to using
-    'Content here, content here', making it look like readable English.
-  btn:
-  - btn-link: "/"
-    btn-label: Learn More
-  class: ''
-  link: []
-  wistia-link: []
 
 ---
