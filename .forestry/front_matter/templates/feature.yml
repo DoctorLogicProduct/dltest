@@ -55,6 +55,27 @@ fields:
     labelField: btn-label
   label: Button
   description: Section Button (Not required)
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: link-id
+    type: text
+    config:
+      required: false
+    label: Link ID
+    description: The wistia ID of the video.
+  - name: link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: The label of the button.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Popover
+  description: Button to Wistia hosted video in a popover.
 - name: img
   type: file
   config:
