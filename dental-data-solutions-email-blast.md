@@ -58,6 +58,19 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
+  img_alignment: Right
+  text: As our partner, you will have access to the latest solutions, transparent
+    reporting, unlimited content, technology upgrades, dedicated support and a 100%
+    HIPAA compliant platform. You will be taken care of with feedback on how to grow
+    your practice from like minded people who are medical marketing experts.
+  headline: The DoctorLogic Difference
+  img: "/uploads/EstablishTrustThumb.jpg"
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
   img_alignment: Left
   headline: We Make Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
@@ -78,6 +91,15 @@ page_sections:
   alt: Reputation Management
   class: ''
   btn: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  text: We’re in the business of helping your practice grow through patient acquisition
+    and we want to prove it.
+  class: ''
+  headline: []
+  btn: []
+  link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -120,19 +142,6 @@ page_sections:
   text: 'Our growth accelerators can help your practice grow as fast as you want.
     We offer Paid Advertising (PPC), Blog Writing, Video Production and Manage Chat. '
   img: "/uploads/ContentMarketing2Thumb.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  text: As our partner, you will have access to the latest solutions, transparent
-    reporting, unlimited content, technology upgrades, dedicated support and a 100%
-    HIPAA compliant platform. You will be taken care of with feedback on how to grow
-    your practice from like minded people who are medical marketing experts.
-  headline: The DoctorLogic Difference
-  img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
   btn: []
   alt: ''
