@@ -2,40 +2,31 @@
 layout: components
 hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
 title: Dental Data Solutions Email Blast
-permalink: practice-experts/dental-email-blast
+permalink: practice-growth-experts
 page_class:
 - class: landing page
 custom_js: ''
 description: ''
 meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
 page_sections:
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: We Partner With You To Reach Your Goals
-  text: 'We’re in the business of helping your practice grow through patient acquisition
-    and we want to prove it. It''s easy to get started. '
-  btn:
-  - btn-link: ''
-    btn-label: Start Growing Your Practice
-  class: ''
-  link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  img: "/uploads/Meet DoctorLogic. Your Practice Growth Experts.mp4"
-  headline: Meet DoctorLogic
-  class: ''
-  text: ''
+- template: hero-with-form
+  component: hero-3
+  component_css: hero-3
+  bg_img: "/uploads/home-hero.jpg"
+  tagline:
+  - headline: The Solution Built to Power Your Practice Growth.
+  headline: The Modern Way to Grow Your Dental Practice
+  text: 'DoctorLogic was built to help healthcare providers acquire more patients,
+    optimize marketing costs, and become a leader in your market by helping you stand
+    out online. '
+  form_template: forms/get-started.html
   btn: []
-  alt: ''
+  form_handler: ''
 - template: feature
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: We Make Beautiful Websites Designed To Grow Your Practice
+  headline: Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
     with a custom branded website built to perform. '
   img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
@@ -46,9 +37,8 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Reputation Management Made Simple.
-  text: Manage reviews from different sources, including Google, Facebook, Yelp, and
-    more. Display reviews from across the web in one place, prioritize your favorites,
+  headline: Reputation Management Made Simple
+  text: Display reviews from across the web in one place, prioritize your favorites,
     and tag each review to make it simple to find.
   img: "/uploads/PatientTestimonialsThumb.jpg"
   alt: Reputation Management
@@ -57,8 +47,8 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  headline: Case Studies
-  text: Powering Today's Top Dental Practices
+  headline: Happy Providers | Powered By DoctorLogic
+  text: ''
   items:
   - img:
     - src: "/uploads/macbook_desk_mockup--luminous.jpg"
@@ -77,10 +67,10 @@ page_sections:
     - link-link: Read More
       link-label: Learn More
   - img:
-    - src: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-      alt: Emigh Dental Care
-    headline: Parker West Dental
-    text: "↟134% Website Leads"
+    - src: "/uploads/Screen Shot 2019-07-19 at 10.27.40 AM.png"
+      alt: ''
+    headline: ''
+    text: ''
     link:
     - link-link: Read More
       link-label: Learn More
@@ -91,9 +81,8 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  text: Ranking on the first page of search engines significantly increases being
-    found. Your website will be optimized to help search engines identify your site
-    as relevant to specific keywords.
+  text: Your website will be optimized to help search engines identify your site to
+    reach more patients across the web.
   img: "/uploads/PPCThumb.jpg"
   headline: Increase Your Search Performance
   class: ''
@@ -113,25 +102,27 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Left
-  text: Content can help build your online presence. We make it easy to showcase your
-    results & establish your expertise with our Smile Gallery solution.
-  headline: Build Better Content, Fast
-  img: "/uploads/PPCMistakesThumb-1.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
   img_alignment: Right
-  headline: Want To Grow Faster?
-  text: 'Our growth accelerators can help your practice grow as fast as you want.
-    We offer Paid Advertising (PPC), Blog Writing, Video Production and Manage Chat. '
-  img: "/uploads/ContentMarketing2Thumb.jpg"
+  text: 'As our partner, you will have access to the latest solutions, transparent
+    reporting, unlimited content, technology upgrades, dedicated support and a 100%
+    HIPAA compliant platform. '
+  headline: The DoctorLogic Difference
+  img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
   btn: []
   alt: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Ready to Fill Your Waiting Room?
+  text: Schedule a one-on-one consultation and learn how we can help you succeed online.
+    Experience the DoctorLogic Difference.
+  btn:
+  - btn-label: Let's Talk Goals
+    btn-link: ''
+  class: ''
+  link: []
 published: false
 
 ---
