@@ -36,6 +36,27 @@ fields:
     labelField: 
   label: Headline
   description: Headline (Not required)
+- name: img
+  type: field_group_list
+  fields:
+  - name: img_src
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+    description: Upload your image
+  - name: img_alt
+    type: text
+    config:
+      required: false
+    label: Alt Text
+    description: Alt Text for your image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Image
+  description: Image for section. (Optional)
 - name: text
   type: text
   config:
@@ -83,3 +104,24 @@ fields:
     labelField: label
   label: Text Link
   description: Text Link (Not required, do not use with a button)
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: link-id
+    type: text
+    config:
+      required: false
+    label: Link ID
+    description: Wistia ID of the video
+  - name: link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Text for button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Link
+  description: Button to load Wista video popover
