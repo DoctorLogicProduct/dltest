@@ -25,6 +25,8 @@ page_sections:
   component_css: hero-3
   class: hero-3-sample
   bg_img: /img/home/home-hero.jpg
+  tagline:
+  - headline: "I am Hero 3"
   headline: "Market your practice the right way."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
   btn:
