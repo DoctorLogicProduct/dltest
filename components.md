@@ -92,6 +92,17 @@ page_sections:
   btn-label: "Learn More"
   img: "img/feature-sample-2.png"
   img_alignment: "Right"
+- component: text-component
+  component_css: text-component
+  headline:
+  - headline: I can have an image.
+  img:
+  - img_src: "img/home/talent.jpg"
+    img_alt: "Sample Image"
+  text: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed.</p>"
+  wistia-link:
+  - link-id: w7jgkunbv9
+    link-label: Watch Video
 - component: callout
   component_css: callout
   class: callout__websites

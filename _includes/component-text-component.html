@@ -5,6 +5,11 @@
 				<h3>{{ headline.headline }}</h3>
 			{% endif %}
 		{% endfor %}
+		{% for img in section.img %}
+			{% if section.img %}
+				<img src="{{ img.img_src }}" alt="{{ img.img_alt }}">
+			{% endif %}
+		{% endfor %}
 		<p>{{ section.text }}</p>
 		{% for btn in section.btn %}
 			{% if section.btn %}
