@@ -11,10 +11,10 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
+  bg_img: "/uploads/Meet DoctorLogic. Your Practice Growth Experts.png"
   tagline:
-  - headline: Heros With Forms
-  headline: Houtson, we have a form.
+  - headline: I have a form!
+  headline: Houston, we have a form.
   text: It is a long established fact that a reader will be distracted by the readable
     content of a page when looking at its layout. The point of using Lorem Ipsum is
     that it has a more-or-less normal distribution of letters, as opposed to using
