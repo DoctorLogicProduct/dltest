@@ -1,0 +1,86 @@
+---
+label: Hero With Form
+hide_body: true
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  default: hero-3
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: hero-3
+- name: bg_img
+  type: file
+  config:
+    maxSize: 250
+  label: Background Image
+  description: The image that will be in the bg of the hero.  Should be centered vertically
+    and horizontally.
+- name: tagline
+  type: field_group_list
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Tagline
+    description: Tagline for hero
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tagline
+  description: Hero Tagline (Not Required)
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Hero headline
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: Text for hero
+- name: btn
+  type: field_group_list
+  fields:
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: Button Link
+    description: Link for button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Button
+  description: Hero button (Not Required)
+- name: form_template
+  type: text
+  config:
+    required: false
+  label: Form Template
+  description: What form you want to use.
+- name: form_handler
+  type: text
+  config:
+    required: false
+  label: Form Handler
+  description: Pardot form handler URL
