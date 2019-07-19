@@ -72,7 +72,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: We Make Beautiful Websites Designed To Grow Your Practice
+  headline: Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
     with a custom branded website built to perform. '
   img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
@@ -83,23 +83,13 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Reputation Management Made Simple.
-  text: Manage reviews from different sources, including Google, Facebook, Yelp, and
-    more. Display reviews from across the web in one place, prioritize your favorites,
+  headline: Reputation Management Made Simple
+  text: Display reviews from across the web in one place, prioritize your favorites,
     and tag each review to make it simple to find.
   img: "/uploads/PatientTestimonialsThumb.jpg"
   alt: Reputation Management
   class: ''
   btn: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  text: We’re in the business of helping your practice grow through patient acquisition
-    and we want to prove it.
-  class: ''
-  headline: []
-  btn: []
-  link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -144,6 +134,17 @@ page_sections:
   img: "/uploads/ContentMarketing2Thumb.jpg"
   class: ''
   btn: []
+  alt: ''
+- template: hero-with-image
+  component: hero-1
+  component_css: hero
+  text: '"DoctorLogic has made our online appearance not only more aesthetically pleasing
+    but has drastically increased our functionality. In the digital world we live
+    in your website is the first window to your practice. It''s safe to say when people
+    look into our digital window they like what they see!"'
+  headline: ''
+  button: []
+  img: ''
   alt: ''
 published: false
 
