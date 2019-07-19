@@ -22,51 +22,6 @@ page_sections:
   form_template: forms/get-started.html
   btn: []
   form_handler: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: We Partner With You To Reach Your Goals
-  text: 'We’re in the business of helping your practice grow through patient acquisition
-    and we want to prove it. It''s easy to get started. '
-  btn:
-  - btn-label: Start Growing Your Practice
-    btn-link: ''
-  class: ''
-  link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  img: "/uploads/Meet DoctorLogic. Your Practice Growth Experts.mp4"
-  headline: Meet DoctorLogic
-  class: ''
-  text: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  headline: We Make Beautiful Websites Designed To Grow Your Practice
-  text: 'Receive more traffic to your website and appear higher in search engine results
-    with a custom branded website built to perform. '
-  img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Reputation Management Made Simple.
-  text: Manage reviews from different sources, including Google, Facebook, Yelp, and
-    more. Display reviews from across the web in one place, prioritize your favorites,
-    and tag each review to make it simple to find.
-  img: "/uploads/PatientTestimonialsThumb.jpg"
-  alt: Reputation Management
-  class: ''
-  btn: []
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -98,6 +53,29 @@ page_sections:
     - link-link: Read More
       link-label: Learn More
   per-row-count: '3'
+  class: ''
+  btn: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: We Make Beautiful Websites Designed To Grow Your Practice
+  text: 'Receive more traffic to your website and appear higher in search engine results
+    with a custom branded website built to perform. '
+  img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Reputation Management Made Simple.
+  text: Manage reviews from different sources, including Google, Facebook, Yelp, and
+    more. Display reviews from across the web in one place, prioritize your favorites,
+    and tag each review to make it simple to find.
+  img: "/uploads/PatientTestimonialsThumb.jpg"
+  alt: Reputation Management
   class: ''
   btn: []
 - template: feature
@@ -142,6 +120,19 @@ page_sections:
   text: 'Our growth accelerators can help your practice grow as fast as you want.
     We offer Paid Advertising (PPC), Blog Writing, Video Production and Manage Chat. '
   img: "/uploads/ContentMarketing2Thumb.jpg"
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  text: As our partner, you will have access to the latest solutions, transparent
+    reporting, unlimited content, technology upgrades, dedicated support and a 100%
+    HIPAA compliant platform. You will be taken care of with feedback on how to grow
+    your practice from like minded people who are medical marketing experts.
+  headline: The DoctorLogic Difference
+  img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
   btn: []
   alt: ''
