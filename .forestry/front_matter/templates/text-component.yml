@@ -58,11 +58,15 @@ fields:
   label: Image
   description: Image for section. (Optional)
 - name: text
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Text
-  description: Section Text
+  description: Section text
 - name: btn
   type: field_group_list
   fields:
