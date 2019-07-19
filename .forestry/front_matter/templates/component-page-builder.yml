@@ -67,6 +67,7 @@ fields:
   - feature
   - text-component
   - item-grid-component
+  - hero-with-form
   config:
     min: 
     max: 
