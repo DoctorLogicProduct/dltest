@@ -111,6 +111,18 @@ page_sections:
   class: ''
   btn: []
   alt: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Ready to Fill Your Waiting Room?
+  text: Schedule a one-on-one consultation and learn how we can help you succeed online.
+    Experience the DoctorLogic Difference.
+  btn:
+  - btn-label: Let's Talk Goals
+    btn-link: ''
+  class: ''
+  link: []
 published: false
 
 ---
