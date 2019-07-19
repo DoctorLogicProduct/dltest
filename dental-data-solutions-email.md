@@ -69,9 +69,7 @@ page_sections:
       alt: Parker West Dental
     headline: ''
     text: ''
-    link:
-    - link-link: Read More
-      link-label: Learn More
+    link: []
   per-row-count: '3'
   class: ''
   btn:
