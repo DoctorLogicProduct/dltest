@@ -22,6 +22,41 @@ page_sections:
   form_template: forms/get-started.html
   btn: []
   form_handler: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  text: As our partner, you will have access to the latest solutions, transparent
+    reporting, unlimited content, technology upgrades, dedicated support and a 100%
+    HIPAA compliant platform. You will be taken care of with feedback on how to grow
+    your practice from like minded people who are medical marketing experts.
+  headline: The DoctorLogic Difference
+  img: "/uploads/EstablishTrustThumb.jpg"
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Beautiful Websites Designed To Grow Your Practice
+  text: 'Receive more traffic to your website and appear higher in search engine results
+    with a custom branded website built to perform. '
+  img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
+  class: ''
+  btn: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Reputation Management Made Simple
+  text: Display reviews from across the web in one place, prioritize your favorites,
+    and tag each review to make it simple to find.
+  img: "/uploads/PatientTestimonialsThumb.jpg"
+  alt: Reputation Management
+  class: ''
+  btn: []
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -58,45 +93,9 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
-  text: As our partner, you will have access to the latest solutions, transparent
-    reporting, unlimited content, technology upgrades, dedicated support and a 100%
-    HIPAA compliant platform. You will be taken care of with feedback on how to grow
-    your practice from like minded people who are medical marketing experts.
-  headline: The DoctorLogic Difference
-  img: "/uploads/EstablishTrustThumb.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
   img_alignment: Left
-  headline: Beautiful Websites Designed To Grow Your Practice
-  text: 'Receive more traffic to your website and appear higher in search engine results
-    with a custom branded website built to perform. '
-  img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Reputation Management Made Simple
-  text: Display reviews from across the web in one place, prioritize your favorites,
-    and tag each review to make it simple to find.
-  img: "/uploads/PatientTestimonialsThumb.jpg"
-  alt: Reputation Management
-  class: ''
-  btn: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  text: Ranking on the first page of search engines significantly increases being
-    found. Your website will be optimized to help search engines identify your site
-    as relevant to specific keywords.
+  text: Your website will be optimized to help search engines identify your site to
+    reach more patients across the web.
   img: "/uploads/PPCThumb.jpg"
   headline: Increase Your Search Performance
   class: ''
@@ -123,28 +122,6 @@ page_sections:
   img: "/uploads/PPCMistakesThumb-1.jpg"
   class: ''
   btn: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Want To Grow Faster?
-  text: 'Our growth accelerators can help your practice grow as fast as you want.
-    We offer Paid Advertising (PPC), Blog Writing, Video Production and Manage Chat. '
-  img: "/uploads/ContentMarketing2Thumb.jpg"
-  class: ''
-  btn: []
-  alt: ''
-- template: hero-with-image
-  component: hero-1
-  component_css: hero
-  text: '"DoctorLogic has made our online appearance not only more aesthetically pleasing
-    but has drastically increased our functionality. In the digital world we live
-    in your website is the first window to your practice. It''s safe to say when people
-    look into our digital window they like what they see!"'
-  headline: ''
-  button: []
-  img: ''
   alt: ''
 published: false
 
