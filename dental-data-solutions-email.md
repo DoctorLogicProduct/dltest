@@ -22,6 +22,24 @@ page_sections:
   form_template: forms/get-started.html
   btn: []
   form_handler: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: One Company. One Solution. Unlimited Results.
+  img:
+  - img_src: "/uploads/Screen Shot 2019-07-19 at 3.40.27 PM.png"
+    img_alt: DoctorLogic Products
+  text: DoctorLogic offers custom website designs, as well as market proven design
+    options and have created a digital marketing platform that allows users to manage
+    leads, website content, PPC, reputation, galleries, and SEO while providing website
+    analytics from a single, web-based software program.
+  wistia-link:
+  - link-id: w7jgkunbv9
+    link-label: Watch Video
+  class: ''
+  btn: []
+  link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -124,6 +142,8 @@ page_sections:
     btn-link: ''
   class: ''
   link: []
+  img: []
+  wistia-link: []
 published: false
 
 ---
