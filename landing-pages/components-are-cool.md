@@ -75,5 +75,23 @@ page_sections:
     link: []
   class: ''
   btn: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: I can have a headline and an image
+  img:
+  - img_src: "/uploads/GalleryUserThumb.jpg"
+    img_alt: woman on computer
+  text: It is a long established fact that a reader will be distracted by the readable
+    content of a page when looking at its layout. The point of using Lorem Ipsum is
+    that it has a more-or-less normal distribution of letters, as opposed to using
+    'Content here, content here', making it look like readable English.
+  btn:
+  - btn-link: "/"
+    btn-label: Learn More
+  class: ''
+  link: []
+  wistia-link: []
 
 ---
