@@ -59,8 +59,8 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  headline: Happy Providers
-  text: Powered By DoctorLogic
+  headline: Happy Providers | Powered By DoctorLogic
+  text: ''
   items:
   - img:
     - src: "/uploads/macbook_desk_mockup--luminous.jpg"
