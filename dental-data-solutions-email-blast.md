@@ -80,10 +80,10 @@ page_sections:
     - link-link: Read More
       link-label: Learn More
   - img:
-    - src: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-      alt: Emigh Dental Care
+    - src: "/uploads/Screen Shot 2019-07-19 at 10.27.40 AM.png"
+      alt: ''
     headline: Parker West Dental
-    text: "↟134% Website Leads"
+    text: ''
     link:
     - link-link: Read More
       link-label: Learn More
