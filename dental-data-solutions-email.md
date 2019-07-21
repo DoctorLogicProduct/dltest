@@ -12,7 +12,7 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/iStock-1048802976.jpg"
+  bg_img: "/uploads/featured-image (2).jpg"
   tagline:
   - headline: Built to Power Your Practice Growth
   headline: The Modern Way to Grow Your Dental Practice
