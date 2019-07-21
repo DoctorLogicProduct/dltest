@@ -27,9 +27,7 @@ page_sections:
   component_css: text-component
   headline:
   - headline: One Company. One Solution. Unlimited Results.
-  img:
-  - img_src: "/uploads/Screen Shot 2019-07-19 at 3.40.27 PM.png"
-    img_alt: DoctorLogic Products
+  img: []
   text: DoctorLogic offers custom website designs, as well as market proven design
     options and have created a digital marketing platform that allows users to manage
     leads, website content, PPC, reputation, galleries, and SEO while providing website
@@ -47,7 +45,7 @@ page_sections:
   headline: Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
     with a custom branded website built to perform. '
-  img: "/uploads/macbook_desk_mockup--luminous-1.jpg"
+  img: "/uploads/unlimited-pages.jpg"
   class: ''
   btn: []
   alt: ''
@@ -56,13 +54,13 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Reputation Management Made Simple
-  text: Display reviews from across the web in one place, prioritize your favorites,
-    and tag each review to make it simple to find.
-  img: "/uploads/PatientTestimonialsThumb.jpg"
-  alt: Reputation Management
+  text: Your website will be optimized to help search engines identify your site to
+    reach more patients across the web.
+  img: "/uploads/seo-performance-1.jpg"
+  headline: Increase Your Search Performance
   class: ''
   btn: []
+  alt: ''
   wistia-link: []
 - template: item-grid-component
   component: item-grid
@@ -71,21 +69,21 @@ page_sections:
   text: Discover How You Can Achieve These Results
   items:
   - img:
-    - src: "/uploads/macbook_desk_mockup--luminous.jpg"
-      alt: Sweet Tooth Dental
-    headline: ''
+    - src: "/uploads/featured-image (1).jpg"
+      alt: ''
+    headline: Sweet Tooth Dental
     text: ''
     link: []
   - img:
-    - src: "/uploads/macbook_desk_mockup--luminous-1.jpg"
-      alt: Emigh Dental Care
-    headline: ''
+    - src: "/uploads/+30%.png"
+      alt: ''
+    headline: Emigh Dental Care
     text: ''
     link: []
   - img:
-    - src: "/uploads/Screen Shot 2019-07-19 at 10.27.40 AM.png"
-      alt: Parker West Dental
-    headline: ''
+    - src: "/uploads/pw-featured-img-1.jpg"
+      alt: ''
+    headline: Parker West Dental
     text: ''
     link: []
   per-row-count: '3'
@@ -93,17 +91,19 @@ page_sections:
   btn:
   - btn-link: ''
     btn-label: Get A Demo
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  text: Your website will be optimized to help search engines identify your site to
-    reach more patients across the web.
-  img: "/uploads/PPCThumb.jpg"
-  headline: Increase Your Search Performance
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Reputation Management Made Simple
+  img:
+  - img_src: "/uploads/screen-reviews-manage.png"
+    img_alt: Reputation Management
+  text: Display reviews from across the web in one place, prioritize your favorites,
+    and tag each review to make it simple to find.
   class: ''
   btn: []
-  alt: ''
+  link: []
   wistia-link: []
 - template: feature
   component: feature-1
@@ -111,21 +111,8 @@ page_sections:
   headline: Manage All Leads in One Place
   text: Track all your phone calls, form submissions, and chats. Have a clear picture
     of your website leads in one place and receive alerts as they come in.
-  img: "/uploads/PPCMistakesThumb.jpg"
+  img: "/uploads/optimized-marketing.jpg"
   img_alignment: Right
-  class: ''
-  btn: []
-  alt: ''
-  wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  text: 'As our partner, you will have access to the latest solutions, transparent
-    reporting, unlimited content, technology upgrades, dedicated support and a 100%
-    HIPAA compliant platform. '
-  headline: The DoctorLogic Difference
-  img: "/uploads/EstablishTrustThumb.jpg"
   class: ''
   btn: []
   alt: ''
