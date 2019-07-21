@@ -19,8 +19,6 @@ product:
 ---
 For physicians in the aesthetic industry, such as plastic surgeons and cosmetic dentists, the gallery is often the inspiring factor that motivates patients to make contact.
 
-![Establish Trust with Photo Galleries](https://doctorlogic.com/assets/img/posts/EstablishTrust.jpg)
-
 Publishing pictures of your work helps establish trust with patients online.
 
 The Internet can be a visually impactful and dynamic medium. Photos serve as evidence that you know what you’re doing. They display the quality of your work and the expertise of your unique skill. Afterall — seeing is believing!
@@ -35,7 +33,7 @@ Patients researching a specific procedure want to see visible results. They want
 
 Not only do patients love in-depth gallery information, but Google does too. According to Chris Desrochers, Director of Search and Social for DoctorLogic, “When Google sees an image tied to relevant content and useful keyword tags, they know the information is applicable to the searcher, which puts power behind the search result.”
 
-![The DoctorLogic Photo Gallery List Page](https://doctorlogic.com/assets/img/features/gallery/gallery_list--dental.jpg)
+![](/uploads/Screen Shot 2019-07-21 at 4.48.31 PM.png)
 
 Organizing your case work in consumer friendly layout is easy with DoctorLogic.
 
@@ -48,8 +46,6 @@ So where to start? We have some useful tips that can quickly get you going and w
 #### 1. Get the Right Tool
 
 It’s hard to find a software that is not only easy to use, but also compatible with your current website. The DoctorLogic Photo Gallery Tool works on any website, regardless of your current web vendor or platform. The tool was designed to provide a seamless user experience, making it simple to upload photos, size them automatically, add keyword tags and content, then publish.
-
-![The DoctorLogic Photo Gallery Tool](https://doctorlogic.com/assets/img/features/gallery-tool-gif-dental.gif)
 
 In 5 simple steps, you can upload before and after photos to your website.
 
