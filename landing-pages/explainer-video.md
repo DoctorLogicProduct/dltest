@@ -24,13 +24,10 @@ page_sections:
   wistia-link:
   - link-id: w7jgkunbv9
     link-label: Watch Video
-  btn:
-  - btn-link: ''
-    btn-label: ''
+  btn: []
   class: ''
   img: []
   text: ''
   link: []
-published: false
 
 ---
