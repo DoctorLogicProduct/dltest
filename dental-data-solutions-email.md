@@ -12,14 +12,14 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/home-hero.jpg"
+  bg_img: "/uploads/iStock-1048802976.jpg"
   tagline:
-  - headline: The Solution Built to Power Your Practice Growth.
+  - headline: Built to Power Your Practice Growth
   headline: The Modern Way to Grow Your Dental Practice
   text: 'DoctorLogic was built to help healthcare providers acquire more patients,
     optimize marketing costs, and become a leader in your market by helping you stand
     out online. '
-  form_template: forms/get-started.html
+  form_template: forms/demo-form.html
   btn: []
   form_handler: ''
 - template: text-component
