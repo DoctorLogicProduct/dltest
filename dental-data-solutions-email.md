@@ -28,10 +28,12 @@ page_sections:
   headline:
   - headline: One Company. One Solution. Unlimited Results.
   img: []
-  text: DoctorLogic offers custom website designs, as well as market proven design
-    options and have created a digital marketing platform that allows users to manage
-    leads, website content, PPC, reputation, galleries, and SEO while providing website
-    analytics from a single, web-based software program.
+  text: 'Imagine one solution created to improve patient experiences and help grow
+    your practice’s online presence. DoctorLogic offers the most advanced Website
+    Marketing Platform built to help increase new patients by using Before and After
+    Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
+    Google-friendly content. The following six products are included with every DoctorLogic
+    website:'
   wistia-link:
   - link-id: w7jgkunbv9
     link-label: Watch Video
