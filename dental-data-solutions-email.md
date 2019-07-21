@@ -131,5 +131,17 @@ page_sections:
   link: []
   img: []
   wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Reputation Management Made Simple
+  text: Display reviews from across the web in one place, prioritize your favorites,
+    and tag each review to make it simple to find.
+  img: "/uploads/screen-reviews-manage.png"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 
 ---
