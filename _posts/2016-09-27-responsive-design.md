@@ -24,9 +24,7 @@ product:
 
 Responsive website design refers to how a website looks across all devices - from your computer monitor sitting on your work desk (a desktop computer) to the iPhone you might be reading this message on (a mobile device). When a website adheres to proper responsive design principles, the website looks good on any of these devices. But because beauty is more than skin deep, having a responsive website also means that people have a pleasant experience with the website. It shouldn’t matter whether they use a mouse and keyboard or their fingers.
 
-![Responsive Design](https://doctorlogic.com/assets/img/posts/ResponsiveDesign.png)
-
-Image credit: [Google](https://developers.google.com/webmasters/mobile-sites/).
+![Responsive Designs](/uploads/devices-3-marketing-site-mockup (2).jpg)
 
 Has this ever happened to you? You were planning on going out to eat with a few of your friends. Using your phone, you search for the restaurant where you plan to eat because you want to see the menu. You find the restaurant, go to their website, and you’re instantly frustrated at the how hard it is to achieve your goal. You just wanted to see the menu.
 
@@ -51,8 +49,6 @@ There are two easy tests we like to recommend.
 2 - Head on over to Google’s tool [here](https://www.google.com/webmasters/tools/mobile-friendly/).
 
 Enter the web address for a few of your website’s pages. If you see nothing but green responses, you’re good to go!
-
-![Mobile Friendly Testing Tool](https://doctorlogic.com/assets/img/posts/MobileFriendlyResults.png)
 
 ### What happens if my website is not responsive?
 
