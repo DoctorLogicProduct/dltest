@@ -91,20 +91,18 @@ page_sections:
   btn:
   - btn-link: ''
     btn-label: Get A Demo
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Reputation Management Made Simple
-  img:
-  - img_src: "/uploads/screen-reviews-manage.png"
-    img_alt: Reputation Management
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Reputation Management Made Simple
   text: Display reviews from across the web in one place, prioritize your favorites,
     and tag each review to make it simple to find.
+  img: "/uploads/screen-reviews-manage.png"
   class: ''
   btn: []
-  link: []
   wistia-link: []
+  alt: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -112,7 +110,7 @@ page_sections:
   text: Track all your phone calls, form submissions, and chats. Have a clear picture
     of your website leads in one place and receive alerts as they come in.
   img: "/uploads/optimized-marketing.jpg"
-  img_alignment: Right
+  img_alignment: Left
   class: ''
   btn: []
   alt: ''
@@ -131,17 +129,5 @@ page_sections:
   link: []
   img: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Reputation Management Made Simple
-  text: Display reviews from across the web in one place, prioritize your favorites,
-    and tag each review to make it simple to find.
-  img: "/uploads/screen-reviews-manage.png"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
 
 ---
