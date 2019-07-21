@@ -36,7 +36,7 @@ page_sections:
     website:'
   wistia-link:
   - link-id: w7jgkunbv9
-    link-label: Watch Video
+    link-label: Meet DoctorLogic
   class: ''
   btn: []
   link: []
@@ -49,8 +49,10 @@ page_sections:
     with a custom branded website built to perform. '
   img: "/uploads/unlimited-pages.jpg"
   class: ''
-  btn: []
-  alt: ''
+  btn:
+  - btn-link: https://doctorlogic.com/medical-website-design
+    btn-label: Discover Our Work
+  alt: Dental Website Images
   wistia-link: []
 - template: feature
   component: feature-1
