@@ -131,6 +131,5 @@ page_sections:
   link: []
   img: []
   wistia-link: []
-published: false
 
 ---
