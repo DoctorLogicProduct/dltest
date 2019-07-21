@@ -75,7 +75,7 @@ page_sections:
     text: ''
     link: []
   - img:
-    - src: "/uploads/+30%.png"
+    - src: "/uploads/featured-image (2).jpg"
       alt: ''
     headline: Emigh Dental Care
     text: ''
