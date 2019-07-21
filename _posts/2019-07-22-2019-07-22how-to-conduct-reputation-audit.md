@@ -12,7 +12,7 @@ post_intro: 'We live in an age where anyone can find out information about you w
   control it?
 
 '
-post_image: "/uploads/iStock-952879852 (1).jpg"
+post_image: "/uploads/iStock-1063296664.jpg"
 post_highlight: ''
 post_type:
 - blog
