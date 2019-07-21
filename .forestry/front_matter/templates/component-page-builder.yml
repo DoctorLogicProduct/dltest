@@ -66,6 +66,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/explainer-video-page.md
 - landing-pages/components-are-cool.md
 - dental-data-solutions-email.md
 - hello-leadership.md
