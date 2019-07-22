@@ -108,3 +108,24 @@ fields:
     labelField: 
   label: Button
   description: Button for section.
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: link-id
+    type: text
+    config:
+      required: false
+    label: Wistia ID
+    description: Wistia ID for the video
+  - name: link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Label for wistia link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Link
+  description: Button for Wistia video link.
