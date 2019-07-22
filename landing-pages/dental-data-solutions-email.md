@@ -1,13 +1,12 @@
 ---
 layout: components
-gsap: true
 title: Dental Data Solutions Email Blast
 permalink: practice-growth-experts/dental-solutions
 page_class:
 - class: email-blast
 - class: landing page
 custom_js: email-blast
-description: ''
+description: Dental Data Solutions Email Blast
 meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
 page_sections:
 - template: hero-with-form
@@ -183,5 +182,6 @@ page_sections:
   link: []
   img: []
   wistia-link: []
+gsap: true
 
 ---
