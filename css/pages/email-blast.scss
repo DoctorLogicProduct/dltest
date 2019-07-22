@@ -5,6 +5,10 @@
 @import "mq", "base";
 
 .email-blast {
+
+    &__item-grid {
+        background: $color-7;
+    }
    
 
     .image-group__headline {
@@ -25,6 +29,26 @@
           min-height: 700px;
         }
         
+    }
+
+    .wistia-link__container {
+		order: 4;
+    }
+    
+    .play-link::before {
+        left: 22px;
+    }
+
+    .feature--2 {
+		padding-bottom: 60px;
+    }
+    
+    .feature--4 {
+		padding-bottom: 60px;
+    }
+    
+    &__text-component {
+        background: $color-7;
     }
 
 }

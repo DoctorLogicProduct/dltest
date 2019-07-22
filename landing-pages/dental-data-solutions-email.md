@@ -96,7 +96,7 @@ page_sections:
     reach more patients across the web.
   img: "/uploads/seo-performance-1.jpg"
   headline: Increase Your Search Performance
-  class: ''
+  class: 'feature--2'
   btn: []
   alt: ''
   wistia-link: []
@@ -149,7 +149,7 @@ page_sections:
     of your website leads in one place and receive alerts as they come in.
   img: "/uploads/optimized-marketing.jpg"
   img_alignment: Left
-  class: ''
+  class: 'feature--4'
   btn: []
   alt: ''
   wistia-link: []
@@ -163,7 +163,7 @@ page_sections:
   btn:
   - btn-label: Let's Talk Goals
     btn-link: ''
-  class: ''
+  class: 'email-blast__text-component'
   link: []
   img: []
   wistia-link: []

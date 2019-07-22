@@ -46,6 +46,13 @@
 			height: 200px;
 		}
 	}
+
+	.wistia-link__container {
+		grid-column: auto / span 24;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 body.social-reputation .image-group__tagline {
