@@ -68,6 +68,7 @@ fields:
   - hero-with-form
   - image-group
   - wistia-embed
+  - case-study-feature
   config:
     min: 
     max: 
