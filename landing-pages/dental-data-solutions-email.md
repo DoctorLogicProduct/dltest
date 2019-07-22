@@ -4,7 +4,6 @@ title: Dental Data Solutions Email Blast
 permalink: practice-growth-experts/dental-solutions
 page_class:
 - class: email-blast
-- class: landing page
 custom_js: email-blast
 description: Dental Data Solutions
 meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
