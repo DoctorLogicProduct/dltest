@@ -71,18 +71,9 @@ page_sections:
     text: ''
   tagline: ''
   btn: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline: []
-  img: []
-  text: ''
   wistia-link:
   - link-id: w7jgkunbv9
     link-label: Meet DoctorLogic
-  class: ''
-  btn: []
-  link: []
 - template: feature
   component: feature-1
   component_css: feature
