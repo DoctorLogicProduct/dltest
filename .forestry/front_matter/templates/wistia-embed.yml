@@ -1,4 +1,18 @@
 ---
 label: Wistia Embed
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  default: wistia-embed
+  hidden: true
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: wistia-embed
+  hidden: true
