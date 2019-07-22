@@ -5,25 +5,21 @@ date: 2019-07-22T16:00:00.000+00:00
 post_author: John Vakidis
 tags:
 - Reputation-Management
-post_intro: 'We live in an age where anyone can find out information about you with
-  the click of a button. No longer do people have to ask their friends or go searching
-  in the Yellow Pages. By simply typing your name into a search bar, prospective patients
+post_intro: |2-
+
+  By simply typing your name into a search bar, prospective patients can learn a lot about you. So how do you know what they’re seeing and how can you control it?
+post_image: "/uploads/iStock-1063296664.jpg"
+post_highlight: By simply typing your name into a search bar, prospective patients
   can learn a lot about you. So how do you know what they’re seeing and how can you
   control it?
-
-'
-post_image: "/uploads/iStock-1063296664.jpg"
-post_highlight: We live in an age where anyone can find out information about you
-  with the click of a button. No longer do people have to ask their friends or go
-  searching in the Yellow Pages. By simply typing your name into a search bar, prospective
-  patients can learn a lot about you. So how do you know what they’re seeing and how
-  can you control it?
 post_type:
 - blog
 product:
 - social reputation
 
 ---
+We live in an age where anyone can find out information about you with the click of a button. No longer do people have to ask their friends or go searching in the Yellow Pages. By simply typing your name into a search bar, prospective patients can learn a lot about you. So how do you know what they’re seeing and how can you control it?
+
 In this post, we’ll outline a few ways you can do research into what your name returns online. This online audit of [your reputation](https://doctorlogic.com/content/galleries/reputation-management-for-doctors-in-a-digital-world.html) will allow you to see what prospective patients are seeing, as well as better manage what shows up when you Google yourself.
 
 ### Step One: Conduct an Online Search
