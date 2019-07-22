@@ -125,7 +125,7 @@ page_sections:
     text: "↟283% Website Visitors"
     link: []
   per-row-count: '3'
-  class: ''
+  class: email-blast__item-grid
   btn:
   - btn-link: ''
     btn-label: Get A Demo
