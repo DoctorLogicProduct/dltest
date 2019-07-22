@@ -69,9 +69,7 @@ page_sections:
     text: ''
   tagline: ''
   btn: []
-  wistia-link:
-  - link-id: w7jgkunbv9
-    link-label: Meet DoctorLogic
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
