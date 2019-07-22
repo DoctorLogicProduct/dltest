@@ -6,7 +6,7 @@ page_class:
 - class: email-blast
 - class: landing page
 custom_js: email-blast
-description: Dental Data Solutions Email Blast
+description: Dental Data Solutions
 meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
 page_sections:
 - template: hero-with-form
