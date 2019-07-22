@@ -1,0 +1,30 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.email-blast {
+   
+
+    .image-group__headline {
+        text-align: center;
+        order: 1;
+    }
+
+    .image-group__text {
+        text-align: center;
+        order: 3;
+    }
+
+    .image-group__container {
+        min-height: 450px;
+        order: 2;
+
+        @include phone-wide-min {
+          min-height: 700px;
+        }
+        
+    }
+
+}

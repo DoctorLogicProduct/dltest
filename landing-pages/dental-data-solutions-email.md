@@ -1,6 +1,6 @@
 ---
 layout: components
-hs_form_id: 75c57a13-9090-4db1-acd0-be51d1a76f7e
+gsap: true
 title: Dental Data Solutions Email Blast
 permalink: practice-growth-experts/dental-solutions
 page_class:
