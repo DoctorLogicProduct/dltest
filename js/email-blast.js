@@ -1,5 +1,5 @@
 if ($(window).width() >= 568) {
-    tl = new TimelineMax({ onUpdate: onUpdate });
+    tl = new TimelineMax();
     const controller = new ScrollMagic.Controller();
 
     tl.to('.image-group__image--1', 1, { x: -250, y: -300, opacity: 1 });
@@ -16,15 +16,11 @@ if ($(window).width() >= 568) {
     })
         // .setPin('.social-reputation__image-group--1')
         .setTween(tl)
-        .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
+        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
         .addTo(controller);
 
-    function onUpdate() {
-        //tl.progress();
-        //console.log('bob');
-    }
 } else {
-    tl = new TimelineMax({ onUpdate: onUpdate });
+    tl = new TimelineMax();
     const controller = new ScrollMagic.Controller();
 
     tl.to('.image-group__image--1', 1, { x: -110, y: -180, opacity: 1 });
@@ -40,13 +36,9 @@ if ($(window).width() >= 568) {
         duration: '50%'
     })
         .setTween(tl)
-        .addIndicators({ name: "2 (duration: 300)", colorTrigger: "yellow" })
+        // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "yellow" })
         .addTo(controller);
 
-    function onUpdate() {
-        // tl.progress();
-        // console.log('bob');
-    }
 }
 
 
