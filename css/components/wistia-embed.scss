@@ -1,0 +1,36 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.wistia-embed {
+    padding: 60px 10px;
+
+	@include tablet-min {
+		padding: 60px 5%;
+    }
+    
+    &__headline {
+        grid-column: auto / span 24;
+        text-align: center;
+    }
+
+    &__text {
+        grid-column: auto / span 24;
+        text-align: center;
+    }
+
+    &__video {
+        grid-column: auto / span 24;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 0;
+    }
+
+    &__video-container {
+        width: 100%;
+        max-width: 700px;
+    }
+}

@@ -189,4 +189,10 @@ page_sections:
   - class: "image-group__image--1"
     src: "img/feature-sample-1.png"
     alt-text: "bob"
+- component: wistia-embed
+  component_css: wistia-embed
+  class: bob
+  headline: I am a video
+  text: Lorem ipsum delor lorem sit amet lipsum delor sit.
+  wistia-id: w7jgkunbv9
 ---

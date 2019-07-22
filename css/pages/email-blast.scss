@@ -29,37 +29,30 @@
 
     .image-group__headline {
         text-align: center;
-        order: 1;
     }
 
     .image-group__text {
         text-align: center;
-        order: 3;
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 15px auto 0;
     }
 
     .image-group__container {
         min-height: 450px;
-        order: 2;
 
         @include phone-wide-min {
           min-height: 700px;
         }
         
     }
-
-    .wistia-link__container {
-		order: 4;
-    }
-
-    .play-link {
-      padding: 15px 20px 15px 40px;
-    }
+   
+    // .play-link {
+    //   padding: 15px 20px 15px 40px;
+    // }
     
-    .play-link::before {
-        left: 22px;
-    }
+    // .play-link::before {
+    //     left: 22px;
+    // }
 
     .feature--2 {
 		padding-bottom: 60px;
