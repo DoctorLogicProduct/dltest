@@ -35,29 +35,9 @@ page_sections:
     Google-friendly content. The following six products are included with every DoctorLogic
     website:'
   items:
-  - class: image-group__image--7
+  - class: image-group__image--1
     img: true
-    src: "/uploads/dl.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--6
-    img: true
-    src: "/uploads/success-insights-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--5
-    img: true
-    src: "/uploads/lead-generator-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--4
-    img: true
-    src: "/uploads/search-amplifier-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--3
-    img: true
-    src: "/uploads/social-reputation-label.svg"
+    src: "/uploads/website-management-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--2
@@ -65,9 +45,29 @@ page_sections:
     src: "/uploads/content-multiplier-label.svg"
     headline: ''
     text: ''
-  - class: image-group__image--1
+  - class: image-group__image--3
     img: true
-    src: "/uploads/website-management-label.svg"
+    src: "/uploads/social-reputation-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--4
+    img: true
+    src: "/uploads/search-amplifier-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--5
+    img: true
+    src: "/uploads/lead-generator-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--6
+    img: true
+    src: "/uploads/success-insights-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--7
+    img: true
+    src: "/uploads/dl.svg"
     headline: ''
     text: ''
   tagline: ''
