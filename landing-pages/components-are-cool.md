@@ -104,39 +104,39 @@ page_sections:
     that it has a more-or-less normal distribution of letters, as opposed to using
     'Content here, content here', making it look like readable English.
   items:
-  - class: image-group__image--7
-    img: 'true'
-    src: "/uploads/dl.svg"
-    headline: ''
-    text: ''
   - class: image-group__image--1
-    img: 'true'
+    img: true
     src: "/uploads/website-management-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--2
-    img: 'true'
+    img: true
     src: "/uploads/content-multiplier-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--3
-    img: 'true'
+    img: true
     src: "/uploads/social-reputation-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--4
-    img: 'true'
+    img: true
     src: "/uploads/search-amplifier-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--5
-    img: 'true'
+    img: true
     src: "/uploads/lead-generator-label.svg"
     headline: ''
     text: ''
   - class: image-group__image--6
-    img: 'true'
+    img: true
     src: "/uploads/success-insights-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--7
+    img: true
+    src: "/uploads/dl.svg"
     headline: ''
     text: ''
   btn:
