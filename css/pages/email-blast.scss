@@ -6,6 +6,12 @@
 
 .email-blast {
 
+    .hero-3__form {
+      padding: 30px;
+      background: rgba(255,255,255,.5);
+      border-radius: 10px;
+    }
+
     &__item-grid {
         background: $color-7;
     }
@@ -19,6 +25,8 @@
     .image-group__text {
         text-align: center;
         order: 3;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .image-group__container {
