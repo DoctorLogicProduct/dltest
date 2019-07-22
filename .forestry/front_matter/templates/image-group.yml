@@ -1,4 +1,111 @@
 ---
 label: Image Group
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  hidden: true
+  default: image-group
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  hidden: true
+  default: image-group
+- name: class
+  type: text
+  config:
+    required: false
+  label: Class
+  description: Component class  (Not Required)
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+  description: Tagline for the section. (Not Required)
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Headline for the section.
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section Text
+  description: Text for section.
+- name: items
+  type: field_group_list
+  fields:
+  - name: class
+    type: text
+    config:
+      required: false
+    label: Item Class
+    description: CSS Class of Item. (Not Required)
+  - name: img
+    type: text
+    config:
+      required: false
+    label: Image Trigger
+    default: 'true'
+    hidden: true
+  - name: src
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+    description: Item image.
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Item Headline
+    description: Item Headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Item Text
+    description: Item Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Item
+  description: Section Item
+- name: btn
+  type: field_group_list
+  fields:
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: Button Link
+    description: Link for button.
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: Button Label
+    description: Label for button.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Button
+  description: Button for section.
