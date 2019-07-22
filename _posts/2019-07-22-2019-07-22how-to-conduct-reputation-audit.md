@@ -1,7 +1,7 @@
 ---
 post_title: 'Reputation Management for Doctors: How to Conduct an Online Audit of
   Your Reputation'
-date: 2019-07-22 16:00:00 +0000
+date: 2019-07-22T16:00:00.000+00:00
 post_author: John Vakidis
 tags:
 - Reputation-Management
@@ -13,7 +13,11 @@ post_intro: 'We live in an age where anyone can find out information about you w
 
 '
 post_image: "/uploads/iStock-1063296664.jpg"
-post_highlight: ''
+post_highlight: We live in an age where anyone can find out information about you
+  with the click of a button. No longer do people have to ask their friends or go
+  searching in the Yellow Pages. By simply typing your name into a search bar, prospective
+  patients can learn a lot about you. So how do you know what they’re seeing and how
+  can you control it?
 post_type:
 - blog
 product:
