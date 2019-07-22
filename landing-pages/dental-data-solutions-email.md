@@ -96,7 +96,7 @@ page_sections:
     reach more patients across the web.
   img: "/uploads/seo-performance-1.jpg"
   headline: Increase Your Search Performance
-  class: 'feature--2'
+  class: feature--2
   btn: []
   alt: ''
   wistia-link: []
@@ -110,19 +110,19 @@ page_sections:
     - src: "/uploads/featured-image (1).jpg"
       alt: ''
     headline: Sweet Tooth Dental
-    text: "↟56% Lead Conversions"
+    text: "^ 56% Lead Conversions"
     link: []
   - img:
     - src: "/uploads/featured-image (2).jpg"
       alt: ''
     headline: Emigh Dental Care
-    text: "↟375% Top 20 Google keywords"
+    text: "^ 375% Top 20 Google keywords"
     link: []
   - img:
     - src: "/uploads/pw-featured-img-1.jpg"
       alt: ''
     headline: Parker West Dental
-    text: "↟283% Website Visitors"
+    text: "^ 283% Website Visitors"
     link: []
   per-row-count: '3'
   class: email-blast__item-grid
@@ -149,7 +149,7 @@ page_sections:
     of your website leads in one place and receive alerts as they come in.
   img: "/uploads/optimized-marketing.jpg"
   img_alignment: Left
-  class: 'feature--4'
+  class: feature--4
   btn: []
   alt: ''
   wistia-link: []
@@ -163,7 +163,7 @@ page_sections:
   btn:
   - btn-label: Let's Talk Goals
     btn-link: ''
-  class: 'email-blast__text-component'
+  class: email-blast__text-component
   link: []
   img: []
   wistia-link: []
