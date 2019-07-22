@@ -140,7 +140,7 @@ page_sections:
   per-row-count: '3'
   practices:
   - name: Texas Center For Cosmetic Dentistry
-  - name: VIP Plastic Surgery
+  - name: Parker West Dental Associates
   - name: Morales Plastic Surgery
 - template: feature
   component: feature-1
