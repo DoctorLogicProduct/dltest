@@ -67,6 +67,7 @@ fields:
   - item-grid-component
   - hero-with-form
   - image-group
+  - wistia-embed
   config:
     min: 
     max: 
