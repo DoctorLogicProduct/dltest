@@ -16,6 +16,12 @@ fields:
   label: Component CSS
   default: case-studies-feature
   hidden: true
+- name: class
+  type: text
+  config:
+    required: false
+  label: Class
+  description: CSS class for section. (Not Required)
 - name: headline
   type: text
   config:
