@@ -54,11 +54,10 @@ fields:
     label: Item Class
     description: CSS Class of Item. (Not Required)
   - name: img
-    type: text
-    config:
-      required: false
+    type: boolean
     label: Image Trigger
-    default: 'true'
+    description: Trigger for img condition in front matter.
+    default: true
     hidden: true
   - name: src
     type: file
