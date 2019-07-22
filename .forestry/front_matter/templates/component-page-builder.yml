@@ -35,6 +35,10 @@ fields:
     labelField: class
   label: Page Class
   description: Not Required. CSS Class of this page
+- name: gsap
+  type: boolean
+  label: GSAP
+  description: Please Do Not Touch
 - name: custom_js
   type: text
   config:
