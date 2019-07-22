@@ -110,19 +110,19 @@ page_sections:
     - src: "/uploads/featured-image (1).jpg"
       alt: ''
     headline: Sweet Tooth Dental
-    text: "^ 56% Lead Conversions"
+    text: "+56% Lead Conversions"
     link: []
   - img:
     - src: "/uploads/featured-image (2).jpg"
       alt: ''
     headline: Emigh Dental Care
-    text: "^ 375% Top 20 Google keywords"
+    text: "+375% Top 20 Google keywords"
     link: []
   - img:
     - src: "/uploads/pw-featured-img-1.jpg"
       alt: ''
     headline: Parker West Dental
-    text: "^ 283% Website Visitors"
+    text: "+283% Website Visitors"
     link: []
   per-row-count: '3'
   class: email-blast__item-grid
