@@ -1,4 +1,64 @@
 ---
 label: Case Study Feature
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  default: case-studies-feature
+  hidden: true
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: case-studies-feature
+  hidden: true
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Section headline.
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: Section text.
+- name: per-row-count
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - '2'
+    - '3'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Per Row Count
+  description: How many per row?  2 or 3?
+- name: practices
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Practice Name
+    description: Name of the practice.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Featured Case Studies
+  description: Case studies you want to feature.   Rows of 2 or 3.
