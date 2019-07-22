@@ -26,12 +26,11 @@ page_sections:
   component_css: image-group
   class: email-blast__image-group
   headline: One Company. One Solution. Unlimited Results.
-  text: 'Imagine one solution created to improve patient experiences and help grow
+  text: Imagine one solution created to improve patient experiences and help grow
     your practice’s online presence. DoctorLogic offers the most advanced Website
     Marketing Platform built to help increase new patients by using Before and After
     Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
-    Google-friendly content. The following six products are included with every DoctorLogic
-    website:'
+    Google-friendly content.
   items:
   - class: image-group__image--1
     img: true
