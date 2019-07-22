@@ -132,6 +132,16 @@ page_sections:
   btn:
   - btn-link: ''
     btn-label: Get A Demo
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  headline: Case Studies Sample
+  text: This is the text for this section.
+  per-row-count: '3'
+  practices:
+  - name: Texas Center For Cosmetic Dentistry
+  - name: VIP Plastic Surgery
+  - name: Morales Plastic Surgery
 - template: feature
   component: feature-1
   component_css: feature
