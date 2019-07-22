@@ -93,5 +93,54 @@ page_sections:
   class: ''
   link: []
   wistia-link: []
+- template: image-group
+  component: image-group
+  component_css: image-group
+  class: img-group--1
+  tagline: Hello Bob
+  headline: I am an image group.
+  text: It is a long established fact that a reader will be distracted by the readable
+    content of a page when looking at its layout. The point of using Lorem Ipsum is
+    that it has a more-or-less normal distribution of letters, as opposed to using
+    'Content here, content here', making it look like readable English.
+  items:
+  - class: image-group__image--7
+    img: 'true'
+    src: "/uploads/dl.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--1
+    img: 'true'
+    src: "/uploads/website-management-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--2
+    img: 'true'
+    src: "/uploads/content-multiplier-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--3
+    img: 'true'
+    src: "/uploads/social-reputation-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--4
+    img: 'true'
+    src: "/uploads/search-amplifier-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--5
+    img: 'true'
+    src: "/uploads/lead-generator-label.svg"
+    headline: ''
+    text: ''
+  - class: image-group__image--6
+    img: 'true'
+    src: "/uploads/success-insights-label.svg"
+    headline: ''
+    text: ''
+  btn:
+  - btn-link: "/"
+    btn-label: Hello
 
 ---
