@@ -1,0 +1,46 @@
+---
+label: Wistia Embed
+hide_body: true
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: Component
+  default: wistia-embed
+  hidden: true
+- name: component_css
+  type: text
+  config:
+    required: false
+  label: Component CSS
+  default: wistia-embed
+  hidden: true
+- name: class
+  type: text
+  config:
+    required: false
+  label: Class
+  description: CSS class for section. (Not Required)
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Headline for section.
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: Text for section.
+- name: wistia-id
+  type: text
+  config:
+    required: false
+  label: Wistia ID
+  description: Wistia ID for the video you want to embed.

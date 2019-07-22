@@ -70,6 +70,13 @@ page_sections:
   tagline: ''
   btn: []
   wistia-link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  class: ''
+  headline: Watch this video
+  text: Here is some text about my video.
+  wistia-id: w7jgkunbv9
 - template: feature
   component: feature-1
   component_css: feature
