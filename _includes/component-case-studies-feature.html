@@ -1,0 +1,30 @@
+<section class="component case-studies-feature {{ section.class }} {% if section.background == false %} callout__clear {% endif %}">
+	<h3 class="case-studies-feature__headline">{{ section.headline }}</h3>
+	<p class="case-studies-feature__text">{{ section.text }}</p>
+	<div class="case-studies-feature__items case-studies-feature__items--{{ section.per-row-count }}">
+	{% for item in site.data.case-studies.gallery %}
+	{% for practice in section.practices %}
+	{% if item.name == practice.name %}
+		<a class="case-studies-feature__item" data-type="{{item.type}}" href="{{item.link}}">
+			<div class="card {{item.type}}">
+				<div class="card__image" style="background: url('{{item.img}}');">
+					<div class="card__stat">
+						<h3>+{{item.stat}}</h3>
+						<p>{{item.stat-label}}</p>
+					</div>
+				</div>
+				<div class="card__text">
+					<p class="card__title">
+						{{item.name}}
+					</p>
+					<p class="card__specialty">
+						{{item.specialty}}
+					</p>
+				</div>
+			</div>
+		</a>
+	{% endif %}
+	{% endfor %}
+	{% endfor %}
+	</div>
+</section>

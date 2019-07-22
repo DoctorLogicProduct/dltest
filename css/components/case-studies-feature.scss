@@ -1,0 +1,182 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.case-studies-feature {
+    padding: 60px 10px;
+
+	@include desktop-min {
+		padding: 60px 5%;
+    }
+    
+    &__headline {
+        grid-column: auto / span 24;
+        text-align: center;
+    }
+
+    &__text {
+        grid-column: auto / span 24;
+        text-align: center;
+    }
+
+     &__items {
+        grid-column: auto / span 24;
+        @include grid; 
+        grid-gap: 10px;
+        padding: 0 10px;
+  
+        @include tablet-min {
+          grid-gap: 20px;
+        }
+        
+
+        @include desktop-min {
+          padding: 20px;
+        }
+
+         &--2 .case-studies-feature__item {
+             @include tablet-min {
+            grid-column: auto / span 12;
+        }
+        }
+
+        &--3 .case-studies-feature__item {
+            grid-column: auto / span 24;
+        }
+
+        &--3 .case-studies-feature__item {
+             @include tablet-wide-min {
+            grid-column: auto / span 8;
+        }
+        }
+        
+    }
+
+    &__item {
+        grid-column: auto / span 24;
+        text-decoration: none;
+
+        @include tablet-min {
+        grid-column: auto / span 12;
+      }
+
+      }
+
+}
+
+.card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: flex-start;
+        overflow: hidden;
+        border: solid 1px $color-6;
+        border-radius: 5px;
+        box-shadow: 0;
+        transition: box-shadow .3s;
+
+        @include desktop-sm-min {
+            &:hover {
+                box-shadow: $box-shadow;
+            }
+        }
+        
+    
+        &:focus, &:visited {
+            outline: none;
+        }
+
+        &::-moz-focus-inner {
+            border: 0;
+        }
+
+
+
+    &__image {
+        flex: 0 0 100%;
+        background-size: cover !important;
+        background-position: center center;
+        padding-top: 60%;
+        position: relative;
+
+        @include phone-wide-min {
+          padding-top: calc(9/16 * 100%);
+        }
+        
+    }
+
+    &__stat {
+        background: transparentize($websites, .2);
+        padding: 20px;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        h3 {
+            color: $color-2;
+            text-align: center;
+            font-size: 3rem;
+            margin: 0;
+
+            @include tablet-min {
+              font-size: 4rem;
+            }
+            
+        }
+
+        p {
+            color: $color-2;
+            text-transform: uppercase;
+            font-size: .9rem;
+            font-weight: 400;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    &__text {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+
+    &__title {
+        margin: 0 0 15px;
+        z-index: 1;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        color: $color-1;
+
+        @include tablet-min {
+          font-size: 1.1rem;
+        }
+
+        @include desktop-wide-min {
+          font-size: 1.5rem;
+        }
+        
+        
+    }
+
+    &__specialty {
+        margin: 0;
+        font-weight: 400;
+        font-size: .9rem;
+        transition: margin-bottom .3s;
+        text-transform: uppercase;
+        color: $websites;
+
+        @include desktop-wide-min {
+          font-size: 1.1rem;
+        }
+        
+    }
+}
+
+
+    

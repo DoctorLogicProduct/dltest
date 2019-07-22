@@ -195,4 +195,13 @@ page_sections:
   headline: I am a video
   text: Lorem ipsum delor lorem sit amet lipsum delor sit.
   wistia-id: w7jgkunbv9
+- component: case-studies-feature
+  component_css: case-studies-feature
+  per-row-count: 3
+  headline: Case Studies
+  text: A list of case studies.
+  practices: 
+  - name: Morales Plastic Surgery
+  - name: VIP Plastic Surgery
+  - name: Texas Center For Cosmetic Dentistry
 ---
