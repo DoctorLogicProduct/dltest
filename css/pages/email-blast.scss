@@ -15,6 +15,16 @@
     &__item-grid {
         background: $color-7;
     }
+
+    .image-group {
+      padding: 60px 20px;
+      overflow: hidden;
+
+      @include tablet-min {
+        padding: 60px 5%;
+      }
+
+    }
    
 
     .image-group__headline {
