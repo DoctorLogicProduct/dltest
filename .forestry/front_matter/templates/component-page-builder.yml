@@ -39,6 +39,7 @@ fields:
   type: boolean
   label: GSAP
   description: Please Do Not Touch
+  default: false
 - name: custom_js
   type: text
   config:
