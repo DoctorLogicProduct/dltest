@@ -65,6 +65,7 @@
       }
 
       &__button {
+          grid-column: auto / span 24;
           display: flex;
           align-items: center;
           justify-content: center;
