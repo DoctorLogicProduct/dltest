@@ -112,7 +112,7 @@ page_sections:
   practices:
   - name: Texas Center For Cosmetic Dentistry
   - name: Parker West Dental Associates
-  - name: Morales Plastic Surgery
+  - name: Emigh Dental Care
   class: section-gray
 - template: feature
   component: feature-1
