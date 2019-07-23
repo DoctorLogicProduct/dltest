@@ -114,6 +114,10 @@ page_sections:
   - name: Parker West Dental Associates
   - name: Emigh Dental Care
   class: section-gray
+  btn:
+  - btn-link: "/case-studies"
+    btn-label: View More Results
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
