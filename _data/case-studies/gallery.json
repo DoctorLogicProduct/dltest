@@ -1,5 +1,15 @@
 [
     {
+        "type": "dentistry",
+        "img": "/img/case-studies/emigh-featured-image.jpg",
+        "link": "/case-studies/emigh-dental",
+        "name": "Emigh Dental Care",
+        "specialty": "General & Cosmetic Dentistry",
+        "stat": "375%",
+        "stat-label": "Top 20 Google Keywords",
+        "featured": true
+    },
+    {
         "type": "aesthetic",
         "img": "/img/case-studies/vip-feature-img.jpg",
         "link": "/case-studies/vip-plastic-surgery",
@@ -16,8 +26,7 @@
         "name": "Texas Center For Cosmetic Dentistry",
         "specialty": "Cosmetic Dentistry",
         "stat": "852%",
-        "stat-label": "Indexed Keywords",
-        "featured": true
+        "stat-label": "Indexed Keywords"
     },
     {
         "type": "aesthetic",
