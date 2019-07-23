@@ -32,7 +32,7 @@ if ($(window).width() >= 568) {
 
     const scene = new ScrollMagic.Scene({
         triggerElement: '.email-blast__image-group',
-        triggerHook: .7, //between 0 an 1
+        triggerHook: .1, //between 0 an 1
         duration: '50%'
     })
         .setTween(tl)
