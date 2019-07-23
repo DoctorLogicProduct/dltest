@@ -24,7 +24,7 @@ page_sections:
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
-  class: ''
+  class: section-gray
   headline: Meet DoctorLogic. Your Practice Growth Experts
   text: ''
   wistia-id: w7jgkunbv9
