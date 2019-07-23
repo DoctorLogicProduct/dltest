@@ -84,7 +84,7 @@ page_sections:
   headline: Beautiful Websites Designed To Grow Your Practice
   text: 'Receive more traffic to your website and appear higher in search engine results
     with a custom branded website built to perform. '
-  img: "/uploads/unlimited-pages.jpg"
+  img: "/uploads/email-blast-designs.jpg"
   class: ''
   btn:
   - btn-link: https://doctorlogic.com/medical-website-design
