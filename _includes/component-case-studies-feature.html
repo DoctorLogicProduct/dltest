@@ -29,15 +29,19 @@
 	</div>
 	{% for btn in section.btn %}
 	{% if section.btn %}
-	<a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+	<div class="case-studies-feature__button">
+		<a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+	</div>
 	{% endif %}
 	{% endfor %}
 	{% for link in section.wistia-link %}
 	{% if section.wistia-link %}
+	<div class="case-studies-feature__button">
 	<script src="https://fast.wistia.com/embed/medias/{{link.link-id}}.jsonp" async></script>
 	<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
 		class="wistia_embed wistia_async_{{link.link-id}} popover=true popoverContent=link"
 		style="display:inline;position:relative"><a class="play-link" href="#">{{link.link-label}}</a></span>
+	</div>
 	{% endif %}
 	{% endfor %}
 </section>
