@@ -89,3 +89,24 @@ fields:
     labelField: 
   label: Button
   description: Section Button (Not Required)
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: link-id
+    type: text
+    config:
+      required: false
+    label: Link ID
+    description: Wistia ID for video
+  - name: link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Label for link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Link
+  description: Wistia popover link. (Not Required)
