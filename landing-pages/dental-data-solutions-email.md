@@ -21,13 +21,6 @@ page_sections:
   form_template: forms/demo-form.html
   btn: []
   form_handler: https://doctorlogic.com/get-a-demo.html
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  class: section-gray
-  headline: Meet DoctorLogic. Your Practice Growth Experts
-  text: ''
-  wistia-id: w7jgkunbv9
 - template: image-group
   component: image-group
   component_css: image-group
@@ -77,6 +70,13 @@ page_sections:
   tagline: ''
   btn: []
   wistia-link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  class: section-gray
+  headline: Meet DoctorLogic. Your Practice Growth Experts
+  text: ''
+  wistia-id: w7jgkunbv9
 - template: feature
   component: feature-1
   component_css: feature
@@ -113,7 +113,7 @@ page_sections:
   - name: Texas Center For Cosmetic Dentistry
   - name: Parker West Dental Associates
   - name: Morales Plastic Surgery
-  class: ''
+  class: section-gray
 - template: feature
   component: feature-1
   component_css: feature
