@@ -68,3 +68,45 @@ fields:
     labelField: 
   label: Featured Case Studies
   description: Case studies you want to feature.   Rows of 2 or 3.
+- name: btn
+  type: field_group_list
+  fields:
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: Button Link
+    description: Link for button
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: Button Label
+    description: Label for button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Button
+  description: Section Button (Not Required)
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: link-id
+    type: text
+    config:
+      required: false
+    label: Link ID
+    description: Wistia ID for video
+  - name: link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Label for link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Link
+  description: Wistia popover link. (Not Required)
