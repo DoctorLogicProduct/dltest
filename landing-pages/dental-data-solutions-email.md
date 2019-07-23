@@ -20,7 +20,14 @@ page_sections:
     out online. '
   form_template: forms/demo-form.html
   btn: []
-  form_handler: ''
+  form_handler: https://doctorlogic.com/get-a-demo.html
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  class: ''
+  headline: Meet DoctorLogic. Your Practice Growth Experts
+  text: ''
+  wistia-id: w7jgkunbv9
 - template: image-group
   component: image-group
   component_css: image-group
@@ -70,13 +77,6 @@ page_sections:
   tagline: ''
   btn: []
   wistia-link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  class: ''
-  headline: Watch this video
-  text: Here is some text about my video.
-  wistia-id: w7jgkunbv9
 - template: feature
   component: feature-1
   component_css: feature
@@ -103,45 +103,17 @@ page_sections:
   btn: []
   alt: ''
   wistia-link: []
-- template: item-grid-component
-  component: item-grid
-  component_css: item-grid
-  headline: Happy Providers | Powered By DoctorLogic
-  text: Discover How You Can Achieve These Results
-  items:
-  - img:
-    - src: "/uploads/featured-image (1).jpg"
-      alt: ''
-    headline: Sweet Tooth Dental
-    text: "+56% Lead Conversions"
-    link: []
-  - img:
-    - src: "/uploads/featured-image (2).jpg"
-      alt: ''
-    headline: Emigh Dental Care
-    text: "+375% Top 20 Google keywords"
-    link: []
-  - img:
-    - src: "/uploads/pw-featured-img-1.jpg"
-      alt: ''
-    headline: Parker West Dental
-    text: "+283% Website Visitors"
-    link: []
-  per-row-count: '3'
-  class: email-blast__item-grid
-  btn:
-  - btn-link: ''
-    btn-label: Get A Demo
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
-  headline: Case Studies Sample
-  text: This is the text for this section.
+  headline: Happy Providers | Powered by DoctorLogic
+  text: ''
   per-row-count: '3'
   practices:
   - name: Texas Center For Cosmetic Dentistry
-  - name: VIP Plastic Surgery
+  - name: Parker West Dental Associates
   - name: Morales Plastic Surgery
+  class: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -175,7 +147,7 @@ page_sections:
     Experience the DoctorLogic Difference.
   btn:
   - btn-label: Let's Talk Goals
-    btn-link: ''
+    btn-link: https://doctorlogic.com/get-a-demo.html
   class: email-blast__text-component
   link: []
   img: []
