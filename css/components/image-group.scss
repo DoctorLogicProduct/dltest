@@ -33,19 +33,19 @@
 		position: relative;
 	}
 
-	&__image {
-		position: absolute;
-		width: 100px;
-		height: 100px;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+	// &__image {
+	// 	position: absolute;
+	// 	width: 100px;
+	// 	height: 100px;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	transform: translate(-50%, -50%);
 
-		@include phone-wide-min {
-			width: 200px;
-			height: 200px;
-		}
-	}
+	// 	@include phone-wide-min {
+	// 		width: 200px;
+	// 		height: 200px;
+	// 	}
+	// }
 
 	.wistia-link__container {
 		grid-column: auto / span 24;

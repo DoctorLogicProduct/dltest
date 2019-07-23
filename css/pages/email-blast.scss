@@ -45,15 +45,21 @@
         }
         
     }
-   
-    // .play-link {
-    //   padding: 15px 20px 15px 40px;
-    // }
-    
-    // .play-link::before {
-    //     left: 22px;
-    // }
 
+    .image-group__image {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @include phone-wide-min {
+        width: 200px;
+        height: 200px;
+      }
+    }
+ 
     .feature--2 {
 		padding-bottom: 60px;
     }
