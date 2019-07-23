@@ -20,7 +20,7 @@ page_sections:
     out online. '
   form_template: forms/demo-form.html
   btn: []
-  form_handler: ''
+  form_handler: https://doctorlogic.com/get-a-demo.html
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
