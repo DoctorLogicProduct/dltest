@@ -74,7 +74,6 @@ fields:
     max: 
   label: Page Sections
 pages:
-- _pages/case-studies/washington-dental.md
 - landing-pages/dental-data-solutions-email.md
 - landing-pages/components-are-cool.md
 - landing-pages/explainer-video.md
