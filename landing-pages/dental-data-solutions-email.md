@@ -15,12 +15,11 @@ page_sections:
   tagline:
   - headline: Built to Power Your Practice Growth
   headline: The Modern Way to Grow Your Dental Practice
-  text: 'DoctorLogic was built to help healthcare providers acquire more patients,
-    optimize marketing costs, and become a leader in your market by helping you stand
-    out online. '
+  text: DoctorLogic was built to help dentist acquire more patients, optimize marketing
+    costs, and become a leader in the market by helping you stand out online.
   form_template: forms/demo-form.html
   btn: []
-  form_handler: https://doctorlogic.com/get-a-demo.html
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/6zj
 - template: image-group
   component: image-group
   component_css: image-group
