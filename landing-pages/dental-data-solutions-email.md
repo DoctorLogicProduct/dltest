@@ -17,9 +17,9 @@ page_sections:
   headline: The Modern Way to Grow Your Dental Practice
   text: DoctorLogic was built to help dentist acquire more patients, optimize marketing
     costs, and become a leader in the market by helping you stand out online.
-  form_template: forms/demo-form.html
+  form_template: forms/lp-form.html
   btn: []
-  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/6zj
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-24/yt4
 - template: image-group
   component: image-group
   component_css: image-group
