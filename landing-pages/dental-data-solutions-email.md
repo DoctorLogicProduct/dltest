@@ -1,6 +1,6 @@
 ---
 layout: components
-title: Dental Data Solutions Email Blast
+title: DoctorLogic-Dental Experts
 permalink: practice-growth-experts/dental-solutions
 page_class:
 - class: email-blast
