@@ -1,6 +1,6 @@
 ---
 layout: components
-title: DoctorLogic-Dental Experts
+title: New Dental Patients Through DoctorLogic
 permalink: practice-growth-experts/dental-solutions
 page_class:
 - class: email-blast
