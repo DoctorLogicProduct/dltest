@@ -66,7 +66,7 @@ layout: default
 		<div class="case-study__results-items">
 			{% for item in page.results.items %}
 			<div class="case-study__results-item {{ item.class }}">
-				<h3>+<span data-number-spinner="{{ item.value }}" data-number-spinner-scroll>0</span>%</h3>
+				<h3>{% if item.negative == true %}-{% else %}+{% endif %}<span data-number-spinner="{{ item.value }}" data-number-spinner-scroll>0</span>%</h3>
 				<p>{{ item.label }}</p>
 			</div>
 			{% endfor %}
@@ -113,10 +113,8 @@ layout: default
 	{% endfor %}
 </section>
 
-<section class="case-study__section">
-	<div class="case-study__form">
+<section class="case-study__form">
 	<h3>Discover How You Can Achieve These Results</h3>
 	<p>Schedule a one-on-one with a healthcare marketing expert and learn how DoctorLogic can grow your practice.</p>
 	<a href="/get-a-demo.html" class="btn">Get a Demo</a>
-	</div>
 </section>

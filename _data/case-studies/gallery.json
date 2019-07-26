@@ -56,5 +56,14 @@
         "specialty": "Plastic Surgery",
         "stat": "264%",
         "stat-label": "Page 1 Keywords"
+    },
+    {
+        "type": "aesthetic",
+        "img": "/img/case-studies/truderm-featured-image.jpg",
+        "link": "/case-studies/truderm",
+        "name": "TruDerm",
+        "specialty": "Dermatology | Medspa",
+        "stat": "74%",
+        "stat-label": "Website Leads"
     }
 ]
