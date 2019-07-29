@@ -27,7 +27,7 @@ challenge:
   - headline: Website
     link:
     - link: https://truderm.com/
-      label: www.truderm.com/
+      label: www.truderm.com
   - headline: Specialty
     text: Dermatology | Medical Spa
   - headline: Practice Size

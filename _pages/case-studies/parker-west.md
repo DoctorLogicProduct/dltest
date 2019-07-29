@@ -27,7 +27,7 @@ challenge:
   - headline: "Website"
     link:
     - link: "https://parkerwestdental.com/"
-      label: "parkerwestdental.com/"
+      label: "parkerwestdental.com"
   - headline: "Specialty"
     text: "Dental"
   - headline: "Practice Size"
