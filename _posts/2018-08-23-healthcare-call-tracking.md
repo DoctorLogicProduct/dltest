@@ -4,7 +4,6 @@ date: 2018-08-23T05:00:00.000+00:00
 post_author: 'DoctorLogic Team '
 tags:
 - Strategy
-- Lead Generation
 post_intro: Nowadays, there is a buzz about how practices effectively utilize call
   tracking to gauge the intrinsic value of their digital marketing efforts. What is
   call tracking anyway? Well that is a great question, and here is what you need to
