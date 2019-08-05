@@ -74,8 +74,8 @@ fields:
     max: 
   label: Page Sections
 pages:
-- landing-pages/dental-data-solutions-email.md
-- landing-pages/components-are-cool.md
-- landing-pages/explainer-video.md
-- hello-leadership.md
 - landing-pages/landing-page-test.md
+- hello-leadership.md
+- landing-pages/components-are-cool.md
+- landing-pages/dental-data-solutions-email.md
+- landing-pages/explainer-video.md
