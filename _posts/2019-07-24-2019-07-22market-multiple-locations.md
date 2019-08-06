@@ -1,6 +1,6 @@
 ---
 post_title: How Do I Market Multiple Medical Practice Locations?
-date: 2019-07-24 16:00:00 +0000
+date: 2019-07-24T16:00:00.000+00:00
 post_author: Janelle Amos
 tags:
 - 'Strategy '
@@ -23,7 +23,7 @@ Here are some dos and don’ts that will help you more effectively market your l
 
 ### **_Do_:** Target Local Keywords
 
-Employing local keywords throughout your website will help people searching for what you offer in that area find you.
+Employing local keywords throughout your website will help people searching for what you offer in that area.
 
 Think about it this way: let’s say you have a dermatology practice with locations in Pasadena, Pearland, and League City, Texas. If someone is looking for laser tattoo removal in one of those areas, they’ll probably type something like “laser tattoo removal near pearland tx” into their search engine.
 
@@ -51,5 +51,4 @@ First of all, as we said before, Google uses the amount of content on your site 
 
 While there is a time and place to employ [microsites](https://doctorlogic.com/content/galleries/are-microsites-good-for-seo.html), creating them for different locations under the umbrella of your medical practice isn’t one of them.
 
-  
 Ultimately, learning how to market multiple locations can increase your practice’s website traffic exponentially, and more website visitors can mean more patients in your office.
