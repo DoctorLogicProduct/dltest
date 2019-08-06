@@ -159,6 +159,23 @@ else {
     //console.log('bob');
 }
 }
+
+// Hero Confetti Settings
+
+var confettiSettings = {
+    target: 'hero-confetti',
+    rotate: true,
+    colors: [[11, 108, 181], [0, 184, 180], [237, 22, 121], [78, 101, 175], [102, 205, 238], [165, 80, 159]],
+    clock: 30,
+    props: [
+        "circle",
+        "square"
+    ]
+};
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
+
+
     
 
 
