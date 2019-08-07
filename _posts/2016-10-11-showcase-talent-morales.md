@@ -1,26 +1,24 @@
 ---
 post_title: Showcasing My Talent - An Interview with Dr. Morales
-date: 2016-10-11T05:00:00.000+00:00
+date: 2019-08-07 16:00:00 +0000
 post_author: Kristy Theis
 tags:
 - Before-After-Gallery
 - Healthcare-Marketing
-post_intro: When DoctorLogic set out to create a website product that would set a
-  new standard in the medical industry, we knew the power behind our platform would
-  likely reside within our photo gallery tool.
+post_intro: The DoctorLogic Before and Gallery solution has proven to be a fan favorite,
+  allowing physicians to display their outcomes like never before.
 post_image: "/uploads/MoralesThumb.jpg"
-post_highlight: When DoctorLogic set out to create a website product that would set
-  a new standard in the medical industry, we knew that the power behind our platform
-  would likely reside within our photo gallery tool.
+post_highlight: The DoctorLogic Before and Gallery solution has proven to be a fan
+  favorite, allowing physicians to display their outcomes like never before.
 post_type:
 - blog
 product:
 - content multiplier
 
 ---
-This intuitive, easy-to-use, Google-friendly section of our websites has proven to be a fan favorite, allowing physicians to display their outcomes like never before.
+When DoctorLogic set out to create a website product that would set a new standard in the medical industry, we knew the power behind our platform would likely reside within our photo gallery tool. This intuitive, easy-to-use, Google-friendly section of our websites has proven to be a fan favorite, allowing physicians to display their outcomes like never before.
 
-We recently reached out to Dr. Rolando Morales, a plastic surgeon in Houston, to get his feedback on how he uses the gallery tool to shed some additional insight on this awesome feature.
+We recently reached out to Dr. Rolando Morales, a plastic surgeon in Houston, to get his feedback on how he uses the gallery tool to shed some additional insight on this awesome feature
 
 ![](/uploads/DocLogic_5.png)
 
@@ -30,13 +28,13 @@ Dr. Morales specializes in cosmetic plastic surgery for the face, breast and bod
 
 **Do you find the DoctorLogic Before and After Gallery tool useful?**
 
-Yes! It is the most used tool by far of all components of the platform. It allows me to add new patient cases whenever I want, which adds unique and relevant pages to my website, just as if I had my own blog.
+Yes! It's the most used tool by far of all components of the platform. It allows me to add new patient cases whenever I want, which adds unique and relevant pages to my website, just as if I had my own blog.
 
 **Prior to coming on board with DoctorLogic, did you have a before and after gallery? If yes, what was it like in comparison to yours now?**
 
 Yes, I had a gallery and it was extremely basic. In addition, it was tedious to use. In order to add patients to my gallery I had to go through the webmaster, submit photos, and case specifics. If I did not like the way it looked or read, I had to go back to the webmaster for changes. It was very time consuming as it took forever to get things posted.
 
-With the DoctorLogic tool, Dr. Morales can add cases to his website directly himself.
+With the DoctorLogic tool, I can simply add cases to my website.
 
 **How has the DoctorLogic Before and After Photo Gallery Tool affected your practice with new or prospective patients?**
 
@@ -60,8 +58,6 @@ I’m not an SEO expert, but I know the procedures I offer, the techniques I per
 
 ![](/uploads/screen-reviews-manage.png)
 
-Create stunning case-example pages in minutes with the [DoctorLogic Gallery Tool](https://doctorlogic.com/features/galleries).
-
 **Do you have any idea of the traffic you receive on your gallery pages? Do people mention them?**
 
 I do get good traffic on my gallery pages. In fact, many times during my consultations patients will pull out their phones and show me one of my galleries, or use my phone to take a screenshot of a case that they want to examine further. The great thing about the gallery tool is that the mobile site is perfectly scaled to show the side-to-side pics, which makes my consultations even easier!
@@ -69,3 +65,7 @@ I do get good traffic on my gallery pages. In fact, many times during my consult
 **What would you tell Doctors who use DoctorLogic’s platform, but who do not utilize the gallery tool?**
 
 Use it! I can’t really imagine having my website and not taking full advantage of this outstanding tool. My advice would be to take good, consistent photos, and work to increase your volume of cases, as well as the variety and quality you incorporate into the gallery. Try and upload 5-10 per month, and watch your website and your business grow!
+
+Since partnering with DoctorLogic, Dr. Morales saw a 2,944% increase in Page 1 keyword rankings, a 371% increase in website visitors, and a 179% increase in website leads. In addition to an improved website architecture and keyword ranking, **the Before and After Photo Gallery brings in 74% of all page view traffic, with 27% leads coming strictly from the gallery page.**
+
+Create stunning case-example pages in minutes with the [DoctorLogic Gallery Tool](https://doctorlogic.com/features/galleries).
