@@ -39,43 +39,29 @@ With the data you provide through our gallery tool, our teams and technologies g
 
 #### 1. Simple Patient Uploads
 
-Our tool was built to allow you to submit your photos easily. However, right before you upload the photos, you first have the opportunity to fill in some information about the patient, including their gender, age, height, and weight. This case information is critical in allowing our team to provide users with the ability to sort results based on their interests, and by feeding search engines the detailed information that people all over the country search for.
+Step 1 is all about the patient. Our tool was built to allow you to submit your photos easily. However, right before you upload the photos, you first have the opportunity to fill in some information about the patient, including their gender, age, height, and weight. This case information is critical in allowing our team to provide users with the ability to sort results based on their interests, and by feeding search engines the detailed information that people all over the country search for.
 
-![Photo Gallery Tool - Step 1](https://doctorlogic.com/assets/img/posts/gallery/step1.jpg)
-
-Step 1 is all about the patient.
+![](/uploads/photo-upload.jpg)
 
 #### 2. Robust Keyword Tagging
 
-One of the most robust features built in to our gallery tool is the ability to add in keywords and tags per gallery page. Out tool makes it simple. You can enter in a large variant of information that includes procedure name, technique, and conditions addressed, and this data allows our team to organize them accordingly. Since people don’t search quite the same way, it’s important for us to use these tags to help gain traction on a number of terms. More specifically, it is important to focus on a keyword variant or two per submission that you want our team to assemble pages to target.
+Step 2 is about the procedure - add where it was performed, what technique was used, etc. One of the most robust features built in to our gallery tool is the ability to add in keywords and tags per gallery page. Out tool makes it simple. You can enter in a large variant of information that includes procedure name, technique, and conditions addressed, and this data allows our team to organize them accordingly. Since people don’t search quite the same way, it’s important for us to use these tags to help gain traction on a number of terms. More specifically, it is important to focus on a keyword variant or two per submission that you want our team to assemble pages to target.
 
 For example, if a patient is in the market for breast augmentation, they may search for “breast augmentation”, “breast implants”, “silicone implants”, or any other number of terms. At the same time, they may want to be more specific, such as “A-cup to a C-cup”. Casting a wide net here is of supreme importance – if you have multiple breast augmentation cases to submit, then include one of the example keywords mentioned earlier on a case by case basis.
 
-![Photo Gallery Tool - Step 2](https://doctorlogic.com/assets/img/posts/gallery/step2.jpg)
-
-Step 2 is about the procedure - add where it was performed, what technique was used, etc.
+![](/uploads/gallery-list.jpg)
 
 #### 3. Easy Content Creation
 
-Online blogs have always been a popular way to educate an audience about a certain topic. Our photo gallery essentially takes the place of an online blog, because each gallery page becomes a ‘case study’. From an SEO standpoint, it’s a win-win. Our customers get to submit patient-friendly content about the conditions the patient had, the procedure that was used, and then show and tell about the results. Our gallery pages have a place for a detailed title heading, as well as a full description of the case. The terms you use for your keywords can be carried into your title and your content, making the page relevant and useful to both prospective customers and search engines.
-
-![Photo Gallery Tool - Step 3](https://doctorlogic.com/assets/img/posts/gallery/step3.jpg)
-
-Step 3 gives you a chance to tell the story, just as you would to a patient in your office.
+Step 3 gives you a chance to tell the story, just as you would to a patient in your office. Online blogs have always been a popular way to educate an audience about a certain topic. Our photo gallery essentially takes the place of an online blog, because each gallery page becomes a ‘case study’. From an SEO standpoint, it’s a win-win. Our customers get to submit patient-friendly content about the conditions the patient had, the procedure that was used, and then show and tell about the results. Our gallery pages have a place for a detailed title heading, as well as a full description of the case. The terms you use for your keywords can be carried into your title and your content, making the page relevant and useful to both prospective customers and search engines.
 
 #### 4. Photo Show and Tell
 
-This is another fun aspect of our gallery tool that lets you show and tell your outstanding results. Your high-resolution photos, with multiple angles, allows for endless possibilities. Each before and after photo allows you to discuss what the prospective client sees, and how you made it happen. You can add as few or as many photos to your gallery submission as you would like, though I typically recommend anywhere from 2 to 5 pairs of photos featuring different angles.
-
-![Photo Gallery Tool - Step 4](https://doctorlogic.com/assets/img/posts/gallery/step4.jpg)
-
-Step 4 is for photos. If you can upload a photo to Facebook, you can upload a photo to your site!
+Step 4 is for photos. If you can upload a photo to Facebook, you can upload a photo to your site! This is another fun aspect of our gallery tool that lets you show and tell your outstanding results. Your high-resolution photos, with multiple angles, allows for endless possibilities. Each before and after photo allows you to discuss what the prospective client sees, and how you made it happen. You can add as few or as many photos to your gallery submission as you would like, though I typically recommend anywhere from 2 to 5 pairs of photos featuring different angles.
 
 #### 5. Winning New Patients
 
 The DoctorLogic photo gallery is simple to use, and allows you to submit the information our team needs to create an unlimited of pages to demonstrate your talents and work. The best part is once the visitor has landed on the right gallery page and interacted with the content, they have the opportunity to act: our gallery provides multiple calls to action to invite the visitor to learn more and to make contact with your practice.
-
-![Photo Gallery Tool - Step 5](https://doctorlogic.com/assets/img/posts/gallery/step5.jpg)
 
 Need more room to showcase your work? Step 5 is for that little extra, but is optional.
 
