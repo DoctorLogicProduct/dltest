@@ -34,7 +34,7 @@ YouTube is the second largest search engine on the planet (next to Google). Here
 
 According to [TubularInsights.com](http://tubularinsights.com/sponsored-content-q2-2017-report/), 49% of consumers engage with branded videos daily on Facebook, 32% on YouTube, 24% on Instagram, 22% on Snapchat, and 22% on Twitter. [SmallBusinessTrends.com](https://smallbiztrends.com/2016/10/video-marketing-statistics.html) states that social video generates 1,200% more shares than text and images combined.
 
-![Add your videos to social media.](https://doctorlogic.com/assets/img/posts/SocialMedia.jpg)
+![](/uploads/SocialMedia.jpg)
 
 ### Use videos in your email marketing efforts
 
