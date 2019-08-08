@@ -23,11 +23,11 @@ In this post, we’ll look at a few marketing strategies we think will actually 
 
 More and more marketers are beginning to notice the effectiveness of video and pushing to include more video content in their overall marketing strategies.
 
-![](/uploads/MarketingStrategy1.jpg)
+![Invest in video channels.](/uploads/MarketingStrategy1.jpg)
 
 According to [HubSpot’s State of Inbound 2018 report](https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/research/reports/State%20of%20Inbound%202018%20Global%20Results.pdf?__hstc=20629287.412c8a76c91bff063c9957a7f4788486.1497889639600.1543364182830.1545948761723.25&__hssc=20629287.2.1547577563257&__hsfp=1476023372), YouTube and Facebook video ranked as two of the top three content distribution channels that marketers plan to add to their marketing efforts in coming months. And senior marketing leaders are enthusiastic about it.
 
-![](/uploads/MarketingStrategy2.jpg)
+![Marketing leaders are enthusiastic about video.](/uploads/MarketingStrategy2.jpg)
 
 Why all the hype? Because [64% of customers](https://blog.hubspot.com/marketing/video-marketing-statistics?__hstc=37514559.86908053a04deef209d41cbbf486b52a.1546876321479.1554315931393.1554478540077.53&__hssc=37514559.15.1554478540077&__hsfp=1915899968#sm.0000f7ujhkwrse8sqa62aq63w23fi) are more likely to buy a product online after watching a video about it.
 
