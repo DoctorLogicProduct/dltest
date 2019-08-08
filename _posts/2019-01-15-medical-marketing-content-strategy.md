@@ -19,7 +19,7 @@ product:
 ---
 #### 1. Content is King
 
-![Content Marketing](https://doctorlogic.com/assets/img/posts/HealthcareMarketingTrends1.jpg)
+![](/uploads/HealthcareMarketingTrends1.jpg)
 
 Content marketing & educational content is the smartest way to attract new patients for your practice.
 
@@ -29,7 +29,7 @@ Talk about a win-win situation!
 
 #### 2. Video Marketing
 
-![Video Marketing](https://doctorlogic.com/assets/img/posts/HealthcareMarketingTrends2.jpg)
+![](/uploads/HealthcareMarketingTrends2.jpg)
 
 Video marketing is the best channel to build trust and increase awareness around your practice in 2019.
 
@@ -39,7 +39,7 @@ Nothing really compares to the level of engagement [video marketing](https://www
 
 #### 3. Optimized Mobile Site
 
-![Responsive Website](https://doctorlogic.com/assets/img/posts/HealthcareMarketingTrends3.jpg)
+![](/uploads/HealthcareMarketingTrends3.jpg)
 
 If your website is not mobile responsive in 2019, say goodbye to new customers.
 
@@ -51,7 +51,7 @@ Interested in redesigning your [healthcare website](https://doctorlogic.com/feat
 
 #### 4. Your Online Reputation Matters
 
-![Online Reputation](https://doctorlogic.com/assets/img/posts/HealthcareMarketingTrends4.jpg)
+![](/uploads/HealthcareMarketingTrends4.jpg)
 
 Online reputation can make or break your business – and of course your marketing efforts. Control the narrative around what users say about your practice online.
 
@@ -59,7 +59,7 @@ Trust is the single most important factor when it comes to getting new customers
 
 #### 5. Location SEO is Unavoidable
 
-![Location SEO](https://doctorlogic.com/assets/img/posts/HealthcareMarketingTrends5.jpg)
+![](/uploads/HealthcareMarketingTrends5.jpg)
 
 Location-based SEO is the best friend for every healthcare organization with a local branch.
 
