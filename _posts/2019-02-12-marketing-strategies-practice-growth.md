@@ -39,7 +39,7 @@ Messaging apps like on-site chat bots, Facebook Messenger, WhatsApp, and WeChat 
 
 And when it comes to chatbots, people are starting to see the benefits.
 
-![](/uploads/MarketingStrategy3.jpg)
+![Potential benefits of chatbots.](/uploads/MarketingStrategy3.jpg)
 
 According to [Drift’s 2018 State of Chatbots Report](https://www.drift.com/wp-content/uploads/2018/01/2018-state-of-chatbots-report.pdf), 24 hour service is one of the top benefits, followed by getting an instant response and answers to simple questions you don’t want to get on the phone with a sales rep for.
 
