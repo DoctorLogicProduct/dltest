@@ -23,11 +23,11 @@ In this post, we’ll look at a few marketing strategies we think will actually 
 
 More and more marketers are beginning to notice the effectiveness of video and pushing to include more video content in their overall marketing strategies.
 
-![Invest in video channels.](https://doctorlogic.com/assets/img/posts/MarketingStrategy1.jpg)
+![](/uploads/MarketingStrategy1.jpg)
 
 According to [HubSpot’s State of Inbound 2018 report](https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/research/reports/State%20of%20Inbound%202018%20Global%20Results.pdf?__hstc=20629287.412c8a76c91bff063c9957a7f4788486.1497889639600.1543364182830.1545948761723.25&__hssc=20629287.2.1547577563257&__hsfp=1476023372), YouTube and Facebook video ranked as two of the top three content distribution channels that marketers plan to add to their marketing efforts in coming months. And senior marketing leaders are enthusiastic about it.
 
-![Marketing leaders are enthusiastic about video.](https://doctorlogic.com/assets/img/posts/MarketingStrategy2.jpg)
+![](/uploads/MarketingStrategy2.jpg)
 
 Why all the hype? Because [64% of customers](https://blog.hubspot.com/marketing/video-marketing-statistics?__hstc=37514559.86908053a04deef209d41cbbf486b52a.1546876321479.1554315931393.1554478540077.53&__hssc=37514559.15.1554478540077&__hsfp=1915899968#sm.0000f7ujhkwrse8sqa62aq63w23fi) are more likely to buy a product online after watching a video about it.
 
@@ -39,7 +39,7 @@ Messaging apps like on-site chat bots, Facebook Messenger, WhatsApp, and WeChat 
 
 And when it comes to chatbots, people are starting to see the benefits.
 
-![Potential benefits of chatbots.](https://doctorlogic.com/assets/img/posts/MarketingStrategy3.jpg)
+![](/uploads/MarketingStrategy3.jpg)
 
 According to [Drift’s 2018 State of Chatbots Report](https://www.drift.com/wp-content/uploads/2018/01/2018-state-of-chatbots-report.pdf), 24 hour service is one of the top benefits, followed by getting an instant response and answers to simple questions you don’t want to get on the phone with a sales rep for.
 
@@ -49,7 +49,7 @@ Want to make your life easier? Invest in marketing automation tools. They can no
 
 Some examples of implementing automation tools can be in your social media and email marketing efforts. For example, Facebook allows you to schedule posts ahead of time using the “Publishing Tools” tab on any page you manage. You can also use tools [Buffer](https://buffer.com/) or [Hootsuite](https://hootsuite.com/) to manage all of your social media accounts from one platform.
 
-When it comes to email marketing, solutions like [MailChimp](https://mailchimp.com/)can make your life easier by allowing you to segment audiences, draft emails, and have the tool schedule them for when recipients are most likely to open, click, and/or respond.
+When it comes to email marketing, solutions like [MailChimp](https://mailchimp.com/) can make your life easier by allowing you to segment audiences, draft emails, and have the tool schedule them for when recipients are most likely to open, click, and/or respond.
 
 #### Wrapping Up
 
