@@ -61,7 +61,7 @@ Online negative reviews usually occur because the patient did not have an opport
 
 If reputation issues do occur, it’s always best to hire someone who specializes in handling reputation repair. A simple response could put the practice in legal trouble or exacerbate the situation further.
 
-[![Doctor Review Management](https://doctorlogic.com/assets/img/features/reviews/reviews-tablet.png)](https://doctorlogic.com/features/reviews)
+![](/uploads/screen-reviews-manage.png)
 
 Manage your patient reviews easily with the DoctorLogic Review Tool. Learn more [here](https://doctorlogic.com/features/reviews).
 
