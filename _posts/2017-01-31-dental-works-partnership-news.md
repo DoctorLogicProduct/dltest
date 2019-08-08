@@ -27,7 +27,7 @@ To the read the press release, visit:
 
 Within 6 months, DoctorLogic created the pathway that would ultimately meet this goal by launching 164 unique websites for DentalWorks. Beautiful in design, technically impactful, and filled with relevant, unique content, the dental conglomerate experienced a 22,000% increase in web page content alone, with an increase of page indexation on Google by 1,264%.
 
-![](/uploads/DentalWorks_DoctorLogic-Thumb-1.png)
+![DentalWorks Web Portal](/uploads/DentalWorks_DoctorLogic-Thumb-1.png)
 
 Pictured: The DentalWorks portal website, visit [here](https://dentalworks.com/).
 
