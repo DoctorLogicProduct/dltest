@@ -33,13 +33,11 @@ The exact definition states a [keyword or keyword phrase](https://moz.com/learn/
 
 When someone searches Google for “how to fix gap teeth without braces” Google works to discern what the user is looking for, and it returns a list of web pages with this topic. If your website uses the exact phrase the user searched for as a keyword, part of the phrase (“gap teeth”), or a related phrase (i.e. “teeth gaps,” “braces”) Google is more likely to show the user your websites.
 
-![Google works to discern what the user is looking for.](https://doctorlogic.com/assets/img/posts/Keywords3.jpg)
-
 ### Why Are Keywords So Important?
 
 Simply put…ROI. Choosing the right keyword phrases and using them correctly for SEO is quite frankly the easiest and most effective way to get more users to your website. SEO is important to your practice’s success, and keywords play a major role in the SEO game.
 
-![SEO is important to your practice’s success.](https://doctorlogic.com/assets/img/posts/Keywords2.jpg)
+![SEO is important to your practice’s success.](/uploads/Keywords.jpg)
 
 People will find their way onto your pages in a variety of ways, including social media and direct traffic to name a few. But, in today’s market, [search generates the biggest share of traffic](https://www.businessinsider.com/search-engines-more-traffic-publishers-social-media-2017-2018-2).
 
