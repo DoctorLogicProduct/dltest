@@ -25,6 +25,21 @@ page_sections:
     btn-label: Get a Demo
   text-link: []
   wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Lorem Ipsum Delor
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur.
+  class: ''
+  img: []
+  btn: []
+  link: []
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -36,6 +51,45 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '4'
+  headline: Lorem Ipsum Delor
+  items:
+  - img:
+    - src: "/uploads/lead-generator-label.svg"
+      alt: ''
+    headline: ''
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    link: []
+  - img:
+    - src: "/uploads/social-reputation-label.svg"
+      alt: ''
+    headline: ''
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    link: []
+  - img:
+    - src: "/uploads/content-multiplier-label.svg"
+      alt: ''
+    headline: ''
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation.
+    link: []
+  - img:
+    - src: "/uploads/website-management-label.svg"
+      alt: ''
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    link: []
+    headline: ''
+  class: ''
+  text: ''
+  btn: []
 published: false
 
 ---
