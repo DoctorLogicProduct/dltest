@@ -115,7 +115,8 @@ page_sections:
   - img_src: "/uploads/Dre 350 350.png"
     img_alt: ''
   text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua."'
+    tempor incididunt ut labore et dolore magna aliqua."<span>Doctor Name</span><span>Practice
+    Name</span>'
   class: lp__review
   btn: []
   link: []
