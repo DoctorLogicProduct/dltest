@@ -2,7 +2,8 @@
 layout: components
 title: Dermatology Website Design
 permalink: website-design-dermatology-free-website-analysis
-page_class: []
+page_class:
+- class: lp
 gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
