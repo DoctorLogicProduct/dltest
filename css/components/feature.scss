@@ -5,12 +5,19 @@
 @import "mq", "base";
 
 .feature {
-	padding: 60px 10px 0;
-	max-width: 1500px;
-	margin: 0 auto;
+	
 
-	@include tablet-min {
+	&__container {
+		@include grid; 
+		padding: 60px 10px 0;
+		grid-column: auto / span 24;
+		max-width: 1500px;
+		margin: 0 auto;
+
+		@include tablet-min {
 		padding: 60px 5% 0;
+	}
+
 	}
 
 	&__text {
@@ -116,4 +123,117 @@ body.success-insights .feature__text h5 {
 
 body.growth-accelerators .feature__text h5 {
 	color: $growth;
+}
+
+
+.feature-1 {
+
+	&__text {
+		grid-column: 1 / span 12;
+		grid-row: auto;
+		padding: 0 20px;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__image {
+		grid-column: 13 / span 12;
+		grid-row: auto;
+	}
+
+	&__image-wrapper {
+		background-size: cover !important;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding-top: 50%;
+		min-height: 400px;
+	}
+
+}
+
+.feature-2 {
+
+	&__text {
+		grid-column: 13 / span 12;
+		grid-row: auto;
+		padding: 0 20px;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__image {
+		grid-column: 1 / span 12;
+		grid-row: auto;
+	}
+
+	&__image-wrapper {
+		background-size: cover !important;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding-top: 50%;
+		min-height: 400px;
+	}
+
+}
+
+.feature-cta-1 {
+
+	&__text {
+		grid-column: 1 / span 12;
+		grid-row: auto;
+		padding: 0 20px;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__image {
+		grid-column: 13 / span 12;
+		grid-row: auto;
+	}
+
+	&__image-wrapper {
+		background-size: cover !important;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding-top: 50%;
+		min-height: 400px;
+	}
+
+}
+
+.feature-cta-2 {
+
+	&__text {
+		grid-column: 13 / span 12;
+		grid-row: auto;
+		padding: 0 20px;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__image {
+		grid-column: 1 / span 12;
+		grid-row: auto;
+	}
+
+	&__image-wrapper {
+		background-size: cover !important;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding-top: 50%;
+		min-height: 400px;
+	}
+
 }
