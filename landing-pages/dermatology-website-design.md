@@ -102,7 +102,7 @@ page_sections:
     and provider profiles across the web, including local directories such as Google
     My Business, Google Maps, Facebook, Yelp, and other online local directories.
   img: "/uploads/online-visibility.jpg"
-  class: ''
+  class: section-gray
   btn: []
   wistia-link: []
   alt: ''
