@@ -12,7 +12,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Dermatology Website Design
+  headline: Stunning Dermatology Website Designs
   text: 'Custom-designed to fit your brand and grow your practice. '
   button:
   - btn-label: Get a Demo
@@ -22,12 +22,8 @@ page_sections:
   btn:
   - btn-link: "/get-a-demo"
     btn-label: Get a Demo
-  text-link:
-  - text-link-label: Text Link
-    text-link-link: "/"
-  wistia-link:
-  - wistia-link-id: "-"
-    wistia-link-label: Wistia Link
+  text-link: []
+  wistia-link: []
 published: false
 
 ---
