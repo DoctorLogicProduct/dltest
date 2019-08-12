@@ -55,7 +55,7 @@ page_sections:
   component: item-grid
   component_css: item-grid
   per-row-count: '4'
-  headline: Lorem Ipsum Delor
+  headline: ''
   items:
   - img:
     - src: "/uploads/lead-generator-label.svg"
@@ -76,15 +76,13 @@ page_sections:
       alt: ''
     headline: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation.
+      tempor incididunt ut labore et dolore magna aliqua.
     link: []
   - img:
     - src: "/uploads/website-management-label.svg"
       alt: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      tempor incididunt ut labore et dolore magna aliqua.
     link: []
     headline: ''
   class: ''
