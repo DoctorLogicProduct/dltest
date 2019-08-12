@@ -130,7 +130,7 @@ page_sections:
   - btn-link: "/get-a-demo"
     btn-label: Get a demo
   text: It's easy. Lorem ipsum delor lorem sit amet ipusm delor oreo logo lorem.
-  class: ''
+  class: section-gray
   img: []
   link: []
   wistia-link: []
