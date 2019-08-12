@@ -8,35 +8,17 @@
   .hero-1 {
     padding: 80px 0 40px;
     position: relative;
-    height: 80vh;
     min-height: 0;
     @include grid;
 
     @include phone-wide-min {
       min-height: 800px;
-      height: 80vh;
+      height: 50vh;
     }
     
 
     @include tablet-wide-min {
-      padding: 80px 0 0 5%;
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: $color-2;
-      opacity: .7;
-      display: block;
-
-      @include tablet-wide-min {
-        display: none;
-      }
-      
+      padding: 80px 0 0;
     }
 
     #hero-confetti {
@@ -49,7 +31,7 @@
 
     &__text {
       grid-column: auto / span 24;
-      grid-row: 1 / span 2;
+      grid-row: 2 / span 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -59,26 +41,25 @@
       position: relative;
 
       @include phone-wide-min {
-        grid-row: 2 / span 1;
          justify-content: flex-start;
       }
       
 
       @include tablet-wide-min {
-        grid-column: auto / span 16;
+        // grid-column: auto / span 16;
         grid-row: auto;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 40px;
+        // justify-content: center;
+        padding: 0 40px;
       }
 
-      @include desktop-min {
-        grid-column: auto / span 12;
-      }
+      // @include desktop-min {
+      //   grid-column: auto / span 12;
+      // }
 
       h5 {
         color: $websites;
         text-transform: uppercase;
+        display: none;
         
         @include tablet-min {
           margin-top: 0;
@@ -98,24 +79,39 @@
       h1,
       p {
         text-align: center;
+        width: 100%;
 
-        @include tablet-wide-min {
-          text-align: left;
-        }
+        // @include tablet-wide-min {
+        //   text-align: left;
+        // }
       }
     }
 
     &__image {
-      grid-column: auto / span 12;
+      grid-column: auto / span 24;
+      grid-row: 1 / span 1;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 40px;
+
+      @include tablet-wide-min {
+        // grid-column: auto / span 8;
+        // grid-row: auto;
+        padding: 40px 0 0;
+      }
+      
+
+      @include desktop-min {
+        // grid-column: auto / span 12;
+      }
+      
 
       img {
         display: block;
         width: 80%;
         height: auto;
-        max-width: 400px;
+        max-width: 300px;
       }
     }
 
