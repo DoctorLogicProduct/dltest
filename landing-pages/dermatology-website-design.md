@@ -14,7 +14,8 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: Stunning Dermatology Website Designs
-  text: 'Custom-designed to fit your brand and grow your practice. '
+  text: The all-in-one website marketing platform that attracts and retains more patients.
+    Loved by over 1,000 doctors.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
@@ -29,12 +30,11 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Lorem Ipsum Delor
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur.
+  - headline: Make The First Impression Count
+  text: 'Your website is a significant asset to your digital strategy and should not
+    be taken lightly. With DoctorLogic, you''ll receive a website that not only looks
+    great but functions seamlessly. Receive a custom and educational medical website
+    that is 100% responsive and built with one goal in mind: grow your practice.'
   class: ''
   img: []
   btn: []
@@ -44,9 +44,13 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Bob
-  text: Bob text
-  img: "/uploads/derm-lp-sites.png"
+  headline: Unlimited Pages
+  text: Websites built by DoctorLogic offer an unlimited number of pages that allow
+    you to elevate your medical practice in local search results. We use your procedures,
+    profiles, reviews, photo galleries and more to create and optimize new pages for
+    search engines. The more content on your website, the more you’re increasing your
+    digital footprint and acquiring patients.
+  img: "/uploads/derm-lp-designs.jpg"
   alt: bob
   class: ''
   btn: []
@@ -88,6 +92,47 @@ page_sections:
   class: ''
   text: ''
   btn: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Improve Online Visibility
+  text: Customers are searching online for medical providers near them. Local SEO
+    requires a strategic and targeted approach. We’ll optimize and manage your practice
+    and provider profiles across the web, including local directories such as Google
+    My Business, Google Maps, Facebook, Yelp, and other online local directories.
+  img: "/uploads/online-visibility.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Lorem Ipsum Delor
+  img:
+  - img_src: "/uploads/Dre 350 350.png"
+    img_alt: ''
+  text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua."'
+  class: lp__review
+  btn: []
+  link: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Ready to get started?
+  btn:
+  - btn-link: "/get-a-demo"
+    btn-label: Get a demo
+  text: It's easy. Lorem ipsum delor lorem sit amet ipusm delor oreo logo lorem.
+  class: ''
+  img: []
+  link: []
+  wistia-link: []
 published: false
 
 ---
