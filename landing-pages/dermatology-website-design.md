@@ -50,7 +50,7 @@ page_sections:
     profiles, reviews, photo galleries and more to create and optimize new pages for
     search engines. The more content on your website, the more you’re increasing your
     digital footprint and acquiring patients.
-  img: "/uploads/derm-lp-designs.jpg"
+  img: "/uploads/derm-lp-designs-2.png"
   alt: bob
   class: section-gray lp__feature--padding
   btn: []
@@ -101,7 +101,7 @@ page_sections:
     requires a strategic and targeted approach. We’ll optimize and manage your practice
     and provider profiles across the web, including local directories such as Google
     My Business, Google Maps, Facebook, Yelp, and other online local directories.
-  img: "/uploads/online-visibility.jpg"
+  img: "/uploads/online-visibility.png"
   class: section-gray
   btn: []
   wistia-link: []
