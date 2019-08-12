@@ -18,12 +18,23 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/derm-lp-sites.png"
+  img: ''
   alt: Dermatology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
     btn-label: Get a Demo
   text-link: []
+  wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Bob
+  text: Bob text
+  img: "/uploads/derm-lp-sites.png"
+  alt: bob
+  class: ''
+  btn: []
   wistia-link: []
 published: false
 
