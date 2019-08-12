@@ -28,7 +28,7 @@ fields:
     required: false
   label: Text
   description: Hero Text
-- name: button
+- name: btn
   type: field_group_list
   fields:
   - name: btn-link
