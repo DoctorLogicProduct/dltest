@@ -52,7 +52,7 @@ page_sections:
     digital footprint and acquiring patients.
   img: "/uploads/derm-lp-designs.jpg"
   alt: bob
-  class: ''
+  class: section-gray
   btn: []
   wistia-link: []
 - template: item-grid-component
