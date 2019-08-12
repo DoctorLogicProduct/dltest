@@ -18,7 +18,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: ''
+  img: "/uploads/derm-lp-sites.png"
   alt: Dermatology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
