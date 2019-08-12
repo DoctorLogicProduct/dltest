@@ -1,5 +1,14 @@
+.feature {
+
+	&__container {
+		@include grid; 
+		padding: 60px 5%;
+		grid-column: auto / span 24;
+	}
+
+}
+
 .feature-1 {
-	padding: 60px 5%;
 
 	&__text {
 		grid-column: 1 / span 12;
@@ -28,7 +37,6 @@
 }
 
 .feature-2 {
-	padding: 60px 5%;
 
 	&__text {
 		grid-column: 13 / span 12;
@@ -57,7 +65,6 @@
 }
 
 .feature-cta-1 {
-	padding: 60px 5%;
 
 	&__text {
 		grid-column: 1 / span 12;
@@ -86,7 +93,6 @@
 }
 
 .feature-cta-2 {
-	padding: 60px 5%;
 
 	&__text {
 		grid-column: 13 / span 12;

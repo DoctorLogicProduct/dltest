@@ -2,34 +2,36 @@
 {% include component-feature-2.html %}
 {% else %}
 <section class="component feature feature-1 {{ section.class }}">
-    <div class="feature__text">
-      {% for icon in section.product_icon %}
-        {% if section.product_icon %}
-        <div class="feature__product-icon" style="background: url({{ icon.icon }})"></div>
+  <div class="feature__container">
+      <div class="feature__text">
+        {% for icon in section.product_icon %}
+          {% if section.product_icon %}
+          <div class="feature__product-icon" style="background: url({{ icon.icon }})"></div>
+          {% endif %}
+        {% endfor %}
+        {% if section.tagline %}
+        <h5 class="feature__tagline">{{ section.tagline }}</h5>
         {% endif %}
-      {% endfor %}
-      {% if section.tagline %}
-      <h5 class="feature__tagline">{{ section.tagline }}</h5>
-      {% endif %}
-      <h3>{{ section.headline }}</h3>
-      <p>{{ section.text }}</p> 
-      {% for btn in section.btn %}    
-        {% if section.btn %}
-          <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
-        {% endif %} 
-      {% endfor %} 
-      {% for link in section.wistia-link %}
-      {% if section.wistia-link %}
-        <script src="https://fast.wistia.com/embed/medias/{{link.link-id}}.jsonp" async></script>
-        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
-          class="wistia_embed wistia_async_{{link.link-id}} popover=true popoverContent=link"
-          style="display:inline;position:relative"><a class="play-link" href="#">{{link.link-label}}</a></span>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="feature__image">
-      <div class="feature__image-wrapper">
-        <img src="{{ section.img | relative_url }}" alt="{{ section.alt }}">
+        <h3>{{ section.headline }}</h3>
+        <p>{{ section.text }}</p> 
+        {% for btn in section.btn %}    
+          {% if section.btn %}
+            <a class="btn" href="{{ btn.btn-link }}">{{ btn.btn-label }}</a>
+          {% endif %} 
+        {% endfor %} 
+        {% for link in section.wistia-link %}
+        {% if section.wistia-link %}
+          <script src="https://fast.wistia.com/embed/medias/{{link.link-id}}.jsonp" async></script>
+          <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
+            class="wistia_embed wistia_async_{{link.link-id}} popover=true popoverContent=link"
+            style="display:inline;position:relative"><a class="play-link" href="#">{{link.link-label}}</a></span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="feature__image">
+        <div class="feature__image-wrapper">
+          <img src="{{ section.img | relative_url }}" alt="{{ section.alt }}">
+        </div>
       </div>
     </div>
 </section>
