@@ -18,7 +18,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/HealthcareMarketingTrends4.jpg"
+  img: "/uploads/DentalWorks_DoctorLogic-Thumb-1.png"
   alt: Dermatology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
