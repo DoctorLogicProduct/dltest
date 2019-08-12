@@ -18,7 +18,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/rs-review-source-white.png"
+  img: ''
   alt: Dermatology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
