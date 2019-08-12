@@ -22,6 +22,12 @@ page_sections:
   btn:
   - btn-link: "/get-a-demo"
     btn-label: Get a Demo
+  text-link:
+  - text-link-label: Text Link
+    text-link-link: "/"
+  wistia-link:
+  - wistia-link-id: "-"
+    wistia-link-label: Wistia Link
 published: false
 
 ---
