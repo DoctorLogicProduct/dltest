@@ -1,6 +1,6 @@
 ---
 layout: components
-title: Dermatology Website Design
+title: Dermatology Website Design - Copy
 permalink: website-design-dermatology-free-website-analysis
 page_class:
 - class: lp
