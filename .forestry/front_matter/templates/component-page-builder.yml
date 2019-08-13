@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/dermatology-website-design-1.md
 - landing-pages/dermatology-website-design.md
 - landing-pages/landing-page-test.md
 - hello-leadership.md
