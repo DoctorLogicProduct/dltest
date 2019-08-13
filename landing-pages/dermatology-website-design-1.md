@@ -29,31 +29,12 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  headline:
-  - headline: Make The First Impression Count
-  text: 'Your website is a significant asset to your digital strategy and should not
-    be taken lightly. With DoctorLogic, you''ll receive a website that not only looks
-    great but functions seamlessly. Receive a custom and educational medical website
-    that is 100% responsive and built with one goal in mind: grow your practice.'
   class: ''
+  headline: []
   img: []
+  text: ''
   btn: []
   link: []
-  wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Unlimited Pages
-  text: Websites built by DoctorLogic offer an unlimited number of pages that allow
-    you to elevate your medical practice in local search results. We use your procedures,
-    profiles, reviews, photo galleries and more to create and optimize new pages for
-    search engines. The more content on your website, the more you’re increasing your
-    digital footprint and acquiring patients.
-  img: "/uploads/derm-lp-designs-2.png"
-  alt: bob
-  class: section-gray padding-bottom
-  btn: []
   wistia-link: []
 - template: item-grid-component
   component: item-grid
@@ -92,20 +73,6 @@ page_sections:
   class: ''
   text: ''
   btn: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  headline: Improve Online Visibility
-  text: Customers are searching online for medical providers near them. Local SEO
-    requires a strategic and targeted approach. We’ll optimize and manage your practice
-    and provider profiles across the web, including local directories such as Google
-    My Business, Google Maps, Facebook, Yelp, and other online local directories.
-  img: "/uploads/online-visibility.png"
-  class: section-gray padding-bottom
-  btn: []
-  wistia-link: []
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
