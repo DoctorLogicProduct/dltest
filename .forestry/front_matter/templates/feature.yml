@@ -29,11 +29,15 @@ fields:
   label: Headline
   description: Section headline
 - name: text
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Text
-  description: Section text
+  description: Section text.
 - name: btn
   type: field_group_list
   fields:
