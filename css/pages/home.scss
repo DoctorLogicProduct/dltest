@@ -10,9 +10,10 @@
     position: relative;
     min-height: 0;
     @include grid;
+    background: $color-7;
 
     @include phone-wide-min {
-      min-height: 800px;
+      min-height: 900px;
       height: 50vh;
     }
     
