@@ -175,6 +175,16 @@ var confettiSettings = {
 var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
 
+// Hero Inc Logo
+
+const tl6 = new TimelineMax();
+
+tl6.to('.hero-1__image', 2, { rotationY: 360, repeatDelay: 5, repeat: -1, yoyo: true });
+
+tl6.play();
+
+
+
 
     
 
