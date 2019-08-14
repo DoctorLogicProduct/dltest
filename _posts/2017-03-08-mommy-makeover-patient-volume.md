@@ -24,7 +24,7 @@ A recent article on Harpers Bazaar’s website titled, ‘The New Mommy Makeover
 
 Many plastic surgeons have been sharing the post on social media (LinkedIn, Twitter, Facebook, etc.). The problem, however, is that sharing the article isn’t the best way to attract new patients online, so I’m going to provide a few key tips plastic surgeons should do if they want to attract more patients actively searching for the Mommy Makeover procedure.
 
-![The DoctorLogic Photo Gallery List Page](https://doctorlogic.com/assets/img/posts/MommyMakeover.jpg)
+![The DoctorLogic Photo Gallery List Page](/uploads/MommyMakeover.jpg)
 
 ### Three Ways to Increase Your Mommy Makeover Patient Volume
 

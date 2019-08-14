@@ -28,7 +28,7 @@ fields:
     required: false
   label: Text
   description: Hero Text
-- name: button
+- name: btn
   type: field_group_list
   fields:
   - name: btn-link
@@ -47,6 +47,48 @@ fields:
     labelField: btn-label
   label: Button
   description: Button (Not Required)
+- name: text-link
+  type: field_group_list
+  fields:
+  - name: text-link-link
+    type: text
+    config:
+      required: false
+    label: Link URL
+    description: URL for link
+  - name: text-link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Label for Text Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Text Link
+  description: Optional
+- name: wistia-link
+  type: field_group_list
+  fields:
+  - name: wistia-link-id
+    type: text
+    config:
+      required: false
+    label: Wistia ID
+    description: Wistia ID for video.
+  - name: wistia-link-label
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Label for link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wistia Link
+  description: Link for Wistia Video popover.  Not required.
 - name: img
   type: file
   config:
