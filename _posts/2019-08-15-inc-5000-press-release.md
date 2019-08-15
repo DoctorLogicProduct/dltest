@@ -7,7 +7,7 @@ tags:
 - News
 post_intro: " Inc. magazine ranked DoctorLogic #1285 on the 2019 Inc. 5000 list, the
   most prestigious ranking of the nation’s fastest-growing private companies in America."
-post_image: "/uploads/Inc.5000_CigarBand-Rank.png"
+post_image: "/uploads/Inc.5000_CigarBand-Rank-blog.png"
 post_highlight: " Inc. magazine ranked DoctorLogic #1285 on the 2019 Inc. 5000 list,
   the most prestigious ranking of the nation’s fastest-growing private companies in
   America."
