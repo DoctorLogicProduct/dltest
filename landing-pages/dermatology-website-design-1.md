@@ -50,28 +50,33 @@ page_sections:
     - src: "/uploads/website-management-label.svg"
       alt: ''
     headline: ''
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    text: A premium website deserves premium website services. With Website Management,
+      we provide you with simple tools to easily make changes and updates to your
+      website in real-time.
     link: []
   - img:
     - src: "/uploads/social-reputation-label.svg"
       alt: ''
     headline: ''
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    text: Online reputation can make or break your medical practice – and your marketing
+      efforts. Our Reputation Management tool helps you acquire more reviews from
+      patients then organize and instantly display those reviews from around the web.
     link: []
   - img:
     - src: "/uploads/lead-generator-label.svg"
       alt: ''
     headline: ''
-    text: ''
+    text: Every website lead is a chance to see a new patient, book a new consultation,
+      or connect with your existing patients. With Lead Generator, you can manage
+      every conversation that comes from your website.
     link: []
   - img:
     - src: "/uploads/content-multiplier-label.svg"
       alt: ''
     headline: ''
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    text: Utilizing content in your digital marketing strategy is essential to SEO
+      and improving organic search results. DoctorLogic's Content Multiplier amplifies
+      the most relevant and engaging content pages for patients and search engines.
     link: []
   class: ''
   text: ''
