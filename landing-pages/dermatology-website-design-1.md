@@ -1,7 +1,7 @@
 ---
 layout: components
 title: Dermatology Website Design - Copy
-permalink: website-design-dermatology-free-website-analysis
+permalink: website-design-dermatology-free-website-analysis2
 page_class:
 - class: lp
 gsap: false
