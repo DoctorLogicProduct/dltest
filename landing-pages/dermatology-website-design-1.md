@@ -15,8 +15,7 @@ page_sections:
   component_css: hero
   headline: Stunning Dermatology Website Designs
   text: The all-in-one website marketing platform that attracts and retains more patients.
-    Custom-designed to fit your brand and grow your practice. Find out how your website
-    compares to your competitors.
+    Find out how your website compares to your competitors with a free website analysis.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
