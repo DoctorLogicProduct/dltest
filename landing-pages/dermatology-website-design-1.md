@@ -30,9 +30,10 @@ page_sections:
   component: text-component
   component_css: text-component
   class: ''
-  headline: []
+  headline:
+  - headline: Test
   img: []
-  text: ''
+  text: Test
   btn: []
   link: []
   wistia-link: []
