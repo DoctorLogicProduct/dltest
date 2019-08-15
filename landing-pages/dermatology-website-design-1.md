@@ -47,7 +47,7 @@ page_sections:
   headline: ''
   items:
   - img:
-    - src: "/uploads/content-multiplier-label.svg"
+    - src: "/uploads/website-management-label.svg"
       alt: ''
     headline: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
