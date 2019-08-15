@@ -31,9 +31,12 @@ page_sections:
   component_css: text-component
   class: ''
   headline:
-  - headline: Test
+  - headline: Make The First Impression Count
   img: []
-  text: Test
+  text: 'Your website is a significant asset to your digital strategy and should not
+    be taken lightly. With DoctorLogic, you''ll receive a website that not only looks
+    great but functions seamlessly. Receive a custom and educational medical website
+    that is 100% responsive and built with one goal in mind: grow your practice.'
   btn: []
   link: []
   wistia-link: []
