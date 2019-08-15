@@ -15,15 +15,16 @@ page_sections:
   component_css: hero
   headline: Stunning Dermatology Website Designs
   text: The all-in-one website marketing platform that attracts and retains more patients.
-    Loved by over 1,000 doctors.
+    Custom-designed to fit your brand and grow your practice. Find out how your website
+    compares to your competitors.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
   img: "/uploads/derm-lp-hero.png"
   alt: Dermatology websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: Get a Demo
+  - btn-link: "/website-analysis"
+    btn-label: See How You Compare
   text-link: []
   wistia-link: []
 - template: text-component
