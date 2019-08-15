@@ -1,7 +1,7 @@
 ---
 layout: components
-title: Dermatology Website Design
-permalink: website-design-dermatology-free-website-analysis-test
+title: Landing Page Template - Hubspot Pages
+permalink: test/lpths
 page_class:
 - class: lp
 gsap: false
