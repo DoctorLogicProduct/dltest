@@ -70,7 +70,7 @@ fields:
     config:
       min: 
       max: '1'
-      labelField: 
+      labelField: alt
     label: Item Image
     description: Item Image (Not Required)
   - name: headline
@@ -109,7 +109,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: headline
   label: Item
   description: Section Item
 - name: btn
@@ -130,6 +130,6 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: btn-label
   label: Button
   description: Section Button (Not requried)
