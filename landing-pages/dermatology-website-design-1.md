@@ -43,7 +43,7 @@ page_sections:
   headline: ''
   items:
   - img:
-    - src: "/uploads/lead-generator-label.svg"
+    - src: "/uploads/content-multiplier-label.svg"
       alt: ''
     headline: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -56,20 +56,17 @@ page_sections:
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     link: []
+  - img: []
+    headline: ''
+    text: ''
+    link: []
   - img:
-    - src: "/uploads/content-multiplier-label.svg"
+    - src: "/uploads/lead-generator-label.svg"
       alt: ''
     headline: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     link: []
-  - img:
-    - src: "/uploads/website-management-label.svg"
-      alt: ''
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    link: []
-    headline: ''
   class: ''
   text: ''
   btn: []
