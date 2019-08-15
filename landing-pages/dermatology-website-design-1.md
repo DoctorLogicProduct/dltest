@@ -65,7 +65,7 @@ page_sections:
     text: ''
     link: []
   - img:
-    - src: "/uploads/lead-generator-label.svg"
+    - src: "/uploads/content-multiplier-label.svg"
       alt: ''
     headline: ''
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
