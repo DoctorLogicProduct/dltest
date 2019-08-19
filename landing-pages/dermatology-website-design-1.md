@@ -81,24 +81,13 @@ page_sections:
   class: ''
   text: ''
   btn: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  class: ''
-  headline: "+74% More Website Leads "
-  text: ''
-  btn: []
-  wistia-link: []
-  img: ''
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
   headline:
-  - headline: Lorem Ipsum Delor
+  - headline: My Revenue Increased By $1.7 Million. All Thanks To My Website
   img:
-  - img_src: "/uploads/Dre 350 350.png"
+  - img_src: "/uploads/drmorales-175348-edited.jpg"
     img_alt: ''
   text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua."<span>Doctor Name</span><span>Practice
