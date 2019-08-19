@@ -71,7 +71,7 @@ page_sections:
     headline: ''
     text: Our Reputation Management tool helps you acquire more reviews from patients
       then organize and instantly display those reviews from around the web while
-      prioritizing your favorites, and tagging to make them simple to find.
+      prioritizing your favorites.
     link: []
   - img:
     - src: "/uploads/lead-generator-label.svg"
