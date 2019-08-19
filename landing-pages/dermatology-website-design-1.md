@@ -70,8 +70,8 @@ page_sections:
       alt: ''
     headline: ''
     text: Our Reputation Management tool helps you acquire more reviews from patients
-      then organize and instantly display those reviews from around the web. Don't
-      let your online reputation make or break your practice.
+      then organize and instantly display those reviews from around the web while
+      prioritizing your favorites, and tagging to make them simple to find.
     link: []
   - img:
     - src: "/uploads/lead-generator-label.svg"
@@ -85,9 +85,9 @@ page_sections:
     - src: "/uploads/content-multiplier-label.svg"
       alt: ''
     headline: ''
-    text: 'DoctorLogic''s Content Multiplier amplifies the most relevant and engaging
-      content pages for patients and search engines. Using content in your digital
-      marketing strategy is essential to SEO. '
+    text: 'Using content in your digital marketing strategy is essential to SEO. DoctorLogic''s
+      Content Multiplier amplifies the most relevant and engaging content pages for
+      patients and search engines. '
     link: []
   class: ''
   text: ''
