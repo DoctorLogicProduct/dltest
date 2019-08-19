@@ -40,23 +40,6 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  class: ''
-  headline: Discover How You Can Achieve These Results
-  text: Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
-    keywords on Google and received an increase of leads per month by 74%. Utilizing
-    the DoctorLogic Paid Search Strategy, TruDerm lowered their cost per conversions
-    by 63%, increased their click-through rate by 42%, and lowered their cost-per-click
-    by 69.8%.
-  btn:
-  - btn-link: https://doctorlogic.com/case-studies/truderm
-    btn-label: Read More
-  wistia-link: []
-  img: "/uploads/lp-derm-sites.jpg"
-  alt: ''
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -103,7 +86,7 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: ''
+  headline: "+74% More Website Leads "
   text: ''
   btn: []
   wistia-link: []
