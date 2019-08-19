@@ -40,6 +40,17 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: ''
+  text: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -58,9 +69,8 @@ page_sections:
     - src: "/uploads/social-reputation-label.svg"
       alt: ''
     headline: ''
-    text: Online reputation can make or break your medical practice – and your marketing
-      efforts. Our Reputation Management tool helps you acquire more reviews from
-      patients then organize and instantly display those reviews from around the web.
+    text: Our Reputation Management tool helps you acquire more reviews from patients
+      then organize and instantly display those reviews from around the web.
     link: []
   - img:
     - src: "/uploads/lead-generator-label.svg"
@@ -74,13 +84,23 @@ page_sections:
     - src: "/uploads/content-multiplier-label.svg"
       alt: ''
     headline: ''
-    text: Utilizing content in your digital marketing strategy is essential to SEO
-      and improving organic search results. DoctorLogic's Content Multiplier amplifies
-      the most relevant and engaging content pages for patients and search engines.
+    text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
+      content pages for patients and search engines.
     link: []
   class: ''
   text: ''
   btn: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: ''
+  text: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
