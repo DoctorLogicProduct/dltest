@@ -24,7 +24,6 @@ product:
 - website management
 
 ---
-
 Your website is a combination of the explanation of your culture, your business card, an old Yellow Pages ad. Review sites have now become a new and powerful “word of mouth” referral source, with many turning to such sites before choosing a new practice.
 
 Just like your office projects your culture and image, so too should your website. Larger DSOs have figured this out and invest heavily in their digital presence.
@@ -53,27 +52,31 @@ And last but not least, incorporating [**reviews**](https://doctorlogic.com/soci
 
 **JB: Search engine optimization (SEO) is extremely important. It has been for years and will continue to be so for the years to come. Exactly what is dental specific and local SEO and explain how it is different, than say, if you were selling widgets nationwide.**
 
-**AR:** We agree that SEO will continue to be an important strategy on the Digital Marketing landscape, but how you achieve good SEO will always continue to be a moving target. However, there are certain truths that remain constant and are especially important for Dental SEO.
+**AR:** We agree that[ SEO](https://doctorlogic.com/search-amplifier "DoctorLogic SEO") will continue to be an important strategy on the Digital Marketing landscape, but how you achieve good SEO will always continue to be a moving target. However, there are certain truths that remain constant and are especially important for Dental SEO.
 
-Local Search
+![](/uploads/online-visibility.jpg)
+
+**Local Search**
 
 Dental patients want to find local providers that can serve them, which makes local SEO extremely important. Localized SEO efforts should focus on providing information like location, facilities, procedures, Doctors, reviews, etc. all while putting an emphasis on “in your backyard”. Also, since a majority of potential patients are using mobile devices for their searches, geo-located information and services are exponentially important.
 
-Dental SEO
+**Dental SEO**
 
 SEO is SEO, right? Well not exactly. Dental SEO differs because of the 3 main factors. It must be medically accurate, it must be consumer consumable, and it must be personal. The way you achieve that is by writing content that is medical focused but can easily be understood by your average consumer. And it must be in a format that is easy to read and comprehend. You must take the technical and make it relatable, plus you must take the common and make it unique. And since Dental procedures are by nature a personal experience, it is important to combine your content with elements of social proof like “smile galleries” and “local reviews”. People will often search for images, reviews, etc. before they search for more information. They want validation first. All of these items make Dental SEO tactics unique and require an SEO practitioner/platform to be well versed in the industry and not just SEO alone.
 
 **JB: One tool that I always recommend to practices is** [**Moz Local**](https://moz.com/products/local)**. What I like about the tool is that it helps ensure that practice information is correct on all of the big and important directory and review sites, of which many other websites then use the data of. The user can update addresses, phone numbers, website URLs, and mostly anything else. They have a tool for the solo business, as well as enterprises with 100+ locations. How important is it that these directories always have the correct information?**
 
-**AR:** Local SEO is very important to the overall SEO strategy. When it comes to local SEO the accuracy of your local listings will have an impact. When you think of local listings, picture them as the new modern version of the yellow pages. The listings are ways the search engines know who you are, where you’re located, what you offer, and the times that you are open. When it comes to local ranking factors Google looks at relevance, distance, and prominence. If your address is incorrect, it’s hard for Google to showcase your distance from the search. If your business description is wrong, this can impact your relevance to what the person is searching for. If your information is not accurate or consistent across these different sources, then you won’t rank or rank as high.
+**AR:** Local SEO is very important to the overall SEO strategy. When it comes to local SEO the accuracy of your local listings will have an impact. When you think of local listings, picture them as the new modern version of the yellow pages. The listings are ways the search engines know who you are, where you’re located, what you offer, and the times that you are open. When it comes to [**local ranking factors Google **]()looks at relevance, distance, and prominence. If your address is incorrect, it’s hard for Google to showcase your distance from the search. If your business description is wrong, this can impact your relevance to what the person is searching for. If your information is not accurate or consistent across these different sources, then you won’t rank or rank as high.
 
 **JB: I cannot state enough the importance of generating positive online reviews for any practice. Please tell our readers some of the benefits of generating positive online reviews.**
 
-**AR:** 72% of patients say their first step in finding a new provider is checking online reviews. With 7 out 10 patients checking reviews to select a provider, its critical you know what those patients are seeing about you. Increasing the number of positive online reviews will have significant impact on moving those patients further down the buying journey. While it’s important to get positive reviews, it’s even more important those reviews are recent. Patients are reading the review but also looking at the date this review was posted. If you want to be in front of those patients at the early stages of the buying cycle, then you should have an ongoing review strategy implemented into your practice.
+**AR:** 72% of patients say their first step in finding a new provider is checking online reviews. With 7 out 10 patients[ **checking reviews **](https://doctorlogic.com/social-reputation "DoctorLogic Reputation Management")to select a provider, it's critical you know what those patients are seeing about you. Increasing the number of positive online reviews will have significant impact on moving those patients further down the buying journey. While it’s important to get positive reviews, it’s even more important those reviews are recent. Patients are reading the review but also looking at the date this review was posted. If you want to be in front of those patients at the early stages of the buying cycle, then you should have an ongoing review strategy implemented into your practice.
+
+![](/uploads/screen-reviews-manage (3).png)
 
 **JB: Being able to generate and nurture online leads should be incorporated into the marketing plan of any dental practice. HIPAA compliance is super important here. Please explain how a practice or group can achieve HIPAA compliance with their website while safely generating and nurturing leads.**
 
-**AR:** Protecting patient information should always be priority number 1 in your marketing. One of the first steps in doing so is making sure your website is HTTPS secure. DoctorLogic did a study of 813 dental websites and found that 84% of the websites were not secure. This was staggering because this opens the opportunity for information to be stolen through your website. While practices would like to gain as much information about the patient when they submit a lead, you have to make sure you are protecting that information as its transmitted from your website to your practice.
+**AR:** Protecting patient information should always be priority number 1 in your marketing. One of the first steps in doing so is making sure your [**website is HTTPS secure**](https://doctorlogic.com/website-management "DoctorLogic Website Management")**.** DoctorLogic did a study of 813 dental websites and found that 84% of the websites were not secure. This was staggering because this opens the opportunity for information to be stolen through your website. While practices would like to gain as much information about the patient when they submit a lead, you have to make sure you are protecting that information as its transmitted from your website to your practice.
 
 When you’re laying the groundwork for your site, these are the major points you need to remember for HIPAA compliance.
 
