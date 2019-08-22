@@ -1,7 +1,7 @@
 ---
 layout: components
-title: Dermatology Website Design
-permalink: website-design-dermatology-free-website-analysis
+title: 'Dermatology Website Design - Get Started '
+permalink: website-design-dermatology
 page_class:
 - class: lp
 gsap: false
