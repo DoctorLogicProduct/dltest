@@ -23,7 +23,7 @@ page_sections:
   alt: Dermatology websites powered by DoctorLogic
   btn:
   - btn-link: "/website-analysis"
-    btn-label: See How You Compare
+    btn-label: Get Free Analysis
   text-link: []
   wistia-link: []
 - template: text-component
