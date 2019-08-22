@@ -85,7 +85,7 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: 'Exponential Growth of +182 Indexed Keywords '
+  - headline: Exponential Growth of +182 Indexed Keywords With DoctorLogic
   img: []
   text: 'Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
     keywords on Google and received an increase of leads per month by 74%. '
@@ -101,7 +101,7 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: "/website-analysis"
     btn-label: Get Free Analysis
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
