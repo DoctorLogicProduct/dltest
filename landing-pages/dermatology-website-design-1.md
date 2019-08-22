@@ -85,16 +85,16 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Since partnering with DoctorLogic, TruDerm has seen an increase of 182%
-      indexed keywords on Google and received an increase of leads per month by 74%.
+  - headline: 'Exponential Growth of +182 Indexed Keywords '
   img:
   - img_src: "/uploads/drmorales-175348-edited.jpg"
     img_alt: ''
-  text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua."<span>Doctor Name</span><span>Practice
-    Name</span>'
+  text: 'Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
+    keywords on Google and received an increase of leads per month by 74%. '
   class: lp__review
-  btn: []
+  btn:
+  - btn-link: https://doctorlogic.com/case-studies/truderm
+    btn-label: Read More
   link: []
   wistia-link: []
 - template: text-component
