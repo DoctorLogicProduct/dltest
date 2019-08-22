@@ -85,7 +85,8 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: My Revenue Increased By $1.7 Million. All Thanks To My Website
+  - headline: Since partnering with DoctorLogic, TruDerm has seen an increase of 182%
+      indexed keywords on Google and received an increase of leads per month by 74%.
   img:
   - img_src: "/uploads/drmorales-175348-edited.jpg"
     img_alt: ''
