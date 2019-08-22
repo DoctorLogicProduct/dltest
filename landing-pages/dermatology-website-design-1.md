@@ -102,8 +102,8 @@ page_sections:
   - headline: Ready to get started?
   btn:
   - btn-link: "/get-a-demo"
-    btn-label: Get a demo
-  text: It's easy. Lorem ipsum delor lorem sit amet ipusm delor oreo logo lorem.
+    btn-label: Get Free Analysis
+  text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
   link: []
