@@ -43,7 +43,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   class: ''
   headline: Amplify Your Practice with Proven SEO
   text: With our proven experience executing medical SEO strategies, your website
