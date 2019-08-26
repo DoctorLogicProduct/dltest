@@ -61,12 +61,9 @@ page_sections:
   img_alignment: Right
   class: ''
   headline: Convert Visitors to Patients With Relevant Content
-  text: "Utilizing content in your digital marketing strategy is essential to SEO
-    and improving organic search results. Content Multiplier™ amplifies the most relevant
-    and engaging content pages for patients and search engines.\nOur team of medical
-    content writers provide custom content for every procedure and service offered
-    at your practice, all while utilizing proven SEO strategies to help you build
-    better content, faster.  "
+  text: |-
+    Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. Content Multiplier™ amplifies the most relevant and engaging content pages for patients and search engines.
+    Our team of medical content writers provide custom content for every procedure and service offered at your practice, all while utilizing proven SEO strategies to help you build better content, fast.
   btn: []
   wistia-link: []
   img: "/uploads/gallery-list (2).jpg"
