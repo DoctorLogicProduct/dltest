@@ -58,11 +58,13 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: ''
-  text: ''
+  headline: Amplify Your Practice with Proven SEO
+  text: With our proven experience executing medical SEO strategies, your website
+    will receive a boost in website traffic, which will result in new patient visits
+    and an increase in revenue.
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/search-amplifier-label.svg"
   alt: ''
 - template: feature
   component: feature-1
