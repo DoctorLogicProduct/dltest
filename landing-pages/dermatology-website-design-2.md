@@ -77,7 +77,7 @@ page_sections:
     btn-label: Read Case Study
   class: ''
   wistia-link: []
-  img: ''
+  img: "/uploads/Add a little bit of body text.png"
   alt: ''
 - template: text-component
   component: text-component
