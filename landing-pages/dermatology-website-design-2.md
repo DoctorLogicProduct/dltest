@@ -40,47 +40,41 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
-- template: item-grid-component
-  component: item-grid
-  component_css: item-grid
-  per-row-count: '4'
-  headline: ''
-  items:
-  - img:
-    - src: "/uploads/website-management-label.svg"
-      alt: ''
-    headline: ''
-    text: A premium website deserves premium website services. With Website Management,
-      we provide you with simple tools to easily make changes and updates to your
-      website in real-time.
-    link: []
-  - img:
-    - src: "/uploads/social-reputation-label.svg"
-      alt: ''
-    headline: ''
-    text: Our Reputation Management tool helps you acquire more reviews from patients
-      then organize and instantly display those reviews from around the web while
-      prioritizing your favorites.
-    link: []
-  - img:
-    - src: "/uploads/lead-generator-label.svg"
-      alt: ''
-    headline: ''
-    text: Every website lead is a chance to see a new patient, book a new consultation,
-      or connect with your existing patients. With Lead Generator, you can manage
-      every conversation that comes from your website.
-    link: []
-  - img:
-    - src: "/uploads/content-multiplier-label.svg"
-      alt: ''
-    headline: ''
-    text: 'Using content in your digital marketing strategy is essential to SEO. DoctorLogic''s
-      Content Multiplier amplifies the most relevant and engaging content pages for
-      patients and search engines. '
-    link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Modern Medical Websites Built To Convert
+  text: A premium website deserves premium website services. With Website Management,
+    we provide you with simple tools to easily make changes and updates to your website
+    in real-time.
+  img: "/uploads/website-management-label.svg"
   class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: ''
   text: ''
   btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: ''
+  text: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -107,21 +101,6 @@ page_sections:
   class: section-gray
   img: []
   link: []
-  wistia-link: []
-- template: image-group
-  component: image-group
-  component_css: image-group
-  class: ''
-  tagline: ''
-  headline: ''
-  text: ''
-  items:
-  - class: ''
-    img: true
-    src: "/uploads/Screen Shot 2019-07-19 at 3.40.27 PM.png"
-    headline: ''
-    text: ''
-  btn: []
   wistia-link: []
 published: false
 
