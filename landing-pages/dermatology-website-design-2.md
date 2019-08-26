@@ -44,19 +44,6 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Modern Medical Websites Built To Convert
-  text: A premium website deserves premium website services. With Website Management,
-    we provide you with simple tools to easily make changes and updates to your website
-    in real-time.
-  img: "/uploads/website-management-label.svg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
   class: ''
   headline: Amplify Your Practice with Proven SEO
   text: With our proven experience executing medical SEO strategies, your website
@@ -64,7 +51,7 @@ page_sections:
     and an increase in revenue.
   btn: []
   wistia-link: []
-  img: "/uploads/search-amplifier-label.svg"
+  img: "/uploads/keyword-page.jpg"
   alt: ''
 - template: feature
   component: feature-1
