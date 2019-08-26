@@ -69,7 +69,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Exponential Growth of +182 Indexed Keywords With DoctorLogic
+  headline: Exponential Growth of +74 Leads With DoctorLogic
   text: Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
     keywords on Google and received an increase of leads per month by 74%.
   btn:
