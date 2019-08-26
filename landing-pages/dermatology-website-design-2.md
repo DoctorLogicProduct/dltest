@@ -115,7 +115,12 @@ page_sections:
   tagline: ''
   headline: ''
   text: ''
-  items: []
+  items:
+  - class: ''
+    img: true
+    src: "/uploads/Screen Shot 2019-07-19 at 3.40.27 PM.png"
+    headline: ''
+    text: ''
   btn: []
   wistia-link: []
 published: false
