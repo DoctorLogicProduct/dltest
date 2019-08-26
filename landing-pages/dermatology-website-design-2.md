@@ -63,7 +63,7 @@ page_sections:
     content pages for patients and search engines.
   btn: []
   wistia-link: []
-  img: "/uploads/content-multiplier-label.svg"
+  img: "/uploads/gallery-list (2).jpg"
   alt: ''
 - template: text-component
   component: text-component
