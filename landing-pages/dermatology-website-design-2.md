@@ -75,8 +75,12 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Exponential Growth of +74 Leads With DoctorLogic
-  text: Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
+  headline: Learn Why DoctorLogic Was the Clear Choice for TruDerm
+  text: TruDerm, a medical spa and dermatology practice with multiple locations in
+    North Texas, aspired to grow their practice in a cost-efficient way but couldn’t
+    find a suitable solution. Plus, they had many competitors in their market outperforming
+    them when it came to online search results. They knew it was time for a change.
+    Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
     keywords on Google and received an increase of leads per month by 74%.
   btn:
   - btn-link: "/case-studies/truderm"
