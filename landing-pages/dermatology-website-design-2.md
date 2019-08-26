@@ -46,9 +46,11 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Amplify Your Practice with Proven SEO
-  text: With our proven experience executing medical SEO strategies, your website
-    will receive a boost in website traffic, which will result in new patient visits
-    and an increase in revenue.
+  text: Practices aspire to dominate their local market and be at the top of Google.
+    Search Amplifier™ champions your entire brand through best-in-class medical SEO
+    strategies. From local and long-tail keyword targeting, local listing management,
+    and structured data, DoctorLogic uses over 15 years of experience to deliver visitors
+    that convert into patients.
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
@@ -59,8 +61,12 @@ page_sections:
   img_alignment: Right
   class: ''
   headline: Convert Visitors to Patients With Relevant Content
-  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
-    content pages for patients and search engines.
+  text: "Utilizing content in your digital marketing strategy is essential to SEO
+    and improving organic search results. Content Multiplier™ amplifies the most relevant
+    and engaging content pages for patients and search engines.\nOur team of medical
+    content writers provide custom content for every procedure and service offered
+    at your practice, all while utilizing proven SEO strategies to help you build
+    better content, faster.  "
   btn: []
   wistia-link: []
   img: "/uploads/gallery-list (2).jpg"
