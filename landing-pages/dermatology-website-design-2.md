@@ -1,7 +1,7 @@
 ---
 layout: components
 title: 'Dermatology Website Design - Get Started '
-permalink: website-design-dermatology
+permalink: website-design-dermatology-get-started
 page_class:
 - class: lp
 gsap: false
