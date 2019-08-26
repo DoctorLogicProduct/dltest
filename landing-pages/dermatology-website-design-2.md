@@ -75,7 +75,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Learn Why DoctorLogic Was the Clear Choice for TruDerm
+  headline: Why DoctorLogic Was the Clear Choice for TruDerm
   text: TruDerm, a medical spa and dermatology practice with multiple locations in
     North Texas, aspired to grow their practice in a cost-efficient way but couldn’t
     find a suitable solution. Plus, they had many competitors in their market outperforming
