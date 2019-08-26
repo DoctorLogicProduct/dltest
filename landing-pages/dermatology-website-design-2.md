@@ -77,7 +77,7 @@ page_sections:
     btn-label: Read Case Study
   class: ''
   wistia-link: []
-  img: "/uploads/Copy of Untitled.png"
+  img: "/uploads/Copy of Untitled (1).png"
   alt: ''
 - template: text-component
   component: text-component
