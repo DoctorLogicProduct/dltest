@@ -71,11 +71,12 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: ''
-  text: ''
+  headline: Convert Visitors to Patients With Relevant Content
+  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
+    content pages for patients and search engines.
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/content-multiplier-label.svg"
   alt: ''
 - template: text-component
   component: text-component
