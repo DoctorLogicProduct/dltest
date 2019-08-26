@@ -65,6 +65,20 @@ page_sections:
   wistia-link: []
   img: "/uploads/gallery-list (2).jpg"
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Exponential Growth of +182 Indexed Keywords With DoctorLogic
+  text: Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
+    keywords on Google and received an increase of leads per month by 74%.
+  btn:
+  - btn-link: "/case-studies/truderm"
+    btn-label: Read Case Study
+  class: ''
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
