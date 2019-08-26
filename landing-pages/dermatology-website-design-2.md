@@ -51,7 +51,7 @@ page_sections:
     and an increase in revenue.
   btn: []
   wistia-link: []
-  img: "/uploads/keyword-page.jpg"
+  img: "/uploads/seo-performance (3).jpg"
   alt: ''
 - template: feature
   component: feature-1
