@@ -108,6 +108,16 @@ page_sections:
   img: []
   link: []
   wistia-link: []
+- template: image-group
+  component: image-group
+  component_css: image-group
+  class: ''
+  tagline: ''
+  headline: ''
+  text: ''
+  items: []
+  btn: []
+  wistia-link: []
 published: false
 
 ---
