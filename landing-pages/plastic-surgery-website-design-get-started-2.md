@@ -35,18 +35,34 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  link:
-  - link: ''
-    label: ''
-  wistia-link:
-  - link-id: "/w7jgkunbv9"
-    link-label: Watch Video
   headline:
-  - headline: 'Meet DoctorLogic | Practice Growth Experts '
+  - headline: 'DoctorLogic can help you dominate the online environment with an all-in-one,
+      easy-to-use platform. '
+  img:
+  - img_src: ''
+    img_alt: ''
+  text: Our software itself was built specifically for the healthcare industry with
+    patient acquisition, retention marketing, and practice insights in mind, helping
+    providers connect with more patients. From website creation to content generation,
+    reputation management to Before and After Photo Galleries, SEO best practices
+    to lead conversion, we’ve got you covered.
   class: ''
-  img: []
-  text: ''
   btn: []
+  link: []
+  wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: 'Stunning Websites Built to Convert '
+  text: |2-
+
+    Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice.
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
