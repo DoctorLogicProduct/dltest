@@ -35,13 +35,18 @@ page_sections:
     providers connect with more patients. From website creation to content generation,
     reputation management to Before and After Photo Galleries, SEO best practices
     to lead conversion, we’ve got you covered.
-  wistia-link:
-  - link-id: "/w7jgkunbv9"
-    link-label: Watch Video
+  wistia-link: []
   class: ''
   img: []
   btn: []
   link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  wistia-id: "/w7jgkunbv9"
+  class: ''
+  headline: ''
+  text: ''
 - template: feature
   component: feature-1
   component_css: feature
