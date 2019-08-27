@@ -80,7 +80,7 @@ page_sections:
     My Business, Google Maps, Facebook, Yelp, and other online local directories.
   btn: []
   wistia-link: []
-  img: "/uploads/online-visibility-2.jpg"
+  img: "/uploads/online-visibility.png"
   alt: ''
 - template: feature
   component: feature-1
