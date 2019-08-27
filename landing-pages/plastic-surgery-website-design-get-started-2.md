@@ -29,12 +29,12 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: 'Dominate Online With An All-In-One, Easy-To-Use Platform '
-  text: Our software itself was built specifically for the healthcare industry with
-    patient acquisition, retention marketing, and practice insights in mind, helping
-    providers connect with more patients. From website creation to content generation,
-    reputation management to Before and After Photo Galleries, SEO best practices
-    to lead conversion, we’ve got you covered.
+  - headline: Meet DoctorLogic | Your Practice Growth Experts
+  text: Our software was built specifically for the healthcare industry with patient
+    acquisition, retention marketing, and practice insights in mind, helping providers
+    connect with more patients. From website creation to content generation, reputation
+    management to Before and After Photo Galleries, SEO best practices to lead conversion,
+    we’ve got you covered.
   wistia-link: []
   class: ''
   img: []
@@ -86,6 +86,22 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: The DoctorLogic Difference
+  text: Our difference depends on the diverse, engaged, passionate, and experienced
+    people who create our ideas and serve our clients. As our partner, you will also
+    have access to the latest solutions, transparent reporting, unlimited content,
+    technology upgrades, dedicated support and a 100% HIPAA compliant platform. You
+    will be taken care of with feedback on how to grow your practice from like minded
+    people who are medical marketing experts.
+  class: ''
+  img: []
+  btn: []
+  link: []
+  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
