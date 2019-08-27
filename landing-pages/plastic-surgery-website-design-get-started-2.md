@@ -63,6 +63,19 @@ page_sections:
   wistia-link: []
   img: "/uploads/Designs.jpg"
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Convert Visitors to Patients With Relevant Content
+  text: Utilizing content in your digital marketing strategy is essential to SEO and
+    improving organic search results. DoctorLogic's Content Multiplier amplifies the
+    most relevant and engaging content pages for patients and search engines.
+  img: "/uploads/gallery-list-1.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
