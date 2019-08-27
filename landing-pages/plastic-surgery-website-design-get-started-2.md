@@ -111,22 +111,15 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: lp__review
-  headline:
-  - headline: My Revenue Increased By $1.7 Million. All Thanks To My Website.
-  img:
-  - img_src: "/uploads/drmorales-175348-edited-1.jpg"
-    img_alt: ''
-  text: '"I thought I knew what I was doing with my website and SEO, but after meeting
-    DoctorLogic''s team, they''ve literally tripled my practice within months." -
-    Rolando Morales, M.D., Houston, TX Plastic Surgeon'
-  btn:
-  - btn-link: "/case-studies/morales-plastic-surgery"
-    btn-label: Read Case Study
-  link: []
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  class: ''
+  headline: 'Happy '
+  text: ''
+  per-row-count: ''
+  practices: []
+  btn: []
   wistia-link: []
 - template: text-component
   component: text-component
