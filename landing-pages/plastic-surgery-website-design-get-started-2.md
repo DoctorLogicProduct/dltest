@@ -42,31 +42,6 @@ page_sections:
   img: []
   btn: []
   link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  headline: 'Meet DoctorLogic | Your Practice Growth Experts '
-  wistia-id: "/w7jgkunbv9"
-  class: ''
-  text: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: 'DoctorLogic can help you dominate the online environment with an all-in-one,
-      easy-to-use platform. '
-  img:
-  - img_src: ''
-    img_alt: ''
-  text: Our software itself was built specifically for the healthcare industry with
-    patient acquisition, retention marketing, and practice insights in mind, helping
-    providers connect with more patients. From website creation to content generation,
-    reputation management to Before and After Photo Galleries, SEO best practices
-    to lead conversion, we’ve got you covered.
-  class: ''
-  btn: []
-  link: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
