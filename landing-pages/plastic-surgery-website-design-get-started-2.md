@@ -82,10 +82,14 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: One Place For All Your Website Conversions
-  text: Every website lead is a chance to see a new patient, book a new consultation,
-    or connect with your existing patients. With Lead Generator, you can manage every
-    conversation that comes from your website.
+  headline: Manage Your Website Conversions In One Place
+  text: 'Our Lead Generator tool provides one place where you can keep track of all
+    your website conversions, whether they’re coming in via the phone, a web form,
+    an online chat, and more. Giving you this power will also allow you to be alerted
+    to new leads and have processes in place to convert a mere inquiry into a patient
+    appointment.
+
+'
   img: "/uploads/Opportunities.jpg"
   class: ''
   btn: []
