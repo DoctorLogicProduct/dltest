@@ -72,7 +72,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: 'Why DoctorLogic Was the Clear Choice for Parker West Dental Associates '
+  headline: Why DoctorLogic Was the Clear Choice for Parker West
   text: 'Parker West Dental Associates (Parker West), a leading cosmetic dentistry
     practice in Plano, TX struggled to find the perfect solution to achieve what they
     wanted most: new patients and practice growth. Since partnering with DoctorLogic,
