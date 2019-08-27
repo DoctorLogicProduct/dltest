@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/dermatology-website-design-get-started.md
 - landing-pages/dermatology-website-design-2.md
 - landing-pages/plastic-surgery-website-design-get-started.md
 - landing-pages/dental-website-design-get-started-1.md
@@ -82,7 +83,6 @@ pages:
 - landing-pages/plastic-surgery-website-design-get-started-1.md
 - landing-pages/dermatology-website-design-get-started-1.md
 - landing-pages/dental-website-design-get-started.md
-- landing-pages/dermatology-website-design-get-started.md
 - landing-pages/dermatology-website-design.md
 - landing-pages/landing-page-test.md
 - hello-leadership.md

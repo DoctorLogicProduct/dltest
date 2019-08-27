@@ -63,7 +63,7 @@ page_sections:
   class: ''
   headline: Convert Visitors to Patients With Relevant Content
   text: |-
-    Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. Content Multiplier™ amplifies the most relevant and engaging content pages for patients and search engines.
+    Content Multiplier™ amplifies the most relevant and engaging content pages for patients and search engines.
     Our team of medical content writers provide custom content for every procedure and service offered at your practice, all while utilizing proven SEO strategies to help you build better content, fast.
   btn: []
   wistia-link: []
@@ -76,10 +76,9 @@ page_sections:
   headline: Why DoctorLogic Was the Clear Choice for TruDerm
   text: TruDerm, a medical spa and dermatology practice with multiple locations in
     North Texas, aspired to grow their practice in a cost-efficient way but couldn’t
-    find a suitable solution. Plus, they had many competitors in their market outperforming
-    them when it came to online search results. They knew it was time for a change.
-    Since partnering with DoctorLogic, TruDerm has seen an increase of 182% indexed
-    keywords on Google and received an increase of leads per month by 74%.
+    find a suitable solution. They knew it was time for a change. Since partnering
+    with DoctorLogic, TruDerm has seen an increase of 182% indexed keywords on Google
+    and received an increase of leads per month by 74%.
   btn:
   - btn-link: "/case-studies/truderm"
     btn-label: Read Case Study
