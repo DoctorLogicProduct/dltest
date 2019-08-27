@@ -61,7 +61,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/Designs.jpg"
   alt: ''
 - template: text-component
   component: text-component
