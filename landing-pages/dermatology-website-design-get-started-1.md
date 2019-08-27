@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Dermatology Website Design - Get Started '
+title: 'Dental Website Design - Get Started '
 permalink: website-design-dental-get-started
 page_class:
 - class: lp
