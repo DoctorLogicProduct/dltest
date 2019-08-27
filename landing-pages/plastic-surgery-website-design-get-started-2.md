@@ -71,7 +71,18 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Left
+  img_alignment: Right
+  class: ''
+  headline: ''
+  text: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
   headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
   text: VIP Plastic Surgery initially worked with several vendors, who were costly
     and unable to fulfill their promises of attracting patient leads through website
