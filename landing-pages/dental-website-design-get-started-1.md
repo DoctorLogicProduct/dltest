@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/plastic-3up-1.png"
+  img: "/uploads/plastic-3up-3.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
