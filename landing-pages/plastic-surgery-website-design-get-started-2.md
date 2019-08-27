@@ -100,7 +100,7 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  class: ''
+  class: lp__review
   headline:
   - headline: '"My Revenue Increased By $1.7 Million. All Thanks To My Website."'
   img:
