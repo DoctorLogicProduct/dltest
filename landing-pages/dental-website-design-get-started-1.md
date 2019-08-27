@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/unlimited-pages-1.jpg"
+  img: "/uploads/PreciseLP-Sites-Aesthetic.png"
   alt: Dental websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
