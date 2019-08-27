@@ -56,6 +56,44 @@ page_sections:
   text: ''
   link: []
   wistia-link: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  headline: One Company. One Solution. Unlimited Results.
+  text: 'Imagine one solution created to improve patient experiences and help grow
+    your practice’s online presence. DoctorLogic offers the most advanced Website
+    Marketing Platform built to help increase new patients by using Before and After
+    Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
+    Google-friendly content. The following six products are included with every DoctorLogic
+    website:'
+  items:
+  - img:
+    - src: "/uploads/website-management-label.svg"
+      alt: ''
+    text: Start by turning your website into an appreciating asset.
+    link:
+    - link-link: "/website-management"
+      link-label: Learn More
+    headline: ''
+  - img:
+    - src: "/uploads/content-multiplier-label.svg"
+      alt: ''
+    headline: ''
+    text: Our technology helps you multiply your content.
+    link:
+    - link-link: "/content-multiplier"
+      link-label: Learn More
+  - img:
+    - src: "/uploads/social-reputation-label.svg"
+      alt: ''
+    headline: ''
+    text: Improve your online reputation and build patient trust.
+    link:
+    - link-link: "/social-reputation"
+      link-label: Learn More
+  class: ''
+  btn: []
 - template: feature
   component: feature-1
   component_css: feature
