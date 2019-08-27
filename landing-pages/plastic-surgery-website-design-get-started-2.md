@@ -71,13 +71,16 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   class: ''
-  headline: ''
-  text: ''
+  headline: Improve Online Visibility
+  text: Customers are searching online for medical providers near them. Local SEO
+    requires a strategic and targeted approach. We’ll optimize and manage your practice
+    and provider profiles across the web, including local directories such as Google
+    My Business, Google Maps, Facebook, Yelp, and other online local directories.
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/online-visibility-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
