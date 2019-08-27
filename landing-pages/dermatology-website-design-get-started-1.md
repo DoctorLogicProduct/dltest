@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/unlimited-pages-1.jpg"
+  img: "/uploads/dental-3up-1.png"
   alt: Dental websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
