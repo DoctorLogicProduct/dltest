@@ -14,16 +14,17 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: Stunning Dental Website Designs
-  text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. '
+  text: The all-in-one website marketing platform that attracts and retains more patients.
+    Get a free website analysis to see how you compare in your market and what areas
+    you need to address to stand out online.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
   img: "/uploads/unlimited-pages-1.jpg"
   alt: Dental websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: 'Get A Demo '
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text-link: []
   wistia-link: []
 - template: text-component
@@ -92,8 +93,8 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: Get A Demo
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
