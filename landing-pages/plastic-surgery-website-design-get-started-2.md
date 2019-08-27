@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'SEO Medical Marketing - Get Started '
-permalink: medical-marketing-get-started
+title: 'Medical Practice Marketing - Get Started '
+permalink: medical-practice-marketing-get-started
 page_class:
 - class: lp
 gsap: false
@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Amplify Your Medical Practice with Proven SEO
+  headline: Medical Practice Marketing
   text: 'The all-in-one website marketing platform that attracts and retains more
     patients. '
   button:
@@ -31,12 +31,14 @@ page_sections:
   component_css: text-component
   class: ''
   headline:
-  - headline: Make The First Impression Count
+  - headline: One Company. One Solution. Unlimited Results.
   img: []
-  text: 'Your website is a significant asset to your digital strategy and should not
-    be taken lightly. With DoctorLogic, you''ll receive a website that not only looks
-    great but functions seamlessly. Receive a custom and educational medical website
-    that is 100% responsive and built with one goal in mind: grow your practice.'
+  text: 'Imagine one solution created to improve patient experiences and help grow
+    your practice’s online presence. DoctorLogic offers the most advanced Website
+    Marketing Platform built to help increase new patients by using Before and After
+    Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
+    Google-friendly content. The following six products are included with every DoctorLogic
+    website:'
   btn: []
   link: []
   wistia-link: []
