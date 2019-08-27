@@ -66,10 +66,13 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Build Better Content, Fast
-  text: Utilizing content in your digital marketing strategy is essential to SEO and
-    improving organic search results. DoctorLogic's Content Multiplier amplifies the
-    most relevant and engaging content pages for patients and search engines.
+  headline: 'Custom Content, Built Faster '
+  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
+    content pages for patients and search engines. Our team of medical content writers
+    provide custom content for every procedure and service offered at your practice.
+    Individual web pages are then automatically integrated with relevant content such
+    as reviews, before and after photos, video, and specials to promote each service
+    and gain keyword authority.
   img: "/uploads/gallery-list-1.jpg"
   class: ''
   btn: []
