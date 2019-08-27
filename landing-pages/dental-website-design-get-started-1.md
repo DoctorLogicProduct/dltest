@@ -1,14 +1,14 @@
 ---
 layout: components
-title: 'Dental Website Design - Get Started '
-permalink: website-design-dental-get-started
+title: 'Plastic Surgery Website Design - Get Started '
+permalink: website-design-plastic-surgery-get-started
 page_class:
 - class: lp
 gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/dental-3up-1.png"
+meta_image: "/uploads/PreciseLP-Sites-Aesthetic.png"
 page_sections:
 - template: hero-with-image
   component: hero-1
