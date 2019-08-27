@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Dental Website Design - Get Started '
-permalink: website-design-dental-get-started
+title: Dental Website Design - Free Website Analysis
+permalink: website-design-dental-free-analysis
 page_class:
 - class: lp
 gsap: false
