@@ -61,9 +61,10 @@ page_sections:
   img_alignment: Right
   class: ''
   headline: Convert Visitors to Patients With Relevant Content
-  text: |-
-    Utilizing content in your digital marketing strategy is essential to SEO and improving organic search results. Content Multiplier™ amplifies the most relevant and engaging content pages for patients and search engines.
-    Our team of medical content writers provide custom content for every procedure and service offered at your practice, all while utilizing proven SEO strategies to help you build better content, fast.
+  text: Content Multiplier™ amplifies the most relevant and engaging content pages
+    for patients and search engines. Our team of medical content writers provide custom
+    content for every procedure and service offered at your practice, all while utilizing
+    proven SEO strategies to help you build better content, fast.
   btn: []
   wistia-link: []
   img: "/uploads/gallery-list (2).jpg"
@@ -74,12 +75,10 @@ page_sections:
   img_alignment: Left
   headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
   text: VIP Plastic Surgery initially worked with several vendors, who were costly
-    and unable to fulfill their promises of attracting patient leads through website
-    traffic. Since partnering with DoctorLogic, VIP Plastic Surgery saw a growth in
-    Page 1 keywords by 1,642%, resulting in an increase in website visits by 102%,
-    a 55% increase in website leads, and a 10% lead-to-patient conversion rate. In
-    addition to keyword ranking, the Before and After Photo Gallery brings in 67%
-    of all page view traffic, with 34% leads coming strictly from the gallery page.
+    and unable to fulfill their promise. Since partnering with DoctorLogic, VIP Plastic
+    Surgery saw a growth in Page 1 keywords by 1,642%, resulting in an increase in
+    website visits by 102%, a 55% increase in website leads, and a 10% lead-to-patient
+    conversion rate.
   btn:
   - btn-link: "/case-studies/vip-plastic-surgery"
     btn-label: Read Case Study
