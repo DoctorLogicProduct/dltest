@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Cosmetic Surgery Website Design - Get Started '
-permalink: website-design-cosmetic-surgery-get-started
+title: Cosmetic Surgery Website Design - Free Website Analysis
+permalink: website-design-cosmetic-surgery-free-analysis
 page_class:
 - class: lp
 gsap: false
@@ -15,15 +15,16 @@ page_sections:
   component_css: hero
   headline: Stunning Cosmetic Surgery Website Designs
   text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. '
+    patients. Get a free website analysis to see how you compare in your market and
+    what areas you need to address to stand out online. '
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
   img: "/uploads/plastic-3up (1).png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: 'Get A Demo '
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text-link: []
   wistia-link: []
 - template: text-component
@@ -93,8 +94,8 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: Get A Demo
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
