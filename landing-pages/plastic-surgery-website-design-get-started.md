@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Plastic Surgery Website Design - Get Started '
-permalink: website-design-plastic-surgery-get-started
+title: Plastic Surgery Website Design - Free Website Analysis
+permalink: website-design-plastic-surgery-free-analysis
 page_class:
 - class: lp
 gsap: false
