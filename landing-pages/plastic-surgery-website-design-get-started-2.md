@@ -76,6 +76,19 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Convert More Website Leads Into Patients
+  text: Every website lead is a chance to see a new patient, book a new consultation,
+    or connect with your existing patients. With Lead Generator, you can manage every
+    conversation that comes from your website.
+  img: "/uploads/Opportunities.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
