@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/dental-website-design-get-started-1.md
 - landing-pages/dental-website-design-get-started.md
 - landing-pages/dermatology-website-design-get-started-1.md
 - landing-pages/dermatology-website-design-get-started.md
