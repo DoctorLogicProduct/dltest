@@ -64,7 +64,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Convert Visitors to Patients With Relevant Content
+  headline: Build Better Content, Fast
   text: Utilizing content in your digital marketing strategy is essential to SEO and
     improving organic search results. DoctorLogic's Content Multiplier amplifies the
     most relevant and engaging content pages for patients and search engines.
@@ -77,7 +77,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Convert More Website Leads Into Patients
+  headline: One Place For All Your Website Conversions
   text: Every website lead is a chance to see a new patient, book a new consultation,
     or connect with your existing patients. With Lead Generator, you can manage every
     conversation that comes from your website.
