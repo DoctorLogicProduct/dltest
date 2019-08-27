@@ -8,7 +8,7 @@ gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/dental-3up.png"
+meta_image: "/uploads/dental-3up-1.png"
 page_sections:
 - template: hero-with-image
   component: hero-1
