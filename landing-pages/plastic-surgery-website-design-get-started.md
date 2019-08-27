@@ -82,7 +82,7 @@ page_sections:
     addition to keyword ranking, the Before and After Photo Gallery brings in 67%
     of all page view traffic, with 34% leads coming strictly from the gallery page.
   btn:
-  - btn-link: "/case-studies/parker-west"
+  - btn-link: "/case-studies/vip-plastic-surgery"
     btn-label: Read Case Study
   class: ''
   wistia-link: []
