@@ -14,7 +14,9 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: Marketing For Medical Practices
-  text: 'Marketing For Doctors To Attract New Patients And Grow Your Practice.  '
+  text: You want a partner who’s there to make your life simple and takes the guesswork
+    out of healthcare marketing. DoctorLogic is fully invested in your practice’s
+    success. Our priority is you.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
