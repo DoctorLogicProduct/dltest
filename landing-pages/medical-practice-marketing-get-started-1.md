@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Medical Practice Marketing - Get Started '
-permalink: medical-practice-marketing-get-started
+title: 'Website Design Medical Practice - Get Started '
+permalink: medical-practice-website-design-get-started
 page_class:
 - class: lp
 gsap: false
@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Marketing For Medical Practices
+  headline: Stunning Medical Practice Websites
   text: 'The all-in-one website marketing platform that attracts and retains more
     patients. '
   button:
