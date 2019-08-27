@@ -102,7 +102,7 @@ page_sections:
   component_css: text-component
   class: lp__review
   headline:
-  - headline: '"My Revenue Increased By $1.7 Million. All Thanks To My Website."'
+  - headline: My Revenue Increased By $1.7 Million. All Thanks To My Website.
   img:
   - img_src: "/uploads/drmorales-175348-edited-1.jpg"
     img_alt: ''
