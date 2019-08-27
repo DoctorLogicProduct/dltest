@@ -13,14 +13,14 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Stunning Dental Website Designs
+  headline: Stunning Plastic Surgery Website Designs
   text: 'The all-in-one website marketing platform that attracts and retains more
     patients. '
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
   img: "/uploads/PreciseLP-Sites-Aesthetic.png"
-  alt: Dental websites powered by DoctorLogic
+  alt: Plastic surgery websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
     btn-label: 'Get A Demo '
@@ -72,19 +72,20 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Why DoctorLogic Was the Clear Choice for Parker West
-  text: 'Parker West Dental Associates (Parker West), a leading cosmetic dentistry
-    practice in Plano, TX struggled to find the perfect solution to achieve what they
-    wanted most: new patients and practice growth. Since partnering with DoctorLogic,
-    Parker West saw an increase in indexed keywords by 935%. Their Before and After
-    Photo Gallery page views increased by 140% and brings in 44.51% of their entire
-    website pageview data. '
+  headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
+  text: VIP Plastic Surgery initially worked with several vendors, who were costly
+    and unable to fulfill their promises of attracting patient leads through website
+    traffic. Since partnering with DoctorLogic, VIP Plastic Surgery saw a growth in
+    Page 1 keywords by 1,642%, resulting in an increase in website visits by 102%,
+    a 55% increase in website leads, and a 10% lead-to-patient conversion rate. In
+    addition to keyword ranking, the Before and After Photo Gallery brings in 67%
+    of all page view traffic, with 34% leads coming strictly from the gallery page.
   btn:
   - btn-link: "/case-studies/parker-west"
     btn-label: Read Case Study
   class: ''
   wistia-link: []
-  img: "/uploads/Add a heading.png"
+  img: "/uploads/Copy of Copy of Untitled.png"
   alt: ''
 - template: text-component
   component: text-component
