@@ -97,17 +97,37 @@ page_sections:
   headline: ''
   text: ''
   btn: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
+  text: VIP Plastic Surgery initially worked with several vendors, who were costly
+    and unable to fulfill their promises of attracting patient leads through website
+    traffic. Since partnering with DoctorLogic, VIP Plastic Surgery saw a growth in
+    Page 1 keywords by 1,642%, resulting in an increase in website visits by 102%,
+    a 55% increase in website leads, and a 10% lead-to-patient conversion rate. In
+    addition to keyword ranking, the Before and After Photo Gallery brings in 67%
+    of all page view traffic, with 34% leads coming strictly from the gallery page.
+  btn:
+  - btn-link: "/case-studies/parker-west"
+    btn-label: Read Case Study
+  class: ''
+  wistia-link: []
+  img: "/uploads/Copy of Copy of Untitled.png"
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
   class: ''
   headline:
-  - headline: '"My Revenue Increased By $1.7 Million. All Thanks To My Website."'
+  - headline: My Revenue Increased By $1.7 Million. All Thanks To My Website.
   img:
   - img_src: "/uploads/drmorales-175348-edited-1.jpg"
     img_alt: ''
-  text: '"I thought I knew what I was doing with my website and SEO, but after meeting
-    DoctorLogic''s team, they''ve literally tripled my practice within months." '
+  text: "\"I thought I knew what I was doing with my website and SEO, but after meeting
+    DoctorLogic's team, they've literally tripled my practice within months.\" \n\nRolando
+    Morales, M.D. | www.drmorales.com\nHouston, TX Plastic Surgeon"
   btn:
   - btn-link: "/case-studies/morales-plastic-surgery"
     btn-label: Read Case Study
