@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: SEO Medical Marketing
+  headline: Amplify Your Medical Practice with Proven SEO
   text: 'The all-in-one website marketing platform that attracts and retains more
     patients. '
   button:
@@ -45,7 +45,7 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: Amplify Your Practice with Proven SEO
+  headline: Increase Your Search Performance
   text: Practices aspire to dominate their local market and be at the top of Google.
     Search Amplifier™ champions your entire brand through best-in-class medical SEO
     strategies. From local and long-tail keyword targeting, local listing management,
