@@ -26,36 +26,6 @@ page_sections:
     btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: ''
-  headline:
-  - headline: One Company. One Solution. Unlimited Results.
-  img: []
-  text: 'Imagine one solution created to improve patient experiences and help grow
-    your practice’s online presence. DoctorLogic offers the most advanced Website
-    Marketing Platform built to help increase new patients by using Before and After
-    Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
-    Google-friendly content. The following six products are included with every DoctorLogic
-    website:'
-  btn: []
-  link: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  img:
-  - img_src: "/uploads/product-icons-3-up (1).jpg"
-    img_alt: ''
-  btn:
-  - btn-link: "/"
-    btn-label: Learn More
-  class: ''
-  headline: []
-  text: ''
-  link: []
-  wistia-link: []
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -93,6 +63,39 @@ page_sections:
     - link-link: "/social-reputation"
       link-label: Learn More
   class: ''
+  btn: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  items:
+  - img:
+    - src: "/uploads/search-amplifier-label.svg"
+      alt: ''
+    headline: ''
+    text: Target up to 50,000 locally relevant SEO keyword patterns.
+    link:
+    - link-link: "/search-amplifier"
+      link-label: Learn More
+  - img:
+    - src: "/uploads/lead-generator-label.svg"
+      alt: ''
+    headline: ''
+    text: Generate more leads and track every online lead source.
+    link:
+    - link-link: "/lead-generator"
+      link-label: Learn More
+  - img:
+    - src: "/uploads/success-insights-label.svg"
+      alt: ''
+    headline: ''
+    text: Get real-time analysis and access to our success teams.
+    link:
+    - link-link: "/success-insights"
+      link-label: Learn More
+  class: ''
+  headline: ''
+  text: ''
   btn: []
 - template: feature
   component: feature-1
