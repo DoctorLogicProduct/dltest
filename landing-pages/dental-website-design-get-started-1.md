@@ -8,7 +8,7 @@ gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/PreciseLP-Sites-Aesthetic.png"
+meta_image: "/uploads/plastic-3up.png"
 page_sections:
 - template: hero-with-image
   component: hero-1
@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/PreciseLP-Sites-Aesthetic.png"
+  img: "/uploads/plastic-3up-1.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
