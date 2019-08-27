@@ -42,6 +42,20 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  img:
+  - img_src: "/uploads/product-icons-3-up (1).jpg"
+    img_alt: ''
+  btn:
+  - btn-link: "/"
+    btn-label: Learn More
+  class: ''
+  headline: []
+  text: ''
+  link: []
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
