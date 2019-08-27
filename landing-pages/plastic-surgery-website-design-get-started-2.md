@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Medical Practice Marketing
+  headline: Marketing For Medical Practices
   text: 'The all-in-one website marketing platform that attracts and retains more
     patients. '
   button:
