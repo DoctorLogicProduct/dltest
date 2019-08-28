@@ -74,6 +74,8 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/medical-practice-marketing-get-started-1.md
+- landing-pages/medical-practice-marketing-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
 - landing-pages/plastic-surgery-website-design-get-started-1.md
 - landing-pages/dental-website-design-get-started.md
