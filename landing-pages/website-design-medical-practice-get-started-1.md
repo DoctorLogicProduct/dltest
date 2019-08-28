@@ -1,7 +1,7 @@
 ---
 layout: components
-title: Medical Practice Marketing - Free Website Analysis
-permalink: medical-practice-marketing-free-analysis
+title: 'Website Design Medical Practice - Get Started '
+permalink: website-design-medical-practice-get-started
 page_class:
 - class: lp
 gsap: false
@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Marketing For Medical Practices
+  headline: Stunning Websites For Medical Practices
   text: You want a partner who’s there to make your life simple and takes the guesswork
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
     success. Our priority is you.
@@ -23,8 +23,8 @@ page_sections:
   img: "/uploads/mix-3up-1.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/website-analysis"
-    btn-label: Free Analysis
+  - btn-link: "/get-a-demo"
+    btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
 - template: text-component
@@ -132,12 +132,13 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/website-analysis"
-    btn-label: Free Analysis
+  - btn-link: "/get-a-demo"
+    btn-label: Get A Demo
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
   link: []
   wistia-link: []
+published: false
 
 ---
