@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Website Design Medical Practice - Get Started '
-permalink: website-design-medical-practice-get-started
+title: Website Design Medical Practice - Free Website Analysis
+permalink: website-design-medical-practice-free-analysis
 page_class:
 - class: lp
 gsap: false
@@ -23,8 +23,8 @@ page_sections:
   img: "/uploads/mix-3up-1.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: 'Get A Demo '
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text-link: []
   wistia-link: []
 - template: text-component
@@ -132,13 +132,12 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
-    btn-label: Get A Demo
+  - btn-link: "/website-analysis"
+    btn-label: Free Analysis
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
