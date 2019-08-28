@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Website Design Medical Practice - Get Started '
-permalink: website-design-medical-practice-get-started
+title: 'Website Design Healthcare Practice - Get Started '
+permalink: website-design-healthcare-practice-get-started
 page_class:
 - class: lp
 gsap: false
@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Stunning Websites For Medical Practices
+  headline: Stunning Websites For Healthcare Practices
   text: You want a partner who’s there to make your life simple and takes the guesswork
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
     success. Our priority is you.
