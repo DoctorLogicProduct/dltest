@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'SEO Medical Marketing - Get Started '
-permalink: seo-medical-marketing-get-started
+title: 'Medical Practice Marketing - Get Started '
+permalink: medical-practice-marketing-get-started
 page_class:
 - class: lp
 gsap: false
@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: SEO Marketing For Medical Practices
+  headline: Marketing For Medical Practices
   text: You want a partner who’s there to make your life simple and takes the guesswork
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
     success. Our priority is you.
