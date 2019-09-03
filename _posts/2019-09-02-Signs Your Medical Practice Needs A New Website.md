@@ -40,7 +40,7 @@ We’re all guilty of spending a lot of time on our phones. According to Statist
 
 **You Have To Pay For Updates**
 
-With today’s content management and [**web management technology **](https://doctorlogic.com/website-management "DoctorLogic Website Management")there’s no reason, other than time or not wanting the hassle yourself, to have to pay a web master an hourly rate to change simple things like product prices, photos in a gallery, adding testimonials or updating information about your services. Making small changes or updates to your site, like adding blog post or updating an event should be easy for anyone on your staff to accomplish. If your website is built on a difficult platform or requires a third party to make even the simplest updates, consider a new website built in an easy-to-use content management system.
+With today’s content management and [**web management technology **](https://doctorlogic.com/website-management "DoctorLogic Website Mangement")here’s no reason, other than time or not wanting the hassle yourself, to have to pay a web master an hourly rate to change simple things like product prices, photos in a gallery, adding testimonials or updating information about your services. Making small changes or updates to your site, like adding blog post or updating an event should be easy for anyone on your staff to accomplish. If your website is built on a difficult platform or requires a third party to make even the simplest updates, consider a new website built in an easy-to-use content management system.
 
 **People Don’t Stay Long**
 
@@ -61,6 +61,6 @@ Your website is a living, breathing entity on the internet. Every update you mak
 
 **Take the Test**
 
-Unsure if you’re website is up to date? Take this [**10 question assessment**](http://resources.doctorlogic.com/is-your-website-up-to-date-assessment) and learn if you’re rockin’ it or can do better with your practice website. If you have any, or lot’s of the above issues don’t stress out. Getting your website updated is easier and more affordable than think. Visit [**www.doctorlogic.com **](http://www.doctorlogic.com)to learn more.
+Unsure if you’re website is up to date? Take this [**10 question assessment**](https://resources.doctorlogic.com/is-your-website-up-to-date-assessment?utm_source=blog&utm_medium=outgrow&utm_campaign=signs_you_need_new_website "Is Your Practice Website Up to Date?") and learn if you’re rockin’ it or can do better with your practice website. If you have any, or lot’s of the above issues don’t stress out. Getting your website updated is easier and more affordable than think. Visit [**www.doctorlogic.com**](www.doctorlogic.com "DoctorLogic Home Page") to learn more.
 
 ![Website Assessment](/uploads/Screen Shot 2019-09-02 at 8.24.00 PM.png "Is Your Website Up To Date")
