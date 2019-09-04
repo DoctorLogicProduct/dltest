@@ -31,6 +31,18 @@ page_sections:
   img: []
   text: ''
   link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: 'Reputation management for providers can be tricky in the digital world. '
+  text: Join our webinar on September 24th to learn 3 ways to better manage and maintain
+    your online image in a positive way. 
+  img: "/uploads/screen-reviews-manage.png"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -44,18 +56,6 @@ page_sections:
   text: ''
   link: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: 'Reputation management for providers can be tricky in the digital world. '
-  text: Join our webinar on September 24th to learn 3 ways to better manage and maintain
-    your online image in a positive way. 
-  img: "/uploads/screen-reviews-manage.png"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
 gsap: false
 published: false
 
