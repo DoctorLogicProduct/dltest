@@ -11,7 +11,7 @@ page_sections:
   component: hero-1
   component_css: hero
   img: "/uploads/review-request-feature.jpg"
-  headline: "[Webinar] Online Reputation Management "
+  headline: 'Webinar: Online Reputation Management '
   text: 'Join our webinar on September 24th at 12:00 p.m. CST to learn why your online
     reputation is important. You’ll takeaway 3 proven strategies to better-manage
     and maintain your image online. '
