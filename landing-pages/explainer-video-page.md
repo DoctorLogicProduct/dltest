@@ -12,9 +12,10 @@ page_sections:
   component_css: hero
   img: "/uploads/review-request-feature.jpg"
   headline: 'Webinar: Online Reputation Management '
-  text: 'Join our webinar on September 24th at 12:00 p.m. CST to learn why your online
-    reputation is important. You’ll takeaway 3 proven strategies to better-manage
-    and maintain your image online. '
+  text: Join our webinar on September 24th at 12:00 p.m. CST to learn about why your
+    online reputation matters in today’s digital world. You’ll learn 3 proven strategies
+    on ways to better-manage and maintain your image online as well as receive a free
+    reputation analysis from our team of medical marketing experts.
   btn:
   - btn-link: ''
     btn-label: Register Now
