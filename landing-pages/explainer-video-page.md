@@ -31,8 +31,9 @@ page_sections:
   btn: []
   class: ''
   img: []
-  text: Join our webinar on September 24th to learn 3 ways to better manage and maintain
-    your online image in a positive way. 
+  text: 'But it doesn’t have to be. In this webinar, we’ll explore ways your online
+    reputation can set you apart from your competition and uncover 3 simple techniques
+    to better-managing and maintaining a positive image online. '
   link: []
 - template: feature
   component: feature-1
