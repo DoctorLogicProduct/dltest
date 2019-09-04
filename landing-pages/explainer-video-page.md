@@ -25,8 +25,9 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: 'One solution created to improve patient experiences and help grow your
-      practice’s online presence. '
+  - headline: Reputation management for providers can be tricky in the digital world.
+      Join our webinar on September 24th to learn 3 ways to better manage and maintain
+      your online image in a positive way. 
   wistia-link:
   - link-id: w7jgkunbv9
     link-label: Watch Video
