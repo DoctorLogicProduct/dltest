@@ -11,7 +11,7 @@ page_sections:
   component: hero-1
   component_css: hero
   img: "/uploads/review-request-feature.jpg"
-  headline: DoctorLogic Webinar
+  headline: 'Online Reputation Management Webinar For Doctors '
   text: 3 Ways to Manage and Maintain a Positive Reputation Online
   btn:
   - btn-link: ''
