@@ -36,18 +36,26 @@ page_sections:
     to managing your online reputation in a way that showcases your talent and brings
     you more new patients. 
   link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: 'Reputation management for providers can be tricky in the digital world. '
-  text: Join our webinar on September 24th to learn 3 ways to better manage and maintain
-    your online image in a positive way. 
-  img: "/uploads/screen-reviews-manage.png"
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  headline: About DoctorLogic | Practice Growth Experts
+  wistia-id: w7jgkunbv9
+  text: ''
   class: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  headline: 'Proven Results | DoctorLogic Customers '
+  per-row-count: '3'
+  practices:
+  - name: Morales Plastic Surgery
+  - name: Texas Center For Cosmetic Dentistry
+  - name: Sonterra Dermatology
+  class: ''
+  text: ''
   btn: []
   wistia-link: []
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
