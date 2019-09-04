@@ -12,7 +12,9 @@ page_sections:
   component_css: hero
   img: "/uploads/review-request-feature.jpg"
   headline: 'Online Reputation Management Webinar For Doctors '
-  text: 3 Ways to Manage and Maintain a Positive Reputation Online
+  text: Learn why your online reputation is important and takeaway 3 proven strategies
+    to better-manage and maintain a positive image online. Join us September 24th
+    at 12:00 p.m. CST.
   btn:
   - btn-link: ''
     btn-label: Register Now
