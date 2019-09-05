@@ -69,12 +69,12 @@ page_sections:
   component_css: text-component
   class: section-gray
   headline:
-  - headline: 'Register Now to Save Your Spot '
+  - headline: Reserve Your Spot Today.
   btn:
   - btn-link: ''
     btn-label: Register Now
   img: []
-  text: ''
+  text: 'September 24th at 12:00 p.m. CST. '
   link: []
   wistia-link: []
 gsap: false
