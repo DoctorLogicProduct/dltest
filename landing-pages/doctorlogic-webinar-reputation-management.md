@@ -1,27 +1,23 @@
 ---
 layout: components
 title: 'DoctorLogic Webinar | Reputation Management '
-permalink: webinar/online-reputation-management
+permalink: webinar/online-reputation-management/register-now
 page_class: []
 custom_js: ''
 description: ''
 meta_image: "/uploads/ReputationManagementThumb.jpg"
 page_sections:
-- template: hero-with-image
-  component: hero-1
-  component_css: hero
-  img: "/uploads/review-request-feature.jpg"
-  headline: 'Webinar: Managing Your Online Reputation '
-  text: Join our webinar on September 24th at 12:00 p.m. CST to learn about why your
-    online reputation matters in today’s digital world. You’ll learn 3 proven strategies
-    on ways to better-manage and maintain your image online as well as receive a free
-    reputation analysis after the webinar from our team of medical marketing experts.
-  btn:
-  - btn-link: ''
-    btn-label: Register Now
-  text-link: []
-  wistia-link: []
-  alt: ''
+- template: hero-with-form
+  component: hero-3
+  component_css: hero-3
+  bg_img: "/uploads/review-request-feature.jpg"
+  tagline:
+  - headline: Webinar | September 24th | 12:00 p.m. CST
+  headline: 'Online Reputation Management is Evolving '
+  text: Are you maximizing your opportunity to have a strong online reputation?
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
+  form_template: Register Now
+  btn: []
 - template: text-component
   component: text-component
   component_css: text-component
