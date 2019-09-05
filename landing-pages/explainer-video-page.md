@@ -68,8 +68,8 @@ page_sections:
   component_css: feature
   img_alignment: Right
   headline: How Reputation Management Can Set You Apart
-  text: 'Uncover how reviews impact patient''s decision-making and how to utilize
-    it to your advantage. '
+  text: 'We''ll uncover how reviews impact patient''s decision-making and how you
+    can utilize reviews to your advantage in search results. '
   img: "/uploads/PatientTestimonialsThumb.jpg"
   class: ''
   btn: []
