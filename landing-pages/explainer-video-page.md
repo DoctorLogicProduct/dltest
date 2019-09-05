@@ -45,7 +45,9 @@ page_sections:
   img:
   - img_src: "/uploads/Copy of Untitled (2).png"
     img_alt: ''
-  text: Demand Manager & Digital Marketing Expert
+  text: 'Passionate about all things marketing, Janelle specializes in delivering
+    data-driven insights, results, and recommendations for digital and demand generation
+    channels and medical practices. '
   btn: []
   link: []
   wistia-link: []
