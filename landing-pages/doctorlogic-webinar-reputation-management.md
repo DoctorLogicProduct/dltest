@@ -13,7 +13,7 @@ page_sections:
   bg_img: "/uploads/review-request-feature.jpg"
   tagline:
   - headline: Webinar | September 24th | 12:00 p.m. CST
-  headline: 'Online Reputation Management is Evolving '
+  headline: 3 Ways to Manage and Maintain a Positive Reputation Online
   text: Are you maximizing your opportunity to have a strong online reputation?
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
   form_template: forms/lp-form.html
