@@ -39,13 +39,37 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
+  img_alignment: Right
+  headline: 'Why Reputation Management is Important '
+  text: "We'll discover ways the Internet has changed over the years and what that
+    means for your online reputation. \n"
+  img: "/uploads/ReputationManagementThumb.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
   img_alignment: Left
   headline: Learn About Organizing Your Reviews
   text: Discover ways you can manage reviews from different sources, including Google,
     Facebook, Yelp, RealSelf, and more. Display your reviews from across the web in
     one place, prioritize your favorites, and tag each review to make it simple to
     find.
-  img: "/uploads/screen-reviews-manage.png"
+  img: "/uploads/online-visibility-2.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: How Reputation Management Can Set You Apart
+  text: 'Uncover how reviews impact patient''s decision-making and how to utilize
+    it to your advantage. '
+  img: "/uploads/PatientTestimonialsThumb.jpg"
   class: ''
   btn: []
   wistia-link: []
