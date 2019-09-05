@@ -36,6 +36,19 @@ page_sections:
     to managing your online reputation in a way that showcases your talent and brings
     you more new patients. 
   link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  class: lp__review
+  headline:
+  - headline: 'About the Speaker '
+  img:
+  - img_src: "/uploads/headshot.jpg"
+    img_alt: ''
+  text: Demand Manager & Digital Marketing Expert
+  btn: []
+  link: []
+  wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
