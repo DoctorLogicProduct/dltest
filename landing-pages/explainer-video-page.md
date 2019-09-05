@@ -43,11 +43,11 @@ page_sections:
   headline:
   - headline: 'About the Speaker '
   img:
-  - img_src: "/uploads/Copy of Untitled (2).png"
+  - img_src: "/uploads/Copy of Untitled.jpg"
     img_alt: ''
-  text: 'Passionate about all things marketing, Janelle specializes in delivering
-    data-driven insights, results, and recommendations for digital and demand generation
-    channels and medical practices. '
+  text: 'Janelle is passionate about all things marketing. With a focus on digital
+    and demand, Janelle specializes in delivering data-driven insights, results, and
+    recommendations for businesses and medical practices. '
   btn: []
   link: []
   wistia-link: []
