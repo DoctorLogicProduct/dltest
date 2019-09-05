@@ -21,9 +21,7 @@ page_sections:
     reputation analysis after the webinar from our team of medical marketing experts.
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
   form_template: forms/lp-form.html
-  btn:
-  - btn-label: Register Now
-    btn-link: "/thank-you"
+  btn: []
 - template: text-component
   component: text-component
   component_css: text-component
