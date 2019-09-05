@@ -40,10 +40,12 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: 'Why Reputation Management is Important '
-  text: "We'll discover ways the Internet has changed over the years and what that
-    means for your online reputation. \n"
-  img: "/uploads/ReputationManagementThumb.jpg"
+  headline: 'Learn Why Your Online Reputation Management is Important '
+  text: "In this webinar, we'll discuss ways the Internet has changed over the years
+    and what that means for your online reputation. We'll also discuss techniques
+    and strategies on how to put your best foot forward so prospective patients can
+    find the right, positive image of you when looking online. \n\n"
+  img: "/uploads/iStock-1035679516.jpg"
   class: ''
   btn: []
   wistia-link: []
@@ -53,10 +55,9 @@ page_sections:
   component_css: feature
   img_alignment: Left
   headline: Learn About Organizing Your Reviews
-  text: Discover ways you can manage reviews from different sources, including Google,
-    Facebook, Yelp, RealSelf, and more. Display your reviews from across the web in
-    one place, prioritize your favorites, and tag each review to make it simple to
-    find.
+  text: 'We''ll discuss ways you can manage your reviews from different sources that
+    exude credibility and trust that allows prospective patients to discover everything
+    they need to know about you when they''re searching. '
   img: "/uploads/online-visibility-2.jpg"
   class: ''
   btn: []
