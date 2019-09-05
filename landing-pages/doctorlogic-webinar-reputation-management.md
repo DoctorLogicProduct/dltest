@@ -22,64 +22,6 @@ page_sections:
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
   form_template: forms/lp-form.html
   btn: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: 'Reputation management for providers can be tricky in the digital world. '
-  wistia-link: []
-  btn: []
-  class: ''
-  img: []
-  text: But it doesn’t have to be. In this webinar, we’ll explore ways your online
-    reputation can set you apart from your competition and uncover 3 simple techniques
-    to managing your online reputation in a way that showcases your talent and brings
-    you more new patients. 
-  link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: lp__review
-  headline:
-  - headline: 'About the Speaker '
-  img:
-  - img_src: "/uploads/Untitled design-2.jpg"
-    img_alt: ''
-  text: 'Demand Generation Manager & Digital Marketing Expert '
-  btn: []
-  link: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: ''
-  headline:
-  - headline: 'How DoctorLogic Helps You Better-Manage Your Reputation '
-  img: []
-  text: ''
-  btn: []
-  link: []
-  wistia-link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  wistia-id: hr95vqf7nb
-  class: ''
-  headline: ''
-  text: ''
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  headline: 'Proven Results | DoctorLogic Customers '
-  per-row-count: '3'
-  practices:
-  - name: Morales Plastic Surgery
-  - name: Texas Center For Cosmetic Dentistry
-  - name: Sonterra Dermatology
-  class: ''
-  text: ''
-  btn: []
-  wistia-link: []
 gsap: false
 published: false
 
