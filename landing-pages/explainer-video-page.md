@@ -69,7 +69,7 @@ page_sections:
   component_css: text-component
   class: section-gray
   headline:
-  - headline: 'Register Now | September 24th at 12:00 p.m. CST '
+  - headline: 'Register Now to Save Your Spot '
   btn:
   - btn-link: ''
     btn-label: Register Now
