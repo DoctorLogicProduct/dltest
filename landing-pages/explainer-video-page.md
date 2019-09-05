@@ -43,7 +43,7 @@ page_sections:
   headline:
   - headline: 'About the Speaker '
   img:
-  - img_src: "/uploads/headshot.jpg"
+  - img_src: "/uploads/Copy of Untitled (2).png"
     img_alt: ''
   text: Demand Manager & Digital Marketing Expert
   btn: []
