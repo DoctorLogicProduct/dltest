@@ -11,7 +11,8 @@ page_sections:
   component: hero-1
   component_css: hero
   img: "/uploads/review-request-feature.jpg"
-  headline: 'WEBINAR: 3 Ways to Manage and Maintain a Positive Reputation Online'
+  headline: 'WEBINAR: 3 Proven Strategies to Better-Manage and Maintain Your Online
+    Reputation'
   text: Join our webinar on September 24th at 12:00 p.m. CST to learn about why your
     online reputation matters in today’s digital world. You’ll learn 3 proven strategies
     on ways to better-manage and maintain your image online as well as receive a free
