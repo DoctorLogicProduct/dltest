@@ -44,7 +44,7 @@ page_sections:
   headline:
   - headline: 'About the Speaker '
   img:
-  - img_src: "/uploads/Untitled design-2.jpg"
+  - img_src: "/uploads/janelle-square.jpg"
     img_alt: ''
   text: 'Passionate about all things marketing, Janelle specializes in delivering
     data-driven insights, results, and recommendations in digital and demand for businesses
