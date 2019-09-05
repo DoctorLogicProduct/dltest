@@ -69,7 +69,7 @@ page_sections:
   component_css: text-component
   class: section-gray
   headline:
-  - headline: Register Now
+  - headline: 'Reputation Management Webinar | September 24th at 12:00 p.m. CST '
   btn:
   - btn-link: ''
     btn-label: Register Now
