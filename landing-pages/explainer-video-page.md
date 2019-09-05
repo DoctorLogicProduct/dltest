@@ -2,7 +2,8 @@
 layout: components
 title: 'DoctorLogic Webinar | Reputation Management '
 permalink: webinar/online-reputation-management
-page_class: []
+page_class:
+- class: lp
 custom_js: ''
 description: ''
 meta_image: "/uploads/ReputationManagementThumb.jpg"
