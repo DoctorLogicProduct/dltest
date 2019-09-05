@@ -1,7 +1,7 @@
 ---
 layout: components
-title: DoctorLogic Webinar | Reputation Management - 2
-permalink: webinar/online-reputation-management/register-now
+title: DoctorLogic Webinar | Reputation Management
+permalink: webinar/online-reputation-management
 page_class:
 - class: lp
 custom_js: ''
