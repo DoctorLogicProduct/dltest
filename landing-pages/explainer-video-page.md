@@ -43,7 +43,7 @@ page_sections:
   headline:
   - headline: 'About the Speaker '
   img:
-  - img_src: "/uploads/Copy of Untitled.jpg"
+  - img_src: "/uploads/Untitled design-1.jpg"
     img_alt: ''
   text: 'Janelle is passionate about all things marketing. With a focus on digital
     and demand, Janelle specializes in delivering data-driven insights, results, and
