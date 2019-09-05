@@ -36,6 +36,20 @@ page_sections:
     to managing your online reputation in a way that showcases your talent and brings
     you more new patients. 
   link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Learn About Organizing Your Reviews
+  text: Discover ways you can manage reviews from different sources, including Google,
+    Facebook, Yelp, RealSelf, and more. Display your reviews from across the web in
+    one place, prioritize your favorites, and tag each review to make it simple to
+    find.
+  img: "/uploads/screen-reviews-manage.png"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
