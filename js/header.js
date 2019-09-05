@@ -133,6 +133,12 @@ jQuery(document).ready(function ($) {
         $('.dl-morph-dropdown').each(function () {
             //create a morphDropdown object for each .dl-morph-dropdown
             morphDropdowns.push(new morphDropdown($(this)));
+
+            // bind mobile collapse
+            $(this).on('click', '.dropdown > .label', function(ev){
+                ev.preventDefault();
+                $(this).closest('.dropdown').toggleClass('nav--mobile-open');
+            });
         });
 
         var resizing = false;
