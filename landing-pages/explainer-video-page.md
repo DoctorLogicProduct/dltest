@@ -53,9 +53,12 @@ page_sections:
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
-  headline: About DoctorLogic | Practice Growth Experts
+  headline: 'About DoctorLogic '
   wistia-id: w7jgkunbv9
-  text: ''
+  text: DoctorLogic offers custom website designs, as well as market proven design
+    options and have created a digital marketing platform that allows users to manage
+    leads, website content, PPC, reputation, galleries, and SEO while providing website
+    analytics from a single, web-based software program.
   class: ''
 - template: case-study-feature
   component: case-studies-feature
