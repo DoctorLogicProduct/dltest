@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'DoctorLogic Webinar | Reputation Management '
+title: DoctorLogic Webinar | Reputation Management - 2
 permalink: webinar/online-reputation-management/register-now
 page_class: []
 custom_js: ''
