@@ -36,55 +36,6 @@ page_sections:
     to managing your online reputation in a way that showcases your talent and brings
     you more new patients. 
   link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: 'Learn Why Your Online Reputation Management is Important '
-  text: "In this webinar, we'll discuss ways the Internet has changed over the years
-    and what that means for your online reputation. We'll also discuss techniques
-    and strategies on how to put your best foot forward so prospective patients can
-    find the right, positive image of you when looking online. \n\n"
-  img: "/uploads/iStock-1035679516.jpg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  headline: Learn About Organizing Your Reviews
-  text: 'We''ll discuss ways you can manage your reviews from different sources that
-    exude credibility and trust that allows prospective patients to discover everything
-    they need to know about you when they''re searching. '
-  img: "/uploads/online-visibility-2.jpg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: How Reputation Management Can Set You Apart
-  text: 'We''ll uncover how reviews impact patient''s decision-making and how you
-    can utilize reviews to your advantage in search results. '
-  img: "/uploads/PatientTestimonialsThumb.jpg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  headline: 'About DoctorLogic '
-  wistia-id: w7jgkunbv9
-  text: DoctorLogic offers custom website designs, as well as market proven design
-    options and have created a digital marketing platform that allows users to manage
-    leads, website content, PPC, reputation, galleries, and SEO while providing website
-    analytics from a single, web-based software program.
-  class: ''
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
