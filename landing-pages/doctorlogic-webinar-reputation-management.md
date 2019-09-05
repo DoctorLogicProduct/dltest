@@ -16,7 +16,7 @@ page_sections:
   headline: 'Online Reputation Management is Evolving '
   text: Are you maximizing your opportunity to have a strong online reputation?
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
-  form_template: "/get-a-demo"
+  form_template: forms/lp-form.html
   btn: []
 - template: text-component
   component: text-component
