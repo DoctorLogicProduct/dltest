@@ -49,6 +49,24 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  class: ''
+  headline:
+  - headline: 'How DoctorLogic Helps You Better-Manage Your Reputation '
+  img: []
+  text: ''
+  btn: []
+  link: []
+  wistia-link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  wistia-id: hr95vqf7nb
+  class: ''
+  headline: ''
+  text: ''
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
@@ -61,19 +79,6 @@ page_sections:
   class: ''
   text: ''
   btn: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: section-gray
-  headline:
-  - headline: Reserve Your Spot Today.
-  btn:
-  - btn-link: ''
-    btn-label: Register Now
-  img: []
-  text: 'September 24th at 12:00 p.m. CST. '
-  link: []
   wistia-link: []
 gsap: false
 published: false
