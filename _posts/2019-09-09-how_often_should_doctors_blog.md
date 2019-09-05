@@ -1,5 +1,5 @@
 ---
-post_title: How Often Should My Practice Blog?
+post_title: How Often Should You Blog For Your Practice?
 date: 2019-09-09 16:00:00 +0000
 post_author: Janelle Amos
 tags:
