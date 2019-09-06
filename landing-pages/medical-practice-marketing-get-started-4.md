@@ -8,20 +8,20 @@ gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/cosmetic-3up.png"
+meta_image: "/uploads/mix-3up-1.png"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'Marketing For Cosmetic Surgeons '
+  headline: 'Marketing For Medical Practices '
   text: You want a partner who’s there to make your life simple and takes the guesswork
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
     success. Our priority is you.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/cosmetic-3up.png"
-  alt: Cosmetic surgery websites powered by DoctorLogic
+  img: "/uploads/mix-3up-1.png"
+  alt: Plastic surgery websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
     btn-label: 'Get A Demo '
