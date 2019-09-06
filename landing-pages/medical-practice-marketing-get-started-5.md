@@ -1,7 +1,7 @@
 ---
 layout: components
-title: 'Medical Practice Marketing - Get Started '
-permalink: medical-practice-marketing-get-started
+title: 'AACS Cosmetic Surgery Marketing - Get Started '
+permalink: aacs-cosmetic-surgery-marketing-get-started
 page_class:
 - class: lp
 gsap: false
