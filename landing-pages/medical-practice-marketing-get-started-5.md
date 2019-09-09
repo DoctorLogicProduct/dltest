@@ -81,8 +81,8 @@ page_sections:
   img_alignment: Right
   headline: Manage Your Website Conversions In One Place
   text: 'Convert more inquiries into patient appointments by managing all your website
-    leads in a single place, whether they’re coming in via the phone, a web form,
-    an online chat, and more.
+    leads in a single place, whether they’re coming in via phone, web form, online
+    chat, or more.
 
 '
   img: "/uploads/Opportunities.jpg"
