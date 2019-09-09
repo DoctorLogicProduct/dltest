@@ -101,9 +101,7 @@ page_sections:
   - name: Morales Plastic Surgery
   - name: Dr. Glenn Lyle
   - name: VIP Plastic Surgery
-  btn:
-  - btn-link: "/case-studies"
-    btn-label: Read Case Studies
+  btn: []
   wistia-link: []
 - template: text-component
   component: text-component
@@ -118,6 +116,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
