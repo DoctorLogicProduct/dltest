@@ -56,7 +56,7 @@ page_sections:
   headline: 'Stunning Websites Built to Convert '
   text: |2-
 
-    Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice.
+    Receive a custom and educational website that not only looks great but is 100% responsive, functions seamlessly and is built with one goal in mind: grow your practice.
   class: ''
   btn: []
   wistia-link: []
@@ -67,12 +67,9 @@ page_sections:
   component_css: feature
   img_alignment: Left
   headline: 'Custom Content, Built Faster '
-  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
-    content pages for patients and search engines. Our team of medical content writers
-    provide custom content for every procedure and service offered at your practice.
-    Individual web pages are then automatically integrated with relevant content such
-    as reviews, before and after photos, video, and specials to promote each service
-    and gain keyword authority.
+  text: Engage your audience with custom content for your practice. Written by expert
+    medical content writers, our pages are structured to increase your keyword and
+    domain authority.
   img: "/uploads/gallery-list-1.jpg"
   class: ''
   btn: []
@@ -83,11 +80,9 @@ page_sections:
   component_css: feature
   img_alignment: Right
   headline: Manage Your Website Conversions In One Place
-  text: 'Our Lead Generator tool provides one place where you can keep track of all
-    your website conversions, whether they’re coming in via the phone, a web form,
-    an online chat, and more. Giving you this power will also allow you to be alerted
-    to new leads and have processes in place to convert a mere inquiry into a patient
-    appointment.
+  text: 'Convert more inquiries into patient appointments by managing all your website
+    leads in a single place, whether they’re coming in via the phone, a web form,
+    an online chat, and more.
 
 '
   img: "/uploads/Opportunities.jpg"
