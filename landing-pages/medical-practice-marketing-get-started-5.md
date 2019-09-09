@@ -109,22 +109,6 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: The DoctorLogic Difference
-  text: Our difference depends on the diverse, engaged, passionate, and experienced
-    people who create our ideas and serve our clients. As our partner, you will also
-    have access to the latest solutions, transparent reporting, unlimited content,
-    technology upgrades, dedicated support and a 100% HIPAA compliant platform. You
-    will be taken care of with feedback on how to grow your practice from like minded
-    people who are medical marketing experts.
-  class: ''
-  img: []
-  btn: []
-  link: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
   - headline: Ready to get started?
   btn:
   - btn-link: "/get-a-demo"
