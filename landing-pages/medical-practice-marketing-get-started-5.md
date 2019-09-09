@@ -90,6 +90,21 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  class: section-gray
+  headline: Happy Providers | Powered by DoctorLogic
+  text: ''
+  per-row-count: '3'
+  practices:
+  - name: Morales Plastic Surgery
+  - name: Dr. Glenn Lyle
+  - name: VIP Plastic Surgery
+  btn:
+  - btn-link: "/case-studies"
+    btn-label: Read Case Studies
+  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
@@ -105,21 +120,6 @@ page_sections:
   img: []
   btn: []
   link: []
-  wistia-link: []
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  class: section-gray
-  headline: Happy Providers | Powered by DoctorLogic
-  text: ''
-  per-row-count: '3'
-  practices:
-  - name: Morales Plastic Surgery
-  - name: Dr. Glenn Lyle
-  - name: VIP Plastic Surgery
-  btn:
-  - btn-link: "/case-studies"
-    btn-label: Read Case Studies
   wistia-link: []
 - template: text-component
   component: text-component
