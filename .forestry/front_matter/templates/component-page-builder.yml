@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/explainer-video.md
 - landing-pages/medical-practice-marketing-get-started-5.md
 - landing-pages/medical-practice-marketing-get-started-4.md
 - landing-pages/doctorlogic-webinar-reputation-management.md
@@ -97,4 +98,3 @@ pages:
 - hello-leadership.md
 - landing-pages/components-are-cool.md
 - landing-pages/dental-data-solutions-email.md
-- landing-pages/explainer-video.md
