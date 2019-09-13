@@ -18,6 +18,9 @@ page_sections:
   - headline: "DoctorLogic Before & After Galleries"
   headline: "The Better Way to Show Your Work"
   text: "Help patients visualize how your services can benefit them. Before and After photos on your website allow current and prospective patients to see your work and what you can do for them. We make it easy to add hundreds of valuable photos to your medical website."
+  wistia-link:
+  - wistia-link-id: nq4tna53i6
+    wistia-link-label: "Watch Video"
 - component: feature-1
   component_css: feature
   class: patient-stories__feature--1

@@ -27,6 +27,9 @@ page_sections:
       alt: "DoctorLogic Social Reputation"
   headline: "Reputation Management Made Simple"
   text: "Online reputation can make or break your medical practice – and your marketing efforts. Our Reputation Management tool helps you acquire more reviews from patients then organize and instantly display those reviews from around the web."
+  wistia-link:
+  - wistia-link-id: g1ui0z4apc
+    wistia-link-label: "Watch Video"
   img: "/img/products/social-reputation/hero-img.svg"
   alt: "DoctorLogic Social Reputation"
 - component: image-group

@@ -137,12 +137,30 @@ $spacing: 15px;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        padding: 0 10px 40px;
+        padding: 40px 20px;
+        background: #f7f6f6;
 
         @include tablet-wide-min {
-            padding: 0 5% 60px;
+            padding: 60px 5%;
         }
 
+    }
+
+    &__video-headline {
+        max-width: 1200px;
+
+        h3 {
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            font-size: .9rem;
+            color: $websites;
+            text-align: center;
+            width: 100%;
+            padding-top: 20px;
+        }
     }
 
     &__video-wrapper {
@@ -151,7 +169,7 @@ $spacing: 15px;
         padding: 40px 0 0;
 
         @include tablet-min {
-          padding: 0 0 60px;
+          padding: 60px 0 0;
         }
         
     }
@@ -388,7 +406,7 @@ $spacing: 15px;
     }
 
     &__callout {
-        padding: 0 10px 40px;
+        padding: 40px 10px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -396,11 +414,12 @@ $spacing: 15px;
         width: 100%;
 
         @include tablet-wide-min {
-            padding: 0 5% 60px;
+            padding: 60px 5%;
         }
 
         p {
             text-align: center;
+            max-width: 1200px;
         }
     }
 
