@@ -35,7 +35,7 @@ Have you ever heard of the phrase, you need to learn how to crawl before you wal
 
 ### 4. Your marketing budget is M.I.A.
 
-Many healthcare practices are apprehensive towards spending marketing dollars. With the industry being highly competitive, allocating a certain percentage to marketing is a must. Additionally, when you track KPIs and ROI, you can make data-driven decisions to increase marketing dollars where it makes sense. For more help on how to allocate a marketing budget, take a look at [this blog post](https://www.webascender.com/blog/how-to-allocate-your-digital-marketing-budget-in-2019/).
+Many healthcare practices are apprehensive towards spending marketing dollars. With the industry being highly competitive, allocating a certain percentage to marketing is a must. Additionally, when you track KPIs and ROI, you can make data-driven decisions to increase marketing dollars where it makes sense. For more help on how to allocate a marketing budget, take a look at [this blog post](https://www.disruptiveadvertising.com/marketing/marketing-budget/).
 
 ### 5. You’re living the “Definition of Insanity”
 
