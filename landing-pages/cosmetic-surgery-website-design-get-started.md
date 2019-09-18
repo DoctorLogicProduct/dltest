@@ -26,6 +26,20 @@ page_sections:
     btn-label: Get Free Website Analysis
   text-link: []
   wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: One Company. One Solution. Unlimited Results.
+  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
+    help increase new patients by using Before and After Photo Galleries, Online Patient
+    Reviews, and treatment pages to create up to 100x Google-friendly content. The
+    following six products are included with every DoctorLogic website:'
+  btn: []
+  img: "/uploads/Untitled design.png"
+  class: ''
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -96,20 +110,6 @@ page_sections:
   wistia-link: []
   img: "/uploads/Copy of Copy of Untitled.png"
   alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: One Company. One Solution. Unlimited Results.
-  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
-    help increase new patients by using Before and After Photo Galleries, Online Patient
-    Reviews, and treatment pages to create up to 100x Google-friendly content. The
-    following six products are included with every DoctorLogic website:'
-  btn: []
-  img: "/uploads/Untitled design.png"
-  class: ''
-  wistia-link: []
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -123,6 +123,24 @@ page_sections:
   class: section-gray
   img: []
   link: []
+  wistia-link: []
+- template: image-group
+  component: image-group
+  component_css: image-group
+  items:
+  - class: ''
+    img: true
+    src: "/uploads/Untitled design.png"
+    headline: DoctorLogic Products
+    text: ''
+  headline: One Company. One Solution. Unlimited Results.
+  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
+    help increase new patients by using Before and After Photo Galleries, Online Patient
+    Reviews, and treatment pages to create up to 100x Google-friendly content. The
+    following six products are included with every DoctorLogic website:'
+  class: ''
+  tagline: ''
+  btn: []
   wistia-link: []
 published: false
 
