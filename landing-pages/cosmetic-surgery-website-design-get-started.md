@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'One Company. One Solution. Unlimited Results. '
+  headline: Practice Growth Experts
   text: All our solutions come with a professional, mobile-responsive website that’s
     designed to help your practice stand out online and convert patients.
   button:
@@ -23,7 +23,7 @@ page_sections:
   alt: Ophthalmology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
-    btn-label: Get Free Website Analysis
+    btn-label: Get Pricing
   text-link: []
   wistia-link: []
 - template: feature
