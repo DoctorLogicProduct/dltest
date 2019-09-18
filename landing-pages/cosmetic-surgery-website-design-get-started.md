@@ -45,10 +45,9 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Amplify Your Practice with Proven SEO
-  text: Practices aspire to dominate their local market and be at the top of Google.
-    Search Amplifier™ champions your entire brand through best-in-class medical SEO
-    strategies. Designed for search engines, our mobile-responsive websites have an
-    optimized structure and are populated with your specific keywords.
+  text: Search Amplifier™ champions your entire brand through best-in-class medical
+    SEO strategies. Designed for search engines, our mobile-responsive websites have
+    an optimized structure and are populated with your specific keywords.
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
