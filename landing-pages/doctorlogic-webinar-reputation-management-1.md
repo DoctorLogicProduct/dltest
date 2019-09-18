@@ -14,7 +14,7 @@ page_sections:
   bg_img: "/uploads/dental-3up.png"
   tagline:
   - headline: 'DoctorLogic Booth #119 | AAID 2019'
-  headline: Meet with DoctorLogic
+  headline: Meet DoctorLogic at Booth 119
   text: 'Fill out this form to reserve a spot with one of our medical marketing experts
     at AAID. We''ll discuss ways DoctorLogic can help grow your practice and deep-dive
     into our platform''s features. '
