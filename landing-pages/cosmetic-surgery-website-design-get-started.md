@@ -23,7 +23,7 @@ page_sections:
   alt: Ophthalmology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
-    btn-label: 'Get A Demo '
+    btn-label: Get Free Website Analysis
   text-link: []
   wistia-link: []
 - template: text-component
