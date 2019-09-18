@@ -34,9 +34,8 @@ page_sections:
   - headline: Make The First Impression Count
   img: []
   text: 'Your website is a significant asset to your digital strategy and should not
-    be taken lightly. With DoctorLogic, you''ll receive a website that not only looks
-    great but functions seamlessly. Receive a custom and educational medical website
-    that is 100% responsive and built with one goal in mind: grow your practice.'
+    be taken lightly. Receive a custom and educational medical website that is 100%
+    responsive and built with one goal in mind: grow your practice.'
   btn: []
   link: []
   wistia-link: []
