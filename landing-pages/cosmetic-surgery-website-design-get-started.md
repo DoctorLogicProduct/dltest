@@ -47,9 +47,8 @@ page_sections:
   headline: Amplify Your Practice with Proven SEO
   text: Practices aspire to dominate their local market and be at the top of Google.
     Search Amplifier™ champions your entire brand through best-in-class medical SEO
-    strategies. From local and long-tail keyword targeting, local listing management,
-    and structured data, DoctorLogic uses over 15 years of experience to deliver visitors
-    that convert into patients.
+    strategies. Designed for search engines, our mobile-responsive websites have an
+    optimized structure and are populated with your specific keywords.
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
