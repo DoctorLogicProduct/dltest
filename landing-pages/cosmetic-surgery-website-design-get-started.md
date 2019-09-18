@@ -106,7 +106,7 @@ page_sections:
   btn:
   - btn-link: https://doctorlogic.com/pricing
     btn-label: Get Your Price
-  img: "/uploads/terms-hero.jpg"
+  img: "/uploads/Untitled design.png"
   class: ''
   wistia-link: []
   alt: ''
