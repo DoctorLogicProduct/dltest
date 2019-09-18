@@ -1,17 +1,17 @@
 ---
 layout: components
-title: DoctorLogic Webinar | Reputation Management
-permalink: webinar/online-reputation-management
+title: AAID 2019 | Oct 23-26th
+permalink: aaid-2019
 page_class:
 - class: lp
 custom_js: ''
 description: ''
-meta_image: "/uploads/review-request-feature.jpg"
+meta_image: "/uploads/Dental Image Variation.png"
 page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/review-request-feature.jpg"
+  bg_img: "/uploads/Dental Image Variation.png"
   tagline:
   - headline: Webinar | September 24th | 12:00 p.m. CST
   headline: 3 Ways to Manage and Maintain a Positive Reputation Online
