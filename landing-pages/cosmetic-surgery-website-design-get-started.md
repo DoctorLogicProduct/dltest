@@ -1,26 +1,26 @@
 ---
 layout: components
-title: 'Cosmetic Surgery Website Design - Get Started '
-permalink: website-design-cosmetic-surgery-get-started
+title: 'Ophthalmology Website Design - Get Started '
+permalink: "/vision"
 page_class:
 - class: lp
 gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/plastic-3up.png"
+meta_image: "/uploads/vision-3up-hires.jpg"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Stunning Cosmetic Surgery Website Designs
-  text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. '
+  headline: 'One Company. One Solution. Unlimited Results. '
+  text: Achieve your practice goals faster with our solutions designed for eye care
+    professionals.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/plastic-3up (1).png"
-  alt: Plastic surgery websites powered by DoctorLogic
+  img: "/uploads/vision-3up-hires.jpg"
+  alt: Ophthalmology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
     btn-label: 'Get A Demo '
