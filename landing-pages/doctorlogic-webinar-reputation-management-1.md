@@ -11,10 +11,10 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/Dental Image Variation.png"
+  bg_img: "/uploads/dental-3up.png"
   tagline:
-  - headline: 'DoctorLogic Booth #119'
-  headline: 'Speak With An Expert '
+  - headline: 'DoctorLogic Booth #119 | AAID 2019'
+  headline: Meet with DoctorLogic
   text: 'Fill out this form to reserve a spot with one of our medical marketing experts
     at AAID. We''ll discuss ways DoctorLogic can help grow your practice and deep-dive
     into our platform''s features. '
