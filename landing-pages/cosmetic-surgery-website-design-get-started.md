@@ -59,10 +59,10 @@ page_sections:
   img_alignment: Right
   class: ''
   headline: Convert Visitors to Patients With Relevant Content
-  text: Content Multiplier™ amplifies the most relevant and engaging content pages
-    for patients and search engines. Our team of medical content writers provide custom
-    content for every procedure and service offered at your practice, all while utilizing
-    proven SEO strategies to help you build better content, fast.
+  text: 'Content Multiplier™ amplifies the most relevant and engaging content pages
+    for patients and search engines. Our team of medical content writers provide a
+    robust collection of eye-care specific keywords and content, all while utilizing
+    proven SEO strategies to help you build better content, fast. '
   btn: []
   wistia-link: []
   img: "/uploads/gallery-list (2).jpg"
