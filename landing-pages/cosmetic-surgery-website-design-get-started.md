@@ -104,7 +104,8 @@ page_sections:
   btn:
   - btn-link: "/get-a-demo"
     btn-label: Get A Demo
-  text: We Make Beautiful Websites That Are Designed To Grow Your Practice
+  text: Achieve your business goals faster with our solutions designed for eye care
+    professionals.
   class: section-gray
   img: []
   link: []
