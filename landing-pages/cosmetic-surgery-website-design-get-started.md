@@ -69,7 +69,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   class: ''
   headline: Convert More Website Leads Into Patients
   text: Every website lead is a chance to see a new patient, book a new consultation,
