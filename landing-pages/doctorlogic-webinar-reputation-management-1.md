@@ -13,7 +13,7 @@ page_sections:
   component_css: hero-3
   bg_img: "/uploads/Dental Image Variation.png"
   tagline:
-  - headline: Webinar | September 24th | 12:00 p.m. CST
+  - headline: 'DoctorLogic Booth #119'
   headline: 3 Ways to Manage and Maintain a Positive Reputation Online
   text: Join our webinar on September 24th at 12:00 p.m. CST to learn about why your
     online reputation matters in today’s digital world. You’ll learn 3 proven strategies
