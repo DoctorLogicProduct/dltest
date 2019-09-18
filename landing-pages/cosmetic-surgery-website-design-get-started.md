@@ -14,8 +14,8 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: 'One Company. One Solution. Unlimited Results. '
-  text: Achieve your practice goals faster with our solutions designed for eye care
-    professionals.
+  text: All our solutions come with a professional, mobile-responsive website that’s
+    designed to help your practice stand out online and convert patients.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
