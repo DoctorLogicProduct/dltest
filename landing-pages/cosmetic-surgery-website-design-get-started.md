@@ -69,6 +69,19 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: Convert More Website Leads Into Patients
+  text: Every website lead is a chance to see a new patient, book a new consultation,
+    or connect with your existing patients. With Lead Generator, you can manage every
+    conversation that comes from your website.
+  img: "/uploads/Opportunities.jpg"
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
   img_alignment: Left
   headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
   text: VIP Plastic Surgery initially worked with several vendors, who were costly
