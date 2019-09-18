@@ -130,7 +130,7 @@ page_sections:
   items:
   - class: ''
     img: true
-    src: "/uploads/Untitled design.png"
+    src: "/uploads/Untitled design.jpg"
     headline: DoctorLogic Products
     text: ''
   headline: One Company. One Solution. Unlimited Results.
