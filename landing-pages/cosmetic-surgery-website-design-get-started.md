@@ -124,24 +124,6 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-- template: image-group
-  component: image-group
-  component_css: image-group
-  items:
-  - class: ''
-    img: true
-    src: "/uploads/Untitled design.jpg"
-    headline: DoctorLogic Products
-    text: ''
-  headline: One Company. One Solution. Unlimited Results.
-  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
-    help increase new patients by using Before and After Photo Galleries, Online Patient
-    Reviews, and treatment pages to create up to 100x Google-friendly content. The
-    following six products are included with every DoctorLogic website:'
-  class: ''
-  tagline: ''
-  btn: []
-  wistia-link: []
 published: false
 
 ---
