@@ -96,6 +96,20 @@ page_sections:
   wistia-link: []
   img: "/uploads/Copy of Copy of Untitled.png"
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Simple. Straight Forward Pricing.
+  text: We believe in simple pricing. We have website pricing that starts at just
+    $495 a month. Let’s talk today to determine a solution that works for your practice.
+  btn:
+  - btn-link: https://doctorlogic.com/pricing
+    btn-label: Get Your Price
+  img: "/uploads/terms-hero.jpg"
+  class: ''
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
