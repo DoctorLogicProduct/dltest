@@ -100,12 +100,12 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Simple. Straight Forward Pricing.
-  text: We believe in simple pricing. We have website pricing that starts at just
-    $495 a month. Let’s talk today to determine a solution that works for your practice.
-  btn:
-  - btn-link: https://doctorlogic.com/pricing
-    btn-label: Get Your Price
+  headline: One Company. One Solution. Unlimited Results.
+  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
+    help increase new patients by using Before and After Photo Galleries, Online Patient
+    Reviews, and treatment pages to create up to 100x Google-friendly content. The
+    following six products are included with every DoctorLogic website:'
+  btn: []
   img: "/uploads/Untitled design.png"
   class: ''
   wistia-link: []
