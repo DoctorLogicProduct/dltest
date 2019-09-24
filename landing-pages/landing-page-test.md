@@ -9,15 +9,16 @@ custom_js: ''
 description: This is a landing page.
 meta_image: "/uploads/MicrositeThumb.png"
 page_sections:
-- template: hero-no-image
-  component: hero-2
-  component_css: hero-2
-  headline: Prepare for Landing
-  text: Please fasten your seatbelts. Return your seats to their full upright and
-    locked position.
-  btn:
-  - btn-link: "#"
-    btn-label: Learn More
+- template: hero-with-form
+  component: hero-3
+  component_css: hero-3
+  bg_img: ''
+  tagline: []
+  headline: ''
+  text: ''
+  btn: []
+  form_template: ''
+  form_handler: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -27,6 +28,8 @@ page_sections:
   text: Thank you for landing on my site.
   img: "/uploads/PracticeSEOThumb.jpg"
   btn: []
+  wistia-link: []
+  alt: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -36,6 +39,8 @@ page_sections:
   text: This page is about all of the services you can look for.
   img: "/uploads/CodeThumb.jpg"
   btn: []
+  wistia-link: []
+  alt: ''
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -82,5 +87,8 @@ page_sections:
   - btn-link: "#"
     btn-label: Visit World
   link: []
+  img: []
+  wistia-link: []
+gsap: false
 
 ---

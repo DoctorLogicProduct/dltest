@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/landing-page-test.md
 - landing-pages/doctorlogic-webinar-reputation-management-1.md
 - landing-pages/cosmetic-surgery-website-design-get-started.md
 - landing-pages/medical-practice-marketing-get-started-5.md
@@ -96,7 +97,6 @@ pages:
 - landing-pages/dental-website-design-get-started.md
 - landing-pages/plastic-surgery-website-design-get-started-2.md
 - landing-pages/dermatology-website-design.md
-- landing-pages/landing-page-test.md
 - hello-leadership.md
 - landing-pages/components-are-cool.md
 - landing-pages/dental-data-solutions-email.md
