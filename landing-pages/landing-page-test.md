@@ -9,16 +9,6 @@ custom_js: ''
 description: This is a landing page.
 meta_image: "/uploads/MicrositeThumb.png"
 page_sections:
-- template: hero-with-form
-  component: hero-3
-  component_css: hero-3
-  bg_img: ''
-  tagline: []
-  headline: ''
-  text: ''
-  btn: []
-  form_template: ''
-  form_handler: ''
 - template: feature
   component: feature-1
   component_css: feature
