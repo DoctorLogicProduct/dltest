@@ -1,0 +1,111 @@
+---
+layout: default
+title: Test Form
+description: Expertly designed medical websites that fit your brand and optimized for search performance and converting visitors into patients. View our work.
+meta_image: "/img/meta/website-management.jpg"
+page_name: test-form
+permalink: /test-form
+nofollow: true
+page_class:
+  - class: test-form
+magnific: true
+gsap: true
+custom_js: designs
+back_page: website-management
+callout:
+  - class: designs__callout
+    headline: We Make Beautiful Websites That Are Designed To Grow Your Practice
+    text: Receive more traffic to your website and appear higher in search engine results with a custom branded website built to perform. Find out the health of your website.
+    btn-link: /website-analysis.html
+    btn-label: Get Free Analysis
+video:
+  - headline: "The one thing that's most important to any practice, is their website."
+    quote-author: "-Dr. Chris Khorsandi, VIP Plastic Surgery"
+    wistia-id: 1graa15c8r
+---
+
+<section class="hero hero-form">
+    <div class="hero-form__text">
+      <h1>Test Form</h1>
+      <p>I have an iframed form!</p>
+    </div>
+    <div class="hero-form__form">
+      <iframe src="https://marketing.doctorlogic.com/l/772793/2019-06-24/44g" width="100%" height="500" type="text/html"
+        frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+    </div>
+</section>
+
+<section class="designs__wrapper">
+  <input type="radio" id="aesthetic" name="color" checked="checked" />
+  <label for="aesthetic"><span>
+      <p>Aesthetic</p>
+    </span></label>
+  <input type="radio" id="dentistry" name="color" />
+  <label for="dentistry"><span>
+      <p>Dental</p>
+    </span></label>
+  <input type="radio" id="other" name="color" />
+  <label for="other"><span>
+      <p>Other</p>
+    </span></label>
+
+  <div class="designs__items">
+
+    {% for item in site.data.designs.gallery %}
+    <a class="designs__item" data-type="{{item.type}}" href="{{item.img}}"
+      data-title="<ul><li><span>{{item.name}}</span></li><li><span>URL:</span> <a href={{item.link}} target=blank>{{item.link-label}}</a></li></ul>">
+      <div class="card {{item.type}}">
+        <div class="card__image" style="background: url('{{item.img}}');"></div>
+        <p class="card__title">
+          {{item.name}}
+        </p>
+      </div>
+    </a>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+{% for video in page.video %}
+<section class="designs__video">
+  <div class="designs__video-headline">
+    <h3>"{{ video.headline }}"</h3>
+    <span>{{video.quote-author}}</span>
+  </div>
+  <div class="designs__video-wrapper">
+    <script src="https://fast.wistia.com/embed/medias/{{ video.wistia-id }}.jsonp" async></script>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+        <div class="wistia_embed wistia_async_{{ video.wistia-id }} videoFoam=true" style="height:100%;position:relative;width:100%">
+          <div class="wistia_swatch"
+            style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+            <img src="https://fast.wistia.com/embed/medias/{{ video.wistia-id }}/swatch"
+              style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true"
+              onload="this.parentNode.style.opacity=1;" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for callout in page.callout %}
+<section class="component callout {{ callout.class }}">
+    <h3>{{ callout.headline }}</h3>
+    <p>{{ callout.text }}</p>
+    <a href="{{ callout.btn-link }}" class="btn">{{ callout.btn-label }}</a>
+</section>
+{% endfor %}
+
+{% if page.back_page %}
+  <section class="back-to-product">
+    <h3>Back To: <a href="/{{ page.back_page }}">{{ page.back_page | replace: '-', ' '}}</a></h3>
+  </section>
+{% endif %}
+
+
+
+
+
