@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Practice Growth Experts
+  headline: Digital Marketing Built for Eye Care Professionals
   text: All our solutions come with a professional, mobile-responsive website that’s
     designed to help your practice stand out online and convert patients.
   button:
