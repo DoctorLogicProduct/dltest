@@ -26,6 +26,13 @@ page_sections:
     btn-label: Get Pricing
   text-link: []
   wistia-link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  headline: Make Your Expertise Stand Out with DoctorLogic
+  text: ''
+  wistia-id: https://doctorlogic.wistia.com/medias/b2mevykj7j
+  class: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -33,7 +40,7 @@ page_sections:
   headline:
   - headline: Make The First Impression Count
   img:
-  - img_src: "/uploads/tru-derm.png"
+  - img_src: ''
     img_alt: ''
   text: 'Your website is a significant asset to your digital strategy and should not
     be taken lightly. Receive a custom and educational medical website that is 100%
