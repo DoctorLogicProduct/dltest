@@ -77,7 +77,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Why DoctorLogic Was the Clear Choice for VIP Plastic Surgery
+  headline: Why DoctorLogic Was the Clear Choice for Vold Vision
   text: VIP Plastic Surgery initially worked with several vendors, who were costly
     and unable to fulfill their promises. Since partnering with DoctorLogic, VIP Plastic
     Surgery saw a growth in Page 1 keywords by 1,642%, resulting in an increase in
@@ -90,35 +90,6 @@ page_sections:
   wistia-link: []
   img: "/uploads/Copy of Copy of Untitled.png"
   alt: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Ready to get started?
-  btn:
-  - btn-link: "/get-a-demo"
-    btn-label: Get A Demo
-  text: Achieve your business goals faster with our solutions designed for eye care
-    professionals.
-  class: section-gray
-  img: []
-  link: []
-  wistia-link: []
-- template: item-grid-component
-  component: item-grid
-  component_css: item-grid
-  per-row-count: '3'
-  headline: ''
-  items:
-  - img:
-    - src: "/uploads/Copy of Copy of Untitled.png"
-      alt: ''
-    headline: ''
-    text: ''
-    link: []
-  class: ''
-  text: ''
-  btn: []
 published: false
 
 ---
