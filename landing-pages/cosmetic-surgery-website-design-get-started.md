@@ -33,21 +33,6 @@ page_sections:
   text: ''
   wistia-id: b2mevykj7j
   class: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  class: ''
-  headline:
-  - headline: Make The First Impression Count
-  img:
-  - img_src: ''
-    img_alt: ''
-  text: 'Your website is a significant asset to your digital strategy and should not
-    be taken lightly. Receive a custom and educational medical website that is 100%
-    responsive and built with one goal in mind: grow your practice.'
-  btn: []
-  link: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -119,6 +104,21 @@ page_sections:
   img: []
   link: []
   wistia-link: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  headline: ''
+  items:
+  - img:
+    - src: "/uploads/Copy of Copy of Untitled.png"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  class: ''
+  text: ''
+  btn: []
 published: false
 
 ---
