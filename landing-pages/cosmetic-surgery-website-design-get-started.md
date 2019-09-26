@@ -26,27 +26,15 @@ page_sections:
     btn-label: Get Pricing
   text-link: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: One Company. One Solution. Unlimited Results.
-  text: 'DoctorLogic offers the most advanced Website Marketing Platform built to
-    help increase new patients by using Before and After Photo Galleries, Online Patient
-    Reviews, and treatment pages to create up to 100x Google-friendly content. The
-    following six products are included with every DoctorLogic website:'
-  btn: []
-  img: "/uploads/Untitled design.png"
-  class: ''
-  wistia-link: []
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
   class: ''
   headline:
   - headline: Make The First Impression Count
-  img: []
+  img:
+  - img_src: "/uploads/tru-derm.png"
+    img_alt: ''
   text: 'Your website is a significant asset to your digital strategy and should not
     be taken lightly. Receive a custom and educational medical website that is 100%
     responsive and built with one goal in mind: grow your practice.'
