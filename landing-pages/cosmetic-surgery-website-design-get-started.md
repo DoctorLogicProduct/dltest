@@ -31,7 +31,7 @@ page_sections:
   component_css: wistia-embed
   headline: Make Your Expertise Stand Out with DoctorLogic
   text: ''
-  wistia-id: https://doctorlogic.wistia.com/medias/b2mevykj7j
+  wistia-id: b2mevykj7j
   class: ''
 - template: text-component
   component: text-component
