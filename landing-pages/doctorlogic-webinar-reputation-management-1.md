@@ -42,6 +42,31 @@ page_sections:
   class: ''
   headline: ''
   text: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Stunning Websites Built to Convert
+  text: 'Receive a custom and educational website that not only looks great but functions
+    seamlessly and is built with one goal in mind: grow your practice. '
+  img: "/uploads/dental-3up.png"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  headline: Custom Content, Built Faster
+  text: 'Engage your audience with custom content for your practice. Written by expert
+    medical content writers, our pages are structured to increase your keyword and
+    domain authority. '
+  img: "/uploads/content-multiplier-page.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 gsap: false
 published: false
 
