@@ -21,20 +21,20 @@ page_sections:
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-20/cmlb
   form_template: forms/lp-form.html
   btn: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: About DoctorLogic
+- template: text-component
+  component: text-component
+  component_css: text-component
   text: DoctorLogic is an all-in-one website marketing platform created exclusively
     for healthcare providers. The DoctorLogic software was invented to power custom-designed
     websites for patient acquisition, retention marketing, and practice insights that
     help providers connect with more people.
+  headline:
+  - headline: About DoctorLogic
   class: ''
+  img: []
   btn: []
+  link: []
   wistia-link: []
-  img: ''
-  alt: ''
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
