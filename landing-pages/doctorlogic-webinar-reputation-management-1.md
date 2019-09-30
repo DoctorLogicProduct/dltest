@@ -42,44 +42,18 @@ page_sections:
   class: ''
   headline: ''
   text: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Stunning Websites Built to Convert
-  text: 'Receive a custom and educational website that not only looks great but functions
-    seamlessly and is built with one goal in mind: grow your practice. '
-  img: "/uploads/dental-3up.png"
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: We're More Than Just a Website Company
+  text: 'Stop by Booth #119 to learn how DoctorLogic is different from just any website
+    company and discover how we can grow your practice, fast. '
   class: ''
+  img: []
   btn: []
+  link: []
   wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  headline: Custom Content, Built Faster
-  text: 'Engage your audience with custom content for your practice. Written by expert
-    medical content writers, our pages are structured to increase your keyword and
-    domain authority. '
-  img: "/uploads/smile-gallery-detail.jpg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Manage Your Website Conversions In One Place
-  text: 'Convert more inquires into patient appointments by managing all your website
-    leads in a single place, whether they''re coming in via phone, web form, online
-    chat, or more. '
-  img: "/uploads/Opportunities.jpg"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
 gsap: false
 published: false
 
