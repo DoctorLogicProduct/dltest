@@ -67,6 +67,19 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Manage Your Website Conversions In One Place
+  text: 'Convert more inquires into patient appointments by managing all your website
+    leads in a single place, whether they''re coming in via phone, web form, online
+    chat, or more. '
+  img: "/uploads/Opportunities.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 gsap: false
 published: false
 
