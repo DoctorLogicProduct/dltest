@@ -74,9 +74,9 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/doctorlogic-webinar-reputation-management-1.md
 - landing-pages/cosmetic-surgery-website-design-get-started.md
 - landing-pages/landing-page-test.md
-- landing-pages/doctorlogic-webinar-reputation-management-1.md
 - landing-pages/medical-practice-marketing-get-started-5.md
 - landing-pages/medical-practice-marketing-get-started-4.md
 - landing-pages/explainer-video.md
