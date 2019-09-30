@@ -15,9 +15,9 @@ page_sections:
   tagline:
   - headline: 'DoctorLogic Booth #119 | AAID 2019'
   headline: Meet DoctorLogic at AAID
-  text: 'Fill out this form to reserve a spot with one of our medical marketing experts
-    at AAID. We''ll discuss ways DoctorLogic can help grow your practice and deep-dive
-    into our platform''s features. '
+  text: 'Reserve a spot with one of our medical marketing experts to discuss how DoctorLogic
+    can grow your practice with our Website Marketing Platform built for providers...like
+    you. '
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-20/cmlb
   form_template: forms/lp-form.html
   btn: []
