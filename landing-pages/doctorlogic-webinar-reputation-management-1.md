@@ -42,6 +42,22 @@ page_sections:
   class: ''
   headline: ''
   text: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: About DoctorLogic
+  text: The DoctorLogic Website Marketing Platform was built specifically for dentists
+    to help in gaining more new patients. From website and content creation to reputation
+    management, before and after galleries, SEO best practices, and lead management,
+    we've got you covered.
+  wistia-link:
+  - link-id: "/w7jgkunbv9"
+    link-label: Watch Video
+  class: ''
+  btn: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
