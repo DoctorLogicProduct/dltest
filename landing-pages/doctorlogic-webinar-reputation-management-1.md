@@ -24,10 +24,10 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  text: DoctorLogic is an all-in-one website marketing platform created exclusively
-    for healthcare providers. The DoctorLogic software was invented to power custom-designed
-    websites for patient acquisition, retention marketing, and practice insights that
-    help providers connect with more people.
+  text: 'The DoctorLogic Website Marketing Platform was built specifically for dentists
+    to help in gaining more new patients. From website and content creation to reputation
+    management, before and after galleries, SEO best practices, and lead management,
+    we''ve got you covered. '
   headline:
   - headline: About DoctorLogic
   class: ''
