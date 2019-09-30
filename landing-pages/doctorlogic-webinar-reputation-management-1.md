@@ -42,6 +42,18 @@ page_sections:
   class: ''
   headline: ''
   text: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: We're More Than Just a Website Company
+  text: 'Stop by Booth #119 to learn how DoctorLogic is different from just any website
+    company and discover how we can grow your practice, fast. '
+  class: ''
+  img: []
+  btn: []
+  link: []
+  wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
@@ -54,18 +66,6 @@ page_sections:
   class: ''
   text: ''
   btn: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: We're More Than Just a Website Company
-  text: 'Stop by Booth #119 to learn how DoctorLogic is different from just any website
-    company and discover how we can grow your practice, fast. '
-  class: ''
-  img: []
-  btn: []
-  link: []
   wistia-link: []
 gsap: false
 published: false
