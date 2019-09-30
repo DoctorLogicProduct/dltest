@@ -42,6 +42,19 @@ page_sections:
   class: ''
   headline: ''
   text: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  headline: 'Happy Providers | Powered by DoctorLogic '
+  per-row-count: '3'
+  practices:
+  - name: Parker West Dental Associates
+  - name: Texas Center For Cosmetic Dentistry
+  - name: Emigh Dental Care
+  class: ''
+  text: ''
+  btn: []
+  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
