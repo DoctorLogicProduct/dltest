@@ -62,7 +62,7 @@ page_sections:
   text: 'Engage your audience with custom content for your practice. Written by expert
     medical content writers, our pages are structured to increase your keyword and
     domain authority. '
-  img: "/uploads/content-multiplier-page.jpg"
+  img: "/uploads/smile-gallery-detail.jpg"
   class: ''
   btn: []
   wistia-link: []
