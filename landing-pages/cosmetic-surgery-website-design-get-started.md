@@ -44,7 +44,7 @@ page_sections:
     text: ''
     link: []
   - img:
-    - src: "/uploads/2f3f800d-a9a0-6e0a-be1e-ff0000415d3a.png"
+    - src: "/uploads/download (2).png"
       alt: ''
     headline: ''
     text: ''
@@ -92,18 +92,6 @@ page_sections:
   img: "/uploads/Opportunities.jpg"
   btn: []
   wistia-link: []
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  headline: Why DoctorLogic Was the Clear Choice for Vold Vision
-  text: Since partnering with DoctorLogic, Vold Vision saw growth in Page 1 keywords
-    by 364%, and an increase of 62% lead-to-patient conversion rate.
-  btn: []
-  class: ''
-  wistia-link: []
-  img: "/uploads/vv-featured-image.jpg"
   alt: ''
 - template: feature
   component: feature-1
