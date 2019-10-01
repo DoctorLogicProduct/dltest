@@ -49,7 +49,7 @@ page_sections:
     headline: ''
     text: ''
     link: []
-  headline: Ophthalmology Clients That Trust Us
+  headline: Ophthalmologists That Trust Us
   class: ''
   text: ''
   btn: []
