@@ -43,6 +43,12 @@ page_sections:
     headline: ''
     text: ''
     link: []
+  - img:
+    - src: "/uploads/2f3f800d-a9a0-6e0a-be1e-ff0000415d3a.png"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
   headline: Ophthalmology Clients That Trust Us
   class: ''
   text: ''
