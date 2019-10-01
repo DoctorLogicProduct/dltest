@@ -114,12 +114,11 @@ page_sections:
   text: Achieve your business goals faster with our solutions designed for eye care
     professionals to stand out online and convert leads to patients.
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=1%2F4%20page%20ad&utm_medium=magazine&utm_campaign=ophthalmology_times
     btn-label: Request a Demo
   class: ''
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
