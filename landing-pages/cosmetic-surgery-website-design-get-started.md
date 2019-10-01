@@ -78,17 +78,12 @@ page_sections:
   component_css: feature
   img_alignment: Left
   headline: Why DoctorLogic Was the Clear Choice for Vold Vision
-  text: VIP Plastic Surgery initially worked with several vendors, who were costly
-    and unable to fulfill their promises. Since partnering with DoctorLogic, VIP Plastic
-    Surgery saw a growth in Page 1 keywords by 1,642%, resulting in an increase in
-    website visits by 102%, a 55% increase in website leads, and a 10% lead-to-patient
-    conversion rate.
-  btn:
-  - btn-link: "/case-studies/vip-plastic-surgery"
-    btn-label: Read Case Study
+  text: Since partnering with DoctorLogic, Vold Vision saw growth in Page 1 keywords
+    by 364%, and an increase of 62% lead-to-patient conversion rate.
+  btn: []
   class: ''
   wistia-link: []
-  img: "/uploads/Copy of Copy of Untitled.png"
+  img: "/uploads/vv-featured-image.jpg"
   alt: ''
 published: false
 
