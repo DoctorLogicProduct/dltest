@@ -22,7 +22,7 @@ page_sections:
   img: "/uploads/vision-3up-hires.jpg"
   alt: Ophthalmology websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=1%2F4%20page%20ad&utm_medium=magazine&utm_campaign=ophthalmology_times
     btn-label: Request a Demo
   text-link: []
   wistia-link: []
