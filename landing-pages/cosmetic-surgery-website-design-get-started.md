@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Ophthalmology Website Design - Get Started '
+title: 'Ophthalmology Digital Marketing - Get Started '
 permalink: "/vision"
 page_class:
 - class: lp
@@ -23,7 +23,7 @@ page_sections:
   alt: Ophthalmology websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo"
-    btn-label: Get Pricing
+    btn-label: Request a Demo
   text-link: []
   wistia-link: []
 - template: item-grid-component
