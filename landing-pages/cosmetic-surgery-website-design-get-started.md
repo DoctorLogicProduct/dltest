@@ -26,6 +26,21 @@ page_sections:
     btn-label: Get Pricing
   text-link: []
   wistia-link: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  items:
+  - img:
+    - src: "/uploads/vold-vision-logo.png"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  headline: Ophthalmology Clients That Trust Us
+  class: ''
+  text: ''
+  btn: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -78,17 +93,6 @@ page_sections:
   wistia-link: []
   img: "/uploads/vv-featured-image.jpg"
   alt: ''
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  per-row-count: '3'
-  practices:
-  - name: Vold Vision
-  text: ''
-  headline: Ophthalmology Clients That Trust Us
-  class: ''
-  btn: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
