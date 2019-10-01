@@ -26,13 +26,6 @@ page_sections:
     btn-label: Get Pricing
   text-link: []
   wistia-link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  headline: Make Your Expertise Stand Out with DoctorLogic
-  text: ''
-  wistia-id: b2mevykj7j
-  class: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -84,6 +77,30 @@ page_sections:
   class: ''
   wistia-link: []
   img: "/uploads/vv-featured-image.jpg"
+  alt: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  per-row-count: '3'
+  practices:
+  - name: Vold Vision
+  text: ''
+  headline: Ophthalmology Clients That Trust Us
+  class: ''
+  btn: []
+  wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Simple, Effective Reputation Management
+  text: Online reputation can make or break your practice – and your marketing efforts.
+    Our Reputation Management tool helps you acquire more reviews from patients then
+    organize and instantly display those reviews from around the web.
+  img: "/uploads/review-request-feature.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
   alt: ''
 published: false
 
