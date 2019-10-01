@@ -26,33 +26,6 @@ page_sections:
     btn-label: Request a Demo
   text-link: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  class: ''
-  headline: Amplify Your Practice with Proven SEO
-  text: Search Amplifier™ champions your entire brand through best-in-class medical
-    SEO strategies. Designed for search engines, our mobile-responsive websites have
-    an optimized structure and are populated with your specific keywords.
-  btn: []
-  wistia-link: []
-  img: "/uploads/seo-performance (3).jpg"
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  class: ''
-  headline: Convert Visitors to Patients With Relevant Content
-  text: 'Content Multiplier™ amplifies the most relevant and engaging content pages
-    for patients and search engines. Our team of medical content writers provide a
-    robust collection of eye-care specific keywords and content, all while utilizing
-    proven SEO strategies to help you build better content, fast. '
-  btn: []
-  wistia-link: []
-  img: "/uploads/gallery-list (2).jpg"
-  alt: ''
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
@@ -80,6 +53,33 @@ page_sections:
   class: ''
   text: ''
   btn: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Left
+  class: ''
+  headline: Amplify Your Practice with Proven SEO
+  text: Search Amplifier™ champions your entire brand through best-in-class medical
+    SEO strategies. Designed for search engines, our mobile-responsive websites have
+    an optimized structure and are populated with your specific keywords.
+  btn: []
+  wistia-link: []
+  img: "/uploads/seo-performance (3).jpg"
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: ''
+  headline: Convert Visitors to Patients With Relevant Content
+  text: 'Content Multiplier™ amplifies the most relevant and engaging content pages
+    for patients and search engines. Our team of medical content writers provide a
+    robust collection of eye-care specific keywords and content, all while utilizing
+    proven SEO strategies to help you build better content, fast. '
+  btn: []
+  wistia-link: []
+  img: "/uploads/gallery-list (2).jpg"
+  alt: ''
 - template: feature
   component: feature-1
   component_css: feature
