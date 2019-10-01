@@ -32,6 +32,12 @@ page_sections:
   per-row-count: '3'
   items:
   - img:
+    - src: "/uploads/download (1).png"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  - img:
     - src: "/uploads/vold-vision-logo.png"
       alt: ''
     headline: ''
