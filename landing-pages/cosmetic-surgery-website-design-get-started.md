@@ -32,6 +32,12 @@ page_sections:
   per-row-count: '3'
   items:
   - img:
+    - src: "/uploads/2f3f800d-a9a0-6e0a-be1e-ff0000415d3a.png"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  - img:
     - src: "/uploads/download (1).png"
       alt: ''
     headline: ''
