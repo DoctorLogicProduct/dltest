@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Ophthalmology Digital Marketing - Get Started '
+title: 'Eye Care Professional Marketing - Get Started '
 permalink: "/vision"
 page_class:
 - class: lp
