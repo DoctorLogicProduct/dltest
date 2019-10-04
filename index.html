@@ -12,9 +12,12 @@ custom_js: index
 hero:
 - class: home__hero
   tagline: The modern way to grow your practice
-  headline: We did it again!
-  text: "Named to the Inc. 5000 list of the fastest-growing companies in America for the second straight year. DoctorLogic placed #1285 out of 5000 companies."
+  headline: Practice Growth Experts
+  text: "The all-in-one website marketing platform that attracts and retains more patients. Loved by over 1,000 doctors."
   img: "/img/products/website-management/hero-img.svg"
+  btn:
+  - btn-link: /get-a-demo
+    btn-label: Get A Demo
   text-link:
   - wistia-link-id: w7jgkunbv9
     wistia-link-label: Watch Video
@@ -169,29 +172,26 @@ talent:
 ---
 
 {% for hero in page.hero %}
-<section id="hero" class="hero hero-1 {{hero.class}}">
+<section class="hero hero-1 {{hero.class}}">
     <div class="hero-1__text">
         <h5>{{hero.tagline}}</h5>
         <h1>{{hero.headline}}</h1>
         <p>{{hero.text}}</p>
         <div class="hero-1__btn-container">
             {% for btn in hero.btn %}
-                {% if hero.btn %}
-                <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
-                {% endif %}
+            {% if hero.btn %}
+            <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+            {% endif %}
             {% endfor %}
             {% for text-link in hero.text-link %}
             <script src="https://fast.wistia.com/embed/medias/{{text-link.wistia-link-id}}.jsonp" async></script>
             <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
-            class="wistia_embed wistia_async_{{text-link.wistia-link-id}} popover=true popoverContent=link"
-            style="display:inline;position:relative"><a class="play-link" href="#">{{text-link.wistia-link-label}}</a></span>
+                class="wistia_embed wistia_async_{{text-link.wistia-link-id}} popover=true popoverContent=link"
+                style="display:inline;position:relative"><a class="play-link"
+                    href="#">{{text-link.wistia-link-label}}</a></span>
             {% endfor %}
         </div>
     </div>
-    <div class="hero-1__image">
-        <img class="hero-1__image-item" src="/img/home/inc-logo.svg" alt="">
-    </div>
-    <canvas id="hero-confetti"></canvas>
 </section>
 {% endfor %}
 
