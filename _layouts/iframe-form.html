@@ -3,7 +3,7 @@ layout: default
 ---
 
 	<div class="form-page__page-wrapper">
-			<section class="form-page__form-wrapper">
+			<section class="form-page__form-wrapper form-page__form-wrapper--iframe">
 				<div class="form-page__headline">
 					<h2>{{ page.headline }}</h2>
 				</div>
@@ -13,7 +13,7 @@ layout: default
 				</div>
 				{% endif %}
 				<div class="form-page__form">
-					<iframe src="{{ page.form_src }}" width="100%" height="500" type="text/html"
+					<iframe src="{{ page.form_src }}" width="100%" height="{{ page.form_height }}" type="text/html"
 						frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 				</div>
 			</section>

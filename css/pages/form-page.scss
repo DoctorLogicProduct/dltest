@@ -35,6 +35,15 @@
             padding: 40px;
             min-width: 500px;
         }
+
+        &--iframe {
+            padding: 0;
+
+            @include desktop-sm-min {
+              padding: 40px;
+            }
+            
+        }
         
     }
 
