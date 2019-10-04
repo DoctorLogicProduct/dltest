@@ -7,9 +7,11 @@ layout: default
 				<div class="form-page__headline">
 					<h2>{{ page.headline }}</h2>
 				</div>
+				{% if page.text %}
 				<div class="form-page__text">
 					<p>{{ page.text }}</p>
 				</div>
+				{% endif %}
 				<div class="form-page__form">
 					<iframe src="{{ page.form_src }}" width="100%" height="500" type="text/html"
 						frameborder="0" allowTransparency="true" style="border: 0"></iframe>
