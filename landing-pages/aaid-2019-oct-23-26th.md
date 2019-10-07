@@ -1,7 +1,7 @@
 ---
 layout: components
-title: AAID 2019 | Oct 23-26th
-permalink: aaid-2019
+title: ObesityWeek 2019 | Nov. 3-7th
+permalink: obesity-week-2019
 page_class:
 - class: lp
 custom_js: ''
