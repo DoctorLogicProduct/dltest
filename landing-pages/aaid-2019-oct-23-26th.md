@@ -48,9 +48,9 @@ page_sections:
   headline: 'Happy Providers | Powered by DoctorLogic '
   per-row-count: '3'
   practices:
-  - name: Parker West Dental Associates
-  - name: Texas Center For Cosmetic Dentistry
-  - name: Emigh Dental Care
+  - name: VIP Plastic Surgery
+  - name: Morales Plastic Surgery
+  - name: Dr. Glenn Lyle
   class: ''
   text: ''
   btn: []
