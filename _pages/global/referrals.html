@@ -1,0 +1,95 @@
+---
+layout: default
+page_name: referral-program
+permalink: /referral-program
+title: DoctorLogic Referral Program
+description: "The DoctorLogic referral program is a way to say “Thank you” and give our customers a little something extra for being such a wonderful
+supporter."
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+gsap: false
+page_class:
+- class: referrals
+hero:
+- tagline: Do You Love DoctorLogic?
+  headline: Customer Referral Program
+  text: "There’s nothing better than serving our clients well and providing them with beautiful, functional websites. One of the biggest compliments our clients gives us is when they send their friends and family our way. Our referral program is a way to say “Thank you” and give you a little something extra for being such a wonderful supporter."
+intro:
+- headline: Here’s How It Works
+  text: "It’s quite simple! For every one of your referrals that signs up for a full website, you will receive $100 off your
+  monthly bill. Customers with plugin options will receive one month free for referrals."
+feature-1:
+- class: referrals__feature-1
+  headline: The Rules
+  text: "<p>Multiple monthly discounts can be applied, but bill amount may not reach below $1,000/mo. Referrals received after max
+  bill amount is achieved will be compensated with a $500 American Express gift card.</p><p>Once your referral’s website goes live, your discount will be applied to your monthly bill for the life of the contract.<sup>*</sup></p>"
+  img: "/img/company/referrals.jpg"
+  alt: "Get Cash Off Your Monthly Bill"
+cta:
+- class: referrals__cta
+  headline: Get Started Today
+  text: "Do you know someone who would be a great fit for the DoctorLogic platform?  Let us know today and start getting discounts applied to your monthly bill."
+  btn_link: "mailto:ariley@doctorlogic.com"
+  btn_label: "Get Started"
+disclaimer:
+- class: referrals__disclaimer
+  text: "<sup>*</sup>Example: $1200 bill. 3 referrals received. Bill will be reduced to $1000 and customer will receive a $500 gift card."
+---
+
+{% for hero in page.hero %}
+<section class="hero hero-1 {{ hero.class }}">
+  <div class="hero-1__text">
+    <h5>{{ hero.tagline }}</h5>
+    <h1>{{ hero.headline }}</h1>
+    <p>{{ hero.text }}</p>
+  </div>
+</section>
+{% endfor %}
+
+{% for item in page.intro %}
+<section class="text-component {{ item.class }}">
+  <div class="text-component__container">
+    <h3>{{ item.headline }}</h3>
+    <p>{{ item.text }}</p>
+  </div>
+</section>
+{% endfor %}
+
+
+{% for item in page.feature-1 %}
+<section class="component feature feature-1 {{ item.class }}">
+  <div class="feature__container">
+    <div class="feature__text">
+      <h3>{{ item.headline }}</h3>
+      <div>{{ item.text }}</div>
+    </div>
+    <div class="feature__image">
+      <div class="feature__image-wrapper">
+        <img src="{{ item.img | relative_url }}" alt="{{ item.alt }}">
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for item in page.cta %}
+<section class="text-component {{ item.class }}">
+  <div class="text-component__container">
+    <h3>{{ item.headline }}</h3>
+    <p>{{ item.text }}</p>
+    <a href="{{ item.btn_link }}" class="btn">{{ item.btn_label }}</a>
+  </div>
+</section>
+{% endfor %}
+
+{% for item in page.disclaimer %}
+<section class="text-component {{ item.class }}">
+  <div class="text-component__container">
+    <p>{{ item.text }}</p>
+  </div>
+</section>
+{% endfor %}
+
+
+
+

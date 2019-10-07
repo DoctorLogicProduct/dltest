@@ -1,0 +1,210 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.referrals {
+
+    .hero-1 {
+    padding: 80px 0 40px;
+    position: relative;
+    height: 60vh;
+    min-height: 0;
+    background: url('/img/company/referrals-hero.jpg') center center/cover no-repeat; 
+    @include grid;
+
+    @include phone-wide-min {
+      background: url('/img/company/referrals-hero.jpg') right center/cover no-repeat;
+      min-height: 800px;
+      height: 80vh;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $color-2;
+      opacity: .9;
+      display: block;
+      
+    }
+
+    &__text {
+      grid-column: auto / span 24;
+      grid-row: 1 / span 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      z-index: 2;
+      max-width: 1300px;
+      margin: 0 auto;
+      position: relative;
+
+      h5 {
+        color: $websites;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 100%;
+        font-size: 1.7rem;
+
+        @include tablet-min {
+          font-size: 3.1vw;
+        }
+      }
+
+      h1,
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  // Description
+
+  .text-component {
+    padding: 40px 20px;
+
+    @include tablet-min {
+      padding: 60px 5%;
+      } 
+
+      &__container {
+          grid-column: auto / span 24;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+
+          img {
+          width: 100%;
+          height: auto;
+          max-width: 700px;
+          display: block;
+          margin: 60px 0 40px;
+      }
+
+      }
+      
+      h3 {
+          text-align: center;
+      }
+      p {
+          text-align: center;
+      }
+    
+ } 
+
+ // Features
+
+  .feature {
+    
+    &__container {
+      @include grid; 
+      padding: 0 10px;
+      grid-column: auto / span 24;
+      max-width: 1500px;
+      margin: 0 auto;
+
+      @include tablet-min {
+      padding: 40px 5%;
+    }
+
+    }
+
+    &__text {
+      grid-column: auto / span 24;
+      grid-row: 2 / span 1;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @include tablet-min {
+        grid-column: auto / span 12;
+        grid-row: auto;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 20px;
+      }
+
+      h3, p {
+        text-align: center;
+
+        @include tablet-min {
+          text-align: left;
+        }
+
+      }
+
+      h3 {
+        max-width: 80%;
+      }
+
+      h5 {
+        text-transform: uppercase;
+        margin: 0 0 20px;
+      }
+
+    }
+
+    &__image {
+      grid-column: auto / span 24;
+      grid-row: 1 / span 1;
+      position: relative;
+      padding: 0 0 20px;
+
+      @include tablet-min {
+        grid-column: auto / span 12;
+        grid-row: auto;
+        justify-content: center;
+        padding: 0;
+      }
+      
+    }
+
+    &__image-wrapper {
+      
+      img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+
+        @include tablet-wide-min {
+          max-width: 100%;
+          margin: 0;
+        }
+        
+      }
+    }
+
+  }
+
+  .text-component.referrals__disclaimer {
+    padding: 10px;
+
+    @include tablet-min {
+      padding: 10px 5%;
+    }
+  }
+
+  &__disclaimer {
+  
+    p {
+      font-size: .8rem;
+    }
+
+  }
+
+}
