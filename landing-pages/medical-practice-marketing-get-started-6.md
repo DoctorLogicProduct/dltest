@@ -125,7 +125,7 @@ page_sections:
   btn:
   - btn-link: "/get-a-demo"
     btn-label: Get A Demo
-  text: We Make Beautiful Websites That Are Designed To Grow Your Practice
+  text: 'Control the narrative of what''s being said about you online. '
   class: section-gray
   img: []
   link: []
