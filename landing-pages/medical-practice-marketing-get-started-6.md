@@ -27,36 +27,25 @@ page_sections:
     btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Reputation Management with DoctorLogic
-  text: ''
-  wistia-link: []
-  class: ''
-  img: []
-  btn: []
-  link: []
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
   wistia-id: "/hr95vqf7nb"
   class: ''
-  headline: ''
+  headline: Reputation Management with DoctorLogic
   text: ''
 - template: feature
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: 'Stunning Websites Built to Convert '
-  text: |2-
-
-    Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice.
+  headline: 'Organize Your Reviews '
+  text: Manage your reviews from different sources, including Google, Facebook, Yelp,
+    RealSelf, and more. Display your reviews from across the web in one place, prioritize
+    your favorites, and tag each review to make it simple to find.
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/Designs.jpg"
+  img: "/uploads/screen-reviews-manage.png"
   alt: ''
 - template: feature
   component: feature-1
