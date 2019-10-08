@@ -51,14 +51,11 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: 'Custom Content, Built Faster '
-  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
-    content pages for patients and search engines. Our team of medical content writers
-    provide custom content for every procedure and service offered at your practice.
-    Individual web pages are then automatically integrated with relevant content such
-    as reviews, before and after photos, video, and specials to promote each service
-    and gain keyword authority.
-  img: "/uploads/gallery-list-1.jpg"
+  headline: Receive Notifications
+  text: Rest easy knowing you will be notified when your practice is mentioned in
+    an online review. We monitor dozens of review sources which ensures when a review
+    is posted, you will receive an email alert.
+  img: "/uploads/review-notifications.jpg"
   class: ''
   btn: []
   wistia-link: []
@@ -67,15 +64,26 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Manage Your Website Conversions In One Place
-  text: 'Our Lead Generator tool provides one place where you can keep track of all
-    your website conversions, whether they’re coming in via the phone, a web form,
-    an online chat, and more. Giving you this power will also allow you to be alerted
-    to new leads and have processes in place to convert a mere inquiry into a patient
-    appointment.
-
-'
-  img: "/uploads/Opportunities.jpg"
+  headline: Display Your Testimonials
+  text: Easily showcase your reputation by organizing reviews by source, doctor, procedure,
+    and more. Positive testimonials are tagged and posted to your practice website.
+    Our platform then automatically integrates these testimonials to relevant content
+    pages and displays the star ratings in search results.
+  img: "/uploads/reviews-feature (2).jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Proactive Review Building
+  text: Our marketing platform and team of healthcare marketing experts make it easy
+    for your patients to share positive feedback about their experiences. With Intelligent
+    Thinking™, our software will automatically suggest the best place to request reviews
+    based on a few data criteria.
+  img: "/uploads/review-request-feature.jpg"
   class: ''
   btn: []
   wistia-link: []
