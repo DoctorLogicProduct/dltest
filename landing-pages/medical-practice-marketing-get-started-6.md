@@ -77,7 +77,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   headline: Proactive Review Building
   text: Our marketing platform and team of healthcare marketing experts make it easy
     for your patients to share positive feedback about their experiences. With Intelligent
