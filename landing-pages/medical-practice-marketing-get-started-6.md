@@ -32,10 +32,7 @@ page_sections:
   component_css: text-component
   headline:
   - headline: Reputation Management with DoctorLogic
-  text: 94% of patients use online reviews to evaluate physicians. Your online reputation
-    can make or break your medical practice – and your marketing efforts. The DoctorLogic
-    Reputation Management tool helps you acquire more reviews from patients then organize
-    and instantly display those reviews from around the web.
+  text: ''
   wistia-link: []
   class: ''
   img: []
@@ -44,7 +41,7 @@ page_sections:
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
-  wistia-id: "/medias/hr95vqf7nb"
+  wistia-id: "/hr95vqf7nb"
   class: ''
   headline: ''
   text: ''
