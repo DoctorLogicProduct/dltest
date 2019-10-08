@@ -1,27 +1,27 @@
 ---
 layout: components
-title: 'Medical Practice Marketing - Get Started '
-permalink: medical-practice-marketing-get-started
+title: 'Online Reputation Management - Get Started '
+permalink: online-reputation-management-get-started
 page_class:
 - class: lp
 gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/mix-3up-1.png"
+meta_image: "/uploads/social-reputation-label.svg"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'Marketing For Medical Practices '
-  text: You want a partner who’s there to make your life simple and takes the guesswork
-    out of healthcare marketing. DoctorLogic is fully invested in your practice’s
-    success. Our priority is you.
+  headline: 'Online Reputation Management For Medical Practices '
+  text: Online reputation can make or break your medical practice – and your marketing
+    efforts. Our Reputation Management tool helps you acquire more reviews from patients
+    then organize and instantly display those reviews from around the web.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/mix-3up-1.png"
-  alt: Plastic surgery websites powered by DoctorLogic
+  img: "/uploads/online-visibility.jpg"
+  alt: DoctorLogic Online Reputation Management
   btn:
   - btn-link: "/get-a-demo"
     btn-label: 'Get A Demo '
@@ -31,12 +31,11 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Meet DoctorLogic | Your Practice Growth Experts
-  text: Our software was built specifically for cosmetic surgeons with patient acquisition,
-    retention marketing, and practice insights in mind, helping you to connect with
-    more patients. From website creation to content generation, reputation management
-    to Before and After Photo Galleries, SEO best practices to lead conversion, we’ve
-    got you covered.
+  - headline: Reputation Management with DoctorLogic
+  text: 94% of patients use online reviews to evaluate physicians. Your online reputation
+    can make or break your medical practice – and your marketing efforts. The DoctorLogic
+    Reputation Management tool helps you acquire more reviews from patients then organize
+    and instantly display those reviews from around the web.
   wistia-link: []
   class: ''
   img: []
@@ -45,7 +44,7 @@ page_sections:
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
-  wistia-id: "/w7jgkunbv9"
+  wistia-id: "/medias/hr95vqf7nb"
   class: ''
   headline: ''
   text: ''
