@@ -270,6 +270,7 @@ footer {
 			flex: 0 0 100%;
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 			align-items: flex-end;
 		}
 
@@ -279,10 +280,10 @@ footer {
 			align-items: center;
 			justify-content: center;
 
-			@include desktop-sm-min {
-			  flex: 0 0 auto;
-			  justify-content: flex-start;
-			}
+			// @include desktop-sm-min {
+			//   flex: 0 0 100%;
+			//   justify-content: flex-start;
+			// }
 			
 
 			a {
@@ -301,9 +302,7 @@ footer {
 			font-weight: 400;
 			
 			@include desktop-sm-min {
-			  flex: 0 0 auto;
-			  margin-left: auto;
-			  padding: 0;
+			  padding: 20px 0 0;
 			}
 			
 			
@@ -313,9 +312,9 @@ footer {
 				text-align: center;
 				margin: 0;
 
-				@include desktop-sm-min {
-				  text-align: right;
-				}
+				// @include desktop-sm-min {
+				//   text-align: right;
+				// }
 				
 			}
 
