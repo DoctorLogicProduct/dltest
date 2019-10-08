@@ -113,11 +113,9 @@ page_sections:
   per-row-count: '3'
   practices:
   - name: Morales Plastic Surgery
-  - name: Dr. Glenn Lyle
-  - name: VIP Plastic Surgery
-  btn:
-  - btn-link: "/case-studies"
-    btn-label: Read Case Studies
+  - name: Sonterra Dermatology
+  - name: Texas Center For Cosmetic Dentistry
+  btn: []
   wistia-link: []
 - template: text-component
   component: text-component
