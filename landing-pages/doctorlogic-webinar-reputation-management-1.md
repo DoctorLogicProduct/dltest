@@ -11,7 +11,7 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: ''
+  bg_img: "/uploads/iStock-924512692-2.jpg"
   tagline:
   - headline: 'DoctorLogic Booth #119 | AAID 2019'
   headline: Meet DoctorLogic at AAID
@@ -56,6 +56,5 @@ page_sections:
   btn: []
   wistia-link: []
 gsap: false
-published: false
 
 ---
