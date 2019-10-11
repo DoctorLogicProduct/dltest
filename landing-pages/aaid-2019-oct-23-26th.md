@@ -11,7 +11,7 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/iStock-544651402.jpg"
+  bg_img: "/uploads/Untitled design (1).jpg"
   tagline:
   - headline: 'DoctorLogic Booth #101 | ObesityWeek 2019'
   headline: Meet DoctorLogic at ObesityWeek
