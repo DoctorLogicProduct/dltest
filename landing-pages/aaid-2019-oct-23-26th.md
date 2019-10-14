@@ -18,7 +18,7 @@ page_sections:
   text: 'Reserve a spot with one of our medical marketing experts to discuss how DoctorLogic
     can grow your practice with our Website Marketing Platform built for providers...like
     you. '
-  form_handler: https://marketing.doctorlogic.com/l/772793/2019-10-07/gdmj
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-10-14/3jdhs
   form_template: forms/lp-form.html
   btn: []
 - template: text-component
