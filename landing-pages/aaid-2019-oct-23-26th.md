@@ -56,6 +56,5 @@ page_sections:
   btn: []
   wistia-link: []
 gsap: false
-published: false
 
 ---
