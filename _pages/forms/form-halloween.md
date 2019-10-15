@@ -11,6 +11,6 @@ headline: "Is Your Website Scaring Away New Patients?"
 text: "Submit your website URL for our medical marketing experts to review and discover if your website is scaring away potential patients."
 form_src: "https://marketing.doctorlogic.com/l/772793/2019-10-10/mdmg"
 form_height: "350"
-img_src: "/img/form-pages/imac-parkerwest.png"
+img_src: "/img/form-pages/imac-halloween.png"
 img_alt: "Stay In Touch"
 ---
