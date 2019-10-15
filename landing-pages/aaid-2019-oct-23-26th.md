@@ -11,14 +11,14 @@ page_sections:
 - template: hero-with-form
   component: hero-3
   component_css: hero-3
-  bg_img: "/uploads/iStock-544651402.jpg"
+  bg_img: "/uploads/Untitled design (1).jpg"
   tagline:
   - headline: 'DoctorLogic Booth #101 | ObesityWeek 2019'
   headline: Meet DoctorLogic at ObesityWeek
   text: 'Reserve a spot with one of our medical marketing experts to discuss how DoctorLogic
     can grow your practice with our Website Marketing Platform built for providers...like
     you. '
-  form_handler: https://marketing.doctorlogic.com/l/772793/2019-10-07/gdmj
+  form_handler: https://marketing.doctorlogic.com/l/772793/2019-10-14/3jdhs
   form_template: forms/lp-form.html
   btn: []
 - template: text-component
@@ -56,6 +56,5 @@ page_sections:
   btn: []
   wistia-link: []
 gsap: false
-published: false
 
 ---
