@@ -420,6 +420,7 @@
 			@include desktop-sm-min {
 				display: inline-block;
 				margin: 0 auto;
+				z-index: 100;
 
 					& > ul > li {
 					display: inline-block;
