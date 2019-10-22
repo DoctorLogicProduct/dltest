@@ -1,6 +1,6 @@
 ---
 post_title: Use Search and Social to Increase Patient Leads
-date: 2019-10-16 16:00:00 +0000
+date: 2019-10-22 15:00:00 +0000
 post_author: Keisha Dunstan
 tags:
 - Strategy
