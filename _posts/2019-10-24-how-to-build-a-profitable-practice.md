@@ -1,5 +1,5 @@
 ---
-post_title: 5 Tips To Build a Profitable Practice
+post_title: How To Build a Profitable Practice
 date: 2019-10-24 15:00:00 +0000
 post_author: Janelle Amos
 tags:
