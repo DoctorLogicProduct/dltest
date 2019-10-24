@@ -1,6 +1,6 @@
 ---
 post_title: Why You Need to Optimize Your Website for Voice Search & How to Do It
-date: 2019-09-12 16:00:00 +0000
+date: 2019-09-12T16:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
 - Website
