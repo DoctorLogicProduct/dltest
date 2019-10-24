@@ -1,6 +1,6 @@
 ---
 post_title: How Often Should You Blog For Your Practice?
-date: 2019-09-09 16:00:00 +0000
+date: 2019-09-09T16:00:00.000+00:00
 post_author: Janelle Amos
 tags:
 - Content-Marketing
