@@ -1,6 +1,6 @@
 ---
 post_title: The Do's and Don'ts for Your Google My Business Listing
-date: 2019-10-01 16:00:00 +0000
+date: 2019-10-01T16:00:00.000+00:00
 post_author: Kandace Cortez
 tags: []
 post_intro: A practice’s Google My Business profile is what appears when people are
