@@ -1,7 +1,7 @@
 ---
 layout: components
-title: DoctorLogic Before & After Galleries
-description: "Help patients visualize how your services can benefit them. Before and After photos on your practice website allows current and prospective patients to see your work and what you can do for them."
+title: Medical Before & After Galleries for Doctors | DoctorLogic
+description: "Give new patients visual proof on how your services can benefit them with Before & After photos. DoctorLogic is a must in your medical marketing strategy."
 meta_image: "/img/meta/content-multiplier.jpg"
 nofollow: false
 page_class:

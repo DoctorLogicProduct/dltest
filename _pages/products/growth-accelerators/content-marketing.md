@@ -1,7 +1,7 @@
 ---
 layout: components
-title: DoctorLogic Content Marketing - Medical Content Marketing
-description: "Content marketing means creating and sharing valuable free content to attract and convert customers into patients."
+title: Medical Blog Writing for Doctors & Patients | DoctorLogic
+description: "Attract and convert more patients on your website with our highly valuable medical blog writing services at DoctorLogic.com."
 meta_image: "/img/meta/growth-accelerators.jpg"
 nofollow: false
 page_class:

@@ -1,7 +1,7 @@
 ---
 layout: components
-title: DoctorLogic Video Content - Healthcare Video Marketing
-description: "Healthcare video marketing establishes trust, builds confidence, and helps you stand out online. Learn how to utilize it to grow your practice and gain a competitive advantage."
+title: Healthcare Video Marketing for Doctors | DoctorLogic
+description: "Healthcare video marketing establishes trust, builds confidence, and helps you stand out online. Gain a competitive advantage with videos from DoctorLogic."
 meta_image: "/img/meta/growth-accelerators.jpg"
 nofollow: false
 page_class:

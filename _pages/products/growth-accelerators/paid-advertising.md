@@ -1,7 +1,7 @@
 ---
 layout: components
-title: DoctorLogic Paid Advertising - PPC Campaigns for Medical Practices
-description: "Get in front of the right patients quickly with highly-targeted Paid Search Advertising campaigns."
+title: Paid Advertising PPC for Doctors & Practices | DoctorLogic
+description: "Get in front of the right patients quickly with highly-targeted and relevant Paid Search Advertising campaigns with DoctorLogic services."
 meta_image: "/img/meta/growth-accelerators.jpg"
 nofollow: false
 page_class:
