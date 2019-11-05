@@ -19,9 +19,7 @@ product:
 - search amplifier
 
 ---
-![](/uploads/unnamed (2).png)
-
-                      **(No, not this Bert)**
+![](/uploads/unnamed (2).png)**(No, not this Bert)**
 
 Over the course of 2019, Google has been very busy with multiple algorithm updates and last week contained the biggest news in the landscape in the past 5 years. Specifically, BERT will impact one in 10 searches (10%) in the U.S. for English related searches with future plans to expand it across the entire search landscape.
 
@@ -86,4 +84,4 @@ On a regular basis, we keep up with search trends and follow SEO best practices 
 
 It’s important to keep in mind SEO does not happen overnight. It takes time before the impact is fully realized so patience is important.
 
-DoctorLogic uses our software to help turn all of your practice content into 100x more data and we present it to Google exactly how Google wants it. And that makes Google happy. 
+DoctorLogic uses our software to help turn all of your practice content into 100x more data and we present it to Google exactly how Google wants it. And that makes Google happy.
