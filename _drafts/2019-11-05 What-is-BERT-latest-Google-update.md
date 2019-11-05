@@ -78,12 +78,12 @@ It’s also to note these more informational & long-tail related queries have le
 
 **What can we do to optimize for BERT?**
 
-Specifically, there’s nothing we can do to optimize for BERT because it’s all AI-based. This means the AI has to decide if our content is worthy. With that said, as long as we write quality content and follow SEO best practices we will be optimized correctly.
-
-When we build content, we identify the correct keywords to target based on search trends. When we specifically place these keywords within the important SEO elements, we succeed because we help BERT and Google better identify the topic(s) of the page.
+When DoctorLogic builds content, we identify the correct keywords to target based on search trends. When we specifically place these keywords within the important SEO elements, we succeed because we help BERT and Google better identify the topic(s) of the page.
 
 It’s important to remember, we can’t include too many topics or procedures on the same page. Otherwise, Google will get confused and now know how to interpret the page. In this case, that’s why it’s important to have more content to cover multiple topics. The opposite also has problems where we have too many pages talking about the same topic or procedure. Then Google won’t know which page is better or what page we want to be shown in search results. In this case, we need to consolidate to make one page the most powerful it can be.
 
 On a regular basis, we keep up with search trends and follow SEO best practices allowing us to stay ahead of our competition. Very soon, we’ll have much more information to share about some SEO platform updates as well. All of these things make a huge positive impact on rankings while future-proofing our websites to be more resistant to any future Google updates.
 
 It’s important to keep in mind SEO does not happen overnight. It takes time before the impact is fully realized so patience is important.
+
+DoctorLogic uses our software to help turn all of your practice content into 100x more data and we present it to Google exactly how Google wants it. And that makes Google happy. 
