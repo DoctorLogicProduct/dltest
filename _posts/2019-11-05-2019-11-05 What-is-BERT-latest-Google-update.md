@@ -1,6 +1,6 @@
 ---
 post_title: 'Meet BERT: Google''s Biggest SEO Update in 5 Years'
-date: 2019-11-05 17:00:00 +0000
+date: 2019-11-05 19:45:00 +0000
 post_author: Ryan Metcalf
 tags:
 - Strategy
