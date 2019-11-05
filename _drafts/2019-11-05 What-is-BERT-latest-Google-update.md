@@ -27,9 +27,9 @@ Over the course of 2019, Google has been very busy with multiple algorithm updat
 
 **So, what's  BERT?**
 
-Simply put BERT stands for **_Bidirectional Encoder Representations from Transformers_**. 
+Simply put BERT stands for **_Bidirectional Encoder Representations from Transformers_**.
 
-In layman's terms, BERT is an Artificial Intelligence (AI) based system that will return results based on what it thinks the searcher is specifically looking for when conducting a search for any keyword. 
+In layman's terms, BERT is an Artificial Intelligence (AI) based system that will return results based on what it thinks the searcher is specifically looking for when conducting a search for any keyword.
 
 That means BERT models can interpret the appropriate meaning of a word by looking at the words that come before and after. This will lead to a better understanding of queries, compared to processing words one-by-one in order.
 
@@ -39,13 +39,9 @@ In recent years, Google has made it a priority to return information as quickly 
 
 In the example below, the old page simply did not return the most relevant page related to “standing”. This new page specifically mentions “physical demands” making it easier for the searcher to find the correct information related to the search.
 
-  
-  
 ![](/uploads/pasted image 0 (1).png)  
-When compared, the new results are very clear on why the impact is big. In this example, the old result did not relay the page which specifically answered the search. The old page appears to be more of a generic page on how to get your prescription filled.  
-  
-  
-  
+When compared, the new results are very clear on why the impact is big. In this example, the old result did not relay the page which specifically answered the search. The old page appears to be more of a generic page on how to get your prescription filled.
+
 ![](/uploads/pasted image 0 (2).png)
 
 BERT also makes an impact on featured snippets and answer boxes. In this example, “curb” had the wrong emphasis placed on it with Google ignoring the “no” in the search query. As a result of BERT, the more relevant information is displayed.
@@ -56,28 +52,27 @@ BERT also makes an impact on featured snippets and answer boxes. In this example
 
 Google admits BERT still isn’t perfect when it comes to displaying the right results, but it’s easy to expect it will get better over time.
 
-  
 **How does BERT impact me?**
 
 In the short term, there may be fluctuations in rankings meaning you might see either a temporary drop or an increase in performance. There is no reason to be alarmed here. Whenever an update is announced volatility happens throughout the search landscape as things settle.
 
 In the long term, websites with poorly written content are likely to lose a lot of ground from BERT. Poor content makes it harder for AI to read and interpret the content--let alone correctly. As a result, this content will also be harder for the searcher to read so Google will deem it less worthy than another website.
 
-The content on each of our websites is written by a team of professionals to ensure quality and we write content based on what searchers are searching. This includes researching the latest news and trends on a specific keyword level. It’s important to remember that quality is more important than quantity.
+The [content on each of our websites ](https://doctorlogic.com/content-multiplier "Medical Marketing Content")is written by a team of professionals to ensure quality and we write content based on what searchers are searching. This includes researching the latest news and trends on a specific keyword level. It’s important to remember that quality is more important than quantity.
 
 **The Early Impact from BERT So Far**
 
-The very early data so far has shown the update to not be overly significant despite Google announcing it impacts 10% of all searchers. For reference, there have been much bigger impacts throughout the 2019 calendar year. So far we’ve only seen some smaller gains for some of the websites we manage, but it’s early.
+The very early data so far has shown the update to not be overly significant despite Google announcing it impacts 10% of all searchers. For reference, there have been much bigger impacts throughout the 2019 calendar year.
 
-Another thing we’ve seen which is similar to some industry trends is around informational and long-tail related searches. These typically include more of the longer-tail keywords for searchers trying to find more specific information such as “what is” or “how-to” related questions. These questions are often best answered on blog-related posts too which is something many of our websites utilize. _If you’re interested in finding out more about our blog services, feel free to contact us._
+Another thing we’ve seen which is similar to some industry trends is around informational and long-tail related searches. These typically include more of the longer-tail keywords for searchers trying to find more specific information such as “what is” or “how-to” related questions. These questions are often best answered on blog-related posts too which is something many of our websites utilize. _If you’re interested in finding out more about our_ [_blog services_]()_, feel free to_ [_contact us_]()_._
 
-![](/uploads/Screen Shot 2019-10-29 at 11.49.16 AM.png)
-
-In the example above for the keyword “How to fix a gummy smile”, we see changes to the website listed in position 2. The post below from [New Beauty](https://www.newbeauty.com/hottopic/blogpost/11232-botox-cosmetic-nonsurgical-gummy-smile-correction/) targets and has an opinion that Botox is the best solution.
+In the following example for the keyword “How to fix a gummy smile”, we see changes to the website listed in position 2. Below the post from [New Beauty](https://www.newbeauty.com/hottopic/blogpost/11232-botox-cosmetic-nonsurgical-gummy-smile-correction/) targets and has an opinion that Botox is the best solution.
 
 ![](/uploads/Screen Shot 2019-10-29 at 11.49.08 AM.png)
 
-The page now ranking in position 2 is from [Dentistry For Madison](https://www.dentistryformadison.com/how-to-fix-a-gummy-smile/). It doesn’t read like an opinion piece and is more factual information for the searcher. This page is also older with a publish date in 2018 meaning quality content can outrank newer content.
+The page now ranking in position 2 is from [Dentistry For Madison](https://www.dentistryformadison.com/how-to-fix-a-gummy-smile/). (see below). It doesn’t read like an opinion piece and is more factual information for the searcher. This page is also older with a publish date in 2018 meaning **_quality content can outrank newer content._**
+
+![](/uploads/Screen Shot 2019-10-29 at 11.49.16 AM.png)
 
 It’s also to note these more informational & long-tail related queries have less search volume. This means the overall traffic and performance of a website is likely to be unaffected.
 
