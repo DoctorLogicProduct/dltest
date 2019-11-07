@@ -28,7 +28,7 @@ page_sections:
   text: Our software was built specifically for the healthcare industry with patient
     acquisition, retention marketing, and practice insights in mind, helping providers
     connect with more patients. From website creation to content generation, reputation
-    management to Before and After Photo Galleries, SEO best practices to lead conversion,
+    management to before and after photo galleries, SEO best practices to lead conversion,
     we’ve got you covered.
   wistia-link: []
   class: ''
