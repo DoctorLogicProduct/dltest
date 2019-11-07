@@ -71,15 +71,10 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Manage Your Website Conversions In One Place
-  text: 'Our Lead Generator tool provides one place where you can keep track of all
-    your website conversions, whether they’re coming in via the phone, a web form,
-    an online chat, and more. Giving you this power will also allow you to be alerted
-    to new leads and have processes in place to convert a mere inquiry into a patient
-    appointment.
-
-'
-  img: "/uploads/Opportunities.jpg"
+  headline: Follower Engagement
+  text: 'Increase opportunities for new patients and brand awareness with new and
+    existing patients. '
+  img: ''
   class: ''
   btn: []
   wistia-link: []
