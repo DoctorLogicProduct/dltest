@@ -46,27 +46,23 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: 'Stunning Websites Built to Convert '
-  text: |2-
-
-    Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice.
+  headline: 'Tailored Posts '
+  text: 'Get 3 posts per week to Facebook and Instagram with appropriate pictures,
+    words, and links as allowed by platform. '
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/Designs.jpg"
+  img: ''
   alt: ''
 - template: feature
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: 'Custom Content, Built Faster '
-  text: DoctorLogic's Content Multiplier amplifies the most relevant and engaging
-    content pages for patients and search engines. Our team of medical content writers
-    provide custom content for every procedure and service offered at your practice.
-    Individual web pages are then automatically integrated with relevant content such
-    as reviews, before and after photos, video, and specials to promote each service
-    and gain keyword authority.
-  img: "/uploads/gallery-list-1.jpg"
+  headline: Enhanced Profiles
+  text: 'Increase brand awareness and build confidence with new and existing patients.  Have
+    all of your social media profiles reviewed and refined with relevant practice
+    information. '
+  img: ''
   class: ''
   btn: []
   wistia-link: []
