@@ -82,15 +82,12 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  headline:
-  - headline: The DoctorLogic Difference
-  text: Our difference depends on the diverse, engaged, passionate, and experienced
-    people who create our ideas and serve our clients. As our partner, you will also
-    have access to the latest solutions, transparent reporting, unlimited content,
-    technology upgrades, dedicated support and a 100% HIPAA compliant platform. You
-    will be taken care of with feedback on how to grow your practice from like minded
-    people who are medical marketing experts.
   class: ''
+  headline:
+  - headline: Why Grow Your Social Media?
+  text: '"83% of all Americans and 2.8 billion worldwide (37% of the population) have
+    a social media account". And, "41% of people say social media affects their choice
+    of doctor, hospital or medical facility." - Hootsuite & DC Interactive '
   img: []
   btn: []
   link: []
