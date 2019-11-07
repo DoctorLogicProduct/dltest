@@ -74,6 +74,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/medical-practice-marketing-get-started-7.md
 - landing-pages/aaid-2019-oct-23-26th.md
 - landing-pages/doctorlogic-webinar-reputation-management-1.md
 - landing-pages/medical-practice-marketing-get-started-6.md
