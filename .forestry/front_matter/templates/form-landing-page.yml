@@ -28,7 +28,7 @@ fields:
     config:
       required: false
     label: Class Name
-    hidden: true
+    hidden: false
     default: form-page
   config:
     min: 
@@ -36,24 +36,36 @@ fields:
     labelField: class
   label: Page Class
   description: Not Required. CSS Class of this page
+  hidden: false
+- name: meta_image
+  type: text
+  config:
+    required: false
+  label: Meta Image
   hidden: true
+  default: "/img/meta/dl_jpg"
 - name: description
   type: text
   config:
     required: false
   label: Meta Description
   description: Page Meta Description
-- name: meta_image
-  type: file
-  config:
-    maxSize: 250
-  label: Meta Image
 - name: headline
   type: text
   config:
     required: false
   label: Page Headline
   description: Headline for the page
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Text
+  description: Text for page.  Not required. Should be 1 paragraph.
 - name: form_src
   type: text
   config:
@@ -67,11 +79,11 @@ fields:
   label: Form Height
   description: Height of Iframe
 - name: img_src
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 250
   label: Landing Page Image
-  description: Image for the landing page
+  description: Image for the landing page.
 - name: img_alt
   type: text
   config:
@@ -79,4 +91,5 @@ fields:
   label: Landing Page Image Alt Text
   description: Alt text for the landing page image
 pages:
+- landing-pages/test-2-1.md
 - landing-pages/test-2.md
