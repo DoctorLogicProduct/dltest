@@ -67,11 +67,11 @@ fields:
   label: Form Height
   description: Height of Iframe
 - name: img_src
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 250
   label: Landing Page Image
-  description: Image for the landing page
+  description: Image for the landing page.
 - name: img_alt
   type: text
   config:
