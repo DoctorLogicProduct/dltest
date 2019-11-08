@@ -34,6 +34,19 @@ page_sections:
     btn-label: "About Us"
   form_template: forms/get-started.html
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-01/73z
+- component: hero-4
+  component_css: hero-4
+  class: hero-3-sample
+  bg_img: /img/home/home-hero.jpg
+  tagline:
+  - headline: "I am Hero 4"
+  headline: "Market your practice the right way."
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit officia velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
+  btn:
+  - btn-link: "#"
+    btn-label: "About Us"
+  form_src: https://marketing.doctorlogic.com/l/772793/2019-09-30/dqcn
+  form_height: 700
 - component: feature-1
   component_css: feature
   class: feature-left-sample

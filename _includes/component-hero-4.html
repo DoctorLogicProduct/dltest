@@ -1,0 +1,22 @@
+<section class="component hero hero-4 {{section.class}}" style="background: url('{{ section.bg_img }}');">
+  <div class="hero-4__text">
+    {% for tagline in section.tagline %}
+    {% if section.tagline %}
+    <div class="hero-4__tagline">
+      <h5>{{tagline.headline}}</h5>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <h1>{{section.headline}}</h1>
+    <p>{{section.text}}</p>
+    {% for btn in section.btn %}
+      {% if section.btn %}
+        <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="hero-4__form">
+    <iframe src="{{ section.form_src }}" width="100%" height="{{ section.form_height }}" type="text/html" frameborder="0"
+      allowTransparency="true" style="border: 0"></iframe>
+  </div>
+</section>
