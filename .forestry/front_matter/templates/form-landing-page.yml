@@ -1,0 +1,71 @@
+---
+label: Form Landing Page
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: iframe-form
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  description: This will be the URL structure (e.g. partnerships/AACD)
+- name: class
+  type: text
+  config:
+    required: false
+  label: Page Class
+  hidden: true
+  default: form-page
+- name: description
+  type: text
+  config:
+    required: false
+  label: Meta Description
+  description: Page Meta Description
+- name: meta_image
+  type: file
+  config:
+    maxSize: 250
+  label: Meta Image
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Page Headline
+  description: Headline for the page
+- name: form_src
+  type: text
+  config:
+    required: false
+  label: Form Source
+  description: Pardot form URL
+- name: form_height
+  type: text
+  config:
+    required: false
+  label: Form Height
+  description: Height of Iframe
+- name: img_src
+  type: text
+  config:
+    required: false
+  label: Landing Page Image
+  description: Image for the landing page
+- name: img_alt
+  type: text
+  config:
+    required: false
+  label: Landing Page Image Alt Text
+  description: Alt text for the landing page image
+pages:
