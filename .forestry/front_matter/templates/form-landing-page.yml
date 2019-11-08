@@ -28,7 +28,7 @@ fields:
     config:
       required: false
     label: Class Name
-    hidden: true
+    hidden: false
     default: form-page
   config:
     min: 
@@ -36,7 +36,7 @@ fields:
     labelField: class
   label: Page Class
   description: Not Required. CSS Class of this page
-  hidden: true
+  hidden: false
 - name: description
   type: text
   config:
