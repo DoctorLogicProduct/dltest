@@ -9,6 +9,19 @@ custom_js: ''
 description: This is a landing page.
 meta_image: "/uploads/MicrositeThumb.png"
 page_sections:
+- template: hero-with-iframe-form
+  component: hero-4
+  component_css: hero-4
+  bg_img: "/uploads/home-hero-1.jpg"
+  tagline:
+  - headline: Super Hero
+  headline: I have an iframe form
+  text: This new hero has an iframe form.
+  btn:
+  - btn-label: Let's Go
+    btn-link: https://doctorlogic.com
+  form_src: https://marketing.doctorlogic.com/l/772793/2019-09-30/dqcn
+  form_height: "700"
 - template: feature
   component: feature-1
   component_css: feature
