@@ -2,7 +2,8 @@
 layout: iframe-form
 title: Test 2
 permalink: test-2
-page_class: []
+page_class:
+- class: form-page
 description: test
 meta_image: ''
 headline: Testing
