@@ -14,12 +14,12 @@ page_sections:
   component_css: hero-4
   bg_img: "/uploads/home-hero-1.jpg"
   tagline:
-  - headline: Super Hero
-  headline: I have an iframe form
-  text: This new hero has an iframe form.
+  - headline: We are testing
+  headline: This is a test
+  text: This is text.
   btn:
-  - btn-label: Let's Go
-    btn-link: https://doctorlogic.com
+  - btn-label: Learn More
+    btn-link: https://google.com
   form_src: https://marketing.doctorlogic.com/l/772793/2019-09-30/dqcn
   form_height: "700"
 - template: feature
