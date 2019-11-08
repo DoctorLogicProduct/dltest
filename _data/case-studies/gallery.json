@@ -1,6 +1,15 @@
 [   
     {
         "type": "aesthetic",
+        "img": "/img/case-studies/csaok-featured-image.jpg",
+        "link": "/case-studies/csaok",
+        "name": "Cosmetic Surgery Affiliates",
+        "specialty": "Cosmetic Surgery",
+        "stat": "2,642%",
+        "stat-label": "First Page Keywords"
+    },
+    {
+        "type": "aesthetic",
         "img": "/img/case-studies/sonterra-featured-image.jpg",
         "link": "/case-studies/sonterra",
         "name": "Sonterra Dermatology",
