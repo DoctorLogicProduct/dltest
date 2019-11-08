@@ -62,10 +62,11 @@ fields:
   template_types:
   - hero-with-image
   - hero-no-image
+  - hero-with-iframe-form
+  - hero-with-form
   - feature
   - text-component
   - item-grid-component
-  - hero-with-form
   - image-group
   - wistia-embed
   - case-study-feature
