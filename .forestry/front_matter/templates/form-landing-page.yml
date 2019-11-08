@@ -20,13 +20,22 @@ fields:
     required: false
   label: Permalink
   description: This will be the URL structure (e.g. partnerships/AACD)
-- name: class
-  type: text
+- name: page_class
+  type: field_group_list
+  fields:
+  - name: class
+    type: text
+    config:
+      required: false
+    label: Class Name
+    hidden: true
+    default: form-page
   config:
-    required: false
+    min: 
+    max: '3'
+    labelField: class
   label: Page Class
-  hidden: true
-  default: form-page
+  description: Not Required. CSS Class of this page
 - name: description
   type: text
   config:
