@@ -37,23 +37,35 @@ fields:
   label: Page Class
   description: Not Required. CSS Class of this page
   hidden: false
+- name: meta_image
+  type: text
+  config:
+    required: false
+  label: Meta Image
+  hidden: true
+  default: "/img/meta/dl_jpg"
 - name: description
   type: text
   config:
     required: false
   label: Meta Description
   description: Page Meta Description
-- name: meta_image
-  type: file
-  config:
-    maxSize: 250
-  label: Meta Image
 - name: headline
   type: text
   config:
     required: false
   label: Page Headline
   description: Headline for the page
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Text
+  description: Text for page.  Not required. Should be 1 paragraph.
 - name: form_src
   type: text
   config:
