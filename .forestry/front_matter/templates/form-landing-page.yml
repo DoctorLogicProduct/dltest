@@ -20,7 +20,7 @@ fields:
     required: false
   label: Permalink
   description: This will be the URL structure (e.g. partnerships/AACD)
-- name: class
+- name: page_class
   type: text
   config:
     required: false
