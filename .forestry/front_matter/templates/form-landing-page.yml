@@ -36,6 +36,7 @@ fields:
     labelField: class
   label: Page Class
   description: Not Required. CSS Class of this page
+  hidden: true
 - name: description
   type: text
   config:
