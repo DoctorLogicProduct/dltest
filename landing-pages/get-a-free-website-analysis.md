@@ -15,6 +15,5 @@ form_src: https://marketing.doctorlogic.com/l/772793/2019-11-11/21xwxd
 form_height: "700"
 img_src: "/uploads/imac-bensimon.png"
 img_alt: DoctorLogic Website Analysis
-published: false
 
 ---
