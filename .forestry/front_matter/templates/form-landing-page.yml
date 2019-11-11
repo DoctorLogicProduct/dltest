@@ -91,5 +91,6 @@ fields:
   label: Landing Page Image Alt Text
   description: Alt text for the landing page image
 pages:
+- get-a-demo.md
 - landing-pages/test-2-1.md
 - landing-pages/test-2.md
