@@ -2,7 +2,7 @@
 layout: iframe-form
 meta_image: "/img/meta/dl_jpg"
 title: 'Get A Demo '
-permalink: "/get-demo-ppc"
+permalink: get-demo-ppc
 page_class:
 - class: form-page
 description: DoctorLogic's proprietary software & proven strategy gets you found by
