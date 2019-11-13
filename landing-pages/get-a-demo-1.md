@@ -1,7 +1,7 @@
 ---
 layout: iframe-form
 meta_image: "/img/meta/dl_jpg"
-title: 'Get A Demo - 1 '
+title: Get A Demo
 permalink: "/get-demo-ppc"
 page_class:
 - class: form-page
