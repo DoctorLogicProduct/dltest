@@ -122,9 +122,7 @@ page_sections:
   - name: Morales Plastic Surgery
   - name: Texas Center For Cosmetic Dentistry
   - name: TruDerm
-  btn:
-  - btn-link: "/case-studies"
-    btn-label: Read Case Studies
+  btn: []
   wistia-link: []
 - template: text-component
   component: text-component
@@ -132,7 +130,7 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: "/get-demo-ppc"
     btn-label: Get A Demo
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
