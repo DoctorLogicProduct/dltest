@@ -75,6 +75,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/medical-practice-marketing-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started.md
 - landing-pages/medical-practice-marketing-get-started-2.md
 - landing-pages/landing-page-test.md
@@ -91,7 +92,6 @@ pages:
 - landing-pages/dermatology-website-design-get-started.md
 - landing-pages/dental-website-design-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started-1.md
-- landing-pages/medical-practice-marketing-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
