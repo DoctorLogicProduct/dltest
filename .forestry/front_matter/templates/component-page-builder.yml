@@ -75,6 +75,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/website-design-medical-practice-get-started.md
 - landing-pages/medical-practice-marketing-get-started-2.md
 - landing-pages/landing-page-test.md
 - landing-pages/aaid-2019-oct-23-26th.md
@@ -93,7 +94,6 @@ pages:
 - landing-pages/medical-practice-marketing-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
-- landing-pages/website-design-medical-practice-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
 - landing-pages/medical-practice-marketing-get-started.md
 - landing-pages/dermatology-website-design-2.md
