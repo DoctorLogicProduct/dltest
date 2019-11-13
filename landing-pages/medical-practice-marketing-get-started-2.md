@@ -23,7 +23,7 @@ page_sections:
   img: "/uploads/mix-3up-1.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: "/get-demo-ppc"
     btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
