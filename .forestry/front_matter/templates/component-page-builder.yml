@@ -75,6 +75,9 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/dermatology-website-design-2.md
+- landing-pages/medical-practice-marketing-get-started.md
+- landing-pages/medical-practice-marketing-get-started-4.md
 - landing-pages/aaid-2019-oct-23-26th.md
 - landing-pages/dental-website-design-get-started-1.md
 - landing-pages/medical-practice-marketing-get-started-1.md
@@ -85,7 +88,6 @@ pages:
 - landing-pages/medical-practice-marketing-get-started-6.md
 - landing-pages/cosmetic-surgery-website-design-get-started.md
 - landing-pages/medical-practice-marketing-get-started-5.md
-- landing-pages/medical-practice-marketing-get-started-4.md
 - landing-pages/explainer-video.md
 - landing-pages/doctorlogic-webinar-reputation-management.md
 - landing-pages/medical-practice-marketing-get-started-3.md
@@ -95,8 +97,6 @@ pages:
 - landing-pages/website-design-medical-practice-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
-- landing-pages/medical-practice-marketing-get-started.md
-- landing-pages/dermatology-website-design-2.md
 - landing-pages/dental-website-design-get-started.md
 - landing-pages/dermatology-website-design.md
 - hello-leadership.md
