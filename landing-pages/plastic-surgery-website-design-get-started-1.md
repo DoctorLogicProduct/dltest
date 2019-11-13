@@ -22,7 +22,7 @@ page_sections:
   img: "/uploads/plastic-3up (1).png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: "/get-demo-ppc"
     btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
@@ -92,7 +92,7 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-a-demo"
+  - btn-link: "/get-demo-ppc"
     btn-label: Get A Demo
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray

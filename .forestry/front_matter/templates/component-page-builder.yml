@@ -75,6 +75,8 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/plastic-surgery-website-design-get-started-1.md
+- landing-pages/dermatology-website-design-get-started-1.md
 - landing-pages/dermatology-website-design-2.md
 - landing-pages/medical-practice-marketing-get-started.md
 - landing-pages/medical-practice-marketing-get-started-4.md
@@ -91,9 +93,7 @@ pages:
 - landing-pages/explainer-video.md
 - landing-pages/doctorlogic-webinar-reputation-management.md
 - landing-pages/medical-practice-marketing-get-started-3.md
-- landing-pages/dermatology-website-design-get-started-1.md
 - landing-pages/dermatology-website-design-get-started.md
-- landing-pages/plastic-surgery-website-design-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
