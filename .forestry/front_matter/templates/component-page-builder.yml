@@ -75,11 +75,12 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/aaid-2019-oct-23-26th.md
+- landing-pages/dental-website-design-get-started-1.md
 - landing-pages/medical-practice-marketing-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started.md
 - landing-pages/medical-practice-marketing-get-started-2.md
 - landing-pages/landing-page-test.md
-- landing-pages/aaid-2019-oct-23-26th.md
 - landing-pages/doctorlogic-webinar-reputation-management-1.md
 - landing-pages/medical-practice-marketing-get-started-6.md
 - landing-pages/cosmetic-surgery-website-design-get-started.md
@@ -90,7 +91,6 @@ pages:
 - landing-pages/medical-practice-marketing-get-started-3.md
 - landing-pages/dermatology-website-design-get-started-1.md
 - landing-pages/dermatology-website-design-get-started.md
-- landing-pages/dental-website-design-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started-1.md
 - landing-pages/website-design-medical-practice-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
@@ -98,7 +98,6 @@ pages:
 - landing-pages/medical-practice-marketing-get-started.md
 - landing-pages/dermatology-website-design-2.md
 - landing-pages/dental-website-design-get-started.md
-- landing-pages/plastic-surgery-website-design-get-started-2.md
 - landing-pages/dermatology-website-design.md
 - hello-leadership.md
 - landing-pages/components-are-cool.md
