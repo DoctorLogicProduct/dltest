@@ -8,20 +8,6 @@ custom_js: ''
 description: ''
 meta_image: "/uploads/review-request-feature.jpg"
 page_sections:
-- template: hero-with-form
-  component: hero-3
-  component_css: hero-3
-  bg_img: "/uploads/review-request-feature.jpg"
-  tagline:
-  - headline: Webinar | September 24th | 12:00 p.m. CST
-  headline: 3 Ways to Manage and Maintain a Positive Reputation Online
-  text: Join our webinar on December 3rd at 12:00 p.m. CST to learn about why your
-    online reputation matters in today’s digital world. You’ll learn 3 proven strategies
-    on ways to maintain a positive image online as well as receive a free reputation
-    analysis after the webinar from our team of medical marketing experts.
-  form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
-  form_template: forms/lp-form.html
-  btn: []
 - template: hero-with-iframe-form
   component: hero-4
   component_css: hero-4
@@ -33,9 +19,7 @@ page_sections:
   - headline: Webinar | December 3rd | 12:00 p.m. CST
   bg_img: "/uploads/review-request-feature.jpg"
   headline: 3 Ways to Manage and Maintain a Positive Reputation Online
-  btn:
-  - btn-link: ''
-    btn-label: ''
+  btn: []
   form_src: https://marketing.doctorlogic.com/l/772793/2019-10-10/n1wx
   form_height: "700"
 gsap: false
