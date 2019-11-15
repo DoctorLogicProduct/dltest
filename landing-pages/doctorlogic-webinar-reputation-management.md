@@ -22,6 +22,25 @@ page_sections:
   btn: []
   form_src: https://marketing.doctorlogic.com/l/772793/2019-10-10/n1wx
   form_height: "700"
+- template: text-component
+  component: text-component
+  component_css: text-component
+  text: Online reputation can make or break your medical practice – and your marketing
+    efforts. Our Reputation Management tool helps you acquire more reviews from patients
+    then organize and instantly display those reviews from around the web.
+  class: ''
+  headline: []
+  img: []
+  btn: []
+  link: []
+  wistia-link: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  headline: Reputation Management with DoctorLogic
+  wistia-id: "/hr95vqf7nb"
+  class: ''
+  text: ''
 gsap: false
 published: false
 
