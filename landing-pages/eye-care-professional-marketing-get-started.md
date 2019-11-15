@@ -1,14 +1,14 @@
 ---
 layout: components
-title: 'Eye Care Professional Marketing - Get Started '
-permalink: "/vision"
+title: 6 Reasons Why Google Ads Is Important For Your Practice
+permalink: "/google-ads-practice-growth"
 page_class:
 - class: lp
 gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/vision-3up-hires.jpg"
+meta_image: "/uploads/ec005aa3-f826-4ea6-9f0e-8e9152806289-760x400.jpeg"
 page_sections:
 - template: hero-with-image
   component: hero-1
