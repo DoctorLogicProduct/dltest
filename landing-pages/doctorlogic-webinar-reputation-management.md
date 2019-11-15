@@ -25,7 +25,7 @@ page_sections:
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
-  headline: Reputation Management with DoctorLogic
+  headline: How DoctorLogic Helps with Reputation Management
   wistia-id: "/hr95vqf7nb"
   class: ''
   text: ''
