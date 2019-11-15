@@ -30,12 +30,14 @@ page_sections:
     on ways to maintain a positive image online as well as receive a free reputation
     analysis after the webinar from our team of medical marketing experts.
   tagline:
-  - headline: ''
-  bg_img: ''
-  headline: ''
-  btn: []
-  form_src: ''
-  form_height: ''
+  - headline: Webinar | December 3rd | 12:00 p.m. CST
+  bg_img: "/uploads/review-request-feature.jpg"
+  headline: 3 Ways to Manage and Maintain a Positive Reputation Online
+  btn:
+  - btn-link: ''
+    btn-label: ''
+  form_src: https://marketing.doctorlogic.com/l/772793/2019-10-10/n1wx
+  form_height: "700"
 gsap: false
 published: false
 
