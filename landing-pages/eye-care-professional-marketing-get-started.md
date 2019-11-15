@@ -13,17 +13,19 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Digital Marketing Built for Eye Care Professionals
-  text: All our solutions come with a professional, mobile-responsive website that’s
-    designed to help your practice stand out online and convert patients.
+  headline: 6 Reasons Why Google Ads Is Important For Your Practice
+  text: Online advertising allows you to show your ads to the people who are likely
+    to be interested in your products and services, while filtering out folks who
+    aren't. And you can track whether those people clicked your ads. Online advertising
+    also gives you the opportunity to reach potential customers as they use multiple
+    devices — desktops, laptops, tablets, and smartphones. Here are 6 reasons why
+    Google Ads is important to help grow your practice.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/vision-3up-hires.jpg"
-  alt: Ophthalmology websites powered by DoctorLogic
-  btn:
-  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=1%2F4%20page%20ad&utm_medium=magazine&utm_campaign=ophthalmology_times
-    btn-label: Request a Demo
+  img: "/uploads/ec005aa3-f826-4ea6-9f0e-8e9152806289-760x400.jpeg"
+  alt: Google Ads for Doctors
+  btn: []
   text-link: []
   wistia-link: []
 - template: item-grid-component
