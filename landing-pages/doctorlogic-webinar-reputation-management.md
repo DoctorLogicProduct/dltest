@@ -29,18 +29,6 @@ page_sections:
   wistia-id: "/hr95vqf7nb"
   class: ''
   text: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Come Learn From Our Team of Medical Marketing Experts How You Can Improve
-      Your Online Reputation And Stand Our From Competitors.
-  class: ''
-  img: []
-  text: ''
-  btn: []
-  link: []
-  wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
@@ -53,6 +41,18 @@ page_sections:
   class: ''
   text: ''
   btn: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  class: section-gray
+  headline:
+  - headline: Register Now
+  text: 'Come learn from our team of medical marketing experts how you can improve
+    your online reputation and stand out from competitors. '
+  img: []
+  btn: []
+  link: []
   wistia-link: []
 gsap: false
 published: false
