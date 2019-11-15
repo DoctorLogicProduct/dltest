@@ -75,8 +75,8 @@ fields:
     max: 
   label: Page Sections
 pages:
-- landing-pages/eye-care-professional-marketing-get-started.md
 - landing-pages/doctorlogic-webinar-reputation-management.md
+- landing-pages/eye-care-professional-marketing-get-started.md
 - landing-pages/plastic-surgery-website-design-free-website-analysis.md
 - landing-pages/dental-website-design-get-started.md
 - landing-pages/dermatology-website-design-get-started.md
