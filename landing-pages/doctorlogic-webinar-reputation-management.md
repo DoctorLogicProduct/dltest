@@ -41,6 +41,19 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  per-row-count: '3'
+  headline: Happy Providers | Powered by DoctorLogic
+  practices:
+  - name: Morales Plastic Surgery
+  - name: Texas Center For Cosmetic Dentistry
+  - name: Sonterra Dermatology
+  class: ''
+  text: ''
+  btn: []
+  wistia-link: []
 gsap: false
 published: false
 
