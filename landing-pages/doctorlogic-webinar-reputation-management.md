@@ -22,6 +22,20 @@ page_sections:
   form_handler: https://marketing.doctorlogic.com/l/772793/2019-09-04/9tcs
   form_template: forms/lp-form.html
   btn: []
+- template: hero-with-iframe-form
+  component: hero-4
+  component_css: hero-4
+  text: Join our webinar on December 3rd at 12:00 p.m. CST to learn about why your
+    online reputation matters in today’s digital world. You’ll learn 3 proven strategies
+    on ways to maintain a positive image online as well as receive a free reputation
+    analysis after the webinar from our team of medical marketing experts.
+  tagline:
+  - headline: ''
+  bg_img: ''
+  headline: ''
+  btn: []
+  form_src: ''
+  form_height: ''
 gsap: false
 published: false
 
