@@ -29,6 +29,18 @@ page_sections:
   wistia-id: "/hr95vqf7nb"
   class: ''
   text: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Come Learn From Our Team of Medical Marketing Experts How You Can Improve
+      Your Online Reputation And Stand Our From Competitors.
+  class: ''
+  img: []
+  text: ''
+  btn: []
+  link: []
+  wistia-link: []
 gsap: false
 published: false
 
