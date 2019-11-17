@@ -76,7 +76,7 @@ page_sections:
     sales, and leads. By investing in PPC advertising, you can maximize your online
     profits easily. In a nutshell, PPC gives you a substantial amount of traffic for
     a predictable amount of money in less time. '
-  img: "/uploads/iStock-1058936710.jpg"
+  img: "/uploads/iStock-1057546876.jpg"
   class: ''
   btn: []
   wistia-link: []
