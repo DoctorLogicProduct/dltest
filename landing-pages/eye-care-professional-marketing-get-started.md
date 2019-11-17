@@ -1,7 +1,7 @@
 ---
 layout: components
 title: 6 Reasons Why Google Ads Is Important For Your Practice
-permalink: "/healthcare-pay-per-click-ads"
+permalink: "/medical-google-ads"
 page_class:
 - class: lp
 gsap: false
