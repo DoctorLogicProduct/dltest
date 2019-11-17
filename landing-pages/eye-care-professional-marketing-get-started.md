@@ -58,11 +58,12 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: Convert More Website Leads Into Patients
-  text: Every website lead is a chance to see a new patient, book a new consultation,
-    or connect with your existing patients. With Lead Generator, you can manage every
-    conversation that comes from your website.
-  img: "/uploads/Opportunities.jpg"
+  headline: Targeted Campaigns
+  text: 'With PPC, you can choose the space where you want your ads to get displayed.
+    This means you can make your marketing campaigns as targeted as possible through
+    PPC. Display to the correct audience at the right time so you can generate real
+    and relevant leads. '
+  img: "/uploads/iStock-518143052.jpg"
   btn: []
   wistia-link: []
   alt: ''
