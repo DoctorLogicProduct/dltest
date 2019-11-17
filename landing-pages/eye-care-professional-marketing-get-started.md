@@ -14,12 +14,11 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: 6 Reasons Why Google Ads Is Important For Your Practice
-  text: Online advertising allows you to show your ads to the people who are likely
-    to be interested in your products and services, while filtering out folks who
-    aren't. And you can track whether those people clicked your ads. Online advertising
-    also gives you the opportunity to reach potential customers as they use multiple
-    devices — desktops, laptops, tablets, and smartphones. Here are 6 reasons why
-    Google Ads is important to help grow your practice.
+  text: 'Google Ads (Pay-Per-Click) allows you to show your ads to the people who
+    are likely to be interested in your products and services while filtering out
+    folks who aren''t. And you can track whether those people clicked your ads. Google
+    Ads offers several benefits, here are 6 key reasons why it''s important for your
+    practice:'
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
@@ -34,7 +33,11 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Only Pay For The Clicked Ads
-  text: ''
+  text: 'Google Ads (Pay-Per-Click) allows you to show your ads to the people who
+    are likely to be interested in your products and services while filtering out
+    folks who aren''t. And you can track whether those people clicked your ads. Google
+    Ads offers several benefits, here are 6 key reasons why it''s important for your
+    practice:'
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
