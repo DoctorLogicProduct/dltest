@@ -63,7 +63,7 @@ page_sections:
     This means you can make your marketing campaigns as targeted as possible through
     PPC. Display to the correct audience at the right time so you can generate real
     and relevant leads. '
-  img: "/uploads/iStock-518143052.jpg"
+  img: "/uploads/iStock-1147932880.jpg"
   btn: []
   wistia-link: []
   alt: ''
