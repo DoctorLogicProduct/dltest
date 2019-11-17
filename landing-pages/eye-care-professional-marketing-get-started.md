@@ -33,15 +33,13 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Only Pay For The Clicked Ads
-  text: 'Google Ads (Pay-Per-Click) allows you to show your ads to the people who
-    are likely to be interested in your products and services while filtering out
-    folks who aren''t. And you can track whether those people clicked your ads. Google
-    Ads offers several benefits, here are 6 key reasons why it''s important for your
-    practice:'
+  text: 'Google Ads (PPC) is a very straightforward platform for online advertising
+    with no hidden complexities. In a PPC campaign, you pay Google (or any other search
+    engine) for listing your ads on the top and right of the organic search listings. '
   btn: []
   wistia-link: []
-  img: "/uploads/seo-performance (3).jpg"
-  alt: ''
+  img: "/uploads/iStock-1173739000.jpg"
+  alt: Pay For Clicked Ads
 - template: feature
   component: feature-1
   component_css: feature
