@@ -34,12 +34,11 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Only Pay For The Clicked Ads
-  text: 'Online advertising allows you to show your ads to the people who are likely
-    to be interested in your products and services while filtering out folks who aren''t.
-    And you can track whether those people clicked your ads. Google Ads allows you
-    to take advantage of the benefits of online advertising: show your ads to the
-    right people, in the right place, and at the right time. Google Ads offers several
-    benefits, here are 6 key reasons why it''s important for your practice:'
+  text: 'Google Ads (Pay-Per-Click) allows you to show your ads to the people who
+    are likely to be interested in your products and services while filtering out
+    folks who aren''t. And you can track whether those people clicked your ads. Google
+    Ads offers several benefits, here are 6 key reasons why it''s important for your
+    practice:'
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
