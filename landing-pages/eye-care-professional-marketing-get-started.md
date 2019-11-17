@@ -113,12 +113,13 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Ready to Get Found Online?
-  text: Achieve your business goals faster with our solutions designed for eye care
-    professionals to stand out online and convert leads to patients.
+  - headline: Boost Your Practice Growth With Paid Advertising
+  text: 'Google ads has a proven track record for success and we’re making it easy
+    to get started! For a limited time, we’re offering $3,000 towards your Google
+    ad campaigns when you sign up for a new website. '
   btn:
-  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=1%2F4%20page%20ad&utm_medium=magazine&utm_campaign=ophthalmology_times
-    btn-label: Request a Demo
+  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=landing-page&utm_medium=email&utm_campaign=google-ads-offer
+    btn-label: Claim Your Offer Today
   class: ''
   img: []
   link: []
