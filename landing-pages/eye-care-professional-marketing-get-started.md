@@ -71,11 +71,12 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Simple, Effective Reputation Management
-  text: Online reputation can make or break your practice – and your marketing efforts.
-    Our Reputation Management tool helps you acquire more reviews from patients then
-    organize and instantly display those reviews from around the web.
-  img: "/uploads/review-request-feature.jpg"
+  headline: Quicker Results
+  text: 'PPC has the potential of showing results very quickly in terms of traffic,
+    sales, and leads. By investing in PPC advertising, you can maximize your online
+    profits easily. In a nutshell, PPC gives you a substantial amount of traffic for
+    a predictable amount of money in less time. '
+  img: "/uploads/iStock-1058936710.jpg"
   class: ''
   btn: []
   wistia-link: []
