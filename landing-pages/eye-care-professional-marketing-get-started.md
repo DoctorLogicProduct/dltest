@@ -28,42 +28,18 @@ page_sections:
   btn: []
   text-link: []
   wistia-link: []
-- template: item-grid-component
-  component: item-grid
-  component_css: item-grid
-  per-row-count: '3'
-  items:
-  - img:
-    - src: "/uploads/download (1).png"
-      alt: ''
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/vold-vision-logo.png"
-      alt: ''
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/download (2).png"
-      alt: ''
-    headline: ''
-    text: ''
-    link: []
-  headline: Ophthalmologists That Trust Us
-  class: ''
-  text: ''
-  btn: []
 - template: feature
   component: feature-1
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: Amplify Your Practice with Proven SEO
-  text: Search Amplifier™ champions your entire brand through best-in-class medical
-    SEO strategies. Designed for search engines, our mobile-responsive websites have
-    an optimized structure and are populated with your specific keywords.
+  headline: Only Pay For The Clicked Ads
+  text: 'Online advertising allows you to show your ads to the people who are likely
+    to be interested in your products and services while filtering out folks who aren''t.
+    And you can track whether those people clicked your ads. Google Ads allows you
+    to take advantage of the benefits of online advertising: show your ads to the
+    right people, in the right place, and at the right time. Google Ads offers several
+    benefits, here are 6 key reasons why it''s important for your practice:'
   btn: []
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
