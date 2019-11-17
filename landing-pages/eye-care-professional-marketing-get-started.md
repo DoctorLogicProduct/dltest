@@ -84,7 +84,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   headline: A Higher Return on Investment (ROI)
   text: 'The ultimate goal of any marketing campaign is to generate the highest possible
     ROI. PPC is one of the most profitable marketing channels when it comes to generating
