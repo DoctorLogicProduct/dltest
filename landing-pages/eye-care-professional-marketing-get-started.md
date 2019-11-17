@@ -114,7 +114,7 @@ page_sections:
   component_css: text-component
   headline:
   - headline: Boost Your Practice Growth With Paid Advertising
-  text: 'Google ads has a proven track record for success and we’re making it easy
+  text: 'Google ads have a proven track record for success and we’re making it easy
     to get started! For a limited time, we’re offering $3,000 towards your Google
     ad campaigns when you sign up for a new website. '
   btn:
