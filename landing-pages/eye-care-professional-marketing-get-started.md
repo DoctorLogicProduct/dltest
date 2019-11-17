@@ -45,7 +45,7 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: Budget Control
+  headline: Control Your Costs
   text: 'You have all the power to set the budget according to your needs. You can
     set your financial plans for PPC advertising and can even control the complete
     expenses. '
