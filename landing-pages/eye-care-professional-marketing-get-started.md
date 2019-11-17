@@ -45,14 +45,13 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: Convert Visitors to Patients With Relevant Content
-  text: 'Content Multiplier™ amplifies the most relevant and engaging content pages
-    for patients and search engines. Our team of medical content writers provide a
-    robust collection of eye-care specific keywords and content, all while utilizing
-    proven SEO strategies to help you build better content, fast. '
+  headline: Budget Control
+  text: 'You have all the power to set the budget according to your needs. You can
+    set your financial plans for PPC advertising and can even control the complete
+    expenses. '
   btn: []
   wistia-link: []
-  img: "/uploads/gallery-list (2).jpg"
+  img: "/uploads/iStock-1167881574.jpg"
   alt: ''
 - template: feature
   component: feature-1
