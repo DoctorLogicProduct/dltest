@@ -81,6 +81,20 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: A Higher Return on Investment (ROI)
+  text: 'The ultimate goal of any marketing campaign is to generate the highest possible
+    ROI. PPC is one of the most profitable marketing channels when it comes to generating
+    higher ROI. It drives qualified traffic to your websites or landing page relatively
+    quickly and starts generating conversions. '
+  img: "/uploads/iStock-1171193165.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
