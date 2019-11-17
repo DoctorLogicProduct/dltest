@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 6 Reasons Why Google Ads Is Important For Your Practice
+title: 6 Reasons Why Google Ads Is Important For Your Medical Practice
 permalink: "/medical-google-ads"
 page_class:
 - class: lp
@@ -124,6 +124,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
