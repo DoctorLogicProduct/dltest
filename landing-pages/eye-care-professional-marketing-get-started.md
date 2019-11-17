@@ -95,6 +95,20 @@ page_sections:
   btn: []
   wistia-link: []
   alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: PPC Benefits Your SEO Strategy
+  text: 'PPC and SEO are highly related marketing channels. By combining PPC with
+    SEP you cover all areas as some customers prefer organic search while the others
+    are influenced by paid search. Thus, having search results shown in organic and
+    paid listings states that your ads are more relevant. '
+  img: "/uploads/iStock-1097080004.jpg"
+  class: ''
+  btn: []
+  wistia-link: []
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
