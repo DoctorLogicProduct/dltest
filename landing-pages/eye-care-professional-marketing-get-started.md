@@ -18,7 +18,7 @@ page_sections:
     are likely to be interested in your products and services while filtering out
     folks who aren''t. And you can track whether those people clicked your ads. Google
     Ads offers several benefits, here are 6 key reasons why it''s important for your
-    practice:'
+    medical practice:'
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
