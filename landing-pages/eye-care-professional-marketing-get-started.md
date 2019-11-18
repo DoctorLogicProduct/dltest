@@ -100,7 +100,7 @@ page_sections:
   component_css: feature
   img_alignment: Right
   headline: PPC Benefits Your SEO Strategy
-  text: 'PPC and SEO are highly related marketing channels. By combining PPC with
+  text: 'PPC and SEO are highly related to marketing channels. By combining PPC with
     SEO you cover all areas as some customers prefer organic search while the others
     are influenced by paid search. Thus, having search results shown in organic and
     paid listings states that your ads are more relevant. '
