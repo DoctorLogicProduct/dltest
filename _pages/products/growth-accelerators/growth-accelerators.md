@@ -98,4 +98,16 @@ page_sections:
   img: "/img/products/growth-accelerators/video-marketing.jpg"
   alt: "Video Marketing"
   img_alignment: "Left"
+- component: feature-1
+  component_css:
+  tagline: "Social Media"
+  headline: "Connect with Patients Through Social Media"
+  class: growth-accelerators__feature--3
+  text: "Great marketing on social media can bring remarkable success to your practice, creating devoted brand advocates and even driving leads and conversions. Your customers are already interacting with brands through social media, and if you're not speaking directly to your audience through social platforms, you're missing out!"
+  btn:
+  - btn-link: /growth-accelerators/video-content
+    btn-label: Learn More
+  img: "/img/products/growth-accelerators/social-media/social-media.jpg"
+  alt: "Social Media"
+  img_alignment: "Right"
 ---
