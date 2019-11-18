@@ -108,6 +108,6 @@ page_sections:
   - btn-link: /growth-accelerators/video-content
     btn-label: Learn More
   img: "/img/products/growth-accelerators/social-media/social-media.jpg"
-  alt: "Social Media"
+  alt: "Social Media Bob"
   img_alignment: "Right"
 ---
