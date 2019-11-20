@@ -105,9 +105,9 @@ page_sections:
   class: growth-accelerators__feature--3
   text: "Great marketing on social media can bring remarkable success to your practice, creating devoted brand advocates and even driving leads and conversions. Your customers are already interacting with brands through social media, and if you're not speaking directly to your audience through social platforms, you're missing out!"
   btn:
-  - btn-link: /growth-accelerators/video-content
+  - btn-link: /growth-accelerators/social-media
     btn-label: Learn More
   img: "/img/products/growth-accelerators/social-media/social-media.jpg"
-  alt: "Social Media Bob"
+  alt: "Social Media Product"
   img_alignment: "Right"
 ---
