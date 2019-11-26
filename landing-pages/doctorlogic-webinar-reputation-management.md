@@ -17,7 +17,7 @@ page_sections:
     analysis after the webinar from our team of medical marketing experts.
   tagline:
   - headline: Webinar | December 3rd | 12:00 p.m. CST
-  bg_img: "/uploads/review-request-feature.jpg"
+  bg_img: "/uploads/review-notifications.jpg"
   headline: 3 Ways to Manage and Maintain a Positive Reputation Online
   btn: []
   form_src: https://marketing.doctorlogic.com/l/772793/2019-10-10/n1wx
