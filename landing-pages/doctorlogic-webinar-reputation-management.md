@@ -47,7 +47,7 @@ page_sections:
   component_css: text-component
   class: section-gray
   headline:
-  - headline: Register Now
+  - headline: Join The Webinar
   text: 'Come learn from our team of medical marketing experts how you can improve
     your online reputation and stand out from competitors. '
   img: []
