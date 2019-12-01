@@ -1,7 +1,7 @@
 ---
 layout: components
 title: 'Paid Social |  Healthcare Practice Marketing - Get Started '
-permalink: healthcare-practice-marketing-get-started
+permalink: digital-marketing-healthcare-get-started
 page_class:
 - class: lp
 gsap: false
