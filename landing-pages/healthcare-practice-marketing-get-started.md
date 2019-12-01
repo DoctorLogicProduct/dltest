@@ -13,6 +13,20 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
+  headline: Marketing for Healthcare Practices
+  text: You want a partner who’s there to make your life simple and takes the guesswork
+    out of healthcare marketing. DoctorLogic is fully invested in your practice’s
+    success. Our priority is you.
+  btn:
+  - btn-link: "/get-a-demo-paid-social"
+    btn-label: Get a Free Demo
+  text-link: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: hero-with-image
+  component: hero-1
+  component_css: hero
   headline: 'Marketing For Healthcare Practices '
   text: You want a partner who’s there to make your life simple and takes the guesswork
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
