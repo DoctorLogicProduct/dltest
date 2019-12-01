@@ -22,25 +22,8 @@ page_sections:
     btn-label: Get a Free Demo
   text-link: []
   wistia-link: []
-  img: ''
-  alt: ''
-- template: hero-with-image
-  component: hero-1
-  component_css: hero
-  headline: 'Marketing For Healthcare Practices '
-  text: You want a partner who’s there to make your life simple and takes the guesswork
-    out of healthcare marketing. DoctorLogic is fully invested in your practice’s
-    success. Our priority is you.
-  button:
-  - btn-label: Get a Demo
-    btn-link: "/get-a-demo.html"
-  img: "/uploads/mix-3up-1.png"
-  alt: Plastic surgery websites powered by DoctorLogic
-  btn:
-  - btn-link: "/get-a-demo-paid-social"
-    btn-label: Get a Free Demo
-  text-link: []
-  wistia-link: []
+  img: "/uploads/carousel-1-2.jpg"
+  alt: Digital Marketing for Doctors
 - template: text-component
   component: text-component
   component_css: text-component
