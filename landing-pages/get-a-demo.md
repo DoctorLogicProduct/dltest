@@ -7,7 +7,7 @@ page_class:
 - class: form-page
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-headline: Get A Demo
+headline: Schedule One-on-One
 text: See firsthand how DoctorLogic can help you optimize your practice’s website,
   increase testimonials and online reviews, and increase your online presence with
   relevant content.
