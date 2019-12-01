@@ -128,7 +128,7 @@ page_sections:
   headline:
   - headline: Ready to get started?
   btn:
-  - btn-link: "/get-demo-ppc"
+  - btn-link: "/get-demo-paid-social"
     btn-label: Get A Demo
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
