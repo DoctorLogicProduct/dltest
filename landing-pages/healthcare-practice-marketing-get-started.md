@@ -24,7 +24,7 @@ page_sections:
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
   - btn-link: "/get-a-demo-paid-social"
-    btn-label: Schedule One-on-One
+    btn-label: Get a Free Demo
   text-link: []
   wistia-link: []
 - template: text-component
