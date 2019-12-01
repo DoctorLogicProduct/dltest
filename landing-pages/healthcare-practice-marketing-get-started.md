@@ -22,7 +22,7 @@ page_sections:
     btn-label: Get a Free Demo
   text-link: []
   wistia-link: []
-  img: "/uploads/carousel-1-2.jpg"
+  img: "/uploads/cosmetic-3up.png"
   alt: Digital Marketing for Doctors
 - template: text-component
   component: text-component
@@ -134,6 +134,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
