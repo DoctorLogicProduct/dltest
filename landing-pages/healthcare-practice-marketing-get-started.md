@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Healthcare Practice Marketing - Get Started '
+title: 'Copy | Healthcare Practice Marketing - Get Started '
 permalink: healthcare-practice-marketing-get-started
 page_class:
 - class: lp
@@ -23,7 +23,7 @@ page_sections:
   img: "/uploads/mix-3up-1.png"
   alt: Plastic surgery websites powered by DoctorLogic
   btn:
-  - btn-link: "/get-demo-ppc"
+  - btn-link: https://marketing.doctorlogic.com/l/772793/2019-11-27/221n52
     btn-label: 'Get A Demo '
   text-link: []
   wistia-link: []
