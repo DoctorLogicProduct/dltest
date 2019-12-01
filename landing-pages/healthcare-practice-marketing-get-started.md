@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Copy | Healthcare Practice Marketing - Get Started '
+title: 'Paid Social |  Healthcare Practice Marketing - Get Started '
 permalink: healthcare-practice-marketing-get-started
 page_class:
 - class: lp
