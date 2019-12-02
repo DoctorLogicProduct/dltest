@@ -24,28 +24,19 @@ page_sections:
   wistia-link: []
   img: "/uploads/cosmetic-3up.png"
   alt: Digital Marketing for Doctors
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Meet DoctorLogic | Your Practice Growth Experts
-  text: Our software was built specifically for the healthcare industry with patient
-    acquisition, retention marketing, and practice insights in mind, helping providers
-    connect with more patients. From website creation to content generation, reputation
-    management to Before and After Photo Galleries, SEO best practices to lead conversion,
-    we’ve got you covered.
-  wistia-link: []
-  class: ''
-  img: []
-  btn: []
-  link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  wistia-id: "/w7jgkunbv9"
-  class: ''
-  headline: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  class: section-gray
+  headline: Happy Providers | Powered by DoctorLogic
   text: ''
+  per-row-count: '3'
+  practices:
+  - name: Morales Plastic Surgery
+  - name: Texas Center For Cosmetic Dentistry
+  - name: TruDerm
+  btn: []
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -96,31 +87,24 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: The DoctorLogic Difference
-  text: Our difference depends on the diverse, engaged, passionate, and experienced
-    people who create our ideas and serve our clients. As our partner, you will also
-    have access to the latest solutions, transparent reporting, unlimited content,
-    technology upgrades, dedicated support and a 100% HIPAA compliant platform. You
-    will be taken care of with feedback on how to grow your practice from like minded
-    people who are medical marketing experts.
+  - headline: Meet DoctorLogic | Your Practice Growth Experts
+  text: Our software was built specifically for the healthcare industry with patient
+    acquisition, retention marketing, and practice insights in mind, helping providers
+    connect with more patients. From website creation to content generation, reputation
+    management to Before and After Photo Galleries, SEO best practices to lead conversion,
+    we’ve got you covered.
+  wistia-link: []
   class: ''
   img: []
   btn: []
   link: []
-  wistia-link: []
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  class: section-gray
-  headline: Happy Providers | Powered by DoctorLogic
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  wistia-id: "/w7jgkunbv9"
+  class: ''
+  headline: ''
   text: ''
-  per-row-count: '3'
-  practices:
-  - name: Morales Plastic Surgery
-  - name: Texas Center For Cosmetic Dentistry
-  - name: TruDerm
-  btn: []
-  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
@@ -132,6 +116,22 @@ page_sections:
   text: We Make Beautiful Websites That Are Designed To Grow Your Practice
   class: section-gray
   img: []
+  link: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: The DoctorLogic Difference
+  text: Our difference depends on the diverse, engaged, passionate, and experienced
+    people who create our ideas and serve our clients. As our partner, you will also
+    have access to the latest solutions, transparent reporting, unlimited content,
+    technology upgrades, dedicated support and a 100% HIPAA compliant platform. You
+    will be taken care of with feedback on how to grow your practice from like minded
+    people who are medical marketing experts.
+  class: ''
+  img: []
+  btn: []
   link: []
   wistia-link: []
 
