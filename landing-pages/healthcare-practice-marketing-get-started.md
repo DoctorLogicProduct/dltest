@@ -1,6 +1,6 @@
 ---
 layout: components
-title: 'Paid Social |  Healthcare Practice Marketing - Get Started '
+title: 'Marketing for Doctors - Get Started '
 permalink: digital-marketing-healthcare-get-started
 page_class:
 - class: lp
@@ -109,19 +109,6 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Ready to get started?
-  btn:
-  - btn-link: "/get-demo-paid-social"
-    btn-label: Get A Demo
-  text: We Make Beautiful Websites That Are Designed To Grow Your Practice
-  class: section-gray
-  img: []
-  link: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
   - headline: The DoctorLogic Difference
   text: Our difference depends on the diverse, engaged, passionate, and experienced
     people who create our ideas and serve our clients. As our partner, you will also
@@ -132,6 +119,19 @@ page_sections:
   class: ''
   img: []
   btn: []
+  link: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Ready to get started?
+  btn:
+  - btn-link: "/get-demo-paid-social"
+    btn-label: Get A Demo
+  text: We Make Beautiful Websites That Are Designed To Grow Your Practice
+  class: section-gray
+  img: []
   link: []
   wistia-link: []
 
