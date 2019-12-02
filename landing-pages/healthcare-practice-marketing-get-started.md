@@ -18,7 +18,7 @@ page_sections:
     out of healthcare marketing. DoctorLogic is fully invested in your practice’s
     success. Our priority is you.
   btn:
-  - btn-link: "/get-a-demo-paid-social"
+  - btn-link: "/get-demo-paid-social"
     btn-label: Get a Free Demo
   text-link: []
   wistia-link: []
@@ -134,6 +134,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
