@@ -11,7 +11,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Webinar | Online Reputation Management
+  headline: 'Online Reputation Management For Medical Practices '
   img: "/uploads/reviews-feature (2).jpg"
   alt: Practice Growth Experts
   text: ''
