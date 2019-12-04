@@ -1,7 +1,7 @@
 ---
 layout: components
 title: 'Webinar | Online Reputation Management - Recording '
-permalink: 'online-reputation-mangement/vide '
+permalink: online-reputation-mangement/video
 page_class: []
 custom_js: ''
 description: 'DoctorLogic was built to help build your practice with it''s website
@@ -26,10 +26,10 @@ page_sections:
   - headline: 'In this webinar, you will be provided with 3 proven strategies for
       managing your reviews (both positive and negative) to maintain a strong online
       reputation. '
-  wistia-link: []
-  btn:
-  - btn-link: https://drive.google.com/file/d/1hKzhywP8hJwIJgDZB54PYsXO02Vjj4MO/view?usp=sharing
-    btn-label: Watch Webinar
+  wistia-link:
+  - link-id: "/1jk681n6sn"
+    link-label: Watch Webinar
+  btn: []
   class: ''
   img: []
   text: ''
