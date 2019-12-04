@@ -11,7 +11,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'Online Reputation Management '
+  headline: 'Webinar | Online Reputation Management '
   img: "/uploads/reviews-feature (2).jpg"
   alt: Practice Growth Experts
   text: 'Reputation management for providers can be tricky in the digital world. Watch
