@@ -32,15 +32,49 @@
 
         &__text {
             z-index: 2;
+            text-align: center;
+            margin: 0 auto;
+
+            @include tablet-wide-min {
+              text-align: left;
+              margin: 0;
+            }
+            
         }
 
     }
 
     &__feature--1 {
+        padding: 0 10px 60px;
+
+        @include tablet-min {
+            padding: 0 5%;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+    }
+
+    &__feature--2 {
+        padding: 0 10px 60px;
+
+        @include tablet-min {
+            padding: 0 5% 60px;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+    }
+
+    &__feature--3 {
         padding: 60px 10px;
 
         @include tablet-min {
-            padding: 60px 5%;
+            padding: 0 5% 60px;
         }
 
         ul {
