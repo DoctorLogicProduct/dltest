@@ -24,6 +24,5 @@ page_sections:
   - wistia-link-id: "/1jk681n6sn"
     wistia-link-label: Watch Webinar
 gsap: false
-published: false
 
 ---
