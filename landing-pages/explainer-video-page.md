@@ -6,13 +6,13 @@ page_class: []
 custom_js: ''
 description: 'DoctorLogic was built to help build your practice with it''s website
   marketing platform built for healthcare providers. '
-meta_image: "/uploads/home-hero-1.jpg"
+meta_image: "/uploads/reviews-feature (2).jpg"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'Online Reputation Management For Medical Practices '
-  img: "/uploads/home-hero-1.jpg"
+  headline: Webinar | Online Reputation Management
+  img: "/uploads/reviews-feature (2).jpg"
   alt: Practice Growth Experts
   text: ''
   button: []
@@ -23,9 +23,8 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: 'In this webinar, you will be provided with 3 proven strategies for
-      managing your reviews (both positive and negative) to maintain a strong online
-      reputation. '
+  - headline: 'Watch this webinar to learn 3 proven strategies for managing your reviews
+      in order to maintain a strong online reputation. '
   wistia-link:
   - link-id: "/1jk681n6sn"
     link-label: Watch Webinar
