@@ -23,20 +23,6 @@ page_sections:
   wistia-link:
   - wistia-link-id: "/1jk681n6sn"
     wistia-link-label: Watch Webinar
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: 'Watch this webinar to learn 3 proven strategies for managing your reviews
-      in order to maintain a strong online reputation. '
-  wistia-link:
-  - link-id: "/1jk681n6sn"
-    link-label: Watch Webinar
-  btn: []
-  class: ''
-  img: []
-  text: ''
-  link: []
 gsap: false
 published: false
 
