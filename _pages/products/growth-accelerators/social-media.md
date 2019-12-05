@@ -8,7 +8,7 @@ page_class:
 - class: growth-accelerators
 - class: social-media
 product: "growth accelerators"
-permalink: "/growth-accelerators/social-media"
+permalink: "/growth-accelerators/medical-social-media-content"
 back_page: "growth-accelerators"
 page_sections:
 - component: hero-2

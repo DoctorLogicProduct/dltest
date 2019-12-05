@@ -8,8 +8,8 @@ page_class:
   - class: content-multiplier
   - class: patient-stories
 product: "content multiplier"
-permalink: "/content-multiplier/before-and-after-galleries"
-back_page: "content-multiplier"
+permalink: "/medical-website-content-multiplier/before-and-after-galleries"
+back_page: "medical-website-content-multiplier"
 page_sections:
 - component: hero-2
   component_css: hero-2

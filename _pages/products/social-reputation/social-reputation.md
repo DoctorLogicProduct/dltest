@@ -10,11 +10,11 @@ custom_js: social-reputation
 page_class:
 - class: social-reputation
 product: "social reputation"
-permalink: "/social-reputation"
+permalink: "/online-reputation-management-doctors"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 product_nav:
-- product_prev: "content-multiplier"
-  product_next: "search-amplifier"
+- product_prev: "medical-website-content-multiplier"
+  product_next: "medical-seo-search-generator"
 next_page: "search-amplifier"
 page_sections:
 - component: hero-1

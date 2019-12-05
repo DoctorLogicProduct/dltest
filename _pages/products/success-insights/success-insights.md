@@ -9,9 +9,9 @@ custom_js: success-insights
 page_class:
 - class: success-insights
 product: "success insights"
-permalink: "/success-insights"
+permalink: "/medical-website-success-insights"
 product_nav:
-- product_prev: "lead-generator"
+- product_prev: "healthcare-lead-generator"
   product_next: "growth-accelerators"
 next_page: "growth-accelerators"
 page_sections:

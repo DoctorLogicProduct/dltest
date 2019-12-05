@@ -11,8 +11,8 @@ page_class:
 product: "growth accelerators"
 permalink: "/growth-accelerators"
 product_nav:
-- product_prev: "success-insights"
-  product_next: "website-management"
+- product_prev: "medical-website-success-insights"
+  product_next: "medical-website-management"
 next_page: "website-management"
 page_sections:
 - component: hero-1
@@ -35,7 +35,7 @@ page_sections:
   class: growth-accelerators__feature--1
   text: "As more and more patients turn to search engines to find a doctor or more information on a certain medical procedure, it’s important to be where they’re looking. With Paid Advertising we can build targeted online campaigns that achieve maximum ROI for your medical practice."
   btn:
-  - btn-link: /growth-accelerators/paid-advertising
+  - btn-link: /growth-accelerators/medical-paid-advertising
     btn-label: Learn More
   img: "/img/products/growth-accelerators/paid-advertising.jpg"
   alt: "Paid Advertising"
@@ -47,7 +47,7 @@ page_sections:
   class: growth-accelerators__feature--2
   text: "The driver behind many elements of a successful marketing plan is Content Marketing. Content is essential to introducing patients to your practice with educational information and can dramatically impact your organic search results, SEO, rankings and keywords."
   btn:
-  - btn-link: /growth-accelerators/content-marketing
+  - btn-link: /growth-accelerators/healthcare-content-marketing
     btn-label: Learn More
   img: "/img/products/growth-accelerators/content-marketing.jpg"
   alt: "Content Marketing"
@@ -59,7 +59,7 @@ page_sections:
   headline: "Dedicated Managed Chat"
   text: "Your website is a lead generation engine and you have visitors coming in all the time. With Managed Chat, never miss a conversation and convert your valuable website traffic into leads."
   btn:
-  - btn-link: "/growth-accelerators/managed-chat"
+  - btn-link: "/growth-accelerators/medical-managed-chat"
     btn-label: Learn More
   items:
   - class: image-group__image--1
@@ -93,7 +93,7 @@ page_sections:
   class: growth-accelerators__feature--3
   text: "Video has been proven to attract more consumer attention than any other medium. To really stand out from your competition, build trust and increase traffic to your website, video should be part of your marketing strategy."
   btn:
-  - btn-link: /growth-accelerators/video-content
+  - btn-link: /growth-accelerators/doctor-video-content-production
     btn-label: Learn More
   img: "/img/products/growth-accelerators/video-marketing.jpg"
   alt: "Video Marketing"
@@ -105,7 +105,7 @@ page_sections:
   class: growth-accelerators__feature--3
   text: "Great marketing on social media can bring remarkable success to your practice, creating devoted brand advocates and even driving leads and conversions. Your customers are already interacting with brands through social media, and if you're not speaking directly to your audience through social platforms, you're missing out!"
   btn:
-  - btn-link: /growth-accelerators/social-media
+  - btn-link: /growth-accelerators/medical-social-media-content
     btn-label: Learn More
   img: "/img/products/growth-accelerators/social-media/social-media.jpg"
   alt: "Social Media Product"
