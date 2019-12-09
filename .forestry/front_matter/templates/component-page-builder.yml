@@ -75,6 +75,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- landing-pages/6-reasons-why-google-ads-is-important-for-your-medical-practice.md
 - landing-pages/explainer-video-page.md
 - landing-pages/healthcare-practice-marketing-get-started.md
 - landing-pages/doctorlogic-webinar-reputation-management.md
