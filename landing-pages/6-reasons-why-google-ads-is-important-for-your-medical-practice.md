@@ -70,12 +70,10 @@ page_sections:
   component_css: text-component
   headline:
   - headline: Ready to learn the secret to SEO?
-  text: 'Google ads have a proven track record for success and we’re making it easy
-    to get started! For a limited time, we’re offering $3,000 towards your Google
-    ad campaigns when you sign up for a new website. '
+  text: ''
   btn:
-  - btn-link: https://doctorlogic.com/get-a-demo?utm_source=landing-page&utm_medium=email&utm_campaign=google-ads-offer
-    btn-label: Claim Your Offer Today
+  - btn-link: ''
+    btn-label: Download Ebook
   class: ''
   img: []
   link: []
