@@ -8,7 +8,7 @@ gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: "/uploads/ec005aa3-f826-4ea6-9f0e-8e9152806289-760x400.jpeg"
+meta_image: ''
 page_sections:
 - template: hero-with-image
   component: hero-1
@@ -32,8 +32,10 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: 'Why Is SEO Important? '
-  text: ''
+  headline: Why Is SEO Important
+  text: We'll discuss how technology has changed over the years and why that matters
+    in today's digital world, specifically from an SEO perspective. We'll also discuss
+    how you can reach your audience at the right time and place online.
   btn: []
   wistia-link: []
   img: ''
@@ -44,7 +46,9 @@ page_sections:
   img_alignment: Right
   class: ''
   headline: 'How Search Engines Works & Meta Tags '
-  text: ''
+  text: 'In order to succeed with SEO, you need to understand SEO. We''ll discuss
+    how search engines are programmed and how meta tags affect the way your website
+    ranks. '
   btn: []
   wistia-link: []
   img: ''
@@ -55,7 +59,8 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: What Really Matters in SEO
-  text: ''
+  text: 'Google''s algorithms are constantly changing. We''ll discuss which important
+    factors you need to consider right now in order to get ahead online. '
   img: ''
   btn: []
   wistia-link: []
@@ -64,7 +69,7 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Boost Your Practice Growth With Paid Advertising
+  - headline: Ready to learn the secret to SEO?
   text: 'Google ads have a proven track record for success and we’re making it easy
     to get started! For a limited time, we’re offering $3,000 towards your Google
     ad campaigns when you sign up for a new website. '
