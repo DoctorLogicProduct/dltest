@@ -4,6 +4,10 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Base Pages - Do Not Use
+  create: all
+  match: "**/*"
 - type: directory
   path: landing-pages
   label: Landing Pages
