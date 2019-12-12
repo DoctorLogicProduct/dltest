@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: landing-pages
+  label: Landing Pages
+  create: all
+  match: "**/*"
+- type: directory
   path: _pages
   label: Other Pages - DEV
   create: all
