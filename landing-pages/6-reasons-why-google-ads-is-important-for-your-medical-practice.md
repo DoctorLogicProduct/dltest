@@ -33,9 +33,10 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: Why Is SEO Important
-  text: We'll discuss how technology has changed over the years and why that matters
-    in today's digital world, specifically from an SEO perspective. We'll also discuss
-    how you can reach your audience at the right time and place online.
+  text: Technology has dramatically changed over the years. We'll discuss why that
+    matters in today's digital world, specifically from an SEO perspective, and show
+    you how you can use technology to reach your audience at the right time and place
+    online.
   btn: []
   wistia-link: []
   img: ''
@@ -59,8 +60,8 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: What Really Matters in SEO
-  text: 'Google''s algorithms are constantly changing. We''ll discuss which important
-    factors you need to consider right now in order to get ahead online. '
+  text: 'Google''s algorithms are constantly changing. We''ll show you which factors
+    you need to consider right now in order to get ahead online. '
   img: ''
   btn: []
   wistia-link: []
