@@ -37,7 +37,7 @@
     }
 
     &__feature--1 {
-        padding-bottom: 0;
+        padding-bottom: 60px;
     }
 
     &__feature--2 {
@@ -45,9 +45,15 @@
     }
 
     &__item-grid {
+        padding: 60px 20px 0;
 
         .item-grid__items--4 .item-grid__item {
-            grid-column: auto / span 12;
+            grid-column: auto / span 24;
+
+            @include tablet-min {
+              grid-column: auto / span 12;
+            }
+            
 
             img {
                 max-width: 500px;

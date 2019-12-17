@@ -24,13 +24,13 @@ page_sections:
   headline: "Tell Your Story"
   text: "Engage your webiste visitors with content about your practice, services, practitioners and more.  Keep visitors updated with the latest news, specials and offerings available. Simply drag and drop items on to the page to create your desired layout making content creation a breeze!"
   btn:
-  img: "/img/products/content-multiplier/photo-upload.jpg"
+  img: "/img/products/content-multiplier/articles/article-creation.jpg"
   alt: "Easily Add Photos"
   img_alignment: "Left"
 - component: callout-headline
   component_css: callout-headline
   class: callout-headline__content
-  headline: "<span>74%</span> of companies say converting leads into customers is their top priority."
+  headline: "Companies who blog receive <span>97%</span> more links to their website."
   source: "HubSpot"
 - component: item-grid
   component_css: item-grid
@@ -57,14 +57,14 @@ page_sections:
   headline: "Stay Organized"
   text: "Create collections of posts to specifically target your digital marketing needs. Need a collection about your monthly specials and a separate collection about industry trends?  No problem, collections make keeping your content separate and organized simple."
   btn:
-  img: "/img/products/content-multiplier/gallery-list.jpg"
+  img: "/img/products/content-multiplier/articles/collection-creation.jpg"
   alt: "Search Made Simple"
   img_alignment: "Right"
 - component: callout
   component_css: callout
   class: content-multiplier__callout
   background: false
-  headline: "Start Creating Galleries Today"
+  headline: "Start Writing Posts Today"
   text: "It's easy to get started. Schedule a personalized demo today."
   btn:
   - btn-label: "Get a Demo"
