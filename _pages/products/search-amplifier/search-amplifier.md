@@ -9,10 +9,10 @@ custom_js: search-amplifier
 page_class:
 - class: search-amplifier
 product: "search amplifier"
-permalink: "/search-amplifier"
+permalink: "/medical-seo-search-amplifier"
 product_nav:
-- product_prev: "social-reputation"
-  product_next: "lead-generator"
+- product_prev: "online-reputation-management-doctors"
+  product_next: "healthcare-lead-generator"
 next_page: "lead-generator"
 page_sections:
 - component: hero-1

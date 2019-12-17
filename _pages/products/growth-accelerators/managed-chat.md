@@ -8,7 +8,7 @@ page_class:
 - class: growth-accelerators
 - class: managed-chat
 product: "growth accelerators"
-permalink: "/growth-accelerators/managed-chat"
+permalink: "/growth-accelerators/medical-managed-chat"
 hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
 back_page: "growth-accelerators"
 page_sections:
