@@ -270,10 +270,10 @@
     }
 
     &__feature--1 {
-        padding-bottom: 60px;
+        padding-bottom: 0;
 
         @include phone-wide-min {
-          padding-top: 40px;
+          padding-bottom: 0;
         }
         
     }
@@ -288,6 +288,19 @@
 
     &__feature--3 {
       padding-bottom: 60px;
+    }
+
+    &__feature--5 {
+
+      .feature__container {
+        padding: 60px 10px;
+
+        @include phone-wide-min {
+          padding: 0 5% 60px;
+        }
+        
+      }
+
     }
 
 }

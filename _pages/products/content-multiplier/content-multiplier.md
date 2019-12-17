@@ -28,6 +28,17 @@ page_sections:
   btn:
   img: "/img/products/content-multiplier/hero-img.svg"
   alt: "DoctorLogic Content Multiplier"
+- component: feature-1
+  component_css: feature
+  class: content-multiplier__feature--5
+  headline: "Easily create fresh, relevant content with Articles"
+  text: "Not only does your website need to be fast, secure, and mobile friendly, but it also needs to have pages on pages of quality content optimized for SEO. We’re making it easier to add relevant content to your website and drive additional online visibility with Articles."
+  btn:
+  - btn-label: "Find Out More"
+    btn-link: "/content-multiplier/articles"
+  img: "/img/products/content-multiplier/articles/content-page-articles.jpg"
+  alt: "Articles Content Creation Tool"
+  img_alignment: "Left"
 - component: item-grid
   component_css: item-grid
   class: content-multiplier__item-grid--1
@@ -52,6 +63,11 @@ page_sections:
   btn:
     - btn-link: "/content-multiplier/before-and-after-galleries"
       btn-label: "See How It Works"
+- component: callout-headline
+  component_css: callout-headline
+  class: callout-headline__content
+  headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic."
+  source: "HubSpot"
 - component: feature-1
   component_css: feature
   class: content-multiplier__feature--1
@@ -61,11 +77,6 @@ page_sections:
   img: "/img/products/content-multiplier/service-pages.jpg"
   alt: "SEO Rich Pages"
   img_alignment: "Left"
-- component: callout-headline
-  component_css: callout-headline
-  class: callout-headline__content
-  headline: "<span>72%</span> of marketers found content creation is the most effective SEO Tactic."
-  source: "HubSpot"
 - component: feature-1
   component_css:
   class: content-multiplier__feature--2
