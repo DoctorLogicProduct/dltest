@@ -9,10 +9,10 @@ custom_js: website-management
 page_class:
 - class: website-management
 product: "website management"
-permalink: "/website-management"
+permalink: "/medical-website-management"
 product_nav:
 - product_prev: "growth-accelerators"
-  product_next: "content-multiplier"
+  product_next: "medical-website-content-multiplier"
 next_page: "content-multiplier"
 page_sections:
 - component: hero-1
@@ -34,7 +34,7 @@ page_sections:
   headline: "Make The First Impression Count"
   text: "Your website is a significant asset to your digital strategy and should not be taken lightly. With DoctorLogic, you'll receive a website that not only looks great but functions seamlessly. Receive a custom and educational medical website that is 100% responsive and built with one goal in mind: grow your practice."
   btn:
-  - btn-link: "/medical-website-design"
+  - btn-link: "/medical-practice-website-design"
     btn-label: "Discover Our Work"
   items:
   - class: image-group__image--1

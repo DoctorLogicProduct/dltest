@@ -9,13 +9,16 @@ sections:
   label: Landing Pages
   create: all
   match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: directory
   path: _pages
   label: Other Pages - DEV
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
+- type: jekyll-pages
+  label: Base Pages - Do Not Use
   create: all
 upload_dir: uploads
 public_path: "/uploads"

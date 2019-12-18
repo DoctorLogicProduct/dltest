@@ -9,10 +9,10 @@ custom_js: lead-generator
 page_class:
  - class: lead-generator
 product: "lead generator"
-permalink: "/lead-generator"
+permalink: "/healthcare-lead-generator"
 product_nav:
-- product_prev: "search-amplifier"
-  product_next: "success-insights"
+- product_prev: "medical-seo-search-amplifier"
+  product_next: "medical-website-success-insights"
 next_page: "success-insights"
 page_sections:
 - component: hero-1

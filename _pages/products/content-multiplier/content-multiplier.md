@@ -9,10 +9,10 @@ custom_js: content-multiplier
 page_class:
   - class: content-multiplier
 product: "content multiplier"
-permalink: "/content-multiplier"
+permalink: "/medical-website-content-multiplier"
 product_nav:
-- product_prev: "website-management"
-  product_next: "social-reputation"
+- product_prev: "medical-website-management"
+  product_next: "online-reputation-management-doctors"
 next_page: "social-reputation"
 page_sections:
 - component: hero-1
@@ -61,7 +61,7 @@ page_sections:
     headline: "Capture The Lead"
     text: "Don't make it hard on your website visitors to contact your practice. Every gallery page includes a contact form so patients can schedule a consultation."
   btn:
-    - btn-link: "/content-multiplier/before-and-after-galleries"
+    - btn-link: "/medical-website-content-multiplier/before-and-after-galleries"
       btn-label: "See How It Works"
 - component: callout-headline
   component_css: callout-headline

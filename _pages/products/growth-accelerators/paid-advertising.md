@@ -8,7 +8,7 @@ page_class:
 - class: growth-accelerators
 - class: paid-advertising
 product: "growth accelerators"
-permalink: "/growth-accelerators/paid-advertising"
+permalink: "/growth-accelerators/medical-paid-advertising"
 back_page: "growth-accelerators"
 page_sections:
 - component: hero-2
