@@ -11,10 +11,10 @@ tl.to('.btn', 1, {opacity: 1 }), "6";
 const scene = new ScrollMagic.Scene({
     triggerElement: '.item-grid__container',
     offset: 0,
-    triggerHook: 0, //between 0 an 1
-    duration: '300%'
+    triggerHook: .3, //between 0 an 1
+    duration: '60%'
 })  
-    .setPin('.item-grid__container', { pushFollowers: true })
+    // .setPin('.item-grid__container', { pushFollowers: true })
     .setTween(tl)
     // .addIndicators({ name: "2 (duration: 300)", colorTrigger: "blue" })
     .addTo(controller);
