@@ -11,4 +11,19 @@
 	<a class="btn {% if section.background == true %} btn--clear {% endif %}" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
 	{% endif %}
 	{% endfor %}
+	{% for text-link in section.text-link %}
+	{% if section.text-link %}
+	<a class="text-link text-link--white" href="{{text-link.link}}">{{text-link.label}}</a>
+	{% endif %}
+	{% endfor %}
+	<ul class="dot-bubble">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
 </section>

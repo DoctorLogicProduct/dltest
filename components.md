@@ -156,15 +156,17 @@ page_sections:
   class: callout__success
   headline: "Put our software to work for you."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
-  btn-link: "#"
-  btn-label: "Learn More"
+  text-link:
+  - link: "#"
+    label: Learn More
 - component: callout
   component_css: callout
   class: callout__growth
   headline: "Put our software to work for you."
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate, incidunt quo pariatur iure minus at suscipit offic  velit molestiae, fugit est fuga impedit accusantium architecto eligendi. Explicabo, voluptas, sed."
-  btn-link: "#"
-  btn-label: "Learn More"
+  btn:
+  - btn-link: "#"
+    btn-label: "Learn More"
 - component: item-grid
   class: item-grid-4-sample
   per-row-count: "4"

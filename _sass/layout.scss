@@ -24,6 +24,7 @@ body {
 
 main {
 	background-color: rgba(255,255,255,1);
+	overflow: hidden;
 }
 
 .section-gray {
@@ -408,7 +409,6 @@ body.success-insights .text-link {
 			}
 		}
 }
-
 
 .block {
 	@include grid;

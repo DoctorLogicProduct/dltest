@@ -281,22 +281,23 @@
     &__feature--2 {
 
         @include phone-wide-min {
-          padding-top: 60px;
+          padding-top: 40px;
+          padding-bottom: 40px;
         }
         
     }
 
     &__feature--3 {
-      padding-bottom: 60px;
+      padding-bottom: 40px;
     }
 
     &__feature--5 {
 
       .feature__container {
-        padding: 60px 10px;
+        padding: 40px 10px 0;
 
         @include phone-wide-min {
-          padding: 0 5% 80px;
+          padding: 40px 5% 80px;
         }
         
       }

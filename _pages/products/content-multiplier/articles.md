@@ -62,6 +62,14 @@ page_sections:
   img_alignment: "Right"
 - component: callout
   component_css: callout
+  class: callout__content
+  headline: "Don't have time to write your own posts?"
+  text: "Let our experienced content writers will blend their talents in medical and digital marketing to deliver custom, SEO-rich content for your practice to meet your content marketing goals."
+  text-link:
+  - link: "/growth-accelerators/healthcare-content-marketing"
+    label: Learn More
+- component: callout
+  component_css: callout
   class: content-multiplier__callout
   background: false
   headline: "Start Writing Posts Today"
