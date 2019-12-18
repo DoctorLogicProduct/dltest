@@ -37,7 +37,7 @@ page_sections:
   - btn-label: "Find Out More"
     btn-link: "/content-multiplier/articles"
   img: "/img/products/content-multiplier/articles/content-page-articles.jpg"
-  alt: "Articles Content Creation Tool"
+  alt: "DoctorLogic Articles Content Creation Tool"
   img_alignment: "Left"
 - component: item-grid
   component_css: item-grid
