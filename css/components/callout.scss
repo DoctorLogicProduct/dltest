@@ -13,6 +13,7 @@
 	min-height: 400px;
 	background: $gradient-website-management;
 	position: relative;
+	overflow: hidden;
 
 	@include tablet-min {
 		padding: 60px 5%;
@@ -106,7 +107,11 @@
 
 	h3, p {
 		color: $color-1;
-	}	
+	}
+	
+	ul {
+		display: none;
+	}
 
 }
 
