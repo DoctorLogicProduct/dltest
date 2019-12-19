@@ -10,7 +10,7 @@ headline: SEO 101 For Doctors
 text: In this ebook, we’ll uncover critical components of healthcare SEO, offer recommendations
   for best practices, and provide you ways you can succeed with your SEO strategy.
 form_src: https://marketing.doctorlogic.com/l/772793/2019-12-09/223hfn
-form_height: "200"
+form_height: "400"
 img_src: "/uploads/SEO_Artboard 1@2x.png"
 img_alt: ''
 published: false
