@@ -17,7 +17,7 @@ product:
 - success insights
 
 ---
-According to the [ASPS 2016 Plastic Surgery Statistics Report](https://www.plasticsurgery.org/documents/News/Statistics/2018/plastic-surgery-statistics-full-report-2018.pdf "2018 ASPS Statistics"), breast augmentation continues to be the top cosmetic surgical procedure and has been since 2006. Silicone implants were used in 88%, and saline implants in 12%, of all breast augmentations in 2018. The other top procedures with notable gains include tummy tuck (up 107%), liposuction (up 5%), and buttock augmentation with fat grafting (up 19%).
+According to the [ASPS 2018 Plastic Surgery Statistics Report](https://www.plasticsurgery.org/documents/News/Statistics/2018/plastic-surgery-statistics-full-report-2018.pdf "2018 ASPS Statistics"), breast augmentation continues to be the top cosmetic surgical procedure and has been since 2006. Silicone implants were used in 88%, and saline implants in 12%, of all breast augmentations in 2018. The other top procedures with notable gains include tummy tuck (up 107%), liposuction (up 5%), and buttock augmentation with fat grafting (up 19%).
 
 With more cutting-edge procedures and technologies hitting the market, patients are becoming more aware of new opportunities and more interested in researching the best options for their bodies.
 
