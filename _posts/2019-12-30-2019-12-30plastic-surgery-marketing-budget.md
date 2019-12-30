@@ -1,5 +1,5 @@
 ---
-post_title: Plastic Surgery Marketing | How Much to Budget for Practice Growth
+post_title: 'Plastic Surgery Marketing: How Much to Budget for Practice Growth'
 date: 2019-12-30 17:00:00 +0000
 post_author: Andre Riley
 tags:
