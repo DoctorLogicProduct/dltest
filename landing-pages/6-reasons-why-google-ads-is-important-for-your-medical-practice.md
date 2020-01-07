@@ -39,7 +39,7 @@ page_sections:
     online.
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/16.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -52,7 +52,7 @@ page_sections:
     ranks. '
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/21.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -62,7 +62,7 @@ page_sections:
   headline: What Really Matters in SEO
   text: 'Google''s algorithms are constantly changing. We''ll show you which factors
     you need to consider right now in order to get ahead online. '
-  img: ''
+  img: "/uploads/7.png"
   btn: []
   wistia-link: []
   alt: ''
