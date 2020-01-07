@@ -51,12 +51,11 @@ According to Google, 72 percent of people who own a voice-activated speaker say 
 
 Understanding how to [optimize your website for voice search](https://doctorlogic.com/blog/why-you-need-voice-search.html) can help you generate more organic traffic if you understand and implement conversational searches into your SEO strategy.
 
-  
 **_Snippets Dominate More Search Clicks_**
 
 Stat: [54.7% of clicks ](https://www.searchenginepeople.com/blog/googles-featured-snippets-roundup-recent-stats-studies.html)from Google originate from Featured Snippets - proving they drive more than half of search engine clicks.
 
-![](https://lh3.googleusercontent.com/OXYSIhE9V4BokiB4enypOWN9H_iHEPXa_i8UAjlDyAyF2aU6URFbBWnlGwHTEbm6d5DwoS8mJ535BDgx2gGCZpKWNn8LohyNDelee_5TFw1DqGuP0LbR-Vpj4AXbMy1Lq86A1R3M =624x364)
+![](/uploads/Screen Shot 2019-11-10 at 10.36.27 AM.png)
 
 Google continues to evolve in recent years to deliver a better search experience for the user, like through Featured Snippets.
 
@@ -94,7 +93,7 @@ Stats: There are 2.7 billion smartphone users around the world.
 
 While optimizing your website for SEO needs to be your number one priority,[ Google My Business (GMB)](https://www.google.com/business/) should be second in line; especially for practices who rely on local traffic. It’s free and can get you incredible exposure if you’re optimized enough to show up in Google’s three-pack:
 
-![](https://lh5.googleusercontent.com/K9MtGx5Fq1lxHrp3LSBNT_Qf8_dzCxgfYGIQpE4B-tmPafvOll86IyFWXGC6ZnWIQtA8ggnaH8Hfmh9HAyPCGp-XZtGN2A2AQID2uiD4KhT5DAvCUYNG6PgBu5el86rIOSLRP_Rn =405x386)
+![](/uploads/Screen Shot 2019-11-10 at 2.31.21 PM.png)
 
 GMB works in conjunction with your website ranking. The more you boost your practice online, the more chances you have towards dominating the first page of search results.
 
@@ -118,4 +117,4 @@ You can simplify the review process by working with a [reputation marketing soft
 
 Search engine optimization, when done effectively, can prove significant value to your practice.
 
-If you’re already familiar with these trends, then you are definitely ahead of the game. It’s time to double-down so you can generate more targeted traffic from Google. But if you still have questions and need help with [SEO services](https://doctorlogic.com/search-amplifier), contact DoctorLogic to help solve your SEO challenges. 
+If you’re already familiar with these trends, then you are definitely ahead of the game. It’s time to double-down so you can generate more targeted traffic from Google. But if you still have questions and need help with [SEO services](https://doctorlogic.com/search-amplifier), contact DoctorLogic to help solve your SEO challenges.
