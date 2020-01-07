@@ -13,7 +13,7 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: 'EBOOK: SEO 101 FOR DOCTORS'
+  headline: SEO 101 FOR DOCTORS
   text: 'Download this ebook to uncover critical components of your healthcare SEO.
     Discover best practices and ways you can succeed with your SEO strategy. '
   button:
