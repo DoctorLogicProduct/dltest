@@ -8,7 +8,7 @@ gsap: false
 custom_js: ''
 description: DoctorLogic's proprietary software & proven strategy gets you found by
   more patients and ranking at the top of Google.
-meta_image: ''
+meta_image: "/uploads/SEO-101-cover.jpeg"
 page_sections:
 - template: hero-with-image
   component: hero-1
@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: ''
+  img: "/uploads/SEO-101-cover-1.jpeg"
   alt: SEO for Doctors
   btn:
   - btn-link: ''
