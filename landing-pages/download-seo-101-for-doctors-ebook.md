@@ -11,7 +11,7 @@ text: In this ebook, we’ll uncover critical components of healthcare SEO, offe
   for best practices, and provide you ways you can succeed with your SEO strategy.
 form_src: https://marketing.doctorlogic.com/l/772793/2019-12-09/223hfn
 form_height: "400"
-img_src: "/uploads/SEO-101-cover-1.jpeg"
+img_src: "/uploads/Untitled design (34).png"
 img_alt: ''
 published: false
 
