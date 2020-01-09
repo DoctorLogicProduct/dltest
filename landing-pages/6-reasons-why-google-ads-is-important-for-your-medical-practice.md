@@ -19,7 +19,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/1278x811-1.jpg"
+  img: ''
   alt: SEO for Doctors
   btn:
   - btn-link: ''
