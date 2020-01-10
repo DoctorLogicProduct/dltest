@@ -23,7 +23,7 @@ page_sections:
   alt: SEO for Doctors
   btn:
   - btn-link: ''
-    btn-label: 'Download Now '
+    btn-label: Download Ebook
   text-link: []
   wistia-link: []
 - template: feature
