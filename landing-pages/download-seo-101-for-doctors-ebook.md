@@ -7,7 +7,7 @@ page_class:
 - class: form-page
 description: Uncover critical components of healthcare SEO, learn best practices,
   and discover ways you can succeed with your SEO strategy.
-headline: SEO 101 For Doctors
+headline: Download Ebook
 text: Uncover critical components of healthcare SEO, learn best practices, and discover
   ways you can succeed with your SEO strategy.
 form_src: https://marketing.doctorlogic.com/l/772793/2019-12-09/223hfn
