@@ -14,6 +14,5 @@ form_src: https://marketing.doctorlogic.com/l/772793/2019-12-09/223hfn
 form_height: "400"
 img_src: "/uploads/1278x811_v2.png"
 img_alt: 'SEO 101 For Doctors Ebook '
-published: false
 
 ---
