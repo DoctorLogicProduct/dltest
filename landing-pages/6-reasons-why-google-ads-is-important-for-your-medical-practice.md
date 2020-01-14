@@ -78,6 +78,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
