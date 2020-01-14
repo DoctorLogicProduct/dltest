@@ -14,8 +14,9 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: SEO 101 FOR DOCTORS
-  text: Uncover critical components of healthcare SEO, learn best practices, and discover
-    ways you can succeed with your SEO strategy.
+  text: 'Strengthen your online presence and dominate your local search in 2020. When
+    you download this guide you will uncover critical components of healthcare SEO,
+    learn best practices, and discover ways you can succeed with your SEO strategy. '
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
