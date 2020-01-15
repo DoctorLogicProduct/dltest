@@ -2,7 +2,7 @@
 layout: iframe-form
 meta_image: "/img/meta/dl_jpg"
 title: 'Download SEO 101 For Doctors Ebook '
-permalink: "/download-seo-101-ebook"
+permalink: download-seo-101-ebook
 page_class:
 - class: form-page
 description: Uncover critical components of healthcare SEO, learn best practices,

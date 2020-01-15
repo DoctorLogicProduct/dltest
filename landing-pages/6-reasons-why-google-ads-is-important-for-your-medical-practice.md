@@ -1,7 +1,7 @@
 ---
 layout: components
 title: SEO 101 For Doctors | DoctorLogic Ebook
-permalink: "/medical-seo-ebook"
+permalink: medical-seo-ebook
 page_class:
 - class: lp
 gsap: false
