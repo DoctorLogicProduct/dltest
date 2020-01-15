@@ -23,7 +23,7 @@ page_sections:
   img: "/uploads/1278x811_v2.png"
   alt: SEO for Doctors
   btn:
-  - btn-link: ''
+  - btn-link: https://doctorlogic.com//download-seo-101-ebook
     btn-label: Download Ebook
   text-link: []
   wistia-link: []
@@ -72,7 +72,7 @@ page_sections:
   - headline: Ready to learn the secret to SEO?
   text: ''
   btn:
-  - btn-link: ''
+  - btn-link: https://doctorlogic.com//download-seo-101-ebook
     btn-label: Download Ebook
   class: ''
   img: []
