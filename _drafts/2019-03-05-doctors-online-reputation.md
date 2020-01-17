@@ -1,5 +1,5 @@
 ---
-post_title: Reputation Management for Doctors in a Digital World
+post_title: How Doctors Manage Their Reputation in a Digital World
 date: 2019-03-05T06:00:00.000+00:00
 post_author: Keisha Dunstan
 tags:
@@ -19,7 +19,7 @@ For example, one of the first things disgruntled patients do these days is find 
 
 So what can you do to better manage your online reputation and how do you respond when you do in fact receive a negative review?
 
-### Managing Your Reputation from the Get Go
+### Managing Your Reputation from the Get-Go
 
 A big part of your business lives online, so you should be prepared to take the proper steps to ensure you’re putting your best foot forward from the start.
 
