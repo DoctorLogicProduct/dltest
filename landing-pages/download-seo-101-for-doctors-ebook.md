@@ -2,17 +2,17 @@
 layout: iframe-form
 meta_image: "/img/meta/dl_jpg"
 title: 'Download SEO 101 For Doctors Ebook '
-permalink: "/download-seo-101-ebook"
+permalink: download-seo-101-ebook
 page_class:
 - class: form-page
-description: ''
-headline: SEO 101 For Doctors
-text: In this ebook, we’ll uncover critical components of healthcare SEO, offer recommendations
-  for best practices, and provide you ways you can succeed with your SEO strategy.
+description: Uncover critical components of healthcare SEO, learn best practices,
+  and discover ways you can succeed with your SEO strategy.
+headline: Download Ebook
+text: Uncover critical components of healthcare SEO, learn best practices, and discover
+  ways you can succeed with your SEO strategy.
 form_src: https://marketing.doctorlogic.com/l/772793/2019-12-09/223hfn
 form_height: "400"
-img_src: "/uploads/SEO_Artboard 1@2x.png"
-img_alt: ''
-published: false
+img_src: "/uploads/1278x811_v2.png"
+img_alt: 'SEO 101 For Doctors Ebook '
 
 ---
