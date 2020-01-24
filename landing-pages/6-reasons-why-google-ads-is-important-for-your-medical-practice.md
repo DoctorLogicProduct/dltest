@@ -45,7 +45,7 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: 'How Search Engines Works & Meta Tags '
+  headline: 'How Search Engines Work & Meta Tags '
   text: 'In order to succeed with SEO, you need to understand SEO. We''ll discuss
     how search engines are programmed and how meta tags affect the way your website
     ranks. '
