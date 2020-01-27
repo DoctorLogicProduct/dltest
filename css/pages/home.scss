@@ -122,6 +122,10 @@
       @include desktop-wide-min {
         bottom: -70px;
       }
+
+      svg {
+        fill: $color-2;
+      }
       
       
     }
@@ -250,10 +254,6 @@
     position: relative;
     padding: 60px 5%;
 
-    &--attract {
-      background: #f0f4f8;
-    }
-
     &__wave {
       position: absolute;
       left: 0;
@@ -338,7 +338,33 @@
         align-items: center;     
       }
 
-      &--attract {
+    }
+
+    &__img {
+      grid-column: auto / span 24;
+      order: 2;
+
+      @include tablet-wide-min {
+        grid-column: auto / span 12;
+      }
+      
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 0 auto;
+
+        @include tablet-wide-min {
+          max-width: 100%;
+        }
+        
+      }
+    }
+
+    &--attract {
+      background: #f0f4f8;
 
       li span {
         color: $color-2;
@@ -370,37 +396,45 @@
 
     }
 
-    }
+    &--retain {
 
-    &__img {
-      grid-column: auto / span 24;
-      order: 2;
-
-      @include tablet-wide-min {
-        grid-column: auto / span 12;
+      .home-content-50__wave svg {
+        fill: $color-2;
       }
-      
 
-      img {
-        display: block;
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        margin: 0 auto;
+      li span {
+        color: $color-2;
+        background: $gradient-search-amplifier;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
 
-        @include tablet-wide-min {
-          max-width: 100%;
+      .text-link {
+        color: $search;
+
+        &::after {
+          background: $search-2;
         }
-        
+
+        @include desktop-sm-min {
+
+            &:hover {
+              color: $search-2;
+            }
+          }
       }
+
     }
+
   }
 
   .home-tabs {
-
-    &--1 {
-      
-    }
 
     &__headline {
       max-width: 1200px;
@@ -526,7 +560,7 @@
   }
 
 
-  }
+}
 
 #tab-one:checked ~ .tabs #tab-one-label,
 #tab-two:checked ~ .tabs #tab-two-label,
@@ -565,10 +599,12 @@
 .home-tabs--1 {
 
   background: #f0f4f8;
+  padding: 0 20px 60px;
 
         .flex-tabs {
 
           .panel {
+            box-shadow: $box-shadow;
 
             &__text h2 {
               color: $reputation;
@@ -605,6 +641,10 @@
           .tab__container-text {
             color: $reputation;
           }
+        }
+
+        .home-tabs__menu-tabs {
+          z-index: 1;
         }
 
 
