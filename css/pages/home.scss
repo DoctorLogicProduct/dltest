@@ -63,14 +63,8 @@
       }
 
       p {
-        font-size: 2.5rem;
         max-width: 650px;
-        line-height: 1.1;
-        margin-top: 0;
-
-        span {
-          font-weight: 500;
-        }
+        margin-top: 0;        
       }
 
     }
@@ -78,10 +72,15 @@
     &__img {
       flex: 0 0 100%;
       width: 100%;
-      max-width: 70%;
+      max-width: 100%;
       min-height: 500px;
       margin: 0 auto;
       position: relative;
+
+      @include tablet-min {
+        max-width: 70%;
+      }
+      
 
       @include desktop-min {
         max-width: 800px;
@@ -137,14 +136,24 @@
       &::after {
         content: '';
         position: absolute;
-        background: url('/img/home/wave-1.svg') center center/contain no-repeat;
+        background: url('/img/home/wave-1.svg') left center/contain no-repeat;
         left: 0;
         top: auto;
         bottom: 0;
         width: 100%;
         height: auto;
-        min-height: 400px;
+        min-height: 100px;
         opacity: 1;
+
+        @include phone-wide-min {
+          min-height: 200px;
+        }
+        
+
+        @include tablet-wide-min {
+          min-height: 400px;
+        }
+        
       }
 
     }
@@ -153,18 +162,18 @@
       @include grid; 
       max-width: 100%;
       margin: 0 auto;
-      padding: 180px 20px 280px;
       position: relative;
       z-index: 1;
+      padding: 80px 20px 120px;
 
       @include phone-wide-min {
         max-width: 80%;
+        padding: 100px 20px 200px;
       }
       
-      
-
       @include tablet-wide-min {
         max-width: 1200px;
+        padding: 180px 20px 280px;
       }
       
     }
@@ -248,17 +257,22 @@
     &__wave {
       position: absolute;
       left: 0;
-      top: -30px;
+      top: -50px;
       width: 100%;
       height: unset;
 
-      @include tablet-wide-min {
+      @include phone-wide-min {
         top: -100px;
+      }
+      
+
+      @include tablet-wide-min {
         height: 300px;
+        top: -220px;
       }
       
       @include desktop-wide-min {
-        top: -220px;
+    
       }
       
     }
@@ -282,14 +296,8 @@
       }
 
       p {
-        font-size: 2.5rem;
         max-width: 800px;
-        line-height: 1.1;
         margin: 20px auto 0;
-
-        span {
-          font-weight: 500;
-        }
       }
 
     }
@@ -387,6 +395,220 @@
       }
     }
   }
+
+  .home-tabs {
+
+    &--1 {
+      
+    }
+
+    &__headline {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 40px;
+      background: $gradient-social-reputation;
+
+      h2 {
+        color: $color-2;
+      }
+
+    }
+
+    &__menu-tabs {
+    margin: 0 auto;
+  	max-width: 1200px;
+    position: relative;
+
+    .state{
+      position: absolute;
+      left: -10000px;
+    }
+
+    .flex-tabs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      counter-reset: tab-counter;
+
+        .tab{
+          position: relative;
+          padding: 20px;
+          flex: 1;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: $color-2;
+          border-left: solid 1px #f0f4f8;
+          border-top: solid 1px #f0f4f8;
+          border-bottom: solid 1px #f0f4f8;
+          cursor: pointer;
+          counter-increment: tab-counter;
+
+          &::before {
+            content: counter(tab-counter);
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background: $reputation-2;
+            border: solid 2px $color-2;
+            border-radius: 50%;
+            color: $color-2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          &:last-of-type {
+            border-right: solid 1px #f0f4f8;
+          }
+
+          &:hover{
+            background-color: $color-2;
+          }
+
+          &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+
+          &__container-img svg {
+            fill: $color-1;
+          }
+
+        }
+
+        .panel {
+          background-color: $color-2;
+          padding: 60px;
+          min-height: 300px;
+          display: none;
+          width: 100%;
+          flex-wrap: wrap;
+
+          &__container {
+            @include grid;
+            width: 100%;
+          }
+
+          &__img {
+            grid-column: auto / span 12;
+            grid-row: auto;
+
+            img {
+              width: 100%;
+              max-width: 100%;
+              height: auto;
+              display: block;
+            }
+
+          }
+
+          &__text {
+            grid-column: auto / span 12;
+            grid-row: auto;
+            padding: 20px;
+
+            h4 {
+              text-align: left;
+              font-weight: 400;
+            }
+          }
+      }
+    }
+    
+  }
+
+
+  }
+
+#tab-one:checked ~ .tabs #tab-one-label,
+#tab-two:checked ~ .tabs #tab-two-label,
+#tab-three:checked ~ .tabs #tab-three-label,
+#tab-four:checked ~ .tabs #tab-four-label,
+#tab-five:checked ~ .tabs #tab-five-label,
+#tab-six:checked ~ .tabs #tab-six-label{
+    box-shadow: $box-shadow;
+    cursor: default;
+    min-height: 200px;
+    z-index: 2;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20px;
+      background: $gradient-social-reputation;
+    }
+
+}
+
+#tab-one:checked ~ .tabs #tab-one-panel,
+#tab-two:checked ~ .tabs #tab-two-panel,
+#tab-three:checked ~ .tabs #tab-three-panel,
+#tab-four:checked ~ .tabs #tab-four-panel,
+#tab-five:checked ~ .tabs #tab-five-panel,
+#tab-six:checked ~ .tabs #tab-six-panel{
+    display: flex;
+}
+
+
+.home-tabs--1 {
+
+  background: #f0f4f8;
+
+        .flex-tabs {
+
+          .panel {
+
+            &__text h2 {
+              color: $reputation;
+            }
+
+            &__text .text-link {
+            color: $reputation;
+
+              &::after {
+                background: $reputation-2;
+              }
+
+              @include desktop-sm-min {
+
+                  &:hover {
+                    color: $reputation-2;
+                  }
+                }
+              }
+            }
+        }
+
+        #tab-one:checked ~ .tabs #tab-one-label,
+        #tab-two:checked ~ .tabs #tab-two-label,
+        #tab-three:checked ~ .tabs #tab-three-label,
+        #tab-four:checked ~ .tabs #tab-four-label,
+        #tab-five:checked ~ .tabs #tab-five-label,
+        #tab-six:checked ~ .tabs #tab-six-label {
+
+          .tab__container-img svg {
+              fill: $reputation;
+            }
+
+          .tab__container-text {
+            color: $reputation;
+          }
+        }
+
+
+}
 
   .home-designs {
     background: #f7f6f6;

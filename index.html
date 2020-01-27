@@ -82,10 +82,10 @@ talent:
     <div class="hero-1__text">
         <h5>{{hero.tagline}}</h5>
         <h1>{{hero.headline}}</h1>
-        <p>{{hero.text}}</p>
+        <p class="loud">{{hero.text}}</p>
     </div>
     <div class="hero-1__img">
-        {% for img in hero.img%}
+        {% for img in hero.img %}
         <img class="{{img.class}}" src="{{img.src}}" alt="{{img.alt}}">
         {% endfor %}
     </div>
@@ -125,7 +125,7 @@ talent:
     <div class="home-content-50__container">
         <div class="home-content-50__headline">
             <h2>Attract.</h2>
-            <p>Effortlessly attract more new patients. The all-in-one Patient Attraction Suite.</p>
+            <p class="loud">Effortlessly attract more new patients. The all-in-one Patient Attraction Suite.</p>
         </div>
         <div class="home-content-50__list home-content-50__list--attract">
             <h3>The Patient Attraction Suite</h3>
@@ -143,6 +143,196 @@ talent:
             <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
         </div>
     </div>
+</div>
+
+<div class="home-tabs home-tabs--1">
+
+    <div class="home-tabs__headline">
+        <h2>The Patient Attraction Suite</h2>
+    </div>
+
+    <div class="home-tabs__menu-tabs">
+
+        <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
+        <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two" />
+        <input class="state" type="radio" title="tab-three" name="tabs-state" id="tab-three" />
+        <input class="state" type="radio" title="tab-four" name="tabs-state" id="tab-four" />
+        <input class="state" type="radio" title="tab-five" name="tabs-state" id="tab-five" />
+        <input class="state" type="radio" title="tab-six" name="tabs-state" id="tab-six" />
+
+        <div class="tabs flex-tabs">
+            <label for="tab-one" id="tab-one-label" class="tab bob">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-websites.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Websites
+                    </div>
+                </div>
+            </label>
+            <label for="tab-two" id="tab-two-label" class="tab">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-content.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Content
+                    </div>
+                </div>
+            </label>
+            <label for="tab-three" id="tab-three-label" class="tab">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-social.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Social
+                    </div>
+                </div>
+            </label>
+            <label for="tab-four" id="tab-four-label" class="tab">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-reputation.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Reputation
+                    </div>
+                </div>
+            </label>
+            <label for="tab-five" id="tab-five-label" class="tab">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-search.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Search
+                    </div>
+                </div>
+            </label>
+            <label for="tab-six" id="tab-six-label" class="tab">
+                <div class="tab__container">
+                    <div class="tab__container-img">
+                        {% include /svg/icons/icon-dashboard.html %}
+                    </div>
+                    <div class="tab__container-text">
+                        Dashboard
+                    </div>
+                </div>
+            </label>
+
+
+            <div id="tab-one-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Website Platform</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to explain this product so people want to buy it. Words go here to explain this product so people want to buy it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-two-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Content Marketing</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to
+                            explain this product so people want to buy it. Words go here to explain this product so people want to buy
+                            it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so
+                            people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-three-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Social Management</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to
+                            explain this product so people want to buy it. Words go here to explain this product so people want to buy
+                            it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so
+                            people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-four-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Reputation Builder</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to
+                            explain this product so people want to buy it. Words go here to explain this product so people want to buy
+                            it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so
+                            people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-five-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Search Optimization</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to
+                            explain this product so people want to buy it. Words go here to explain this product so people want to buy
+                            it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so
+                            people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-six-panel" class="panel active">
+                <div class="panel__container">
+                    <div class="panel__img">
+                        <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
+                    </div>
+                    <div class="panel__text">
+                        <h2>Dashboard Insights</h2>
+                        <h4>Website content is an appreciating asset like ocean front real estate.</h4>
+                        <p>Words go here to explain this product so people want to buy it. Write this content first. Words go here to
+                            explain this product so people want to buy it. Words go here to explain this product so people want to buy
+                            it.</p>
+                        <p>Words go here to explain this product so people want to buy it. Words go here to explain this product so
+                            people.</p>
+                        <a href="#" class="text-link">Learn More ></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
 </div>
 
 {% for designs in page.designs %}

@@ -105,6 +105,24 @@ p {
 	
 }
 
+p.loud {
+	font-size: 1.4rem;
+	line-height: 1.1;
+
+	span {
+	  font-weight: 500;
+	}
+		
+	@include tablet-min {
+      font-size: 3vw;
+	}
+		
+	@include desktop-wide-min {
+	  font-size: 2.5rem;
+	}
+	
+}
+
 a {
 	color: $color-3;
 	transition: color .3s;
