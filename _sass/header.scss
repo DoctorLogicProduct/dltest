@@ -39,6 +39,12 @@
 		.header__logo-img {
 			width: 100%;
 			height: auto;
+			background: url('/img/header-logo-white.svg') left center/contain no-repeat;
+		}
+
+		body.header-bg .header__logo-img {
+			width: 100%;
+			height: auto;
 			background: url('/img/header-logo.svg') left center/contain no-repeat;
 		}
 
@@ -64,13 +70,12 @@
 				text-decoration: none;
 				padding: 6px 12px;
 				letter-spacing: 1px;
-				background: $websites-2;
+				background: $websites;
 				background-position: 1% 50%;
 				background-size: 400% 300%;
 				transition: 700ms ease-out;
 				color: $color-2;
-				border-top-left-radius: 10px;
-				border-bottom-right-radius: 10px;
+				border-radius: 30px;
 
 				&:hover {
 					color: $color-2;
@@ -134,7 +139,6 @@
 					content: 'desktop';
 				}
 			}
-
 
 			.dropdown {
 				position: relative;
@@ -432,7 +436,7 @@
 					display: block;
 					padding: 0 15px;
 					line-height: 1.2;
-					color: $color-1;
+					color: $color-2;
 					font-weight: 400;
 					font-size: .8rem;
 					text-transform: uppercase;
@@ -440,6 +444,15 @@
 					text-decoration: none;
 				}
 
+			}
+			
+		}
+
+		body.header-bg .dl-morph-dropdown .main-nav {
+			@include desktop-sm-min {
+			  & > ul > li > a {
+				  color: $color-1;
+			  }
 			}
 			
 		}

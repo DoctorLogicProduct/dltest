@@ -62,35 +62,15 @@ h1 {
 }
 
 h2 {
-	text-align: left;
-	font-weight: 400;
-	max-width: 100%;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	line-height: 1;
-	margin: 0 0 10px;
+	text-align: left;
+	margin: 0;
+	font-weight: 500;
 
 	@include desktop-sm-min {
-		font-size: 3vw;
+		font-size: 2.1rem;
 	}
-
-	@include desktop-wide-min {
-		font-size: 2.5rem;
-	}
-
-	// span {
-	// 	font-weight: 700;
-	// 	font-size: 2rem;
-	// 	display: block;
-
-	// @include desktop-sm-min {
-	// 	font-size: 4.5vw;
-	// }
-
-	// @include desktop-wide-min {
-	// 	font-size: 3.5rem;
-	// }
-		
-	// }
 }
 
 h3 {
@@ -103,15 +83,6 @@ h3 {
 	@include desktop-sm-min {
 		font-size: 1.9rem;
 	}
-
-	// span {
-	// 	font-weight: 700;
-	// 	font-size: 1.7rem;
-
-	// 	@include desktop-sm-min {
-	// 		font-size: 2rem;
-	// 	}
-	// }
 }
 
 h4 {
@@ -150,12 +121,12 @@ ul {
     padding-left: 1em;
 }
 
-ul > li:before {
-    display: inline-block;
-    content: "-";
-    width: 1em;
-    margin-left: -1em;
-}
+// ul > li:before {
+//     display: inline-block;
+//     content: "-";
+//     width: 1em;
+//     margin-left: -1em;
+// }
 
 sup {
 	font-size: 12px;
@@ -175,13 +146,12 @@ sup {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: $websites-2;
+	background: $websites;
 	background-position: 1% 50%;
 	background-size: 400% 300%;
 	transition: 700ms ease-out;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	width: 250px;
+	border-radius: 30px;
+	min-width: 250px;
 	border: none;
 
 	&:hover {
@@ -660,7 +630,7 @@ textarea {
   width: 100%;
   font-size: 1rem;
   border: 1px solid $color-1 !important;
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: rgba(255,255,255, .7);
   color: $color-1;
   left: 0;
