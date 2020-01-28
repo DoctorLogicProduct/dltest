@@ -440,7 +440,6 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 60px 40px;
-      background: $gradient-social-reputation;
 
       h2 {
         color: $color-2;
@@ -567,7 +566,7 @@
 #tab-three:checked ~ .tabs #tab-three-label,
 #tab-four:checked ~ .tabs #tab-four-label,
 #tab-five:checked ~ .tabs #tab-five-label,
-#tab-six:checked ~ .tabs #tab-six-label{
+#tab-six:checked ~ .tabs #tab-six-label {
     box-shadow: $box-shadow;
     cursor: default;
     min-height: 200px;
@@ -586,12 +585,41 @@
 
 }
 
+#tab-seven:checked ~ .tabs #tab-seven-label,
+#tab-eight:checked ~ .tabs #tab-eight-label,
+#tab-nine:checked ~ .tabs #tab-nine-label,
+#tab-ten:checked ~ .tabs #tab-ten-label,
+#tab-eleven:checked ~ .tabs #tab-eleven-label,
+#tab-twelve:checked ~ .tabs #tab-twelve-label {
+  box-shadow: $box-shadow;
+    cursor: default;
+    min-height: 200px;
+    z-index: 2;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20px;
+      background: $gradient-search-amplifier;
+    }
+}
+
 #tab-one:checked ~ .tabs #tab-one-panel,
 #tab-two:checked ~ .tabs #tab-two-panel,
 #tab-three:checked ~ .tabs #tab-three-panel,
 #tab-four:checked ~ .tabs #tab-four-panel,
 #tab-five:checked ~ .tabs #tab-five-panel,
-#tab-six:checked ~ .tabs #tab-six-panel{
+#tab-six:checked ~ .tabs #tab-six-panel,
+#tab-seven:checked ~ .tabs #tab-seven-panel,
+#tab-eight:checked ~ .tabs #tab-eight-panel,
+#tab-nine:checked ~ .tabs #tab-nine-panel,
+#tab-ten:checked ~ .tabs #tab-ten-panel,
+#tab-eleven:checked ~ .tabs #tab-eleven-panel,
+#tab-twelve:checked ~ .tabs #tab-twelve-panel{
     display: flex;
 }
 
@@ -601,52 +629,141 @@
   background: #f0f4f8;
   padding: 0 20px 60px;
 
-        .flex-tabs {
+  .home-tabs {
+    
+    &__headline {
+      background: $gradient-social-reputation;
+    }
+
+    &__menu-tabs {
+
+      .flex-tabs {
+
+        .panel {
+          box-shadow: $box-shadow;
+
+          &__text h2 {
+            color: $reputation;
+          }
+
+          &__text .text-link {
+          color: $reputation;
+
+            &::after {
+              background: $reputation-2;
+            }
+
+            @include desktop-sm-min {
+
+                &:hover {
+                  color: $reputation-2;
+                }
+              }
+            }
+          }
+      }
+
+
+    }
+
+  }
+
+
+  #tab-one:checked ~ .tabs #tab-one-label,
+  #tab-two:checked ~ .tabs #tab-two-label,
+  #tab-three:checked ~ .tabs #tab-three-label,
+  #tab-four:checked ~ .tabs #tab-four-label,
+  #tab-five:checked ~ .tabs #tab-five-label,
+  #tab-six:checked ~ .tabs #tab-six-label {
+
+    .tab__container-img svg {
+        fill: $reputation;
+      }
+
+    .tab__container-text {
+      color: $reputation;
+    }
+  }
+
+  .home-tabs__menu-tabs {
+    z-index: 1;
+  }
+
+
+}
+
+.home-tabs--2 {
+
+  .home-tabs {
+    
+    &__headline {
+      background: $gradient-search-amplifier;
+    }
+
+    &__menu-tabs {
+
+    .flex-tabs {
+
+          .tab {
+
+            &::before {
+              background: $search-2;
+            }
+
+          }
 
           .panel {
             box-shadow: $box-shadow;
 
+            &__text {
+              order: 1;
+            }
+
             &__text h2 {
-              color: $reputation;
+              color: $search;
             }
 
             &__text .text-link {
-            color: $reputation;
+            color: $search;
 
               &::after {
-                background: $reputation-2;
+                background: $search-2;
               }
 
               @include desktop-sm-min {
 
                   &:hover {
-                    color: $reputation-2;
+                    color: $search-2;
                   }
                 }
               }
+
+              &__img {
+                order: 2;
+              }
+              
             }
         }
 
-        #tab-one:checked ~ .tabs #tab-one-label,
-        #tab-two:checked ~ .tabs #tab-two-label,
-        #tab-three:checked ~ .tabs #tab-three-label,
-        #tab-four:checked ~ .tabs #tab-four-label,
-        #tab-five:checked ~ .tabs #tab-five-label,
-        #tab-six:checked ~ .tabs #tab-six-label {
+    }
 
-          .tab__container-img svg {
-              fill: $reputation;
-            }
+  }
 
-          .tab__container-text {
-            color: $reputation;
-          }
+  #tab-seven:checked ~ .tabs #tab-seven-label,
+  #tab-eight:checked ~ .tabs #tab-eight-label,
+  #tab-nine:checked ~ .tabs #tab-nine-label,
+  #tab-ten:checked ~ .tabs #tab-ten-label,
+  #tab-eleven:checked ~ .tabs #tab-eleven-label,
+  #tab-twelve:checked ~ .tabs #tab-twelve-label {
+
+      .tab__container-img svg {
+          fill: $search;
         }
 
-        .home-tabs__menu-tabs {
-          z-index: 1;
-        }
-
+      .tab__container-text {
+        color: $search;
+      }
+    }
 
 }
 
