@@ -12,7 +12,7 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: Test Matt
-  text: testing
+  text: testing tester
   img: "/uploads/iStock-1147932880.jpg"
   btn: []
   text-link: []
