@@ -1,25 +1,27 @@
 ---
 layout: components
-title: New Dental Patients Through DoctorLogic
-permalink: practice-growth-experts/dental-solutions
+title: Practice Growth With DoctorLogic
+permalink: practice-growth-experts/medical-providers
 page_class:
 - class: email-blast
-custom_js: email-blast
-description: Dental Data Solutions
-meta_image: "/uploads/macbook_desk_mockup--luminous.jpg"
+custom_js: ''
+description: Attract more patients with the DoctorLogic Website Marketing Platform.
+  Built for medical providers. Request a demo to learn more.
+meta_image: ''
 page_sections:
-- template: hero-with-form
-  component: hero-3
-  component_css: hero-3
-  bg_img: "/uploads/featured-image (2).jpg"
+- template: hero-with-iframe-form
+  component: hero-4
+  component_css: hero-4
   tagline:
-  - headline: Built to Power Your Practice Growth
-  headline: The Modern Way to Grow Your Dental Practice
-  text: DoctorLogic was built to help dentist acquire more patients, optimize marketing
-    costs, and become a leader in the market by helping you stand out online.
-  form_template: forms/lp-form.html
+  - headline: Built to power your practice growth
+  headline: 'Digital Marketing For Medical Providers '
+  text: You need a partner who’s there to make your life simple and take the guesswork
+    out of digital marketing. DoctorLogic is fully invested in your practice’s success.
+    Our priority is you.
+  bg_img: ''
   btn: []
-  form_handler: https://marketing.doctorlogic.com/l/772793/2019-07-24/yt4
+  form_src: ''
+  form_height: ''
 - template: image-group
   component: image-group
   component_css: image-group
