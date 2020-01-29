@@ -110,7 +110,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   class: 'Transparent Reporting '
   headline: Invested In Your Success
   text: Receive full access to your performance metrics through your practice dashboard
@@ -125,7 +125,7 @@ page_sections:
   img_alignment: Right
   headline: Want to Grow Even Faster?
   text: 'With services like paid advertising, social media, additional content, chat,
-    and video, our Growth Accelerators can help practice reach new heights. '
+    and video, our Growth Accelerators can help your practice reach new heights. '
   class: ''
   btn: []
   wistia-link: []
