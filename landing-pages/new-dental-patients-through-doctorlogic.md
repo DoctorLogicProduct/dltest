@@ -15,7 +15,7 @@ page_sections:
   tagline:
   - headline: Built to power your practice growth
   headline: 'Digital Marketing For Medical Providers '
-  text: You need a partner who’s there to make your life simple and take the guesswork
+  text: You need a partner who’s there to make life simple and take the guesswork
     out of digital marketing. DoctorLogic is fully invested in your practice’s success.
     Our priority is you.
   bg_img: ''
@@ -74,10 +74,10 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Convert Visitors to Patients With Custom Content
-  text: 'We provide custom content for every procedure and service offered at your
-    practice. They''re structured perfectly to give you the domain and keyword authority
-    you need to dominate search results. '
+  headline: Custom Content Built To Convert
+  text: Receive custom content for every procedure and service offered at your practice.
+    Structured perfectly to give you the domain and keyword authority to dominate
+    search results.
   class: ''
   btn: []
   wistia-link: []
@@ -123,7 +123,7 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Right
-  headline: Want to Grow Even Faster?
+  headline: Grow Even Faster
   text: 'With services like paid advertising, social media, additional content, chat,
     and video, our Growth Accelerators can help your practice reach new heights. '
   class: ''
