@@ -73,6 +73,19 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
+  img_alignment: Left
+  headline: Convert Visitors to Patients With Custom Content
+  text: 'We provide custom content for every procedure and service offered at your
+    practice. They''re structured perfectly to give you the domain and keyword authority
+    you need to dominate search results. '
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
   img_alignment: Right
   headline: Reputation Management Made Simple
   text: Display reviews from across the web in one place, prioritize your favorites,
@@ -94,6 +107,30 @@ page_sections:
   btn: []
   alt: ''
   wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  class: 'Transparent Reporting '
+  headline: Invested In Your Success
+  text: Receive full access to your performance metrics through your practice dashboard
+    and track everything from visitors, page views, channel source, and lead generation.
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Want to Grow Even Faster?
+  text: 'With services like paid advertising, social media, additional content, chat,
+    and video, our Growth Accelerators can help practice reach new heights. '
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
