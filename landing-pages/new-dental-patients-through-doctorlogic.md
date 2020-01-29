@@ -22,55 +22,6 @@ page_sections:
   btn: []
   form_src: ''
   form_height: ''
-- template: image-group
-  component: image-group
-  component_css: image-group
-  class: email-blast__image-group
-  headline: One Company. One Solution. Unlimited Results.
-  text: Imagine one solution created to improve patient experiences and help grow
-    your practice’s online presence. DoctorLogic offers the most advanced Website
-    Marketing Platform built to help increase new patients by using Before and After
-    Photo Galleries, Online Patient Reviews, and treatment pages to create up to 100x
-    Google-friendly content.
-  items:
-  - class: image-group__image--1
-    img: true
-    src: "/uploads/website-management-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--2
-    img: true
-    src: "/uploads/content-multiplier-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--3
-    img: true
-    src: "/uploads/social-reputation-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--4
-    img: true
-    src: "/uploads/search-amplifier-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--5
-    img: true
-    src: "/uploads/lead-generator-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--6
-    img: true
-    src: "/uploads/success-insights-label.svg"
-    headline: ''
-    text: ''
-  - class: image-group__image--7
-    img: true
-    src: "/uploads/dl.svg"
-    headline: ''
-    text: ''
-  tagline: ''
-  btn: []
-  wistia-link: []
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
