@@ -112,7 +112,7 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: 'Transparent Reporting '
-  headline: Invested In Your Success
+  headline: Transparent Reporting
   text: Receive full access to your performance metrics through your practice dashboard
     and track everything from visitors, page views, channel source, and lead generation.
   btn: []
