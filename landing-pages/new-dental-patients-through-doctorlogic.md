@@ -62,9 +62,9 @@ page_sections:
   text: ''
   per-row-count: '3'
   practices:
+  - name: Morales Plastic Surgery
   - name: Texas Center For Cosmetic Dentistry
-  - name: Parker West Dental Associates
-  - name: Emigh Dental Care
+  - name: VIP Plastic Surgery
   class: section-gray
   btn:
   - btn-link: "/case-studies"
