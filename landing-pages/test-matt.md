@@ -30,18 +30,18 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-- template: hero-with-form
-  component: hero-3
-  component_css: hero-3
-  bg_img: "/uploads/1278x811-1.jpg"
-  tagline:
-  - headline: Hello
-  headline: This is neat
-  text: A really neat test
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Hello
+  text: I am feature
   btn:
-  - btn-label: Go
-    btn-link: "/"
-  form_template: ''
-  form_handler: ''
+  - btn-link: "/"
+    btn-label: Hello
+  class: ''
+  wistia-link: []
+  img: ''
+  alt: ''
 
 ---
