@@ -98,13 +98,6 @@
         "name": "Urbaniak Plastic Surgery"
     },
     {
-        "type": "aesthetic",
-        "img": "/img/designs/truderm.jpg",
-        "link-label": "truderm.com/",
-        "link": "https://truderm.com/",
-        "name": "TruDerm"
-    },
-    {
         "type": "dentistry",
         "img": "/img/designs/smiles-ny.jpg",
         "link-label": "smilesny.com/",

@@ -39,8 +39,8 @@ page_sections:
   items:
   - class: image-group__image--1
     img: true
-    src: /img/products/website-management/tru-derm.png
-    alt-text: "Tru-Derm Med Spa"
+    src: /img/products/website-management/kind.png
+    alt-text: "Kind Health Group"
   - class: image-group__image--2
     img: true
     src: /img/products/website-management/vip.png
