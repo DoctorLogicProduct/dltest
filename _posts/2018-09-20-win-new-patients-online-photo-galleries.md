@@ -31,7 +31,7 @@ Patients researching a specific procedure want to see visible results. They want
 
 “Many individuals that enter our cosmetic surgery practice, have done so based on the research from our photo gallery alone, which is why my team adds photos and content on a regular basis,” says Dr. Decherd.
 
-Not only do patients love in-depth gallery information, but Google does too. According to Chris Desrochers, Director of Search and Social for DoctorLogic, “When Google sees an image tied to relevant content and useful keyword tags, they know the information is applicable to the searcher, which puts power behind the search result.”
+Not only do patients love in-depth gallery information, but Google does too. According to Ryan Metcalf, Director of Search for DoctorLogic, “When Google sees an image tied to relevant content and useful keyword tags, they know the information is applicable to the searcher, which puts power behind the search result.”
 
 ![](/uploads/Screen Shot 2019-07-21 at 4.48.31 PM.png)
 
