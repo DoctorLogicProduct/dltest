@@ -27,15 +27,6 @@
         "stat-label": "Website Lead Traffic"
     },
     {
-        "type": "aesthetic",
-        "img": "/img/case-studies/truderm-featured-image.jpg",
-        "link": "/case-studies/truderm",
-        "name": "TruDerm",
-        "specialty": "Dermatology | Medspa",
-        "stat": "74%",
-        "stat-label": "Website Leads"
-    },
-    {
         "type": "dentistry",
         "img": "/img/case-studies/emigh-featured-image.jpg",
         "link": "/case-studies/emigh-dental",
