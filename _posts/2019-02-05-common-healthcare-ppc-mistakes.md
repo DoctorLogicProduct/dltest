@@ -45,12 +45,8 @@ Although this may be convenient for the person setting up the PPC campaign, it�
 
 #### 5. You’re Working Off Of Outdated Information
 
-As I mentioned in the intro, PPC is fast moving, which means something you learned six months ago could already be obsolete. Google Ads continues to make updates on everything from search metrics and goal-based campaigns to TrueView, call/message reporting, and bidding types.
+As I mentioned in the intro, PPC is fast-moving, which means something you learned six months ago could already be obsolete. Google Ads continues to make updates on everything from search metrics and goal-based campaigns to TrueView, call/message reporting, and bidding types.
 
-So how can you stay up to date? [Search Engine Land](https://searchengineland.com/library/channel/sem) is constantly writing about all updates as they become live, and even has a newsletter you can subscribe to if you want the latest tips and tactics delivered directly to your mailbox.
-
-#### Download This Handy Graphic To Remember These Steps!
-
-[5 Common PPC Mistakes and How to Avoid Them](https://doctorlogic.com/assets/img/posts/5-Common-PPC-Mistakes.png)
+So how can you stay up to date? [Search Engine Land](https://searchengineland.com/library/channel/sem) is constantly writing about all updates as they become live and even has a newsletter you can subscribe to if you want the latest tips and tactics delivered directly to your mailbox.
 
 The PPC world can be confusing at best, so reassess what you’re doing and how your campaigns are performing, make some of the aforementioned tweaks, and see how your performance changes!
