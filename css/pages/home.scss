@@ -250,6 +250,170 @@
 
   }
 
+  .home-content-100 {
+    position: relative;
+    padding: 60px 5%;
+
+    &__wave {
+      position: absolute;
+      left: 0;
+      top: -50px;
+      width: 100%;
+      height: unset;
+
+      @include phone-wide-min {
+        top: -100px;
+      }
+      
+
+      @include tablet-wide-min {
+        height: 300px;
+        top: -220px;
+      }
+      
+      @include desktop-wide-min {
+    
+      }
+      
+    }
+
+    &__headline {
+
+      h2,
+      p {
+        text-align: center;
+        color: $color-1;
+      }
+
+      h2 {
+        max-width: 100%;
+        font-size: 1.7rem;
+        font-weight: 500;
+
+        @include tablet-min {
+          font-size: 4vw;
+        }
+      }
+
+      p {
+        max-width: 800px;
+        margin: 20px auto 0;
+      }
+
+    }
+
+    &__container {
+      @include grid; 
+      padding: 60px 0;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    &__headline {
+      position: relative;
+      z-index: 1;
+      grid-column: auto / span 24;
+      order: 1;
+      padding: 0 0 60px;      
+    }
+
+    &__list {
+      grid-column: auto / span 24;
+      order: 3;
+
+      @include tablet-wide-min {
+        grid-column: auto / span 12;
+        order: 2;
+      }
+      
+
+      ul {
+        padding: 0;     
+      }
+
+      li {
+        list-style: none;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;     
+      }
+
+    }
+
+    &__img {
+      grid-column: auto / span 24;
+      order: 2;
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 0 auto;
+
+        @include tablet-wide-min {
+          max-width: 800px;
+        }
+        
+      }
+    }
+
+    &--grow {
+      background: #f0f4f8;
+
+      .home-content-100__wave svg {
+        fill: #f0f4f8;
+      }
+
+      li span {
+        color: $color-2;
+        background: $gradient-social-reputation;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+
+      .text-link {
+        color: $reputation;
+
+        &::after {
+          background: $reputation-2;
+        }
+
+        @include desktop-sm-min {
+
+            &:hover {
+              color: $reputation-2;
+            }
+          }
+      }
+
+      .home-content-100__carousel-container {
+        grid-column: auto / span 24;
+        grid-row: auto;
+        order: 3;
+      }
+
+      .grow-carousel {
+        &__cell {
+          width: 35%;
+          height: 200px;
+          margin-right: 10px;
+          background: #8C8;
+          border-radius: 30px;
+          box-shadow: $box-shadow;
+        }
+      }
+
+    }
+
+  }
+
   .home-content-50 {
     position: relative;
     padding: 60px 5%;
@@ -451,6 +615,7 @@
     margin: 0 auto;
   	max-width: 1200px;
     position: relative;
+    z-index: 1;
 
     .state{
       position: absolute;

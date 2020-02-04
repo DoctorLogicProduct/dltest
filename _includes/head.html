@@ -32,6 +32,9 @@
 	{% if page.magnific == true -%}
 	<link rel="stylesheet" href="{{ '/css/vendor/magnific-popup.css'| prepend: site.baseurl }}">
 	{%- endif -%}
+	{% if page.flickity == true -%}
+	<link rel="stylesheet" href="{{ '/css/vendor/flickity.css'| prepend: site.baseurl }}">
+	{%- endif -%}
 	{% for section in page.page_sections -%}
 	{% if section.component_css -%}
 	<link rel="stylesheet" href="{{ '/css/components/' | append: section.component_css | append: '.css' | prepend: site.baseurl }}">
