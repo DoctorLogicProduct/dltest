@@ -33,8 +33,31 @@ page_sections:
   component_css: feature
   img_alignment: Right
   headline: One Company. One Solution. Unlimited Results.
-  text: 'DoctorLogic ticks all the boxes for practice success: Website Management,
-    Content, SEO, Reputation Management, Paid Advertising, and Social Media. '
+  text: ''
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Beautiful Websites Designed To Grow Your Practice
+  text: 'Receive more traffic to your website and appear higher in search engine results
+    with a custom branded website built to perform. '
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Increase Your Search Performance
+  text: Your website will be optimized to help search engines identify your site to
+    reach more patients across the web.
   class: ''
   btn: []
   wistia-link: []
@@ -53,10 +76,70 @@ page_sections:
   headline: Results Driven
   btn: []
   wistia-link: []
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Custom Content Built To Convert
+  text: Receive custom content for every procedure and service offered at your practice.
+    Structured perfectly to give you the domain and keyword authority to dominate
+    search results.
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Reputation Management Made Simple
+  text: Display reviews from across the web in one place, prioritize your favorites,
+    and tag each review to make it simple to find.
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Manage All Leads in One Place
+  text: Track all your phone calls, form submissions, and chats. Have a clear picture
+    of your website leads in one place and receive alerts as they come in.
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Transparent Reporting
+  text: Receive full access to your performance metrics through your practice dashboard
+    and track everything from visitors, page views, channel source, and lead generation.
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: Grow Even Faster
+  text: 'With services like paid advertising, social media, additional content, chat,
+    and video, our Growth Accelerators can help your practice reach new heights. '
+  class: ''
+  btn: []
+  wistia-link: []
+  img: ''
+  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
-  class: ''
   headline:
   - headline: The DoctorLogic Experience
   img: []
@@ -68,6 +151,7 @@ page_sections:
     btn-label: Get A Demo
   link: []
   wistia-link: []
+  class: text-component
 published: false
 
 ---
