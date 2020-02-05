@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: "/uploads/devices-3-marketing-site-mockup (2).jpg"
+  img: "/uploads/carousel-1-2.jpg"
   alt: ''
 - template: text-component
   component: text-component
