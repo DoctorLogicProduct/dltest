@@ -21,13 +21,6 @@ page_sections:
   wistia-link: []
   img: ''
   alt: ''
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  wistia-id: iyfc8agmhu
-  headline: Why Dr. Khorsandi Chose DoctorLogic
-  class: ''
-  text: ''
 - template: text-component
   component: text-component
   component_css: text-component
@@ -101,6 +94,13 @@ page_sections:
   wistia-link: []
   img: ''
   alt: ''
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  wistia-id: iyfc8agmhu
+  headline: Why Dr. Khorsandi Chose DoctorLogic
+  class: ''
+  text: ''
 - template: feature
   component: feature-1
   component_css: feature
