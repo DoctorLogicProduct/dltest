@@ -12,7 +12,8 @@ page_sections:
   component: hero-1
   component_css: hero
   text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. Exponentially grow your practice. '
+    patients. Trusted by over 2,000+ providers to increase visibility, generate leads,
+    and grow practice revenue. '
   headline: 'Attract. Retain. Grow. '
   btn:
   - btn-label: Grow My Practice
