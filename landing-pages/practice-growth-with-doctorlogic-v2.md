@@ -100,7 +100,7 @@ page_sections:
   wistia-id: iyfc8agmhu
   headline: Why Dr. Khorsandi Chose DoctorLogic
   class: ''
-  text: ''
+  text: WHY DR. KHORSANDI CHOSE DOCTORLOGIC
 - template: feature
   component: feature-1
   component_css: feature
