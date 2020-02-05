@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: ''
+  img: "/uploads/devices-3-marketing-site-mockup (2).jpg"
   alt: ''
 - template: text-component
   component: text-component
@@ -42,7 +42,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/plastic-3up-3.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -54,7 +54,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/seo-performance-1.jpg"
   alt: ''
 - template: case-study-feature
   component: case-studies-feature
@@ -80,7 +80,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/content-marketing.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -92,13 +92,13 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/review-request-feature.jpg"
   alt: ''
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
   wistia-id: iyfc8agmhu
-  headline: Why Dr. Khorsandi Chose DoctorLogic
+  headline: ''
   class: ''
   text: WHY DR. KHORSANDI CHOSE DOCTORLOGIC
 - template: feature
@@ -111,7 +111,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/Opportunities.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -123,7 +123,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/optimized-marketing.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -135,7 +135,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/PatientExperience2.jpg"
   alt: ''
 - template: text-component
   component: text-component
