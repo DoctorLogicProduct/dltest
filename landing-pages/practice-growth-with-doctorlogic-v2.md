@@ -48,8 +48,12 @@ page_sections:
   class: ''
   headline: []
   img: []
-  text: ''
-  btn: []
+  text: You need a partner who’s there to make life simple and take the guesswork
+    out of digital marketing. DoctorLogic is fully invested in your practice’s success.
+    Our priority is you.
+  btn:
+  - btn-link: ''
+    btn-label: Get A Demo
   link: []
   wistia-link: []
 published: false
