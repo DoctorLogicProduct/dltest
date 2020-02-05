@@ -16,7 +16,7 @@ page_sections:
     and grow practice revenue. '
   headline: 'Attract. Retain. Grow. '
   btn:
-  - btn-label: Grow My Practice
+  - btn-label: Get A Demo
     btn-link: ''
   text-link: []
   wistia-link: []
