@@ -163,7 +163,7 @@ page_sections:
     btn-label: Get A Demo
   link: []
   wistia-link: []
-  class: text-component
+  class: section-gray
 published: false
 
 ---
