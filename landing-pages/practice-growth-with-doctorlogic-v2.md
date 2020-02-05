@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: "/uploads/home-hero-1.jpg"
+  img: ''
   alt: ''
 - template: text-component
   component: text-component
@@ -30,9 +30,7 @@ page_sections:
   link: []
   btn: []
   class: ''
-  img:
-  - img_src: "/uploads/product-icons-3-up (1).jpg"
-    img_alt: ''
+  img: []
   wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
