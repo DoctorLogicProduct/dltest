@@ -28,17 +28,17 @@ page_sections:
   headline: Why Dr. Khorsandi Chose DoctorLogic
   class: ''
   text: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: One Company. One Solution. Unlimited Results.
-  text: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: One Company. One Solution. Unlimited Results.
   class: ''
+  img: []
+  text: ''
   btn: []
+  link: []
   wistia-link: []
-  img: ''
-  alt: ''
 - template: feature
   component: feature-1
   component_css: feature
@@ -54,7 +54,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   headline: Increase Your Search Performance
   text: Your website will be optimized to help search engines identify your site to
     reach more patients across the web.
@@ -92,7 +92,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   headline: Reputation Management Made Simple
   text: Display reviews from across the web in one place, prioritize your favorites,
     and tag each review to make it simple to find.
@@ -116,7 +116,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   headline: Transparent Reporting
   text: Receive full access to your performance metrics through your practice dashboard
     and track everything from visitors, page views, channel source, and lead generation.
@@ -141,11 +141,10 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: The DoctorLogic Experience
+  - headline: Ready to Fill Your Waiting Room?
   img: []
-  text: You need a partner who’s there to make life simple and take the guesswork
-    out of digital marketing. DoctorLogic is fully invested in your practice’s success.
-    Our priority is you.
+  text: Schedule a one-on-one consultation and learn how we can help you succeed online.
+    Experience the DoctorLogic Difference.
   btn:
   - btn-link: ''
     btn-label: Get A Demo
