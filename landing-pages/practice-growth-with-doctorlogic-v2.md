@@ -141,6 +141,19 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
+  - headline: Results Driven
+  img:
+  - img_src: "/uploads/Copy of Copy of Copy of Copy of Untitled.png"
+    img_alt: ''
+  class: ''
+  text: ''
+  btn: []
+  link: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
   - headline: Ready to Fill Your Waiting Room?
   img: []
   text: Schedule a one-on-one consultation and learn how we can help you succeed online.
