@@ -22,6 +22,20 @@ page_sections:
   wistia-link: []
   img: ''
   alt: ''
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: One Company. One Solution. Unlimited Results.
+  text: 'DoctorLogic ticks all the boxes for practice success: Website Management,
+    Content, SEO, Reputation Management, Paid Advertising, Social Media, and Reporting.  '
+  link: []
+  btn:
+  - btn-link: ''
+    btn-label: See How It Works
+  class: ''
+  img: []
+  wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
@@ -46,7 +60,8 @@ page_sections:
   component: text-component
   component_css: text-component
   class: ''
-  headline: []
+  headline:
+  - headline: You'll Love The DoctorLogic Experience
   img: []
   text: You need a partner who’s there to make life simple and take the guesswork
     out of digital marketing. DoctorLogic is fully invested in your practice’s success.
