@@ -11,30 +11,28 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. Trusted by over 2,000+ providers to increase visibility, generate leads,
-    and grow practice revenue. '
+  text: The all-in-one website marketing platform that attracts and retains more patients.
+    Trusted by over 1,000 doctors.
   headline: 'Attract. Retain. Grow. '
   btn:
   - btn-label: Get A Demo
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: ''
+  img: "/uploads/home-hero-1.jpg"
   alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
   headline:
   - headline: One Company. One Solution. Unlimited Results.
-  text: 'DoctorLogic ticks all the boxes for practice success: Website Management,
-    Content, SEO, Reputation Management, Paid Advertising, Social Media, and Reporting.  '
+  text: ''
   link: []
-  btn:
-  - btn-link: ''
-    btn-label: See How It Works
+  btn: []
   class: ''
-  img: []
+  img:
+  - img_src: "/uploads/product-icons-3-up (1).jpg"
+    img_alt: ''
   wistia-link: []
 - template: case-study-feature
   component: case-studies-feature
