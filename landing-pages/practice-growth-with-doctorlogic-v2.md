@@ -66,7 +66,7 @@ page_sections:
   - name: Parker West Dental Associates
   text: 'OUR WORK IN ACTION '
   class: ''
-  headline: Results Driven
+  headline: ''
   btn: []
   wistia-link: []
 - template: feature
