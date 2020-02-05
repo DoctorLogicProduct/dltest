@@ -21,17 +21,25 @@ page_sections:
   wistia-link: []
   img: ''
   alt: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: One Company. One Solution. Unlimited Results.
-  text: ''
-  link: []
-  btn: []
+- template: wistia-embed
+  component: wistia-embed
+  component_css: wistia-embed
+  wistia-id: iyfc8agmhu
+  headline: Why Dr. Khorsandi Chose DoctorLogic
   class: ''
-  img: []
+  text: ''
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
+  headline: One Company. One Solution. Unlimited Results.
+  text: 'DoctorLogic ticks all the boxes for practice success: Website Management,
+    Content, SEO, Reputation Management, Paid Advertising, and Social Media. '
+  class: ''
+  btn: []
   wistia-link: []
+  img: ''
+  alt: ''
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
@@ -42,22 +50,15 @@ page_sections:
   - name: Parker West Dental Associates
   text: 'OUR WORK IN ACTION '
   class: ''
-  headline: ''
+  headline: Results Driven
   btn: []
   wistia-link: []
-- template: wistia-embed
-  component: wistia-embed
-  component_css: wistia-embed
-  wistia-id: iyfc8agmhu
-  headline: Why Dr. Khorsandi Chose DoctorLogic
-  class: ''
-  text: ''
 - template: text-component
   component: text-component
   component_css: text-component
   class: ''
   headline:
-  - headline: You'll Love The DoctorLogic Experience
+  - headline: The DoctorLogic Experience
   img: []
   text: You need a partner who’s there to make life simple and take the guesswork
     out of digital marketing. DoctorLogic is fully invested in your practice’s success.
