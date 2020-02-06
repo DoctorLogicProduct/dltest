@@ -135,32 +135,7 @@
   .home-cta {
     position: relative;
 
-    &--1 {
-      
-      &::after {
-        content: '';
-        position: absolute;
-        background: url('/img/home/wave-1.svg') left center/contain no-repeat;
-        left: 0;
-        top: auto;
-        bottom: 0;
-        width: 100%;
-        height: auto;
-        min-height: 100px;
-        opacity: 1;
-
-        @include phone-wide-min {
-          min-height: 200px;
-        }
-        
-
-        @include tablet-wide-min {
-          min-height: 400px;
-        }
-        
-      }
-
-    }
+    
 
     &__container {
       @include grid; 
@@ -246,6 +221,102 @@
         }
         
       }
+    }
+
+    &--1 {
+      
+      &::after {
+        content: '';
+        position: absolute;
+        background: url('/img/home/wave-1.svg') left center/contain no-repeat;
+        left: 0;
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        min-height: 100px;
+        opacity: 1;
+
+        @include phone-wide-min {
+          min-height: 200px;
+        }
+        
+
+        @include tablet-wide-min {
+          min-height: 400px;
+        }
+        
+      }
+
+    }
+
+    &--2 {
+
+      &::before {
+        content: '';
+        position: absolute;
+        background: url('/img/home/wave-1.svg') left center/contain no-repeat;
+        left: 0;
+        top: auto;
+        bottom: -50px;
+        width: 100%;
+        height: auto;
+        min-height: 100px;
+        opacity: 1;
+        transform: rotateY(180deg);
+
+        @include phone-wide-min {
+          min-height: 200px;
+        }
+        
+
+        @include tablet-wide-min {
+          min-height: 400px;
+          bottom: -100px;
+        }
+
+        @include desktop-wide-min {
+          min-height: 400px;
+        }
+        
+      }
+      
+      &::after {
+        content: '';
+        position: absolute;
+        background: url('/img/home/wave-2.svg') left center/contain no-repeat;
+        left: 0;
+        top: auto;
+        bottom: -50px;
+        width: 100%;
+        height: auto;
+        min-height: 100px;
+        opacity: 1;
+
+        @include phone-wide-min {
+          min-height: 200px;
+        }
+        
+
+        @include tablet-wide-min {
+          min-height: 450px;
+          bottom: -150px;
+        }
+
+        @include desktop-wide-min {
+          min-height: 500px;
+          
+        }
+        
+      }
+
+        .home-cta__container {
+          @include tablet-wide-min {
+          max-width: 1200px;
+          padding: 60px 20px 280px;
+        }
+      }
+
     }
 
   }
@@ -360,6 +431,7 @@
 
     &--grow {
       background: #f0f4f8;
+      padding: 60px 5%;
 
       .home-content-100__wave svg {
         fill: #f0f4f8;
@@ -400,13 +472,97 @@
       }
 
       .grow-carousel {
+        padding-bottom: 90%;
+        
+        @include tablet-min {
+          padding-bottom: 60%;
+        }
+        
+
+        @include desktop-min {
+          padding-bottom: 40%;
+        }
+        
+
+        .flickity-viewport {
+          position: absolute;
+          width: 100%;
+        }
+
         &__cell {
-          width: 35%;
-          height: 200px;
+          width: 100%;
           margin-right: 10px;
-          background: #8C8;
+          top: 50%;
+          transform: translateY(-50%);
+
+          @include phone-wide-min {
+            width: 56%;
+          }
+
+          @include tablet-wide-min {
+            width: 36%;
+            top: 50%;
+            transform: translateY(-60%);
+          }
+        
+          @include desktop-sm-min {
+            width: 28%;
+          }
+          
+        }
+
+        &__cell-container {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          padding: 40px;
+          background: $color-2;
+          box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.05);
           border-radius: 30px;
-          box-shadow: $box-shadow;
+        }
+
+        &__cell-icon {
+          width: 80px;
+          height: 80px;
+          max-width: 80px;
+          max-height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background: $gradient-growth-accelerators;
+          padding: 10px;
+          flex: 0 0 100%;
+          margin-top: -80px;
+
+          svg {
+            fill: $color-2;
+          }
+
+          &--dl {
+            background: $gradient-website-management;
+          }
+
+          &--attract {
+            background: $gradient-content-multiplier;
+          }
+
+          &--retain {
+            background: $gradient-lead-generator;
+          }
+        }
+
+        &__cell-headline {
+          font-size: 1.2rem;
+          font-weight: 400;
+          flex: 0 0 100%;
+          padding: 20px 0 0;
+        }
+
+        &__cell-text {
+          font-size: 1rem;
+          flex: 0 0 100%;
+          padding: 20px 0 0;
         }
       }
 
@@ -596,6 +752,195 @@
 
     }
 
+    &--logical {
+
+      .home-content-50{
+
+        &__wave svg {
+        fill: $color-2;
+      }
+
+      &__img--1 {
+        grid-column: auto / span 11;
+        grid-row: auto;
+        order: 1;
+      }
+
+      &__content {
+        grid-column: auto / span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $color-1;
+        order: 2;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 50%;
+          width: 3px;
+          height: 40%;
+          background: darken(#f0f4f8, 10%);
+          transform: translateX(-50%);
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 3px;
+          height: 40%;
+          background: darken(#f0f4f8, 10%);
+          transform: translateX(-50%);
+        }
+      }
+
+      &__img--2 {
+        grid-column: auto / span 11;
+        grid-row: auto;
+        order: 3;
+      }
+
+      }
+
+    }
+
+    &--affordable {
+      background: #f0f4f8;
+
+      .home-content-50 {
+
+      &__headline, &__text {
+        order: unset;
+      }
+
+      &__price {
+        grid-column: auto / span 24;
+        padding: 60px 10px 0;
+
+        @include tablet-min {
+          grid-column: auto / span 12;
+        }
+        
+        
+        &--1 {
+          @include tablet-min {
+            margin-left: auto;
+          }
+          
+        }
+
+        &--2 {
+          @include tablet-min {
+            margin-right: auto;
+          }
+          
+        }
+
+      }
+
+      &__price-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: $box-shadow;
+        background: $color-2;
+        padding: 20px;
+
+        @include phone-wide-min {
+          padding: 20px 40px 40px;
+        }
+        
+      }
+
+      &__price-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+        margin-top: -60px;
+        border-radius: 50%;
+
+        svg {
+          fill: $color-2;
+          max-width: 32px;
+          max-height: 32px;
+        }
+      }
+
+      &__price--1 .home-content-50__price-icon {
+        background: $gradient-social-reputation;
+      }
+      
+      &__price--2 .home-content-50__price-icon {
+        background: $gradient-search-amplifier;
+      }
+
+      &__price-headline h3 {
+        margin: 0px;
+        padding: 20px 0 20px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      &__price--1 .home-content-50__price-headline h3 {
+        color: $reputation;
+      }
+
+      &__price--2 .home-content-50__price-headline h3 {
+        color: $search;
+      }
+
+      &__price-amount {
+        
+        h4 {
+          font-size: 1rem;
+          font-weight: 300;
+          margin: 0 0 20px;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 3rem;
+          margin: 0 0 20px;
+          text-align: center;
+        }
+
+      }
+
+      &__price-features {
+
+        h4 {
+          font-size: 1.1rem;
+          font-weight: 400;
+          margin: 0 0 20px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 1rem;
+          margin: 0 0 5px;
+          text-align: center;
+          font-weight: 400;
+        }
+
+      }
+
+      }
+
+    }
+
   }
 
   .home-tabs {
@@ -603,7 +948,12 @@
     &__headline {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 60px 40px;
+      padding: 40px;
+
+      @include tablet-min {
+        padding: 60px 40px;
+      }
+      
 
       h2 {
         color: $color-2;
@@ -631,7 +981,7 @@
         .tab{
           position: relative;
           padding: 20px;
-          flex: 1;
+          flex: 1 1 50%;
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
@@ -643,6 +993,22 @@
           border-bottom: solid 1px #f0f4f8;
           cursor: pointer;
           counter-increment: tab-counter;
+          min-height: 150px;
+
+          @include phone-min {
+            flex: 1 1 33%;
+          }
+          
+
+          @include tablet-min {
+            flex: 1;
+          }
+
+          @include tablet-wide-min {
+            min-height: 200px;
+          }
+          
+          
 
           &::before {
             content: counter(tab-counter);
@@ -659,6 +1025,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            z-index: 5;
           }
 
           &:last-of-type {
@@ -677,18 +1044,27 @@
           }
 
           &__container-img svg {
-            fill: $color-1;
+            fill: darken(#f0f4f8, 10%);
+          }
+
+          &__container-text {
+            color: darken(#f0f4f8, 10%);
           }
 
         }
 
         .panel {
           background-color: $color-2;
-          padding: 60px;
+          padding: 40px 10px;
           min-height: 300px;
           display: none;
           width: 100%;
           flex-wrap: wrap;
+          
+          @include tablet-min {
+            padding: 60px;
+          }
+          
 
           &__container {
             @include grid;
@@ -696,8 +1072,13 @@
           }
 
           &__img {
-            grid-column: auto / span 12;
+            grid-column: auto / span 24;
             grid-row: auto;
+
+            @include tablet-min {
+              grid-column: auto / span 12;
+            }
+            
 
             img {
               width: 100%;
@@ -709,9 +1090,14 @@
           }
 
           &__text {
-            grid-column: auto / span 12;
+            grid-column: auto / span 24;
             grid-row: auto;
             padding: 20px;
+
+            @include tablet-min {
+              grid-column: auto / span 12;
+            }
+            
 
             h4 {
               text-align: left;
@@ -734,8 +1120,8 @@
 #tab-six:checked ~ .tabs #tab-six-label {
     box-shadow: $box-shadow;
     cursor: default;
-    min-height: 200px;
     z-index: 2;
+
 
     &::after {
       content: '';
@@ -758,7 +1144,6 @@
 #tab-twelve:checked ~ .tabs #tab-twelve-label {
   box-shadow: $box-shadow;
     cursor: default;
-    min-height: 200px;
     z-index: 2;
 
     &::after {
@@ -792,7 +1177,12 @@
 .home-tabs--1 {
 
   background: #f0f4f8;
-  padding: 0 20px 60px;
+  padding: 0 0 60px;
+
+  @include tablet-min {
+    padding: 0 20px 60px;
+  }
+  
 
   .home-tabs {
     
@@ -805,7 +1195,11 @@
       .flex-tabs {
 
         .panel {
-          box-shadow: $box-shadow;
+          
+          @include tablet-min {
+            box-shadow: $box-shadow;
+          }
+          
 
           &__text h2 {
             color: $reputation;
@@ -858,6 +1252,11 @@
 }
 
 .home-tabs--2 {
+  padding: 0 0 60px;
+
+  @include tablet-min {
+    padding: 0 20px 60px;
+  }
 
   .home-tabs {
     
@@ -878,7 +1277,11 @@
           }
 
           .panel {
-            box-shadow: $box-shadow;
+            
+            @include tablet-min {
+              box-shadow: $box-shadow;
+            }
+            
 
             &__text {
               order: 1;

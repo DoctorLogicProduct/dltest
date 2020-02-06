@@ -28,6 +28,12 @@ cta--1:
   text: "Find out for <span>FREE</span> how your practice is performing online."
   placeholder: "Enter Your Practice URL"
   btn-label: "Free Report"
+cta--2:
+- class: "home-cta--2"
+  headline: "Instant Website Analysis"
+  text: "Find out for <span>FREE</span> how your practice is performing online."
+  placeholder: "Enter Your Practice URL"
+  btn-label: "Free Report"
 designs:
 - headline: "Stunning, Modern Designs."
   text: "Custom, responsive and completely future proofed web designs built to win new patients."
@@ -590,40 +596,185 @@ talent:
     </div>
     <div class="home-content-100__container">
         <div class="home-content-100__headline">
-            <h2>Retain.</h2>
-            <p class="loud">Automatically retain existing patients. The best-in-class Patient Retention Suite.</p>
+            <h2>Grow.</h2>
+            <p class="loud">Grow your practice as fast as you want. One platform that integrates everything.</p>
         </div>
         <div class="home-content-100__img">
             <img src="/img/home/attract/attract-device.png" alt="Attact more patients">
         </div>
         <div class="home-content-100__carousel-container">
-            <div class="grow-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false, "pageDots": false }'>
-                <div class="grow-carousel__cell"></div>
-                <div class="grow-carousel__cell"></div>
-                <div class="grow-carousel__cell"></div>
-                <div class="grow-carousel__cell"></div>
-                <div class="grow-carousel__cell"></div>
+            <div class="grow-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false, "pageDots": false, "setGallerySize": false, "wrapAround": true, "autoPlay": "8000"}'>
+                <div class="grow-carousel__cell">
+                    <div class="grow-carousel__cell-container">
+                        <div class="grow-carousel__cell-icon grow-carousel__cell-icon--dl">
+                            {% include /svg/icons/icon-content.html %}
+                        </div>
+                        <div class="grow-carousel__cell-headline">
+                            Unlimited Providers
+                        </div>
+                        <div class="grow-carousel__cell-text">
+                            Our platform has no limits. Whether your practice has 1 provider or 100K providers, we can handle any size practice
+                            based on your agreement.
+                        </div>
+                    </div>
+                </div>
+                <div class="grow-carousel__cell">
+                    <div class="grow-carousel__cell-container">
+                        <div class="grow-carousel__cell-icon grow-carousel__cell-icon--attract">
+                            {% include /svg/icons/icon-content.html %}
+                        </div>
+                        <div class="grow-carousel__cell-headline">
+                            Unlimited Providers
+                        </div>
+                        <div class="grow-carousel__cell-text">
+                            Our platform has no limits. Whether your practice has 1 provider or 100K providers, we can handle any size
+                            practice
+                            based on your agreement.
+                        </div>
+                    </div>
+                </div>
+                <div class="grow-carousel__cell">
+                    <div class="grow-carousel__cell-container">
+                        <div class="grow-carousel__cell-icon grow-carousel__cell-icon--retain">
+                            {% include /svg/icons/icon-content.html %}
+                        </div>
+                        <div class="grow-carousel__cell-headline">
+                            Unlimited Providers
+                        </div>
+                        <div class="grow-carousel__cell-text">
+                            Our platform has no limits. Whether your practice has 1 provider or 100K providers, we can handle any size
+                            practice
+                            based on your agreement.
+                        </div>
+                    </div>
+                </div>
+                <div class="grow-carousel__cell">
+                    <div class="grow-carousel__cell-container">
+                        <div class="grow-carousel__cell-icon grow-carousel__cell-icon--dl">
+                            {% include /svg/icons/icon-content.html %}
+                        </div>
+                        <div class="grow-carousel__cell-headline">
+                            Unlimited Providers
+                        </div>
+                        <div class="grow-carousel__cell-text">
+                            Our platform has no limits. Whether your practice has 1 provider or 100K providers, we can handle any size
+                            practice
+                            based on your agreement.
+                        </div>
+                    </div>
+                </div>
+                <div class="grow-carousel__cell">
+                    <div class="grow-carousel__cell-container">
+                        <div class="grow-carousel__cell-icon grow-carousel__cell-icon--attract">
+                            {% include /svg/icons/icon-content.html %}
+                        </div>
+                        <div class="grow-carousel__cell-headline">
+                            Unlimited Providers
+                        </div>
+                        <div class="grow-carousel__cell-text">
+                            Our platform has no limits. Whether your practice has 1 provider or 100K providers, we can handle any size
+                            practice
+                            based on your agreement.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-{% for industry in page.industries %}
-<section class="home-industries">
-    <h3 class="home-industries__headline">{{ industry.headline }}</h3>
-    <p class="home-industries__text">{{ industry.text }}</p>
-    <div class="home-industries__items">
-        {% for item in industry.items %}
-        <div class="home-industries__item {{ item.class }}">
-            <img src="{{ item.img_src }}" alt="{{ item.img_alt }}" class="home-industries__item-img">
-            <h4 class="home-industries__item-headline">{{ item.headline }}</h4>
-            <p class="home-industries__item-text">{{ item.text }}</p>
-            <!-- <a href="{{ item.btn_link }}" class="text-link">{{ item.btn_label }}</a> -->
-        </div>
-        {% endfor %}
+<div class="home-content-50 home-content-50--logical">
+    <div class="home-content-50__wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+                d="M0,128L80,133.3C160,139,320,149,480,133.3C640,117,800,75,960,58.7C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
     </div>
-</section>
+    <div class="home-content-50__container">
+        <div class="home-content-50__headline">
+            <h2>Logical.</h2>
+            <p class="loud">Automatically retain existing patients. The best-in-class Patient Retention Suite.</p>
+        </div>
+        <div class="home-content-50__img home-content-50__img--1">
+            <img src="/img/home/competition.svg" alt="The Competition's Journey">
+        </div>
+        <div class="home-content-50__content">
+            VS
+        </div>
+        <div class="home-content-50__img home-content-50__img--2">
+            <img src="/img/home/dl-process.svg" alt="Attact more patients">
+        </div>
+    </div>
+</div>
+
+{% for cta in page.cta--2 %}
+<div class="home-cta  {{ cta.class }}">
+    <div class="home-cta__container">
+        <div class="home-cta__text">
+            <h2>{{ cta.headline }}</h2>
+            <p>{{ cta.text }}</p>
+        </div>
+        <div class="home-cta__input">
+            <input type="text" placeholder="{{ cta.placeholder }}">
+            <div class="home-cta__input-btn">
+                <button type="submit">{{ cta.btn-label }}</button>
+            </div>
+        </div>
+    </div>
+</div>
 {% endfor %}
+
+<div class="home-content-50 home-content-50--affordable">
+    <div class="home-content-50__container">
+        <div class="home-content-50__headline">
+            <h2>Affordable.</h2>
+            <p class="loud">Transparent, fair pricing. Packages for every practice or enterprise group.</p>
+        </div>
+        <div class="home-content-50__price home-content-50__price--1">
+            <div class="home-content-50__price-container">
+                <div class="home-content-50__price-icon">
+                    {% include /svg/icons/icon-attract.html %}
+                </div>
+                <div class="home-content-50__price-headline">
+                    <h3>Attract Suite</h3>
+                </div>
+                <div class="home-content-50__price-amount">
+                    <h4>Monthly Starting At:</h4>
+                    <h2>$500</h2>
+                </div>
+                <div class="home-content-50__price-features">
+                    <h4>- Core Package Includes -</h4>
+                    <p>1 Location & 1 Provider</p>
+                    <p>Patient Attraction Suite</p>
+                    <p>Practice Growth Platform</p>
+                </div>
+                <a href="#" class="btn">Get a Quote</a>
+            </div>
+        </div>
+        <div class="home-content-50__price home-content-50__price--2">
+            <div class="home-content-50__price-container">
+                <div class="home-content-50__price-icon">
+                    {% include /svg/icons/icon-retain.html %}
+                </div>
+                <div class="home-content-50__price-headline">
+                    <h3>Retain Suite</h3>
+                </div>
+                <div class="home-content-50__price-amount">
+                    <h4>Monthly Starting At:</h4>
+                    <h2>$300</h2>
+                </div>
+                <div class="home-content-50__price-features">
+                    <h4>- Core Package Includes -</h4>
+                    <p>1 Location & 1 Provider</p>
+                    <p>Patient Retention Suite</p>
+                    <p>Practice Growth Platform</p>
+                </div>
+                <a href="#" class="btn">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <section class="home-case-studies">
     <h3 class="case-studies__headline">DoctorLogic Works.  Hear From Our Customers.</h3>
