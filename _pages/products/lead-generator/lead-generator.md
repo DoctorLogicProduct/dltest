@@ -13,7 +13,7 @@ permalink: "/healthcare-lead-generator"
 product_nav:
 - product_prev: "medical-seo-search-amplifier"
   product_next: "medical-website-success-insights"
-next_page: "success-insights"
+next_page: "medical-website-success-insights"
 page_sections:
 - component: hero-1
   component_css: hero

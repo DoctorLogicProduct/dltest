@@ -13,7 +13,7 @@ permalink: "/growth-accelerators"
 product_nav:
 - product_prev: "medical-website-success-insights"
   product_next: "medical-website-management"
-next_page: "website-management"
+next_page: "medical-website-management"
 page_sections:
 - component: hero-1
   component_css: hero

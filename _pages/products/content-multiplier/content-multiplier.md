@@ -13,7 +13,7 @@ permalink: "/medical-website-content-multiplier"
 product_nav:
 - product_prev: "medical-website-management"
   product_next: "online-reputation-management-doctors"
-next_page: "social-reputation"
+next_page: "online-reputation-management-doctors"
 page_sections:
 - component: hero-1
   component_css: hero

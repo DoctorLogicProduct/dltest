@@ -13,7 +13,7 @@ permalink: "/medical-website-management"
 product_nav:
 - product_prev: "growth-accelerators"
   product_next: "medical-website-content-multiplier"
-next_page: "content-multiplier"
+next_page: "medical-website-content-multiplier"
 page_sections:
 - component: hero-1
   component_css: hero

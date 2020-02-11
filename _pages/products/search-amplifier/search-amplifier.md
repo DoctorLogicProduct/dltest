@@ -13,7 +13,7 @@ permalink: "/medical-seo-search-amplifier"
 product_nav:
 - product_prev: "online-reputation-management-doctors"
   product_next: "healthcare-lead-generator"
-next_page: "lead-generator"
+next_page: "healthcare-lead-generator"
 page_sections:
 - component: hero-1
   component_css: hero

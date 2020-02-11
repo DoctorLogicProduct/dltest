@@ -10,7 +10,7 @@ page_class:
 - class: articles
 product: content multiplier
 permalink: "/content-multiplier/articles"
-back_page: content-multiplier
+back_page: medical-website-content-multiplier
 page_sections:
 - component: hero-2
   component_css: hero-2
