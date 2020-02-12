@@ -76,13 +76,13 @@ The way people use technology today is far different than how it was used 10-yea
 
 Marketing has always been about connecting with your audience in the right place and time. Today, your audience is spending their time online. You need to meet them where they are.
 
-###### ![](/uploads/Ebook Download.png "SEO 101Ebook")[Download SEO 101 for Doctors EBook](https://doctorlogic.com/download-seo-101-ebook)
+###### ![https://doctorlogic.com/download-seo-101-ebook](/uploads/Ebook Download.png "SEO 101Ebook")
 
 ## **2. Generating and Featuring Reviews**
 
 [Patient reviews](https://doctorlogic.com/online-reputation-management-doctors) are one of the top 3 most important local SEO factors when it comes to local search rankings. Studies have shown that 68% of potential patients form an opinion about your medical practice and it’s physicians with as little as five reviews.
 
-![](/uploads/screen-reviews-manage (3).png)According to a recent survey, providers who consider online patient reviews important to their success are more likely to report achieving key practice performance goals. So, when it comes to medical marketing strategies [**generating positive patient reviews **](https://doctorlogic.com/online-reputation-management-doctors)needs to be at the top of the list!
+![](/uploads/screen-reviews-manage (3).png)According to a recent survey, providers who consider online patient reviews important to their success are more likely to report achieving key practice performance goals. So, when it comes to medical marketing strategies [generating positive patient reviews](https://doctorlogic.com/online-reputation-management-doctors) needs to be at the top of the list!
 
 ## **4. Showcase Your Before and After Galleries**
 
