@@ -120,8 +120,8 @@ page_sections:
   per-row-count: '3'
   practices:
   - name: Morales Plastic Surgery
+  - name: Sonterra Dermatology
   - name: Texas Center For Cosmetic Dentistry
-  - name: TruDerm
   btn: []
   wistia-link: []
 - template: text-component
