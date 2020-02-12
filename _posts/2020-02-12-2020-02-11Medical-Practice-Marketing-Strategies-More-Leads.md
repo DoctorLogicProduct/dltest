@@ -36,21 +36,21 @@ Not only is your practice website important because it will be the first thing m
 
 You may presently have a website, but maybe unsure if it’s built to convert patients. Here are some questions you should ask:
 
-##### **_Are your featured services highlighted on your homepage?_**
+#### **Are your featured services highlighted on your homepage?**
 
 This may seem obvious, but this is your opportunity to promote your high revenue [services or procedures](https://doctorlogic.com/medical-website-content-multiplier "Content Multiplier"). For example, maybe you’re an Ophthalmologist that helps patients see clearly with Lasik or a cosmetic dentist that can improve someone’s smile and confidence by fixing their chipped or cracked teeth. Regardless of your specialty, having your high revenue procedures on your homepage is a great sales opportunity.
 
-##### **_Is your website mobile responsive?_**
+#### **Is your website mobile responsive?**
 
 Over the last year, we noticed that 57% of users (current and potential future patients) came to our clients’ websites from a phone or tablet.
 
 With potentially more than half of your traffic coming from mobile devices, it’s important to optimize your site with a mobile-first strategy, or you run the risk of losing those precious consultation requests!
 
-##### **_Do you have a designated staff and provider page?_**
+#### **Do you have a designated staff and provider page?**
 
 Patients want to know who will be handling their care and want to learn about their physicians. To boost the [**medical SEO** ](https://doctorlogic.com/medical-seo-search-amplifier "Medical SEO")for your practice physicians; dedicate individual pages for physician bios, credentials, and more that way you guarantee when patients do specific physician search your medical practice website shoots to the top over review sites.
 
-**Does Your Website Have a Blog?**
+#### **Does Your Website Have a Blog?**
 
 You’ve heard a lot about blogging, but what’s the big deal?
 
@@ -58,11 +58,11 @@ When Google and other search engines (think Bing, Yahoo, etc.) index your site, 
 
 [Blogging 2 - 3 times a month](https://doctorlogic.com/growth-accelerators/healthcare-content-marketing) will ensure patients visit and stay on your practice website. The more original and keyword-rich content on your website, the more Google will show you love.
 
-##### **_Do you have the proper SEO & Keyword Research?_**
+#### **Do you have the proper SEO & Keyword Research?**
 
 Listen...this a BIG DEAL for your website! A strong performing SEO strategy for a medical or dental practice starts with the foundation of your website.
 
-##### **_Do you have lead forms on your medical website that are easy to use for patients scheduling appointments?_**
+#### **Do you have lead forms on your medical website that are easy to use for patients scheduling appointments?**
 
 A [well designed medical website ](https://doctorlogic.com/medical-practice-website-design)simplifies a potential patient to request a new appointment on their website.
 
