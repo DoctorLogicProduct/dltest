@@ -9,7 +9,7 @@ post_intro: |
 
   Here are 5 easy (but highly effective) strategies you can implement to increase patient volume.
 post_image: "/uploads/iStock-1059661862.jpg"
-post_highlight: o stay competitive and achieve year-over-year increases doctors should
+post_highlight: To stay competitive and achieve year-over-year increases doctors should
   consider all core marketing and technology initiatives, as well as some new and
   noteworthy ones.  Here are 5 easy (but highly effective) strategies you can implement
   to increase patient volume.
