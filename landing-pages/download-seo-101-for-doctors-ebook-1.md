@@ -7,7 +7,7 @@ page_class:
 - class: form-page
 description: 'Remain competitive and boost your bottom line with key digital marketing
   principles and recommendations for your 2020 growth. '
-headline: 'Digital Marketing and Technology Budget for 2020 '
+headline: " Informational Guide for Doctors and Practice Decision Makers"
 text: 'Remain competitive and boost your bottom line with key digital marketing principles
   and recommendations for your 2020 growth. '
 form_src: https://marketing.doctorlogic.com/l/772793/2020-02-13/25hcms
