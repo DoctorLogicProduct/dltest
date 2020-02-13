@@ -70,7 +70,7 @@ A [**well designed medical website** ](https://doctorlogic.com/medical-practice-
 
 In 2018 nearly 80% of all patients turned online to search for medical information, physicians, and practices.
 
-Nowadays it’s imperative you [**rank high in Google **](https://yoast.com/how-to-rank-high-in-google/)for your main medical services and keywords over your competitors.
+Nowadays it’s imperative you rank high in Google for your main medical services and keywords over your competitors.
 
 The way people use technology today is far different than how it was used 10-years ago. From smartphones, laptops, or AI devices (Google Home or Alexa), people are constantly interacting with technology, so much so, the phrase “let me Google that” is now integrated into people’s vocabulary.
 
