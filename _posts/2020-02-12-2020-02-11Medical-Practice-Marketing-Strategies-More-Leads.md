@@ -1,7 +1,7 @@
 ---
-post_title: 5 Medical Practice Marketing Strategies that can TRIPLE Your Leads in
+post_title: 6 Medical Practice Marketing Strategies that can TRIPLE Your Leads in
   2020
-date: 2020-02-12 03:45:00 +0000
+date: 2020-02-12T03:45:00.000+00:00
 post_author: Keisha Dunstan
 tags: []
 post_intro: |
@@ -26,7 +26,7 @@ Each month, consumers in the U.S. perform more than **4.7 million online searche
 
 To stay competitive and achieve year-over-year increases doctors should consider **_all_** core marketing and technology initiatives, as well as some new and noteworthy ones.
 
-Here are **5** easy (but highly effective) strategies you can implement to increase patient volume.
+Here are **6** easy (**_but highly effective)_** strategies you can implement to increase patient volume.
 
 ## **1. Invest in a Beautiful, Functional Medical Website**
 
@@ -56,7 +56,7 @@ You’ve heard a lot about blogging, but what’s the big deal?
 
 When Google and other search engines (think Bing, Yahoo, etc.) index your site, their search engine “spiders” (basically robots) crawl it to see what type of information you’re providing and how valuable it is.
 
-[Blogging 2 - 3 times a month](https://doctorlogic.com/growth-accelerators/healthcare-content-marketing) will ensure patients visit and stay on your practice website. The more original and keyword-rich content on your website, the more Google will show you love.
+[**Blogging 2 - 3 times a month**](https://doctorlogic.com/growth-accelerators/healthcare-content-marketing) will ensure patients visit and stay on your practice website. The more original and keyword-rich content on your website, the more Google will show you love.
 
 #### **Do you have the proper SEO & Keyword Research?**
 
@@ -64,23 +64,23 @@ Listen...this a BIG DEAL for your website! A strong performing SEO strategy for 
 
 #### **Do you have lead forms on your medical website that are easy to use for patients scheduling appointments?**
 
-A [well designed medical website ](https://doctorlogic.com/medical-practice-website-design)simplifies a potential patient to request a new appointment on their website.
+A [**well designed medical website** ](https://doctorlogic.com/medical-practice-website-design)simplifies a potential patient to request a new appointment on their website.
 
-## 2. Optimize Your Website for SEO
+## **2. Optimize Your Website for SEO**
 
 In 2018 nearly 80% of all patients turned online to search for medical information, physicians, and practices.
 
-Nowadays it’s imperative you [rank high in Google](https://yoast.com/how-to-rank-high-in-google/) for your main medical services and keywords over your competitors.
+Nowadays it’s imperative you [**rank high in Google **](https://yoast.com/how-to-rank-high-in-google/)for your main medical services and keywords over your competitors.
 
 The way people use technology today is far different than how it was used 10-years ago. From smartphones, laptops, or AI devices (Google Home or Alexa), people are constantly interacting with technology, so much so, the phrase “let me Google that” is now integrated into people’s vocabulary.
 
 Marketing has always been about connecting with your audience in the right place and time. Today, your audience is spending their time online. You need to meet them where they are.
 
-## **2. Generating and Featuring Reviews**
+## **3. Generating and Featuring Reviews**
 
-[Patient reviews](https://doctorlogic.com/online-reputation-management-doctors) are one of the top 3 most important local SEO factors when it comes to local search rankings. Studies have shown that 68% of potential patients form an opinion about your medical practice and it’s physicians with as little as five reviews.
+[**Patient reviews**](https://doctorlogic.com/online-reputation-management-doctors) are one of the top 3 most important local SEO factors when it comes to local search rankings. Studies have shown that 68% of potential patients form an opinion about your medical practice and it’s physicians with as little as five reviews.
 
-![](/uploads/screen-reviews-manage (3).png)According to a recent survey, providers who consider online patient reviews important to their success are more likely to report achieving key practice performance goals. So, when it comes to medical marketing strategies [generating positive patient reviews](https://doctorlogic.com/online-reputation-management-doctors) needs to be at the top of the list!
+![](/uploads/screen-reviews-manage (3).png)According to a recent survey, providers who consider online patient reviews important to their success are more likely to report achieving key practice performance goals. So, when it comes to medical marketing strategies [**generating positive patient reviews**](https://doctorlogic.com/online-reputation-management-doctors) needs to be at the top of the list!
 
 ## **4. Showcase Your Before and After Galleries**
 
@@ -92,17 +92,17 @@ When it comes to [**cosmetic surgery and aesthetic marketing** ](https://doctorl
 
 Allow patients to search by the procedure so they can better visualize the results they can achieve.
 
-## 5. Advertise On Google Ads
+## **5. Advertise On Google Ads**
 
 [**Digital advertising**](https://doctorlogic.com/growth-accelerators/medical-paid-advertising) has become an essential tool for a digital marketing strategy for medical practices. It offers a unique advertising experience, unlike traditional media, and has the incredible capability to track and record analytics.
 
 Patients turn to Google and other search engines to find a local practice or information on a particular procedure. You want to be there when and where they are looking for information about medical services and surgeries.
 
-## 6. Social Media Marketing – Find the Best Platforms to Reach Your Patients
+## **6. Social Media Marketing – Find the Best Platforms to Reach Your Patients**
 
 Social media can be an easy and resourceful tool not only to attract patients, improve search, but help your practice engage with patients as well.
 
-[**Social media for doctors **](https://intrepy.com/14-ways-doctors-avoid-social-media-suicide/)is a massive contributor to driving traffic to your medical or dental practice website and search engine rankings and is an essential part of great medical marketing strategies.
+[**Social media for doctors**](https://doctorlogic.com/growth-accelerators/medical-social-media-content) is a massive contributor to driving traffic to your medical or dental practice website and search engine rankings and is an essential part of great medical marketing strategies.
 
 ![](/uploads/Social-Media-Ideas.png)Professional social media pages for your medical practice (separate from your personal pages) allow you to frequently contact your audience and remind them of your presence.
 
@@ -116,4 +116,4 @@ It's important to keep your brand at the forefront of people’s minds. That’s
 
 At DoctorLogic, our goal is to simplify the digital marketing process for providers and their staff and deliver a better way to attract and retain patients, while providing insights on what’s actually working.
 
-Find out how DoctorLogic can help change your practice for good. [Schedule a demo ](https://doctorlogic.com/get-a-demo.html)today!
+Find out how DoctorLogic can help change your practice for good. [**Schedule a demo** ](https://doctorlogic.com/get-a-demo.html)today!
