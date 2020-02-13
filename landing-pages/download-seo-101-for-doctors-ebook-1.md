@@ -7,7 +7,7 @@ page_class:
 - class: form-page
 description: 'Remain competitive and boost your bottom line with key digital marketing
   principles and recommendations for your 2020 growth. '
-headline: Download Now
+headline: Guide | All Things Digital Marketing and Budgeting For Technology
 text: 'Remain competitive and boost your bottom line with key digital marketing principles
   and recommendations for your 2020 growth. '
 form_src: https://marketing.doctorlogic.com/l/772793/2020-02-13/25hcms
