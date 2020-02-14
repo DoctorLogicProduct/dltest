@@ -147,7 +147,7 @@ page_sections:
   - headline: Ready to Fill Your Waiting Room?
   img: []
   text: Start with a FREE analysis of your current digital strategy and a 15-minute
-    session with one of our Healthcare Marketing Experts.
+    session with a Healthcare Marketing Expert.
   btn:
   - btn-link: ''
     btn-label: Free Analysis
