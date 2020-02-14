@@ -11,9 +11,8 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  text: The all-in-one website marketing platform that attracts and retains more patients.
-    Trusted by over 1,000 doctors. Start with a FREE analysis of your current digital
-    strategy and a 15-minute session with one of our Healthcare Marketing Experts
+  text: 'The all-in-one website marketing platform that attracts and retains more
+    patients. Trusted by over 1,000 doctors. '
   headline: Grow Your Practice With DoctorLogic
   btn:
   - btn-label: Free Analysis
