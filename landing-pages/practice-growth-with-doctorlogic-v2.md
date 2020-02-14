@@ -51,7 +51,7 @@ page_sections:
   per-row-count: '3'
   practices:
   - name: Texas Center For Cosmetic Dentistry
-  - name: Sonterra Dermatology
+  - name: Dr. Glenn Lyle
   - name: Parker West Dental Associates
   text: 'OUR WORK IN ACTION '
   class: ''
