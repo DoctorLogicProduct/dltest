@@ -12,26 +12,16 @@ page_sections:
   component: hero-1
   component_css: hero
   text: The all-in-one website marketing platform that attracts and retains more patients.
-    Trusted by over 1,000 doctors.
-  headline: 'Attract. Retain. Grow. '
+    Trusted by over 1,000 doctors. Start with a FREE analysis of your current digital
+    strategy and a 15-minute session with one of our Healthcare Marketing Experts
+  headline: Let’s Grow Your Medical Practice Together
   btn:
-  - btn-label: Get A Demo
+  - btn-label: Free Analysis
     btn-link: ''
   text-link: []
   wistia-link: []
   img: "/uploads/carousel-1-2.jpg"
   alt: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: One Company. One Solution. Unlimited Results.
-  class: ''
-  img: []
-  text: ''
-  btn: []
-  link: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -98,9 +88,9 @@ page_sections:
   component: wistia-embed
   component_css: wistia-embed
   wistia-id: iyfc8agmhu
-  headline: ''
+  headline: 'HEAR FROM OUR DOCTORS '
   class: ''
-  text: WHY DR. KHORSANDI CHOSE DOCTORLOGIC
+  text: 'How DoctorLogic’s proven SEO strategy grew Dr. Khorsandi’s practice.  '
 - template: feature
   component: feature-1
   component_css: feature
@@ -156,11 +146,11 @@ page_sections:
   headline:
   - headline: Ready to Fill Your Waiting Room?
   img: []
-  text: Schedule a one-on-one consultation and learn how we can help you succeed online.
-    Experience the DoctorLogic Difference.
+  text: Start with a FREE analysis of your current digital strategy and a 15-minute
+    session with one of our Healthcare Marketing Experts.
   btn:
   - btn-link: ''
-    btn-label: Get A Demo
+    btn-label: Free Analysis
   link: []
   wistia-link: []
   class: section-gray
