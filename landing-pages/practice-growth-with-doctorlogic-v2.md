@@ -37,9 +37,9 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Increase Your Search Performance
-  text: Your website will be optimized to help search engines identify your site to
-    reach more patients across the web.
+  headline: 'Proven SEO for Online Visibility '
+  text: Our proven SEO strategies help search engines find your site to reach more
+    patients across the web.
   class: ''
   btn: []
   wistia-link: []
@@ -64,7 +64,7 @@ page_sections:
   img_alignment: Right
   headline: Custom Content Built To Convert
   text: Receive custom content for every procedure and service offered at your practice.
-    Structured perfectly to give you the domain and keyword authority to dominate
+    Each page is structured to give you the domain and keyword authority to dominate
     search results.
   class: ''
   btn: []
@@ -95,8 +95,9 @@ page_sections:
   component_css: feature
   img_alignment: Right
   headline: Manage All Leads in One Place
-  text: Track all your phone calls, form submissions, and chats. Have a clear picture
-    of your website leads in one place and receive alerts as they come in.
+  text: Track all your phone calls, form submissions, and chats in a single place.
+    Have a clear picture of your website leads in one place and receive alerts as
+    they come in.
   class: ''
   btn: []
   wistia-link: []
