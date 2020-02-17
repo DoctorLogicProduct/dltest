@@ -12,7 +12,7 @@ text: 'Remain competitive and boost your bottom line with key digital marketing 
   and recommendations for your 2020 growth. '
 form_src: https://marketing.doctorlogic.com/l/772793/2020-02-13/25hcms
 form_height: "400"
-img_src: "/uploads/1278x811_v2.png"
+img_src: "/uploads/600x500_EBOOK marketingB.jpg"
 img_alt: 'Digital Marketing and Technology Budget Guide '
 
 ---
