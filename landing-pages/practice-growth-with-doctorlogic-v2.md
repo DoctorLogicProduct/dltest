@@ -11,27 +11,16 @@ page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  text: The all-in-one website marketing platform that attracts and retains more patients.
-    Trusted by over 1,000 doctors.
-  headline: 'Attract. Retain. Grow. '
+  text: 'The all-in-one website marketing platform that attracts and retains more
+    patients. Trusted by over 1,000 doctors. '
+  headline: Grow Your Practice With DoctorLogic
   btn:
-  - btn-label: Get A Demo
+  - btn-label: Free Analysis
     btn-link: ''
   text-link: []
   wistia-link: []
   img: "/uploads/carousel-1-2.jpg"
   alt: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: One Company. One Solution. Unlimited Results.
-  class: ''
-  img: []
-  text: ''
-  btn: []
-  link: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -48,9 +37,9 @@ page_sections:
   component: feature-1
   component_css: feature
   img_alignment: Left
-  headline: Increase Your Search Performance
-  text: Your website will be optimized to help search engines identify your site to
-    reach more patients across the web.
+  headline: 'Proven SEO for Online Visibility '
+  text: Our proven SEO strategies help search engines find your site to reach more
+    patients across the web.
   class: ''
   btn: []
   wistia-link: []
@@ -62,7 +51,7 @@ page_sections:
   per-row-count: '3'
   practices:
   - name: Texas Center For Cosmetic Dentistry
-  - name: Sonterra Dermatology
+  - name: Dr. Glenn Lyle
   - name: Parker West Dental Associates
   text: 'OUR WORK IN ACTION '
   class: ''
@@ -75,7 +64,7 @@ page_sections:
   img_alignment: Right
   headline: Custom Content Built To Convert
   text: Receive custom content for every procedure and service offered at your practice.
-    Structured perfectly to give you the domain and keyword authority to dominate
+    Each page is structured to give you the domain and keyword authority to dominate
     search results.
   class: ''
   btn: []
@@ -98,16 +87,17 @@ page_sections:
   component: wistia-embed
   component_css: wistia-embed
   wistia-id: iyfc8agmhu
-  headline: ''
+  headline: 'HEAR FROM OUR DOCTORS '
   class: ''
-  text: WHY DR. KHORSANDI CHOSE DOCTORLOGIC
+  text: 'How DoctorLogic’s proven SEO strategy grew Dr. Khorsandi’s practice.  '
 - template: feature
   component: feature-1
   component_css: feature
   img_alignment: Right
   headline: Manage All Leads in One Place
-  text: Track all your phone calls, form submissions, and chats. Have a clear picture
-    of your website leads in one place and receive alerts as they come in.
+  text: Track all your phone calls, form submissions, and chats in a single place.
+    Have a clear picture of your website leads in one place and receive alerts as
+    they come in.
   class: ''
   btn: []
   wistia-link: []
@@ -156,11 +146,11 @@ page_sections:
   headline:
   - headline: Ready to Fill Your Waiting Room?
   img: []
-  text: Schedule a one-on-one consultation and learn how we can help you succeed online.
-    Experience the DoctorLogic Difference.
+  text: Start with a FREE analysis of your current digital strategy and a 15-minute
+    session with a Healthcare Marketing Expert.
   btn:
   - btn-link: ''
-    btn-label: Get A Demo
+    btn-label: Free Analysis
   link: []
   wistia-link: []
   class: section-gray
