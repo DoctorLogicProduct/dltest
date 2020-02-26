@@ -12,7 +12,7 @@ page_sections:
   component: hero-1
   component_css: hero
   text: 'The all-in-one website marketing platform that attracts and retains more
-    patients. Trusted by over 1,000 doctors. '
+    patients. Trusted by over 3,000 doctors. '
   headline: Grow Your Practice With DoctorLogic
   btn:
   - btn-label: Free Analysis
