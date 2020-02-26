@@ -21,6 +21,19 @@ page_sections:
   wistia-link: []
   img: "/uploads/carousel-1-2.jpg"
   alt: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  per-row-count: '3'
+  practices:
+  - name: Texas Center For Cosmetic Dentistry
+  - name: Dr. Glenn Lyle
+  - name: Parker West Dental Associates
+  text: 'OUR WORK IN ACTION '
+  class: ''
+  headline: ''
+  btn: []
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -45,19 +58,6 @@ page_sections:
   wistia-link: []
   img: "/uploads/seo-performance-1.jpg"
   alt: ''
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  per-row-count: '3'
-  practices:
-  - name: Texas Center For Cosmetic Dentistry
-  - name: Dr. Glenn Lyle
-  - name: Parker West Dental Associates
-  text: 'OUR WORK IN ACTION '
-  class: ''
-  headline: ''
-  btn: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
