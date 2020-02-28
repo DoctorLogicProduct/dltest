@@ -54,7 +54,7 @@ page_sections:
   - img:
     - src: "/uploads/715.jpg"
       alt: Page 1 Keyword Increase
-    headline: Page 1 Keyword Increase
+    headline: ''
     text: ''
     link: []
   btn: []
