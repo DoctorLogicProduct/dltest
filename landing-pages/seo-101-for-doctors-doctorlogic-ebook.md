@@ -67,36 +67,10 @@ page_sections:
 - template: text-component
   component: text-component
   component_css: text-component
-  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
-    digital aspects from unlimited content creation, SEO, reputation management, local
-    listing management, paid advertising, call tracking and much more. '
   headline:
-  - headline: How DoctorLogic Partners with DSOs
-  img:
-  - img_src: "/uploads/iStock-1059979292.jpg"
-    img_alt: ''
-  class: ''
-  btn: []
-  link: []
-  wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  class: ''
-  headline: Take the guesswork out of your marketing
-  text: 'With robust data-rich reporting, you can easily measure which channels are
-    most effective in driving patient acquisition. '
-  btn: []
-  wistia-link: []
-  img: "/uploads/seo-performance (3).jpg"
-  alt: 'SEO for doctors '
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Ready to learn the secret to SEO?
-  text: ''
+  - headline: 'ADSO 2020 Summit | Meet DoctorLogic at Table #53'
+  text: 'Growing your DSO doesn’t have to be hard. Get the patient growth you need
+    while dominating your local markets.  '
   btn:
   - btn-link: https://doctorlogic.com//download-seo-101-ebook
     btn-label: Download Ebook
