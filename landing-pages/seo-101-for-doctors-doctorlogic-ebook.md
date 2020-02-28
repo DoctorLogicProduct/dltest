@@ -59,7 +59,7 @@ page_sections:
   text: DoctorLogic becomes an extension of your Marketing Team, by managing all digital
     aspects from unlimited content creation, SEO, reputation management, local listing
     management, paid advertising, call tracking and much more.
-  img: "/uploads/carousel-1-2.jpg"
+  img: "/uploads/dental-3up.png"
   btn: []
   text-link: []
   wistia-link: []
