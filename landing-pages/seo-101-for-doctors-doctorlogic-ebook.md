@@ -23,20 +23,6 @@ page_sections:
   btn: []
   form_src: ''
   form_height: ''
-- template: hero-with-image
-  component: hero-1
-  component_css: hero
-  headline: Free Competitive Analysis at 2020 ADSO Summit
-  text: Get a FREE competitive analysis report that will compare and analyze your
-    Google rank, online presence, website and online reputation.
-  button:
-  - btn-label: Get a Demo
-    btn-link: "/get-a-demo.html"
-  img: "/uploads/001-iPad-portrait (1)-2.jpg"
-  alt: ADSO Summit 2020
-  btn: []
-  text-link: []
-  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
