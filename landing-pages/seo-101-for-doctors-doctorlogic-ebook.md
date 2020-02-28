@@ -29,10 +29,10 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: Why SEO Is Important
-  text: 'We’ll discuss how technology has changed over the years and what that means
-    for your practice, specifically from an SEO perspective. We’ll also show you how
-    to use technology to reach your audience at the right time and place online. '
+  headline: 'Get the patient growth you need while dominating your local markets.  '
+  text: We can manage all aspects of your digital marketing, including unlimited website
+    content creation, SEO, reputation management, call tracking, local listings and
+    more.
   btn: []
   wistia-link: []
   img: "/uploads/16.png"
