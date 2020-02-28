@@ -1,7 +1,7 @@
 ---
 layout: components
 title: 'ADSO | Free Analysis '
-permalink: adso-2020
+permalink: free-analysis-adso-2020
 page_class:
 - class: lp
 gsap: false
@@ -77,6 +77,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-published: false
 
 ---
