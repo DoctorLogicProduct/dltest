@@ -18,7 +18,7 @@ page_sections:
   bg_img: "/uploads/001-iPad-portrait (1)-3.jpg"
   headline: Diagnose Your DSO with a Digital Marketing Analysis
   text: " Are you interested in generating more business for your DSO? Get started
-    with a Free Competitive Analysis of your digital marketing presence. Visit us
+    with a Free Competitive Analysis of your digital marketing presence. \nVisit us
     at Table #53 at the 2020 ADSO Summit.  "
   tagline: []
   btn: []
