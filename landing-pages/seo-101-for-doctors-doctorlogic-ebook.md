@@ -27,16 +27,28 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  per-row-count: '3'
+  per-row-count: '4'
   class: ''
   headline: Results Driven Marketing
   text: 'DoctorLogic is results-oriented and our digital marketing has been proven
     to provide results:'
   items:
   - img:
+    - src: "/uploads/157-1.jpg"
+      alt: Increase Monthly Organic Sessions
+    headline: ''
+    text: ''
+    link: []
+  - img:
+    - src: "/uploads/379-1.jpg"
+      alt: Increase SEO Keywords
+    headline: ''
+    text: ''
+    link: []
+  - img:
     - src: "/uploads/715.jpg"
       alt: Page 1 Keyword Increase
-    headline: ''
+    headline: Page 1 Keyword Increase
     text: ''
     link: []
   btn: []
