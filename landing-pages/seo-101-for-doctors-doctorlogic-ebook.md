@@ -22,7 +22,7 @@ page_sections:
     at Table #53 at the 2020 ADSO Summit.  "
   tagline: []
   btn: []
-  form_src: https://marketing.doctorlogic.com/l/772793/2019-11-11/21xwxd
+  form_src: https://marketing.doctorlogic.com/l/772793/2020-02-28/25vvxh
   form_height: "500"
 - template: feature
   component: feature-1
@@ -40,7 +40,7 @@ page_sections:
 - template: feature
   component: feature-1
   component_css: feature
-  img_alignment: Right
+  img_alignment: Left
   class: ''
   headline: How we partner with DSOs
   text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
