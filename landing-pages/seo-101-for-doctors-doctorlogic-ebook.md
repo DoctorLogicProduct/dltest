@@ -48,7 +48,7 @@ page_sections:
     listing management, paid advertising, call tracking and much more. '
   btn: []
   wistia-link: []
-  img: "/uploads/21.png"
+  img: "/uploads/terms-hero.jpg"
   alt: ''
 - template: feature
   component: feature-1
