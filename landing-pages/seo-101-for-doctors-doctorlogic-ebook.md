@@ -16,9 +16,10 @@ page_sections:
   component: hero-4
   component_css: hero-4
   bg_img: "/uploads/001-iPad-portrait (1)-3.jpg"
-  headline: Diagnose Your DSO | FREE Digital Marketing Analysis
-  text: Get a FREE competitive analysis report that will compare and analyze your
-    Google rank, online presence, website and online reputation.
+  headline: Diagnose Your DSO with a Digital Marketing Analysis
+  text: " Are you interested in generating more business for your DSO? Get started
+    with a Free Competitive Analysis of your digital marketing presence. Visit us
+    at Table #53 at the 2020 ADSO Summit.  "
   tagline: []
   btn: []
   form_src: https://marketing.doctorlogic.com/l/772793/2019-11-11/21xwxd
