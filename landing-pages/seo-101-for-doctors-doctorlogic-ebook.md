@@ -34,6 +34,12 @@ page_sections:
     to provide results:'
   items:
   - img:
+    - src: "/uploads/118-1.jpg"
+      alt: Monthly Leads
+    headline: ''
+    text: ''
+    link: []
+  - img:
     - src: "/uploads/157-1.jpg"
       alt: Increase Monthly Organic Sessions
     headline: ''
