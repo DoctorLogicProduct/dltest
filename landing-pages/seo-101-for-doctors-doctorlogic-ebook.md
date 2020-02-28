@@ -46,7 +46,7 @@ page_sections:
     text: ''
     link: []
   - img:
-    - src: "/uploads/157-4.jpg"
+    - src: "/uploads/157-5.jpg"
       alt: Monthly Leads
     headline: ''
     text: ''
