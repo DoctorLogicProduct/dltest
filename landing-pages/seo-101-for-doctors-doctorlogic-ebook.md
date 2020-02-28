@@ -27,10 +27,11 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  per-row-count: '3'
+  per-row-count: '4'
   class: ''
-  headline: ''
-  text: ''
+  headline: Results Driven Marketing
+  text: 'DoctorLogic is results-oriented and our digital marketing has been proven
+    to provide results:'
   items: []
   btn: []
 - template: feature
