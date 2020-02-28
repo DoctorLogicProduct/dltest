@@ -34,6 +34,12 @@ page_sections:
     to provide results:'
   items:
   - img:
+    - src: "/uploads/118-4.jpg"
+      alt: Monthly Leads
+    headline: ''
+    text: ''
+    link: []
+  - img:
     - src: "/uploads/118-3.jpg"
       alt: Monthly Leads
     headline: ''
