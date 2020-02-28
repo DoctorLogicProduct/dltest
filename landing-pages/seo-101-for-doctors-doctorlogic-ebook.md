@@ -70,9 +70,7 @@ page_sections:
   img_alignment: Left
   class: ''
   headline: How we partner with DSOs
-  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
-    digital aspects from unlimited content creation, SEO, reputation management, local
-    listing management, paid advertising, call tracking and much more. '
+  text: ''
   btn: []
   wistia-link: []
   img: "/uploads/terms-hero.jpg"
@@ -100,6 +98,21 @@ page_sections:
     btn-label: Download Ebook
   class: ''
   img: []
+  link: []
+  wistia-link: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
+    digital aspects from unlimited content creation, SEO, reputation management, local
+    listing management, paid advertising, call tracking and much more. '
+  headline:
+  - headline: How DoctorLogic Partners with DSOs
+  img:
+  - img_src: "/uploads/MicrositeThumb-1.png"
+    img_alt: ''
+  class: ''
+  btn: []
   link: []
   wistia-link: []
 published: false
