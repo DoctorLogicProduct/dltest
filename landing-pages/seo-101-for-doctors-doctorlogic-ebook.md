@@ -42,10 +42,10 @@ page_sections:
   component_css: feature
   img_alignment: Right
   class: ''
-  headline: 'How Search Engines Work & Meta Tags '
-  text: 'In order to succeed with SEO, you need to understand SEO. We''ll discuss
-    how search engines are programmed and how meta tags affect the way your website
-    ranks. '
+  headline: How we partner with DSOs
+  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
+    digital aspects from unlimited content creation, SEO, reputation management, local
+    listing management, paid advertising, call tracking and much more. '
   btn: []
   wistia-link: []
   img: "/uploads/21.png"
