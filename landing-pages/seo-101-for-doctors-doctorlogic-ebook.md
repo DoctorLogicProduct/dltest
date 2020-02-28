@@ -39,10 +39,9 @@ page_sections:
   component_css: feature
   img_alignment: Left
   class: ''
-  headline: 'Get the patient growth you need while dominating your local markets.  '
-  text: We can manage all aspects of your digital marketing, including unlimited website
-    content creation, SEO, reputation management, call tracking, local listings and
-    more.
+  headline: Take the guesswork out of your marketing
+  text: 'With robust data-rich reporting, you can easily measure which channels are
+    most effective in driving patient acquisition. '
   btn: []
   wistia-link: []
   img: "/uploads/MicrositeThumb-1.png"
