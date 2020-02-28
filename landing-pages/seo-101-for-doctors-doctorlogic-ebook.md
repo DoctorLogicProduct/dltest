@@ -44,7 +44,7 @@ page_sections:
     most effective in driving patient acquisition. '
   btn: []
   wistia-link: []
-  img: "/uploads/MicrositeThumb-1.png"
+  img: "/uploads/seo-performance (3).jpg"
   alt: 'SEO for doctors '
 - template: feature
   component: feature-1
