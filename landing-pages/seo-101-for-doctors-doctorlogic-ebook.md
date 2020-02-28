@@ -1,30 +1,29 @@
 ---
 layout: components
-title: SEO 101 For Doctors | DoctorLogic Ebook
-permalink: medical-seo-ebook
+title: 'ADSO | Free Analysis '
+permalink: adso-2020
 page_class:
 - class: lp
 gsap: false
 custom_js: ''
-description: DoctorLogic's proprietary software & proven strategy gets you found by
-  more patients and ranking at the top of Google.
-meta_image: "/uploads/1278x811_v2.png"
+description: 'DoctorLogic offers the industry’s most advanced Website Marketing Platform
+  built from the ground up to help DSO’s increase their number of new patients, scale
+  their marketing efforts, and manage multiple websites and brands with one single
+  tool.  '
+meta_image: "/uploads/001-iPad-portrait (1).jpg"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: SEO 101 FOR DOCTORS
-  text: 'Strengthen your online presence and dominate your local search in 2020. When
-    you download this guide you will uncover critical components of healthcare SEO,
-    learn best practices, and discover ways you can succeed with your SEO strategy. '
+  headline: Free Competitive Analysis at 2020 ADSO Summit
+  text: Get a FREE competitive analysis report that will compare and analyze your
+    Google rank, online presence, website and online reputation.
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/1278x811_v2.png"
-  alt: SEO for Doctors
-  btn:
-  - btn-link: https://doctorlogic.com//download-seo-101-ebook
-    btn-label: Download Ebook
+  img: "/uploads/001-iPad-portrait (1)-1.jpg"
+  alt: ADSO Summit 2020
+  btn: []
   text-link: []
   wistia-link: []
 - template: feature
