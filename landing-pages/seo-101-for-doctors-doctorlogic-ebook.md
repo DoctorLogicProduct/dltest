@@ -21,7 +21,7 @@ page_sections:
   button:
   - btn-label: Get a Demo
     btn-link: "/get-a-demo.html"
-  img: "/uploads/001-iPad-portrait (1)-1.jpg"
+  img: "/uploads/001-iPad-portrait (1)-2.jpg"
   alt: ADSO Summit 2020
   btn: []
   text-link: []
