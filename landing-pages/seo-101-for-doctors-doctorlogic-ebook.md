@@ -69,11 +69,10 @@ page_sections:
   component_css: text-component
   headline:
   - headline: 'ADSO 2020 Summit | Meet DoctorLogic at Table #53'
-  text: 'Growing your DSO doesn’t have to be hard. Get the patient growth you need
-    while dominating your local markets.  '
-  btn:
-  - btn-link: https://doctorlogic.com//download-seo-101-ebook
-    btn-label: Download Ebook
+  text: 'We invite you to stop by table #53 at the 2020 ADSO Summit to show you how
+    we can take the guesswork out of the factors that will help you dominate your
+    local markets. '
+  btn: []
   class: ''
   img: []
   link: []
