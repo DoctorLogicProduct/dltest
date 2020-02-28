@@ -11,10 +11,9 @@ page_sections:
 - template: hero-with-iframe-form
   component: hero-4
   component_css: hero-4
-  text: 'With 93% of online experiences beginning with a search engine, staying ahead
-    of your competitors involves more than providing exceptional care. DoctorLogic
-    uses over 15 years of experience to deliver best-in-class SEO strategies that
-    drive results. '
+  text: 'Google is constantly optimizing and innovating. To keep up with your digital
+    presence, a killer strategy is needed. Watch this webinar to learn 3 Effective
+    Ways to Improve Your Search Engine Optimization. '
   tagline:
   - headline: Webinar | 3 Ways To Improve SEO For Aesthetic Practices
   bg_img: "/uploads/seo-performance (3).jpg"
