@@ -16,7 +16,7 @@ page_sections:
   component: hero-4
   component_css: hero-4
   bg_img: "/uploads/001-iPad-portrait (1)-3.jpg"
-  headline: Free Competitive Analysis at 2020 ADSO Summit
+  headline: Diagnose Your DSO | FREE Digital Marketing Analysis
   text: Get a FREE competitive analysis report that will compare and analyze your
     Google rank, online presence, website and online reputation.
   tagline: []
