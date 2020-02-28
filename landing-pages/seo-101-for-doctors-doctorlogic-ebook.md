@@ -34,26 +34,8 @@ page_sections:
     to provide results:'
   items:
   - img:
-    - src: "/uploads/118-2.jpg"
+    - src: "/uploads/118-3.jpg"
       alt: Monthly Leads
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/715.jpg"
-      alt: Page 1 Keyword Increase
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/157-2.jpg"
-      alt: Monthly Organic Sessions
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/379-1.jpg"
-      alt: Increase SEO Keywords
     headline: ''
     text: ''
     link: []
