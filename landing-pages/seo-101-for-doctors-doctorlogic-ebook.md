@@ -12,6 +12,17 @@ description: 'DoctorLogic offers the industry’s most advanced Website Marketin
   tool.  '
 meta_image: "/uploads/001-iPad-portrait (1).jpg"
 page_sections:
+- template: hero-with-iframe-form
+  component: hero-4
+  component_css: hero-4
+  bg_img: "/uploads/001-iPad-portrait (1)-3.jpg"
+  headline: Free Competitive Analysis at 2020 ADSO Summit
+  text: Get a FREE competitive analysis report that will compare and analyze your
+    Google rank, online presence, website and online reputation.
+  tagline: []
+  btn: []
+  form_src: ''
+  form_height: ''
 - template: hero-with-image
   component: hero-1
   component_css: hero
