@@ -61,7 +61,7 @@ page_sections:
   headline:
   - headline: How DoctorLogic Partners with DSOs
   img:
-  - img_src: ''
+  - img_src: "/uploads/iStock-1059979292.jpg"
     img_alt: ''
   class: ''
   btn: []
@@ -79,29 +79,6 @@ page_sections:
   wistia-link: []
   img: "/uploads/seo-performance (3).jpg"
   alt: 'SEO for doctors '
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  class: ''
-  headline: How we partner with DSOs
-  text: ''
-  btn: []
-  wistia-link: []
-  img: "/uploads/terms-hero.jpg"
-  alt: ''
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Left
-  class: ''
-  headline: What Really Matters in SEO
-  text: 'Google''s algorithms are constantly changing. We''ll show you which factors
-    you need to consider right now in order to get ahead online. '
-  img: "/uploads/7.png"
-  btn: []
-  wistia-link: []
-  alt: ''
 - template: text-component
   component: text-component
   component_css: text-component
