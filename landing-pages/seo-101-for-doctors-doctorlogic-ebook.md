@@ -40,20 +40,20 @@ page_sections:
     text: ''
     link: []
   - img:
-    - src: "/uploads/157-1.jpg"
-      alt: Increase Monthly Organic Sessions
+    - src: "/uploads/715.jpg"
+      alt: Page 1 Keyword Increase
+    headline: ''
+    text: ''
+    link: []
+  - img:
+    - src: "/uploads/157-2.jpg"
+      alt: Monthly Organic Sessions
     headline: ''
     text: ''
     link: []
   - img:
     - src: "/uploads/379-1.jpg"
       alt: Increase SEO Keywords
-    headline: ''
-    text: ''
-    link: []
-  - img:
-    - src: "/uploads/715.jpg"
-      alt: Page 1 Keyword Increase
     headline: ''
     text: ''
     link: []
