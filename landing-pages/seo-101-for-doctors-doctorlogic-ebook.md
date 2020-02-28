@@ -27,14 +27,14 @@ page_sections:
 - template: item-grid-component
   component: item-grid
   component_css: item-grid
-  per-row-count: '4'
+  per-row-count: '3'
   class: ''
   headline: Results Driven Marketing
   text: 'DoctorLogic is results-oriented and our digital marketing has been proven
     to provide results:'
   items:
   - img:
-    - src: "/uploads/379-2.jpg"
+    - src: "/uploads/379-3.jpg"
       alt: SEO Keywords
     headline: ''
     text: ''
@@ -52,6 +52,21 @@ page_sections:
     text: ''
     link: []
   btn: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
+    digital aspects from unlimited content creation, SEO, reputation management, local
+    listing management, paid advertising, call tracking and much more. '
+  headline:
+  - headline: How DoctorLogic Partners with DSOs
+  img:
+  - img_src: ''
+    img_alt: ''
+  class: ''
+  btn: []
+  link: []
+  wistia-link: []
 - template: feature
   component: feature-1
   component_css: feature
@@ -98,21 +113,6 @@ page_sections:
     btn-label: Download Ebook
   class: ''
   img: []
-  link: []
-  wistia-link: []
-- template: text-component
-  component: text-component
-  component_css: text-component
-  text: 'DoctorLogic becomes an extension of your Marketing Team, by managing all
-    digital aspects from unlimited content creation, SEO, reputation management, local
-    listing management, paid advertising, call tracking and much more. '
-  headline:
-  - headline: How DoctorLogic Partners with DSOs
-  img:
-  - img_src: "/uploads/MicrositeThumb-1.png"
-    img_alt: ''
-  class: ''
-  btn: []
   link: []
   wistia-link: []
 published: false
