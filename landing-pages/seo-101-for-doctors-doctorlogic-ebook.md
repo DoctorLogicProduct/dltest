@@ -35,7 +35,7 @@ page_sections:
     more.
   btn: []
   wistia-link: []
-  img: "/uploads/16.png"
+  img: "/uploads/MicrositeThumb-1.png"
   alt: 'SEO for doctors '
 - template: feature
   component: feature-1
