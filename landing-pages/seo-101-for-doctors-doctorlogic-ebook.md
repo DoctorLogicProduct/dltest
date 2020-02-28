@@ -24,6 +24,15 @@ page_sections:
   btn: []
   form_src: https://marketing.doctorlogic.com/l/772793/2020-02-28/25vvxh
   form_height: "500"
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  class: ''
+  headline: ''
+  text: ''
+  items: []
+  btn: []
 - template: feature
   component: feature-1
   component_css: feature
