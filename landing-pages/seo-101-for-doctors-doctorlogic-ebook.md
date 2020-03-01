@@ -52,16 +52,17 @@ page_sections:
     text: ''
     link: []
   btn: []
-- template: hero-with-image
-  component: hero-1
-  component_css: hero
+- template: feature
+  component: feature-1
+  component_css: feature
+  img_alignment: Right
   headline: How DoctorLogic Partners with DSOs
   text: DoctorLogic becomes an extension of your Marketing Team, by managing all digital
     aspects from unlimited content creation, SEO, reputation management, local listing
     management, paid advertising, call tracking and much more.
-  img: "/uploads/dental-3up.png"
+  img: "/uploads/dental-3up-1.png"
+  class: ''
   btn: []
-  text-link: []
   wistia-link: []
   alt: ''
 - template: text-component
@@ -77,18 +78,5 @@ page_sections:
   img: []
   link: []
   wistia-link: []
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: How DoctorLogic Partners with DSOs
-  text: DoctorLogic becomes an extension of your Marketing Team, by managing all digital
-    aspects from unlimited content creation, SEO, reputation management, local listing
-    management, paid advertising, call tracking and much more.
-  img: "/uploads/dental-3up-1.png"
-  class: ''
-  btn: []
-  wistia-link: []
-  alt: ''
 
 ---
