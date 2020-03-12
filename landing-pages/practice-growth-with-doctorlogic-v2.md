@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: "/uploads/carousel-1-2.jpg"
+  img: "/uploads/DL0103_landing page images_v2-1.jpg"
   alt: ''
 - template: case-study-feature
   component: case-studies-feature
@@ -44,7 +44,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/plastic-3up-3.png"
+  img: "/uploads/DL0103_landing page images_v22-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -56,7 +56,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/seo-performance-1.jpg"
+  img: "/uploads/DL0103_landing page images_v23-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
