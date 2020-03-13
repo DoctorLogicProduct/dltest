@@ -74,6 +74,7 @@ fields:
   type: blocks
   template_types:
   - hero-with-image
+  - hero-with-background-image
   - hero-no-image
   - hero-with-iframe-form
   - hero-with-form
