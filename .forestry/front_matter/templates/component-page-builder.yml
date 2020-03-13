@@ -14,6 +14,10 @@ fields:
   label: Layout
   hidden: true
   default: components
+- name: alt-header
+  type: boolean
+  label: Alt Header
+  description: Minimal header with phone number and CTA
 - name: permalink
   type: text
   config:
