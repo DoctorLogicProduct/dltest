@@ -8,8 +8,20 @@ gsap: false
 custom_js: ''
 description: ''
 meta_image: ''
-page_sections: []
+page_sections:
+- template: hero-with-background-image
+  component: hero-5
+  bg_img: "/uploads/iStock-1169192820.jpg"
+  headline: This is a PPC Page
+  text: This is some text about the company
+  btn:
+  - btn-label: Button
+    btn-link: "#"
+  wistia-link:
+  - wistia-link-id: "111111"
+    wistia-link-label: Link
+  class: ''
+  tagline: []
 tracking-number: 888-888-8888
-published: false
 
 ---
