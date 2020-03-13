@@ -117,7 +117,7 @@ page_sections:
   class: section-gray
   headline: Happy Providers | Powered by DoctorLogic
   text: ''
-  per-row-count: '3'
+  per-row-count: '2'
   practices:
   - name: Morales Plastic Surgery
   - name: Texas Center For Cosmetic Dentistry

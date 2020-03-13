@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: "/uploads/carousel-1-2.jpg"
+  img: "/uploads/DL0103_landing page images_v2-1.jpg"
   alt: ''
 - template: case-study-feature
   component: case-studies-feature
@@ -44,7 +44,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/plastic-3up-3.png"
+  img: "/uploads/DL0103_landing page images_v22-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -56,7 +56,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/seo-performance-1.jpg"
+  img: "/uploads/DL0103_landing page images_v23-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -69,7 +69,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/content-marketing.jpg"
+  img: "/uploads/DL0103_landing page images_v24-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -81,7 +81,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/review-request-feature.jpg"
+  img: "/uploads/DL0103_landing page images_v25-1.jpg"
   alt: ''
 - template: wistia-embed
   component: wistia-embed
@@ -101,7 +101,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/Opportunities.jpg"
+  img: ''
   alt: ''
 - template: feature
   component: feature-1
@@ -113,7 +113,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/optimized-marketing.jpg"
+  img: "/uploads/DL0103_landing page images_v27-1.jpg"
   alt: ''
 - template: feature
   component: feature-1
@@ -125,7 +125,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/PatientExperience2.jpg"
+  img: "/uploads/DL0103_landing page images_v26-1.jpg"
   alt: ''
 - template: text-component
   component: text-component
@@ -133,7 +133,7 @@ page_sections:
   headline:
   - headline: Results Driven
   img:
-  - img_src: "/uploads/Copy of Copy of Copy of Copy of Untitled.png"
+  - img_src: "/uploads/DL0103_landing page images_v29-1.jpg"
     img_alt: ''
   class: ''
   text: ''
