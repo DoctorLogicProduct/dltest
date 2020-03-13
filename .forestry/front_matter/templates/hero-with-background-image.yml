@@ -55,27 +55,6 @@ fields:
       format: markdown
   label: Text
   description: Text for hero
-- name: btn
-  type: field_group_list
-  fields:
-  - name: btn-label
-    type: text
-    config:
-      required: false
-    label: Button Label
-    description: Label for button
-  - name: btn-link
-    type: text
-    config:
-      required: false
-    label: Button Link
-    description: Link for button
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Button
-  description: Hero button (Not Required)
 - name: wistia-link
   type: field_group_list
   fields:
@@ -97,3 +76,24 @@ fields:
     labelField: 
   label: Wistia Link
   description: Link for Wistia Video popover.  Not required.
+- name: btn
+  type: field_group_list
+  fields:
+  - name: btn-label
+    type: text
+    config:
+      required: false
+    label: Button Label
+    description: Label for button
+  - name: btn-link
+    type: text
+    config:
+      required: false
+    label: Button Link
+    description: Link for button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Button
+  description: Hero button (Not Required)
