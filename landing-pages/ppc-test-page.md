@@ -11,18 +11,17 @@ meta_image: ''
 page_sections:
 - template: hero-with-background-image
   component: hero-5
-  bg_img: "/uploads/iStock-1169192820.jpg"
-  headline: This is a PPC Page
-  text: This is some text about the company
-  btn:
-  - btn-label: Button
-    btn-link: "#"
+  component_css: hero-5
+  bg_img: "/uploads/home-hero-1.jpg"
+  headline: This is a PPC Test Page
+  text: This is the text.
   wistia-link:
   - wistia-link-id: "22222"
-    wistia-link-label: Link
-  class: ''
+    wistia-link-label: Video Link
+  btn:
+  - btn-label: Go Now
+    btn-link: "#"
   tagline: []
-  component_css: ''
 tracking-number: 888-888-8888
 
 ---
