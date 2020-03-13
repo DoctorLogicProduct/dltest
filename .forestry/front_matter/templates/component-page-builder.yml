@@ -17,7 +17,7 @@ fields:
 - name: alt-header
   type: boolean
   label: Alt Header
-  description: Minimal header with phone number and CTA
+  description: Minimal header with phone number and CTA - For PPC Landing Pages Only
 - name: permalink
   type: text
   config:
