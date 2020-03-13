@@ -18,6 +18,15 @@ fields:
   type: boolean
   label: Alt Header
   description: Minimal header with phone number and CTA - For PPC Landing Pages Only
+- name: tracking-number
+  type: text
+  config:
+    required: false
+  label: Tracking Number
+  description: PPC Campaign Tracking Number - To be used with Alt Header
+  showOnly:
+    field: alt-header
+    value: true
 - name: permalink
   type: text
   config:
