@@ -17,7 +17,16 @@ fields:
 - name: alt-header
   type: boolean
   label: Alt Header
-  description: Minimal header with phone number and CTA
+  description: Minimal header with phone number and CTA - For PPC Landing Pages Only
+- name: tracking-number
+  type: text
+  config:
+    required: false
+  label: Tracking Number
+  description: PPC Campaign Tracking Number - To be used with Alt Header
+  showOnly:
+    field: alt-header
+    value: true
 - name: permalink
   type: text
   config:
@@ -141,6 +150,7 @@ pages:
 - landing-pages/plastic-surgery-website-design-get-started-1.md
 - landing-pages/plastic-surgery-website-design-get-started.md
 - landing-pages/plastic-surgery-website-design-get-started.md
+- landing-pages/ppc-test-page.md
 - landing-pages/practice-growth-with-doctorlogic-v2.md
 - landing-pages/practice-growth-with-doctorlogic-v2.md
 - landing-pages/seo-101-for-doctors-doctorlogic-ebook.md
