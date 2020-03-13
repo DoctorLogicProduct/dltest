@@ -15,7 +15,7 @@ fields:
     required: false
   label: Component Custom Class
   description: Special styling class if needed
-  default: ''
+  default: hero-5
   hidden: true
 - name: bg_img
   type: file
