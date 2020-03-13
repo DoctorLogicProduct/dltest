@@ -747,5 +747,21 @@
 			
 		}
 
+		.alt-header {
+
+			.header__cta {
+				margin-left: auto;
+				flex: 1;
+			}
+
+			.header__cta-tracking {
+				font-weight: 400;
+				text-decoration: none;
+				padding: 0 20px;
+				font-size: .9rem;
+			}
+
+		}
+
 
 
