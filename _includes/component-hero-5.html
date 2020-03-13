@@ -1,0 +1,26 @@
+<section class="component hero hero-5 {{section.class}}" style="background: url('{{ section.bg_img }}') center center/cover no-repeat;">
+  <div class="hero-5__text">
+    {% for tagline in section.tagline %}
+    {% if section.tagline %}
+    <div class="hero-5__tagline">
+      <h5>{{tagline.headline}}</h5>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <h1>{{section.headline}}</h1>
+    <p>{{section.text}}</p>
+    {% for btn in section.btn %}
+    {% if section.btn %}
+    <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
+    {% endif %}
+    {% endfor %}
+    {% for wistia-link in section.wistia-link %}
+    {% if section.wistia-link %}
+    <script src="https://fast.wistia.com/embed/medias/{{wistia-link.wistia-link-id}}.jsonp" async></script>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
+      class="wistia_embed wistia_async_{{wistia-link.wistia-link-id}} popover=true popoverContent=link"
+      style="display:inline;position:relative"><a class="play-link" href="#">{{wistia-link.wistia-link-label}}</a></span>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

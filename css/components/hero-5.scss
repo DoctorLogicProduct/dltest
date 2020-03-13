@@ -1,0 +1,96 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "mq", "base";
+
+.hero-5 {
+	padding: 80px 0 0;
+	display: flex;
+	align-items: center;
+	min-height: 350px;
+
+	@include tablet-wide-min {
+		padding: 120px 0 60px 5%;
+		min-height: 600px;
+	}
+
+		&__tagline {
+			h5 {
+				color: $websites;
+				text-transform: uppercase;
+			}
+		}
+
+		&__text {
+			grid-column: auto / span 24;
+			grid-row: 2 / span 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			padding: 0 20px;
+			max-width: 900px;
+			z-index: 2;
+
+			@include tablet-wide-min {
+				justify-content: center;
+				align-items: flex-start;
+				padding: 40px;
+			}
+
+			h1 {
+				max-width: 100%;
+				font-size: 1.7rem;
+				margin-bottom: 20px;
+
+				@include tablet-min {
+				  font-size: 3.5vw;
+				}
+				
+			}
+
+			h1, p {
+				text-align: center;
+
+				@include tablet-wide-min {
+					text-align: left;
+				}
+
+			}
+
+			p {
+				margin: 0;
+			}
+
+		}
+
+}
+
+body.social-reputation .hero-5 h5 {
+	color: $reputation;
+}
+
+body.content-multiplier .hero-5 h5 {
+	color: $content;
+}
+
+body.search-amplifier .hero-5 h5 {
+	color: $search;
+}
+
+body.lead-generator .hero-5 h5 {
+	color: $leads;
+}
+
+body.success-insights .hero-5 h5 {
+	color: $success;
+}
+
+body.success-insights .hero-5 h5 {
+	color: $success;
+}
+
+body.growth-accelerators .hero-5 h5 {
+	color: $growth;
+}

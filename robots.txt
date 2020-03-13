@@ -1,2 +1,0 @@
-Sitemap: https://doctorlogic.com/sitemap.xml
-Disallow: https://stage.doctorlogic.com
