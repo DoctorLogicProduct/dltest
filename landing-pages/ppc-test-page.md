@@ -18,10 +18,11 @@ page_sections:
   - btn-label: Button
     btn-link: "#"
   wistia-link:
-  - wistia-link-id: "111111"
+  - wistia-link-id: "22222"
     wistia-link-label: Link
   class: ''
   tagline: []
+  component_css: ''
 tracking-number: 888-888-8888
 
 ---
