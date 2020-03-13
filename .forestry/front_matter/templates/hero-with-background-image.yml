@@ -9,13 +9,14 @@ fields:
   label: Component
   default: hero-5
   hidden: true
-- name: class
+- name: component_css
   type: text
   config:
     required: false
   label: Component Custom Class
   description: Special styling class if needed
   default: ''
+  hidden: true
 - name: bg_img
   type: file
   config:
