@@ -16,6 +16,12 @@ fields:
   label: Component CSS
   hidden: true
   default: item-grid
+- name: background-image
+  type: file
+  config:
+    maxSize: 250
+  label: Background Image
+  description: Background Image - Not Required
 - name: class
   type: text
   config:
