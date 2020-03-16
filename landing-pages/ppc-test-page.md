@@ -16,7 +16,7 @@ page_sections:
   headline: This is a PPC Test Page
   text: This is the text.
   wistia-link:
-  - wistia-link-id: "22222"
+  - wistia-link-id: "/w7jgkunbv9"
     wistia-link-label: Video Link
   btn:
   - btn-label: Go Now
@@ -34,6 +34,34 @@ page_sections:
   btn: []
   link: []
   wistia-link: []
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  background-image: "/uploads/privacy-hero.jpg"
+  headline: Some Blocks
+  items:
+  - img:
+    - src: "/uploads/vold-vision-logo.png"
+      alt: ''
+    headline: ''
+    text: Vold Vision
+    link: []
+  - img:
+    - src: "/uploads/vold-vision-logo.png"
+      alt: ''
+    headline: ''
+    text: Vold Vision
+    link: []
+  - img:
+    - src: ''
+      alt: ''
+    headline: ''
+    text: Vold Vision
+    link: []
+  class: ''
+  text: ''
+  btn: []
 tracking-number: 888-888-8888
 
 ---
