@@ -54,7 +54,7 @@ page_sections:
     text: Vold Vision
     link: []
   - img:
-    - src: ''
+    - src: "/uploads/vold-vision-logo.png"
       alt: Vold Vision
     headline: ''
     text: Vold Vision
