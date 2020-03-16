@@ -22,6 +22,16 @@ page_sections:
   - btn-label: Go Now
     btn-link: "#"
   tagline: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  class: ''
+  headline: []
+  img: []
+  text: ''
+  btn: []
+  link: []
+  wistia-link: []
 tracking-number: 888-888-8888
 
 ---
