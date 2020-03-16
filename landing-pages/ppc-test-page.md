@@ -22,6 +22,18 @@ page_sections:
   - btn-label: Go Now
     btn-link: "#"
   tagline: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  class: ''
+  headline: []
+  img: []
+  text: "<p>This is some text about this PPC campaign.  It can be as long or short
+    as you need it to be.  Remember, be efficient with your text as people have very
+    short attention spans.</p><p><strong>Very short attention spans.</strong></p>"
+  btn: []
+  link: []
+  wistia-link: []
 tracking-number: 888-888-8888
 
 ---
