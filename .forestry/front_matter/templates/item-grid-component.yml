@@ -115,7 +115,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: headline
+    labelField: text
   label: Item
   description: Section Item
 - name: btn

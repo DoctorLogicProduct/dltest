@@ -43,19 +43,19 @@ page_sections:
   items:
   - img:
     - src: "/uploads/vold-vision-logo.png"
-      alt: ''
+      alt: Vold Vision
     headline: ''
     text: Vold Vision
     link: []
   - img:
     - src: "/uploads/vold-vision-logo.png"
-      alt: ''
+      alt: Vold Vision
     headline: ''
     text: Vold Vision
     link: []
   - img:
     - src: ''
-      alt: ''
+      alt: Vold Vision
     headline: ''
     text: Vold Vision
     link: []
