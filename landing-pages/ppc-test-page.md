@@ -28,7 +28,9 @@ page_sections:
   class: ''
   headline: []
   img: []
-  text: ''
+  text: "<p>This is some text about this PPC campaign.  It can be as long or short
+    as you need it to be.  Remember, be efficient with your text as people have very
+    short attention spans.</p><p><strong>Very short attention spans.</strong></p>"
   btn: []
   link: []
   wistia-link: []
