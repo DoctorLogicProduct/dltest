@@ -59,7 +59,7 @@ page_sections:
     headline: ''
     text: Vold Vision
     link: []
-  class: ''
+  class: Bob
   text: ''
   btn: []
 tracking-number: 888-888-8888
