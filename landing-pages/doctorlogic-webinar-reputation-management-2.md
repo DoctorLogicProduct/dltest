@@ -12,12 +12,12 @@ page_sections:
   component: hero-4
   component_css: hero-4
   text: 'Google is constantly optimizing and innovating. To keep up with your digital
-    presence, a killer strategy is needed. Watch this webinar to learn 3 Effective
-    Ways to Improve Your Search Engine Optimization. '
+    presence, you need a killer strategy. Watch this webinar to learn 3 proven strategies
+    to amplify your practice''s search engine optimization strategy. '
   tagline:
   - headline: Webinar | 3 Ways To Improve SEO For Aesthetic Practices
   bg_img: "/uploads/home-hero-1.jpg"
-  headline: 'Amplify your practice’s SEO with 3 proven strategies. '
+  headline: '3 Ways To Amplify Your SEO '
   btn: []
   form_src: ''
   form_height: "700"
