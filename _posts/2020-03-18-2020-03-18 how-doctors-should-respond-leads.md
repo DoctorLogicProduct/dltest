@@ -27,19 +27,19 @@ post_image: "/uploads/iStock-1211520437-1.jpg"
 post_highlight: ''
 
 ---
-In a world full of noise, time is becoming one of the most valuable resources at our disposal, and this is particularly true for medical practices. 
+In a world full of noise, time is becoming one of the most valuable resources at our disposal, and this is particularly true for medical practices.
 
 Studies have shown that if you aren’t getting in contact with your prospects within 5 minutes of them submitting an appointment request or requesting additional information—you are running an exponential risk of losing that prospect. With the high costs of paid advertising and the ever-increasing competition in the digital landscape, you literally can’t afford to waste another moment.
 
 ## Let's Set The Scene
 
-One Saturday afternoon, you decide to venture out for those new shoes you need for an upcoming event. 
+One Saturday afternoon, you decide to venture out for those new shoes you need for an upcoming event.
 
-You walk into a shoe store and you immediately see the pair that will be perfect for this event. You make your way over to the shelf. Now you just need to find your size, but there isn’t a staff member insight. 
+You head out to the nearest mall and while walking around you catch a glimpse of the perfect pair. You make your way over to the shelf, pick it up and survey the shoe up close. Now you just need to find your size, but there isn’t a staff member insight. 
 
-You patiently wait a few minutes, but of course, you eventually start to tap your toe and continue to look around in hopes this will show you need help. But still nothing. _So, what do you do?_
+You patiently wait a few seconds and within minutes you’re tapping your toe and looking around for someone to acknowledge you. But still nothing. _So, what do you do?_
 
-Let’s be honest...you’re going to pop over to the shoe store that is right across the street and buy the very same shoes there.
+Let’s be honest...you’re going to pop over to the next shoe store  and buy the very same shoes or find a better option there.
 
 This begs a question... **Why should online service be any different?**
 
@@ -55,17 +55,17 @@ Lead response time is quickly becoming the most powerful determiner of successfu
 
 Don’t cherry-pick leads!
 
-Have a system in place to manually or automatically provide a professional response to every sales inquiry you receive. If customers take the time to reach out, they deserve a response. 
+Have a system in place to manually or automatically provide a professional response to every sales inquiry you receive. If customers take the time to reach out, they deserve a response.
 
 **2. Respond Quickly!**
 
 Your lead response time should be in minutes – not hours!
 
-Studies show internet shoppers who receive a response within 10 minutes, are three times more likely to book an appointment. Contact leads right away – at their highest point of interest! 
+Studies show internet shoppers who receive a response within 10 minutes, are three times more likely to book an appointment. Contact leads right away – at their highest point of interest!
 
 **3. Personalize the Response.**
 
-Customizing your response will make customers feel more important. 
+Customizing your response will make customers feel more important.
 
 Your responses to leads should always include:
 
@@ -86,6 +86,6 @@ Does your practice currently have a process or technology to personalize respons
 
 Up to 40% of leads are generated after hours.
 
-With a [Managed Chat](https://doctorlogic.com/growth-accelerators/medical-managed-chat) service, you can have access to conversations had with website visitors who visit after your office hours. 
+With a [Managed Chat](https://doctorlogic.com/growth-accelerators/medical-managed-chat) service, you can have access to conversations had with website visitors who visit after your office hours.
 
 Now that you’re familiar with lead response best practices let us know when you’re ready to elevate your digital strategy to the next level. Contact us at [sales@doctorlogic.com]()
