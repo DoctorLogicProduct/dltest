@@ -17,7 +17,7 @@ page_sections:
   tagline:
   - headline: Webinar | 3 Ways To Improve SEO For Aesthetic Practices
   bg_img: "/uploads/home-hero-1.jpg"
-  headline: '3 Ways To Amplify Your SEO '
+  headline: 'Amplify Your Practice SEO '
   btn: []
   form_src: ''
   form_height: "700"
