@@ -39,18 +39,18 @@ page_sections:
 - template: hero-no-image
   component: hero-2
   component_css: hero-2
-  text: 'Google is constantly optimizing and innovating. Watch this webinar to learn
-    3 proven strategies to amplify your practice''s search engine optimization strategy
-    and align with Google''s algorithms. '
-  headline: Amplify Your Practice SEO
+  text: ''
+  headline: 'Webinar On-Demand '
   btn: []
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
   wistia-id: 0d84mk185q
   class: ''
-  headline: ''
-  text: ''
+  headline: 3 Ways To Improve SEO For Aesthetic Practices
+  text: 'Google is constantly optimizing and innovating. Watch this webinar to learn
+    3 proven strategies to amplify your practice''s search engine optimization strategy
+    and align with Google''s algorithms. '
 gsap: false
 alt-header: false
 tracking-number: ''
