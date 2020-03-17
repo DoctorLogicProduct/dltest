@@ -12,8 +12,8 @@ page_sections:
   component: hero-1
   component_css: hero
   headline: Amplify Your Practice SEO
-  img: "/uploads/home-hero-1.jpg"
-  alt: Explainer Video Image
+  img: "/uploads/SEO_Artboard 1@2x.png"
+  alt: 'SEO For Aesthetic Practices Video '
   text: Google is constantly optimizing and innovating. Watch this webinar to learn
     3 proven strategies to amplify your practice's search engine optimization strategy
     and align with Google's algorithms.
@@ -25,9 +25,7 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: Google is constantly optimizing and innovating. Watch this webinar to
-      learn 3 proven strategies to amplify your practice's search engine optimization
-      strategy and align with Google's algorithms.
+  - headline: ''
   wistia-link:
   - link-id: 0d84mk185q
     link-label: Watch Video
