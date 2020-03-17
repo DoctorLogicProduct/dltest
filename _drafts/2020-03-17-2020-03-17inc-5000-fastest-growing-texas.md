@@ -1,7 +1,7 @@
 ---
 post_title: 'DoctorLogic named No. 122 on the First-Ever List of Texas’s Fastest Growing
   Companies '
-date: 2020-03-17 22:00:00 +0000
+date: 2020-03-17 21:33:00 +0000
 post_author: Keisha Dunstan
 tags:
 - News
