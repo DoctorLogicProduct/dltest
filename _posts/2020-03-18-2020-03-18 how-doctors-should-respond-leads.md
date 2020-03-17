@@ -12,7 +12,7 @@ btn:
 form_template: ''
 form_handler: ''
 post_title: How Doctors Should Respond to Online Leads
-date: '2020-03-18 16:00:00 +0000'
+date: 2020-03-18 16:00:00 +0000
 post_author: Keisha Dunstan
 tags:
 - Strategy
@@ -24,6 +24,7 @@ post_type:
 product:
 - growth accelerators
 post_image: "/uploads/iStock-1211520437-1.jpg"
+post_highlight: ''
 
 ---
 In a world full of noise, time is becoming one of the most valuable resources at our disposal, and this is particularly true for medical practices. 

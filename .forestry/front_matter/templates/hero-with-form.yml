@@ -84,5 +84,3 @@ fields:
     required: false
   label: Form Handler
   description: Pardot form handler URL
-pages:
-- _posts/2020-03-18-2020-03- 18 how-doctors-should-respond-leads.md
