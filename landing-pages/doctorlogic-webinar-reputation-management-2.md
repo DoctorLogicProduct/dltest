@@ -27,7 +27,7 @@ page_sections:
   wistia-id: 0d84mk185q
   class: ''
   headline: 3 WAYS TO IMPROVE SEO FOR AESTHETIC PRACTICES
-  text: ''
+  text: Watch On-Demand Webinar
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
