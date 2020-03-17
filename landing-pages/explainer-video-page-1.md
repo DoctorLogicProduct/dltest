@@ -1,20 +1,22 @@
 ---
 layout: components
-title: Explainer Video Page
-permalink: practice-growth-experts/video
+title: Webinar | SEO For Aesthetic Practices
+permalink: 3-ways-improve-seo-aesthetics
 page_class: []
 custom_js: ''
 description: 'DoctorLogic was built to help build your practice with it''s website
   marketing platform built for healthcare providers. '
-meta_image: "/uploads/Meet DoctorLogic. Your Practice Growth Experts-1.png"
+meta_image: "/uploads/home-hero-1.jpg"
 page_sections:
 - template: hero-with-image
   component: hero-1
   component_css: hero
-  headline: Meet DoctorLogic. Your Practice Growth Experts.
-  img: "/uploads/Meet DoctorLogic. Your Practice Growth Experts-1.png"
+  headline: Amplify Your Practice SEO
+  img: "/uploads/home-hero-1.jpg"
   alt: Explainer Video Image
-  text: ''
+  text: Google is constantly optimizing and innovating. Watch this webinar to learn
+    3 proven strategies to amplify your practice's search engine optimization strategy
+    and align with Google's algorithms.
   button: []
   btn: []
   text-link: []
@@ -23,10 +25,11 @@ page_sections:
   component: text-component
   component_css: text-component
   headline:
-  - headline: 'One solution created to improve patient experiences and help grow your
-      practice’s online presence. '
+  - headline: Google is constantly optimizing and innovating. Watch this webinar to
+      learn 3 proven strategies to amplify your practice's search engine optimization
+      strategy and align with Google's algorithms.
   wistia-link:
-  - link-id: w7jgkunbv9
+  - link-id: 0d84mk185q
     link-label: Watch Video
   btn: []
   class: ''
@@ -34,6 +37,8 @@ page_sections:
   text: ''
   link: []
 gsap: false
+alt-header: false
+tracking-number: ''
 published: false
 
 ---
