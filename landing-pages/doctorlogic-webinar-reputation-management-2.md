@@ -26,7 +26,7 @@ page_sections:
   component_css: wistia-embed
   wistia-id: 0d84mk185q
   class: ''
-  headline: ''
+  headline: 3 WAYS TO IMPROVE SEO FOR AESTHETIC PRACTICES
   text: ''
 - template: case-study-feature
   component: case-studies-feature
