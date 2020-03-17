@@ -21,6 +21,20 @@ page_sections:
   btn: []
   form_src: ''
   form_height: "700"
+- template: hero-with-background-image
+  component: hero-5
+  component_css: hero-5
+  bg_img: "/uploads/home-hero-1.jpg"
+  tagline:
+  - headline: Webinar | 3 Ways To Improve SEO For Aesthetic Practices
+  text: 'Google is constantly optimizing and innovating. Watch this webinar to learn
+    3 proven strategies to amplify your practice''s search engine optimization strategy
+    and align with Google''s algorithms. '
+  headline: Amplify Your Practice SEO
+  wistia-link:
+  - wistia-link-id: 0d84mk185q
+    wistia-link-label: Watch Video
+  btn: []
 - template: case-study-feature
   component: case-studies-feature
   component_css: case-studies-feature
