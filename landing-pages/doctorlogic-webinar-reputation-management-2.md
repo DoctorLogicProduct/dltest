@@ -6,7 +6,7 @@ page_class:
 - class: lp
 custom_js: ''
 description: ''
-meta_image: "/uploads/SEO_Artboard 1@2x.png"
+meta_image: "/uploads/home-hero-1.jpg"
 page_sections:
 - template: hero-with-iframe-form
   component: hero-4
@@ -16,7 +16,7 @@ page_sections:
     Ways to Improve Your Search Engine Optimization. '
   tagline:
   - headline: Webinar | 3 Ways To Improve SEO For Aesthetic Practices
-  bg_img: "/uploads/seo-performance (3).jpg"
+  bg_img: "/uploads/home-hero-1.jpg"
   headline: 'Amplify your practice’s SEO with 3 proven strategies. '
   btn: []
   form_src: ''
@@ -35,6 +35,8 @@ page_sections:
   btn: []
   wistia-link: []
 gsap: false
+alt-header: false
+tracking-number: ''
 published: false
 
 ---
