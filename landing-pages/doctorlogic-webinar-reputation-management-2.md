@@ -42,6 +42,17 @@ page_sections:
   text: ''
   headline: 'Webinar On-Demand '
   btn: []
+- template: text-component
+  component: text-component
+  component_css: text-component
+  headline:
+  - headline: Amplify Your Practice SEO
+  class: ''
+  img: []
+  text: ''
+  btn: []
+  link: []
+  wistia-link: []
 - template: wistia-embed
   component: wistia-embed
   component_css: wistia-embed
