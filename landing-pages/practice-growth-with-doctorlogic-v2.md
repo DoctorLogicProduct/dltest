@@ -44,7 +44,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/websites-1.png"
+  img: "/uploads/websites-2.png"
   alt: ''
 - template: feature
   component: feature-1
