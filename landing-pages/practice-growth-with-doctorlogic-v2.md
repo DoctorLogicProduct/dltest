@@ -19,7 +19,7 @@ page_sections:
     btn-link: ''
   text-link: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v2-1.jpg"
+  img: "/uploads/hero_image.png"
   alt: ''
 - template: case-study-feature
   component: case-studies-feature
@@ -56,7 +56,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v23-1.jpg"
+  img: "/uploads/seo.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -69,7 +69,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v24-1.jpg"
+  img: "/uploads/content.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -81,7 +81,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v25-1.jpg"
+  img: "/uploads/reputation.png"
   alt: ''
 - template: wistia-embed
   component: wistia-embed
@@ -101,7 +101,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: ''
+  img: "/uploads/leads.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -113,7 +113,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v27-1.jpg"
+  img: "/uploads/reporting.png"
   alt: ''
 - template: feature
   component: feature-1
@@ -125,7 +125,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v26-1.jpg"
+  img: "/uploads/growth.png"
   alt: ''
 - template: text-component
   component: text-component
@@ -133,7 +133,7 @@ page_sections:
   headline:
   - headline: Results Driven
   img:
-  - img_src: "/uploads/DL0103_landing page images_v29-1.jpg"
+  - img_src: "/uploads/stats.png"
     img_alt: ''
   class: ''
   text: ''
