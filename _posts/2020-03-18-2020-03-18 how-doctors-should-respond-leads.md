@@ -94,4 +94,6 @@ Up to 40% of leads are generated after hours.
 
 With a [Managed Chat](https://doctorlogic.com/growth-accelerators/medical-managed-chat) service, you can have access to conversations had with website visitors who visit after your office hours.
 
-Now that you’re familiar with lead response best practices let us know when you’re ready to elevate your digital strategy to the next level. Contact us at [sales@doctorlogic.com]()
+Curious to hear your lead follow-up best practices as well, especially those that have been implemented and optimized across your medical practice. 
+
+Don't have a strategy in place? Let us know when you’re ready to elevate your digital strategy to the next level. Contact us at [sales@doctorlogic.com]()
