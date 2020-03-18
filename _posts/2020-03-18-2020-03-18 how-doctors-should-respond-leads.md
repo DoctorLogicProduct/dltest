@@ -63,13 +63,17 @@ Your lead response time should be in minutes – not hours!
 
 Studies show internet shoppers who receive a response within 10 minutes, are three times more likely to book an appointment. Contact leads right away – at their highest point of interest!
 
-**3. Draft email templates & VM scripts**  
+**3. Draft email templates & VM scripts**
+
+  
 Give you smart, trained reps flexibility to customize their prospect messages, but give them a baseline template for each email as well as an explicit script for voicemails. Ideally, these include your best practices around messaging, format, offer, etc.
 
-**4. Diversify channels beyond email & phone**  
+**4. Diversify channels beyond email & phone**
+
+  
 At a minimum, your lead follow-up should include both email and phone/voicemail. Leaving voicemails has been proven to increase familiarity and awareness, which increases response rates of future outreach. But diversifying channels further will accelerate the path towards response. Think social, discussion boards, Twitter “favorites”, LinkedIn Groups, their blog comments, anywhere you can generate a value-added impression with them that increases your engagement rate.
 
-**5. Personalize the Response.**
+**5. Personalize the Response**
 
 Customizing your response will make customers feel more important.
 
