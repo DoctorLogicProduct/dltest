@@ -44,7 +44,7 @@ page_sections:
   class: ''
   btn: []
   wistia-link: []
-  img: "/uploads/DL0103_landing page images_v22-1.jpg"
+  img: "/uploads/websites.png"
   alt: ''
 - template: feature
   component: feature-1
