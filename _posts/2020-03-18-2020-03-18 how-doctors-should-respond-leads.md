@@ -12,7 +12,7 @@ btn:
 form_template: ''
 form_handler: ''
 post_title: 'The Rules of Engagement: How Doctors Should Respond to Online Leads'
-date: 2020-03-18 16:00:00 +0000
+date: 2020-03-18 03:36:00 +0000
 post_author: Keisha Dunstan
 tags:
 - Strategy
