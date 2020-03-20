@@ -127,19 +127,34 @@ page_sections:
   wistia-link: []
   img: "/uploads/growth.png"
   alt: ''
-- template: text-component
-  component: text-component
-  component_css: text-component
-  headline:
-  - headline: Results Driven
-  img:
-  - img_src: "/uploads/stats.png"
-    img_alt: ''
+- template: item-grid-component
+  component: item-grid
+  component_css: item-grid
+  per-row-count: '3'
+  headline: Results Driven
+  items:
+  - img:
+    - src: "/uploads/118 (5).jpg"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  - img:
+    - src: "/uploads/379 (4).jpg"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  - img:
+    - src: "/uploads/157 (4).jpg"
+      alt: ''
+    headline: ''
+    text: ''
+    link: []
+  background-image: ''
   class: ''
   text: ''
   btn: []
-  link: []
-  wistia-link: []
 - template: text-component
   component: text-component
   component_css: text-component
