@@ -28,7 +28,7 @@ Google [said](https://www.blog.google/inside-google/company-announcements/covid-
 
 ### 2. Audit Your Practice Staff
 
-Whether your practice is temporarily closed or operating under shorter hours, you’re most likely experiencing lower patient cases. Take this downtime to audit your practice staff. You can monitor reports such as phone calls, email communications, and so on. This is valuable to do on a regular basis, but oftentimes the demand and stress of running a practice [Download File]( "Download File") this from being done as often as needed. Use this time to audit your practice to ensure maximum efficiency when we’re able to operate at normal business hours again.
+Whether your practice is temporarily closed or operating under shorter hours, you’re most likely experiencing lower patient cases. Take this downtime to audit your practice staff. You can monitor reports such as phone calls, email communications, and so on. This is valuable to do on a regular basis, but oftentimes the demand and stress of running a practice prohibit this from being done as often as needed. Use this time to audit your practice to ensure maximum efficiency when we’re able to operate at normal business hours again.
 
 ### 3. Review or Develop Your Marketing Plan
 
