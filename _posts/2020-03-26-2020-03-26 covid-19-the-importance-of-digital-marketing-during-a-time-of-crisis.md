@@ -1,7 +1,7 @@
 ---
 post_title: 'COVID-19: The Importance of Digital Marketing During A Time of Crisis'
-date: 2020-03-26 15:00:00 +0000
-post_author: Andre Riley
+date: 2020-03-26 14:00:00 +0000
+post_author: Kandace Cortez
 tags: []
 post_intro: As COVID-19 continues to impact business, the role of digital marketing
   is becoming increasingly more important to create continued awareness.
