@@ -28,8 +28,7 @@ While we can’t give you a definitive answer to the first question, we can defi
 
 Below we discuss some important things to remember when it comes to digital marketing, how it can impact your business in times of crisis, and why you should think first before putting a stop to your marketing activities.
 
-###   
-**How is SEO impacted by the coronavirus?**
+### **How is SEO impacted by the coronavirus?**
 
 The team of dedicated professionals at DoctorLogic is ready to assist you in leveraging the situation for your long-term digital marketing success. While the virus is strongly impacting some services and marketing channels, the Search Engine Optimization (SEO) channel has not felt the effects as much. Even during times of crisis, Google's algorithms and crawlers remain largely unaffected, continuing to operate, as usual, irrespective of current events. They run by complicated computer algorithms that don't ever sleep. Fortunately, the only thing impacted is the number of people searching for the keywords we're targeting around practice types and procedures. While the search volume will take a temporary dip, it will return back to normal once this outbreak is over.
 
