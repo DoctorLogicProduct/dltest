@@ -5,7 +5,7 @@ post_author: Andre Riley
 tags: []
 post_intro: As COVID-19 continues to impact business, the role of digital marketing
   is becoming increasingly more important to create continued awareness.
-post_image: ''
+post_image: "/uploads/blog-image.jpg"
 post_highlight: As COVID-19 continues to impact business, the role of digital marketing
   is becoming increasingly more important to create continued awareness.
 post_type:
