@@ -64,3 +64,12 @@ If you are faced with downtime because of COVID-19, this a good time to create m
 There is no doubt that coronavirus has given all of us a new challenge on how to continue to create awareness of our business outside of some of the more traditional channels, especially when it comes to digital marketing. Our team at DoctorLogic has talked to many concerned practices regarding how their company is reacting to the coronavirus pandemic and what we can do to help you stay vital and active even in a time of uncertainty.
 
 As always, DoctorLogic remains dedicated to the future success and growth of your business. Please contact us if you want to discuss any changes to your current digital marketing strategy or to brainstorm new ideas on how to keep or regain momentum. We are in this together, and together we will maximize the opportunities that await us when COVID-19 is a distant memory.
+
+**Other Resources:**
+
+* [6 Medical Practice Marketing Strategies that can TRIPLE Your Leads in 2020](https://doctorlogic.com/blog/2020-02-11medical-practice-marketing-strategies-more-leads)
+* [How To Build a Profitable Practice](https://doctorlogic.com/blog/how-to-build-a-profitable-practice.html)
+* [Is Your Healthcare Marketing Plan Working](https://doctorlogic.com/blog/is-healthcare-marketing-plan-working.html)
+* [Healthcare Digital Marketing Metrics: What to Know Before You Measure](https://doctorlogic.com/blog/healthcare-digital-marketing-metrics.html)
+
+If you need help with your marketing strategy, please reach out to us at 855-522-3600 or email [sales@doctorlogic.com](mailto:sales@doctorlogic.com). We’d love to help you take this time to devise a plan of action for maximum efficiency after the coronavirus.
