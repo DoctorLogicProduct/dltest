@@ -61,9 +61,9 @@
   },
   {
     "name": "Kandace Cortez",
-    "title": "VP, Client Success",
+    "title": "VP, Client Services",
     "img": "/img/people/kandacecortez.jpg",
-    "desc": "Kandace leads our Client Success team ensuring that our customers get the most out of their websites and have a wonderful experience with DoctorLogic."
+    "desc": "Kandace leads our Client Services team ensuring that our customers get the most out of their websites and have a wonderful experience with DoctorLogic."
   },
   {
     "name": "Matt Sparks",
@@ -94,5 +94,11 @@
     "title": "SEO Manager",
     "img": "/img/people/ryanmetcalf.jpg",
     "desc": "Ryan Metcalf is a seasoned e-commerce digital marketing leader with experience running campaigns in multiple channels including SEO, SEM, and social media across multiple industries and websites."
+  },
+  {
+    "name": "Audra London",
+    "title": "Content Marketing Manager",
+    "img": "/img/people/audralondon.jpg",
+    "desc": "As Content Marketing Manager, Audra oversees DoctorLogic’s in-house content marketing product, which includes content strategy, blog coordination among a team of dedicated writers, editing, and the implementation of each individual post."
   }
 ]
