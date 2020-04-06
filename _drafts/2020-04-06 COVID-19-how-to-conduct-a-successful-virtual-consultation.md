@@ -22,25 +22,22 @@ The role of telemedicine and virtual consultations are becoming increasingly mor
 
 Below we discuss the role of telemedicine and virtual consultations and how they are providing a real service for both providers and patients. For practices that are adding virtual consultations until they can open their doors once again, we provide some helpful tips to ensure your consultations are professional, easy to navigate, and efficient.
 
-###   
-**What is telemedicine?**
+### **What is telemedicine?**
 
 The concept of telemedicine isn’t new. It actually started back in the 1950s as a select group of practices shared information about patients over the telephone. It provided more of a benefit to rural areas or hard to reach communities where certain doctors weren’t readily available. Telemedicine connected doctors who were working with a patient in one location to specialists who were working in another.
 
 Thanks to advances in technology, telemedicine is now readily available to patients who have online capabilities via smartphones, computers, and tablets through high-quality video transmissions. This means that doctors have access to remotely “treat” or consult with patients in their homes, workplaces, and other medical or assisted living facilities as a viable alternative to in-person visits.
 
-###   
-**Is there a difference between telemedicine and telehealth?**
+### **Is there a difference between telemedicine and telehealth?**
 
 Especially now, it is common to hear the terms telemedicine and telehealth used interchangeably. But there is a difference between the two:
 
 * **_Telemedicine_** is the practice of doctors using technology to deliver care at a distance, which is being adopted by many of our DoctorLogic practices on their websites. A physician in one location uses a telecommunication infrastructure to securely deliver care or consult with a patient at a distant site.
-* **_Telehealth _**refers to the electronic and telecommunications technologies and services that are used to provide care and services at-a-distance.
+* **_Telehealth_** refers to the electronic and telecommunications technologies and services that are used to provide care and services at-a-distance.
 
 To put it in more simple terms, telemedicine refers specifically to remote clinical services, while telehealth refers to remote non-clinical services.
 
-###   
-**The role of virtual consultations in cosmetic, dental, and medical practices**
+### **The role of virtual consultations in cosmetic, dental, and medical practices**
 
 COVID-19 is impacting all aspects of our world, including the majority of medical practices that have had to shut their doors and cancel elective surgeries. This includes many plastic surgery and cosmetic dental procedures, as well as vision treatments, certain orthopedic procedures, med spa sessions, and anything else deemed not immediately medically necessary. Through the use of electronic communications and software, practices that are offering virtual consultations are able to provide clinical services to patients without an in-person visit. This advanced technology is now being actively used for follow-up visits, management of chronic conditions, managing and prescribing medications, specialist consultations, and a host of other vital services that can be provided remotely via secure video and audio connections.
 
@@ -48,7 +45,6 @@ COVID-19 is impacting all aspects of our world, including the majority of medica
 
 Many states are under rigorous “shelter at home” orders, which means patients should not leave the safety of their homes, even to attend to medical appointments that aren’t considered vital. The ability to consult with a plastic surgeon, dentist, vision expert or any other type of medical provider gives patients an opportunity to receive expert medical care or advice without leaving their homes and risking exposure to or the actual contraction of coronavirus. Even though the physical location of your practice may be closed, you are still able to consult virtually with your patients, letting them know they are still a priority.
 
-  
 As many of DoctorLogic’s customers are finding out, conducting virtual consultations as an alternative to in-person visits is providing a variety of benefits for both the practice itself as well as the patients who are utilizing the service.
 
 Benefits for medical providers include:
