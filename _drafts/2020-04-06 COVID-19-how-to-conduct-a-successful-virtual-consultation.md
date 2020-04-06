@@ -6,7 +6,7 @@ tags: []
 post_intro: The health and safety of patients and staff is a priority among medical
   practices. Virtual consultations allow you to continue providing service in a private
   and efficient manner.
-post_image: ''
+post_image: "/uploads/vip_corona_update.jpg"
 post_highlight: The health and safety of patients and staff is a priority among medical
   practices. Virtual consultations allow you to continue providing service in a private
   and efficient manner.
