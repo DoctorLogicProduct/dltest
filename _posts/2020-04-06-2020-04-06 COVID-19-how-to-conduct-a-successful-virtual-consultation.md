@@ -1,6 +1,6 @@
 ---
 post_title: 'COVID-19: How to Conduct a Successful Virtual Consultation'
-date: 2020-04-06 21:00:00 +0000
+date: 2020-04-06 19:00:00 +0000
 post_author: Audra London
 tags: []
 post_intro: The health and safety of patients and staff is a priority among medical
