@@ -30,19 +30,19 @@ The number one thing to keep in mind when it comes to SEO is to not panic and ov
 
 It’s possible and highly likely that SEO rankings will be the same or even improve in some cases, which normally leads to increases in performance. However, the search volume or amount of people searching for those keywords will be down, resulting in negative performance. So far, based on Google Trends data, we’ve seen several instances where the general interest is down quite substantially. Some of these interest levels are at multi-year lows which can be an indication of search volume. The more interest, the higher the search volume and vice versa.
 
-![](https://lh5.googleusercontent.com/1ZKXomb66tIhZ9VbmfPf8bVrgzAh6V5-FY5JnymCRSucqrc3rVsN3kiS4riX7toWOfjvk-FczVTcYTGtNszux1W8tXy88BlnRIzyCbSHo67QLlv4WT0PTJcNyyrvjQ6kDYqhqYLf =531x278)
+![](/uploads/Analytics1.png)
 
-![](https://lh6.googleusercontent.com/HZ6gPRaw4YTFlmVewn_mFYWMWQty8qrj4Nuob1fbyUGzYKN9Wb_FoGy0jzyC5TDn1ZdBVpRn9WnGmmxRhFyzaDvfElygpJ8sy2XTdppqBTEbXfOpkrV12xp0SckJSCWxYA35ICxb =624x328)When search volume returns to normal, we’ll be in great shape and should see large performance improvements.
+![](/uploads/Analytics2.png)
 
-What we can do now is take the time to make sure all SEO optimization opportunities are completed to ensure maximum performance. Those opportunities are discussed further below and do relate to Google My Business and content creation.
+When search volume returns to normal, we’ll be in great shape and should see large performance improvements. In the current state of affairs, many businesses have been forced to temporarily close or reduce hours. To stay current, Google has specifically [placed guidance](https://support.google.com/business/answer/9773423?p=covid_19) around this which requires updating business hours. It can also be updated by using the special holiday hours section.
 
-In the current state of affairs, many businesses have been forced to temporarily close or reduce hours. To stay current, Google has specifically [placed guidance](https://support.google.com/business/answer/9773423?p=covid_19) around this which requires updating business hours. It can also be updated by using the special holiday hours section.
+![](/uploads/Analytics3.png)
 
-![](https://lh3.googleusercontent.com/9sZCAyvCv1HvzBSvHkG6PRfrR9NRhIYyq0fdz7ELZk15X4aS4Tm1N1H0UxKj8iQT3dNhQahtKOT71Lh1H-OBvIZLUtuOV2VlHNkA46Qmkzt1mzOuie4IIwGemMaKLeVQhCYxZgpC =436x254)![](https://lh6.googleusercontent.com/xSuYTvj-G_BpwYw0jole7hA67wFAgqx7MPqNqXC8eg1p5YPzJlU6JFOaWhDCBLolrFE4-Jc_A0MOZ6BieCdji0K9vgk0kLFXwasWr9JnIL3hD9LW4vH3deRJFRAUN5QNPbx9z_X7 =564x254)
-
-In some cases, Google will automatically mark your business as “temporarily closed” which can be overwritten in GMB. This information is something Google pulls from authoritative sources.
+![](/uploads/Hours.png)
 
 Google also allows for you to update your business information, which can be temporarily altered to describe the current status, such as “emergency only appointments”.
+
+In some cases, Google will automatically mark your business as “temporarily closed” which can be overwritten in GMB. This information is something Google pulls from authoritative sources.
 
 ![](https://lh3.googleusercontent.com/9hvkrbgYeygFeCVToaBiFFkCNfJuporxfexI28oYV7-FX9XG-8uCAoSAnJO42NFykKzv1rpjYeOzExY8hgT320MYDQzLVzucosed_-MQg4UgAXrqKYcBfbhWVHRwUFsqG91Elq8g =624x189)
 
