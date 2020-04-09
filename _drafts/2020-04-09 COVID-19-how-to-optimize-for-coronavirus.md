@@ -66,6 +66,10 @@ While actively updating or reviewing GMB, make sure to update the other sections
 
 ![](/uploads/GMB.png)
 
+![](/uploads/GMB2.png)
+
+![](/uploads/GMB3.png)
+
 ### Respond to reviews
 
 Right now is also a great opportunity to review and respond to the reviews of your business, which is a known ranking factor. These reviews come from places like GMB, Yelp, and other leading medical directory websites. There’s no definitive proof that a response has to be super long, but it’s considered a best practice to write a quality response to the review.
