@@ -54,9 +54,7 @@ In some cases, Google will automatically mark your business as “temporarily cl
 
 Google also allows for you to update your business information, which can be temporarily altered to describe the current status, such as “emergency only appointments”.
 
-![](https://lh3.googleusercontent.com/9hvkrbgYeygFeCVToaBiFFkCNfJuporxfexI28oYV7-FX9XG-8uCAoSAnJO42NFykKzv1rpjYeOzExY8hgT320MYDQzLVzucosed_-MQg4UgAXrqKYcBfbhWVHRwUFsqG91Elq8g =624x189)
-
-The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.
+![](/uploads/VIP.png)
 
 The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.
 
