@@ -8,7 +8,7 @@ post_intro: 'It’s no secret each business is going to be and has already been 
   to minimize the impact of performance and keep our patients happy. It’s also a great
   opportunity to review SEO tactics and optimization ideas to make sure things are
   in great shape when they eventually return to normal. '
-post_image: ''
+post_image: "/uploads/001-iPad-portrait (1)-3.jpg"
 post_highlight: 'It’s no secret each business is going to be and has already been
   negatively impacted by the coronavirus. With that said, there are several things
   we can do to minimize the impact of performance and keep our patients happy. It’s
@@ -32,9 +32,7 @@ It’s possible and highly likely that SEO rankings will be the same or even imp
 
 ![](https://lh5.googleusercontent.com/1ZKXomb66tIhZ9VbmfPf8bVrgzAh6V5-FY5JnymCRSucqrc3rVsN3kiS4riX7toWOfjvk-FczVTcYTGtNszux1W8tXy88BlnRIzyCbSHo67QLlv4WT0PTJcNyyrvjQ6kDYqhqYLf =531x278)
 
-![](https://lh6.googleusercontent.com/HZ6gPRaw4YTFlmVewn_mFYWMWQty8qrj4Nuob1fbyUGzYKN9Wb_FoGy0jzyC5TDn1ZdBVpRn9WnGmmxRhFyzaDvfElygpJ8sy2XTdppqBTEbXfOpkrV12xp0SckJSCWxYA35ICxb =624x328)
-
-When search volume returns to normal, we’ll be in great shape and should see large performance improvements.
+![](https://lh6.googleusercontent.com/HZ6gPRaw4YTFlmVewn_mFYWMWQty8qrj4Nuob1fbyUGzYKN9Wb_FoGy0jzyC5TDn1ZdBVpRn9WnGmmxRhFyzaDvfElygpJ8sy2XTdppqBTEbXfOpkrV12xp0SckJSCWxYA35ICxb =624x328)When search volume returns to normal, we’ll be in great shape and should see large performance improvements.
 
 What we can do now is take the time to make sure all SEO optimization opportunities are completed to ensure maximum performance. Those opportunities are discussed further below and do relate to Google My Business and content creation.
 
