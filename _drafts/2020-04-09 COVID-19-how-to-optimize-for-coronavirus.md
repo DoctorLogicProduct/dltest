@@ -34,7 +34,15 @@ It’s possible and highly likely that SEO rankings will be the same or even imp
 
 ![](/uploads/Analytics2.png)
 
-When search volume returns to normal, we’ll be in great shape and should see large performance improvements. In the current state of affairs, many businesses have been forced to temporarily close or reduce hours. To stay current, Google has specifically [placed guidance](https://support.google.com/business/answer/9773423?p=covid_19) around this which requires updating business hours. It can also be updated by using the special holiday hours section.
+When search volume returns to normal, we’ll be in great shape and should see large performance improvements. 
+
+What we can do now is take the time to make sure all SEO optimization opportunities are completed to ensure maximum performance. Those opportunities are discussed further below and do relate to Google My Business and content creation.
+
+### Updating Google My Business
+
+Google has a local business tool called Google My Business (GMB) which allows for optimizations and a quick source of information in search results. In GMB, a business can update the common things such as name, address, and phone number. However, in regard to ensuring all opportunities are optimized, we also need to be sure that the additional features such as business hours, descriptions, and posts are updated. All of these updates are something that DoctorLogic can do for you as long as we have access to your GMB account and the information to input.
+
+In the current state of affairs, many businesses have been forced to temporarily close or reduce hours. To stay current, Google has specifically [placed guidance](https://support.google.com/business/answer/9773423?p=covid_19) around this which requires updating business hours. It can also be updated by using the special holiday hours section.
 
 ![](/uploads/Analytics3.png)
 
