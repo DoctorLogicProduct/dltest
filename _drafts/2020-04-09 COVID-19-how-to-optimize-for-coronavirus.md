@@ -52,7 +52,11 @@ Google also allows for you to update your business information, which can be tem
 
 In some cases, Google will automatically mark your business as “temporarily closed” which can be overwritten in GMB. This information is something Google pulls from authoritative sources.
 
+Google also allows for you to update your business information, which can be temporarily altered to describe the current status, such as “emergency only appointments”.
+
 ![](https://lh3.googleusercontent.com/9hvkrbgYeygFeCVToaBiFFkCNfJuporxfexI28oYV7-FX9XG-8uCAoSAnJO42NFykKzv1rpjYeOzExY8hgT320MYDQzLVzucosed_-MQg4UgAXrqKYcBfbhWVHRwUFsqG91Elq8g =624x189)
+
+The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.
 
 The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.
 
@@ -60,11 +64,7 @@ The creation of specific posts can notify your searchers about the current statu
 
 While actively updating or reviewing GMB, make sure to update the other sections too. They include menus, which work the same way as a restaurant menu, and a list of products that can be uploaded via a URL or PDF document. It’s not known if either of these impact rankings, but they can help your listing stick out more in results.
 
-![](https://lh4.googleusercontent.com/oyy6xlIMhwOzPAa4SOQUjmtgfUI0tnKREiSpb836u6nS3fJqZW7iVEE-_FMUzVDlrfP3R3kvVooV9PH8pIddiDrUaLrq0xKFPIuT-QfL0zgHoIZB_n-lDAk021bTjT10vt7932KF =530x227)
-
-![](https://lh3.googleusercontent.com/y6dRvaJOwIY8qo32fhHiunLZV1Ks_qA0DKfoHyl6ATqeA8O6D1NoHaXPihCY4b5mIQKZuCpG2LDKwDfXzwkyiGQDmfXh2wuABdpUfWDQ0bgf0N6IJgA6MVwNPhjVPGx2OmhOID1R =388.5862831858407x430.1635514018692)
-
-![](https://lh5.googleusercontent.com/yzjbP4IGeg661Fg9SFhSA05gl7lMHbDnhW_Ah59MBqPeKzm3fHnMwEAATvfODxavYmNEYQSG-nwxRmhHbLG5Rs6HbKMXyoq6nR4tGDtSCtnyMUNFstXTuAsct3SP8iSUwXv3inqe =395x382)
+![](/uploads/GMB.png)
 
 ### Respond to reviews
 
