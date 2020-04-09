@@ -34,7 +34,7 @@ It’s possible and highly likely that SEO rankings will be the same or even imp
 
 ![](/uploads/Analytics2.png)
 
-When search volume returns to normal, we’ll be in great shape and should see large performance improvements. 
+When search volume returns to normal, we’ll be in great shape and should see large performance improvements.
 
 What we can do now is take the time to make sure all SEO optimization opportunities are completed to ensure maximum performance. Those opportunities are discussed further below and do relate to Google My Business and content creation.
 
@@ -61,8 +61,6 @@ The creation of specific posts can notify your searchers about the current statu
 The creation of specific posts can notify your searchers about the current status of your business. It can also be used to create special offers or other incentives to make your listing stick out more and encourage people to visit your business.
 
 ![](/uploads/Screen Shot 2020-04-09 at 10.32.10 AM.png)
-
-While actively updating or reviewing GMB, make sure to update the other sections too. They include menus, which work the same way as a restaurant menu, and a list of products that can be uploaded via a URL or PDF document. It’s not known if either of these impact rankings, but they can help your listing stick out more in results.
 
 While actively updating or reviewing GMB, make sure to update the other sections too. They include menus, which work the same way as a restaurant menu, and a list of products that can be uploaded via a URL or PDF document. It’s not known if either of these impact rankings, but they can help your listing stick out more in results.
 
