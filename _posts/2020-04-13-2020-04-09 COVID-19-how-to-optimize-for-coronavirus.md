@@ -1,5 +1,5 @@
 ---
-post_title: How To Optimize For Coronavirus
+post_title: 'COVID-19: How To Optimize For Coronavirus'
 date: 2020-04-13 18:00:00 +0000
 post_author: Ryan Metcalf
 tags: []
