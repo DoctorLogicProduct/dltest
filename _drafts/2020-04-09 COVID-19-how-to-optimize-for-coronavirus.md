@@ -92,4 +92,4 @@ Some content can be converted or completed in the form of video content which gi
 
 At the end of the day, keep in mind that any type of content requires patience in order to rank well and it does not happen overnight.
 
-During these uncertain times, if you are concerned that you don’t have a strong strategy in place when it comes to SEO, DoctorLogic can help. We are here for you and have the knowledge and know-how when it comes to elevating your digital marketing footprint. For further information on these optimization opportunities and more _c_ontact us at 855-522-3600 or email us at [sales@doctorlogic.com](https://doctorlogic.com/blog/2020-03-18-how-doctors-should-respond-leads.html).
+During these uncertain times, if you are concerned that you don’t have a strong strategy in place when it comes to SEO, DoctorLogic can help. We are here for you and have the knowledge and know-how when it comes to elevating your digital marketing footprint. For further information on these optimization opportunities and more contact us at 855-522-3600 or email us at [sales@doctorlogic.com](https://doctorlogic.com/blog/2020-03-18-how-doctors-should-respond-leads.html).
