@@ -1,6 +1,6 @@
 ---
 post_title: How To Optimize For Coronavirus
-date: 2020-04-09 21:00:00 +0000
+date: 2020-04-13 21:00:00 +0000
 post_author: Ryan Metcalf
 tags: []
 post_intro: 'It’s no secret each business is going to be and has already been negatively
