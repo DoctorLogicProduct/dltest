@@ -8,7 +8,7 @@ post_intro: 'It’s no secret each business is going to be and has already been 
   to minimize the impact of performance and keep our patients happy. It’s also a great
   opportunity to review SEO tactics and optimization ideas to make sure things are
   in great shape when they eventually return to normal. '
-post_image: "/uploads/001-iPad-portrait (1)-3.jpg"
+post_image: "/uploads/vip_corona_update.jpg"
 post_highlight: 'It’s no secret each business is going to be and has already been
   negatively impacted by the coronavirus. With that said, there are several things
   we can do to minimize the impact of performance and keep our patients happy. It’s
