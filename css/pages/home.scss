@@ -88,8 +88,13 @@
        background: url('/img/home/perspective-hero.png') center center/contain no-repeat;
        order: 1;
        min-height: 500px;
-       margin: -20px 20px -80px;
+       margin: -60px 20px -120px;
        z-index: 3;
+
+       @include phone-wide-min {
+         margin: -20px 20px -80px;
+       }
+       
 
        @include tablet-min {
          margin: 0 20px -40px;
