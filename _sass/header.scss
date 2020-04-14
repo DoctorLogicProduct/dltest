@@ -45,6 +45,22 @@
 			background: $websites-2;
 			color: $color-2;
 		}
+
+		body.header-clear .dl-morph-dropdown .nav-trigger span, body.header-clear .dl-morph-dropdown .nav-trigger span::after, body.header-clear .dl-morph-dropdown .nav-trigger span::before {
+			background-color: $color-2;
+		}
+
+		body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span, body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span::after, body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span::before {
+			background-color: $color-1;
+		}
+
+		body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span {
+			background-color: transparent;
+		}
+
+		body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span::after, body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span::before {
+			background-color: $color-1;
+		}
 		
 		// regular header
 		
