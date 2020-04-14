@@ -6,13 +6,14 @@ description: "DoctorLogic is a medical website platform giving doctors control o
 meta_image: "/img/meta/dl.jpg"
 permalink: /
 gsap: true
+header_clear: true
 page_class:
 - class: home
 custom_js: index
 hero:
 - class: home__hero
   tagline: The modern way to grow your practice
-  headline: Practice Growth Experts
+  headline: Get $0 Set-Up Fee For A Limited Time
   text: "The all-in-one website marketing platform that attracts and retains more patients. Loved by over 3,000 doctors."
   img: "/img/products/website-management/hero-img.svg"
   btn:
@@ -173,24 +174,26 @@ talent:
 
 {% for hero in page.hero %}
 <section class="hero hero-1 {{hero.class}}">
-    <div class="hero-1__text">
-        <h5>{{hero.tagline}}</h5>
-        <h1>{{hero.headline}}</h1>
-        <p>{{hero.text}}</p>
-        <div class="hero-1__btn-container">
-            {% for btn in hero.btn %}
-            {% if hero.btn %}
-            <a class="btn" href="{{btn.btn-link}}">{{btn.btn-label}}</a>
-            {% endif %}
-            {% endfor %}
-            {% for text-link in hero.text-link %}
-            <script src="https://fast.wistia.com/embed/medias/{{text-link.wistia-link-id}}.jsonp" async></script>
-            <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
-                class="wistia_embed wistia_async_{{text-link.wistia-link-id}} popover=true popoverContent=link"
-                style="display:inline;position:relative"><a class="play-link"
-                    href="#">{{text-link.wistia-link-label}}</a></span>
-            {% endfor %}
-        </div>
+  <div class="hero-1__top">
+      <div class="hero-1__text">
+        <h2>Get $0 Set-Up Fee</h2>
+        <h2>For a Limited Time.</h2>
+        <p>Save up to $6000. It's never been easier to upgrade your website to our Website Marketing Platform.</p>
+        <a href="/get-a-demo.html" class="btn">Schedule Demo</a>
+      </div>
+      <div class="hero-1__image">
+        <img src="img/home/perspective-hero.png" alt="DoctorLogic Stunning Designs">
+      </div>
+    </div>
+    <div class="hero-1__cta">
+      <div class="hero-1__cta-button">
+        Watch Video
+      </div>
+      <div class="hero-1__cta-text">
+        <p>
+          The all-in-one Website Marketing Platform loved by over 3,000 healthcare providers.
+        </p>
+      </div>
     </div>
 </section>
 {% endfor %}
