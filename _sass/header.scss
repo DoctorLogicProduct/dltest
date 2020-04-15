@@ -1,3 +1,69 @@
+		body.header-bg.header-clear .header__wrapper {
+			background: rgba(255,255,255,1);
+		}
+
+		body.header-bg.header-clear .header__logo-img {
+			width: 100%;
+			height: auto;
+			background: url('/img/header-logo.svg') left center/contain no-repeat;
+		}
+
+		body.header-clear .dl-morph-dropdown .main-nav {
+			@include desktop-sm-min {
+			  & > ul > li > a {
+				  color: $color-2;
+			  }
+			}
+			
+		}
+
+		body.header-bg.header-clear .dl-morph-dropdown .main-nav {
+			@include desktop-sm-min {
+			  & > ul > li > a {
+				  color: $color-1;
+			  }
+			}
+			
+		}
+
+		body.header-clear {
+
+			.header__logo-img {
+				width: 100%;
+				height: auto;
+				background: url('/img/header-logo-white.svg') left center/contain no-repeat;
+			}
+
+		}
+
+		body.header-clear .header__cta--demo {
+			background: $color-2;
+			color: $websites;
+		}
+
+		body.header-bg.header-clear .header__cta--demo {
+			background: $websites-2;
+			color: $color-2;
+		}
+
+		body.header-clear .dl-morph-dropdown .nav-trigger span, body.header-clear .dl-morph-dropdown .nav-trigger span::after, body.header-clear .dl-morph-dropdown .nav-trigger span::before {
+			background-color: $color-2;
+		}
+
+		body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span, body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span::after, body.header-clear.header-bg .dl-morph-dropdown .nav-trigger span::before {
+			background-color: $color-1;
+		}
+
+		body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span {
+			background-color: transparent;
+		}
+
+		body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span::after, body.header-clear .dl-morph-dropdown.nav-open .nav-trigger span::before {
+			background-color: $color-1;
+		}
+		
+		// regular header
+		
 		body.header-bg .header__wrapper {
 			background: rgba(255,255,255,1);
 		}

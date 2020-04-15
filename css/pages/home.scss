@@ -6,69 +6,46 @@
 
 .home {
   .hero-1 {
-    padding: 80px 0 40px;
     position: relative;
-    height: 60vh;
+    height: auto;
     min-height: 0;
-    background: url('/img/home/home-hero.jpg') center center/cover no-repeat; 
-    @include grid;
+    background: $gradient-website-management; 
     min-height: 500px;
 
-    @include phone-wide-min {
-      background: url('/img/home/home-hero.jpg') right center/cover no-repeat;
-      height: 80vh;
-    }
-    
-
     @include tablet-wide-min {
-      padding: 80px 0 0 5%;
       min-height: 800px;
     }
 
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: $color-2;
-      opacity: .7;
-      display: block;
+    &__top {
+      @include grid;
+      padding: 60px 0 0;
+      max-width: 1400px;
+      margin: 0 auto;
 
       @include tablet-wide-min {
-        display: none;
+        padding: 80px 5% 0;
       }
       
     }
 
     &__text {
       grid-column: auto / span 24;
-      grid-row: 1 / span 2;
+      order: 2;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0 20px;
+      padding: 80px 20px 20px;
       z-index: 2;
       position: relative;
-
-      @include phone-wide-min {
-        grid-row: 2 / span 1;
-         justify-content: flex-start;
-      }
-      
+      background: darken($websites, $amount: 30%);
 
       @include tablet-wide-min {
-        grid-column: auto / span 16;
-        grid-row: auto;
-        justify-content: center;
+        background: transparent;
+        padding: 0 20px;
+        grid-column: auto / span 10;
         align-items: flex-start;
-        padding: 40px;
-      }
-
-      @include desktop-min {
-        grid-column: auto / span 12;
+        order: 1;
       }
 
       h5 {
@@ -84,15 +61,93 @@
           font-size: 3.1vw;
         }
       }
+      
+      h2 {
+        color: $color-2;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: left;
+        
+      }
 
-      h1,
       p {
+        color: $color-2;
+        font-size: 1rem;
         text-align: center;
 
         @include tablet-wide-min {
-          text-align: left;
+         font-size: 1.4rem; 
+         text-align: left;
         }
       }
+
+    }
+
+    &__image {
+       grid-column: auto / span 24;
+       background: url('/img/home/perspective-hero.png') center center/contain no-repeat;
+       order: 1;
+       min-height: 500px;
+       margin: -60px 20px -120px;
+       z-index: 3;
+
+       @include phone-wide-min {
+         margin: -20px 20px -80px;
+       }
+       
+
+       @include tablet-min {
+         margin: 0 20px -40px;
+       }
+       
+
+       @include tablet-wide-min {
+         margin: 0;
+         grid-column: auto / span 14;
+         min-height: 700px;
+         margin-bottom: -60px;
+         order: 2;
+       }
+
+       img {
+         width: 100%;
+         height: auto;
+         display: block;
+       }
+       
+    }
+
+    &__cta {
+      grid-column: auto / span 24;
+      background: darken($websites, $amount: 30%);
+      padding: 40px 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: $color-2;
+
+      @include tablet-min {
+        flex-direction: row;
+      }
+      
+    }
+
+    &__cta-text {
+      text-align: center;
+      padding: 0 40px;
+      max-width: 500px;
+    }
+
+    .video-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: $color-2;
+      text-transform: uppercase;
+      font-weight: 500;
+      text-decoration: none;
     }
 
     &__btn-container {
