@@ -17,10 +17,13 @@ hero:
   wistia-link-id: ojjp2edwgn
   wistia-link-label: Watch Video
 offer: 
-- headline: "AACD members save 50% on their new website."
-  text: "Is your website outdated and in need of a refresh? Does your website produce enough new patients to justify the cost? Does your website showcase your outstanding results? It may be time to make a change! Partner with DoctorLogic and turn your website into a patient-generating machine. Building a new website shouldn't cost you a fortune. As an AACD member, you will save thousands!"
+- headline: "AACD members save 100% on custom website setup fees ($6,000 value) in response to the COVID-19 Shutdown."
+  text: "DoctorLogic will remove all the financial risk from your practice by building your new website for FREE. For the months
+  of April, May & June, we will waive all set-up fees. Let's come out of this crisis stronger than ever with a better
+  website that can attract and retain more patients."
   btn_link: /forms/get-a-demo
   btn_label: Get a Demo
+  img: "/img/partnerships/aacd-hero_perspective.png"
 reason:
 - headline: "Why DoctorLogic?"
   text: "DoctorLogic offers the most advanced Website Marketing Platform, built exclusively for doctors. With unlimited technology upgrades and Google algorithm updates, DoctorLogic delivers a website that organically becomes more robust over time. DoctorLogic has helped over 1,000 doctors dramatically increase their internet leads with their patent-pending software that uses your Before & After Smile Galleries, Online Patient Reviews, procedure pages, and treatment pages to create up to 100X more Google-friendly content within your website. More content = more leads."
@@ -122,9 +125,14 @@ callout:
 
 {% for offer in page.offer %}
 <section class="partnership-offer">
-  <h3>{{ offer.headline }}</h3>
-  <p>{{ offer.text }}</p>
-  <a href="{{ offer.btn_link }}" class="btn">{{ offer.btn_label }}</a>
+  <div class="partnership-offer__container">
+    <div class="partnership-offer__text">
+      <h3>{{ offer.headline }}</h3>
+      <p>{{ offer.text }}</p>
+      <a href="{{ offer.btn_link }}" class="btn">{{ offer.btn_label }}</a>
+    </div>
+    <div class="partnership-offer__image" style="background:url('{{ offer.img }}') center center/contain no-repeat;"></div>
+  </div>
 </section>
 {% endfor %}
 

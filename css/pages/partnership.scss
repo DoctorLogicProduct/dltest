@@ -77,28 +77,76 @@
 
     .partnership-offer {
         padding: 40px 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 1200px;
-        margin: 0 auto;
+        background: $gradient-website-management;
 
         @include tablet-min {
           padding: 60px 5%;
         }
 
+        &__container {
+          @include grid;
+          max-width: 1200px;
+          margin: 0 auto;
+          width: 100%;
+        }
+
+        &__text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          grid-column: auto / span 24;
+          order: 2;
+          padding: 40px 20px 0;
+
+          @include tablet-wide-min {
+            grid-column: auto / span 12;
+            order: 1;
+            align-items: flex-start;
+            padding: 0 40px 0 20px;
+          }
+          
+        }
+
         h3, p {
             text-align: center;
+            color: $color-2;
+
+            @include tablet-wide-min {
+              text-align: left;
+            }
+            
         }
 
         .btn {
             display: block;    
-            margin: 0 auto;
+            margin: 20px auto 0;
 
             @include phone-wide-min {
-              margin: 40px auto 0;
+              margin: 20px 0 0;
             }
             
+          }
+
+          &__image {
+            grid-column: auto / span 24;
+            order: 1;
+            min-height: 500px;
+            margin: -140px 20px -60px;
+            z-index: 3;
+
+            @include tablet-min {
+              margin: 0 20px;
+            }
+            
+
+
+            @include tablet-wide-min {
+              margin: 0;
+              grid-column: auto / span 12;
+              min-height: 700px;
+              margin: -160px 0 -160px;
+              order: 2;
+            }
           }
     }
 
