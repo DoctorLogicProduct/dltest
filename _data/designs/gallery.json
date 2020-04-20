@@ -155,10 +155,17 @@
     },
     {
         "type": "other",
-        "img": "/img/designs/waite.jpg",
-        "link-label": "waitevision.com/",
-        "link": "https://waitevision.com/",
-        "name": "Waite Vision"
+        "img": "/img/designs/acu.jpg",
+        "link-label": "atlantacosmeticurology.com/",
+        "link": "https://atlantacosmeticurology.com/",
+        "name": "Atlanta Cosmetic Urology"
+    },
+    {
+        "type": "other",
+        "img": "/img/designs/sportshernia.jpg",
+        "link-label": "sportsherniatexas.com/",
+        "link": "https://sportsherniatexas.com/",
+        "name": "Anthony Echo, MD"
     },
     {
         "type": "other",
@@ -166,13 +173,6 @@
         "link-label": "spinecareofnorthtexas.com/",
         "link": "https://spinecareofnorthtexas.com/",
         "name": "Spine Care of North Texas"
-    },
-    {
-        "type": "other",
-        "img": "/img/designs/rr-wellness.jpg",
-        "link-label": "rrwellness.com/",
-        "link": "https://rrwellness.com/",
-        "name": "Round Rock Health and Wellness"
     },
     {
         "type": "dentistry",
