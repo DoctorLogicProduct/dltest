@@ -11,7 +11,7 @@ post_intro: In this inaugural edition of SEO News from DoctorLogic, our in-house
 post_image: "/uploads/SEOUpdatesBlog.jpg"
 post_highlight: In this inaugural edition of SEO News from DoctorLogic, our in-house
   SEO expert, Ryan Metcalf, breaks down the biggest trends and Google updates in 2020
-  so far
+  so far.
 post_type:
 - blog
 product:
