@@ -49,7 +49,7 @@ Download our latest guide that gives insight to some of the biggest updates Goog
 
 ![Download our latest guide that gives insight to some of the biggest updates Google has made so far in 2020!](/uploads/Google Updates.jpg "Google's Big Updates of 2020")
 
-Download Now!
+[Download Now!](/assets/dl-google-updates.pdf "Google Updates Information")
 
 ### **Other Recent Noteworthy Articles**
 
