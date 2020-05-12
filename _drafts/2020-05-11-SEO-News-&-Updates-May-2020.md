@@ -49,6 +49,8 @@ Download our latest guide that gives insight to some of the biggest updates Goog
 
 ![Download our latest guide that gives insight to some of the biggest updates Google has made so far in 2020!](/uploads/Google Updates.jpg "Google's Big Updates of 2020")
 
+Download Now!
+
 ### **Other Recent Noteworthy Articles**
 
 1. **How to Rank in Google Maps (**[**https://moz.com/blog/beginner-guide-google-maps-ranking**](https://moz.com/blog/beginner-guide-google-maps-ranking "https://moz.com/blog/beginner-guide-google-maps-ranking")**)**
