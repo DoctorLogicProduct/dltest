@@ -74,3 +74,5 @@ Download our latest guide that gives insight to some of the biggest updates Goog
 6. **Google Confirms Page Speed Is A Tiny Ranking Factor (**[https://www.seroundtable.com/google-site-speed-small-ranking-factor-29368.html](https://www.seroundtable.com/google-site-speed-small-ranking-factor-29368.html "https://www.seroundtable.com/google-site-speed-small-ranking-factor-29368.html"))
    1. The title says it all, but there's not as big of a need to focus on page speed.
    2. Page speed is something we're constantly working on for your site, but rest assured, it's not as big of a determinant as you might think.
+
+For further information on these updates and more contact us at 855-522-3600 or email us at [sales@doctorlogic.com](https://doctorlogic.com/blog/2020-03-18-how-doctors-should-respond-leads.html).
