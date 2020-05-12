@@ -1,6 +1,6 @@
 ---
 post_title: SEO News & Updates - May 2020
-date: 2020-05-12T18:00:00.000+00:00
+date: 2020-05-12 22:00:00 +0000
 post_author: Ryan Metcalf
 tags: []
 post_intro: In this inaugural edition of SEO News from DoctorLogic, our in-house SEO
@@ -42,6 +42,14 @@ _The chart above shows February’s vs. March’s monthly search volume trends f
 2. No word yet on what and if this targeted anything, but typically, these updates impact ALL websites. They tend to prioritize or change the influence of certain ranking factors so as long as we're optimized, we're going to be okay.
 3. They also typically happen on a quarterly basis.
 4. Except in very rare cases, we can never specifically optimize for these updates either, despite it being a common sales fear tactic.
+
+### **Google's Big Updates of 2020**
+
+Download our latest guide that gives insight to some of the biggest updates Google has made so far in 2020!
+
+![](/uploads/Google Updates.jpg)
+
+[Click Here To Download](/assets/dl-google-updates.pdf "Google Update Download")
 
 ### **Other Recent Noteworthy Articles**
 
