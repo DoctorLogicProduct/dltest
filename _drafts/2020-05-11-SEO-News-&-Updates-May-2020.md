@@ -1,6 +1,6 @@
 ---
 post_title: SEO News & Updates - May 2020
-date: 2020-05-12 22:00:00 +0000
+date: 2020-05-12T22:00:00.000+00:00
 post_author: Ryan Metcalf
 tags: []
 post_intro: In this inaugural edition of SEO News from DoctorLogic, our in-house SEO
@@ -49,7 +49,7 @@ Download our latest guide that gives insight to some of the biggest updates Goog
 
 ![](/uploads/Google Updates.jpg)
 
-[Click Here To Download](/assets/dl-google-updates.pdf "Google Update Download")
+#### [Click Here To Download](/assets/dl-google-updates.pdf "Google Update Download")
 
 ### **Other Recent Noteworthy Articles**
 
