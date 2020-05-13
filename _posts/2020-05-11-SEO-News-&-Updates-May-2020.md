@@ -32,7 +32,9 @@ Now would be a great time to respond to patient reviews across the directory web
 
 If you're not already doing so, there is a huge opportunity across all practice types to make online consultations a big part of your business model. The search volume has skyrocketed and will probably remain elevated for some time. One of the other future implications is a location-agnostic practice, depending on regulations. This means it would be a lot easier to attract patients across the country, and the specific market locale would be agnostic. In many ways, this could change search behavior, like how the rise of "near me" searches did over the last 10 years. A potential new patient would only need to search "online consultation" and Google may automatically know who is available across the country or the world!
 
-### ![The chart above shows February’s vs. March’s monthly search volume trends for online consultation-related searches.](/uploads/Online Consultation Search Results.png "Online Consultation Search Results")
+![The chart above shows February’s vs. March’s monthly search volume trends for online consultation-related searches.](/uploads/Screen Shot 2020-05-13 at 7.38.24 AM.png "Online Consultation Search Results")
+
+#### [PDF Coronavirus 2020 Search Trends.pdf](/uploads/PDF Coronavirus 2020 Search Trends.pdf "PDF Coronavirus 2020 Search Trends.pdf")
 
 _The chart above shows February’s vs. March’s monthly search volume trends for online consultation-related searches._
 
