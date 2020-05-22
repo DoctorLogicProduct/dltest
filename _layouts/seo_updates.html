@@ -1,0 +1,104 @@
+---
+layout: default
+page_menu: false
+collection: seo_updates
+nofollow: false
+---
+
+{% comment %}Set author object, default if none{% endcomment %}
+{% for author in site.data.blog.authors %}
+{% if page.post_author == author.name %}
+{% assign authorIndex = forloop.index0 | plus: 0 %}
+{% break %}
+{% else %}
+{% assign authorIndex = 0 %}
+{% endif %}
+{% endfor %}
+{% assign author = site.data.blog.authors[authorIndex] %}
+
+
+<div class="post">
+
+	<div class="post__featured-image" style="background: url('{{ page.post_image }}')">
+		<div class="post__title">
+			<h1>{{ page.post_title }}</h1>
+			<p class="post__title--author">By: {{ page.post_author }}</p>
+			<p class="post__title--intro"> {{ page.post_intro }}</p>
+			<!-- <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time> -->
+		</div>
+	</div>
+
+	<div class="post__body">
+		{{ content }}
+	</div>
+
+	<div class="post__footer-author">
+		<div class="post__footer-author-img">
+			<img src="{{ author.img }}" alt="{{ author.name }}">
+		</div>
+		<div class="post__footer-author-info">
+			<div class="post__footer-author-info--name">{{ author.name }}</div>
+			<div class="post__footer-author-info--title">{{ author.title }}</div>
+			<div class="post__footer-author-info--desc">{{ author.desc }}</div>
+		</div>
+	</div>
+
+	<!-- Newsletter Signup Goes Here -->
+
+</div>
+
+<div class="related-posts">
+
+	<h3><span>Read</span> More</h3>
+	<div class="related-posts__cards">
+
+		{% assign maxRelated = 2 %}
+		{% assign minCommonTags =  1 %}
+		{% assign maxRelatedCounter = 0 %}
+
+		{% for post in site.posts %}
+
+		{% assign sameTagCount = 0 %}
+		{% assign commonTags = '' %}
+
+		{% for tag in post.tags %}
+		{% if post.url != page.url %}
+		{% if page.tags contains tag %}
+		{% assign sameTagCount = sameTagCount | plus: 1 %}
+		{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+		{% assign commonTags = commonTags | append: tagmarkup %}
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+
+		{% if sameTagCount >= minCommonTags %}
+
+		<div class="related-posts__card-wrapper">
+			<div class="related-posts__card">
+				<a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
+					<div class="related-posts__card-image" style="background:url('{{ post.post_image }}')"></div>
+					<div class="related-posts__card-text">
+						<p class="related-posts__card-tags">{{ post.tags[0] | replace: '-', ' ' }},
+							{{ post.tags[1] | replace: '-', ' '}}</p>
+						<h3>{{ post.post_title }}</h3>
+						<p class="related-posts__card-highlight">{{ post.post_highlight }}</p>
+						<p class="related-posts__card-author">By {{ post.post_author }}</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+		{% if maxRelatedCounter >= maxRelated %}
+		{% break %}
+		{% endif %}
+		{% endif %}
+
+		{% endfor %}
+	</div>
+
+
+</div>
+
+<script type="text/javascript"
+	src="https://platform-api.sharethis.com/js/sharethis.js#property=5d2e0136364d580011c3491c&product=inline-share-buttons"></script>

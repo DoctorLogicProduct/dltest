@@ -1,0 +1,86 @@
+---
+layout: default
+title: SEO Updates
+page_class:
+- class: blog-list-page
+meta_image: "/img/meta/dl.jpg"
+description: Discover the latest content from DoctorLogic - blog posts, helpful tips, platform updates, and more!
+nofollow: false
+permalink: /seo-updates
+page_hidden: false
+page_name: seo-updates
+page_sections:
+- component: hero-2
+  component_css: hero-2
+  class: blog-list-hero
+  headline: "SEO Updates"
+  text: "Learn more about SEO best practices"
+---
+
+{% for section in page.page_sections %}
+{% include component-{{ section.component }}.html %}
+{% endfor %}
+
+<div class="blog-list">
+	<div class="blog-list__container">
+		<div class="blog-list__featured">
+			<h2 class="blog-list__headline">Latest Posts:</h2>
+			{% for post in site.seo_updates limit:4 %}
+				<a class="blog-list__card" href="{{ site.baseurl }}{{ post.url }}" >
+					<div class="blog-list__card-image" style="background: url({{post.post_image}}) center center/cover;"></div>
+					<div class="blog-list__card-text">
+						<h3>{{ post.post_title }}</h3>
+						<div class="post__card-author">
+							<!-- Set author object, default if none; -->
+							{% for author in site.data.blog.authors %}
+							{% if post.post_author == author.name %}
+							{% assign authorIndex = forloop.index0 | plus: 0 %}
+							{% break %}
+							{% else %}
+							{% assign authorIndex = 0 %}
+							{% endif %}
+							{% endfor %}
+							{% assign author = site.data.blog.authors[authorIndex] %}
+							<p class="blog-list__card-highlight">{{ post.post_highlight }}</p>
+							<p class="blog-list__card-date">{{ post.date | date: '%B %d, %Y' }}</p>
+							<p class="blog-list__card-author"><img src="{{author.img}}" alt="{{author.img}}">By: {{ post.post_author }}</p>
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+		<div class="blog-list__unfeatured">
+			<div class="blog-list__unfeatured-list">
+				<h2>More Posts:</h2>
+				{% for post in site.seo_updates offset:4 %}			
+				<div class="blog-list__post">
+					<div class="blog-list__post-image" style="background: url({{post.post_image}}) center center/cover;"></div>
+					<div class="blog-list__post-info">
+						<h3>{{ post.post_title }}</h3>
+						<div class="blog-list__post-date">
+							{{ post.date | date: '%B %d, %Y' }}
+						</div>
+						<div class="blog-list__post-preview">
+							<p>{{ post.post_highlight }}</p>
+							<a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+			
+			<!-- <div class="blog-list__tags">
+				<h2>Filter By:</h2>
+				<ul class="blog-list__tags-list">
+					{% for tag in site.tags %}
+					<li class="blog-list__tags-link"><a href="{{ '/blog/tag/' | append: tag[0] | downcase }}"
+							rel="tag">{{ tag[0] | replace: '-', ' ' }}</a></li>
+					{% endfor %}
+				</ul>
+			</div> -->
+		</div>
+	</div>
+	<!-- Newsletter Signup Goes Here -->
+</div>
+
+

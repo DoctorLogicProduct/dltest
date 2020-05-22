@@ -14,6 +14,11 @@ plugins:
   - octopress-autoprefixer
   - jekyll-sitemap
 
+collections:
+  seo_updates:
+    output: true
+    permalink: /:collection/:title
+
 defaults:
 -
   scope:
@@ -31,3 +36,12 @@ defaults:
     layout: "tags"
     hs_form_id: "75c57a13-9090-4db1-acd0-be51d1a76f7e"
     page_class: blog-list-page
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+    type: "seo_updates"
+  values:
+    layout: "seo_updates"
+
+
+
