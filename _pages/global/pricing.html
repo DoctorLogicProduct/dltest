@@ -56,8 +56,8 @@ features:
 
 sliders:
   - headline: Number of Procedures/Services
-    labels: ['5', '10', '20', '30', '40', 'More']
-    values: ['295', '695', '1095', '1495', '1795', 'Infinity']
+    labels: ['20', '30', '40', '50', '60', 'More']
+    values: ['395', '495', '595', '695', '795', 'Infinity']
   - headline: Number of Providers
     labels: ['1', '2', '3', '4', 'More']
     values: ['100', '200', '300', '400', 'Infinity']
@@ -65,40 +65,12 @@ sliders:
     labels: ['1', '2', '3', '4', 'More']
     values: ['100', '200', '300', '400', 'Infinity']
 
-plugins:
-  - title: Reviews Plugin
-    img: ../img/plugins/reviews-plugin.svg
-    img-class: social-reputation
-    alt: The DoctorLogic Reviews Plugin
-    price: $295
-    disclaimer: Per month
-    text: "Add patient reviews from across the web to your website. Present reviews in an organized way for customers. Request
-    reviews from patients easily." 
-  - title: Gallery Plugin
-    img: ../img/plugins/gallery-plugin.svg
-    img-class: content-multiplier
-    alt: The DoctorLogic Gallery Plugin
-    price: $295
-    disclaimer: Per month
-    text: "Showcase your talent in beautifully displayed before and after photo galleries. Manage your photo galleries in ways
-    never before possible."
-
 callout:
   - headline: Ready To See The Difference?
     text: It's easy to get started. Schedule a one-on-one demo with a sales representative today.
     btn-link: /get-a-demo.html
     btn-label: Get a Demo
 ---
-
-{% for hero in page.hero %}
-<section class="hero hero-1 {{hero.class}}">
-  <div class="hero-1__text">
-    <h5>{{hero.tagline}}</h5>
-    <h1>{{hero.headline}}</h1>
-    <p>{{hero.text}}</p>
-  </div>
-</section>
-{% endfor %}
 
 <section class="price-slider">
   <h3>Estimate Your Price</h3>
@@ -119,45 +91,17 @@ callout:
     <h4>Websites Starting At:</h4>
     <output id="js-result">$0.00</output>
     <p class="price-slider__price--disclaimer">Per Month</p>
-    <!-- <p>All websites are configurable to suit the needs of your practice.</p> -->
   </div>
-  <!-- <p class="price-slider__terms">* Pricing and packaging subject to change, please contact us for details.</p> -->
 
 </section>
 
 <section class="pricing-features">
-  <h3>All DoctorLogic Websites Comes With The Following Products</h3>
+  <h3>Discover our All-In-One Website Marketing Platform</h3>
   <div class="pricing-features__items">
     {% for feature in page.features %}
     <a class="pricing-features__item" href="{{ feature.link }}">
       <img src="{{ feature.img }}" alt="{{ feature.alt }}">
     </a>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="pricing-plugins">
-  <h3>DoctorLogic Without the Website</h3>
-  <p>We understand that switching website vendors is not easy. We have created variations of our core products that can be
-  used on any website, regardless of your web vendor. Each tool works and looks great on your existing website.</p>
-  <div class="pricing-plugins__items">
-    {% for plugin in page.plugins %}
-    <div class="pricing-plugins__item">
-      <h4>{{plugin.title}}</h4>
-      <div class="pricing-plugins__item-img pricing-plugins__item-img--{{ plugin.img-class }}">
-        <img src="{{ plugin.img }}" alt="{{ plugin.alt }}">
-      </div>
-      <p class="pricing-plugins__item-price">
-        {{ plugin.price }}
-      </p>
-      <p class="pricing-plugins__item-text pricing-plugins__item-text--disclaimer">
-        {{ plugin.disclaimer }}
-      </p>
-      <p class="pricing-plugins__item-text">
-        {{ plugin.text }}
-      </p>
-      <a href="/get-started" class="text-link">Try It Free</a>
-    </div>
     {% endfor %}
   </div>
 </section>
