@@ -68,17 +68,22 @@
 .terms {
         
   &__items {
-    padding: 0 10px 40px;
+    padding: 60px 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
 
-    @include tablet-wide-min {
-        padding: 0 5% 60px;
+    @include phone-wide-min {
+        padding: 60px 5% 60px;
     }
+
+    @include tablet-wide-min {
+      padding: 0 5% 60px;
+  }
 
   }
 
@@ -88,14 +93,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 150px 0;
+    padding: 40px 20px;
 
     h3 {
       margin-bottom: 20px;
+      font-size: 1.5rem;
+      max-width: 90%;
+      text-align: center;
     }
 
     @include phone-wide-min {
       flex: 0 0 50%;
+    }
+
+    @include tablet-wide-min {
+      flex: 0 0 33%;
+      padding: 150px 0;
     }
     
   }
