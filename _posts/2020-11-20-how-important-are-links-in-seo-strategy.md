@@ -9,7 +9,8 @@ tags:
 post_intro: 'In our latest blog post, our Head of SEO looks into why links are an
   important part of a successful SEO strategy. '
 post_image: "/uploads/pinclipart-com_chain-links-clipart_989061.png"
-post_highlight: How Important Are Links to Credibility And Rankings?
+post_highlight: 'In our latest blog post, our Head of SEO looks into why links are
+  an important part of a successful SEO strategy. '
 post_type:
 - blog
 product:
