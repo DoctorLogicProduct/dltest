@@ -39,7 +39,7 @@ Simply doing an interview with a local publication can also do wonders to improv
 
 This is the million-dollar question that Google keeps locked up in its secret algorithms. We do know it matters, but no one (other than Google) really knows how much it matters. The results can vary widely based on the industry and other algorithm factors as well. In recent years, the most credible healthcare information sites, such as healthline.com and mayoclinic.org, have improved their rankings drastically because they are considered to be more trustworthy. That’s not to say another more local site cannot rank well, but it’s definitely a bit harder to do so.
 
-**![](https://lh5.googleusercontent.com/IP3euwfJv4sqBSS-vC184qg3-wBDHhcKOlbHushfndtX9XP65sHs4tnBJnsMZjXTBRRZVw51iW-hgQhirOgwd4vpETtEC6cpwXZk-S7NhHmXGzF7-5sed2q31gg_VRp9twsqkMAk =484x319)**
+![](/uploads/screen-shot-2020-11-24-at-12-31-39-pm.png)
 
 In this chart, we looked at a credibility score and total rankings across 368 local healthcare/doctor-related sites. As you might expect, a lot of the doctors' sites on the graph have smaller, more localized websites. As such, this means there are fewer links, resulting in lower credibility scores. While we can definitely see sites with higher credibility scores rank for more keywords, new sites have little-to-no credibility so they tend to rank for very little.
 
