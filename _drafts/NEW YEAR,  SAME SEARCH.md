@@ -8,7 +8,7 @@ tags:
 - Trends
 - Healthcare Marketing
 post_intro: How Seasonal Search Trends Impact Digital Marketing Campaigns.
-post_image: "/uploads/new-year-same-search_-orange-hue.png"
+post_image: "/uploads/new-year-same-search-orange-hue.png"
 post_highlight: ''
 post_type:
 - blog
