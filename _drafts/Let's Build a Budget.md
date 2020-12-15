@@ -23,17 +23,10 @@ Ideally, 2021 will look very different than 2020 (at least one can only hope). W
 
 Our super simplified way to get started is to identify just **three numbers** by month; total patients seen, total revenue, and total expenses. This may seem overly-simplified (and to be honest, it definitely is), but the beauty behind this super-high level breakdown is it actually shows you quite a bit more than you may think at first glance. Take those three numbers and drop them into a table like this:
 
-| --- | --- | --- | --- | --- |
-|  | Jan 20 | Feb 20 | Mar 20 | Apr 20 |
-| Total Patients | #,### | #,### | #,### | #,### |
-| Total Revenue | #,### | #,### | #,### | #,### |
-| Total Expenses | #,### | #,### | #,### | #,### |
-| Net Profit | #,### | #,### | #,### | #,### |
+![](/uploads/budget-table-example.PNG)
 
-  
 Go ahead and calculate your Net Profit by subtracting expenses from total revenue by month, and take a step back to really observe your numbers. Which month earned you the most revenue? Which month did you see the most patients? Were these consistent with what you would have thought? Which month, if any, look a bit off or significantly different from the rest? These are all good questions to ask yourself while reviewing your historical figures so you can better understand, at a high level, how you performed.
 
-  
 Chances are, reviewing your practice performance at this 30,000 foot view will prompt even more questions - but that’s great! For example, you might notice that your expenses were much higher in July vs. June - but you can’t remember why. Or perhaps you saw a significant dip in Total Patient Visits from one month to the next. You can now use this as a starting point to determine where to ‘dig in’ next by examining your Financials or Practice Management Reports more closely for answers. Once you’ve had a chance to really observe and review your historical figures, you’re ready for the next step.
 
 **Step 2 - Prepare Your Plan**
@@ -61,9 +54,8 @@ It’s ok to update your budget with new information, don’t think of it as a f
 
 **Pro Tip**: Make sure to keep a copy of your original budget for future reference. That way, when you update/delete your projected figures with actuals, you can still refer back to the original budget and see, as a whole, how close (or far off) you were from your initial plan.
 
-  
 **Conclusion**
 
-Now you have everything you need to get your annual budget in place. And if you’re hoping to grow your practice in 2021, don’t forget, [DoctorLogic](https://doctorlogic.com/) can help! It’s not enough to plan for an increase in revenue with no plan in place to obtain it, so make sure you also plan to invest in the added resources (time, energy, marketing, etc.) to reach your new goal. 
+Now you have everything you need to get your annual budget in place. And if you’re hoping to grow your practice in 2021, don’t forget, [DoctorLogic](https://doctorlogic.com/) can help! It’s not enough to plan for an increase in revenue with no plan in place to obtain it, so make sure you also plan to invest in the added resources (time, energy, marketing, etc.) to reach your new goal.
 
 Of course, you can always call DoctorLogic as we’ve already helped thousands of doctors across the country attract more patients and grow their practices with our best-in-class marketing solutions. If you want to grow your practice, and don’t know where to start, give us a call. We’d certainly love to help.
