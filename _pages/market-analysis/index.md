@@ -11,27 +11,20 @@ custom_js: ''
 description: Test Meta Description
 meta_image: "/uploads/dl.png"
 page_sections:
-- template: feature
-  component: feature-1
-  component_css: feature
-  img_alignment: Right
-  headline: Feature Headline
-  text: Feature Text
+- template: text-component
+  component: text-component
+  component_css: text-component
+  text: |-
+    <pre><code>&lt;h1 class="title"&gt;Market Analysis Tools&lt;/h1&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="aacd.html"&gt;AACD&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="alma.html"&gt;Alma&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;</code></pre>
   class: ''
+  headline: []
+  img: []
   btn: []
-  wistia-link: []
-  img: ''
-  alt: ''
-- template: case-study-feature
-  component: case-studies-feature
-  component_css: case-studies-feature
-  headline: Case Study Headline
-  text: Case Study  Text
-  practices:
-  - name: Dr. Myers
-  btn: []
-  class: ''
-  per-row-count: ''
+  link: []
   wistia-link: []
 
 ---
