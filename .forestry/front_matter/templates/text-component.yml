@@ -131,3 +131,4 @@ fields:
   description: Button to load Wista video popover
 pages:
 - _pages/market-analysis/aacd/aacd.md
+- _pages/market-analysis/index.md
