@@ -4,7 +4,8 @@ title: Market Analysis
 alt-header: false
 tracking-number: ''
 permalink: market-analysis
-page_class: []
+page_class:
+- class: test-page-class
 gsap: false
 custom_js: ''
 description: Test Meta Description
