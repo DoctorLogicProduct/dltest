@@ -14,6 +14,13 @@ page_sections:
     background_image: ''
     link: ''
     action: ''
+- template: content-feature
+  block: feature-1
+  headline: Market Analysis
+  content: Hello, World.
+  media:
+    image: ''
+  media_alignment: ''
 published: false
 
 ---
