@@ -33,6 +33,5 @@ page_sections:
   class: ''
   per-row-count: ''
   wistia-link: []
-published: false
 
 ---
