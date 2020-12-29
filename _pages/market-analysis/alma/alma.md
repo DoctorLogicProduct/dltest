@@ -25,6 +25,5 @@ page_sections:
   media:
     image: ''
   media_alignment: ''
-published: false
 
 ---
