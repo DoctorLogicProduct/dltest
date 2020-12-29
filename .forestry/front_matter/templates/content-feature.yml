@@ -37,5 +37,3 @@ fields:
     - Right
   label: Media Alignment
   name: media_alignment
-pages:
-- _pages/market-analysis/index.md
