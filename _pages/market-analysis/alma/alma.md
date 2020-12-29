@@ -21,7 +21,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   headline: Content Feature Headline
-  content: Some Content
+  content: Some Content.  See it go.
   media:
     image: ''
   media_alignment: ''
