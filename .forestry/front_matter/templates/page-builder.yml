@@ -20,3 +20,5 @@ fields:
   - box-grid
   - content-feature
   - feature-cta
+pages:
+- landing-pages/market-analysis-tool.md
