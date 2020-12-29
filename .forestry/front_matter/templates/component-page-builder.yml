@@ -89,6 +89,7 @@ fields:
     max: 
   label: Page Sections
 pages:
+- _pages/market-analysis/index.md
 - landing-pages/6-reasons-why-google-ads-is-important-for-your-medical-practice.md
 - landing-pages/aaid-2019-oct-23-26th-1.md
 - landing-pages/aaid-2019-oct-23-26th.md
