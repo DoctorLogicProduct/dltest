@@ -129,5 +129,3 @@ fields:
     labelField: 
   label: Wistia Link
   description: Button to load Wista video popover
-pages:
-- _pages/market-analysis/aacd/index.md
