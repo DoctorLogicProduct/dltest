@@ -21,6 +21,17 @@ page_sections:
   wistia-link: []
   img: ''
   alt: ''
+- template: case-study-feature
+  component: case-studies-feature
+  component_css: case-studies-feature
+  headline: Case Study Headline
+  text: Case Study  Text
+  practices:
+  - name: Dr. Myers
+  btn: []
+  class: ''
+  per-row-count: ''
+  wistia-link: []
 published: false
 
 ---
