@@ -18,6 +18,13 @@ page_sections:
     link: link
     action: cta
     headline: headline
+- template: content-feature
+  block: feature-1
+  headline: Content Feature Headline
+  content: Some Content
+  media:
+    image: ''
+  media_alignment: ''
 published: false
 
 ---
