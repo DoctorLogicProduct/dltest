@@ -1,0 +1,23 @@
+---
+layout: blocks
+title: Alma
+date: 2020-12-28 06:00:00 +0000
+page_sections:
+- template: box-grid
+  block: box-grid
+  box:
+  - headline: headline-3
+    background_image: ''
+    link: linke-3
+    action: cta-3
+  - headline: headline-2
+    background_image: ''
+    link: link-2
+    action: cta-2
+  - background_image: ''
+    link: link
+    action: cta
+    headline: headline
+published: false
+
+---
