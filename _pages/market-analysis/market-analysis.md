@@ -9,7 +9,7 @@ headline: Page Headline
 text: Page Text
 form_src: forms/get-started.html
 form_height: ''
-img_src: ''
-img_alt: ''
+img_src: "/uploads/multiple-locations.jpg"
+img_alt: Market Analysis
 
 ---
