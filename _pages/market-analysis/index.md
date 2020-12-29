@@ -9,7 +9,7 @@ page_class:
 gsap: false
 custom_js: ''
 description: Test Meta Description
-meta_image: ''
+meta_image: "/uploads/dl.png"
 page_sections:
 - template: feature
   component: feature-1
