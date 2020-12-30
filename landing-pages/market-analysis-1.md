@@ -1,14 +1,14 @@
 ---
 layout: components
 title: Market Analysis
-alt-header: false
+alt-header: true
 tracking-number: ''
 permalink: marketanalysis
 page_class: []
 gsap: false
 custom_js: ''
 description: ''
-meta_image: ''
+meta_image: "/uploads/multiple-locations.jpg"
 page_sections:
 - template: text-component
   component: text-component
