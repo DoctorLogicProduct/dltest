@@ -8,7 +8,7 @@ page_class: []
 gsap: false
 custom_js: ''
 description: ''
-meta_image: "/uploads/multiple-locations.jpg"
+meta_image: ''
 page_sections:
 - template: text-component
   component: text-component
