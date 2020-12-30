@@ -4,7 +4,7 @@ hide_body: false
 fields:
 - name: html_block
   type: textarea
-  default: ''
+  default: "<pre><code></code></pre>"
   config:
     required: false
     wysiwyg: true
