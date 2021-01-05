@@ -31,7 +31,15 @@
 /* Fader Animation */
 
 .marketanalysis {
-    padding: 80px 60px;
+    
+    main {
+        padding: 80px 60px;
+        min-height: 80vh;
+    }
+
+    h1, h4 {
+        text-align: left;
+    }
 }
 
 .fader {
