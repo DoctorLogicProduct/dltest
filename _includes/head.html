@@ -32,6 +32,9 @@
 	{% if page.magnific == true -%}
 	<link rel="stylesheet" href="{{ '/css/vendor/magnific-popup.css'| prepend: site.baseurl }}">
 	{%- endif -%}
+	{% if page.marketanalysis == true -%}
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+	{%- endif -%}
 	{% for section in page.page_sections -%}
 	{% if section.component_css -%}
 	<link rel="stylesheet" href="{{ '/css/components/' | append: section.component_css | append: '.css' | prepend: site.baseurl }}">

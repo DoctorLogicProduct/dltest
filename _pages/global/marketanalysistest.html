@@ -1,0 +1,192 @@
+---
+layout: default
+page_name: marketanalysis
+title: Market Analysis
+marketanalysis: true
+description: "testing this description"
+meta_image: "/img/meta/dl.jpg"
+nofollow: true
+permalink: /marketanalysis
+page_class:
+- class: marketanalysis
+custom_js: aacd-services
+---
+
+<!-- <header>
+    <div class="logo--partner">
+        <img src="img/alma.png">
+    </div>
+    <div class="logo--dl">
+        <img src="img/dl.png" alt="DoctorLogic">
+    </div>
+</header> -->
+
+    <div>
+        <h1 class="doctor-name" id="business-name">
+        </h1>
+        <h4 class="doctor-address" id="business-address">
+        </h4>
+
+        <div class="select-boxes">
+            <div class="select-box">
+                <select name="" id="Services" onchange="serviceChange()">
+                </select>
+            </div>
+        </div>
+
+    </div>
+    <div id="input">
+        <div id="input" class="select-box">
+            <input id="pac-input" type="text" placeholder="Look Up Your Business Name Here">
+        </div>
+
+    </div>
+    <div id="output">
+        <div id="peek">
+            <input type="text" id="ZipCode" placeholder="ZIP Code" value="75093" />
+            <input type="number" id="Latitude" placeholder="Latutude" />
+            <input type="number" id="Longitude" placeholder="Longitude" />
+            <input type="number" id="PercentPopulation" placeholder="Percent Population" />
+            <input type="number" id="Prospects" placeholder="Prospects" />
+        </div>
+
+        <h2 class="service-radius"><span id="ServiceLabel"></span> Within <span id="Radius1" class="radius-variable"></span> Miles of <span id="ZipCode1"></span></h2>
+        <h4 class="service-info" id="ServiceDescription"></h4>
+
+        <div class="market-container">
+            <div class="demographic">
+                <ul class="demographic-column demographic-column--1">
+                    <li><span>Demographic</span></li>
+                    <li>Population</li>
+                    <li>Female</li>
+                    <li>Female (30-60)</li>
+                    <li>Male</li>
+                    <li>Male (30-60)</li>
+                    <li>White</li>
+                    <li>Black</li>
+                    <li>Asian</li>
+                    <li>Other</li>
+                    <li>Hispanic</li>
+                    <li>Non-Hispanic</li>
+                    <li>Avg Income</li>
+                    <li>Home Value</li>
+                </ul>
+
+                <ul class="demographic-column demographic-column--2">
+                    <li><span id="SingleColumn"></span></li>
+                    <li id="SinglePopulation"></li>
+                    <li id="SingleFemale"></li>
+                    <li id="SingleFemale3060"></li>
+                    <li id="SingleMale"></li>
+                    <li id="SingleMale3060"></li>
+                    <li id="SingleWhite"></li>
+                    <li id="SingleBlack"></li>
+                    <li id="SingleAsian"></li>
+                    <li id="SingleOther"></li>
+                    <li id="SingleHispanic"></li>
+                    <li id="SingleNonHispanic"></li>
+                    <li id="SingleIncome"></li>
+                    <li id="SingleHome"></li>
+                </ul>
+
+                <ul class="demographic-column demographic-column--3">
+                    <li><span id="AreaColumn" class="radius-variable"></span></li>
+                    <li class="radius-variable" id="AreaPopulation"></li>
+                    <li class="radius-variable" id="AreaFemale"></li>
+                    <li class="radius-variable" id="AreaFemale3060"></li>
+                    <li class="radius-variable" id="AreaMale"></li>
+                    <li class="radius-variable" id="AreaMale3060"></li>
+                    <li class="radius-variable" id="AreaWhite"></li>
+                    <li class="radius-variable" id="AreaBlack"></li>
+                    <li class="radius-variable" id="AreaAsian"></li>
+                    <li class="radius-variable" id="AreaOther"></li>
+                    <li class="radius-variable" id="AreaHispanic"></li>
+                    <li class="radius-variable" id="AreaNonHispanic"></li>
+                    <li class="radius-variable" id="AreaIncome"></li>
+                    <li class="radius-variable" id="AreaHome"></li>
+                </ul>
+
+            </div>
+
+            <div class="variables">
+                <h4>Market Variables</h4>
+                <div class="variables-slider">
+                    <h4><span id="RadiusLabel" class="radius-variable"></span> Mile Radius From Zip Code</h4>
+                    <input id="RadiusSlider" type="range" min="10" max="120" step="10" value="30" onchange="RadiusChange()">
+                    <div class="variables-slider__steps">
+                        <div class="variables-slider__step">10</div>
+                        <div class="variables-slider__step">60</div>
+                        <div class="variables-slider__step">120</div>
+                    </div>
+                </div>
+
+                <div class="variables-slider">
+                    <h4><span id="ConversionRateLabel">20</span>% Converted from Prospect to Patient</h4>
+                    <input id="ConversionRateSlider" type="range" min="0" max="100" step="10" value="20" onchange="conversionRateChange()">
+                    <div class="variables-slider__steps">
+                        <div class="variables-slider__step">0%</div>
+                        <div class="variables-slider__step">50%</div>
+                        <div class="variables-slider__step">100%</div>
+                    </div>
+                </div>
+
+                <div class="variables-slider">
+                    <h4>$<span id="ServicePriceLabel" class="service-variable"></span> Average Patient</h4>
+                    <input id="ServicePriceSlider" type="range" min="0" max="10000" step="5" value="1000" onchange="servicePriceChange()">
+                    <div class="variables-slider__steps">
+                        <div class="variables-slider__step service-variable" id="ServicePriceMin">$0</div>
+                        <div class="variables-slider__step service-variable" id="ServicePriceAvg">$3.6K</div>
+                        <div class="variables-slider__step service-variable" id="ServicePriceMax">$7.2K</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="values">
+                <div class="value">
+                    <div class="value__title">Annual Prospects</div>
+                    <div class="value__text radius-variable service-variable left-variable" id="AnnualProspects"></div>
+                </div>
+                <div class="value">
+                    <div class="value__title">Annual Patients</div>
+                    <div class="value__text radius-variable service-variable conversion-variable  left-variable" id="AnnualPatients"></div>
+                </div>
+                <div class="value">
+                    <div class="value__title">Annual Potential</div>
+                    <div class="value__text radius-variable service-variable conversion-variable  left-variable" id="AnnualPotential"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="drivetime-container">
+            <div class="drivetime-item">
+                <div class="drivetime-item__title">
+                    15 Minute Drive Time
+                </div>
+                <div class="drivetime-item__map" id="map1">
+                    map goes here
+                </div>
+            </div>
+
+            <div class="drivetime-item">
+                <div class="drivetime-item__title">
+                    30 Minute Drive Time
+                </div>
+                <div class="drivetime-item__map" id="map2">
+                    map goes here
+                </div>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <p>Estimate created by DoctorLogic LLC for Alma Lasers. Copyright 2020. All Rights Reserved. Confidential & Proprietary Information for Medical Practices Only. Patent Pending. This analysis report is based on public & proprietary data estimates & market trends and does NOT constitute any guarantee of actual performance or results for any Medical Practice.</p>
+        </div>
+    </div>
+
+<div id="md-modal" class="md-modal md-effect-12">
+    <div class="md-content">
+    </div>
+</div>
+
+<div id="md-overlay" class="md-overlay"></div>
+<script defer type="text/javascript" src="queries.js"></script>

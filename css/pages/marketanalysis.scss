@@ -1,6 +1,6 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
 :root {
     --black: #000000;
@@ -11,24 +11,28 @@
     --font: Montserrat, sans-serif;
   }
 
-body {
-    margin: 0;
-    font-family:var(--font);
-}
+// body {
+//     margin: 0;
+//     font-family:var(--font);
+// }
 
-header {
-    background: var(--blue);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
+// header {
+//     background: var(--blue);
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 20px;
+// }
 
-main {
-    padding: 40px;
-}
+// main {
+//     padding: 40px;
+// }
 
 /* Fader Animation */
+
+.marketanalysis {
+    padding: 80px 60px;
+}
 
 .fader {
     position: relative;
